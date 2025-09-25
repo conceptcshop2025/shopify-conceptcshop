@@ -1,0 +1,155 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "*Livraison gratuite pour toute commande de 59 $ & plus.  Expédition rapide & carboneutre"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 5,
+        "desktop_font_size": 10,
+        "mobile_font_size": 10,
+        "background": "#e4c0ae",
+        "text_color": "#030303"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "show_separation_border": false,
+        "reduce_padding": false,
+        "logo": "shopify://shop_images/conceptc-logo-hor-gris-1000px.png",
+        "logo_max_width": 300,
+        "logo_mobile_max_width": 200,
+        "menu": "nouveau-menu-mobile",
+        "sidebar_menu": "nouveau-menu-mobile",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_center_navigation_below",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#ffffff"
+      }
+    },
+    "70f191aa-abe5-41a5-ba60-d55e717e8e34": {
+      "type": "logo-list",
+      "blocks": {
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Biolage-Logo-2022-330x36-centered.png",
+            "logo_width": 120,
+            "link": "shopify://collections/biolage"
+          }
+        },
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Kerastase-Logo.png",
+            "logo_width": 120,
+            "link": "shopify://collections/kerastase"
+          }
+        },
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/lp_logo.png",
+            "logo_width": 120,
+            "link": "shopify://collections/living-proof"
+          }
+        },
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/matrix-rebrand-header.jpg",
+            "logo_width": 120,
+            "link": "shopify://collections/matrix"
+          }
+        },
+        "7058fe93-9e4e-4302-8e8d-1699981621ce": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/pureology.png",
+            "logo_width": 120,
+            "link": "shopify://collections/pureology"
+          }
+        },
+        "bd7bc277-432c-4dc6-8815-6adefaf6f6a1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Redken-Logo-2019-Black.png",
+            "logo_width": 120,
+            "link": "shopify://collections/redken"
+          }
+        },
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/New_Project_3_1440x_f761e26c-827b-45a2-aee2-507d919a3751.png",
+            "logo_width": 120,
+            "link": "shopify://collections/verb"
+          }
+        }
+      },
+      "block_order": [
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-1",
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-2",
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-3",
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-4",
+        "7058fe93-9e4e-4302-8e8d-1699981621ce",
+        "bd7bc277-432c-4dc6-8815-6adefaf6f6a1",
+        "sections--16125522968727__70f191aa-abe5-41a5-ba60-d55e717e8e34-logo-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "MARQUES",
+        "items_per_row": 7,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "171337816813ecb67b": {
+      "type": "apps",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "70f191aa-abe5-41a5-ba60-d55e717e8e34",
+    "171337816813ecb67b"
+  ]
+}

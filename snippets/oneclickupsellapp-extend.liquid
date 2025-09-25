@@ -1,0 +1,8 @@
+{% comment %}
+{% assign api = shop.metafields.zipifyoneclickupsell | size %}{%- unless api == 0 -%}
+<script>((o,c,u)=>{o[c]=o[c]||{},o[u]=o[u]||{},o[c].OCU=o[c].OCU||{api:o[u]}})(window,'Zipify','OCUApi');</script>
+{%- if template.name == 'cart' -%}
+<script>Zipify.OCU.api.customCheckoutButton = '[action="/cart"] .tdf_btn_ck';</script>
+{%- endif -%}
+{%- endunless -%}
+{% endcomment %}

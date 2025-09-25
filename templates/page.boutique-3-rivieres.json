@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "50ea1510-7231-457c-8e4d-1a8d746979bc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "<em><strong>Votre Destination Beauté à Trois-Rivières</strong></em>"
+          }
+        },
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<em><strong>Notre Mission chez Concept C.  Trois-Rivières</strong></em>",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Plongez dans l'univers de Concept C Shop à Trois-Rivières, où beauté et qualité se rencontrent. Notre boutique située au 3784 Boul des Forges est dédiée à tous ceux qui cherchent à sublimer leur apparence avec les meilleurs produits de soins pour les cheveux et le corps.</p><p><strong>Nos Produits et Services</strong></p><ul><li><strong>Soins Capillaires de Qualité :</strong> Découvrez notre sélection de shampoings, après-shampoings, masques et traitements spécifiques pour tous types de cheveux. Nous offrons des produits de marques reconnues pour leur efficacité et leur respect de la santé capillaire.</li><li><strong>Produits de Soins Corporels :</strong> Notre gamme de soins corporels comprend des hydratants, gommages, et autres produits essentiels pour prendre soin de votre peau au quotidien.</li><li><strong>Outils de Coiffure Professionnels :</strong> Que vous soyez un professionnel ou un particulier, nous avons les outils qu'il vous faut. Sèche-cheveux, fers à lisser, boucleurs – tous conçus pour offrir des résultats de qualité salon.</li><li><strong>Conseils d'Experts :</strong> Notre équipe, passionnée et expérimentée, est à votre disposition pour vous conseiller et vous aider à choisir les produits les mieux adaptés à vos besoins et à votre type de cheveux.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-subheading-1",
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-heading-1",
+        "template--16372745339031__50ea1510-7231-457c-8e4d-1a8d746979bc-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "89f5ccdd-90d8-4cbb-9607-3cec162a71cf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "BOUTIQUETROIS-RIVIÈRES",
+            "heading_tag": "h2"
+          }
+        },
+        "8fa2e635-bfcf-4012-a9ce-635861da4af7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Notre Mission chez Concept C Shop - Trois-Rivières</strong></p><p><strong>Simplifier votre Quête de Beauté</strong></p><p>Nous chez Concept C Shop Trois-Rivières sommes animés par une mission simple et claire : faciliter votre vie en tant que client. Nous nous engageons à être votre partenaire privilégié dans la quête des meilleurs produits coiffants et des conseils sur mesure pour vos besoins uniques. Notre boutique est conçue pour être un sanctuaire où vous pouvez facilement trouver tout ce dont vous avez besoin pour vos cheveux et votre corps, le tout en un seul et même lieu.</p><p><strong>Pourquoi nous choisir ?</strong></p><ul><li><strong>Sélection Méticuleuse :</strong> Nous sélectionnons rigoureusement les meilleurs produits coiffants disponibles, afin que vous puissiez avoir confiance en la qualité et l'efficacité de chaque achat.</li><li><strong>Conseils Personnalisés :</strong> Nos experts sont toujours disponibles pour vous offrir des conseils adaptés, vous aidant à naviguer parmi nos produits pour trouver ceux qui correspondent parfaitement à vos ambitions de soin et de style.</li><li><strong>Expérience d'Achat Unique :</strong> Chez Concept C Shop, nous ne nous contentons pas de vendre des produits ; nous offrons une expérience complète qui enrichit votre routine de beauté.</li></ul><p>Venez nous rendre visite au 3784 Boul des Forges et laissez-nous vous accompagner dans votre voyage vers la découverte des produits qui vous mettront en valeur, jour après jour.</p><p><strong>Votre beauté, notre passion. Votre satisfaction, notre mission.</strong></p>"
+          }
+        },
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>3784 Boul. Des Forges<br/>Trois-Rivières, Qc<br/>G8Y 4R2<br/><br/><strong>Heures d'ouvertures</strong><br/>Lundi: 9:30 - 17:30<br/>Mardi: 9:30 - 17:30<br/>Mercredi: 9:30 - 17:30<br/>Jeudi: 9:30 - 19:00<br/>Vendredi: 9:30 - 19:00<br/>Samedi: 9:00 - 17:00<br/>Dimanche: 11:00 - 16:00</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-subheading-1",
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-heading-1",
+        "8fa2e635-bfcf-4012-a9ce-635861da4af7",
+        "template--16369710530711__89f5ccdd-90d8-4cbb-9607-3cec162a71cf-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/boutique-3-r.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_npJE89": {
+      "type": "rich-text",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_zxUP7p": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_QzK8qT": {
+          "type": "heading",
+          "settings": {
+            "text": "BOUTIQUE CONCEPT C. TROIS-RIVIÈRES",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_yHczYQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Notre Mission - Faciliter la vie de nos clients dans leurs ambitions de toujours trouver les meilleurs produits coiffants et conseils adaptés à leurs besoins au même endroit"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QzK8qT",
+        "subheading_yHczYQ"
+      ],
+      "settings": {
+        "image_size": "xs",
+        "image": "shopify://shop_images/Design_sans_titre_43_84db9b2b-2846-4d30-9546-e02c34caa10a.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#454545",
+        "overlay_color": "#e4c0ae",
+        "overlay_opacity": 90
+      }
+    },
+    "image_with_text_DQbBQY": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_n4VN4e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://www.google.com/maps/place/3784+Bd+des+Forges,+Trois-Rivi%C3%A8res,+QC+G8Y+4R2/@46.3544368,-72.5850656,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc7c8dab1726223:0x7ea9f03cab07dcab!8m2!3d46.3544331!4d-72.5824907!16s%2Fg%2F11fp0lm51h?entry=ttu\" title=\"https://www.google.com/maps/place/3784+Bd+des+Forges,+Trois-Rivi%C3%A8res,+QC+G8Y+4R2/@46.3544368,-72.5850656,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc7c8dab1726223:0x7ea9f03cab07dcab!8m2!3d46.3544331!4d-72.5824907!16s%2Fg%2F11fp0lm51h?entry=ttu\">3784 Boul. Des Forges</a><br/>Trois-Rivières, Qc<br/>G8Y 4R2<br/><a href=\"tel:(819) 693-1210\" title=\"tel:(819) 693-1210\">(819) 693-1210</a></p>"
+          }
+        },
+        "liquid_tpNmGb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11015.014675920105!2d-72.5824907!3d46.3544331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7c9641e7cf339%3A0x9cd09d76c0205434!2sConcept%20C.%20La%20R%C3%A9f%C3%A9rence%20en%20Produits%20de%20Coiffure!5e0!3m2!1sfr!2sca!4v1711052675388!5m2!1sfr!2sca\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+          }
+        },
+        "button_e9DdiE": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Pour nous trouver",
+            "url": "https://maps.app.goo.gl/dydTejU9qFbE3ZTm6",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_RcAjGT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Heures d'ouvertures</strong><br/>Lundi: 9:30 - 17:30<br/>Mardi: 9:30 - 17:30<br/>Mercredi: 9:30 - 17:30<br/>Jeudi: 9:30 - 19:00<br/>Vendredi: 9:30 -19:00<br/>Samedi: 9:30 - 17:00<br/>Dimanche: 11:00 - 16:00</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_n4VN4e",
+        "liquid_tpNmGb",
+        "button_e9DdiE",
+        "richtext_RcAjGT"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Design_sans_titre_44_ed44e54d-3dc4-43f3-9cad-027cab609275.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_qHgyk9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pyHDai": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos produits et services",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pyHDai"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_tEkTFL": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_TnJMkA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_51_a743d808-e7a1-47fe-8da6-ccc8b6e0d993.png",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Soins capilaires de qualité",
+            "content": "<p>Découvrez notre sélection de shampoings, après-shampoings, masques et traitements spécifiques pour tous types de cheveux. Nous offrons des produits de marques reconnues pour leur efficacité et leur respect de la santé capillaire.</p>"
+          }
+        },
+        "item_cGwFcV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_52_39b94011-0f77-4ee1-a70a-c40d537fe7f5.png",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Produits de soins corporels",
+            "content": "<p>Notre gamme de soins corporels comprend des hydratants, gommages, et autres produits essentiels pour prendre soin de votre peau au quotidien.</p>"
+          }
+        },
+        "item_gTzVqi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify://shop_images/Design_sans_titre_50_4142dc55-e09f-4e0a-b12d-d8d4e651a6c1.png",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Outils de coiffure Professionnels",
+            "content": "<p>Que vous soyez un professionnel ou un particulier, nous avons les outils qu'il vous faut. Sèche-cheveux, fers à lisser, boucleurs – tous conçus pour offrir des résultats de qualité salon.</p>"
+          }
+        },
+        "item_99fzTq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-info",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Conseils d'experts en magasin",
+            "content": "<p>Notre équipe, passionnée et expérimentée, est à votre disposition pour vous conseiller et vous aider à choisir les produits les mieux adaptés à vos besoins et à votre type de cheveux.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_TnJMkA",
+        "item_cGwFcV",
+        "item_gTzVqi",
+        "item_99fzTq"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "#454545",
+        "text_alignment": "center"
+      }
+    },
+    "media_grid_HdAgTb": {
+      "type": "media-grid",
+      "blocks": {
+        "image_JQdKaB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165734.048.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_t9RmiU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Succursale_TR_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JQdKaB",
+        "image_t9RmiU"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "50ea1510-7231-457c-8e4d-1a8d746979bc",
+    "89f5ccdd-90d8-4cbb-9607-3cec162a71cf",
+    "rich_text_npJE89",
+    "image_with_text_overlay_zxUP7p",
+    "image_with_text_DQbBQY",
+    "rich_text_qHgyk9",
+    "text_with_icons_tEkTFL",
+    "media_grid_HdAgTb"
+  ]
+}
