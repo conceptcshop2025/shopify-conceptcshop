@@ -11,6 +11,6 @@
     "author": "Juan Felipe Cancino",
     "license": "ISC",
     "devDependencies": {
-        "@shopify/theme": "^1.0.0"
+        "@shopify/theme": "^3.85.0"
     }
 }
