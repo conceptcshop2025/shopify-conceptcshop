@@ -40,7 +40,7 @@
     "show_product_rating": true,
     "show_quick_buy": true,
     "show_discount": true,
-    "cart_type": "page",
+    "cart_type": "drawer",
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "59",
     "social_facebook": "https://www.facebook.com/conceptcshop/",
