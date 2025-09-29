@@ -1,0 +1,38 @@
+<div class="banner-wrapper full-width" id="banner-pub-{{ banner_id }}-image" style="grid-column-start: 1; grid-column-end: -1;">
+
+  {% if banner_link %}
+    <a href="{{ banner_link }}" {% if open_in_new_tab %} target="_blank" rel="noopener" {% endif %}>
+  {% endif %}
+
+    {% comment %}
+<img 
+  id="banner-pub-{{ banner_id }}-link"
+  src="{{ desktop_image | image_url }}" 
+  srcset="{{ mobile_image | image_url }} 768w, {{ desktop_image | image_url }} 1024w" 
+  sizes="(max-width: 768px) 768px, 1024px" 
+  alt="{{ alt_text }}" 
+  width="" 
+  height=""
+/>
+{% endcomment %}
+
+<picture>
+                {%- if mobile_image != blank -%}
+                  <source
+                      media="(max-width: 699px)"
+                      srcset="{{ mobile_image | image_url: width: '400x' }} 400w, {{ mobile_image | image_url: width: '600x' }} 600w, {{ mobile_image | image_url: width: '800x' }} 800w, {{ mobile_image | image_url: width: '1000x' }} 1000w"
+                      width=""
+                      height=""
+                      alt="{{ alt_text }}" 
+                  >
+                {%- endif -%}
+  
+              {{ desktop_image | image_url: width: '2000x' | image_tag: loading: 'lazy', fetchpriority: 'low', sizes: '100vw', widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' }}
+                
+              </picture>
+
+      
+  {% if banner_link %}
+    </a>
+  {% endif %}
+</div>
