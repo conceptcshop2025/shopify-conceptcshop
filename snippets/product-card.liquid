@@ -87,7 +87,8 @@ Supported variables
             endif
           endif
         -%}
-        {% render 'custom-card-swym-wishlist-button' with product %}
+        
+        {% render 'custom-card-swym-wishlist-button', product: product %}
       </a>
 
       {%- if show_quick_buy and product.available -%}
