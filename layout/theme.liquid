@@ -2,6 +2,7 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    {% render 'custom-pandectes-rules' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
 
@@ -38,6 +39,8 @@
       <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
 
+    {% render 'custom-module-shims' %}
+
     <script type="importmap">
       {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
       {
@@ -55,6 +58,11 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{- 'custom-swym-wishlist.css' | asset_url | stylesheet_tag -}}
+
+    {% render 'custom-meta-script' %}
+
   </head>
 
   {% liquid
@@ -99,5 +107,6 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+    {% render 'custom-oneclickupsellapp' %}
   </body>
 </html>

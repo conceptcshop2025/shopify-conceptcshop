@@ -226,6 +226,8 @@
           {%- endif -%}
         {%- endfor -%}
 
+        {% render 'custom-header-swym-wishlist-button' %}
+
         {%- if shop.customer_accounts_enabled -%}
           <li class="header__account-link sm-max:hidden">
             <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}">
