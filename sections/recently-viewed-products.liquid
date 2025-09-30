@@ -33,7 +33,7 @@
               {%- assign product = search.results | where: 'id', id | first -%}
 
               {%- if product != blank -%}
-                {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, position: forloop.index, hide_product_information: section.settings.hide_product_information -%}
+                {%- render 'custom-product-card', product: product, reveal: settings.stagger_products_apparition, position: forloop.index, hide_product_information: section.settings.hide_product_information -%}
               {%- endif -%}
             {%- endfor -%}
           {%- endcapture -%}

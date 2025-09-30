@@ -71,7 +71,7 @@
                             {%- capture product_id -%}product_{{ product_index }}{%- endcapture -%}
                             {%- capture quick_buy_context -%}mobile-{{ block.id }}{%- endcapture -%}
 
-                            {%- render 'product-card', product: block.settings[product_id], show_vendor: settings.show_vendor, show_rating: settings.show_rating, quick_buy_context: quick_buy_context -%}
+                            {%- render 'custom-product-card', product: block.settings[product_id], show_vendor: settings.show_vendor, show_rating: settings.show_rating, quick_buy_context: quick_buy_context -%}
                           {%- else -%}
                             {%- render 'product-card-placeholder', loop_index: forloop.index0, show_vendor: settings.show_vendor, show_rating: settings.show_rating -%}
                           {%- endunless -%}
@@ -88,7 +88,7 @@
                             {%- capture product_id -%}product_{{ product_index }}{%- endcapture -%}
                             {%- capture quick_buy_context -%}desktop-{{ block.id }}{%- endcapture -%}
 
-                            {%- render 'product-card', product: block.settings[product_id], show_vendor: settings.show_vendor, show_rating: settings.show_rating, quick_buy_context: quick_buy_context -%}
+                            {%- render 'custom-product-card', product: block.settings[product_id], show_vendor: settings.show_vendor, show_rating: settings.show_rating, quick_buy_context: quick_buy_context -%}
                           {%- else -%}
                             {%- render 'product-card-placeholder', loop_index: forloop.index0, show_vendor: settings.show_vendor, show_rating: settings.show_rating -%}
                           {%- endunless -%}

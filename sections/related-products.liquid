@@ -23,7 +23,7 @@
 
           {%- capture product_list -%}
             {%- for product in recommendations.products -%}
-              {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, position: forloop.index, hide_product_information: section.settings.hide_product_information -%}
+              {%- render 'custom-product-card', product: product, reveal: settings.stagger_products_apparition, position: forloop.index, hide_product_information: section.settings.hide_product_information -%}
             {%- endfor -%}
           {%- endcapture -%}
 

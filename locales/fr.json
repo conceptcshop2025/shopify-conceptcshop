@@ -503,6 +503,9 @@
         "other": "{{ count }} produits"
       },
       "product_subtotal": "Sous-total des produits"
+    },
+    "custom_quick_add_button": {
+      "label_button": "Ajouter"
     }
   }
 }

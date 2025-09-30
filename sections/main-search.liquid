@@ -169,7 +169,7 @@
 
                             <product-list id="product-list-{{ section.id }}" class="product-list">
                               {%- for product in product_results -%}
-                                {%- render 'product-card', product: product, stacked: true, reveal: settings.stagger_products_apparition, position: forloop.index -%}
+                                {%- render 'custom-product-card', product: product, stacked: true, reveal: settings.stagger_products_apparition, position: forloop.index -%}
                               {%- endfor -%}
                             </product-list>
 

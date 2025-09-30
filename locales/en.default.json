@@ -499,6 +499,9 @@
         "other": "{{ count }} items"
       },
       "product_subtotal": "Product subtotal"
+    },
+    "custom_quick_add_button": {
+      "label_button": "Add"
     }
   }
 }
