@@ -645,6 +645,10 @@
           {
             "value": "saving",
             "label": "t:theme_settings.product_card.show_discount_as_options.saving"
+          },
+          {
+            "value": "text",
+            "label": "t:theme_settings.product_card.show_discount_as_options.text"
           }
         ],
         "default": "saving"

@@ -417,7 +417,8 @@
       "show_discount_as": "Show discount as...",
       "show_discount_as_options": {
         "percentage": "Percentage",
-        "saving": "Saving"
+        "saving": "Saving",
+        "text": "Only text"
       }
     },
     "cart": {

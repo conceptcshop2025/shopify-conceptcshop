@@ -417,7 +417,8 @@
       "show_discount_as": "Afficher la remise en...",
       "show_discount_as_options": {
         "percentage": "Pourcentage",
-        "saving": "Montant"
+        "saving": "Montant",
+        "text": "Texte seul"
       }
     },
     "cart": {
