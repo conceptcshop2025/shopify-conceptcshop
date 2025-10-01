@@ -119,7 +119,7 @@
             "collection": "soldes",
             "products_count": 8,
             "title": "",
-            "link_url": "",
+            "link_url": "shopify://collections/soldes",
             "link_text": "Voir tout"
           }
         }
