@@ -65,39 +65,11 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_VmNd8d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Lancement_Glow_Catcher_et_Hydrate.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Lancement_Glow_Catcher_750_x_600_px_24b81ac3-3534-4ffc-a423-c32a8eebb6ad.webp",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/promo-du-moment-pureology",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "shopify://products/pureology-huile-hydrate-50-ml-stt-juillet-2025",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
         "image_7iRdMt",
-        "image_K4iEwq",
-        "image_VmNd8d"
+        "image_K4iEwq"
       ],
       "settings": {
         "allow_transparent_header": false,
