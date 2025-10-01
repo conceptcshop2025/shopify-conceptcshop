@@ -19,6 +19,8 @@ Supported parameters
 * position: the position of the card in the list. If specified, the theme will eagerly load the first 3 cards images
 {%- endcomment -%}
 
+{{ 'custom-blog-post-card.css' | asset_url | stylesheet_tag }}
+
 <div class="blog-post-card group snap-center">
   {%- if article -%}
     {%- if article.image != blank -%}

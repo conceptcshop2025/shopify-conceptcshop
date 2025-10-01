@@ -1,0 +1,8 @@
+@media (min-width: 700px) {
+    .blog-post-card .blog-post-card__image {
+        min-height: 248px;
+        object-fit: cover;
+        aspect-ratio: 1;
+        object-position: center;
+    }
+}
