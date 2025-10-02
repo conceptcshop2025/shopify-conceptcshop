@@ -93,6 +93,8 @@ Supported variables
   <badge-list class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
     {% if collection_origin == 'nouveautes' %}
       <span class="badge badge-new">{{- collection_origin | upcase -}}</span>
+    {% elsif collection_origin == 'soldes' %}
+      <span class="badge badge-sale">{{- collection_origin | upcase -}}</span>
     {% endif %}
     {{- badges -}}
   </badge-list>
