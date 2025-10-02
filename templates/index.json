@@ -12,6 +12,60 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_7iRdMt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Principal_Promo_Outils_OCT_2025.webp",
+            "mobile_image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/coffre-a-outils-1",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/coffre-a-outils-1",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_EtBh9L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Principal_20_off_2_au_8_oct_2025_1560_x_500_px_2.webp",
+            "mobile_image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/moroccanoil",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/moroccanoil",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_K4iEwq": {
           "type": "image",
           "settings": {
@@ -38,66 +92,12 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_7iRdMt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Pricipal_Perte_de_Cheveux_Aout_2025.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Perte_de_Cheveux_Aout_2025.webp",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/promo-perte-de-cheveux",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_VmNd8d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Lancement_Glow_Catcher_et_Hydrate.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Lancement_Glow_Catcher_750_x_600_px_24b81ac3-3534-4ffc-a423-c32a8eebb6ad.webp",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/promo-du-moment-pureology",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "shopify://products/pureology-huile-hydrate-50-ml-stt-juillet-2025",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
-        "image_K4iEwq",
         "image_7iRdMt",
-        "image_VmNd8d"
+        "image_EtBh9L",
+        "image_K4iEwq"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -147,7 +147,7 @@
             "collection": "soldes",
             "products_count": 8,
             "title": "",
-            "link_url": "",
+            "link_url": "shopify://collections/soldes",
             "link_text": "Voir tout"
           }
         }
@@ -279,7 +279,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
-        "subheading": "Nouveauté!",
+        "subheading": "",
         "title": "Ton essentiel pour la perte de cheveux!",
         "content": ""
       }
