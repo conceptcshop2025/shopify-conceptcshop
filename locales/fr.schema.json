@@ -1370,6 +1370,15 @@
         "multi_column": {
           "name": "Multi-column"
         }
+      },
+      "settings": {
+        "grid": {
+          "header_content": "Section de grille",
+          "padding_top": "Marge intérieure supérieure",
+          "padding_bottom": "Marge intérieure inférieure",
+          "full_width": "Utiliser la section en pleine largeur",
+          "column_gap": "Espacement des colonnes",
+        }
       }
     },
     "multiple_media_with_text": {

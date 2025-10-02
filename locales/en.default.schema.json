@@ -1370,6 +1370,15 @@
         "multi_column": {
           "name": "Multi-column"
         }
+      },
+      "settings": {
+        "grid": {
+          "header_content": "Grid section",
+          "padding_top": "Padding top",
+          "padding_bottom": "Padding bottom",
+          "full_width": "Use section in full width",
+          "column_gap": "Column gap",
+        }
       }
     },
     "multiple_media_with_text": {
