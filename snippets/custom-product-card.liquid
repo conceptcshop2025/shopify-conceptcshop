@@ -59,6 +59,10 @@ Supported variables
     .product-card:hover .quick_button_add_to_card {
       transform: translateY(0);
     }
+
+    .back_in_stock_button {
+      margin-top: .75rem;
+    }
   {% endstyle %}
 {% endunless %}
 
@@ -198,6 +202,12 @@ Supported variables
       {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
 
-    {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+    {% if product.available %}
+      {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+    {% else %}
+      <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
+        {{ 'collection.general.product_card_out_of_stock' | t }}
+      </a>
+    {% endif %}
   </div>
 </product-card>

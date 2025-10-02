@@ -96,3 +96,42 @@ li.brand-group-list-item .h3 {
     gap: 15px;
     font-weight: 600;
 }
+
+@media(max-width:768px){
+  .brand-group-title-container {
+    width: 100%;
+  }
+  button.swym-button.wishlist_custom{
+    top:30px;
+  }
+  .swym-add-to-wishlist-view-product:after{
+    font-size:20px;
+  }
+  .brand-group-list .brand-group-list-item {
+    width: 46%;
+  }
+  .brand-group-list-container {
+    width: 100%;
+  }
+  .brand-nav-container{
+    flex-direction: column;
+  }
+  .brand-group-list{
+    margin: 0!important;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .brand-nav {
+    align-items: center;
+    justify-content: center;
+  }
+  .brand-nav-search-text{
+    margin-bottom:20px!important;
+  }
+  .header__secondary-nav .swym-wishlist{
+    order:2;
+  }
+   .header__secondary-nav a.relative.tdf_cart_icon{
+    order:3;
+  }
+}
