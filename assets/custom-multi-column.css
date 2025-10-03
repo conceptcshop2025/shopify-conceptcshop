@@ -1,0 +1,3 @@
+.multi-column .multi-column__item:hover img {
+  scale: initial !important;
+}
