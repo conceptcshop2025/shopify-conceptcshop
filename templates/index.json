@@ -44,18 +44,30 @@
             "link_url": "shopify://collections/traite-ta-couette-cadeau",
             "link_text": ""
           }
+        },
+        "image_with_text_rzbk3b": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
         "image_with_text_8jiqTB",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_rzbk3b"
       ],
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
-        "columns_per_row": 3,
+        "columns_per_row": 4,
         "stack_on_mobile": false,
         "overlap_image": false,
         "content_alignment": "center",
