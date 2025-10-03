@@ -53,7 +53,8 @@ Supported variables
       position: relative;
       transform: translateY(0);
       padding: 0.625rem 1.75rem;
-      margin-top: .75rem;
+      display: block;
+      width: 100%;
     }
 
     .product-card:hover .quick_button_add_to_card {
@@ -62,6 +63,15 @@ Supported variables
 
     .back_in_stock_button {
       margin-top: .75rem;
+    }
+
+    .product-card {
+      border: 2px solid #EFEFEF;
+      border-bottom: 0;
+    }
+
+    .product-card product-form {
+      width: 100%;
     }
   {% endstyle %}
 {% endunless %}
