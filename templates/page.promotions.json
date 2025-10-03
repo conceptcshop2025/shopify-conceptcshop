@@ -275,6 +275,7 @@
         "richtext_iqpqkR",
         "button_XjaqnJ"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -325,6 +326,7 @@
         "richtext_fpe7T9",
         "button_8EPVNJ"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -375,6 +377,7 @@
         "richtext_a6rEyY",
         "button_FtCw4R"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -385,6 +388,96 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "featured_collections_hxP6Uz": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_dqbB6n": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffre-a-outils-1",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_dqbB6n"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
+    },
+    "featured_collections_in4kCB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BzbwRn": {
+          "type": "collection",
+          "settings": {
+            "collection": "moroccanoil",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BzbwRn"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
+    },
+    "featured_collections_nUUEP7": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ddtrnJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "traite-ta-couette-cadeau",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ddtrnJ"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
     }
   },
   "order": [
@@ -394,6 +487,9 @@
     "featured_collections_Y98Xdy",
     "image_with_text_rARA4N",
     "image_with_text_txL776",
-    "image_with_text_3URLck"
+    "image_with_text_3URLck",
+    "featured_collections_hxP6Uz",
+    "featured_collections_in4kCB",
+    "featured_collections_nUUEP7"
   ]
 }
