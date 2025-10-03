@@ -1,0 +1,5 @@
+@media (min-width: 1280px) {
+    .featured-collections-carousel .product-list {
+        --product-list-max-items-per-row-allowed: 4;
+    }
+}
