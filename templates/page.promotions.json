@@ -60,6 +60,7 @@
         "image_with_text_hmPjFg",
         "image_with_text_DeQNGz"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -221,6 +222,7 @@
         "collection_fdViay",
         "collection_NTqx4n"
       ],
+      "disabled": true,
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -233,12 +235,165 @@
         "vertical_spacing_factor": 0.2,
         "subheading": ""
       }
+    },
+    "image_with_text_rARA4N": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XU3FmE": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_3cYGqT": {
+          "type": "heading",
+          "settings": {
+            "text": "Promo outils",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_iqpqkR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_XjaqnJ": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Regarder la promo",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XU3FmE",
+        "heading_3cYGqT",
+        "richtext_iqpqkR",
+        "button_XjaqnJ"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_txL776": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XGnnee": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_mKNtMD": {
+          "type": "heading",
+          "settings": {
+            "text": "Promo moroccanoil",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_fpe7T9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_8EPVNJ": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Voir moroccoanoil",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XGnnee",
+        "heading_mKNtMD",
+        "richtext_fpe7T9",
+        "button_8EPVNJ"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_3URLck": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_GMUCrQ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_YfFN6X": {
+          "type": "heading",
+          "settings": {
+            "text": "Promo masques capillaires",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_a6rEyY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_FtCw4R": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Voir la promo",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GMUCrQ",
+        "heading_YfFN6X",
+        "richtext_a6rEyY",
+        "button_FtCw4R"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
     "custom_multi_column_LepKpn",
     "slideshow_GPbrwV",
-    "featured_collections_Y98Xdy"
+    "featured_collections_Y98Xdy",
+    "image_with_text_rARA4N",
+    "image_with_text_txL776",
+    "image_with_text_3URLck"
   ]
 }
