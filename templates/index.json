@@ -9,6 +9,66 @@
  */
 {
   "sections": {
+    "custom_multi_column_BHzrQP": {
+      "type": "custom-multi-column",
+      "blocks": {
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": ""
+          }
+        },
+        "image_with_text_8jiqTB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/moroccanoil",
+            "link_text": ""
+          }
+        },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/traite-ta-couette-cadeau",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_3LUanK",
+        "image_with_text_8jiqTB",
+        "image_with_text_QxKH3t"
+      ],
+      "name": "# Multi-column",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "full_width": true,
+        "column_gap": 4
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -99,6 +159,7 @@
         "image_EtBh9L",
         "image_K4iEwq"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -852,6 +913,7 @@
     }
   },
   "order": [
+    "custom_multi_column_BHzrQP",
     "slideshow",
     "featured_collections_j4txfR",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
