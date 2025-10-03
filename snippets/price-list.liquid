@@ -14,7 +14,6 @@ Supported variables
 * line_item: if provided, then the price from this line item are rendered (used on cart or order)
 * hide_unit_price: if set to true unit prices are hidden (mostly useful for size constrained elements)
 * context: can be "product", "line_item" or "card". This controls how the prices are displayed (using the correct sizes)
-* form_id: if specified, the prices are updated dynamically based on the form update
 {%- endcomment -%}
 
 {%- liquid
@@ -39,14 +38,14 @@ Supported variables
   endcase
 -%}
 
-<price-list {% if form_id %}role="region" aria-live="polite"{% endif %} class="price-list {% if context == 'product' %}price-list--product{% endif %}">
+<price-list class="price-list {% if context == 'product' %}price-list--product{% endif %}">
   {%- if variant != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
     VARIANT CASE (used on product page, quick view...)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-    <sale-price {% if form_id %}form="{{ form_id }}"{% endif %} class="{% if variant.compare_at_price > variant.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
+    <sale-price class="{% if variant.compare_at_price > variant.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
       <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
 
       {%- if settings.currency_code_enabled -%}
@@ -56,15 +55,17 @@ Supported variables
       {%- endif -%}
     </sale-price>
 
-    <compare-at-price {% if form_id %}form="{{ form_id }}"{% endif %} {% unless variant.compare_at_price > variant.price %}hidden{% endunless %} class="{{ compare_at_price_classes }}">
-      <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+    {%- if variant.compare_at_price > variant.price -%}
+      <compare-at-price class="{{ compare_at_price_classes }}">
+        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
-      {%- if settings.currency_code_enabled -%}
-        {{- variant.compare_at_price | money_with_currency -}}
-      {%- else -%}
-        {{- variant.compare_at_price | money -}}
-      {%- endif -%}
-    </compare-at-price>
+        {%- if settings.currency_code_enabled -%}
+          {{- variant.compare_at_price | money_with_currency -}}
+        {%- else -%}
+          {{- variant.compare_at_price | money -}}
+        {%- endif -%}
+      </compare-at-price>
+    {%- endif -%}
   {%- elsif line_item != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
@@ -127,7 +128,7 @@ Supported variables
           {{- 'product.price.from_price_html' | t: price_min: variant_price -}}
         </sale-price>
       {%- else -%}
-        <sale-price class="{{ on_sale_price_classes }}">
+        <sale-price class="{{ on_sale_price_classes }}">  
           <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
           {{- variant_price -}}
         </sale-price>
@@ -166,8 +167,8 @@ Supported variables
   {%- unless hide_unit_price -%}
     {%- assign unit_price_item = variant | default: line_item | default: product.selected_or_first_available_variant -%}
 
-    {%- if unit_price_item.unit_price or form_id != blank -%}
-      <unit-price {% if form_id %}form="{{ form_id }}"{% endif %} {% unless unit_price_item.unit_price %}hidden{% endunless %} class="{{ unit_price_classes }}">
+    {%- if unit_price_item.unit_price -%}
+      <unit-price class="{{ unit_price_classes }}">
         {%- assign unit_price_measurement = unit_price_item.unit_price_measurement -%}
 
         {%- if unit_price_measurement.reference_value != 1 -%}

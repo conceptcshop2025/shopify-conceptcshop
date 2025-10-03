@@ -11,7 +11,9 @@ Supported variables
 ********************************************
 
 * menu: the menu to render
+* color_scheme: the color scheme to use for the sidebar
 * show_dividers: whether dividers are shown for the collapsible
+* open_second_level_menus: if true, second level dropdown are open by default
 {%- endcomment -%}
 
 {%- comment -%}
@@ -24,9 +26,11 @@ therefore using a different structure for the Shadow DOM template
 
     <div part="content">
       <header part="header">
-        <button type="button" is="dialog-close-button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
-          {%- render 'icon' with 'close', width: 16 -%}
-        </button>
+        <dialog-close-button class="contents">
+          <button type="button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+            {%- render 'icon' with 'close', width: 16 -%}
+          </button>
+        </dialog-close-button>
       </header>
 
       <div part="panel-list">
@@ -40,19 +44,12 @@ therefore using a different structure for the Shadow DOM template
   </div>
 </template>
 
-<header-sidebar id="sidebar-menu" class="header-sidebar drawer drawer--sm" template="header-sidebar-template" open-from="left">
+<header-sidebar id="sidebar-menu" class="header-sidebar drawer drawer--sm color-scheme color-scheme--{{ color_scheme.id }}" template="header-sidebar-template" open-from="left">
   {%- comment -%}We are using a Shadow DOM where each panel has a slot, so we can directly render each level individually{%- endcomment -%}
 
   {%- comment -%}Panel 1 is the first level{%- endcomment -%}
   <div class="header-sidebar__main-panel" slot="main-panel">
     <div class="header-sidebar__scroller">
-       <form id="predictive-search-form" action="{{ routes.search_url }}" method="GET" aria-owns="header-predictive-search" class="header-search__form" role="search">
-      <div class="header-search__form-control">
-        {%- render 'icon' with 'search', width: 20 -%}
-        <input type="search" name="q" spellcheck="false" class="header-search__input h5 sm:h4" aria-label="{{ 'search.general.title' | t | escape }}" placeholder="{{ 'search.general.search_placeholder' | t | escape }}">
-        
-      </div>
-    </form>
       <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
         {%- for link in menu.links -%}
           <li>
@@ -84,9 +81,14 @@ therefore using a different structure for the Shadow DOM template
     {%- if shop.customer_accounts_enabled or show_country_selector or show_locale_selector -%}
       <div class="header-sidebar__footer">
         {%- if shop.customer_accounts_enabled -%}
-          <a href="{{ routes.account_url }}" class="text-with-icon smallcaps sm:hidden">
+          <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="text-with-icon smallcaps sm:hidden">
             {%- render 'icon' with 'account', width: 20 -%}
-            {{- 'header.general.account' | t -}}
+            
+            {%- if customer -%}
+              {{- 'header.general.account' | t -}}
+            {%- else -%}
+              {{- 'header.general.login' | t -}}
+            {%- endif -%}
           </a>
         {%- endif -%}
 
@@ -125,18 +127,20 @@ therefore using a different structure for the Shadow DOM template
                 {%- for sub_link in link.links -%}
                   <li>
                     {%- if sub_link.links.size > 0 -%}
-                      <details is="accordion-disclosure" class="group">
-                        <summary class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
-                          {{- sub_link.title -}}
-                          <span class="animated-plus group-expanded:rotate" aria-hidden="true"></span>
-                        </summary>
+                      <accordion-disclosure>
+                        <details class="accordion__disclosure group" {% if open_second_level_menus %}open{% endif %}>
+                          <summary class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
+                            {{- sub_link.title -}}
+                            <span class="animated-plus group-expanded:rotate" aria-hidden="true"></span>
+                          </summary>
 
-                        <div class="header-sidebar__nested-linklist">
-                          {%- for sub_sub_link in sub_link.links -%}
-                            <a href="{{ sub_sub_link.url }}" class="link-faded-reverse">{{ sub_sub_link.title }}</a>
-                          {%- endfor -%}
-                        </div>
-                      </details>
+                          <div class="header-sidebar__nested-linklist">
+                            {%- for sub_sub_link in sub_link.links -%}
+                              <a href="{{ sub_sub_link.url }}" class="link-faded-reverse">{{ sub_sub_link.title }}</a>
+                            {%- endfor -%}
+                          </div>
+                        </details>
+                      </accordion-disclosure>
                     {%- else -%}
                       <a href="{{ sub_link.url }}" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
                         {{- sub_link.title -}}

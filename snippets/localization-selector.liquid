@@ -27,9 +27,9 @@ Supported variables
     {%- endcomment -%}
 
     <div class="relative">
-      <button type="button" class="localization-toggle heading text-xxs link-faded" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+      <button type="button" class="localization-toggle heading text-xxs link-faded" aria-controls="{{ localization_popover_id }}" aria-label="{{ 'general.localization.change_country_accessibility_text' | t | escape }}" aria-expanded="false">
         {%- if show_country_flag -%}
-          {{- localization.country | image_url: width: 60, format: 'jpg' | image_tag: loading: 'lazy', class: 'country-flag' -}}
+          {{- localization.country | image_url: width: 60, format: 'jpg' | image_tag: class: 'country-flag' -}}
         {%- endif -%}
 
         {%- if show_country_name -%}
@@ -41,7 +41,7 @@ Supported variables
         {%- render 'icon' with 'chevron-down' -%}
       </button>
 
-      <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" class="popover popover--{{ placement | default: 'bottom-start' }}">
+      <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" class="popover popover--{{ placement | default: 'bottom-start' }} color-scheme color-scheme--dialog">
         <p class="h4" slot="header">{{ 'general.localization.country' | t }}</p>
 
         {%- form 'localization', id: localization_form_id -%}
@@ -53,7 +53,7 @@ Supported variables
                 {%- assign is_selected = true -%}
               {%- endif -%}
 
-              <button type="submit" name="country_code" class="h-stack gap-2.5" role="option" value="{{ country.iso_code }}" aria-selected="{% if is_selected %}true{% else %}false{% endif %}">
+              <button type="submit" name="country_code" class="popover__value-option h-stack gap-2.5" role="option" value="{{ country.iso_code }}" aria-selected="{% if is_selected %}true{% else %}false{% endif %}">
                 {%- if show_country_flag -%}
                   {{- country | image_url: width: 60, format: 'jpg' | image_tag: loading: 'lazy', class: 'country-flag' -}}
                 {%- endif -%}
@@ -74,12 +74,12 @@ Supported variables
     {%- endcomment -%}
 
     <div class="relative">
-      <button type="button" class="localization-toggle heading text-xxs link-faded" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+      <button type="button" class="localization-toggle heading text-xxs link-faded" aria-controls="{{ localization_popover_id }}" aria-label="{{ 'general.localization.change_language_accessibility_text' | t | escape }}" aria-expanded="false">
         {{- localization.language.endonym_name | capitalize -}}
         {%- render 'icon' with 'chevron-down' -%}
       </button>
 
-      <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" class="popover popover--{{ placement | default: 'bottom-start' }}">
+      <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" class="popover popover--{{ placement | default: 'bottom-start' }} color-scheme color-scheme--dialog">
         <p class="h4" slot="header">{{ 'general.localization.language' | t }}</p>
 
         {%- form 'localization', id: localization_form_id -%}
@@ -91,7 +91,7 @@ Supported variables
                 {%- assign is_selected = true -%}
               {%- endif -%}
 
-              <button type="submit" name="locale_code" role="option" value="{{ language.iso_code }}" aria-selected="{% if is_selected %}true{% else %}false{% endif %}">
+              <button type="submit" name="locale_code" class="popover__value-option" role="option" value="{{ language.iso_code }}" aria-selected="{% if is_selected %}true{% else %}false{% endif %}">
                 {{- language.endonym_name | capitalize -}}
               </button>
             {%- endfor -%}

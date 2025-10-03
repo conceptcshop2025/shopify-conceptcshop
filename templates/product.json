@@ -53,8 +53,9 @@
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_type": "dropdown",
-            "color_selector_type": "dropdown",
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
             "size_chart_page": ""
           }
         },
@@ -95,8 +96,8 @@
           "settings": {
             "caption": "M'informer quand disponible",
             "font_size": 13,
-            "color": "#1c1c1c",
-            "background_color": "#ffffff",
+            "color": "#ffffff",
+            "background_color": "#e4c0ae",
             "margin_top": -15,
             "margin_bottom": 10,
             "classes": "button button--outline w-full",
@@ -169,6 +170,7 @@
         "complementary_products"
       ],
       "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "container_size": "lg",
         "product_info_size": 40,
         "show_sticky_add_to_cart": true,
@@ -187,13 +189,17 @@
       "blocks": {
         "judge_me_reviews_review_widget_jXHURd": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
         "judge_me_reviews_review_widget_jXHURd"
       ],
       "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -202,6 +208,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -219,6 +226,7 @@
       "type": "recently-viewed-products",
       "settings": {
         "separate_section_with_border": true,
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "hide_product_information": false,
         "stack_products": false,
         "products_count": 9,
@@ -262,6 +270,7 @@
         "24d76067-3957-42ab-bb99-857b7afd237e"
       ],
       "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false

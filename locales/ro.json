@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "page": "Pagina {{ page }}",
@@ -57,7 +48,9 @@
     },
     "localization": {
       "country": "Țară",
-      "language": "Limbă"
+      "language": "Limbă",
+      "change_country_accessibility_text": "Schimbă țara sau moneda",
+      "change_language_accessibility_text": "Schimbă limba"
     },
     "privacy_banner": {
       "accept": "Acceptă",
@@ -79,14 +72,12 @@
   "header": {
     "general": {
       "account": "Cont",
+      "login": "Conectează-te",
       "search": "Caută",
       "cart": "Coș",
       "primary_navigation": "Navigare principală",
       "secondary_navigation": "Navigare secundară",
-      "open_menu": "Deschide meniul de navigare",
-      "open_search": "Deschide căutarea",
-      "open_account": "Deschide pagina contului",
-      "open_cart": "Deschide coșul"
+      "menu": "Meniu"
     }
   },
   "product": {
@@ -129,7 +120,15 @@
       "change_quantity": "Schimbă cantitatea",
       "increase_quantity": "Crește cantitatea",
       "decrease_quantity": "Scade cantitatea",
+      "minimum_of": "Minim de {{ min }}",
+      "maximum_of": "Maxim de {{ max }}",
+      "increment_of": "Increment de {{ step }}",
       "cannot_add_more": "Nu mai poți adăuga altceva"
+    },
+    "volume_pricing": {
+      "title": "Stabilire preț per volum",
+      "minimum": "Peste {{ quantity }}",
+      "price_at_each": "la {{ price }}/buc."
     },
     "rating_count": {
       "zero": "Nicio o recenzie",
@@ -138,6 +137,7 @@
     },
     "inventory": {
       "in_stock": "În stoc",
+      "low_stock": "Au mai rămas doar câteva unități",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} în stoc",
         "other": "{{ count }} în stoc"
@@ -202,6 +202,7 @@
     },
     "post": {
       "written_by": "De {{ author }}",
+      "visit_author_website": "Vizitează site-ul autorului",
       "share": "Distribuie",
       "tags": "Etichete"
     },
@@ -364,7 +365,8 @@
       "product": "Produs",
       "total": "Total",
       "quantity": "Cantitate",
-      "remove": "Elimină"
+      "remove": "Elimină",
+      "remove_with_title": "Eliminați {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Cheltuie încă {{ remaining_amount }} și vei obține livrare gratuită!",
@@ -380,6 +382,10 @@
       "one_result": "Există un singur tarif de livrare pentru adresa ta:",
       "multiple_results": "Există mai multe tarife de livrare pentru adresa ta:",
       "error": "La preluarea tarifelor de livrare au survenit una sau mai multe erori:"
+    },
+    "discount": {
+      "label": "Cod de reducere",
+      "error": "Introduceți un cod de reducere valid"
     }
   },
   "404": {
@@ -435,6 +441,7 @@
       "checkbox": "Vreau să trimit acest lucru drept cadou",
       "email_label": "Adresă de e-mail destinatar",
       "name_label": "Nume destinatar (opțional)",
+      "send_on_label": "Trimite pe (opțional)",
       "message_label": "Mesaj (opțional)"
     }
   },
@@ -456,7 +463,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Pentru a afișa comparația dintre înainte și după, adaugă mai mult conținut în secțiune.",
-      "percentage_shown": "Procent afișat din imaginea „după”"
+      "percentage_shown": "Procent afișat din imaginea „după”",
+      "cursor_accessibility_text": "Utilizați tastele săgeată stânga și dreapta pentru a naviga între fotografiile înainte și după."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Această ofertă expiră pe {{expiration_date}}",
@@ -472,6 +480,29 @@
     "shop_the_look": {
       "view_products": "Vezi produsele",
       "view_product": "Vezi produsul"
+    },
+    "quick_order_list": {
+      "products": "Produse",
+      "variants": "Variante",
+      "quantity": "Cantitate",
+      "price": "Preț",
+      "total": "Total",
+      "remove": "Șterge",
+      "quantity_rules": "Reguli de cantitate",
+      "volume_pricing": "Prețuri de volum",
+      "volume_pricing_available": "Prețuri de volum disponibile",
+      "show_variants": "Afișează variantele",
+      "minimum_of": "Minim: {{ min }}",
+      "maximum_of": "Maxim: {{ max }}",
+      "increment_of": "Increment: {{ step }}",
+      "view_cart": "Vezi coșul",
+      "remove_all": "Șterge tot",
+      "item_count": {
+        "zero": "{{ count }} articole",
+        "one": "{{ count }} articol",
+        "other": "{{ count }} articole"
+      },
+      "product_subtotal": "Subtotal produse"
     }
   }
 }

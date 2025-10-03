@@ -17,12 +17,16 @@ None
 
   <div class="v-stack gap-6">
     <div class="shipping-estimator__form">
-      {%- assign country_label = 'cart.shipping_estimator.country' | t -%}
-      {%- assign province_label = 'cart.shipping_estimator.province' | t -%}
-      {%- assign zip_label = 'cart.shipping_estimator.zip' | t -%}
-      {%- assign estimate_button = 'cart.shipping_estimator.estimate' | t -%}
+      {%- liquid
+        assign country_label = 'cart.shipping_estimator.country' | t
+        assign province_label = 'cart.shipping_estimator.province' | t
+        assign zip_label = 'cart.shipping_estimator.zip' | t
+        assign estimate_button = 'cart.shipping_estimator.estimate' | t
 
-      <country-selector class="contents" {% if customer and customer.default_address %}country="{{ customer.default_address.country | escape }}"{% endif %}>
+        assign default_country = customer.default_address.country | default: localization.country.name
+      -%}
+
+      <country-selector class="contents" country="{{ default_country | escape }}">
         {%- render 'select', label: country_label, options: country_option_tags, name: 'address[country]' -%}
         {%- render 'select', label: province_label, name: 'address[province]' -%}
       </country-selector>

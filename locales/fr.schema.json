@@ -9,13 +9,27 @@
  */
 {
   "global": {
+    "categories": {
+      "banners": "Bannières",
+      "collections": "Collections",
+      "call_to_action": "Call to action",
+      "layout": "Mise en page",
+      "products": "Produits",
+      "media": "Médias",
+      "storytelling": "Storytelling",
+      "content": "Contenu",
+      "trust_social": "Confiance et preuve sociale"
+    },
     "colors": {
       "category": "Couleurs",
+      "scheme": "Nuancier de couleurs",
       "background": "Couleur de fond",
+      "background_gradient": "Dégradé de couleur de fond",
       "background_opacity": "Opacité de la couleur de fond",
       "text": "Couleur du texte",
       "text_shadow": "Ombre du texte",
       "border": "Bordure",
+      "icon": "Icone",
       "button_background": "Fond du bouton",
       "button_text": "Texte du bouton",
       "overlay_color": "Overlay",
@@ -145,7 +159,7 @@
     },
     "faceting": {
       "products_per_page": "Produits par page",
-      "filters_category": "Filtres et tri",
+      "filters_and_sorting_category": "Filtres et tri",
       "desktop_layout": "Mode d'affichage desktop",
       "desktop_layout_options": {
         "sidebar": "Barre latérale",
@@ -154,13 +168,11 @@
       },
       "show_sort_by": "Afficher le tri",
       "show_filters": "Afficher les filtres",
-      "show_filters_info": "[Personnaliser les filtres](/admin/menus)",
+      "show_filters_info": "[Personnaliser les filtres](https://help.shopify.com/manual/online-store/search-and-discovery/filters)",
       "show_results_count": "Afficher le nombre de résultats",
       "show_group_name": "Afficher le nom du groupe",
       "show_group_name_info": "Le nom du groupe s'affichera à l'intérieur des filtres sélectionnés.",
-      "show_empty_filter_values": "Afficher les filtres sans résultats",
       "show_filter_values_count": "Afficher le nombre de résultats d'un filtre",
-      "show_filter_color_swatch": "Afficher les pastilles de couleur",
       "open_filters_by_default": "Ouvrir les filtres par défaut"
     },
     "code": {
@@ -291,21 +303,22 @@
       "general_category": "Général",
       "heading_color": "Titres",
       "body_text_color": "Texte",
-      "secondary_background": "Couleur de fond secondaire",
-      "secondary_background_info": "Choisissez une couleur proche de la couleur de fond principale.",
+      "default_color_scheme": "Nuancier par défaut",
+      "default_color_scheme_info": "Utilisé sur les pages secondaires telles que les pages de condition d'utilisation.",
+      "notification_category": "Notification",
       "success_color": "Succès",
       "warning_color": "Warning",
       "error_color": "Erreur",
-      "header_category": "Header",
-      "footer_category": "Footer",
       "button_category": "Bouton",
+      "button_icon_category": "Bouton avec icone",
+      "button_icon_category_info": "S'applique aux boutons arrondis comme les boutons de navigation ou de fermeture.",
       "modal_category": "Modales/panneaux déroulants",
       "product_category": "Produit",
       "product_rating_color": "Etoile des avis",
       "on_sale_accent": "Accent en solde",
       "sold_out_badge_background": "Badge en rupture",
       "custom_badge": "Badge personnalisé",
-      "custom_badge_info": "[En savoir plus](https://support.maestrooo.com/article/75-collection-displaying-custom-label)"
+      "custom_badge_info": "[En savoir plus](https://support.maestrooo.com/article/719-custom-badges)"
     },
     "typography": {
       "name": "Typographie",
@@ -349,19 +362,18 @@
     "animation": {
       "name": "Animation",
       "minimize_motion_paragraph": "Les animations sont automatiquement réduites pour les utilisateurs ayant configuré leur système afin de réduire les animations non-essentielles.",
-      "show_page_transition": "Activer la transition de la page",
-      "show_page_transition_info": "La page change en utilisant un fondu.",
       "show_button_transition": "Activer la transition du bouton",
       "show_image_zoom_on_hover": "Activer le zoom des images au survol",
       "show_image_zoom_on_hover_info": "S'applique sur différentes sections comme la liste de collections, les mega-menu...",
       "stagger_products_apparition": "Révéler les produits un à un",
-      "stagger_blog_posts_apparition": "Révéler les articles de blog un à un"
+      "stagger_blog_posts_apparition": "Révéler les articles de blog un à un",
+      "stagger_menu_apparition": "Révéler les liens de menu un à un"
     },
     "color_swatch": {
       "name": "Pastille de couleur",
       "round_color_swatches": "Arrondir les pastilles de couleur",
-      "configuration": "Configuration",
-      "configuration_info": "Chaque règle doit être sur sa propre ligne. [En savoir plus](https://support.maestrooo.com/article/80-product-uploading-custom-color-for-color-swatch)."
+      "configuration": "Configuration (déprécié)",
+      "configuration_info": "Nous recommandons l'usage des pastilles de couleur natives. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches). Le système basé sur la configuration du thème est déprécié et sera supprimé dans une version ultérieure du thème. Si vous devez absolument utilisé le système basé sur la configuration, vous pouvez [en savoir plus](https://support.maestrooo.com/article/718-configuring-color-swatches) sur la nomenclature à utiliser."
     },
     "product_card": {
       "name": "Card produit",
@@ -371,9 +383,11 @@
         "natural": "Naturel",
         "short": "Rétréci (4:3)",
         "square": "Carré (1:1)",
+        "portrait": "Haut (4:5)",
         "tall": "Haut (2:3)",
         "short_crop": "Rétréci (4:3) - remplir cadre",
         "square_crop": "Square (1:1) - remplir cadre",
+        "portrait_crop": "Portrait (4:5) - remplir cadre",
         "tall_crop": "Tall (2:3) - remplir cadre"
       },
       "show_secondary_image_on_hover": "Afficher l'image secondaire au survol",
@@ -397,7 +411,7 @@
         "swatch": "Pastille"
       },
       "rating_category": "Avis client",
-      "rating_category_info": "Pour afficher les avis, ajoutez une application d'avis clients. [En savoir plus](https://help.shopify.com/fr/manual/products/product-reviews/installation)",
+      "rating_category_info": "Pour afficher les avis, ajoutez une application d'avis clients. [En savoir plus](https://apps.shopify.com/categories/store-design-social-proof-product-reviews)",
       "show_product_rating": "Afficher les avis client",
       "show_product_rating_if_empty": "Afficher si aucun avis",
       "show_product_rating_as": "Afficher les avis en...",
@@ -412,7 +426,8 @@
       "show_discount_as": "Afficher la remise en...",
       "show_discount_as_options": {
         "percentage": "Pourcentage",
-        "saving": "Montant"
+        "saving": "Montant",
+        "text": "Texte seul"
       }
     },
     "cart": {
@@ -446,6 +461,56 @@
       "name": "Favicon",
       "image": "Image",
       "image_info": "180 x 180px .png recommandé"
+    }
+  },
+  "blocks": {
+    "liquid": {
+      "name": "Liquid"
+    },
+    "button": {
+      "name": "Bouton"
+    },
+    "button_group": {
+      "name": "Groupe de bouton"
+    },
+    "heading": {
+      "name": "Titre",
+      "html_tag": "Tag HTML",
+      "html_tag_info": "Maintenez une hiérarchie correcte des titres (par exemple, évitez d'utiliser un h3 avant un h1). En cas de doute, utilisez un tag de paragraphe."
+    },
+    "icon": {
+      "name": "Icône",
+      "position": "Position",
+      "color": "Couleur",
+      "color_info": "Ignoré pour l'icône personnalisée."
+    },
+    "accordion": {
+      "name": "Texte déroulant",
+      "liquid_info": "Remplace le contenu en ligne.",
+      "page": "Page",
+      "page_info": "Remplace le contenu en ligne."
+    },
+    "page": {
+      "name": "Page",
+      "page": "Page"
+    },
+    "rich_text": {
+      "name": "Texte enrichi"
+    },
+    "image": {
+      "name": "Image",
+      "desktop_image_size_recommendation": "3200 x 1200px .jpg recommandé",
+      "mobile_image_size_recommendation": "1200 x 1600px .jpg recommandé"
+    },
+    "badge": {
+      "name": "Badge",
+      "alignment": "Alignement du badge",
+      "text_color": "Couleur du texte",
+      "background": "Couleur de fond"
+    },
+    "video": {
+      "name": "Vidéo",
+      "color": "Couleur du bouton"
     }
   },
   "sections": {
@@ -531,10 +596,16 @@
       "page_info": "Le drawer panier n'apparaitra sur votre thème si vous avez specifié le mode Page pour le panier dans les réglages globaux.",
       "free_shipping_bar_info": "Le message de livraison grauite peut etre configuré dans les réglages globaux du panier.",
       "show_cart_note": "Afficher la note de panier",
+      "allow_discount_application": "Autoriser l'application de code promos",
       "show_shipping_text": "Afficher le texte de livraison/taxes",
       "show_view_cart_button": "Afficher le bouton pour accéder au panier",
       "show_checkout_button": "Afficher le bouton pour passer à la caisse",
-      "show_price_in_checkout_button": "Afficher le prix dans le bouton de caisse"
+      "show_price_in_checkout_button": "Afficher le prix dans le bouton de caisse",
+      "cross_sell_category": "Cross-sell",
+      "cross_sell_products": "Produits",
+      "cross_sell_products_info": "Les produits déjà dans le panier ou en rupture sont cachés.",
+      "cross_sell_heading": "Titre",
+      "cross_sell_stack_products": "Empiler les produits"
     },
     "collection_banner": {
       "name": "Bannière de la collection",
@@ -543,29 +614,26 @@
       "reveal": "Réveler l'image avec une animation",
       "enable_parallax": "Activer l'effet parallax",
       "enable_parallax_info": "Cet effet coupe l'image.",
+      "show_image": "Afficher l'image",
       "show_collection_title": "Afficher le titre de la collection",
       "show_collection_description": "Afficher la description de la collection",
       "show_breadcrumb": "Afficher le fil d'ariane",
-      "colors_category_info": "Ignorés lorsqu'il n'y a pas d'image.",
-      "background_info": "Visible lorsque l'image charge."
+      "colors_category_info": "Ignorés lorsqu'il n'y a pas d'image."
     },
     "collection_list": {
       "name": "Liste de collections",
       "show_text_outside": "Afficher le texte en dehors des images",
       "space_items": "Espacer les blocs",
       "stack_collections": "Empiler les collections",
+      "stack_collections_mobile": "Empiler les collections (mobile)",
+      "collections_per_row_mobile": "Collections par ligne (mobile)",
       "collections_per_row_desktop": "Collections par ligne (desktop)",
-      "navigation_button_category": "Boutons de navigation",
-      "navigation_button_category_info": "Uniquement lorsque les collections ne sont pas empilées.",
-      "navigation_button_background": "Couleur de fond",
-      "navigation_button_text_color": "Couleur de la flèche",
       "blocks": {
         "collection": {
           "name": "Collection",
           "collection": "Collection",
           "image_size_recommendation": "1500 x 1500px .jpg recommandé",
           "expand_to_fill_row": "Etendre les collections pour remplir la ligne",
-          "expand_to_fill_row_info": "Ignoré lorsque les collections ne sont pas empilées.",
           "button_link_info": "Utilise l'URL de la collection par défaut."
         }
       },
@@ -636,6 +704,9 @@
         }
       }
     },
+    "custom_section": {
+      "name": "Section personnalisée"
+    },
     "faq": {
       "name": "FAQ",
       "show_categories": "Afficher les catégories",
@@ -699,7 +770,9 @@
           "name": "Liens",
           "menu": "Menu",
           "menu_info": "Les menus déroulants ne sont pas affichés.",
-          "show_menu_title": "Afficher le titre du menu"
+          "show_menu_title": "Afficher le titre du menu",
+          "menu_title": "Titre",
+          "menu_title_info": "Remplace le titre par défaut du menu"
         },
         "newsletter": {
           "name": "Newsletter",
@@ -710,6 +783,7 @@
     "header": {
       "name": "Header",
       "enable_sticky_header": "Activer le header fixe",
+      "hide_on_scroll": "Cacher au scroll",
       "show_separation_border": "Afficher la bordure de séparation",
       "reduce_padding": "Réduire la hauteur sur desktop",
       "logo_category": "Logo",
@@ -723,6 +797,11 @@
         "hover": "Survol",
         "click": "Clic"
       },
+      "menu_text_font": "Police du texte",
+      "menu_text_font_options": {
+        "heading": "Titre",
+        "body": "Corps du texte"
+      },
       "enable_search": "Activer la recherche",
       "sidebar_navigation_category": "Navigation sidebar",
       "sidebar_text_font": "Police du texte",
@@ -731,6 +810,7 @@
         "body": "Corps du texte"
       },
       "sidebar_show_dividers": "Afficher les separateurs sur le menu latéral",
+      "sidebar_open_second_level_menus": "Ouvrir les menus de second niveau par défault",
       "desktop_category": "Desktop",
       "layout": "Disposition",
       "layout_options": {
@@ -742,14 +822,14 @@
       },
       "show_icons": "Afficher les icones",
       "transparent_header_category": "Header transparent",
-      "transparent_header_info": "Pour afficher un header transparent, ajoutez une section compatible (comme un diaporama d'images) en première position. [En savoir plus](https://support.maestrooo.com/article/312-header-how-to-enable-transparent-header)",
+      "transparent_header_info": "Pour afficher un header transparent, ajoutez une section compatible (comme un diaporama d'images) en première position. [En savoir plus](https://support.maestrooo.com/article/715-transparent-header)",
       "transparent_header_logo_image": "Image logo",
       "transparent_header_logo_size_recommendation": "Utilisez des dimensions identiques au logo principal.",
       "blocks": {
         "mega_menu": {
           "name": "Mega menu",
           "menu_item": "Nom du lien",
-          "menu_item_info": "Entrez un nom de lien pour activer un mega-menu. [En savoir plus](https://support.maestrooo.com/article/180-navigation-enabling-and-configuring-mega-navigation).",
+          "menu_item_info": "Entrez un nom de lien pour activer un mega-menu. [En savoir plus](https://support.maestrooo.com/article/709-mega-menu).",
           "images_position": "Position des images",
           "image_1": "Image 1",
           "image_2": "Image 2",
@@ -854,7 +934,6 @@
       "instructions": "Configurez le contenu en ajoutant des blocs. La section s'adapte automatiquement pour remplir exactement la hauteur de l'écran.",
       "background_image_info": "3000 x 1800px .jpg recommandé. Les bords de l'image peuvent être coupés pour s'adapter à la taille de l'écran.",
       "mobile_background_image_info": "1600 x 2000px .jpg recommandé. Les bords de l'image peuvent être coupés pour s'adapter à la taille de l'écran.",
-      "background_info": "Ignoré si une image de fond est utilisée.",
       "image_position": "Position de l'image",
       "blocks": {
         "image_with_text": {
@@ -871,6 +950,7 @@
     },
     "logo_list": {
       "name": "Liste de logos",
+      "stack_on_mobile": "Empiler sur mobile",
       "items_per_row_desktop": "Logos par ligne (desktop)",
       "logo_background": "Fond du logo",
       "logo_border": "Bordure du logo",
@@ -916,6 +996,7 @@
     "main_cart": {
       "name": "Panier",
       "show_cart_note": "Afficher la note de panier",
+      "allow_discount_application": "Autoriser l'application de code promos",
       "show_order_weight": "Afficher le poids de la commande",
       "show_shipping_text": "Afficher le texte de livraison/taxes",
       "show_accelerated_buttons": "Afficher les boutons de paiement accélérés",
@@ -1018,7 +1099,6 @@
       "logo_info": "280 x 80px .png recommandé",
       "background_category": "Arrière-plan",
       "background_image_size_recommendation": "2000 x 1500px .jpg recommandé",
-      "background_color_info": "Uniquement utilisée si aucune image n'est sélectionnée.",
       "blocks": {
         "content": {
           "name": "Contenu",
@@ -1076,7 +1156,7 @@
         },
         "badges": {
           "name": "Badges",
-          "instructions": "Utilisez les metafields pour créer des badges personnalisés. [En savoir plus](https://support.maestrooo.com/article/75-collection-displaying-custom-label)"
+          "instructions": "Utilisez les metafields pour créer des badges personnalisés. [En savoir plus](https://support.maestrooo.com/article/719-custom-badges)"
         },
         "price": {
           "name": "Prix",
@@ -1088,7 +1168,7 @@
         },
         "rating": {
           "name": "Avis clients",
-          "instructions": "Pour afficher la note, ajoutez une application d'avis clients. [En savoir plus](https://help.shopify.com/fr/manual/products/product-reviews/installation)",
+          "instructions": "Pour afficher la note, ajoutez une application d'avis clients. [En savoir plus](https://apps.shopify.com/categories/store-design-social-proof-product-reviews)",
           "show_if_no_reviews": "Afficher si aucun avis",
           "show_product_rating_as": "Afficher les avis en...",
           "show_product_rating_as_options": {
@@ -1107,26 +1187,27 @@
         "variant_picker": {
           "name": "Sélecteur de variante",
           "hide_sold_out_variants": "Cacher les variantes en rupture",
-          "selector_type": "Type de sélecteur",
-          "selector_type_options": {
+          "selector_style": "Style des sélecteurs",
+          "selector_style_options": {
             "block": "Bloc",
-            "dropdown": "Menu déroulant"
-          },
-          "color_selector_type": "Type de sélecteur de couleur",
-          "color_selector_type_info": "Si vos pastilles ne sont pas visible, vous devez uploader vos propres images. [En savoir plus](https://support.maestrooo.com/article/80-product-uploading-custom-color-for-color-swatch)",
-          "color_selector_type_options": {
-            "block": "Bloc",
-            "block_swatch": "Bloc avec pastille de couleur",
             "dropdown": "Menu déroulant",
-            "color_swatch": "Pastille",
             "variant_image": "Image de variante"
           },
+          "swatch_selector_style": "Style des swatchs",
+          "swatch_selector_style_info": "Activez les [swatches](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) dans les options de produit.",
+          "swatch_selector_style_options": {
+            "swatch": "Pastille",
+            "block_swatch": "Bloc avec pastille de couleur",
+            "none": "Aucun"
+          },
+          "variant_image_options": "Afficher les images de variante pour les options",
+          "variant_image_options_info": "Une liste de noms d'options séparés par une virgule pour lesquelles les valeurs affichent l'image de variante. [En savoir plus](https://support.maestrooo.com/article/767-variant-image-for-color-options)",
           "size_chart_page": "Guide des tailles",
           "size_chart_page_info": "Afficher le contenu d'une page pour l'option de taille"
         },
         "product_variations": {
           "name": "Variations produit",
-          "instructions": "Utilisez des metafields pour relier des produits entre eux. [En savoir plus](https://support.maestrooo.com/article/307-product-creating-product-variations-that-link-to-different-pages)",
+          "instructions": "Utilisez des metafields pour relier des produits entre eux. [En savoir plus](https://support.maestrooo.com/article/722-product-variations-linked-products)",
           "option_name": "Nom de l'option",
           "option_name_placeholder": "Couleur",
           "option_value_metafield": "Metafield de la valeur de l'option",
@@ -1147,21 +1228,22 @@
           "required": "Obligatoire",
           "required_info": "Si obligatoire, le client doit écrire un texte (pour l'attribut texte) ou cocher la case (pour l'attribut checkbox) afin d'ajouter le produit au panier.",
           "text_type_category": "Texte",
-          "text_type_category_info": "Uniquement si le type est Texte.",
           "text_type_allow_long_text": "Autoriser les textes longs",
           "text_type_max_length": "Nombre maximum de caractères",
           "checkbox_type_category": "Checkbox",
-          "checkbox_type_category_info": "Uniquement si le type est Checkbox.",
           "checkbox_value": "Valeur",
           "checkbox_value_info": "Apparait sur la commande lorsque la case est cochée.",
           "dropdown_type_category": "Menu déroulant",
-          "dropdown_type_category_info": "Uniquement si le type est Menu déroulant.",
           "dropdown_values": "Valeurs",
           "dropdown_values_info": "Séparez chaque valeurs par une virgule."
         },
         "quantity_selector": {
           "name": "Sélecteur de quantité",
           "instructions": "Le sélecteur est automatiquement caché si toutes les variantes sont en rupture. Lorsqu'au moins une variante est disponible, le sélecteur de quantité est toujours visible pour éviter que la page ne bouge lorsque la variante active change."
+        },
+        "volume_pricing": {
+          "name": "Tarification sur le volume",
+          "instructions": "Cette fonctionnalité n'est disponible que pour les marchands Shopify Plus. [En savoir plus](https://help.shopify.com/en/manual/b2b/catalogs/quantity-pricing#volume-pricing)"
         },
         "inventory": {
           "name": "Inventaire",
@@ -1195,13 +1277,6 @@
           "stack_products": "Empiler les produits",
           "show_quick_buy": "Afficher l'achat rapide"
         },
-        "reviews": {
-          "name": "Avis clients",
-          "instructions": "Affiche les avis clients sous la galerie d'images, dans un menu déroulant. Pour afficher les avis clients à un autre endroit, utilisez directement le block de l'app de votre choix.",
-          "show_star_icon": "Afficher une icône",
-          "liquid": "Code Liquid",
-          "liquid_info": "Le thème s'intègre par défaut avec l'app gratuite [Shopify Reviews app](https://apps.shopify.com/product-reviews). Pour afficher les avis clients d'une autre app, contactez le support technique de l'app de votre choix."
-        },
         "offers": {
           "name": "Offres",
           "stack_offers": "Empiler les offres",
@@ -1221,6 +1296,7 @@
         "collapsible_text": {
           "name": "Texte déroulant",
           "show_below_gallery": "Afficher sous les images",
+          "liquid_info": "Remplace le contenu en ligne.",
           "page": "Page",
           "page_info": "Remplace le contenu en ligne."
         },
@@ -1303,6 +1379,15 @@
         "multi_column": {
           "name": "Multi-column"
         }
+      },
+      "settings": {
+        "grid": {
+          "header_content": "Section de grille",
+          "padding_top": "Marge intérieure supérieure",
+          "padding_bottom": "Marge intérieure inférieure",
+          "full_width": "Utiliser la section en pleine largeur",
+          "column_gap": "Espacement des colonnes",
+        }
       }
     },
     "multiple_media_with_text": {
@@ -1315,7 +1400,6 @@
         "after_text": "Après le texte"
       },
       "media_category": "Media",
-      "media_category_info": "Le décalage d'alignement ne s'applique que lorsque l'alignment de base est défini à haut ou bas.",
       "media_layout": "Disposition",
       "media_layout_options": {
         "overlap": "Chevauchement",
@@ -1360,7 +1444,8 @@
       "delay": "Délai d'apparition de la modale",
       "show_only_on_home_page": "Afficher uniquement sur la page d'accueil",
       "hide_for_account_holders": "Cacher pour les visiteurs ayant un compte client",
-      "show_only_once": "Afficher qu'une fois aux visiteurs"
+      "show_only_once": "Afficher qu'une fois aux visiteurs",
+      "show_newsletter_form": "Afficher le formulaire de newsletter"
     },
     "pickup_availability": {
       "name": "Retrait en boutique"
@@ -1370,7 +1455,19 @@
     },
     "privacy_banner": {
       "name": "Bannière de confidentialité",
-      "show_privacy_banner_info": "La bannière de confidentialité ne sera affichée que si les conditions de [l'API Shopify Customer Privacy](https://shopify.dev/docs/themes/consent-tracking-api) sont respectées."
+      "show_privacy_banner_info": "La bannière de confidentialité du thème est dépréciée. Afin d'assurer une conformité avec les lois existantes et futures, les marchands sont encouragés à désactiver la bannière du thème, et à migrer vers la [bannière officielle de Shopify](https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings#add-a-cookie-banner)."
+    },
+    "quick_order_list": {
+      "name": "Liste de commande rapide",
+      "description": "Permettez à vos clients d'ajouter rapidement plusieurs produits ou variantes au panier. [En savoir plus](https://help.shopify.com/fr/manual/orders/create-orders#add-products-to-an-order)",
+      "show_only_to_b2b_customers": "Afficher uniquement aux clients B2B",
+      "hide_on_mobile": "Cacher sur mobile",
+      "table_list_category": "Tableau",
+      "show_image": "Afficher l'image",
+      "show_sku": "Afficher le SKU",
+      "additional_products": "Produits additionels",
+      "additional_products_info": "Dans les pages produits, le produit de la page principale s'affichera en premier.",
+      "collapse_additional_products": "Cacher les produits additionels par défaut"
     },
     "recently_viewed_products": {
       "name": "Produits récemment consultés",
@@ -1437,6 +1534,7 @@
         "to_left": "Droite vers la gauche",
         "to_right": "Gauche vers la droite"
       },
+      "pause_on_hover": "Pause au survol",
       "typography_category": "Typographie",
       "typography_category_info": "Les tailles de police augmentent progressivement sur les tailles d'écran intermédiaires.",
       "text_font": "Police du texte",
@@ -1494,6 +1592,8 @@
     "slideshow": {
       "name": "Diaporama",
       "show_next_section_button": "Afficher le bouton pour aller à la section suivante",
+      "show_initial_transition": "Afficher la transition initiale",
+      "show_initial_transition_info": "Supprimer la transition initiale peut aider à améliorer les performances.",
       "auto_rotate_between_slides": "Rotation automatique",
       "autoplay_pause_on_video": "Mettre en pause la rotation automatique jusqu'à la fin de la vidéo",
       "cycle_speed": "Changer de slide toutes les",
@@ -1526,11 +1626,14 @@
       "name": "Onglets",
       "blocks": {
         "tab": {
-          "name": "Onglet",
+          "name": "Texte enrichi",
           "page": "Page",
           "page_info": "Remplace le contenu en ligne.",
           "open_on_mobile": "Ouvrir par défaut sur mobile",
           "open_on_mobile_info": "Sur mobile, chaque onglet est affiché dans un panneau déroulant pour une meilleure experience de navigation."
+        },
+        "liquid": {
+          "name": "Code Liquid"
         }
       },
       "presets": {
@@ -1574,6 +1677,7 @@
     },
     "timeline": {
       "name": "Frise chronologique",
+      "item_color_scheme": "Nuancier des éléments",
       "blocks": {
         "item": {
           "name": "Item",
@@ -1593,7 +1697,7 @@
       "name": "Vidéo",
       "info": "Pour un résultat visuel optimal, utilisez une vidéo MP4.",
       "poster_image": "Image de couverture",
-      "poster_image_info": "3200 x 1600px .jpg recommandé. L'image est cachée lorsque la lecture automatique est activée.",
+      "poster_image_info": "3200 x 1600px .jpg recommandé.",
       "blocks": {
         "play_button": {
           "name": "Bouton de lecture",

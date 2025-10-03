@@ -1,16 +1,26 @@
 {%- if section.blocks.size > 0 -%}
-  <div class="section-spacing section-spacing--tight {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container">
       <div class="v-stack gap-8">
         {%- capture section_content -%}
           {%- for block in section.blocks -%}
             <div class="text-with-icons__item {% if forloop.first %}is-selected{% endif %} {% unless section.settings.stack_on_mobile %}snap-center{% endunless %}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
               <div class="v-stack gap-6 justify-items-center sm:justify-items-{{ section.settings.text_alignment }}">
+                {%- liquid
+                  assign loading_strategy = nil
+
+                  if section.index <= 3 and forloop.position <= 3
+                    assign loading_strategy = 'eager'
+                  endif
+                -%}
+
                 {%- if block.settings.custom_icon != blank -%}
                   {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
                   {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
                   {%- capture style -%}--image-mobile-max-width: {{ block.settings.mobile_icon_width }}px; --image-max-width: {{ block.settings.icon_width }}px{%- endcapture -%}
-                  {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
+                  {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: loading_strategy, sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
                 {%- else -%}
                   <div style="{% render 'surface', text_color: section.settings.icon_color %}">
                     {%- render 'icon' with block.settings.icon, width: block.settings.mobile_icon_width, class: 'sm:hidden' -%}
@@ -72,6 +82,12 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "checkbox",
       "id": "separate_section_with_border",
@@ -451,6 +467,7 @@
   "presets": [
     {
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "category": "t:global.categories.trust_social",
       "blocks": [
         {
           "type": "item",

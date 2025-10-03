@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "page": "Seite {{ page }}",
@@ -57,7 +48,9 @@
     },
     "localization": {
       "country": "Land",
-      "language": "Sprache"
+      "language": "Sprache",
+      "change_country_accessibility_text": "Land oder Währung ändern",
+      "change_language_accessibility_text": "Sprache ändern"
     },
     "privacy_banner": {
       "accept": "Akzeptieren",
@@ -79,14 +72,12 @@
   "header": {
     "general": {
       "account": "Konto",
+      "login": "Anmelden",
       "search": "Suchen",
       "cart": "Warenkorb",
       "primary_navigation": "Hauptnavigation",
       "secondary_navigation": "Sekundäre Navigation",
-      "open_menu": "Navigationsmenü öffnen",
-      "open_search": "Suche öffnen",
-      "open_account": "Kundenkontoseite öffnen",
-      "open_cart": "Warenkorb öffnen"
+      "menu": "Menü"
     }
   },
   "product": {
@@ -129,7 +120,15 @@
       "change_quantity": "Anzahl ändern",
       "increase_quantity": "Anzahl erhöhen",
       "decrease_quantity": "Anzahl verringern",
+      "minimum_of": "Minimum von {{ min }}",
+      "maximum_of": "Maximum von {{ max }}",
+      "increment_of": "Schritt von {{ step }}",
       "cannot_add_more": "Sie können nicht mehr hinzufügen"
+    },
+    "volume_pricing": {
+      "title": "Volumenabhängige Preisgestaltung",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "bei {{ price }}/Stück"
     },
     "rating_count": {
       "zero": "Keine Bewertungen",
@@ -138,6 +137,7 @@
     },
     "inventory": {
       "in_stock": "Auf Lager",
+      "low_stock": "Nur noch wenige Einheiten übrig",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} auf Lager",
         "other": "{{ count }} auf Lager"
@@ -201,6 +201,7 @@
     },
     "post": {
       "written_by": "Von {{ author }}",
+      "visit_author_website": "Webseite des Autors besuchen",
       "share": "Teilen",
       "tags": "Tags"
     },
@@ -362,7 +363,8 @@
       "product": "Produkt",
       "total": "Summe",
       "quantity": "Anzahl",
-      "remove": "Entfernen"
+      "remove": "Entfernen",
+      "remove_with_title": "Entfernen {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Füge deiner Bestellung Artikel im Wert von {{ remaining_amount }} hinzu und erhalte kostenlosen Versand!",
@@ -378,6 +380,10 @@
       "one_result": "Für deine Adresse gibt es einen Versandtarif:",
       "multiple_results": "Für deine Adresse gibt es mehrere Versandtarife:",
       "error": "Beim Berechnen der Versandkosten ist ein Fehler aufgetreten:"
+    },
+    "discount": {
+      "label": "Rabattcode",
+      "error": "Bitte einen gültigen Rabattcode eingeben"
     }
   },
   "404": {
@@ -431,6 +437,7 @@
       "checkbox": "Ich möchte dies als Geschenk senden",
       "email_label": "Empfänger E-Mail",
       "name_label": "Name des Empfängers (optional)",
+      "send_on_label": "Senden am (optional)",
       "message_label": "Nachricht (optional)"
     }
   },
@@ -452,7 +459,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Um den Vorher-/Nachher-Vergleich anzuzeigen, fügen Sie bitte weitere Blöcke im Abschnitt hinzu.",
-      "percentage_shown": "Prozentsatz des angezeigten Nachher-Fotos"
+      "percentage_shown": "Prozentsatz des angezeigten Nachher-Fotos",
+      "cursor_accessibility_text": "Verwenden Sie die Pfeiltasten links und rechts, um zwischen Vorher- und Nachher-Fotos zu navigieren."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Dieses Angebot läuft am {{expiration_date}} ab",
@@ -468,6 +476,29 @@
     "shop_the_look": {
       "view_products": "Produkte anzeigen",
       "view_product": "Produkt anzeigen"
+    },
+    "quick_order_list": {
+      "products": "Produkte",
+      "variants": "Varianten",
+      "quantity": "Menge",
+      "price": "Preis",
+      "total": "Gesamt",
+      "remove": "Entfernen",
+      "quantity_rules": "Mengenvorschriften",
+      "volume_pricing": "Mengenpreise",
+      "volume_pricing_available": "Mengenpreise verfügbar",
+      "show_variants": "Varianten anzeigen",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maximum: {{ max }}",
+      "increment_of": "Schritt: {{ step }}",
+      "view_cart": "Warenkorb ansehen",
+      "remove_all": "Alle entfernen",
+      "item_count": {
+        "zero": "{{ count }} Artikel",
+        "one": "{{ count }} Artikel",
+        "other": "{{ count }} Artikel"
+      },
+      "product_subtotal": "Zwischensumme der Produkte"
     }
   }
 }

@@ -13,7 +13,9 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-<div class="section-spacing section-spacing--tight">
+{{ 'custom-marque-collection.css' | asset_url | stylesheet_tag }}
+
+<div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
   {%- if collections.size == 0 -%}
   <div class="container container--xs">
     <div class="empty-state">
@@ -129,6 +131,12 @@ LIQUID
   "class": "shopify-section--main-list-collections",
   "tag": "section",
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "checkbox",
       "id": "show_title",

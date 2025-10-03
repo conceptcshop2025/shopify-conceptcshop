@@ -19,10 +19,13 @@ Nothing
       <div class="header-search__form-control">
         {%- render 'icon' with 'search', width: 20 -%}
         <input type="search" name="q" spellcheck="false" class="header-search__input h5 sm:h4" aria-label="{{ 'search.general.title' | t | escape }}" placeholder="{{ 'search.general.search_placeholder' | t | escape }}">
-        <button type="button" is="dialog-close-button">
-          <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
-          {%- render 'icon' with 'close', width: 16 -%}
-        </button>
+
+        <dialog-close-button class="contents">
+          <button type="button">
+            <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+            {%- render 'icon' with 'close', width: 16 -%}
+          </button>
+        </dialog-close-button>
       </div>
     </form>
 

@@ -17,7 +17,9 @@
   ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
-  <div class="section-spacing {% if section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' and section.settings.background != settings.background %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
     <div class="container">
       <div class="section-stack">
         {%- if section.settings.title != blank or section.settings.subheading != blank or section.settings.content != blank -%}
@@ -28,6 +30,8 @@
           {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
           <testimonial-carousel allow-swipe {% if section.settings.auto_rotate_between_testimonials %}autoplay="{{ section.settings.cycle_speed }}"{% endif %} class="testimonial-carousel" id="{{ carousel_id }}">
+            {%- assign testimonials_with_image = section.blocks | map: 'settings' | where: 'image' -%}
+
             {%- for block in section.blocks -%}
               <div class="testimonial-item text-center {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.content != blank -%}
@@ -37,7 +41,7 @@
                 {%- endif -%}
 
                 {%- if block.settings.image != blank or block.settings.author != blank -%}
-                  <div class="v-stack justify-items-center gap-4 md:hidden">
+                  <div class="v-stack justify-items-center gap-4 {% if testimonials_with_image.size > 0 %}md:hidden{% endif %}">
                     {%- if block.settings.image != blank -%}
                       {%- assign mobile_width = block.settings.image.width | at_most: block.settings.logo_mobile_max_width -%}
                       {%- assign desktop_width = block.settings.image.width | at_most: block.settings.logo_max_width -%}
@@ -46,7 +50,7 @@
                       {%- capture sizes -%}(max-width: 699px) {{ mobile_width }}px, {{ desktop_width }}px{%- endcapture -%}
                       {%- capture style_attribute -%}--image-mobile-max-width: {{ mobile_width }}px; --image-max-width: {{ desktop_width }}px{%- endcapture -%}
 
-                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'constrained-image md:hidden', style: style_attribute -}}
+                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: widths, class: 'constrained-image md:hidden', style: style_attribute -}}
                     {%- endif -%}
 
                     {%- if block.settings.author != blank -%}
@@ -57,8 +61,6 @@
               </div>
             {%- endfor -%}
           </testimonial-carousel>
-
-          {%- assign testimonials_with_image = section.blocks | map: 'settings' | where: 'image' -%}
 
           {%- if section.blocks.size > 1 -%}
             <carousel-navigation aria-controls="{{ carousel_id }}" class="page-dots {% if testimonials_with_image.size > 0 %}md:hidden{% endif %}">
@@ -73,7 +75,7 @@
           {%- if testimonials_with_image.size > 0 -%}
             <carousel-navigation aria-controls="{{ carousel_id }}" class="testimonial-list__thumbnail-scroller hidden md:flex">
               {%- for block in section.blocks -%}
-                <button class="testimonial-list__thumbnail" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="{{ 'general.accessibility.go_to_item' | t: index: forloop.index | escape }}" {{ block.shopify_attributes }}>
+                <button class="testimonial-list__thumbnail" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" {% if block.settings.author == blank %}aria-label="{{ 'general.accessibility.go_to_item' | t: index: forloop.index | escape }}"{% endif %} {{ block.shopify_attributes }}>
                   <div class="v-stack justify-items-center gap-4">
                     {%- if block.settings.image -%}
                       {%- assign desktop_width = block.settings.image.width | at_most: block.settings.logo_max_width -%}
@@ -82,7 +84,7 @@
                       {%- capture sizes -%}{{ desktop_width }}px{%- endcapture -%}
                       {%- capture style_attribute -%}--image-max-width: {{ desktop_width }}px{%- endcapture -%}
 
-                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, style: style_attribute -}}
+                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: widths, style: style_attribute -}}
                     {%- else -%}
                       {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
                     {%- endif -%}
@@ -112,6 +114,12 @@
   },
   "settings": [
     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-3"
+    },
+    {
       "type": "checkbox",
       "id": "separate_section_with_border",
       "label": "t:global.section.separate_section_with_border",
@@ -130,7 +138,8 @@
       "step": 1,
       "unit": "sec",
       "label": "t:sections.testimonials.cycle_speed",
-      "default": 5
+      "default": 5,
+      "visible_if": "{{ section.settings.auto_rotate_between_testimonials }}"
     },
     {
       "type": "range",
@@ -159,20 +168,6 @@
       "type": "richtext",
       "id": "content",
       "label": "t:global.text.content"
-    },
-    {
-      "type": "header",
-      "content": "t:global.colors.category"
-    },
-    {
-      "type": "color",
-      "id": "background",
-      "label": "t:global.colors.background"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "t:global.colors.text"
     }
   ],
   "blocks": [
@@ -223,6 +218,7 @@
   "presets": [
     {
       "name": "t:sections.testimonials.presets.testimonials.name",
+      "category": "t:global.categories.trust_social",
       "blocks": [
         {
           "type": "testimonial",

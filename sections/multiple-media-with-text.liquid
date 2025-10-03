@@ -5,25 +5,31 @@
   ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
+  {%- liquid
+    assign use_overlap_layout = false
+
+    if section.settings.media_layout == 'overlap' and section.blocks.size > 1
+      assign use_overlap_layout = true
+    endif
+  -%}
+
   <style>
     #shopify-section-{{ section.id }} {
       --multiple-media-with-text-grid: {% if section.settings.media_position_mobile == 'before_text' %}"media-wrapper" "content-wrapper"{% else %}"content-wrapper" "media-wrapper"{% endif %} / minmax(0, 1fr);
       --multiple-media-with-text-media-alignment-offset: {{ section.settings.media_mobile_alignment_offset }}px;
       --multiple-media-with-text-media-grid: auto var(--multiple-media-with-text-media-grid-auto-rows) / auto-flow var(--multiple-media-with-text-media-grid-auto-columns);
-      --multiple-media-with-text-media-gap: {% if section.settings.media_layout == 'overlap' %}0{% else %}0.5rem{% endif %};
+      --multiple-media-with-text-media-gap: {% if use_overlap_layout %}0{% else %}0.5rem{% endif %};
 
       {%- capture grid_auto_rows -%}
-        {%- if section.blocks.size > 1 -%}
-          {%- if section.settings.media_alignment == 'start' -%}
-            [offset-start] minmax(0, var(--multiple-media-with-text-media-alignment-offset)) [offset-end main-start] minmax(0, 1fr) [main-end]
-          {%- elsif section.settings.media_alignment == 'end' -%}
-            [main-start] minmax(0, 1fr) [main-end offset-start] minmax(0, var(--multiple-media-with-text-media-alignment-offset)) [offset-end]
-          {%- endif -%}
+        {%- if section.settings.media_alignment == 'start' -%}
+          [offset-start] minmax(0, var(--multiple-media-with-text-media-alignment-offset)) [offset-end main-start] minmax(0, 1fr) [main-end]
+        {%- elsif section.settings.media_alignment == 'end' -%}
+          [main-start] minmax(0, 1fr) [main-end offset-start] minmax(0, var(--multiple-media-with-text-media-alignment-offset)) [offset-end]
         {%- endif -%}
       {%- endcapture -%}
 
       {%- capture grid_auto_columns -%}
-        {%- if section.settings.media_layout == 'overlap' -%}
+        {%- if use_overlap_layout -%}
           minmax(0, 1.75fr) minmax(0, 0.8fr) minmax(0, 0.8fr)
         {%- else -%}
           minmax(0, 1fr)
@@ -37,10 +43,10 @@
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --multiple-media-with-text-media-alignment-offset: {{ section.settings.media_alignment_offset }}px;
-        --multiple-media-with-text-media-gap: {% if section.settings.media_layout == 'overlap' %}0{% else %}0.625rem{% endif %};
+        --multiple-media-with-text-media-gap: {% if use_overlap_layout %}0{% else %}0.625rem{% endif %};
 
         {%- capture grid_auto_columns -%}
-          {%- if section.settings.media_layout == 'overlap' -%}
+          {%- if use_overlap_layout -%}
             {%- if section.settings.media_position_desktop == 'before_text' -%}
               minmax(0, 1.85fr) minmax(0, 0.35fr) minmax(0, 1.4fr)
             {%- else -%}
@@ -68,15 +74,26 @@
   ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
-  <div class="section-spacing {% if section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' and section.settings.background != settings.background %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container container--md">
-      <multiple-media-with-text {% if section.settings.reveal_on_scroll %}reveal-on-scroll="true"{% endif %} class="multiple-media-with-text {% if section.settings.media_layout == 'overlap' %}multiple-media-with-text--overlap{% endif %} {% if section.settings.media_position_desktop == 'after_text' %}multiple-media-with-text--reverse{% endif %}">
+      <multiple-media-with-text {% if section.settings.reveal_on_scroll %}reveal-on-scroll="true"{% endif %} class="multiple-media-with-text {% if use_overlap_layout %}multiple-media-with-text--overlap{% endif %} {% if section.settings.media_position_desktop == 'after_text' %}multiple-media-with-text--reverse{% endif %}">
         <div class="multiple-media-with-text__media-wrapper">
           {%- for block in section.blocks -%}
+            
             <div {{ block.shopify_attributes }} class="align-self-{{ section.settings.media_alignment }}" style="--media-rotate: {{ block.settings.rotation }}deg; {% if forloop.first %}{% if section.settings.media_alignment == 'start' %}grid-row-start: offset-end;{% elsif section.settings.media_alignment == 'end' %}grid-row-end: main-end;{% endif %}{% endif %}">
               {%- if block.type == 'image' and block.settings.image -%}
-                {%- capture sizes_attribute -%}(max-width: 699px) 50vw, 500px{%- endcapture -%}
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes_attribute, widths: '200,300,400,500,600,800,1000,1200' -}}
+                {%- liquid
+                  assign loading_strategy = 'lazy'
+
+                  if section.index <= 3 and forloop.first
+                    assign loading_strategy = 'eager'
+                  endif
+                -%}
+
+                {%- capture sizes_attribute -%}{% if loading_strategy != 'eager' %}auto, {% endif %}(max-width: 699px) 50vw, 500px{%- endcapture -%}
+                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,900,1000,1200,1400' -}}
               {%- elsif block.type == 'video' and block.settings.video -%}
                 {%- render 'media', media: block.settings.video, autoplay: true, loop: true -%}
               {%- else -%}
@@ -111,11 +128,11 @@
             {%- if section.settings.button_1_text != blank or section.settings.button_2_text != blank -%}
               <div class="button-group">
                 {%- if section.settings.button_1_text != blank -%}
-                  {%- render 'button', href: section.settings.button_1_link, content: section.settings.button_1_text, style: section.settings.button_1_style, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                  {%- render 'button', href: section.settings.button_1_link, content: section.settings.button_1_text, style: section.settings.button_1_style -%}
                 {%- endif -%}
 
                 {%- if section.settings.button_2_text != blank -%}
-                  {%- render 'button', href: section.settings.button_2_link, content: section.settings.button_2_text, style: section.settings.button_2_style, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                  {%- render 'button', href: section.settings.button_2_link, content: section.settings.button_2_text, style: section.settings.button_2_style -%}
                 {%- endif -%}
               </div>
             {%- endif -%}
@@ -136,6 +153,12 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "checkbox",
       "id": "reveal_on_scroll",
@@ -187,7 +210,6 @@
     {
       "type": "header",
       "content": "t:sections.multiple_media_with_text.media_category",
-      "info": "t:sections.multiple_media_with_text.media_category_info"
     },
     {
       "type": "select",
@@ -233,7 +255,8 @@
       "step": 2,
       "unit": "px",
       "label": "t:sections.multiple_media_with_text.media_alignment_offset",
-      "default": 0
+      "default": 0,
+      "visible_if": "{{ section.settings.media_alignment == 'start' or section.settings.media_alignment == 'end' }}"
     },
     {
       "type": "range",
@@ -243,7 +266,8 @@
       "step": 2,
       "unit": "px",
       "label": "t:sections.multiple_media_with_text.media_mobile_alignment_offset",
-      "default": 0
+      "default": 0,
+      "visible_if": "{{ section.settings.media_alignment == 'start' or section.settings.media_alignment == 'end' }}"
     },
     {
       "type": "header",
@@ -354,30 +378,6 @@
         }
       ],
       "default": "solid"
-    },
-    {
-      "type": "header",
-      "content": "t:global.colors.category"
-    },
-    {
-      "type": "color",
-      "id": "background",
-      "label": "t:global.colors.background"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "t:global.colors.text"
-    },
-    {
-      "type": "color",
-      "id": "button_background",
-      "label": "t:global.colors.button_background"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "t:global.colors.button_text"
     }
   ],
   "blocks": [
@@ -428,6 +428,7 @@
   "presets": [
     {
       "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "category": "t:global.categories.media",
       "blocks": [
         {
           "type": "image"

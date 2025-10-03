@@ -1,0 +1,100 @@
+/* wishlist */
+i.icon-swym-wishlist {
+font-family: 'swym-font';
+font-style: normal;
+vertical-align: middle;
+}
+i.icon-swym-wishlist+span {
+vertical-align: middle;
+}
+i.icon-swym-wishlist:after {
+content: '';
+font-size: 130%;
+line-height: 18px;
+text-align: center;
+display: inline;
+}
+/*content rendered after swym is ready to avoid showing block/invalid chars*/
+.swym-ready i.icon-swym-wishlist:after {
+content: '\f004';
+}
+.gallery_with_wishlist{
+  position:relative;
+}
+button.swym-button.wishlist_custom {
+  position: absolute!important;
+  background:transparent!important;
+  right:0;
+  top:20px;
+}
+.swym-add-to-wishlist-view-product:after{
+  font-size:25px;
+}
+.swym-added.swym-add-to-wishlist.wishlist_custom ,button.swym-button.swym-add-to-wishlist.swym-icontext.swym-heart.swym-loaded ,button.swym-button.swym-add-to-wishlist.swym-icontext.swym-heart.swym-added.swym-loaded{
+  background-color:transparent!important;
+}
+.swym-button .added {
+  display: none;
+}
+
+/* This CSS rule will hide the SVG with the class 'loaded' when the button has the class 'swym-added' */
+.swym-added .loaded {
+  display: none;
+}
+
+/* This CSS rule will show the SVG with the class 'added' when the button has the class 'swym-added' */
+.swym-added .added {
+  display: inline-block;
+}
+.swym-added .added path {
+      fill: #e4c0ae!important;
+ }
+@media(max-width:768px){
+   .brand-group-title-container {
+    width: 100%;
+}
+  button.swym-button.wishlist_custom{
+    top:30px;
+  }
+  .swym-add-to-wishlist-view-product:after{
+  font-size:20px;
+}
+   .brand-group-list .brand-group-list-item {
+    width: 46%;
+}
+  .brand-group-list-container {
+    width: 100%;
+}
+  .brand-nav-container{
+        flex-direction: column;
+}
+  .brand-group-list{
+    margin: 0!important;
+    gap: 10px;
+  justify-content: space-between;
+  }
+  .brand-nav {
+    align-items: center;
+    justify-content: center;
+}
+  .brand-nav-search-text{
+    margin-bottom:20px!important;
+  }
+  .header__secondary-nav .swym-wishlist{
+    order:2;
+  }
+   .header__secondary-nav a.relative.tdf_cart_icon{
+    order:3;
+  }
+}
+
+/* juniper - enlever spacing entre les 2 blocs */
+#mintty-tiktok-feed {
+  margin-top: 0px!important;
+}
+
+/* swym wishlist styles un product page */
+
+.swym-added.swym-add-to-wishlist{
+  background:transparent!important;
+}

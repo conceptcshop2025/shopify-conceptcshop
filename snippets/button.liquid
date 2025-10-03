@@ -19,13 +19,13 @@ Supported variables
 * stretch: if passed to true, a full width button is generated
 * subdued: when using the "outline" mode, this reduced the importance of the button
 * type: when href is empty, can be either "button" or "submit" (default to button if none is set)
-* is: if set, add the attribute for allowing custom elements
 * name: when the button is a real button, allow to set the name attribute that is submitted
 * icon: the name of an optional icon to render along the button
 * disabled: if set to true, the button is disabled
 * form: the form ID that this button is linked to
 * external: if set to true and that a href is passed, it opens into a new window
 * aria_controls: the ID of the element controlled
+* focusable: if set to false, a tabindex="-1" is added to ensure the button is not focusable
 * block: an optional block to output theme editor attributes
 {%- endcomment -%}
 
@@ -37,7 +37,7 @@ Supported variables
       echo 'button'
 
       if size != blank and size != 'base'
-        echo ' button-' | append: size
+        echo ' button--' | append: size
       endif
 
       if style == 'outline'
@@ -69,43 +69,43 @@ Supported variables
 
   capture attributes
     if class_attribute != blank
-      echo 'class="' | append: class_attribute | append: '"'
+      echo ' class="' | append: class_attribute | append: '"'
     endif
 
     if style_attribute != blank
-      echo 'style="' | append: style_attribute | append: '"'
+      echo ' style="' | append: style_attribute | append: '"'
     endif
 
     if aria_controls
-      echo 'aria-controls="' | append: aria_controls | append: '"'
+      echo ' aria-controls="' | append: aria_controls | append: '"'
     endif
 
     if disabled
       if href
-        echo 'role="link" aria-disabled="true"'
+        echo ' role="link" aria-disabled="true"'
       else
-        echo 'disabled'
+        echo ' disabled'
       endif
     endif
 
     if name
-      echo 'name="' | append: name | append: '"'
+      echo ' name="' | append: name | append: '"'
     endif
 
     if form
-      echo 'form="' | append: form | append: '"'
-    endif
-
-    if is
-      echo 'is="' | append: is | append: '"'
+      echo ' form="' | append: form | append: '"'
     endif
 
     if href
-      echo 'href="' | append: href | append: '"'
+      echo ' href="' | append: href | append: '"'
     endif
 
     if external and href != blank
-      echo 'target="_blank"'
+      echo ' target="_blank"'
+    endif
+
+    if focusable == false
+      echo ' tabindex="-1"'
     endif
   endcapture
 %}

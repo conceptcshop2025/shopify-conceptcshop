@@ -1,18 +1,22 @@
+{{ 'custom-main-product.css' | asset_url | stylesheet_tag }}
+
 {%- liquid
   assign has_content_below_gallery = false
 
   for block in section.blocks
+    if block.type == 'complementary_products'
+      assign has_content_below_gallery = true
+      break
+    endif
+
     unless block.settings.show_below_gallery
       continue
     endunless
 
-    if block.type == 'accordion' and block.settings.title != blank and block.settings.content != blank or block.settings.page.content != blank
+    if block.type == 'accordion' and block.settings.title != blank and block.settings.content != blank or block.settings.liquid != blank or block.settings.page.content != blank
       assign has_content_below_gallery = true
       break
     elsif block.type == 'description' and product.description != blank
-      assign has_content_below_gallery = true
-      break
-    elsif block.type == 'complementary_products' or block.type == 'reviews'
       assign has_content_below_gallery = true
       break
     endif
@@ -33,109 +37,123 @@
       {%- endif -%}
     }
   }
-  .swym-added.swym-add-to-wishlist{
-  background:transparent!important;
-}
 </style>
 
-<div class="section-spacing section-spacing--tight">
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+{%- capture product_form_id -%}product-form-main-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+
+<div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
   <div class="container {% unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
-    <div class="product">
-      {%- if product.media.size > 0 -%}
-        {%- render 'product-gallery',
-            product: product,
-            desktop_layout: section.settings.desktop_media_layout,
-            mobile_controls: section.settings.mobile_controls,
-            enable_media_autoplay: section.settings.enable_media_autoplay,
-            enable_video_looping: section.settings.enable_video_looping,
-            enable_image_zoom: section.settings.enable_image_zoom,
-            max_image_zoom_level: section.settings.max_image_zoom_level -%}
-       
-      {%- endif -%}
+    <product-rerender id="product-info-{{ product.id }}-{{ section.id }}" observe-form="{{ product_form_id }}" allow-partial-rerender>
+      <div class="product">
+        {%- if product.media.size > 0 -%}
+          {%- render 'product-gallery',
+              product: product,
+              product_form_id: product_form_id,
+              desktop_layout: section.settings.desktop_media_layout,
+              mobile_controls: section.settings.mobile_controls,
+              enable_media_autoplay: section.settings.enable_media_autoplay,
+              enable_video_looping: section.settings.enable_video_looping,
+              enable_image_zoom: section.settings.enable_image_zoom,
+              max_image_zoom_level: section.settings.max_image_zoom_level -%}
+        {%- endif -%}
 
-      {%- render 'product-info', product: product, center_basic_info: section.settings.center_basic_info, has_content_below_gallery: has_content_below_gallery, update_url: true -%}
-                              
-      {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
-      {%- if has_content_below_gallery -%}
-        <div id="product-extra-information" class="product-content-below-gallery empty:hidden scroll-margin-offset">
-          {%- for block in section.blocks -%}
-            {%- unless block.settings.show_below_gallery or block.type == 'reviews' -%}
-              {%- continue -%}
-            {%- endunless -%}
+        {%- render 'product-info', 
+          product: product, 
+          product_form_id: product_form_id,
+          center_basic_info: section.settings.center_basic_info, 
+          has_content_below_gallery: has_content_below_gallery, 
+          context: 'main_product' 
+        -%}
 
-            {%- case block.type -%}
-              {%- when 'description' -%}
-                {%- if product.description != blank -%}
-                  {%- if block.settings.collapse_content -%}
-                    {%- assign accordion_title = 'product.general.description' | t -%}
-                    {%- render 'accordion', title: accordion_title, content: product.description, prose_content: true, size: 'lg', block: block -%}
-                  {%- else -%}
-                    <div class="product-content-below-gallery__description prose">
-                      {{- product.description -}}
-                    </div>
+        {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
+        {%- if has_content_below_gallery -%}
+          <div id="product-extra-information" class="product-content-below-gallery empty:hidden scroll-margin-offset">
+            {%- for block in section.blocks -%}
+              {%- unless block.settings.show_below_gallery -%}
+                {%- continue -%}
+              {%- endunless -%}
+
+              {%- case block.type -%}
+                {%- when 'description' -%}
+                  {%- if product.description != blank -%}
+                    {%- if block.settings.collapse_content -%}
+                      {%- assign accordion_title = 'product.general.description' | t -%}
+                      {%- render 'accordion', title: accordion_title, content: product.description, prose_content: true, size: 'lg', block: block -%}
+                    {%- else -%}
+                      <div class="product-content-below-gallery__description prose">
+                        {{- product.description -}}
+                      </div>
+                    {%- endif -%}
                   {%- endif -%}
-                {%- endif -%}
 
-              {%- when 'accordion' -%}
-                {%- liquid
-                  assign accordion_title = block.settings.title | default: block.settings.page.title
-                  assign accordion_content = block.settings.page.content | default: block.settings.content
+                {%- when 'accordion' -%}
+                  {%- liquid
+                    assign accordion_title = block.settings.page.title | default: block.settings.title 
+                    assign accordion_content = block.settings.page.content | default: block.settings.liquid | default: block.settings.content
 
-                  if accordion_title != blank and accordion_content != blank
-                    render 'accordion', title: accordion_title, content: accordion_content, size: 'lg', prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
-                  endif
-                -%}
+                    if accordion_title != blank and accordion_content != blank
+                      render 'accordion', title: accordion_title, content: accordion_content, size: 'lg', prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
+                    endif
+                  -%}
 
-              {%- when 'complementary_products' -%}
-                {%- render 'complementary-products', product: product, block: block -%}
-
-              {%- when 'reviews' -%}
-                {%- capture title -%}{{ 'general.reviews.title' | t }} ({{ product.metafields.reviews.rating_count.value | default: 0 }}){%- endcapture -%}
-
-                {%- capture content -%}
-                  {%- if block.settings.liquid -%}
-                    {{- block.settings.liquid -}}
-                  {%- else -%}
-                    <div id="shopify-product-reviews" data-id="{{ product.id }}">{{ product.metafields.spr.reviews }}</div>
-                  {%- endif -%}
-                {%- endcapture -%}
-
-                {%- if block.settings.show_star_icon -%}
-                  {%- render 'accordion', title: title, content: content, is: 'reviews-disclosure', size: 'lg', icon: 'picto-star' -%}
-                {%- else -%}
-                  {%- render 'accordion', title: title, content: content, is: 'reviews-disclosure', size: 'lg' -%}
-                {%- endif -%}
-            {%- endcase -%}
-          {%- endfor -%}
-        </div>
-      {%- endif -%}
-    </div>
+                {%- when 'complementary_products' -%}
+                  {%- render 'complementary-products', product: product, block: block -%}
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </product-rerender>
   </div>
 </div>
 
 {%- if section.settings.show_sticky_add_to_cart and product.available -%}
-  {%- capture form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
-
-  <product-sticky-bar form="{{ form_id }}" class="product-sticky-bar">
-    <div class="product-sticky-bar__info sm-max:hidden">
-      <div class="h-stack gap-6">
-        {%- if product.media.size > 0 -%}
-          <variant-media widths="60,120,180" form="{{ form_id }}">
-            {%- assign default_media = product.selected_or_first_available_variant.media | default: product.featured_media -%}
+  <product-rerender id="{{ product_form_id }}-sticky-bar" observe-form="{{ product_form_id }}">
+    <product-sticky-bar form="{{ product_form_id }}" class="product-sticky-bar color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+      <div class="product-sticky-bar__info sm-max:hidden">
+        <div class="h-stack gap-6">
+          {%- if product.media.size > 0 -%}
+            {%- assign default_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
             {{- default_media | image_url: width: default_media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120,180' -}}
-          </variant-media>
-        {%- endif -%}
+          {%- endif -%}
 
-        <div class="v-stack">
-          <span class="h6">{{ product.title }}</span>
-          {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: form_id, hide_unit_price: true, context: 'card' -%}
+          <div class="v-stack">
+            <span class="h6">{{ product.title }}</span>
+
+            {%- if product.selected_or_first_available_variant != nil -%}
+              {%- render 'price-list', variant: product.selected_or_first_available_variant, hide_unit_price: true, context: 'card' -%}
+            {%- endif -%}
+          </div>
         </div>
       </div>
-    </div>
-    <div>
-      {%- render 'buy-buttons', product: product, form_id: form_id, show_payment_button: false, button_content: button_content -%}
-    </div>
-  </product-sticky-bar>
+
+      <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
+        {%- liquid
+          assign button_disabled = false
+          assign button_style = 'solid'
+
+          if product.selected_or_first_available_variant == nil
+            assign button_disabled = true
+            assign button_style = 'outline'
+            assign button_content = 'product.general.unavailable_button' | t
+          elsif product.selected_or_first_available_variant.available == false
+            assign button_disabled = true
+            assign button_style = 'outline'
+            assign button_content = 'product.general.sold_out_button' | t
+          else
+            if product.template_suffix contains 'pre-order'
+              assign button_content = 'product.general.pre_order_button' | t
+            else
+              assign button_content = 'product.general.add_to_cart_button' | t
+            endif
+          endif
+        -%}
+
+        {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
+      </buy-buttons>
+    </product-sticky-bar>
+  </product-rerender>
 {%- endif -%}
 
 {%- comment -%}
@@ -149,66 +167,16 @@ quick buy information in a template, that will be extracted in JS, which ensures
 <script>
   // We save the product ID in local storage to be eventually used for recently viewed section
   try {
-    const recentlyViewedProducts = new Set(JSON.parse(localStorage.getItem('theme:recently-viewed-products') || '[]'));
+    let recentlyViewedProducts = JSON.parse(localStorage.getItem('theme:recently-viewed-products') || '[]');
 
-    recentlyViewedProducts.delete({{ product.id }}); // Delete first to re-move the product to the start
-    recentlyViewedProducts.add({{ product.id }});
+    recentlyViewedProducts = recentlyViewedProducts.filter(item => item !== {{ product.id }}); // Delete product to remove to the start
+    recentlyViewedProducts.unshift({{ product.id }}); // Add at the start
 
-    localStorage.setItem('theme:recently-viewed-products', JSON.stringify(Array.from(recentlyViewedProducts.values()).reverse()));
+    localStorage.setItem('theme:recently-viewed-products', JSON.stringify(recentlyViewedProducts));
   } catch (e) {
     // Safari in private mode does not allow setting item, we silently fail
   }
 </script>
-
-<script>
-  // Bloc de données pour chaque variante
-  var variantMetafields = {
-    {% for variant in product.variants %}
-      "{{ variant.id }}": {
-        "inventoryPolicy": "{{ variant.inventory_policy }}"
-      }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  };
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector('form[action*="/cart/add"]');
-    if (!form || typeof variantMetafields !== "object") return;
-
-    function shouldHideBIS(variantId) {
-      const variant = variantMetafields[variantId];
-      return variant && variant.inventoryPolicy === "continue";
-    }
-
-    function hideBISIfNeeded() {
-      const variantId = form.querySelector('[name="id"]')?.value;
-      if (!variantId) return;
-
-      const bisButton = document.getElementById("BIS_trigger");
-      if (shouldHideBIS(variantId) && bisButton) {
-        bisButton.style.setProperty("display", "none", "important");
-      }
-    }
-
-    // 1. Surveiller les changements de variante
-    form.addEventListener("change", () => {
-      setTimeout(hideBISIfNeeded, 100); 
-    });
-
-    // 2. MutationObserver pour réagir à toute injection dynamique
-    const observer = new MutationObserver(() => {
-      hideBISIfNeeded();
-    });
-
-    observer.observe(document.body, { childList: true, subtree: true });
-
-    // 3. Au chargement initial
-    setTimeout(hideBISIfNeeded, 200);
-  });
-</script>
-
-
 
 {% schema %}
 {
@@ -216,6 +184,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
   "class": "shopify-section--main-product",
   "tag": "section",
   "settings": [
+   {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "select",
       "id": "container_size",
@@ -517,48 +491,46 @@ quick buy information in a template, that will be extracted in JS, which ensures
         },
         {
           "type": "select",
-          "id": "selector_type",
-          "label": "t:sections.main_product.blocks.variant_picker.selector_type",
+          "id": "selector_style",
+          "label": "t:sections.main_product.blocks.variant_picker.selector_style",
           "options": [
             {
               "value": "block",
-              "label": "t:sections.main_product.blocks.variant_picker.selector_type_options.block"
+              "label": "t:sections.main_product.blocks.variant_picker.selector_style_options.block"
             },
             {
               "value": "dropdown",
-              "label": "t:sections.main_product.blocks.variant_picker.selector_type_options.dropdown"
+              "label": "t:sections.main_product.blocks.variant_picker.selector_style_options.dropdown"
             }
           ],
           "default": "block"
         },
         {
           "type": "select",
-          "id": "color_selector_type",
-          "label": "t:sections.main_product.blocks.variant_picker.color_selector_type",
-          "info": "t:sections.main_product.blocks.variant_picker.color_selector_type_info",
+          "id": "swatch_selector_style",
+          "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style",
+          "info": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_info",
           "options": [
             {
-              "value": "block",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.block"
+              "value": "swatch",
+              "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_options.swatch"
             },
             {
               "value": "block_swatch",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.block_swatch"
+              "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_options.block_swatch"
             },
             {
-              "value": "dropdown",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.dropdown"
-            },
-            {
-              "value": "color",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.color_swatch"
-            },
-            {
-              "value": "variant",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.variant_image"
+              "value": "none",
+              "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_options.none"
             }
           ],
-          "default": "color"
+          "default": "swatch"
+        },
+        {
+          "type": "text",
+          "id": "variant_image_options",
+          "label": "t:sections.main_product.blocks.variant_picker.variant_image_options",
+          "info": "t:sections.main_product.blocks.variant_picker.variant_image_options_info"
         },
         {
           "type": "page",
@@ -596,28 +568,27 @@ quick buy information in a template, that will be extracted in JS, which ensures
         },
         {
           "type": "select",
-          "id": "color_selector_type",
-          "label": "t:sections.main_product.blocks.variant_picker.color_selector_type",
-          "info": "t:sections.main_product.blocks.variant_picker.color_selector_type_info",
+          "id": "selector_style",
+          "label": "t:sections.main_product.blocks.variant_picker.selector_style",
           "options": [
             {
               "value": "block",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.block"
+              "label": "t:sections.main_product.blocks.variant_picker.selector_style_options.block"
             },
             {
               "value": "block_swatch",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.block_swatch"
+              "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_options.block_swatch"
             },
             {
-              "value": "color",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.color_swatch"
+              "value": "swatch",
+              "label": "t:sections.main_product.blocks.variant_picker.swatch_selector_style_options.swatch"
             },
             {
-              "value": "variant",
-              "label": "t:sections.main_product.blocks.variant_picker.color_selector_type_options.variant_image"
+              "value": "variant_image",
+              "label": "t:sections.main_product.blocks.variant_picker.selector_style_options.variant_image"
             }
           ],
-          "default": "color"
+          "default": "swatch"
         }
       ]
     },
@@ -665,42 +636,46 @@ quick buy information in a template, that will be extracted in JS, which ensures
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.text_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.text_type_category_info"
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "checkbox",
           "id": "allow_long_text",
           "label": "t:sections.main_product.blocks.line_item_property.text_type_allow_long_text",
-          "default": false
+          "default": false,
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "number",
           "id": "max_length",
-          "label": "t:sections.main_product.blocks.line_item_property.text_type_max_length"
+          "label": "t:sections.main_product.blocks.line_item_property.text_type_max_length",
+          "visible_if": "{{ block.settings.type == 'text' }}"
         },
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.checkbox_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.checkbox_type_category_info"
+          "visible_if": "{{ block.settings.type == 'checkbox' }}"
         },
         {
           "type": "text",
           "id": "checkbox_value",
           "label": "t:sections.main_product.blocks.line_item_property.checkbox_value",
           "info": "t:sections.main_product.blocks.line_item_property.checkbox_value_info",
-          "default": "Yes"
+          "default": "Yes",
+          "visible_if": "{{ block.settings.type == 'checkbox' }}"
         },
         {
           "type": "header",
           "content": "t:sections.main_product.blocks.line_item_property.dropdown_type_category",
-          "info": "t:sections.main_product.blocks.line_item_property.dropdown_type_category_info"
+          "visible_if": "{{ block.settings.type == 'dropdown' }}"
         },
         {
           "type": "text",
           "id": "select_values",
           "label": "t:sections.main_product.blocks.line_item_property.dropdown_values",
           "info": "t:sections.main_product.blocks.line_item_property.dropdown_values_info",
-          "default": "Value 1,Value 2,Value 3"
+          "default": "Value 1,Value 2,Value 3",
+          "visible_if": "{{ block.settings.type == 'dropdown' }}"
         }
       ]
     },
@@ -712,6 +687,17 @@ quick buy information in a template, that will be extracted in JS, which ensures
         {
           "type": "paragraph",
           "content": "t:sections.main_product.blocks.quantity_selector.instructions"
+        }
+      ]
+    },
+    {
+      "type": "volume_pricing",
+      "name": "t:sections.main_product.blocks.volume_pricing.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:sections.main_product.blocks.volume_pricing.instructions"
         }
       ]
     },
@@ -843,29 +829,6 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "id": "show_quick_buy",
           "label": "t:sections.main_product.blocks.complementary_products.show_quick_buy",
           "default": true
-        }
-      ]
-    },
-    {
-      "type": "reviews",
-      "name": "t:sections.main_product.blocks.reviews.name",
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:sections.main_product.blocks.reviews.instructions"
-        },
-        {
-          "type": "checkbox",
-          "id": "show_star_icon",
-          "label": "t:sections.main_product.blocks.reviews.show_star_icon",
-          "default": false
-        },
-        {
-          "type": "liquid",
-          "id": "liquid",
-          "label": "t:sections.main_product.blocks.reviews.liquid",
-          "info": "t:sections.main_product.blocks.reviews.liquid_info",
-          "default": "<div id=\"shopify-product-reviews\" data-id=\"{{ product.id }}\">{{ product.metafields.spr.reviews }}</div>"
         }
       ]
     },
@@ -1619,6 +1582,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "default": "<p>Share some content to your customers about your products.</p>"
         },
         {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "t:global.code.liquid",
+          "info": "t:sections.main_product.blocks.collapsible_text.liquid_info"
+        },
+        {
           "type": "page",
           "id": "page",
           "label": "t:sections.main_product.blocks.collapsible_text.page",
@@ -1762,7 +1731,8 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "step": 10,
           "unit": "px",
           "label": "t:global.image.maximum_width",
-          "default": 300
+          "default": 300,
+          "visible_if": "{{ block.settings.width_mode == 'custom' }}"
         },
         {
           "type": "range",
@@ -1772,7 +1742,8 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "step": 10,
           "unit": "px",
           "label": "t:global.image.mobile_maximum_width",
-          "default": 200
+          "default": 200,
+          "visible_if": "{{ block.settings.width_mode == 'custom' }}"
         }
       ]
     },
