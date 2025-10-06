@@ -4,9 +4,11 @@
   }
 </style>
 
-<div class="article">
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="article color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
   {%- if section.settings.show_sticky_bar -%}
-    <article-toolbar class="article__toolbar sm-max:hidden" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
+    <article-toolbar class="article__toolbar color-scheme color-scheme--{{ section.settings.toolbar_color_scheme.id }} sm-max:hidden">
       <div class="container">
         <div class="h-stack justify-between">
           <p class="h-stack gap-1">
@@ -45,12 +47,14 @@
   {%- endif -%}
 
   {%- if section.settings.show_image and article.image -%}
-    {%- if section.settings.enable_parallax -%}
-      {%- assign is_attribute = 'image-parallax' -%}
-    {%- endif -%}
-
     <div class="article__image">
-      {{- article.image | image_url: width: article.image.width | image_tag: is: is_attribute, loading: 'lazy' , widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'w-full' -}}
+      {%- if section.settings.enable_parallax -%}
+        <image-parallax class="contents">
+          {{- article.image | image_url: width: article.image.width | image_tag: widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'w-full' -}}
+        </image-parallax>
+      {%- else -%}
+        {{- article.image | image_url: width: article.image.width | image_tag: widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'w-full' -}}
+      {%- endif -%}
     </div>
   {%- endif -%}
 
@@ -83,14 +87,46 @@
       </div>
 
       {%- if section.settings.show_author or section.settings.show_share_buttons -%}
+        {%- if section.settings.show_author and article.user.bio != blank or article.user.image != blank or article.user.homepage != blank -%}
+          {%- assign has_extended_profile = true -%}
+        {%- else -%}
+          {%- assign has_extended_profile = false -%}
+        {%- endif -%}
+
         <div class="article__footer">
-          {%- if section.settings.show_author -%}
-            <p class="h6 text-subdued">{{ 'blog.post.written_by' | t: author: article.author }}</p>
+          {%- if has_extended_profile -%}
+            <div class="article__author">
+              {%- if article.user.image != blank -%}
+                {{- article.user.image | image_url: width: article.user.image.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120,180', class: 'article__author-image' -}}
+              {%- endif -%}
+
+              <div class="v-stack gap-3 justify-items-start">
+                <p class="h6">{{ 'blog.post.written_by' | t: author: article.author }}</p>
+
+                {%- if article.user.bio != blank -%}
+                  <div class="prose">
+                    {{- article.user.bio -}}
+                  </div>
+                {%- endif -%}
+
+                {%- if article.user.homepage != blank -%}
+                  <a href="{{ article.user.homepage }}" class="link" target="_blank">{{ 'blog.post.visit_author_website' | t }}</a>
+                {%- endif -%}
+              </div>
+            </div>
           {%- endif -%}
 
-          {%- if section.settings.show_share_buttons -%}
-            {%- render 'share-buttons', layout: 'block', url: article.url, title: article.title, description: article.content -%}
-          {%- endif -%}
+          <div class="article__footer-bottom">
+            {%- if section.settings.show_author and has_extended_profile == false -%}
+              <p class="h6 text-subdued">{{ 'blog.post.written_by' | t: author: article.author }}</p>
+            {%- elsif section.settings.show_share_buttons -%}
+              <p class="h6 text-subdued">{{ 'blog.post.share' | t }}</p>
+            {%- endif -%}
+
+            {%- if section.settings.show_share_buttons -%}
+              {%- render 'share-buttons', layout: 'block', url: article.url, title: article.title, description: article.content -%}
+            {%- endif -%}
+          </div>
         </div>
       {%- endif -%}
     </div>
@@ -185,6 +221,12 @@
   "tag": "section",
   "settings": [
     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
       "type": "paragraph",
       "content": "t:sections.main_article.comments_category_info"
     },
@@ -202,7 +244,8 @@
       "type": "checkbox",
       "id": "enable_parallax",
       "label": "t:sections.main_article.enable_parallax",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.show_image }}"
     },
     {
       "type": "select",
@@ -226,7 +269,8 @@
           "value": "large"
         }
       ],
-      "default": "medium"
+      "default": "medium",
+      "visible_if": "{{ section.settings.show_image }}"
     },
     {
       "type": "header",
@@ -292,16 +336,10 @@
       "default": true
     },
     {
-      "type": "color",
-      "id": "background",
-      "label": "t:global.colors.background",
-      "default": "#1c1c1c"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "t:global.colors.text",
-      "default": "#ffffff"
+      "type": "color_scheme",
+      "id": "toolbar_color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-3"
     }
   ]
 }

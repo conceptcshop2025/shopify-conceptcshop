@@ -86,26 +86,13 @@ Nothing
               {%- assign collections_count = 5 -%}
             {%- endif -%}
 
-           {% comment %}
             {%- assign collection_results = predictive_search.resources.collections | slice: 0, collections_count -%}
 
             <div class="predictive-search__collections" style="--collection-list-items-per-row: {{ collections_count }}">
               {%- render 'predictive-search-result-item' for collection_results as collection, type: 'collection' -%}
             </div>
           </div>
-                  original{% endcomment %}
-
-            {%- assign collection_results = predictive_search.resources.collections | slice: 0, collections_count -%}
-
-<div class="predictive-search__collections" style="--collection-list-items-per-row: {{ collections_count }}">
-  {%- for collection in collection_results -%}
-    {%- unless collection.handle contains 'gwp' or collection.handle contains 'vip' -%}
-      {%- render 'predictive-search-result-item', collection: collection, type: 'collection' -%}
-    {%- endunless -%}
-  {%- endfor -%}
-</div>
-          {%- endif -%}
-
+        {%- endif -%}
 
         {%- if predictive_search.resources.articles.size > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.posts' | t }}</button>
@@ -137,7 +124,7 @@ Nothing
       </x-tabs>
     </div>
   {%- else -%}
-    <p class="predictive-search__no-results text-lg">{{ 'search.general.no_results' | t }}</p>
+    <p class="predictive-search__no-results text-lg">{{ 'search.general.no_results' | t: terms: predictive_search.terms }}</p>
   {%- endif -%}
 {%- elsif search.performed -%}
   {%- if search.results_count > 0 -%}
@@ -206,7 +193,7 @@ Nothing
       </x-tabs>
     </div>
   {%- else -%}
-    <p class="predictive-search__no-results text-lg">{{ 'search.general.no_results' | t }}</p>
+    <p class="predictive-search__no-results text-lg">{{ 'search.general.no_results' | t: terms: search.terms }}</p>
   {%- endif -%}
 {%- endif -%}
 

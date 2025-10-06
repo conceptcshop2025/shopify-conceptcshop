@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "page": "페이지 {{ page }}",
@@ -57,7 +48,9 @@
     },
     "localization": {
       "country": "국가",
-      "language": "언어"
+      "language": "언어",
+      "change_country_accessibility_text": "국가 또는 통화를 변경",
+      "change_language_accessibility_text": "언어 변경"
     },
     "privacy_banner": {
       "accept": "수락",
@@ -79,14 +72,12 @@
   "header": {
     "general": {
       "account": "계정",
+      "login": "로그인",
       "search": "검색",
       "cart": "장바구니",
       "primary_navigation": "기본 탐색",
       "secondary_navigation": "보조 탐색",
-      "open_menu": "탐색 메뉴 열기",
-      "open_search": "검색 열기",
-      "open_account": "계정 페이지 열기",
-      "open_cart": "장바구니 열기 "
+      "menu": "메뉴"
     }
   },
   "product": {
@@ -128,7 +119,15 @@
       "change_quantity": "수량 변경",
       "increase_quantity": "수량 늘리기",
       "decrease_quantity": "수량 줄이기",
+      "minimum_of": "최소 {{ min }}",
+      "maximum_of": "최대 {{ max }}",
+      "increment_of": "증가 {{ step }}",
       "cannot_add_more": "더 이상 추가할 수 없습니다"
+    },
+    "volume_pricing": {
+      "title": "수량별 가격 책정",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "개당 {{ price }}"
     },
     "rating_count": {
       "zero": "리뷰 없음",
@@ -136,6 +135,7 @@
     },
     "inventory": {
       "in_stock": "재고 있음",
+      "low_stock": "단 몇 개의 제품만 남아 있습니다",
       "in_stock_with_quantity_count": {
         "one": "재고 {{ count }}개",
         "other": "재고 {{ count }}개"
@@ -198,6 +198,7 @@
     },
     "post": {
       "written_by": "{{ author }} 작성",
+      "visit_author_website": "저자의 웹사이트 방문",
       "share": "공유",
       "tags": "태그"
     },
@@ -358,7 +359,8 @@
       "product": "상품 ",
       "total": "합계",
       "quantity": "수량",
-      "remove": "제거"
+      "remove": "제거",
+      "remove_with_title": "{{ title }} 제거"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "{{ remaining_amount }} 더 구매하면 배송료가 무료입니다!",
@@ -374,6 +376,10 @@
       "one_result": "귀하의 주소에는 한 가지 배송 옵션이 있습니다:",
       "multiple_results": "귀하의 주소에는 여러 개의 배송 옵션이 있습니다:",
       "error": "배송 옵션을 불러오던 중 한 개 이상의 오류가 발생했습니다:"
+    },
+    "discount": {
+      "label": "할인 코드",
+      "error": "유효한 할인 코드를 입력하세요"
     }
   },
   "404": {
@@ -425,6 +431,7 @@
       "checkbox": "선물로 보내고 싶습니다.",
       "email_label": "수신자 이메일",
       "name_label": "수신자 이름(선택 사항)",
+      "send_on_label": "전송 날짜(선택 사항)",
       "message_label": "메시지(선택 사항)"
     }
   },
@@ -446,7 +453,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "비포/애프터 비교를 표시하려면, 섹션에서 블록을 더 많이 추가하세요.",
-      "percentage_shown": "표시되는 애프터 사진 비율"
+      "percentage_shown": "표시되는 애프터 사진 비율",
+      "cursor_accessibility_text": "왼쪽과 오른쪽 화살표 키를 사용하여 이전 및 이후 사진을 탐색하십시오."
     },
     "countdown_timer": {
       "expires_accessibility_text": "이 혜택은 {{expiration_date}}에 만료됩니다",
@@ -462,6 +470,29 @@
     "shop_the_look": {
       "view_products": "상품 보기",
       "view_product": "상품 보기"
+    },
+    "quick_order_list": {
+      "products": "제품",
+      "variants": "옵션",
+      "quantity": "수량",
+      "price": "가격",
+      "total": "합계",
+      "remove": "제거",
+      "quantity_rules": "수량 규칙",
+      "volume_pricing": "대량 구매 가격",
+      "volume_pricing_available": "대량 구매 가능",
+      "show_variants": "옵션 보기",
+      "minimum_of": "최소: {{ min }}",
+      "maximum_of": "최대: {{ max }}",
+      "increment_of": "증가: {{ step }}",
+      "view_cart": "장바구니 보기",
+      "remove_all": "모두 제거",
+      "item_count": {
+        "zero": "{{ count }} 개",
+        "one": "{{ count }} 개",
+        "other": "{{ count }} 개"
+      },
+      "product_subtotal": "제품 소계"
     }
   }
 }

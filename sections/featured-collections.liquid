@@ -1,4 +1,7 @@
 {%- if section.blocks.size > 0 -%}
+  {{ 'custom-product-badges.css' | asset_url | stylesheet_tag }}
+  {{ 'custom-featured-collections.css' | asset_url | stylesheet_tag }}
+
   <style>
     #shopify-section-{{ section.id }} {
       --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
@@ -13,7 +16,9 @@
     }
   </style>
 
-  <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container">
       {%- assign wrapper_carousel_id = 'featured-collections-carousel-' | append: section.id -%}
 
@@ -32,7 +37,7 @@
               {%- endfor -%}
             </carousel-navigation>
           {%- else -%}
-            <p class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</p>
+            <h2 class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</h2>
           {%- endif -%}
         </div>
 
@@ -47,7 +52,7 @@
                 {%- endif -%}
 
                 {%- for product in block.settings.collection.products limit: block.settings.products_count -%}
-                  {%- render 'product-card', product: product, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
+                  {%- render 'custom-product-card', product: product, reveal: should_reveal, position: forloop.index, hide_product_information: section.settings.hide_product_information, block: block -%}
                 {%- else -%}
                   {%- for i in (1..block.settings.products_count) -%}
                     {%- render 'product-card-placeholder', reveal: should_reveal, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
@@ -63,19 +68,23 @@
                 {%- assign product_carousel_id = 'featured-collections-product-list-carousel-' | append: block.id -%}
 
                 <product-list class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover">
+                  <carousel-prev-button class="floating-controls-container__control" aria-controls="{{ product_carousel_id }}">
+                    <button type="button" class="prev-next-button prev-next-button--prev circle-button hover:animate-icon-inline" disabled>
+                      <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+                      {%- render 'icon' with 'arrow-left', direction_aware: true -%}
+                    </button>
+                  </carousel-prev-button>
+
                   <scroll-carousel id="{{ product_carousel_id }}" group-cells allow-drag class="product-list {% if section.settings.hide_product_information %}product-list--compact{% endif %} product-list--carousel scroll-area bleed md:unbleed">
                     {{- product_list -}}
                   </scroll-carousel>
-
-                  <button is="carousel-prev-button" type="button" class="prev-next-button prev-next-button--prev circle-button hover:animate-icon-inline" aria-controls="{{ product_carousel_id }}" disabled>
-                    <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
-                    {%- render 'icon' with 'arrow-left', direction_aware: true -%}
-                  </button>
-
-                  <button is="carousel-next-button" type="button" class="prev-next-button prev-next-button--next circle-button hover:animate-icon-inline" aria-controls="{{ product_carousel_id }}">
-                    <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
-                    {%- render 'icon' with 'arrow-right', direction_aware: true -%}
-                  </button>
+                  
+                  <carousel-next-button class="floating-controls-container__control" aria-controls="{{ product_carousel_id }}">
+                    <button type="button" class="prev-next-button prev-next-button--next circle-button hover:animate-icon-inline">
+                      <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+                      {%- render 'icon' with 'arrow-right', direction_aware: true -%}
+                    </button>
+                  </carousel-next-button>
                 </product-list>
               {%- endif -%}
 
@@ -105,6 +114,12 @@
   },
   "max_blocks": 5,
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "checkbox",
       "id": "separate_section_with_border",
@@ -141,7 +156,8 @@
           "label": "2"
         }
       ],
-      "default": "2"
+      "default": "2",
+      "visible_if": "{{ section.settings.stack_products }}"
     },
     {
       "type": "range",
@@ -150,7 +166,8 @@
       "max": 6,
       "label": "t:global.product_list.products_per_row_desktop",
       "info": "t:global.product_list.products_per_row_desktop_info",
-      "default": 4
+      "default": 4,
+      "visible_if": "{{ section.settings.stack_products }}"
     },
     {
       "type": "header",
@@ -228,6 +245,7 @@
   "presets": [
     {
       "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "category": "t:global.categories.collections",
       "blocks": [
         {
           "type": "collection"

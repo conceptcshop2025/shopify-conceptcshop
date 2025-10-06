@@ -24,9 +24,11 @@ user attention. A drawer opens using a slide effect (on desktop) from left or ri
       <header part="header">
         <slot name="header"></slot>
 
-        <button type="button" is="dialog-close-button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
-          {%- render 'icon' with 'close', width: 14 -%}
-        </button>
+        <dialog-close-button style="display: contents">
+          <button type="button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+            {%- render 'icon' with 'close', width: 14 -%}
+          </button>
+        </dialog-close-button>
       </header>
 
       <div part="body">
@@ -53,9 +55,11 @@ opens at the middle of the page, and therefore provides a bigger impact.
       <header part="header">
         <slot name="header"></slot>
 
-        <button type="button" is="dialog-close-button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
-          {%- render 'icon' with 'close', width: 14 -%}
-        </button>
+        <dialog-close-button style="display: contents">
+          <button type="button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+            {%- render 'icon' with 'close', width: 14 -%}
+          </button>
+        </dialog-close-button>
       </header>
 
       <div part="body">
@@ -77,9 +81,11 @@ that does not open full width (it stays in the flow of the page).
       <header part="header">
         <slot name="header"></slot>
 
-        <button type="button" is="dialog-close-button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
-          {%- render 'icon' with 'close', width: 14 -%}
-        </button>
+        <dialog-close-button style="display: contents">
+          <button type="button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+            {%- render 'icon' with 'close', width: 14 -%}
+          </button>
+        </dialog-close-button>
       </header>
 
       <div part="body">
@@ -107,6 +113,6 @@ HEADER SEARCH: this is the header search when the user click on the search icon
   <slot></slot>
 
   <svg part="play-button" fill="none" width="48" height="48" viewBox="0 0 48 48">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M48 24c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0s24 10.745 24 24Zm-18 0-9-6.6v13.2l9-6.6Z" fill="var(--play-button-background, {{ settings.background }})"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M48 24c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0s24 10.745 24 24Zm-18 0-9-6.6v13.2l9-6.6Z" fill="var(--play-button-background, {{ settings.default_color_scheme.settings.background }})"/>
   </svg>
 </template>

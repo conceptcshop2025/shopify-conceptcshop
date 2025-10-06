@@ -50,14 +50,16 @@
       "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
     },
     "newsletter": {
-      "email": "Votre Courriel",
+      "email": "E-mail",
       "subscribe": "S'inscrire",
       "notify_me": "Me notifier",
       "subscribed_successfully": "Vous êtes maintenant inscrit à notre newsletter."
     },
     "localization": {
       "country": "Pays",
-      "language": "Langue"
+      "language": "Langue",
+      "change_country_accessibility_text": "Changer de pays ou de devise",
+      "change_language_accessibility_text": "Changer de langue"
     },
     "privacy_banner": {
       "accept": "Accepter",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Compte",
+      "login": "Connexion",
       "search": "Recherche",
       "cart": "Panier",
       "primary_navigation": "Navigation principale",
       "secondary_navigation": "Navigation secondaire",
-      "open_menu": "Ouvrir la navigation",
-      "open_search": "Ouvrir la recherche",
-      "open_account": "Ouvrir le compte utilisation",
-      "open_cart": "Voir le panier"
+      "menu": "Menu"
     }
   },
   "product": {
@@ -96,26 +96,24 @@
       "add_to_cart_button": "Ajouter au panier",
       "pre_order_button": "Pré-commander",
       "sold_out_button": "En rupture",
-      "sold_out_cart": "Rupture",
       "unavailable_button": "Indisponible",
       "choose_options": "Choisir les options",
       "added_to_cart": "Produit ajouté au panier !",
-      "sold_out_badge": "RUPTURE",
-      "on_sale_badge": "EN SOLDE",
+      "sold_out_badge": "En rupture",
+      "on_sale_badge": "Promo",
+      "on_sale": "En solde",
       "discount_badge_html": "Economisez {{ savings }}",
       "sku": "SKU:",
       "variant": "Variant",
       "view_in_space": "Afficher dans votre espace",
       "taxes_included": "Taxes inclues",
       "taxes_excluded": "Taxes exclues",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> à la caisse",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés<\/a> au paiement",
       "size_chart": "Guide des tailles",
       "available_colors_count": {
         "one": "{{ count }} couleur",
         "other": "{{ count }} couleurs"
-      },
-      "pickup_cart_button": "Ramassage en boutique",
-      "pickup_in_store_button_custom": "Ramassage en boutique"
+      }
     },
     "gallery": {
       "close": "Fermer la galerie",
@@ -132,7 +130,15 @@
       "change_quantity": "Changer la quantité",
       "increase_quantity": "Augmenter la quantité",
       "decrease_quantity": "Diminuer la quantité",
+      "minimum_of": "Minimum de {{ min }}",
+      "maximum_of": "Maximum de {{ max }}",
+      "increment_of": "Incrément de {{ step }}",
       "cannot_add_more": "Impossible d'en ajouter plus"
+    },
+    "volume_pricing": {
+      "title": "Tarification basée sur le volume",
+      "minimum": "{{ quantity }} ou plus",
+      "price_at_each": "à {{ price }}/pièce"
     },
     "rating_count": {
       "zero": "Aucun avis",
@@ -141,6 +147,7 @@
     },
     "inventory": {
       "in_stock": "En stock",
+      "low_stock": "Il ne reste que quelques unités",
       "oversell_stock": "Re-stockage imminent",
       "incoming_stock": "Re-stockage le {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
@@ -159,16 +166,7 @@
       "pick_up_available": "Récupération disponible",
       "pick_up_currently_unavailable": "Récupération actuellement indisponible",
       "pick_up_available_at": "Récupération disponible à {{ location_name }}",
-      "pick_up_unavailable_at": "Récupération actuellement indisponible à {{ location_name }}",
-      "pick_up_available_at_custom": "Ramassage disponible à {{ boutique_name }}",
-      "pick_up_unavailable_at_custom": "Ramassage indisponible à {{ boutique_name }}",
-      "shipping_available_custom": "Livraison disponible (Canada)",
-      "shipping_unavailable_custom": "Livraison indisponible",
-      "outofstock_custom": "En rupture",
-      "pickup_delay_custom": "Prête en 4h",
-      "shipping_delay_custom": "Expédié rapidement",
-      "no_shipping_product_custom": "Envoyé par courriel",
-      "no_shipping_product_delay_custom": "Immédiatement après l'achat"
+      "pick_up_unavailable_at": "Récupération actuellement indisponible à {{ location_name }}"
     }
   },
   "collection": {
@@ -176,7 +174,8 @@
       "empty_collection": "Cette collection est vide",
       "all_collections": "Toutes les collections",
       "no_collections": "Cette boutique ne contient aucune collection.",
-      "continue_shopping": "Retourner magasiner"
+      "continue_shopping": "Continue shopping",
+      "product_card_out_of_stock": "Me notifier"
     },
     "products_count": {
       "zero": "{{ count }} produit",
@@ -208,6 +207,7 @@
     },
     "post": {
       "written_by": "Ecrit par {{ author }}",
+      "visit_author_website": "Visiter le site de l'auteur",
       "share": "Partager",
       "tags": "Tags"
     },
@@ -326,7 +326,7 @@
       "billing_address": "Adresse de facturation"
     },
     "addresses": {
-      "title": "Addresses",
+      "title": "Adresses",
       "no_addresses": "Vous n'avez aucune adresse enregistrée.",
       "add_address": "Ajouter une adresse",
       "edit_address": "Modifier une adresse",
@@ -375,9 +375,9 @@
     "order": {
       "product": "Produit",
       "total": "Total",
-      "quantity": "Quantité",     
-      "availability": "Disponibilité",
-      "remove": "Supprimer"
+      "quantity": "Quantité",
+      "remove": "Supprimer",
+      "remove_with_title": "Supprimer {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
@@ -393,6 +393,10 @@
       "one_result": "Il y a un résultat pour votre adresse :",
       "multiple_results": "Il y a plusieurs résultats pour votre adresse :",
       "error": "Impossible d'estimer les frais de livraison :"
+    },
+    "discount": {
+      "label": "Code de réduction",
+      "error": "Saisissez un code de réduction valide"
     }
   },
   "404": {
@@ -435,7 +439,7 @@
     },
     "issued": {
       "remaining_amount": "Montant restant",
-      "redeem_instructions": "Rentrez code code à la caisse pour utiliser votre carte cadeau :",
+      "redeem_instructions": "Rentrez ce code au moment du paiement pour utiliser votre carte cadeau :",
       "code": "Code de la carte cadeau",
       "amount": "Montant : {{ initial_value }}",
       "expires_on": "Expires on: {{ expires_on }}",
@@ -448,6 +452,7 @@
       "checkbox": "Je veux envoyer ce produit comme cadeau",
       "email_label": "E‑mail du destinataire",
       "name_label": "Nom du destinataire (facultatif)",
+      "send_on_label": "Envoyer le (facultatif)",
       "message_label": "Message (facultatif)"
     }
   },
@@ -469,7 +474,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Pour afficher la comparaison avant/après, veuillez ajouter des blocs dans la section.",
-      "percentage_shown": "Pourcentage affiché de la photo après"
+      "percentage_shown": "Pourcentage affiché de la photo après",
+      "cursor_accessibility_text": "Utilisez les flèches droite et gauche pour naviguer dans les images avant et après."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Cette offre expire le {{expiration_date}}",
@@ -485,11 +491,32 @@
     "shop_the_look": {
       "view_products": "Voir les produits",
       "view_product": "Voir le produit"
-    }
-  },
-  "shopify": {
-    "attributes": {
-      "email": "Votre courriel"
+    },
+    "quick_order_list": {
+      "products": "Produits",
+      "variants": "Variantes",
+      "quantity": "Quantité",
+      "price": "Prix",
+      "total": "Total",
+      "remove": "Supprimer",
+      "quantity_rules": "Règles de quantité",
+      "volume_pricing": "Tarification par volume",
+      "volume_pricing_available": "Tarification par volume disponible",
+      "show_variants": "Afficher les variantes",
+      "minimum_of": "Minimum : {{ min }}",
+      "maximum_of": "Maximum : {{ max }}",
+      "increment_of": "Incrément : {{ step }}",
+      "view_cart": "Voir le panier",
+      "remove_all": "Tout supprimer",
+      "item_count": {
+        "zero": "{{ count }} produits",
+        "one": "{{ count }} produit",
+        "other": "{{ count }} produits"
+      },
+      "product_subtotal": "Sous-total des produits"
+    },
+    "custom_quick_add_button": {
+      "label_button": "Ajouter"
     }
   }
 }

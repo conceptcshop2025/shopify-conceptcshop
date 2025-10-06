@@ -1,0 +1,4 @@
+.badge-new,
+.badge-sale {
+  color: rgb(var(--text-color));
+}

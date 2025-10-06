@@ -43,8 +43,12 @@ Supported variables
   endif
 -%}
 
+{% if product.metafields.reviews.rating.value == blank %}
+  <span></span>
+{% endif %}
+
 {%- unless hide_rating -%}
-  <a href="{% if request.path != product.url %}{{ product.url }}{% endif %}#shopify-product-reviews" class="rating-badge" title="{{ 'product.rating_count' | t: count: rating_count }}">
+  <span class="rating-badge" title="{{ 'product.rating_count' | t: count: rating_count }}">
     <div class="rating-badge__stars" role="img" aria-label="{{ 'general.rating.info' | t: rating_value: rating_value, rating_max: rating_max }}">
       {%- liquid
         if show_single_star
@@ -82,5 +86,5 @@ Supported variables
     {%- else -%}
       <span class="smallcaps text-xxs text-subdued">({{ rating_value }})</span>
     {%- endif -%}
-  </a>
+  </span>
 {%- endunless -%}

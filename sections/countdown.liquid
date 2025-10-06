@@ -16,11 +16,9 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
   }
 </style>
 
-{%- if section.settings.image != blank or section.settings.background != blank and section.settings.background != 'rgba(0,0,0,0)' -%}
-  {%- assign padded_section = true -%}
-{%- endif -%}
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
-<div class="{% if section.settings.image == blank %}section-spacing {% if padded_section %}section-spacing--padded{% endif %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}{% endif %}" style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
+<div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.image != blank %}color-scheme--with-image-overlay{% else %}section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}{% endif %}">
   {%- capture section_content -%}
     <div class="countdown {% if section.settings.timer_position == 'start' %}countdown--reverse{% endif %}">
       <div class="countdown__content prose">
@@ -35,7 +33,7 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
         {{- section.settings.content -}}
 
         {%- if section.settings.button_text != blank -%}
-          {%- render 'button', href: section.settings.button_link, content: section.settings.button_text, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          {%- render 'button', href: section.settings.button_link, content: section.settings.button_text -%}
         {%- endif -%}
       </div>
 
@@ -82,13 +80,13 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
         {%- if section.settings.mobile_image != blank -%}
           <source
               media="(max-width: 699px)"
-              srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+              srcset="{{ section.settings.mobile_image | image_url: width: 400 }} 400w, {{ section.settings.mobile_image | image_url: width: 600 }} 600w, {{ section.settings.mobile_image | image_url: width: 800 }} 800w, {{ section.settings.mobile_image | image_url: width: 1000 }} 1000w"
               width="{{ section.settings.mobile_image.width }}"
               height="{{ section.settings.mobile_image.height }}"
           >
         {%- endif -%}
 
-        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', widths: '400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: widths: '400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
       </picture>
 
       {{- section_content -}}
@@ -109,6 +107,12 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
     {
       "type": "checkbox",
       "id": "separate_section_with_border",
@@ -240,26 +244,6 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
     },
     {
       "type": "color",
-      "id": "background",
-      "label": "t:global.colors.background"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "t:global.colors.text"
-    },
-    {
-      "type": "color",
-      "id": "button_background",
-      "label": "t:global.colors.button_background"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "t:global.colors.button_text"
-    },
-    {
-      "type": "color",
       "id": "flip_background",
       "label": "t:sections.countdown_timer.flip_background"
     },
@@ -296,7 +280,8 @@ usable in the header group, please look at the "countdown-condensed.liquid" sect
   ],
   "presets": [
     {
-      "name": "t:sections.countdown_timer.presets.countdown_timer.name"
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "category": "t:global.categories.call_to_action"
     }
   ]
 }

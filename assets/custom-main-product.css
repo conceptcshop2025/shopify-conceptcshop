@@ -1,0 +1,9 @@
+.product .quantity-selector {
+    margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+    .product .quantity-selector {
+        margin: 0;
+    }
+}

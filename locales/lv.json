@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "page": "{{ page }}. lappuse",
@@ -57,7 +48,9 @@
     },
     "localization": {
       "country": "Valsts",
-      "language": "Valoda"
+      "language": "Valoda",
+      "change_country_accessibility_text": "Mainīt valsti vai valūtu",
+      "change_language_accessibility_text": "Mainīt valodu"
     },
     "privacy_banner": {
       "accept": "Pieņemt",
@@ -79,14 +72,12 @@
   "header": {
     "general": {
       "account": "Konts",
+      "login": "Pieteikties",
       "search": "Meklēšana",
       "cart": "Grozs",
       "primary_navigation": "Primārā navigācija",
       "secondary_navigation": "Sekundārā navigācija",
-      "open_menu": "Atvērt navigācijas izvēlni",
-      "open_search": "Atvērt meklēšanu",
-      "open_account": "Atvērt konta lapu",
-      "open_cart": "Atvērt grozu"
+      "menu": "Izvēlne"
     }
   },
   "product": {
@@ -129,7 +120,15 @@
       "change_quantity": "Mainīt daudzumu",
       "increase_quantity": "Palielināt daudzumu",
       "decrease_quantity": "Samazināt daudzumu",
+      "minimum_of": "Minimālais {{ min }}",
+      "maximum_of": "Maksimālais {{ max }}",
+      "increment_of": "Pieaugums {{ step }}",
       "cannot_add_more": "Vairāk pievienot nevar"
+    },
+    "volume_pricing": {
+      "title": "Cenu noteikšana pēc apjoma",
+      "minimum": "{{ minimum_quantity }}+",
+      "price_at_each": "{{ price }}/gab"
     },
     "rating_count": {
       "zero": "Nav atsauksmju",
@@ -138,6 +137,7 @@
     },
     "inventory": {
       "in_stock": "Pieejams",
+      "low_stock": "Atlikušas tikai dažas vienības",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} inventārā",
         "other": "{{ count }} inventārā"
@@ -202,6 +202,7 @@
     },
     "post": {
       "written_by": "Autors: {{ author }}",
+      "visit_author_website": "Apmeklēt autora vietni",
       "share": "Dalīties",
       "tags": "Kategorijas"
     },
@@ -364,7 +365,8 @@
       "product": "Produkts",
       "total": "Kopā",
       "quantity": "Daudzums",
-      "remove": "Noņemt"
+      "remove": "Noņemt",
+      "remove_with_title": "Noņemt {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Iztērējiet vēl {{ remaining_amount }} un saņemiet bezmaksas piegādi!",
@@ -380,6 +382,10 @@
       "one_result": "Jūsu adresē ir pieejams viens piegādes tarifs:",
       "multiple_results": "Jūsu adresē ir pieejami vairāk piegādes tarifi:",
       "error": "Aprēķinot piegādes tarifus, radās viena vai vairākas kļūdas:"
+    },
+    "discount": {
+      "label": "Atlaides kods",
+      "error": "Ievadiet derīgu atlaides kodu"
     }
   },
   "404": {
@@ -435,6 +441,7 @@
       "checkbox": "Gribu šo nosūtīt kā dāvanu",
       "email_label": "Saņēmēja e-pasts",
       "name_label": "Saņēmēja vārds (neobligāti)",
+      "send_on_label": "Sūtīt (pēc izvēles)",
       "message_label": "Ziņojums (pēc izvēles)"
     }
   },
@@ -456,7 +463,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Lai parādītu salīdzinājumu “pirms/pēc”, iekļaujiet sadaļā vairāk bloku.",
-      "percentage_shown": "Parādāmā “pēc” attēla daļa procentos"
+      "percentage_shown": "Parādāmā “pēc” attēla daļa procentos",
+      "cursor_accessibility_text": "Izmantojiet kreiso un labo bulttaustiņus, lai pārvietotos starp pirms un pēc fotoattēliem."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Piedāvājums ir spēkā līdz {{expiration_date}}",
@@ -472,6 +480,29 @@
     "shop_the_look": {
       "view_products": "Skatīt produktus",
       "view_product": "Skatīt produktu"
+    },
+    "quick_order_list": {
+      "products": "Produkti",
+      "variants": "Varianti",
+      "quantity": "Daudzums",
+      "price": "Cena",
+      "total": "Kopā",
+      "remove": "Noņemt",
+      "quantity_rules": "Daudzuma noteikumi",
+      "volume_pricing": "Apjoma cenas",
+      "volume_pricing_available": "Apjoma cenas pieejamas",
+      "show_variants": "Rādīt variantus",
+      "minimum_of": "Minimums: {{ min }}",
+      "maximum_of": "Maksimums: {{ max }}",
+      "increment_of": "Palielinājums: {{ step }}",
+      "view_cart": "Apskatīt grozu",
+      "remove_all": "Noņemt visu",
+      "item_count": {
+        "zero": "{{ count }} preces",
+        "one": "{{ count }} prece",
+        "other": "{{ count }} preces"
+      },
+      "product_subtotal": "Produktu starpsumma"
     }
   }
 }

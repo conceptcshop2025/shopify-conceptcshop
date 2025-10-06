@@ -20,9 +20,11 @@ Supported variables
     {%- if filter.type == 'price_range' -%}
       {%- if filter.max_value.value != blank or filter.min_value.value != blank -%}
         <div class="removable-facet">
-          <a href="{{ filter.url_to_remove }}" is="facet-link" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>
-            {%- render 'icon' with 'close', width: 10 -%}
-          </a>
+          <facet-link>
+            <a href="{{ filter.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: filter.label }}" data-no-instant>
+              {%- render 'icon' with 'close', width: 10 -%}
+            </a>
+          </facet-link>
 
           {%- if section.settings.show_filter_group_name -%}
             <span class="text-subdued">{{- filter.label }}: {{ filter.min_value.value | default: 0 | money_without_trailing_zeros }} - {{ filter.max_value.value | default: filter.range_max | money_without_trailing_zeros -}}</span>
@@ -36,9 +38,11 @@ Supported variables
     {%- else -%}
       {%- for active_value in filter.active_values -%}
         <div class="removable-facet">
-          <a href="{{ active_value.url_to_remove }}" is="facet-link" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>
-            {%- render 'icon' with 'close', width: 10 -%}
-          </a>
+          <facet-link>
+            <a href="{{ active_value.url_to_remove }}" class="tap-area link-faded" aria-label="{{ 'collection.faceting.remove_filter' | t: name: active_value.label }}" data-no-instant>
+              {%- render 'icon' with 'close', width: 10 -%}
+            </a>
+          </facet-link>
 
           {%- if section.settings.show_filter_group_name or filter.type == 'boolean' -%}
             <span class="text-subdued">{{- filter.label }}: {{ active_value.label -}}</span>
@@ -59,9 +63,11 @@ Supported variables
       {%- capture default_url -%}{{ routes.search_url }}?q={{ search.terms }}&type=product&sort_by={{ search.sort_by }}{%- endcapture -%}
     {%- endif -%}
 
-    <a href="{{ default_url }}" is="facet-link" class="facets-clear-all text-subdued">
-      <span class="link">{{ 'collection.faceting.clear_filters' | t }}</span>
-    </a>
+    <facet-link>
+      <a href="{{ default_url }}" class="facets-clear-all text-subdued">
+        <span class="link">{{ 'collection.faceting.clear_filters' | t }}</span>
+      </a>
+    </facet-link>
   {%- endif -%}
 {%- endcapture -%}
 
