@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "*Livraison gratuite pour toute commande de 59 $ & plus.  Expédition rapide & carboneutre"
+            "text": "*Livraison gratuite avec Loomis pour toute commande de 59 $ & plus.  Expédition rapide & carboneutre"
           }
         }
       },
@@ -25,6 +25,7 @@
         "message-1"
       ],
       "settings": {
+        "color_scheme": "",
         "enable_sticky": false,
         "autoplay": false,
         "cycle_speed": 5,
@@ -35,7 +36,9 @@
     "header": {
       "type": "header",
       "settings": {
+        "color_scheme": "",
         "enable_sticky": true,
+        "hide_on_scroll": false,
         "show_separation_border": false,
         "reduce_padding": false,
         "logo": "shopify://shop_images/conceptc-logo-hor-gris-1000px.png",
@@ -44,9 +47,12 @@
         "menu": "nouveau-menu-mobile",
         "sidebar_menu": "nouveau-menu-mobile",
         "menu_open_trigger": "hover",
+        "menu_text_font": "heading",
         "enable_search": true,
+        "sidebar_color_scheme": "",
         "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
+        "sidebar_open_second_level_menus": false,
         "layout": "logo_center_navigation_below",
         "show_icons": true,
         "show_country_selector": true,
@@ -127,9 +133,11 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "subheading": "",
         "title": "MARQUES",
+        "stack_on_mobile": true,
         "items_per_row": 7,
         "logo_item_background": "",
         "logo_item_border": ""
@@ -138,6 +146,7 @@
     "171337816813ecb67b": {
       "type": "apps",
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true
