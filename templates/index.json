@@ -186,7 +186,7 @@
           "settings": {
             "collection": "nouveautes",
             "products_count": 8,
-            "title": "Nouveautés",
+            "title": "Nouveautés et exclusivités chaque semaine!",
             "link_url": "shopify://collections/nouveautes",
             "link_text": "Voir les nouveautés"
           }
@@ -204,7 +204,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Nouveautés et exclusivités chaque semaine!"
+        "subheading": ""
       }
     },
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4": {
