@@ -191,7 +191,7 @@
           "type": "collection",
           "settings": {
             "collection": "nouveautes",
-            "products_count": 3,
+            "products_count": 8,
             "title": "Nouveautés",
             "link_url": "shopify://collections/nouveautes",
             "link_text": "Découvrir"
