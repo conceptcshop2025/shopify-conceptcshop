@@ -120,7 +120,7 @@ Supported variables
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
       {%- if show_badges -%}
-        {%- render 'product-badges', product: product, vertical: true, context: 'card', collection_origin: block.settings.collection.handle -%}
+        {%- render 'product-badges', product: product, vertical: true, context: 'card', collection_origin: block.settings.collection.handle, collection_origin_title: block.settings.collection.title -%}
       {%- endif -%}
 
       <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>

@@ -15,6 +15,7 @@ Supported variables
 * types: the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted.
 * context: can be "product" or "card"
 * collection_origin: the handle of the collection where the product is being shown (only needed when context is "card" and discount badge is enabled)
+* collection_origin_title: the title of the collection where the product is being shown (only needed when context is "card" and discount badge is enabled)
 {%- endcomment -%}
 
 {%- liquid
@@ -92,10 +93,16 @@ Supported variables
 {%- if badges != blank -%}
   <badge-list class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
     {% if collection_origin == 'nouveautes' %}
-      <span class="badge badge-new">{{- collection_origin | upcase -}}</span>
+      <span class="badge badge-new">{{- collection_origin_title | upcase -}}</span>
     {% elsif collection_origin == 'soldes' %}
-      <span class="badge badge-sale">{{- collection_origin | upcase -}}</span>
+      <span class="badge badge-sale">{{- collection_origin_title | upcase -}}</span>
     {% endif %}
     {{- badges -}}
   </badge-list>
+{% else %}
+  {% if collection_origin == 'nouveautes' or collection_origin == 'soldes' %}
+    <badge-list class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
+      <span class="badge {% if collection_origin == 'nouveautes' %}badge-new{% elsif collection_origin == 'soldes' %}badge-sale{% endif %}">{{- collection_origin_title | upcase -}}</span>
+    </badge-list>
+  {% endif %}
 {%- endif -%}
