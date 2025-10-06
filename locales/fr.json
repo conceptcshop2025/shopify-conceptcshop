@@ -166,7 +166,7 @@
       "all_collections": "Toutes les collections",
       "no_collections": "Cette boutique ne contient aucune collection.",
       "continue_shopping": "Continue shopping",
-      "product_card_out_of_stock": "M'informer quand disponible"
+      "product_card_out_of_stock": "Me notifier"
     },
     "products_count": {
       "zero": "{{ count }} produit",

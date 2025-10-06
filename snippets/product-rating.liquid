@@ -43,6 +43,10 @@ Supported variables
   endif
 -%}
 
+{% if product.metafields.reviews.rating.value == blank %}
+  <span></span>
+{% endif %}
+
 {%- unless hide_rating -%}
   <span class="rating-badge" title="{{ 'product.rating_count' | t: count: rating_count }}">
     <div class="rating-badge__stars" role="img" aria-label="{{ 'general.rating.info' | t: rating_value: rating_value, rating_max: rating_max }}">

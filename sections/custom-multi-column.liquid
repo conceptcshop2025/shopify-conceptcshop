@@ -38,6 +38,12 @@
         --multi-column-grid: auto / repeat(auto-fit, var(--multi-column-column-width));
       }
     }
+
+    @media (min-width: 1200px) {
+      #shopify-section-{{ section.id }} .multi-column {
+        grid: auto / auto-flow calc(100dvw / {{ section.blocks.size }});
+      }
+    }
   </style>
 
   {{ 'custom-multi-column.css' | asset_url | stylesheet_tag }}

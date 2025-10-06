@@ -1,5 +1,4 @@
 .badge-new,
 .badge-sale {
-  border: 1px solid rgb(var(--on-sale-badge-background));
-  color: rgb(var(--on-sale-badge-background));
+  color: rgb(var(--text-color));
 }

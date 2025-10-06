@@ -1,3 +1,17 @@
 .multi-column .multi-column__item:hover img {
   scale: initial !important;
 }
+
+.multi-column {
+  grid: auto / auto-flow 21.875rem;
+}
+
+.multi-column .multi-column__item img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .multi-column {
+    grid: auto / auto-flow calc(100dvw / 3);
+  }
+}
