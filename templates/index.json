@@ -16,6 +16,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
             "title": "Promo outils",
             "heading_tag": "h3",
             "content": "<p>Jusq'à 50% de rabais sur plus de 200 outils chauffants</p>",
@@ -27,6 +29,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+            "block_background": "",
+            "text_block_background": "",
             "title": "",
             "heading_tag": "h3",
             "content": "",
@@ -38,6 +42,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
+            "block_background": "",
+            "text_block_background": "",
             "title": "",
             "heading_tag": "h3",
             "content": "",
@@ -182,7 +188,7 @@
             "products_count": 8,
             "title": "Nouveautés",
             "link_url": "shopify://collections/nouveautes",
-            "link_text": "Découvrir"
+            "link_text": "Voir plus des nouveauté"
           }
         }
       },
