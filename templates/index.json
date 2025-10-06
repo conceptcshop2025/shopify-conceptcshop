@@ -16,11 +16,11 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
-            "title": "",
+            "title": "Promo outils",
             "heading_tag": "h3",
-            "content": "",
+            "content": "<p>Jusq'à 50% de rabais sur plus de 200 outils chauffants</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         },
         "image_with_text_8jiqTB": {
