@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Maa",
-      "language": "Kieli"
+      "language": "Kieli",
+      "change_country_accessibility_text": "Vaihda maa tai valuutta",
+      "change_language_accessibility_text": "Vaihda kieli"
     },
     "privacy_banner": {
       "accept": "Hyväksy",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Tili",
+      "login": "Kirjaudu sisään",
       "search": "Haku",
       "cart": "Ostoskori",
       "primary_navigation": "Päänavigointi",
       "secondary_navigation": "Toissijainen navigointi",
-      "open_menu": "Avaa navigointivalikko",
-      "open_search": "Avaa haku",
-      "open_account": "Avaa tilisivu",
-      "open_cart": "Avaa ostoskori"
+      "menu": "Valikko"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Muuta määrää",
       "increase_quantity": "Lisää määrää",
       "decrease_quantity": "Vähennä määrää",
+      "minimum_of": "Vähintään {{ min }}",
+      "maximum_of": "Enintään {{ max }}",
+      "increment_of": "Lisäys {{ step }}",
       "cannot_add_more": "Et voi lisätä enempää"
+    },
+    "volume_pricing": {
+      "title": "Volyymihinnoittelu",
+      "minimum": "Yli {{ quantity }}",
+      "price_at_each": "{{ price }}/kpl"
     },
     "rating_count": {
       "zero": "Ei arvosteluja",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "Varastossa",
+      "low_stock": "Vain muutama yksikkö jäljellä",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} varastossa",
         "other": "{{ count }} varastossa"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Kirjoittaja: {{ author }}",
+      "visit_author_website": "Vieraile kirjailijan verkkosivustolla",
       "share": "Jaa",
       "tags": "Tunnisteet"
     },
@@ -364,7 +374,8 @@
       "product": "Tuote",
       "total": "Yhteensä",
       "quantity": "Määrä",
-      "remove": "Poista"
+      "remove": "Poista",
+      "remove_with_title": "Poista {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Käytä vielä {{ remaining_amount }}, niin saat ilmaisen toimituksen!",
@@ -380,6 +391,10 @@
       "one_result": "Osoitteeseesi on yksi toimituskulu:",
       "multiple_results": "Osoitteeseesi on useita toimituskuluja:",
       "error": "Virhe noudettaessa toimituskuluja:"
+    },
+    "discount": {
+      "label": "Alennuskoodi",
+      "error": "Anna voimassa oleva alennuskoodi"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Haluan lähettää tämän lahjaksi",
       "email_label": "Vastaanottajan sähköpostiosoite",
       "name_label": "Vastaanottajan sähköpostiosoite (valinnainen)",
+      "send_on_label": "Lähetä (valinnainen)",
       "message_label": "Viesti (valinnainen)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Lisää enemmän lohkoja osioon ennen/jälkeen-vertailun näyttämiseksi.",
-      "percentage_shown": "Näytetyn jälkeen-kuvan prosenttiosuus"
+      "percentage_shown": "Näytetyn jälkeen-kuvan prosenttiosuus",
+      "cursor_accessibility_text": "Käytä vasenta ja oikeaa nuolinäppäintä siirtyäksesi ennen ja jälkeen -valokuvien välillä."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Tämä tarjous on voimassa {{expiration_date}} asti",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Näytä tuotteet",
       "view_product": "Näytä tuote"
+    },
+    "quick_order_list": {
+      "products": "Tuotteet",
+      "variants": "Vaihtoehdot",
+      "quantity": "Määrä",
+      "price": "Hinta",
+      "total": "Yhteensä",
+      "remove": "Poista",
+      "quantity_rules": "Määräsäännöt",
+      "volume_pricing": "Volyymihinnoittelu",
+      "volume_pricing_available": "Volyymihinnoittelu saatavilla",
+      "show_variants": "Näytä vaihtoehdot",
+      "minimum_of": "Minimi: {{ min }}",
+      "maximum_of": "Maksimi: {{ max }}",
+      "increment_of": "Lisäys: {{ step }}",
+      "view_cart": "Näytä ostoskori",
+      "remove_all": "Poista kaikki",
+      "item_count": {
+        "zero": "{{ count }} tuotetta",
+        "one": "{{ count }} tuote",
+        "other": "{{ count }} tuotetta"
+      },
+      "product_subtotal": "Tuotteiden välisumma"
     }
   }
 }

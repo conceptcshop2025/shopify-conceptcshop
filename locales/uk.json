@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Країна",
-      "language": "Мова"
+      "language": "Мова",
+      "change_country_accessibility_text": "Змінити країну або валюту",
+      "change_language_accessibility_text": "Змінити мову"
     },
     "privacy_banner": {
       "accept": "Прийняти",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Обліковий запис",
+      "login": "Увійти",
       "search": "Пошук",
       "cart": "Кошик",
       "primary_navigation": "Навігація першого рівня",
       "secondary_navigation": "Навігація другого рівня",
-      "open_menu": "Відкрити меню навігації",
-      "open_search": "Відкрити пошук",
-      "open_account": "Відкрити сторінку акаунта",
-      "open_cart": "Відкрити кошик"
+      "menu": "Меню"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Змінити кількість",
       "increase_quantity": "Збільшити кількість",
       "decrease_quantity": "Зменшити кількість",
+      "minimum_of": "Мінімум {{ min }}",
+      "maximum_of": "Максимум {{ max }}",
+      "increment_of": "Приріст на {{ step }}",
       "cannot_add_more": "Не можна додати більше"
+    },
+    "volume_pricing": {
+      "title": "Оптовая цена",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "{{ price }}/кажд."
     },
     "rating_count": {
       "zero": "Немає відгуків",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "У наявності",
+      "low_stock": "Залишилося лише кілька одиниць",
       "in_stock_with_quantity_count": {
         "one": "Є {{ count }}",
         "other": "Є {{ count }}"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Автор: {{ author }}",
+      "visit_author_website": "Відвідати сайт автора",
       "share": "Поділитися",
       "tags": "Мітки"
     },
@@ -364,7 +374,8 @@
       "product": "Товар",
       "total": "Усього",
       "quantity": "Кількість",
-      "remove": "Вилучити"
+      "remove": "Вилучити",
+      "remove_with_title": "Видалити {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Витратьте ще {{ remaining_amount }} та отримайте безкоштовну доставку!",
@@ -380,6 +391,10 @@
       "one_result": "Для вашої адреси є один тариф на доставку:",
       "multiple_results": "Для вашої адреси є кілька тарифів на доставку:",
       "error": "Під час отримання тарифів на доставку сталась одна або кілька помилок:"
+    },
+    "discount": {
+      "label": "Промокод",
+      "error": "Введіть дійсний промокод"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Я хочу отправить это в качестве подарка",
       "email_label": "Электронный адрес получателя",
       "name_label": "Имя получателя (необязательно)",
+      "send_on_label": "Надіслати (необов'язково)",
       "message_label": "Сообщение (необязательно)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Щоб показати фото «до» й «після», додайте блоки в розділ.",
-      "percentage_shown": "Відсоток показаного фото «після»"
+      "percentage_shown": "Відсоток показаного фото «після»",
+      "cursor_accessibility_text": "Використовуйте ліву та праву стрілочки, щоб перемикатися між фотографіями до та після."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Ці пропозиції закінчуються {{expiration_date}}",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Переглянути товари",
       "view_product": "Переглянути товар"
+    },
+    "quick_order_list": {
+      "products": "Товари",
+      "variants": "Варіанти",
+      "quantity": "Кількість",
+      "price": "Ціна",
+      "total": "Всього",
+      "remove": "Видалити",
+      "quantity_rules": "Правила кількості",
+      "volume_pricing": "Об'ємні ціни",
+      "volume_pricing_available": "Об'ємні ціни доступні",
+      "show_variants": "Показати варіанти",
+      "minimum_of": "Мінімум: {{ min }}",
+      "maximum_of": "Максимум: {{ max }}",
+      "increment_of": "Приріст: {{ step }}",
+      "view_cart": "Переглянути кошик",
+      "remove_all": "Видалити все",
+      "item_count": {
+        "zero": "{{ count }} одиниць",
+        "one": "{{ count }} одиниця",
+        "other": "{{ count }} одиниці"
+      },
+      "product_subtotal": "Проміжний підсумок"
     }
   }
 }

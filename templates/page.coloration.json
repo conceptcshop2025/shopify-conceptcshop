@@ -75,11 +75,8 @@
             "title": "TUBES DE COLORATION",
             "button_text": "Voir les produits (31)",
             "button_link": "",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "#fff",
-            "button_text_color": ""
+            "overlay_opacity": 30
           }
         },
         "template--16127387992215__411542dd-e15c-44b2-82e8-e96ba9c8e0e2-collection-2": {
@@ -92,11 +89,8 @@
             "title": "OXYDANTS ET DÉCOLORANTS (PEROXYDE)",
             "button_text": "Voir les produits (47)",
             "button_link": "",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "#ffffff",
-            "button_text_color": ""
+            "overlay_opacity": 30
           }
         },
         "template--16127387992215__411542dd-e15c-44b2-82e8-e96ba9c8e0e2-collection-3": {
@@ -109,11 +103,8 @@
             "title": "ACCESSOIRES DE COLORATION",
             "button_text": "Voir les produits (43)",
             "button_link": "",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "#fff",
-            "button_text_color": ""
+            "overlay_opacity": 30
           }
         },
         "1e4e7f35-51a2-49b4-b695-e142eb75446a": {
@@ -126,11 +117,8 @@
             "title": "CACHE / CAMOUFLE REPOUSSE",
             "button_text": "Voir les produits (24)",
             "button_link": "",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "#ffffff",
-            "button_text_color": ""
+            "overlay_opacity": 30
           }
         }
       },
@@ -149,9 +137,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "content": ""
       }
     }
   },

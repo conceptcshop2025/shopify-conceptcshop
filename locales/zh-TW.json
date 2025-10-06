@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "國家\/地區",
-      "language": "語言"
+      "language": "語言",
+      "change_country_accessibility_text": "更改國家或貨幣",
+      "change_language_accessibility_text": "更改語言"
     },
     "privacy_banner": {
       "accept": "接受",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "帳戶",
+      "login": "登入",
       "search": "搜尋",
       "cart": "購物車",
       "primary_navigation": "主要導覽",
       "secondary_navigation": "次要導覽",
-      "open_menu": "開啟導覽選單",
-      "open_search": "開啟搜尋",
-      "open_account": "開啟帳戶頁面",
-      "open_cart": "開啟購物車"
+      "menu": "選單"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "更改數量",
       "increase_quantity": "增加數量",
       "decrease_quantity": "減少數量",
+      "minimum_of": "最小值 {{ min }}",
+      "maximum_of": "最大值 {{ max }}",
+      "increment_of": "增量 {{ step }}",
       "cannot_add_more": "無法再新增"
+    },
+    "volume_pricing": {
+      "title": "批發價",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "{{ price }}/每項"
     },
     "rating_count": {
       "zero": "無評價",
@@ -137,6 +145,7 @@
     },
     "inventory": {
       "in_stock": "有庫存",
+      "low_stock": "僅剩少量庫存",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} 個庫存",
         "other": "{{ count }} 個庫存"
@@ -199,6 +208,7 @@
     },
     "post": {
       "written_by": "作者：{{ author }}",
+      "visit_author_website": "造訪作者網站",
       "share": "分享",
       "tags": "標籤"
     },
@@ -359,7 +369,8 @@
       "product": "產品",
       "total": "總計",
       "quantity": "數量",
-      "remove": "移除"
+      "remove": "移除",
+      "remove_with_title": "移除{{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "再消費 {{ remaining_amount }} 就能免運！",
@@ -375,6 +386,10 @@
       "one_result": "配送至您的地址有一種運費：",
       "multiple_results": "配送至您的地址有數種運費：",
       "error": "檢索運費時出現一個或多個錯誤："
+    },
+    "discount": {
+      "label": "折扣碼",
+      "error": "請輸入有效的折扣碼"
     }
   },
   "404": {
@@ -428,6 +443,7 @@
       "checkbox": "我要將此作為禮物傳送",
       "email_label": "收件者電子郵件",
       "name_label": "收件者姓名 (選填)",
+      "send_on_label": "發送時間 (選填)",
       "message_label": "訊息 (選填)"
     }
   },
@@ -449,7 +465,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "若要顯示之前/之後的比較，請在該區塊中加更多內容。",
-      "percentage_shown": "顯示的「之後」照片的百分比"
+      "percentage_shown": "顯示的「之後」照片的百分比",
+      "cursor_accessibility_text": "使用左右箭頭鍵在 before 和 after 圖片之間導航。"
     },
     "countdown_timer": {
       "expires_accessibility_text": "此優惠將於 {{expiration_date}} 截止",
@@ -465,6 +482,29 @@
     "shop_the_look": {
       "view_products": "查看產品",
       "view_product": "查看產品"
+    },
+    "quick_order_list": {
+      "products": "產品",
+      "variants": "變體",
+      "quantity": "數量",
+      "price": "價格",
+      "total": "總計",
+      "remove": "移除",
+      "quantity_rules": "數量規則",
+      "volume_pricing": "批量定價",
+      "volume_pricing_available": "可用批量定價",
+      "show_variants": "顯示變體",
+      "minimum_of": "最少：{{ min }}",
+      "maximum_of": "最多：{{ max }}",
+      "increment_of": "增量：{{ step }}",
+      "view_cart": "查看購物車",
+      "remove_all": "移除所有",
+      "item_count": {
+        "zero": "{{ count }} 件",
+        "one": "{{ count }} 件",
+        "other": "{{ count }} 件"
+      },
+      "product_subtotal": "產品小計"
     }
   }
 }

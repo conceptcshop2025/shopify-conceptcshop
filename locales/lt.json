@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Šalis",
-      "language": "Kalba"
+      "language": "Kalba",
+      "change_country_accessibility_text": "Keisti šalį ar valiutą",
+      "change_language_accessibility_text": "Keisti kalbą"
     },
     "privacy_banner": {
       "accept": "Priimti",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Paskyra",
+      "login": "Prisijungti",
       "search": "Paieška",
       "cart": "Krepšelis",
       "primary_navigation": "Pirminė navigacija",
       "secondary_navigation": "Antrinė navigacija",
-      "open_menu": "Atidaryti naršymo meniu",
-      "open_search": "Atidaryti paiešką",
-      "open_account": "Atidaryti paskyros puslapį",
-      "open_cart": "Atidaryti krepšelį"
+      "menu": "Meniu"
     }
   },
   "product": {
@@ -130,7 +130,15 @@
       "change_quantity": "Keisti kiekį",
       "increase_quantity": "Padidinti kiekį",
       "decrease_quantity": "Sumažinti kiekį",
+      "minimum_of": "Minimali vertė {{ min }}",
+      "maximum_of": "Maksimali vertė {{ max }}",
+      "increment_of": "Priedas {{ step }}",
       "cannot_add_more": "Negalite įtraukti daugiau"
+    },
+    "volume_pricing": {
+      "title": "Kiekybinė kainodara",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "po {{ price }}/vnt."
     },
     "rating_count": {
       "zero": "{{ count }} peržiūrų",
@@ -140,6 +148,7 @@
     },
     "inventory": {
       "in_stock": "Yra sandėlyje",
+      "low_stock": "Liko tik kelios vienetai",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} sandėlyje",
         "other": "{{ count }} sandėlyje"
@@ -206,6 +215,7 @@
     },
     "post": {
       "written_by": "Pagal {{ author }}",
+      "visit_author_website": "Aplankyti autoriaus svetainę",
       "share": "Bendrinti",
       "tags": "Žymės"
     },
@@ -369,7 +379,8 @@
       "product": "Prekė",
       "total": "Iš viso",
       "quantity": "Kiekis",
-      "remove": "Pašalinti"
+      "remove": "Pašalinti",
+      "remove_with_title": "Pašalinti {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Išleiskite dar {{ remaining_amount }}, kad siuntimas būtų nemokamas!",
@@ -385,6 +396,10 @@
       "one_result": "Jūsų adresui taikomas vienas siuntimo tarifas:",
       "multiple_results": "Jūsų adresui taikomi keli siuntimo tarifai:",
       "error": "Nuskaitant siuntimo tarifus įvyko viena arba daugiau klaidų:"
+    },
+    "discount": {
+      "label": "Nuolaidos kodas",
+      "error": "Įveskite galiojantį nuolaidos kodą"
     }
   },
   "404": {
@@ -442,6 +457,7 @@
       "checkbox": "Noriu siųsti kaip dovaną",
       "email_label": "Gavėjo el. pašto adresas",
       "name_label": "Gavėjo vardas (pasirinktinai)",
+      "send_on_label": "Išsiuntimo data (pasirinktinai)",
       "message_label": "Žinutė (pasirinktinai)"
     }
   },
@@ -463,7 +479,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Norėdami rodyti prieš palyginimą arba po jo, į dalį įtraukite daugiau blokų.",
-      "percentage_shown": "Po nuotraukos rodoma procentinė dalis"
+      "percentage_shown": "Po nuotraukos rodoma procentinė dalis",
+      "cursor_accessibility_text": "Naudokite kairės ir dešinės rodyklės klavišus, kad pereitumėte tarp prieš ir po nuotraukų."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Šie pasiūlymai baigia galioti {{expiration_date}}",
@@ -479,6 +496,29 @@
     "shop_the_look": {
       "view_products": "Peržiūrėti prekes",
       "view_product": "Peržiūrėti prekę"
+    },
+    "quick_order_list": {
+      "products": "Produktai",
+      "variants": "Variantai",
+      "quantity": "Kiekis",
+      "price": "Kaina",
+      "total": "Viso",
+      "remove": "Pašalinti",
+      "quantity_rules": "Kiekio taisyklės",
+      "volume_pricing": "Kiekio kainodara",
+      "volume_pricing_available": "Kiekio kainodara prieinama",
+      "show_variants": "Rodyti variantus",
+      "minimum_of": "Minimalus: {{ min }}",
+      "maximum_of": "Maksimalus: {{ max }}",
+      "increment_of": "Pridėjimas: {{ step }}",
+      "view_cart": "Peržiūrėti krepšelį",
+      "remove_all": "Pašalinti viską",
+      "item_count": {
+        "zero": "{{ count }} prekės",
+        "one": "{{ count }} prekė",
+        "other": "{{ count }} prekės"
+      },
+      "product_subtotal": "Produktų tarpinė suma"
     }
   }
 }

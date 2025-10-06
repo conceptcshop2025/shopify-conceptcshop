@@ -47,7 +47,6 @@
         "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#454545",
         "overlay_color": "#e4c0ae",
         "overlay_opacity": 90
       }
@@ -126,9 +125,7 @@
         "image": "shopify://shop_images/Design_sans_titre_43_2efd18e3-ba72-41ad-b4f8-d8304e5e41f6.png",
         "content_width": "sm",
         "enable_parallax": true,
-        "remove_vertical_spacing": true,
-        "block_text_color": "",
-        "block_background": "#e4c0ae"
+        "remove_vertical_spacing": true
       }
     },
     "bf598d85-5d2f-42a1-b6ae-677d652e39d5": {
@@ -240,9 +237,6 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "button_background": "",
-            "button_text_color": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -260,9 +254,6 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "button_background": "",
-            "button_text_color": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -280,9 +271,6 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "button_background": "",
-            "button_text_color": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -301,9 +289,7 @@
         "spacing": "xs",
         "subheading": "",
         "title": "",
-        "content": "",
-        "background": "",
-        "text_color": ""
+        "content": ""
       }
     },
     "3f2b421c-1068-4710-8a88-6edb5e58fda6": {
@@ -395,9 +381,7 @@
         "image_size": "lg",
         "content_width": "sm",
         "enable_parallax": true,
-        "remove_vertical_spacing": true,
-        "block_text_color": "",
-        "block_background": ""
+        "remove_vertical_spacing": true
       }
     },
     "cf3f821e-9361-4dae-a7ea-39848c7c525c": {
@@ -430,7 +414,6 @@
         "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -474,11 +457,7 @@
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "button_2_style": "solid"
       }
     }
   },

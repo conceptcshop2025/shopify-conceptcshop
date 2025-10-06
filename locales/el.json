@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Χώρα",
-      "language": "Γλώσσα"
+      "language": "Γλώσσα",
+      "change_country_accessibility_text": "Αλλαγή χώρας ή νομίσματος",
+      "change_language_accessibility_text": "Αλλαγή γλώσσας"
     },
     "privacy_banner": {
       "accept": "Αποδοχή",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Λογαριασμός",
+      "login": "Είσοδος",
       "search": "Αναζήτηση",
       "cart": "Καλάθι",
       "primary_navigation": "Κύρια πλοήγηση",
       "secondary_navigation": "Δευτερεύουσα πλοήγηση",
-      "open_menu": "Άνοιγμα μενού πλοήγησης",
-      "open_search": "Άνοιγμα αναζήτησης",
-      "open_account": "Άνοιγμα σελίδας λογαριασμού",
-      "open_cart": "Άνοιγμα καλαθιού"
+      "menu": "Μενού"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Αλλαγή ποσότητας",
       "increase_quantity": "Αύξηση ποσότητας",
       "decrease_quantity": "Μείωση ποσότητας",
+      "minimum_of": "Ελάχιστο {{ min }}",
+      "maximum_of": "Μέγιστο {{ max }}",
+      "increment_of": "Αύξηση κατά {{ step }}",
       "cannot_add_more": "Δεν μπορείτε να προσθέσετε άλλα"
+    },
+    "volume_pricing": {
+      "title": "Τιμολόγηση βάσει ποσότητας",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "στα {{ price }}/τμχ"
     },
     "rating_count": {
       "zero": "Δεν υπάρχουν αξιολογήσεις",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "Σε απόθεμα",
+      "low_stock": "Απομένουν μόνο λίγες μονάδες",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} σε απόθεμα",
         "other": "{{ count }} σε απόθεμα"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Από {{ author }}",
+      "visit_author_website": "Επισκεφθείτε τον ιστότοπο του συγγραφέα",
       "share": "Κοινοποίηση",
       "tags": "Κατηγορίες"
     },
@@ -364,7 +374,8 @@
       "product": "Προϊόν",
       "total": "Σύνολο",
       "quantity": "Ποσότητα",
-      "remove": "Αφαίρεση"
+      "remove": "Αφαίρεση",
+      "remove_with_title": "Αφαίρεση {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Ξοδέψτε ακόμα {{ remaining_amount }} και κερδίστε δωρεάν αποστολή!",
@@ -380,6 +391,10 @@
       "one_result": "Υπάρχει μία χρέωση αποστολής για τη διεύθυνσή σας:",
       "multiple_results": "Υπάρχουν διάφορες χρεώσεις αποστολής για τη διεύθυνσή σας:",
       "error": "Παρουσιάστηκαν ένα ή περισσότερα σφάλματα κατά την ανάκτηση των χρεώσεων αποστολής:"
+    },
+    "discount": {
+      "label": "Κωδικός έκπτωσης",
+      "error": "Εισαγάγετε έναν έγκυρο κωδικό έκπτωσης"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Θέλω να το στείλω ως δώρο",
       "email_label": "Email παραλήπτη",
       "name_label": "Όνομα παραλήπτη (προαιρετικά)",
+      "send_on_label": "Ημερομηνία αποστολής (προαιρετικά)",
       "message_label": "Μήνυμα (προαιρετικά)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Για να δείτε τη σύγκριση πριν/μετά, προσθέστε περισσότερο περιεχόμενο στην ενότητα.",
-      "percentage_shown": "Ποσοστό εμφάνισης της φωτογραφίας μετά"
+      "percentage_shown": "Ποσοστό εμφάνισης της φωτογραφίας μετά",
+      "cursor_accessibility_text": "Χρησιμοποιήστε τα βέλη αριστερά και δεξιά για να πλοηγηθείτε μεταξύ φωτογραφιών πριν και μετά."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Αυτή η προσφορά λήγει στις {{expiration_date}}",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Προβολή προϊόντων",
       "view_product": "Προβολή προϊόντος"
+    },
+    "quick_order_list": {
+      "products": "Προϊόντα",
+      "variants": "Παραλλαγές",
+      "quantity": "Ποσότητα",
+      "price": "Τιμή",
+      "total": "Σύνολο",
+      "remove": "Αφαίρεση",
+      "quantity_rules": "Κανόνες ποσότητας",
+      "volume_pricing": "Τιμολόγηση ανά όγκο",
+      "volume_pricing_available": "Διαθέσιμη τιμολόγηση ανά όγκο",
+      "show_variants": "Εμφάνιση παραλλαγών",
+      "minimum_of": "Ελάχιστο: {{ min }}",
+      "maximum_of": "Μέγιστο: {{ max }}",
+      "increment_of": "Βήμα: {{ step }}",
+      "view_cart": "Προβολή καλαθιού",
+      "remove_all": "Αφαίρεση όλων",
+      "item_count": {
+        "zero": "{{ count }} αντικείμενα",
+        "one": "{{ count }} αντικείμενο",
+        "other": "{{ count }} αντικείμενα"
+      },
+      "product_subtotal": "Μερικό σύνολο προϊόντων"
     }
   }
 }

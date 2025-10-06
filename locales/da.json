@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Land",
-      "language": "Sprog"
+      "language": "Sprog",
+      "change_country_accessibility_text": "Skift land eller valuta",
+      "change_language_accessibility_text": "Skift sprog"
     },
     "privacy_banner": {
       "accept": "Accepter",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Konto",
+      "login": "Log på",
       "search": "Søg",
       "cart": "Indkøbskurv",
       "primary_navigation": "Primær navigation",
       "secondary_navigation": "Sekundær navigation",
-      "open_menu": "Åbn navigationsmenu",
-      "open_search": "Åbn søgefunktion",
-      "open_account": "Åbn kontoside",
-      "open_cart": "Åbn indkøbskurv"
+      "menu": "Menu"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Ændr antal",
       "increase_quantity": "Øg antal",
       "decrease_quantity": "Sænk antal",
+      "minimum_of": "Minimum af {{ min }}",
+      "maximum_of": "Maksimum af {{ max }}",
+      "increment_of": "Stigning på {{ step }}",
       "cannot_add_more": "Du kan ikke tilføje mere"
+    },
+    "volume_pricing": {
+      "title": "Mængderabat",
+      "minimum": "Mere end {{ quantity }}",
+      "price_at_each": "til {{ price }}/stk"
     },
     "rating_count": {
       "zero": "Ingen anmeldelser",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "På lager",
+      "low_stock": "Kun få enheder tilbage",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} på lager",
         "other": "{{ count }} på lager"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Af {{ author }}",
+      "visit_author_website": "Besøg forfatterens hjemmeside",
       "share": "Del",
       "tags": "Tags"
     },
@@ -364,7 +374,8 @@
       "product": "Produkt",
       "total": "I alt",
       "quantity": "Antal",
-      "remove": "Fjern"
+      "remove": "Fjern",
+      "remove_with_title": "Fjern {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Brug {{ remaining_amount }} mere og få gratis levering!",
@@ -380,6 +391,10 @@
       "one_result": "Der er én leveringspris for din adresse:",
       "multiple_results": "Der er flere leveringspriser for din adresse:",
       "error": "Der opstod en eller flere fejl under hentning af leveringspriser:"
+    },
+    "discount": {
+      "label": "Rabatkode",
+      "error": "Indtast en gyldig rabatkode"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Jeg vil sende som en gave",
       "email_label": "Modtagers mailadresse",
       "name_label": "Modtagerens navn (valgfrit)",
+      "send_on_label": "Send (valgfrit)",
       "message_label": "Besked (valgfrit)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Tilføj flere blokke i området for at vise en før/efter-sammenligning.",
-      "percentage_shown": "Procentdel efter viste foto"
+      "percentage_shown": "Procentdel efter viste foto",
+      "cursor_accessibility_text": "Brug venstre- og højrepilene til at navigere mellem før og efter billeder."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Dette tilbud udløber den {{expiration_date}}",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Vis produkter",
       "view_product": "Vis produkt"
+    },
+    "quick_order_list": {
+      "products": "Produkter",
+      "variants": "Varianter",
+      "quantity": "Antal",
+      "price": "Pris",
+      "total": "I alt",
+      "remove": "Fjern",
+      "quantity_rules": "Antalsregler",
+      "volume_pricing": "Mængderabat",
+      "volume_pricing_available": "Mængderabat tilgængelig",
+      "show_variants": "Vis varianter",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Forøgelse: {{ step }}",
+      "view_cart": "Vis kurv",
+      "remove_all": "Fjern alle",
+      "item_count": {
+        "zero": "{{ count }} varer",
+        "one": "{{ count }} vare",
+        "other": "{{ count }} varer"
+      },
+      "product_subtotal": "Produkt subtotal"
     }
   }
 }

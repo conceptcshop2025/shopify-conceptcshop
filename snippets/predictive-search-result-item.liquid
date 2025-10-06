@@ -17,7 +17,7 @@ Supported variables
 {%- case type -%}
   {%- when 'product' -%}
     <div class="md-max:hidden">
-      {%- render 'product-card', product: product, show_quick_buy: false -%}
+      {%- render 'custom-product-card', product: product, show_quick_buy: false -%}
     </div>
 
     <div class="md:hidden">
@@ -35,7 +35,7 @@ Supported variables
   {%- when 'collection' -%}
     <a href="{{ collection.url }}" class="v-stack gap-3 sm:gap-5">
       {%- if collection.image -%}
-        {{- collection.image | image_url: width: collection.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 160px, 500px', widths: '200,300,400,500,600,800,1000,1200,1400' -}}
+        {{- collection.image | image_url: width: collection.image.width | image_tag: sizes: '(max-width: 699px) 160px, 500px', widths: '200,300,400,500,600,800,1000,1200,1400' -}}
       {%- endif -%}
 
       <span class="h6 sm:h5">{{ collection.title }}</span>

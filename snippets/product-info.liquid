@@ -11,20 +11,21 @@ Supported variables
 ********************************************
 
 * product: the product on which to render the information (if blank, it renders placeholder information)
+* product_form_id: the ID of the product form
 * center_basic_info: if true, the basic information (product title, vendor, price) are centered on mobile
 * has_content_below_gallery: if true, the product has extra information show below the gallery
-* allow_blocks: a list of blocks name to include. If none is passed, assumes to show all the blocks
-* update_url: if set to true, the URL on the page is updated when the variant changes (for best experience, this should
-              be only used on the product page for the main product
+* context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
 {%- endcomment -%}
-
-{%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <safe-sticky class="product-info {% if center_basic_info %}product-info--center{% endif %}">
   <div class="product-info__block-list">
     {%- liquid
       assign inside_block_group_context = false
       assign current_block_group_name = ''
+
+      if context == 'quick_buy'
+        assign allow_blocks = '@app vendor title price quantity_selector payment_terms separator variant_picker product_variations line_item_property buy_buttons' | split: ' '
+      endif
 
       if allow_blocks != blank
         assign filtered_blocks = '' | split: ''
@@ -129,7 +130,7 @@ Supported variables
               {%- assign product_title = 'general.on_boarding.product_title' | t -%}
             {%- endif -%}
 
-            {%- if request.page_type == 'product' and update_url -%}
+            {%- if request.page_type == 'product' and context == 'main_product' -%}
               <h1 class="product-title {{ block.settings.heading_tag }}">
                 {{- product_title -}}
               </h1>
@@ -140,38 +141,42 @@ Supported variables
             {%- endif -%}
 
           {%- when 'sku' -%}
-            <variant-sku class="variant-sku text-sm text-subdued" form="{{ product_form_id }}" {% if product != blank and product.selected_or_first_available_variant.sku == blank %}hidden{% endif %}>
-              {{- 'product.general.sku' | t }} {% if product != blank -%}{{ product.selected_or_first_available_variant.sku -}}{%- else -%}SK-123AB{%- endif -%}
-            </variant-sku>
+            {% if product.selected_or_first_available_variant.sku != blank %}
+              <variant-sku class="variant-sku text-sm text-subdued">
+                {{- 'product.general.sku' | t }} {{ product.selected_or_first_available_variant.sku -}}
+              </variant-sku>
+            {%- endif -%}
 
           {%- when 'badges' -%}
             {%- if product != blank -%}
-              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
+              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', context: 'product' -%}
             {%- endif -%}
 
           {%- when 'price' -%}
-            <div class="v-stack">
-              {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product', form_id: product_form_id -%}
+            {%- if product.selected_or_first_available_variant != nil -%}
+              <div class="v-stack">
+                {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product' -%}
 
-              {%- if block.settings.show_taxes_notice -%}
-                <p class="text-sm text-subdued">
-                  {%- if cart.taxes_included -%}
-                    {{ 'product.general.taxes_included' | t }}
-                  {%- else -%}
-                    {{ 'product.general.taxes_excluded' | t }}
-                  {%- endif -%}
+                {%- if block.settings.show_taxes_notice -%}
+                  <p class="text-sm text-subdued">
+                    {%- if cart.taxes_included -%}
+                      {{ 'product.general.taxes_included' | t }}
+                    {%- else -%}
+                      {{ 'product.general.taxes_excluded' | t }}
+                    {%- endif -%}
 
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
-                </p>
-              {%- endif -%}
-            </div>
+                    {%- if shop.shipping_policy.body != blank -%}
+                      {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                    {%- endif -%}
+                  </p>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
 
           {%- when 'payment_terms' -%}
             {%- if product != blank -%}
-              <payment-terms class="payment-terms" form="{{ product_form_id }}">
-                {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
+              <payment-terms class="payment-terms">
+                {%- capture product_installment_form_id -%}{{ product_form_id }}-payment-installment{%- endcapture -%}
 
                 {%- form 'product', product, id: product_installment_form_id -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -213,10 +218,11 @@ Supported variables
               {%- render 'variant-picker',
                   product: product,
                   form_id: product_form_id,
-                  update_url: update_url,
+                  context: context,
                   hide_sold_out_variants: block.settings.hide_sold_out_variants,
-                  selector_type: block.settings.selector_type,
-                  color_selector_type: block.settings.color_selector_type,
+                  selector_style: block.settings.selector_style,
+                  swatch_selector_style: block.settings.swatch_selector_style,
+                  variant_image_options: block.settings.variant_image_options,
                   size_chart_page: block.settings.size_chart_page -%}
             {%- endif -%}
 
@@ -253,7 +259,7 @@ Supported variables
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
-                        assign value = product_variation.metafields[metafield_namespace][metafield_key].value
+                        assign label = product_variation.metafields[metafield_namespace][metafield_key].value
 
                         if product_variation == product
                           assign selected = true
@@ -261,18 +267,18 @@ Supported variables
                           assign selected = false
                         endif
 
-                        case block.settings.color_selector_type
-                          when 'color'
-                            render 'swatch' with 'color', href: product_variation.url, value: value, selected: selected
+                        case block.settings.selector_style
+                          when 'swatch'
+                            render 'option-value', type: 'swatch', url: product_variation.url, label: label, selected: selected
 
-                          when 'variant'
-                            render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected
+                          when 'variant_image'
+                            render 'option-value', type: 'thumbnail', url: product_variation.url, label: label, image: product_variation.featured_media, selected: selected
 
                           when 'block'
-                            render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected
+                            render 'option-value', type: 'block', url: product_variation.url, label: label, selected: selected
 
                           when 'block_swatch'
-                            render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true
+                            render 'option-value', type: 'block', url: product_variation.url, label: label, selected: selected, show_swatch: true
                         endcase
                       endfor
                     -%}
@@ -305,17 +311,45 @@ Supported variables
 
           {%- when 'quantity_selector' -%}
             {%- if product.available -%}
-              {% render 'quantity-selector', variant: product.selected_or_first_available_variant, form: product_form_id %}
+              <div class="v-stack gap-1 justify-items-start">
+                {%- liquid
+                  assign variant = product.selected_or_first_available_variant
+                  assign quantity_rules = ''
+
+                  render 'quantity-selector', variant: variant, form: product_form_id
+
+                  if variant.quantity_rule.min > 1
+                    assign rule = 'product.quantity.minimum_of' | t: min: variant.quantity_rule.min
+                    assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                  endif
+
+                  if variant.quantity_rule.max != nil
+                    assign rule = 'product.quantity.maximum_of' | t: max: variant.quantity_rule.max
+                    assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                  endif
+
+                  if variant.quantity_rule.increment > 1
+                    assign rule = 'product.quantity.increment_of' | t: step: variant.quantity_rule.increment
+                    assign quantity_rules = quantity_rules | append: ' / ' | append: rule
+                  endif
+                -%}
+
+                {%- if quantity_rules != blank -%}
+                  <p class="text-subdued text-sm">{{ quantity_rules | remove_first: ' / ' | capitalize }}</p>
+                {%- endif -%}
+              </div>
             {%- endif -%}
+
+          {%- when 'volume_pricing' -%}
+            {%- render 'volume-pricing-table', variant: variant -%}
 
           {%- when 'inventory' -%}
             {%- render 'inventory',
-                product: product,
+                variant: product.selected_or_first_available_variant,
                 show_in_stock_quantity: block.settings.show_in_stock_quantity,
                 show_progress_bar: block.settings.show_progress_bar,
                 progress_bar_max_value: block.settings.progress_bar_max_value,
-                low_threshold: block.settings.low_inventory_threshold,
-                form_id: product_form_id
+                low_threshold: block.settings.low_inventory_threshold
             -%}
 
           {%- when 'buy_buttons' -%}
@@ -332,7 +366,7 @@ Supported variables
 
           {%- when 'pickup_availability' -%}
             {%- if product != blank -%}
-              {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+              {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}
             {%- endif -%}
 
           {%- when 'offers' -%}
@@ -398,7 +432,7 @@ Supported variables
           {%- when 'accordion' -%}
             {%- liquid
               assign accordion_title = block.settings.title | default: block.settings.page.title
-              assign accordion_content = block.settings.page.content | default: block.settings.content
+              assign accordion_content = block.settings.page.content | default: block.settings.liquid | default: block.settings.content
 
               if accordion_title != blank and accordion_content != blank
                 render 'accordion', title: accordion_title, content: accordion_content, prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
@@ -412,7 +446,7 @@ Supported variables
                   {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
                   {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
                   {%- capture style -%}--image-max-width: {{ block.settings.icon_width }}px{%- endcapture -%}
-                  {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
+                  {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: sizes: sizes, widths: widths, class: 'constrained-image', style: style -}}
                 {%- else -%}
                   {%- render 'icon' with block.settings.icon, width: block.settings.icon_width -%}
                 {%- endif -%}
@@ -448,11 +482,11 @@ Supported variables
 
           {%- when 'modal' -%}
             {%- if block.settings.button_title != blank and block.settings.modal_content != blank -%}
-              {%- assign modal_id = 'modal-' | append: block.id -%}
+              {%- assign modal_id = product_form_id | append: block.id -%}
 
               {%- render 'button', content: block.settings.button_title, aria_controls: modal_id, style: block.settings.button_style, stretch: block.settings.stretch_button, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
 
-              <x-modal id="{{ modal_id | escape }}" class="modal modal--lg">
+              <x-modal id="{{ modal_id | escape }}" class="modal modal--lg color-scheme color-scheme--dialog">
                 <span class="h5" slot="header">{{ block.settings.modal_title }}</span>
 
                 <div class="prose">
@@ -473,7 +507,7 @@ Supported variables
                 {%- capture image_style_attribute -%}width: 100%;{%- endcapture -%}
               {%- endif -%}
 
-              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: image_sizes_attribute, widths: '200,300,400,500,600,800,1000,1200,1400', class: 'constrained-image', style: image_style_attribute -}}
+              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: image_sizes_attribute, widths: '200,300,400,500,600,800,1000,1200,1400', class: 'constrained-image', style: image_style_attribute -}}
             {%- endif -%}
 
           {%- when 'button' -%}
@@ -482,15 +516,17 @@ Supported variables
             {%- endif -%}
 
           {%- when 'share_buttons' -%}
-            <button class="share-buttons share-buttons--native link-faded" is="share-button" hidden>
-              <span class="smallcaps text-xxs">{{- 'general.social.share' | t -}}</span>
-              {%- render 'icon' with 'share' -%}
-            </button>
+            <share-button>
+              <button class="share-buttons share-buttons--native link-faded" hidden>
+                <span class="smallcaps text-xxs">{{- 'general.social.share' | t -}}</span>
+                {%- render 'icon' with 'share' -%}
+              </button>
 
-            <div class="share-buttons">
-              <span class="smallcaps text-xxs text-subdued">{{- 'general.social.share' | t -}}</span>
-              {%- render 'share-buttons', url: product.url, title: product.title, description: product.description, layout: 'list' -%}
-            </div>
+              <div class="share-buttons">
+                <span class="smallcaps text-xxs text-subdued">{{- 'general.social.share' | t -}}</span>
+                {%- render 'share-buttons', url: product.url, title: product.title, description: product.description, layout: 'list' -%}
+              </div>
+            </share-button>
 
           {%- when 'more_information' -%}
             {%- comment -%}We need at least one block compatible with below gallery information{%- endcomment -%}
@@ -502,17 +538,15 @@ Supported variables
             {%- endif -%}
         {%- endcase -%}
       {%- endcapture -%}
-
-      {%- if block_content != blank -%}
-        {%- if allow_block_group and inside_block_group_context == false -%}
-          {%- assign inside_block_group_context = true -%}
-          <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
-        {%- endif -%}
-
-        <div id="{{ block.type | replace: '_', '-' }}"  class="product-info__block-item" data-block-type="{{ block.type | replace: '_', '-' }}" {% unless block.type == '@app' or block.type == 'accordion' %}{{ block.shopify_attributes }}{% endunless %}>
-          {{- block_content -}}
-        </div>
+      
+      {%- if allow_block_group and inside_block_group_context == false -%}
+        {%- assign inside_block_group_context = true -%}
+        <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
       {%- endif -%}
+
+      <div class="product-info__block-item" data-block-id="{{ block.id }}" data-block-type="{{ block.type | replace: '_', '-' }}" {% unless block.type == '@app' or block.type == 'accordion' %}{{ block.shopify_attributes }}{% endunless %}>
+        {{- block_content -}}
+      </div>
 
       {%- if inside_block_group_context and allow_block_group == false -%}
         {%- assign inside_block_group_context = false -%}
@@ -535,5 +569,3 @@ Supported variables
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
-
-

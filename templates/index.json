@@ -9,6 +9,73 @@
  */
 {
   "sections": {
+    "custom_multi_column_BHzrQP": {
+      "type": "custom-multi-column",
+      "blocks": {
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "Promo outils",
+            "heading_tag": "h3",
+            "content": "<p>Jusq'à 50% de rabais sur plus de 200 outils chauffants</p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_8jiqTB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
+            "block_background": "",
+            "text_block_background": "",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/moroccanoil",
+            "link_text": ""
+          }
+        },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
+            "block_background": "",
+            "text_block_background": "",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/traite-ta-couette-cadeau",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_3LUanK",
+        "image_with_text_8jiqTB",
+        "image_with_text_QxKH3t"
+      ],
+      "disabled": true,
+      "name": "# Multi-column",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "full_width": true,
+        "column_gap": 4
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -120,7 +187,7 @@
             "products_count": 8,
             "title": "Nouveautés",
             "link_url": "shopify://collections/nouveautes",
-            "link_text": "Découvrir"
+            "link_text": "Voir les nouveautés"
           }
         }
       },
@@ -128,7 +195,7 @@
         "collection_eGEX8J"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -163,7 +230,7 @@
         "products_per_row_desktop": 5,
         "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 1,
-        "subheading": "Nouveautés et exclusivités chaque semaine!"
+        "subheading": ""
       }
     },
     "1de00121-d287-4d65-ad85-9d644957207a": {
@@ -219,8 +286,6 @@
           "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_type": "block",
-            "color_selector_type": "color",
             "size_chart_page": ""
           }
         },
@@ -233,8 +298,8 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#454545",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
@@ -298,11 +363,8 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/living-proof",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
+            "overlay_opacity": 0
           }
         },
         "collection_yBipf6": {
@@ -316,11 +378,8 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/australian-gold",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
+            "overlay_opacity": 0
           }
         },
         "collection_wKVRmL": {
@@ -334,11 +393,8 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/offre-esthederm",
-            "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
+            "overlay_opacity": 0
           }
         }
       },
@@ -357,9 +413,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "content": ""
       }
     },
     "featured_collections_KmTfiQ": {
@@ -439,11 +493,8 @@
             "title": "Cheveux gras",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "text_color": "#030303",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#030303",
-            "button_text_color": "#ffffff"
+            "overlay_opacity": 0
           }
         },
         "template--16107640619159__4efd38cc-5d27-440d-a661-f26151ab5a16-collection-2": {
@@ -457,11 +508,8 @@
             "title": "Cuir chevelu sec ou sensible",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "text_color": "#030303",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#030303",
-            "button_text_color": "#ffffff"
+            "overlay_opacity": 0
           }
         },
         "template--16107640619159__4efd38cc-5d27-440d-a661-f26151ab5a16-collection-3": {
@@ -475,11 +523,8 @@
             "title": "LES POINTES fourchues",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "text_color": "#030303",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#030303",
-            "button_text_color": "#ffffff"
+            "overlay_opacity": 0
           }
         }
       },
@@ -498,9 +543,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "content": ""
       }
     },
     "171813129708b37b21": {
@@ -621,10 +664,7 @@
             "text": "Before",
             "link_text": "",
             "link_url": "",
-            "link_style": "link",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
+            "link_style": "link"
           }
         },
         "after": {
@@ -633,10 +673,7 @@
             "text": "After",
             "link_text": "",
             "link_url": "",
-            "link_style": "link",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
+            "link_style": "link"
           }
         }
       },
@@ -703,10 +740,6 @@
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
-        "background": "#1c1c1c",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#1c1c1c",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -750,27 +783,19 @@
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "button_2_style": "solid"
       }
     },
     "newsletter": {
       "type": "newsletter",
       "disabled": true,
       "settings": {
-        "liquid": "<p>Write or copy/paste Liquid code</p>",
         "separate_section_with_border": true,
         "image_size": "auto",
         "subheading": "Keep me updated",
         "title": "Newsletter",
         "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
         "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
-        "button_background": "",
-        "button_text_color": "",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -852,6 +877,7 @@
     }
   },
   "order": [
+    "custom_multi_column_BHzrQP",
     "slideshow",
     "featured_collections_j4txfR",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",

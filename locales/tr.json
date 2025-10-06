@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Ülke",
-      "language": "Dil"
+      "language": "Dil",
+      "change_country_accessibility_text": "Ülkeyi veya para birimini değiştir",
+      "change_language_accessibility_text": "Dili değiştir"
     },
     "privacy_banner": {
       "accept": "Kabul Et",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Hesap",
+      "login": "Giriş Yap",
       "search": "Ara",
       "cart": "Sepet",
       "primary_navigation": "Birincil gezinti",
       "secondary_navigation": "İkincil gezinti",
-      "open_menu": "Navigasyon menüsünü aç",
-      "open_search": "Aramayı aç",
-      "open_account": "Hesap sayfasını aç",
-      "open_cart": "Sepeti aç"
+      "menu": "Menü"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Miktarı değiştir",
       "increase_quantity": "Miktarı artır",
       "decrease_quantity": "Miktarı azalt",
+      "minimum_of": "{{ min }} en az",
+      "maximum_of": "{{ max }} en fazla",
+      "increment_of": "{{ step }} artış",
       "cannot_add_more": "Daha fazla ekleyemezsiniz"
+    },
+    "volume_pricing": {
+      "title": "Toplu Alım Bazlı Fiyatlandırma",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "{{ price }}/adet"
     },
     "rating_count": {
       "zero": "Değerlendirme yok",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "Stokta var",
+      "low_stock": "Sadece birkaç birim kaldı",
       "in_stock_with_quantity_count": {
         "one": "Stokta {{ count }}",
         "other": "Stokta {{ count }}"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Yazan: {{ author }}",
+      "visit_author_website": "Yazarın web sitesini ziyaret edin",
       "share": "Paylaş",
       "tags": "Etiketler"
     },
@@ -364,7 +374,8 @@
       "product": "Ürün",
       "total": "Toplam",
       "quantity": "Miktar",
-      "remove": "Kaldır"
+      "remove": "Kaldır",
+      "remove_with_title": "{{ title }} kaldır"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "{{ remaining_amount }} daha harcayın ve ücretsiz gönderi kazanın!",
@@ -380,6 +391,10 @@
       "one_result": "Adresiniz için bir gönderi seçeneği bulunuyor:",
       "multiple_results": "Adresiniz için birden çok gönderi seçeneği bulunuyor:",
       "error": "Gönderi seçenekleri getirilirken bir veya daha fazla hata oluştu:"
+    },
+    "discount": {
+      "label": "İndirim Kodu",
+      "error": "Geçerli bir indirim kodu girin"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Bunu hediye olarak göndermek istiyorum",
       "email_label": "Alıcı e-postası",
       "name_label": "Alıcı adı (isteğe bağlı)",
+      "send_on_label": "Şu tarihte gönder (isteğe bağlı)",
       "message_label": "Mesaj (isteğe bağlı)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Önce/sonra karşılaştırmasını göstermek için lütfen bölüme daha fazla blok ekleyin.",
-      "percentage_shown": "Gösterilen sonra fotoğrafının yüzdesi"
+      "percentage_shown": "Gösterilen sonra fotoğrafının yüzdesi",
+      "cursor_accessibility_text": "Önce ve sonra fotoğrafları arasında gezinmek için sol ve sağ ok tuşlarını kullanın."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Bu teklifin süresi {{expiration_date}} tarihinde doluyor",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Ürünleri görüntüle",
       "view_product": "Ürünü görüntüle"
+    },
+    "quick_order_list": {
+      "products": "Ürünler",
+      "variants": "Varyantlar",
+      "quantity": "Miktar",
+      "price": "Fiyat",
+      "total": "Toplam",
+      "remove": "Kaldır",
+      "quantity_rules": "Miktar kuralları",
+      "volume_pricing": "Hacim fiyatlandırması",
+      "volume_pricing_available": "Hacim fiyatlandırması mevcut",
+      "show_variants": "Varyantları göster",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Artış: {{ step }}",
+      "view_cart": "Sepeti görüntüle",
+      "remove_all": "Hepsini kaldır",
+      "item_count": {
+        "zero": "{{ count }} ürün",
+        "one": "{{ count }} ürün",
+        "other": "{{ count }} ürün"
+      },
+      "product_subtotal": "Ürün ara toplamı"
     }
   }
 }

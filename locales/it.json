@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Paese\/Area geografica",
-      "language": "Lingua"
+      "language": "Lingua",
+      "change_country_accessibility_text": "Cambia paese o valuta",
+      "change_language_accessibility_text": "Cambia lingua"
     },
     "privacy_banner": {
       "accept": "Accetta",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Account",
+      "login": "Login",
       "search": "Cerca",
       "cart": "Carrello",
       "primary_navigation": "Navigazione primaria",
       "secondary_navigation": "Navigazione secondaria",
-      "open_menu": "Apri il menu di navigazione",
-      "open_search": "Mostra il menu di ricerca",
-      "open_account": "Mostra account",
-      "open_cart": "Mostra il carrello"
+      "menu": "Menù"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Modifica quantità",
       "increase_quantity": "Aumenta quantità",
       "decrease_quantity": "Diminuisci quantità",
+      "minimum_of": "Minimo di {{ min }}",
+      "maximum_of": "Massimo di {{ max }}",
+      "increment_of": "Incremento di {{ step }}",
       "cannot_add_more": "Non puoi aggiungere altro"
+    },
+    "volume_pricing": {
+      "title": "Prezzi basati sui volumi",
+      "minimum": "Più di {{ quantity }}",
+      "price_at_each": "a {{ price }}/ciascuno"
     },
     "rating_count": {
       "one": "{{ count }} recensione",
@@ -137,6 +145,7 @@
     },
     "inventory": {
       "in_stock": "Disponibile",
+      "low_stock": "Sono rimaste solo poche unità",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} disponibile",
         "other": "{{ count }} disponibili"
@@ -200,6 +209,7 @@
     },
     "post": {
       "written_by": "Scritto da {{ author }}",
+      "visit_author_website": "Visita il sito dell'autore",
       "share": "Condividi",
       "tags": "Tag"
     },
@@ -361,7 +371,8 @@
       "product": "Prodotto",
       "total": "Totale",
       "quantity": "Quantità",
-      "remove": "Rimuovi"
+      "remove": "Rimuovi",
+      "remove_with_title": "Rimuovi {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Ti mancano {{ remaining_amount }} per ottenere la spedizione gratuita!",
@@ -377,6 +388,10 @@
       "one_result": "1 opzione spedizione disponibile per il tuo indirizzo:",
       "multiple_results": "Multiple opzioni spedizione disponibili per il tuo indirizzo:",
       "error": "C'è stato un errore nel calcolo delle opzioni spedizione:"
+    },
+    "discount": {
+      "label": "Codice sconto",
+      "error": "Inserisci un codice sconto valido"
     }
   },
   "404": {
@@ -430,6 +445,7 @@
       "checkbox": "Voglio inviarlo come regalo",
       "email_label": "Email destinatario",
       "name_label": "Nome destinatario (facoltativo)",
+      "send_on_label": "Spedisci il giorno (facoltativo)",
       "message_label": "Messaggio (facoltativo)"
     }
   },
@@ -451,7 +467,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Per mostrare il confronto prima/dopo, aggiungi più blocchi alla sezione.",
-      "percentage_shown": "Percentuale visualizzata della foto \"dopo\""
+      "percentage_shown": "Percentuale visualizzata della foto \"dopo\"",
+      "cursor_accessibility_text": "Utilizza i tasti freccia sinistra e destra per navigare tra le foto prima e dopo."
     },
     "countdown_timer": {
       "expires_accessibility_text": "L'offerta scade in data {{expiration_date}}",
@@ -467,6 +484,29 @@
     "shop_the_look": {
       "view_products": "Visualizza prodotti",
       "view_product": "Visualizza prodotto"
+    },
+    "quick_order_list": {
+      "products": "Prodotti",
+      "variants": "Varianti",
+      "quantity": "Quantità",
+      "price": "Prezzo",
+      "total": "Totale",
+      "remove": "Rimuovi",
+      "quantity_rules": "Regole sulla quantità",
+      "volume_pricing": "Prezzi per volume",
+      "volume_pricing_available": "Prezzi per volume disponibili",
+      "show_variants": "Mostra varianti",
+      "minimum_of": "Minimo: {{ min }}",
+      "maximum_of": "Massimo: {{ max }}",
+      "increment_of": "Incremento: {{ step }}",
+      "view_cart": "Visualizza carrello",
+      "remove_all": "Rimuovi tutto",
+      "item_count": {
+        "zero": "{{ count }} articoli",
+        "one": "{{ count }} articolo",
+        "other": "{{ count }} articoli"
+      },
+      "product_subtotal": "Subtotale prodotti"
     }
   }
 }

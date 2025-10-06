@@ -11,7 +11,9 @@
   "sections": {
     "main": {
       "type": "main-not-found",
-      "settings": {}
+      "settings": {
+        "link": ""
+      }
     }
   },
   "order": [

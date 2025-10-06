@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Krajina",
-      "language": "Jazyk"
+      "language": "Jazyk",
+      "change_country_accessibility_text": "Zmeniť krajinu alebo menu",
+      "change_language_accessibility_text": "Zmeniť jazyk"
     },
     "privacy_banner": {
       "accept": "Potvrdiť",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Účet",
+      "login": "Prihlásiť sa",
       "search": "Hľadať",
       "cart": "Košík",
       "primary_navigation": "Primárna navigácia",
       "secondary_navigation": "Sekundárna navigácia",
-      "open_menu": "Otvoriť navigačné menu",
-      "open_search": "Otvoriť vyhľadávanie",
-      "open_account": "Otvoriť stránku účtu",
-      "open_cart": "Otvoriť košík"
+      "menu": "Menu"
     }
   },
   "product": {
@@ -132,7 +132,15 @@
       "change_quantity": "Zmeniť množstvo",
       "increase_quantity": "Zvýšiť množstvo",
       "decrease_quantity": "Znížiť množstvo",
+      "minimum_of": "Minimálne {{ min }}",
+      "maximum_of": "Maximálne {{ max }}",
+      "increment_of": "Prírastok {{ step }}",
       "cannot_add_more": "Nemôžete pridať ďalšie"
+    },
+    "volume_pricing": {
+      "title": "Objemové ceny",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "{{ price }}/kus"
     },
     "rating_count": {
       "zero": "Zatiaľ žiadne hodnotenia",
@@ -143,6 +151,7 @@
     },
     "inventory": {
       "in_stock": "Na sklade",
+      "low_stock": "Zostáva už len niekoľko kusov",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} na sklade",
         "other": "{{ count }} na sklade"
@@ -211,6 +220,7 @@
     },
     "post": {
       "written_by": "Od {{ author }}",
+      "visit_author_website": "Navštívte webovú stránku autora",
       "share": "Zdieľať",
       "tags": "Štítky"
     },
@@ -375,7 +385,8 @@
       "product": "Produkt",
       "total": "Celkom",
       "quantity": "Množstvo",
-      "remove": "Odstrániť"
+      "remove": "Odstrániť",
+      "remove_with_title": "Odstrániť {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Nakúpte ešte za {{ remaining_amount }} a získajte dopravu zdarma!",
@@ -391,6 +402,10 @@
       "one_result": "Pre vašu adresu platí jedna sadzba za dopravu:",
       "multiple_results": "Pre vašu adresu existuje niekoľko sadzieb prepravy:",
       "error": "Pri načítavaní prepravných sadzieb došlo k jednej alebo viacerým chybám:"
+    },
+    "discount": {
+      "label": "Zľavový kód",
+      "error": "Zadajte platný zľavový kód"
     }
   },
   "404": {
@@ -450,6 +465,7 @@
       "checkbox": "Chcem to poslať ako darček",
       "email_label": "E-mail príjemcu",
       "name_label": "Meno príjemcu (voliteľné)",
+      "send_on_label": "Dátum odoslania (voliteľné)",
       "message_label": "Správa (voliteľné)"
     }
   },
@@ -471,7 +487,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Ak chcete zobraziť porovnanie pred/po, pridajte do sekcie ďalšie bloky.",
-      "percentage_shown": "Percento zobrazenej fotografie po"
+      "percentage_shown": "Percento zobrazenej fotografie po",
+      "cursor_accessibility_text": "Použite ľavé a pravé šípky na navigáciu medzi pred a po fotografiách."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Platnosť tejto ponuky končí {{expiration_date}}",
@@ -487,6 +504,29 @@
     "shop_the_look": {
       "view_products": "Zobraziť produkty",
       "view_product": "Zobraziť produkt"
+    },
+    "quick_order_list": {
+      "products": "Produkty",
+      "variants": "Varianty",
+      "quantity": "Množstvo",
+      "price": "Cena",
+      "total": "Celkom",
+      "remove": "Odstrániť",
+      "quantity_rules": "Pravidlá množstva",
+      "volume_pricing": "Hromadné ceny",
+      "volume_pricing_available": "Hromadné ceny dostupné",
+      "show_variants": "Zobraziť varianty",
+      "minimum_of": "Minimálne: {{ min }}",
+      "maximum_of": "Maximálne: {{ max }}",
+      "increment_of": "Prírastok: {{ step }}",
+      "view_cart": "Zobraziť košík",
+      "remove_all": "Odstrániť všetko",
+      "item_count": {
+        "zero": "{{ count }} položiek",
+        "one": "{{ count }} položka",
+        "other": "{{ count }} položiek"
+      },
+      "product_subtotal": "Medzisúčet produktov"
     }
   }
 }

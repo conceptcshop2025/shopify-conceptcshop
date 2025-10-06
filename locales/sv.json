@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Land",
-      "language": "Språk"
+      "language": "Språk",
+      "change_country_accessibility_text": "Byt land eller valuta",
+      "change_language_accessibility_text": "Byt språk"
     },
     "privacy_banner": {
       "accept": "Godkänn",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Konto",
+      "login": "Logga in",
       "search": "Sök",
       "cart": "Kundvagn",
       "primary_navigation": "Primär navigering",
       "secondary_navigation": "Sekundär navigering",
-      "open_menu": "Öppna navigeringsmenyn",
-      "open_search": "Öppna sök",
-      "open_account": "Öppna kontosidan",
-      "open_cart": "Öppna varukorgen"
+      "menu": "Meny"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Ändra antal",
       "increase_quantity": "Öka antal",
       "decrease_quantity": "Minska antal",
+      "minimum_of": "Minimum av {{ min }}",
+      "maximum_of": "Maximum av {{ max }}",
+      "increment_of": "Ökning med {{ step }}",
       "cannot_add_more": "Du kan inte lägga till mer"
+    },
+    "volume_pricing": {
+      "title": "Volymprissättning",
+      "minimum": "Fler än {{ quantity }}",
+      "price_at_each": "för {{ price }}/styck"
     },
     "rating_count": {
       "one": "{{ count }} recension",
@@ -137,6 +145,7 @@
     },
     "inventory": {
       "in_stock": "I lager",
+      "low_stock": "Endast några få enheter kvar",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} i lager",
         "other": "{{ count }} i lager"
@@ -200,6 +209,7 @@
     },
     "post": {
       "written_by": "Av {{ author }}",
+      "visit_author_website": "Besök författarens webbplats",
       "share": "Dela",
       "tags": "Taggar"
     },
@@ -361,7 +371,8 @@
       "product": "Produkt",
       "total": "Totalt",
       "quantity": "Antal",
-      "remove": "Ta bort"
+      "remove": "Ta bort",
+      "remove_with_title": "Ta bort {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Hnadla för {{ remaining_amount }} till och få gratis frakt!",
@@ -377,6 +388,10 @@
       "one_result": "Det finns en fraktkostnad för din adress:",
       "multiple_results": "Det finns flera fraktpriser för din adress:",
       "error": "Ett eller flera fel uppstod vid hämtning av fraktpriser:"
+    },
+    "discount": {
+      "label": "Rabattkod",
+      "error": "Ange en giltig rabattkod"
     }
   },
   "404": {
@@ -430,6 +445,7 @@
       "checkbox": "Jag vill skicka detta som en gåva",
       "email_label": "Mottagarens e-postadress",
       "name_label": "Mottagarens namn (valfritt)",
+      "send_on_label": "Skicka den (valfritt)",
       "message_label": "Meddelande (valfritt)"
     }
   },
@@ -451,7 +467,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "För att visa före/efter jämförelse, lägg till fler block i sektionen.",
-      "percentage_shown": "Procentandel efter det visade fotot"
+      "percentage_shown": "Procentandel efter det visade fotot",
+      "cursor_accessibility_text": "Använd vänster- och högerpiltangenterna för att navigera mellan före och efter foton."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Erbjudandet löper ut den {{expiration_date}}",
@@ -467,6 +484,29 @@
     "shop_the_look": {
       "view_products": "Visa produkter",
       "view_product": "Visa produkt"
+    },
+    "quick_order_list": {
+      "products": "Produkter",
+      "variants": "Varianter",
+      "quantity": "Antal",
+      "price": "Pris",
+      "total": "Totalt",
+      "remove": "Ta bort",
+      "quantity_rules": "Kvotregler",
+      "volume_pricing": "Volymprissättning",
+      "volume_pricing_available": "Volymprissättning tillgänglig",
+      "show_variants": "Visa varianter",
+      "minimum_of": "Minimalt: {{ min }}",
+      "maximum_of": "Maximalt: {{ max }}",
+      "increment_of": "Ökning: {{ step }}",
+      "view_cart": "Visa kundvagn",
+      "remove_all": "Ta bort alla",
+      "item_count": {
+        "zero": "{{ count }} artiklar",
+        "one": "{{ count }} artikel",
+        "other": "{{ count }} artiklar"
+      },
+      "product_subtotal": "Produktsumma"
     }
   }
 }

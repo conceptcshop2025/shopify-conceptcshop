@@ -20,9 +20,7 @@
         "show_category": true,
         "show_author": true,
         "show_share_buttons": true,
-        "show_sticky_bar": true,
-        "background": "#e4c0ae",
-        "text_color": "#1c1c1c"
+        "show_sticky_bar": true
       }
     },
     "prev-next-blog-posts": {
@@ -33,9 +31,7 @@
         "title": "Read more",
         "show_category": true,
         "show_excerpt": true,
-        "show_read_more": true,
-        "background": "#1c1c1c",
-        "text_color": "#ffffff"
+        "show_read_more": true
       }
     }
   },

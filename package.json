@@ -1,0 +1,16 @@
+{
+    "name": "shopify-conceptcshop",
+    "version": "1.0.0",
+    "description": "Concept C Shopify Theme",
+    "scripts": {
+        "dev": "shopify theme dev",
+        "build": "shopify theme build",
+        "serve": "shopify theme serve",
+        "deploy": "shopify theme push"
+    },
+    "author": "Juan Felipe Cancino",
+    "license": "ISC",
+    "devDependencies": {
+        "@shopify/theme": "^3.85.0"
+    }
+}

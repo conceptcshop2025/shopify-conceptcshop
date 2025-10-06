@@ -70,16 +70,12 @@
       "type": "newsletter",
       "disabled": true,
       "settings": {
-        "liquid": "<p>Write or copy/paste Liquid code</p>",
         "separate_section_with_border": false,
         "image_size": "auto",
         "subheading": "",
         "title": "10% de rabais sur ta première commande!",
         "content": "<p>Sur des gammes telles que Kérastase | Shu Uemera | Oribe et promotions exclusives!</p>",
         "button_text": "Je m'inscris",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }

@@ -10,14 +10,10 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections-copy",
+      "type": "main-list-collections",
       "settings": {
         "show_title": true,
-        "collections": [
-          "over-100",
-          "15-30",
-          "30-50"
-        ],
+        "collections": [],
         "collections_per_row_desktop": 3,
         "image_size": "auto",
         "content_position": "place-self-end-start text-start",

@@ -29,9 +29,7 @@
         "autoplay": false,
         "cycle_speed": 5,
         "desktop_font_size": 10,
-        "mobile_font_size": 10,
-        "background": "#e4c0ae",
-        "text_color": "#030303"
+        "mobile_font_size": 10
       }
     },
     "header": {

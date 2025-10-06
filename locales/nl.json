@@ -28,7 +28,7 @@
       "rss_feed": "RSS-feed"
     },
     "label": {
-      "color": "Kleur,Kleur",
+      "color": "Kleur",
       "white": "Wit",
       "size": "Maat"
     },
@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Land",
-      "language": "Taal"
+      "language": "Taal",
+      "change_country_accessibility_text": "Land of valuta wijzigen",
+      "change_language_accessibility_text": "Taal wijzigen"
     },
     "privacy_banner": {
       "accept": "Accepteren",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Account",
+      "login": "Inloggen",
       "search": "Zoeken",
       "cart": "Winkelwagen",
       "primary_navigation": "Primaire navigatie",
       "secondary_navigation": "Secundaire navigatie",
-      "open_menu": "Navigatiemenu openen",
-      "open_search": "Zoeken openen",
-      "open_account": "Accountpagina openen",
-      "open_cart": "Winkelwagen openen"
+      "menu": "Menu"
     }
   },
   "product": {
@@ -129,7 +129,15 @@
       "change_quantity": "Aantal wijzigen",
       "increase_quantity": "Aantal verhogen",
       "decrease_quantity": "Aantal verlagen",
+      "minimum_of": "Minimum van {{ min }}",
+      "maximum_of": "Maximum van {{ max }}",
+      "increment_of": "Verhoging van {{ step }}",
       "cannot_add_more": "Je kunt niet meer toevoegen"
+    },
+    "volume_pricing": {
+      "title": "Volumeprijsstelling",
+      "minimum": "Meer dan {{ quantity }}",
+      "price_at_each": "{{ price }}/st."
     },
     "rating_count": {
       "zero": "Geen recensies",
@@ -138,6 +146,7 @@
     },
     "inventory": {
       "in_stock": "Op voorraad",
+      "low_stock": "Slechts een paar eenheden over",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} op voorraad",
         "other": "{{ count }} op voorraad"
@@ -202,6 +211,7 @@
     },
     "post": {
       "written_by": "Door {{ author }}",
+      "visit_author_website": "Bezoek de website van de auteur",
       "share": "Delen",
       "tags": "Labels"
     },
@@ -364,7 +374,8 @@
       "product": "Product",
       "total": "Totaal",
       "quantity": "Aantal",
-      "remove": "Verwijderen"
+      "remove": "Verwijderen",
+      "remove_with_title": "Verwijder {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Besteed {{ remaining_amount }} meer en krijg gratis verzending!",
@@ -380,6 +391,10 @@
       "one_result": "Er is één verzendtarief voor je adres:",
       "multiple_results": "Er zijn meerdere verzendtarieven voor je adres:",
       "error": "Er zijn een of meer fouten opgetreden bij het ophalen van de verzendtarieven:"
+    },
+    "discount": {
+      "label": "Kortingscode",
+      "error": "Voer een geldige kortingscode in"
     }
   },
   "404": {
@@ -435,6 +450,7 @@
       "checkbox": "Ik wil dit als cadeau sturen",
       "email_label": "E-mailadres ontvanger",
       "name_label": "Naam ontvanger (optioneel)",
+      "send_on_label": "Verzenden op (optioneel)",
       "message_label": "Bericht (optioneel)"
     }
   },
@@ -456,7 +472,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Om de voor/na-vergelijking weer te geven, moet je meer blokken toevoegen in het onderdeel.",
-      "percentage_shown": "Percentage van achteraf getoonde foto"
+      "percentage_shown": "Percentage van achteraf getoonde foto",
+      "cursor_accessibility_text": "Gebruik de linker- en rechterpijltjestoetsen om te navigeren tussen voor- en na-foto's."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Deze aanbieding verloopt op {{expiration_date}}",
@@ -472,6 +489,29 @@
     "shop_the_look": {
       "view_products": "Producten bekijken",
       "view_product": "Product bekijken"
+    },
+    "quick_order_list": {
+      "products": "Producten",
+      "variants": "Varianten",
+      "quantity": "Aantal",
+      "price": "Prijs",
+      "total": "Totaal",
+      "remove": "Verwijderen",
+      "quantity_rules": "Aantalregels",
+      "volume_pricing": "Volumekorting",
+      "volume_pricing_available": "Volumekorting beschikbaar",
+      "show_variants": "Toon varianten",
+      "minimum_of": "Minimaal: {{ min }}",
+      "maximum_of": "Maximaal: {{ max }}",
+      "increment_of": "Incrementeel: {{ step }}",
+      "view_cart": "Bekijk winkelwagen",
+      "remove_all": "Verwijder alles",
+      "item_count": {
+        "zero": "{{ count }} items",
+        "one": "{{ count }} item",
+        "other": "{{ count }} items"
+      },
+      "product_subtotal": "Product subtotaal"
     }
   }
 }

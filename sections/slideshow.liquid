@@ -9,27 +9,34 @@ may have important consequence on the section itself.
 {%- if section.blocks.size > 0 -%}
   {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
-  <slideshow-carousel id="{{ carousel_id }}" class="slideshow" allow-swipe {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %} cell-selector=".slideshow__slide" {% if section.settings.autoplay %}autoplay="{{ section.settings.cycle_speed }}"{% endif %} {% if section.settings.autoplay_pause_on_video %}autoplay-pause-on-video{% endif %} role="region" style="{% render 'surface', background: section.settings.background %}">
+  <slideshow-carousel id="{{ carousel_id }}" class="slideshow" allow-swipe {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %} cell-selector=".slideshow__slide" {% if section.settings.autoplay %}autoplay="{{ section.settings.cycle_speed }}"{% endif %} {% if section.settings.autoplay and section.settings.autoplay_pause_on_video %}autoplay-pause-on-video{% endif %} role="region" style="{% render 'surface', background: section.settings.background %}">
     {%- for block in section.blocks -%}
       {%- capture slide -%}
         <div class="content-over-media content-over-media--{{ section.settings.media_size }}" style="--content-over-media-content-max-width: {{ block.settings.content_max_width }}px; --content-over-media-gradient-overlay: {{ block.settings.gradient_overlay }}">
           {%- comment -%}---------------- MEDIA ----------------{%- endcomment -%}
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
-              {%- capture loading_strategy -%}{% if forloop.first %}eager{% else %}lazy{% endif %}{%- endcapture -%}
-              {%- capture fetch_priority -%}{% if forloop.first %}high{% else %}low{% endif %}{%- endcapture -%}
+              {%- liquid
+                if forloop.first
+                  assign loading_strategy = nil
+                  assign fetch_priority = 'high'
+                else
+                  assign loading_strategy = 'lazy'
+                  assign fetch_priority = 'low'
+                endif
+              -%}
 
               <picture>
                 {%- if block.settings.mobile_image != blank -%}
                   <source
                       media="(max-width: 699px)"
-                      srcset="{{ block.settings.mobile_image | image_url: width: '400x' }} 400w, {{ block.settings.mobile_image | image_url: width: '600x' }} 600w, {{ block.settings.mobile_image | image_url: width: '800x' }} 800w, {{ block.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+                      srcset="{{ block.settings.mobile_image | image_url: width: 800 }} 800w, {{ block.settings.mobile_image | image_url: width: 1000 }} 1000w, {{ block.settings.mobile_image | image_url: width: 1200 }} 1200w"
                       width="{{ block.settings.mobile_image.width }}"
                       height="{{ block.settings.mobile_image.height }}"
                   >
                 {%- endif -%}
 
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '800,1200,1800,2400,2800,3200' -}}
               </picture>
             {%- else -%}
               {%- capture placeholder_image -%}{% cycle 'placeholder': 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
@@ -37,12 +44,18 @@ may have important consequence on the section itself.
             {%- endif -%}
           {%- else -%}
             {%- liquid
+              if section.settings.autoplay
+                assign loop_video = false
+              else
+                assign loop_video = true
+              endif
+
               if block.settings.video != blank
                 if block.settings.mobile_video == blank
-                  render 'media', media: block.settings.video, autoplay: true, loop: true, controls: false, preload: forloop.first
+                  render 'media', media: block.settings.video, autoplay: true, loop: loop_video, controls: false, preload: forloop.first
                 else
-                  render 'media', media: block.settings.video, autoplay: true, loop: true, controls: false, preload: forloop.first, class: 'hidden sm:block'
-                  render 'media', media: block.settings.mobile_video, autoplay: true, loop: true, controls: false, preload: forloop.first, class: 'sm:hidden'
+                  render 'media', media: block.settings.video, autoplay: true, loop: loop_video, controls: false, preload: forloop.first, class: 'hidden sm:block'
+                  render 'media', media: block.settings.mobile_video, autoplay: true, loop: loop_video, controls: false, preload: forloop.first, class: 'sm:hidden'
                 endif
               else
                 capture placeholder_image
@@ -128,11 +141,11 @@ may have important consequence on the section itself.
       {%- endcapture -%}
 
       {%- if block.settings.button_1_link != blank and block.settings.button_1_text == blank and block.settings.button_2_text == blank -%}
-        <a href="{{ block.settings.button_1_link }}" class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
+        <a href="{{ block.settings.button_1_link }}" class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first and section.settings.show_initial_transition %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
           {{- slide -}}
         </a>
       {%- else -%}
-        <div class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
+        <div class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first and section.settings.show_initial_transition %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
           {{- slide -}}
         </div>
       {%- endif -%}
@@ -222,6 +235,13 @@ may have important consequence on the section itself.
     },
     {
       "type": "checkbox",
+      "id": "show_initial_transition",
+      "label": "t:sections.slideshow.show_initial_transition",
+      "info": "t:sections.slideshow.show_initial_transition_info",
+      "default": false
+    },
+    {
+      "type": "checkbox",
       "id": "autoplay",
       "label": "t:sections.slideshow.auto_rotate_between_slides",
       "default": true
@@ -230,7 +250,8 @@ may have important consequence on the section itself.
       "type": "checkbox",
       "id": "autoplay_pause_on_video",
       "label": "t:sections.slideshow.autoplay_pause_on_video",
-      "default": true
+      "default": true,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
     {
       "type": "range",
@@ -240,7 +261,8 @@ may have important consequence on the section itself.
       "step": 1,
       "unit": "sec",
       "label": "t:sections.slideshow.cycle_speed",
-      "default": 5
+      "default": 5,
+      "visible_if": "{{ section.settings.autoplay }}"
     },
     {
       "type": "header",
@@ -792,6 +814,7 @@ may have important consequence on the section itself.
   "presets": [
     {
       "name": "t:sections.slideshow.presets.slideshow.name",
+      "category": "t:global.categories.banners",
       "blocks": [
         {
           "type": "image",

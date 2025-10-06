@@ -57,7 +57,9 @@
     },
     "localization": {
       "country": "Kraj",
-      "language": "Język"
+      "language": "Język",
+      "change_country_accessibility_text": "Zmień kraj lub walutę",
+      "change_language_accessibility_text": "Zmień język"
     },
     "privacy_banner": {
       "accept": "Zgoda",
@@ -79,14 +81,12 @@
   "header": {
     "general": {
       "account": "Konto",
+      "login": "Zaloguj się",
       "search": "Szukaj",
       "cart": "Koszyk",
       "primary_navigation": "Podstawowa nawigacja",
       "secondary_navigation": "Nawigacja pomocnicza",
-      "open_menu": "Otwórz menu nawigacji",
-      "open_search": "Otwórz wyszukiwarkę",
-      "open_account": "Otwórz stronę konta",
-      "open_cart": "Otwórz koszyk"
+      "menu": "Menu"
     }
   },
   "product": {
@@ -131,7 +131,15 @@
       "change_quantity": "Zmień ilość",
       "increase_quantity": "Zwiększ ilość",
       "decrease_quantity": "Zmniejsz ilość",
+      "minimum_of": "Minimum {{ min }}",
+      "maximum_of": "Maksimum {{ max }}",
+      "increment_of": "Przyrost o {{ step }}",
       "cannot_add_more": "Nie możesz dodać więcej."
+    },
+    "volume_pricing": {
+      "title": "Ceny zależne od wolumenu",
+      "minimum": "{{ quantity }}+",
+      "price_at_each": "{{ price }}/szt."
     },
     "rating_count": {
       "zero": "Brak opinii",
@@ -142,6 +150,7 @@
     },
     "inventory": {
       "in_stock": "W magazynie",
+      "low_stock": "Zostało tylko kilka sztuk",
       "in_stock_with_quantity_count": {
         "one": "{{ count }} szt. w magazynie",
         "other": "{{ count }} szt. w magazynie"
@@ -208,6 +217,7 @@
     },
     "post": {
       "written_by": "Autor: {{ author }}",
+      "visit_author_website": "Odwiedź stronę autora",
       "share": "Udostępnij",
       "tags": "Tagi"
     },
@@ -371,7 +381,8 @@
       "product": "Produkt",
       "total": "Łącznie",
       "quantity": "Ilość",
-      "remove": "Usuń"
+      "remove": "Usuń",
+      "remove_with_title": "Usuń {{ title }}"
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Wydaj jeszcze {{ remaining_amount }}, aby uzyskać bezpłatną dostawę!",
@@ -387,6 +398,10 @@
       "one_result": "Dla podanego adresu dostępna jest jedna metoda dostawy:",
       "multiple_results": "Dla podanego adresu dostępne są poniższe metoda dostawy:",
       "error": "Wystąpił co najmniej jeden błąd podczas pobierania metod dostawy:"
+    },
+    "discount": {
+      "label": "Kod rabatowy",
+      "error": "Wprowadź poprawny kod rabatowy"
     }
   },
   "404": {
@@ -446,6 +461,7 @@
       "checkbox": "Chcę to wysłać jako prezent",
       "email_label": "E-mail odbiorcy",
       "name_label": "Nazwa odbiorcy (opcjonalnie)",
+      "send_on_label": "Wyślij dnia (opcjonalnie)",
       "message_label": "Wiadomość (opcjonalna)"
     }
   },
@@ -467,7 +483,8 @@
   "sections": {
     "before_after": {
       "not_enough_blocks": "Aby wyświetlić porównanie przed/po, dodaj więcej bloków w sekcji.",
-      "percentage_shown": "Procent wyświetlanego zdjęcia „po”"
+      "percentage_shown": "Procent wyświetlanego zdjęcia „po”",
+      "cursor_accessibility_text": "Użyj klawiszy strzałek w lewo i w prawo, aby nawigować między zdjęciami przed i po."
     },
     "countdown_timer": {
       "expires_accessibility_text": "Ta oferta wygasa {{expiration_date}}.",
@@ -483,6 +500,29 @@
     "shop_the_look": {
       "view_products": "Wyświetl produkty",
       "view_product": "Wyświetl produkt"
+    },
+    "quick_order_list": {
+      "products": "Produkty",
+      "variants": "Warianty",
+      "quantity": "Ilość",
+      "price": "Cena",
+      "total": "Razem",
+      "remove": "Usuń",
+      "quantity_rules": "Zasady ilości",
+      "volume_pricing": "Ceny hurtowe",
+      "volume_pricing_available": "Ceny hurtowe dostępne",
+      "show_variants": "Pokaż warianty",
+      "minimum_of": "Minimum: {{ min }}",
+      "maximum_of": "Maksimum: {{ max }}",
+      "increment_of": "Przyrost: {{ step }}",
+      "view_cart": "Zobacz koszyk",
+      "remove_all": "Usuń wszystko",
+      "item_count": {
+        "zero": "{{ count }} przedmiotów",
+        "one": "{{ count }} przedmiot",
+        "other": "{{ count }} przedmioty"
+      },
+      "product_subtotal": "Suma częściowa produktów"
     }
   }
 }

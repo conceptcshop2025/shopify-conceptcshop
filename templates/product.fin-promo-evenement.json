@@ -86,8 +86,6 @@
           "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_type": "dropdown",
-            "color_selector_type": "dropdown",
             "size_chart_page": ""
           }
         },

@@ -3,17 +3,19 @@
     {%- assign posted_successfully = false -%}
     {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
 
-    {%- capture temporary -%}
+    {%- capture _temporary -%}
       {%- form 'customer', id: newsletter_id, class: 'form' -%}
         {%- assign posted_successfully = form.posted_successfully? -%}
       {%- endform -%}
     {%- endcapture -%}
 
-    <newsletter-popup class="pop-in newsletter-popup" {% if section.settings.show_only_once %}only-once{% endif %} apparition-delay="{{ section.settings.apparition_delay }}" {% if posted_successfully %}open{% endif %} handle-editor-events style="{% render 'surface', background: section.settings.background, text_color: section.settings.text_color %}">
-      <button class="pop-in__close-button tap-area" is="dialog-close-button">
-        <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
-        {%- render 'icon' with 'close' -%}
-      </button>
+    <newsletter-popup class="pop-in newsletter-popup color-scheme color-scheme--{{ section.settings.color_scheme.id }}" title="Newsletter popup" {% if section.settings.show_only_once %}only-once{% endif %} apparition-delay="{{ section.settings.apparition_delay }}" {% if posted_successfully %}open{% endif %} handle-editor-events>
+      <dialog-close-button class="contents">
+        <button class="pop-in__close-button tap-area">
+          <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+          {%- render 'icon' with 'close' -%}
+        </button>
+      </dialog-close-button>
 
       <div class="v-stack gap-8">
         {%- if section.settings.title != blank or section.settings.content != blank -%}
@@ -30,30 +32,32 @@
           </div>
         {%- endif -%}
 
-        {%- form 'customer', id: newsletter_id, class: 'form' -%}
-          {%- if form.posted_successfully? -%}
-            {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
-            {%- render 'banner', content: success_message, status: 'success', text_alignment: 'center' -%}
+        {%- if section.settings.show_newsletter_form -%}
+          {%- form 'customer', id: newsletter_id, class: 'form' -%}
+            {%- if form.posted_successfully? -%}
+              {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+              {%- render 'banner', content: success_message, status: 'success', text_alignment: 'center' -%}
 
-            <script>
-              localStorage.setItem('theme:popup-filled', 'true');
-            </script>
-          {%- else -%}
-            {%- if form.errors -%}
-              {%- assign content = form.errors | default_errors -%}
-              {%- render 'banner', status: 'error', content: content, text_alignment: 'center' -%}
+              <script>
+                localStorage.setItem('theme:popup-filled', 'true');
+              </script>
+            {%- else -%}
+              {%- if form.errors -%}
+                {%- assign content = form.errors | default_errors -%}
+                {%- render 'banner', status: 'error', content: content, text_alignment: 'center' -%}
+              {%- endif -%}
+
+              <div class="fieldset">
+                <input type="hidden" name="contact[tags]" value="newsletter">
+
+                {%- assign label = 'blog.comments.email' | t -%}
+                {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+              </div>
+
+              {%- render 'button', content: section.settings.button_text, type: 'submit' -%}
             {%- endif -%}
-
-            <div class="fieldset">
-              <input type="hidden" name="contact[tags]" value="newsletter">
-
-              {%- assign label = 'blog.comments.email' | t -%}
-              {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
-            </div>
-
-            {%- render 'button', content: section.settings.button_text, type: 'submit', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
-          {%- endif -%}
-        {%- endform -%}
+          {%- endform -%}
+        {%- endif -%}
       </div>
     </newsletter-popup>
   {%- endunless -%}
@@ -67,6 +71,12 @@
     {
       "type": "paragraph",
       "content": "t:sections.newsletter_popup.instructions"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-3"
     },
     {
       "type": "range",
@@ -97,6 +107,12 @@
       "default": true
     },
     {
+      "type": "checkbox",
+      "id": "show_newsletter_form",
+      "label": "t:sections.newsletter_popup.show_newsletter_form",
+      "default": true
+    },
+    {
       "type": "inline_richtext",
       "id": "title",
       "label": "t:global.text.heading",
@@ -113,30 +129,6 @@
       "id": "button_text",
       "label": "t:global.text.button_text",
       "default": "Subscribe"
-    },
-    {
-      "type": "color",
-      "id": "background",
-      "label": "t:global.colors.background",
-      "default": "#1c1c1c"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "t:global.colors.text",
-      "default": "#ffffff"
-    },
-    {
-      "type": "color",
-      "id": "button_background",
-      "label": "t:global.colors.button_background",
-      "default": "#ffffff"
-    },
-    {
-      "type": "color",
-      "id": "button_text_color",
-      "label": "t:global.colors.button_text",
-      "default": "#1c1c1c"
     }
   ]
 }
