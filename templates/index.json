@@ -186,7 +186,7 @@
           "settings": {
             "collection": "nouveautes",
             "products_count": 8,
-            "title": "Nouveautés et exclusivités",
+            "title": "Nouveautés",
             "link_url": "shopify://collections/nouveautes",
             "link_text": "Voir les nouveautés"
           }
