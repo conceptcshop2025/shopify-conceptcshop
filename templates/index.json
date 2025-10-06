@@ -191,7 +191,7 @@
           "type": "collection",
           "settings": {
             "collection": "nouveautes",
-            "products_count": 3,
+            "products_count": 8,
             "title": "Nouveautés",
             "link_url": "shopify://collections/nouveautes",
             "link_text": "Découvrir"
@@ -203,7 +203,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
