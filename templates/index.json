@@ -57,6 +57,7 @@
         "image_with_text_8jiqTB",
         "image_with_text_QxKH3t"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -165,7 +166,6 @@
         "image_EtBh9L",
         "image_K4iEwq"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
