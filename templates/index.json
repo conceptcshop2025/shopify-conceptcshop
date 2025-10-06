@@ -170,7 +170,6 @@
         "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "auto",
-        "show_initial_transition": false,
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 4,
@@ -196,7 +195,6 @@
         "collection_eGEX8J"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
@@ -225,7 +223,6 @@
         "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
@@ -289,9 +286,6 @@
           "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
             "size_chart_page": ""
           }
         },
@@ -338,7 +332,6 @@
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-pickup_availability-1"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "product": "rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
         "separate_section_with_border": true,
         "container_size": "lg",
@@ -362,7 +355,6 @@
         "collection_rtX6HU": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "living-proof",
             "image": "shopify://shop_images/Marathon_des_marques_14.png",
             "expand_collection": false,
@@ -371,7 +363,6 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/living-proof",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -379,7 +370,6 @@
         "collection_yBipf6": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "australian-gold",
             "image": "shopify://shop_images/Marathon_des_marques_15.webp",
             "expand_collection": false,
@@ -388,7 +378,6 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/australian-gold",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -396,7 +385,6 @@
         "collection_wKVRmL": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "offre-esthederm",
             "image": "shopify://shop_images/Marathon_des_marques_17.webp",
             "expand_collection": false,
@@ -405,7 +393,6 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify://collections/offre-esthederm",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -418,15 +405,12 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "image_size": "xs",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
-        "stack_collections_mobile": true,
-        "collections_per_row_mobile": "1",
         "subheading": "",
         "title": "",
         "content": ""
@@ -450,7 +434,6 @@
         "collection_qArX93"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -489,7 +472,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "LOOK RAPIDE ET FACILE",
@@ -503,7 +485,6 @@
         "template--16107640619159__4efd38cc-5d27-440d-a661-f26151ab5a16-collection-1": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "cheveux-gras",
             "image": "shopify://shop_images/Sans_titre_2_3d85890d-edf7-4154-abdb-90006fc87c6a.jpg",
             "expand_collection": false,
@@ -512,7 +493,6 @@
             "title": "Cheveux gras",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -520,7 +500,6 @@
         "template--16107640619159__4efd38cc-5d27-440d-a661-f26151ab5a16-collection-2": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "cuir-chevelu-sensible-ou-sec",
             "image": "shopify://shop_images/Sans_titre_5_4fb1bdcf-6aa7-44d4-baae-a3e67a08e322.png",
             "expand_collection": false,
@@ -529,7 +508,6 @@
             "title": "Cuir chevelu sec ou sensible",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -537,7 +515,6 @@
         "template--16107640619159__4efd38cc-5d27-440d-a661-f26151ab5a16-collection-3": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
             "collection": "pointes-fourchues",
             "image": "shopify://shop_images/Onglets_collection_site.png",
             "expand_collection": false,
@@ -546,7 +523,6 @@
             "title": "LES POINTES fourchues",
             "button_text": "Voir nos favoris",
             "button_link": "",
-            "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -559,15 +535,12 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "image_size": "sm",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
-        "stack_collections_mobile": true,
-        "collections_per_row_mobile": "1",
         "subheading": "",
         "title": "",
         "content": ""
@@ -588,7 +561,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -608,7 +580,6 @@
         "judge_me_reviews_featured_carousel_VqkUtd"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -617,13 +588,11 @@
     "b615708a-3ec6-4230-8baa-7847640de80a": {
       "type": "blog-posts",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "blog": "blogue",
         "posts_count": 3,
         "stack_on_mobile": false,
         "show_category": true,
-        "show_date": false,
         "show_excerpt": true,
         "show_read_more": true,
         "subheading": "",
@@ -674,7 +643,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 3,
         "stack_on_mobile": false,
@@ -693,7 +661,6 @@
         "before": {
           "type": "before",
           "settings": {
-            "color_scheme": "",
             "text": "Before",
             "link_text": "",
             "link_url": "",
@@ -703,7 +670,6 @@
         "after": {
           "type": "after",
           "settings": {
-            "color_scheme": "",
             "text": "After",
             "link_text": "",
             "link_url": "",
@@ -717,7 +683,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Before/after",
@@ -772,7 +737,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
@@ -802,7 +766,6 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "reveal_on_scroll": true,
         "separate_section_with_border": true,
         "media_position_desktop": "before_text",
@@ -827,7 +790,6 @@
       "type": "newsletter",
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "image_size": "auto",
         "subheading": "Keep me updated",
@@ -842,13 +804,11 @@
       "type": "blog-posts",
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "separate_section_with_border": true,
         "blog": "",
         "posts_count": 3,
         "stack_on_mobile": false,
         "show_category": true,
-        "show_date": false,
         "show_excerpt": true,
         "show_read_more": true,
         "subheading": "",
@@ -897,7 +857,6 @@
       ],
       "custom_css": [],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -909,7 +868,6 @@
         "div {padding-top: 10px;}"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,

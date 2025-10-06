@@ -13,7 +13,6 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
-        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
@@ -175,7 +174,6 @@
         "allow_transparent_header": true,
         "show_next_section_button": true,
         "media_size": "auto",
-        "show_initial_transition": false,
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
@@ -225,7 +223,6 @@
       "disabled": true,
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
@@ -278,7 +275,6 @@
       "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
         "reveal_on_scroll": true,
@@ -329,7 +325,6 @@
       "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
         "reveal_on_scroll": true,
@@ -380,7 +375,6 @@
       "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
         "reveal_on_scroll": true,
@@ -408,7 +402,6 @@
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -438,7 +431,6 @@
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "color_scheme": "scheme-1",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -468,7 +460,6 @@
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,

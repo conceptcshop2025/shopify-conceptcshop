@@ -53,9 +53,6 @@
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
             "size_chart_page": ""
           }
         },
@@ -170,7 +167,6 @@
         "complementary_products"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "container_size": "lg",
         "product_info_size": 40,
         "show_sticky_add_to_cart": true,
@@ -199,7 +195,6 @@
         "judge_me_reviews_review_widget_jXHURd"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -208,7 +203,6 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -226,7 +220,6 @@
       "type": "recently-viewed-products",
       "settings": {
         "separate_section_with_border": true,
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "hide_product_information": false,
         "stack_products": false,
         "products_count": 9,
@@ -270,7 +263,6 @@
         "24d76067-3957-42ab-bb99-857b7afd237e"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false

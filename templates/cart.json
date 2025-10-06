@@ -1,1 +1,44 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"kite_free_gift_discounts_app_block_cart_page_AJEnJY":{"type":"shopify:\/\/apps\/kite-discount-free-gift\/blocks\/app-block-cartPage\/2c7302c4-455d-4078-a829-48563ba26089","settings":{}}},"block_order":["kite_free_gift_discounts_app_block_cart_page_AJEnJY"],"settings":{"color_scheme":"scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc","show_cart_note":true,"allow_discount_application":false,"show_order_weight":false,"show_shipping_text":true,"show_accelerated_buttons":false,"show_shipping_estimator":true}},"171328247080d0782b":{"type":"apps","settings":{"color_scheme":"","separate_section_with_border":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false}}},"order":["main","171328247080d0782b"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "kite_free_gift_discounts_app_block_cart_page_AJEnJY": {
+          "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-cartPage/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "kite_free_gift_discounts_app_block_cart_page_AJEnJY"
+      ],
+      "settings": {
+        "show_cart_note": true,
+        "show_order_weight": false,
+        "show_shipping_text": true,
+        "show_accelerated_buttons": false,
+        "show_shipping_estimator": true
+      }
+    },
+    "171328247080d0782b": {
+      "type": "apps",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "171328247080d0782b"
+  ]
+}

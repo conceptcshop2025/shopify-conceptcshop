@@ -1,1 +1,92 @@
-{"sections":{"main":{"type":"main-page","settings":{"color_scheme":"scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc","show_title":true,"page_width":"xs"}},"rich_text_qFQW3D":{"type":"rich-text","blocks":{"subheading_QqwghA":{"type":"subheading","settings":{"text":""}},"heading_TeLkPq":{"type":"heading","settings":{"text":"désolé!","heading_tag":"h1"}},"richtext_8TcRmr":{"type":"richtext","settings":{"content":"<p>Ce produit ne sera plus offert chez Concept C! Écris-nous afin qu'on te conseille un produit similaire!<\/p>"}},"button_yMNeBd":{"type":"button","settings":{"style":"solid","text":"Instagram","url":"https:\/\/www.instagram.com\/conceptcshop\/","background":"","text_color":""}},"button_ybKGWN":{"type":"button","settings":{"style":"solid","text":"Facebook","url":"https:\/\/www.facebook.com\/conceptcshop","background":"","text_color":""}},"button_gFbPCp":{"type":"button","settings":{"style":"solid","text":"Courriel","url":"mailto:info@conceptcshop.com","background":"","text_color":""}}},"block_order":["subheading_QqwghA","heading_TeLkPq","richtext_8TcRmr","button_yMNeBd","button_ybKGWN","button_gFbPCp"],"settings":{"color_scheme":"scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc","separate_section_with_border":true,"content_width":"sm","text_position":"center","remove_vertical_spacing":false}}},"order":["main","rich_text_qFQW3D"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_qFQW3D": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QqwghA": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_TeLkPq": {
+          "type": "heading",
+          "settings": {
+            "text": "désolé!",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8TcRmr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ce produit ne sera plus offert chez Concept C! Écris-nous afin qu'on te conseille un produit similaire!</p>"
+          }
+        },
+        "button_yMNeBd": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Instagram",
+            "url": "https://www.instagram.com/conceptcshop/",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_ybKGWN": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Facebook",
+            "url": "https://www.facebook.com/conceptcshop",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_gFbPCp": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Courriel",
+            "url": "mailto:info@conceptcshop.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QqwghA",
+        "heading_TeLkPq",
+        "richtext_8TcRmr",
+        "button_yMNeBd",
+        "button_ybKGWN",
+        "button_gFbPCp"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_qFQW3D"
+  ]
+}
