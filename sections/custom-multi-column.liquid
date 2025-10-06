@@ -31,6 +31,10 @@
       padding: 1.5rem;
     }
 
+    .prose:not(.prose--tight) :where(:not(meta,span)+*) {
+      margin-block-start: 0;
+    }
+
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --multi-column-columns-per-row: 2;
