@@ -12,8 +12,10 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "image_size": "auto",
         "allow_transparent_header": true,
+        "show_image": true,
         "reveal": true,
         "enable_parallax": true,
         "show_collection_title": true,
@@ -30,6 +32,7 @@
         ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
       ],
       "settings": {
+        "color_scheme": "",
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",
