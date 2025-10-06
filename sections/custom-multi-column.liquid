@@ -23,6 +23,14 @@
       column-gap: {{ section.settings.column_gap }}px;
     }
 
+    #shopify-section-{{ section.id }} .multi-column__item {
+      gap: 0;
+    }
+
+    #shopify-section-{{ section.id }} .multi-column__item .prose {
+      padding: 1.5rem;
+    }
+
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --multi-column-columns-per-row: 2;
@@ -97,7 +105,7 @@
               {%- endif -%}
 
               {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
-                <div class="prose text-{{ section.settings.text_alignment }}">
+                <div class="prose text-{{ section.settings.text_alignment }}" style="background-color: {{ block.settings.block_background }};color: {{ block.settings.text_block_background }};">
                   {%- if block.settings.title != blank -%}
                     <p class="{{ block.settings.heading_tag }}">{{ block.settings.title }}</p>
                   {%- endif -%}
@@ -267,6 +275,16 @@
           "id": "image",
           "label": "t:global.image.image",
           "info": "t:sections.multi_column.blocks.image_with_text.image_size_recommendation"
+        },
+        {
+          "type": "color",
+          "id": "block_background",
+          "label": "Block background"
+        },
+        {
+          "type": "color",
+          "id": "text_block_background",
+          "label": "Text Block background"
         },
         {
           "type": "inline_richtext",
