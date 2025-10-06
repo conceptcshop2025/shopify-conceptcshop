@@ -15,12 +15,12 @@
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "Promo outils",
-            "heading_tag": "h3",
-            "content": "<p>Jusq'à 50% de rabais sur plus de 200 outils chauffants</p>",
+            "title": "<strong>Promo outils</strong>",
+            "heading_tag": "h5",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
@@ -28,27 +28,27 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
-            "block_background": "",
-            "text_block_background": "",
-            "title": "",
-            "heading_tag": "h3",
-            "content": "",
+            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025_036af8d5-7ff9-4f7b-bd52-991865061eb5.webp",
+            "block_background": "#482409",
+            "text_block_background": "#e5f2fe",
+            "title": "<strong>20% SUR MOROCANNOIL</strong>",
+            "heading_tag": "h5",
+            "content": "<p>2 au 8 octobre ...  Douceur et brillance au quotidien.</p>",
             "link_url": "shopify://collections/moroccanoil",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         },
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
-            "block_background": "",
-            "text_block_background": "",
-            "title": "",
-            "heading_tag": "h3",
-            "content": "",
+            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1_d0a5de41-b5f2-423a-bd90-d347ecd95275.webp",
+            "block_background": "#1a2e40",
+            "text_block_background": "#ffffff",
+            "title": "<strong>PROMO MASQUES CAPILLAIRES</strong>",
+            "heading_tag": "h5",
+            "content": "<p>plus de <strong>200</strong> traitements à partir de <strong>14$ + </strong>un attrape-cheveux gratuit!</p>",
             "link_url": "shopify://collections/traite-ta-couette-cadeau",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         }
       },
@@ -57,7 +57,6 @@
         "image_with_text_8jiqTB",
         "image_with_text_QxKH3t"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -166,6 +165,7 @@
         "image_EtBh9L",
         "image_K4iEwq"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
