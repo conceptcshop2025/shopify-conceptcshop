@@ -19,9 +19,22 @@
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
-            "heading_tag": "h5",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "heading_tag": "h4",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants + <strong>16% de rabais sur le Steampod!</strong></p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/30_off_Pureology_oct_2025_2.webp",
+            "block_background": "#1a2e40",
+            "text_block_background": "#ffffff",
+            "title": "<strong>30% SUR PUREOLOGY</strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>7 au 10 octobre ... Soins vegan sans sulfates, qui protègent la couleur et la brillance.</strong></p>",
+            "link_url": "shopify://collections/traite-ta-couette",
             "link_text": "magasiner"
           }
         },
@@ -32,30 +45,17 @@
             "block_background": "#482409",
             "text_block_background": "#e5f2fe",
             "title": "<strong>20% SUR MOROCANNOIL</strong>",
-            "heading_tag": "h5",
-            "content": "<p>2 au 8 octobre ...  Douceur et brillance au quotidien.</p>",
+            "heading_tag": "h4",
+            "content": "<p><strong>2 au 8 octobre ...  Douceur et brillance au quotidien.</strong></p>",
             "link_url": "shopify://collections/moroccanoil",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1_d0a5de41-b5f2-423a-bd90-d347ecd95275.webp",
-            "block_background": "#1a2e40",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PROMO MASQUES CAPILLAIRES</strong>",
-            "heading_tag": "h5",
-            "content": "<p>plus de <strong>200</strong> traitements à partir de <strong>14$ + </strong>un attrape-cheveux gratuit!</p>",
-            "link_url": "shopify://collections/traite-ta-couette",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
-        "image_with_text_8jiqTB",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_8jiqTB"
       ],
       "name": "# Multi-column",
       "settings": {
