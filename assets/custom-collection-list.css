@@ -1,0 +1,31 @@
+.c-collection-list .collection-list .collection-card .collection_item_content {
+  width: 8.438rem;
+  height: 8.438rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-collection-list .collection-list .collection-card {
+  flex-basis: 8.438rem;
+}
+
+@media (min-width: 768px) {
+  .c-collection-list .collection-list .collection-card .collection_item_content {
+    width: 11.25rem;
+    height: 11.25rem;
+  }
+
+  .c-collection-list .collection-list .collection-card {
+    flex-basis: 11.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-collection-list .collection-list {
+    justify-content: center;
+  }
+}
