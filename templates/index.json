@@ -75,6 +75,124 @@
         "column_gap": 4
       }
     },
+    "custom_collection_list_Y6XW4j": {
+      "type": "custom-collection-list",
+      "blocks": {
+        "collection_qgFDBY": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#e4c0ae",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "shampoing",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_izKaUb": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#ed8a00",
+            "text_item_color": "#ffffff",
+            "color_scheme": "",
+            "collection": "festilitre",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_79h46h": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "accessoires",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9KqwEU": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "promo-maude-vip-aout-2024",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_VHGDrq": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "cosmetiques",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_qgFDBY",
+        "collection_izKaUb",
+        "collection_79h46h",
+        "collection_9KqwEU",
+        "collection_VHGDrq"
+      ],
+      "name": "# Collection list",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": true,
+        "collections_per_row_mobile": "1",
+        "column_gap": 8,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -920,6 +1038,7 @@
   },
   "order": [
     "custom_multi_column_BHzrQP",
+    "custom_collection_list_Y6XW4j",
     "slideshow",
     "featured_collections_j4txfR",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
