@@ -25,19 +25,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/30_off_Pureology_oct_2025_2.webp",
-            "block_background": "#1a2e40",
-            "text_block_background": "#ffffff",
-            "title": "<strong>30% SUR PUREOLOGY</strong>",
-            "heading_tag": "h4",
-            "content": "<p><strong>7 au 10 octobre ... Soins vegan sans sulfates, qui protègent la couleur et la brillance.</strong></p>",
-            "link_url": "shopify://collections/pureology",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
@@ -50,12 +37,25 @@
             "link_url": "shopify://collections/kerastase",
             "link_text": "magasiner"
           }
+        },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/30_off_Pureology_oct_2025_2.webp",
+            "block_background": "#1a2e40",
+            "text_block_background": "#ffffff",
+            "title": "<strong>30% SUR PUREOLOGY</strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>7 au 10 octobre ... Soins vegan sans sulfates, qui protègent la couleur et la brillance.</strong></p>",
+            "link_url": "shopify://collections/pureology",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
-        "image_with_text_QxKH3t",
-        "image_with_text_8jiqTB"
+        "image_with_text_8jiqTB",
+        "image_with_text_QxKH3t"
       ],
       "name": "# Multi-column",
       "settings": {
