@@ -41,13 +41,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025_036af8d5-7ff9-4f7b-bd52-991865061eb5.webp",
-            "block_background": "#482409",
-            "text_block_background": "#e5f2fe",
-            "title": "<strong>20% SUR MOROCANNOIL</strong>",
+            "image": "shopify://shop_images/Slider_Mobile_10_off_Kerastase.webp",
+            "block_background": "#c0786f",
+            "text_block_background": "#fff6f1",
+            "title": "<strong>10% SUR KÉRASTASE</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>2 au 8 octobre ...  Douceur et brillance au quotidien.</strong></p>",
-            "link_url": "shopify://collections/moroccanoil",
+            "content": "<p><strong>9 au 14 octobre ... </strong>Soins capillaires de luxe qui renforcent et révèlent la beauté des cheveux.<br/></p>",
+            "link_url": "shopify://collections/kerastase",
             "link_text": "magasiner"
           }
         }
