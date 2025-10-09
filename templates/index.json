@@ -96,6 +96,24 @@
             "overlay_opacity": 30
           }
         },
+        "collection_pinG4E": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#f52424",
+            "text_item_color": "#ffffff",
+            "color_scheme": "scheme-4",
+            "collection": "cheveux-gras",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_izKaUb": {
           "type": "collection",
           "settings": {
@@ -171,6 +189,7 @@
       },
       "block_order": [
         "collection_qgFDBY",
+        "collection_pinG4E",
         "collection_izKaUb",
         "collection_79h46h",
         "collection_9KqwEU",
