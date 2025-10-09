@@ -60,6 +60,7 @@
         ".color--button-text-color {text-color: black;}"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "center",
@@ -70,6 +71,7 @@
       "type": "newsletter",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "image_size": "auto",
         "subheading": "",
@@ -84,6 +86,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
@@ -105,6 +108,7 @@
         "klaviyo_email_marketing_sms_form_embed_block_yfxUhj"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
@@ -126,14 +130,16 @@
           "type": "links",
           "settings": {
             "menu": "politique",
-            "show_menu_title": true
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "links_ztVBhB": {
           "type": "links",
           "settings": {
             "menu": "propos-de-nous",
-            "show_menu_title": true
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "text_Ggtgfq": {
@@ -148,8 +154,8 @@
         "newsletter_WatDyd": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+            "title": "Infolettre",
+            "content": "<p>Abonnez-vous à notre infolettre et profitez de 10 % de rabais exclusif dès maintenant !</p>",
             "button_background": "",
             "button_text_color": ""
           }
@@ -166,6 +172,7 @@
         ".div {padding: none !important;}"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "show_social_media": true,
         "show_payment_icons": true,

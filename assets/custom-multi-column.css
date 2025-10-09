@@ -6,6 +6,10 @@
   grid: auto / auto-flow 21.875rem;
 }
 
+.multi-column .multi-column__item {
+  grid-template-rows: auto 1fr;
+}
+
 .multi-column .multi-column__item img {
   width: 100%;
 }
