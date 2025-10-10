@@ -1,0 +1,14 @@
+.c-subcollection-list .collection-card .collection_item_content {
+  text-align: center;
+}
+
+.c-subcollection-list.c-subcollection-list .collection-list {
+  align-items: center;
+}
+
+.c-subcollection-list.c-subcollection-list .collection-list .collection-card .collection_item_content {
+  width: initial;
+  height: initial;
+  border-radius: 1.5rem;
+  padding: .5rem .25rem;
+}
