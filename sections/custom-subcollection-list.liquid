@@ -40,6 +40,11 @@
       column-gap: {{ section.settings.column_gap }}px;
     }
 
+    #shopify-section-{{ section.id }} .collection-list .collection_item_content {
+      background-color: {{ section.settings.background_tags }};
+      color: {{ section.settings.text_tags }};
+    }
+
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         {%- if stack_mobile or stack_mobile_and_desktop -%}
@@ -107,7 +112,7 @@
             {%- endcapture -%}
 
             {%- capture collection_card_content -%}
-              <div class="collection_item_content" style="background-color: {{ block.settings.background_item_color }}; color: {{ block.settings.text_item_color }};">
+              <div class="collection_item_content">
                 <div>
                   {{ collection.title | upcase }}
                 </div>
@@ -182,6 +187,18 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "background_tags",
+      "label": "Background tags",
+      "default": "#EFEFEF"
+    },
+    {
+      "type": "color",
+      "id": "text_tags",
+      "label": "Text tags",
+      "default": "#454545"
     },
     {
       "type": "checkbox",
@@ -295,171 +312,10 @@
       "label": "t:global.text.content"
     }
   ],
-  "blocks": [
-    {
-      "type": "collection",
-      "name": "t:sections.collection_list.blocks.collection.name",
-      "settings": [
-        {
-          "type": "color",
-          "id": "background_item_color",
-          "label": "Text color",
-          "default": "#efefef"
-        },
-        {
-          "type": "color",
-          "id": "text_item_color",
-          "label": "Text color",
-          "default": "#000000"
-        },
-        {
-          "type": "color_scheme",
-          "id": "color_scheme",
-          "label": "t:global.colors.scheme",
-          "default": "scheme-4"
-        },
-        {
-          "type": "collection",
-          "id": "collection",
-          "label": "t:sections.collection_list.blocks.collection.collection"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:global.image.image",
-          "info": "t:sections.collection_list.blocks.collection.image_size_recommendation"
-        },
-        {
-          "type": "checkbox",
-          "id": "expand_collection",
-          "label": "t:sections.collection_list.blocks.collection.expand_to_fill_row",
-          "default": false,
-          "visible_if": "{{ section.settings.stack_collections or section.settings.stack_collections_mobile }}"
-        },
-        {
-          "type": "select",
-          "id": "content_position",
-          "label": "t:global.position.content_position",
-          "options": [
-            {
-              "value": "place-self-start text-start",
-              "label": "t:global.position.top_left"
-            },
-            {
-              "value": "place-self-start-center text-center",
-              "label": "t:global.position.top_center"
-            },
-            {
-              "value": "place-self-start-end text-end",
-              "label": "t:global.position.top_right"
-            },
-            {
-              "value": "place-self-center-start text-start",
-              "label": "t:global.position.middle_left"
-            },
-            {
-              "value": "place-self-center text-center",
-              "label": "t:global.position.middle_center"
-            },
-            {
-              "value": "place-self-center-end text-end",
-              "label": "t:global.position.middle_right"
-            },
-            {
-              "value": "place-self-end-start text-start",
-              "label": "t:global.position.bottom_left"
-            },
-            {
-              "value": "place-self-end-center text-center",
-              "label": "t:global.position.bottom_center"
-            },
-            {
-              "value": "place-self-end text-end",
-              "label": "t:global.position.bottom_right"
-            }
-          ],
-          "default": "place-self-end-start text-start"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "subheading",
-          "label": "t:global.text.subheading"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "title",
-          "label": "t:global.text.heading"
-        },
-        {
-          "type": "text",
-          "id": "button_text",
-          "label": "t:global.text.button_text",
-          "default": "View products"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "t:global.text.button_link",
-          "info": "t:sections.collection_list.blocks.collection.button_link_info"
-        },
-        {
-          "type": "select",
-          "id": "button_style",
-          "label": "t:global.text.button_style",
-          "options": [
-            {
-              "value": "outline",
-              "label": "t:global.text.link_style_options.outline"
-            },
-            {
-              "value": "solid",
-              "label": "t:global.text.link_style_options.solid"
-            },
-            {
-              "value": "link",
-              "label": "t:global.text.link_style_options.link"
-            }
-          ],
-          "default": "solid"
-        },
-        {
-          "type": "header",
-          "content": "t:global.colors.category"
-        },
-        {
-          "type": "color",
-          "id": "overlay_color",
-          "label": "t:global.colors.overlay_color",
-          "default": "#000000"
-        },
-        {
-          "type": "range",
-          "id": "overlay_opacity",
-          "label": "t:global.colors.overlay_opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "unit": "%",
-          "default": 30
-        }
-      ]
-    }
-  ],
   "presets": [
     {
       "name": "# Subcollection list",
-      "category": "t:global.categories.collections",
-      "blocks": [
-        {
-          "type": "collection"
-        },
-        {
-          "type": "collection"
-        },
-        {
-          "type": "collection"
-        }
-      ]
+      "category": "t:global.categories.collections"
     }
   ]
 }
