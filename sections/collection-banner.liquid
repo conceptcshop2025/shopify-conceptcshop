@@ -4,6 +4,11 @@
   {%- assign show_image = true -%}
 {%- endif -%}
 
+{% liquid
+  assign collection_father = collection.metafields.custom.collection_father
+  assign subcollections = collection.metafields.custom.subcollections.value
+%}
+
 {%- capture collection_breadcrumb -%}
   {%- if section.settings.show_breadcrumb -%}
     <nav class="breadcrumb breadcrumb--floating" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
@@ -15,6 +20,16 @@
         <li class="breadcrumb__list-item">
           <a href="{{ routes.all_products_collection_url }}" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.shop' | t }}</a>
         </li>
+
+        {% comment %} Breadcrumb only for the subcategories {% endcomment %}
+        {% if collection_father != blank %}
+          <li class="breadcrumb__list-item">
+            <a href="{{ collection_father.value.url }}" class="smallcaps {% unless show_image %}link-faded{% endunless %}">
+              {{ collection_father.value.title }}
+            </a>
+          </li>
+        {% endif %}
+        {% comment %} END Breadcrumb only for the subcategories {% endcomment %}
 
         <li class="breadcrumb__list-item">
           <a href="{{ collection.url }}" aria-current="page" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ collection.title }}</a>
