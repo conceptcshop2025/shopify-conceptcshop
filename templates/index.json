@@ -41,13 +41,13 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/30_off_Pureology_oct_2025_2.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_c346a7ea-fa01-415d-86d2-37ce392f164b.webp",
             "block_background": "#1a2e40",
             "text_block_background": "#ffffff",
-            "title": "<strong>30% SUR PUREOLOGY</strong>",
+            "title": "<strong>PROMO MASQUES CAPILLAIRES</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>7 au 10 octobre ... Soins vegan sans sulfates, qui protègent la couleur et la brillance.</strong></p>",
-            "link_url": "shopify://collections/pureology",
+            "content": "<p>plus de <strong>200</strong> traitements  à partir de <strong>14$ + attrape-cheveux gratuit!</strong></p>",
+            "link_url": "shopify://collections/traite-ta-couette",
             "link_text": "magasiner"
           }
         }
