@@ -9,6 +9,44 @@
  */
 {
   "sections": {
+    "custom_featured_collections_LJAE7C": {
+      "type": "custom-featured-collections",
+      "blocks": {
+        "content_media_AyAnmB": {
+          "type": "content_media",
+          "settings": {
+            "image_media": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp"
+          }
+        },
+        "collection_yfbyye": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffre-a-outils-1",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_media_AyAnmB",
+        "collection_yfbyye"
+      ],
+      "disabled": true,
+      "name": "# Collections with image",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
+    },
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
@@ -1056,6 +1094,7 @@
     }
   },
   "order": [
+    "custom_featured_collections_LJAE7C",
     "custom_multi_column_BHzrQP",
     "custom_collection_list_Y6XW4j",
     "slideshow",
