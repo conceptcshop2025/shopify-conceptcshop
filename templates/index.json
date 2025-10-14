@@ -20,7 +20,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants + <strong>16% de rabais sur le Steampod!</strong></p>",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
@@ -41,13 +41,13 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/30_off_Pureology_oct_2025_2.webp",
-            "block_background": "#1a2e40",
+            "image": "shopify://shop_images/Ilettre_Jusqu_a_50_off_MEP.webp",
+            "block_background": "#b35b3f",
             "text_block_background": "#ffffff",
-            "title": "<strong>30% SUR PUREOLOGY</strong>",
+            "title": "<strong>JUSQU'À 50% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>7 au 10 octobre ... Soins vegan sans sulfates, qui protègent la couleur et la brillance.</strong></p>",
-            "link_url": "shopify://collections/pureology",
+            "content": "<p>Tapis de chaleur, pince extensible, protection thermique… tout pour un look impeccable.</p>",
+            "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
         }
