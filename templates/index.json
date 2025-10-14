@@ -41,12 +41,12 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_c346a7ea-fa01-415d-86d2-37ce392f164b.webp",
-            "block_background": "#1a2e40",
+            "image": "shopify://shop_images/Ilettre_Jusqu_a_50_off_MEP.webp",
+            "block_background": "#b35b3f",
             "text_block_background": "#ffffff",
-            "title": "<strong>PROMO MASQUES CAPILLAIRES</strong>",
+            "title": "<strong>JUSQU'À 50% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>plus de <strong>200</strong> traitements  à partir de <strong>14$ + attrape-cheveux gratuit!</strong></p>",
+            "content": "<p>Tapis de chaleur, pince extensible, protection thermique… tout pour un look impeccable.</p>",
             "link_url": "shopify://collections/traite-ta-couette",
             "link_text": "magasiner"
           }
