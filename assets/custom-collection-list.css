@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  line-height: 1.2;
 }
 
 .c-collection-list .collection-list .collection-card {
