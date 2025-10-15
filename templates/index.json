@@ -119,7 +119,7 @@
         "collection_qgFDBY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#e4c0ae",
+            "background_item_color": "#efefef",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "shampoing",
@@ -134,48 +134,84 @@
             "overlay_opacity": 30
           }
         },
-        "collection_pinG4E": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#f52424",
-            "text_item_color": "#ffffff",
-            "color_scheme": "scheme-4",
-            "collection": "cheveux-gras",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_izKaUb": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#ed8a00",
-            "text_item_color": "#ffffff",
-            "color_scheme": "",
-            "collection": "festilitre",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_79h46h": {
+        "collection_8zT7aN": {
           "type": "collection",
           "settings": {
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
-            "color_scheme": "",
+            "color_scheme": "scheme-4",
+            "collection": "shampoing-sec",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_H4KwTm": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "revitalisant-1",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_WWFCwD": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "revitalisant-sans-rincage",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Lga89L": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "traitement",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_J8AMaC": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
             "collection": "accessoires",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -188,31 +224,13 @@
             "overlay_opacity": 30
           }
         },
-        "collection_9KqwEU": {
+        "collection_teHhim": {
           "type": "collection",
           "settings": {
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
-            "collection": "promo-maude-vip-aout-2024",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_VHGDrq": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#efefef",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "cosmetiques",
+            "collection": "",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -227,11 +245,12 @@
       },
       "block_order": [
         "collection_qgFDBY",
-        "collection_pinG4E",
-        "collection_izKaUb",
-        "collection_79h46h",
-        "collection_9KqwEU",
-        "collection_VHGDrq"
+        "collection_8zT7aN",
+        "collection_H4KwTm",
+        "collection_WWFCwD",
+        "collection_Lga89L",
+        "collection_J8AMaC",
+        "collection_teHhim"
       ],
       "name": "# Collection list",
       "settings": {
