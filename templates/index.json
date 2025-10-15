@@ -28,13 +28,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_10_off_Kerastase.png",
+            "image": "shopify://shop_images/Front_Site_Coffrets.webp",
             "block_background": "#c0786f",
             "text_block_background": "#fff6f1",
-            "title": "<strong>10% SUR KÉRASTASE</strong>",
+            "title": "<strong>JUSQU'À 35% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>9 au 14 octobre ... </strong>Soins capillaires de luxe qui renforcent et révèlent la beauté des cheveux.<br/></p>",
-            "link_url": "shopify://collections/kerastase",
+            "content": "<p>Économisez jusqu’à 35 % sur nos coffrets haut de gamme, parfaits pour vous gâter ou offrir en cadeau!<br/></p>",
+            "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
         },
