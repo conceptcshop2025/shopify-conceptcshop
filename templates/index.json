@@ -230,7 +230,43 @@
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
-            "collection": "",
+            "collection": "outils-accessoires",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gygGch": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coloration",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_jQUkmY": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coiffage",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -250,7 +286,9 @@
         "collection_WWFCwD",
         "collection_Lga89L",
         "collection_J8AMaC",
-        "collection_teHhim"
+        "collection_teHhim",
+        "collection_gygGch",
+        "collection_jQUkmY"
       ],
       "name": "# Collection list",
       "settings": {
