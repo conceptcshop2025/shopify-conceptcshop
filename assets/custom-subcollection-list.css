@@ -28,6 +28,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .container-tags-third-level .tag-third-level {
@@ -35,6 +36,7 @@
   padding: .5rem 1rem;
   border-radius: .5rem;
   transition: background-color 0.3s ease-in-out;
+  width: auto;
 }
 
 .container-tags-third-level .tag-third-level:hover {
