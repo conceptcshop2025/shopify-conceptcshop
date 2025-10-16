@@ -101,7 +101,33 @@
             {%- endcapture -%}
 
             {%- capture collection_card_content -%}
-              <div class="collection_item_content" style="background-color: {{ block.settings.background_item_color }}; color: {{ block.settings.text_item_color }};">
+              {% style %}
+                #shopify-section-{{ section.id }} .collection_item_content.item--{{ forloop.index }} {
+                  position: relative;
+                }
+                #shopify-section-{{ section.id }} .collection_item_content.item--{{ forloop.index }} {
+                  background-color: {{ block.settings.background_item_color }};
+                  color: {{ block.settings.text_item_color }};
+                  {% if block.settings.image != blank %}
+                    background-image: url({{ block.settings.image | image_url: width: 180 }});
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                  {% endif %}
+                }
+
+                #shopify-section-{{ section.id }} .collection_item_content.item--{{ forloop.index }}:before {
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: {{ block.settings.overlay_color }};
+                  opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+                }
+              {% endstyle %}
+              <div class="collection_item_content item--{{ forloop.index }}">
                 <div>
                   {{ collection.title | upcase }}
                 </div>
@@ -434,7 +460,7 @@
           "max": 100,
           "step": 1,
           "unit": "%",
-          "default": 30
+          "default": 0
         }
       ]
     }

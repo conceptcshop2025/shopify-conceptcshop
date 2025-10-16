@@ -10,6 +10,11 @@
   text-align: center;
   padding: 0 1rem;
   line-height: 1.2;
+  position: relative;
+}
+
+.c-collection-list .collection-list .collection-card .collection_item_content > div {
+  z-index: 1;
 }
 
 .c-collection-list .collection-list .collection-card {

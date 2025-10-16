@@ -120,7 +120,7 @@
           "type": "collection",
           "settings": {
             "background_item_color": "#efefef",
-            "text_item_color": "#000000",
+            "text_item_color": "#ffffff",
             "color_scheme": "",
             "collection": "shampoing",
             "image": "shopify://shop_images/nuda-coffret-des-fetes-glow-on-the-go-2547958.png",
@@ -132,7 +132,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 40
           }
         },
         "collection_8zT7aN": {
@@ -150,7 +150,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_H4KwTm": {
@@ -168,7 +168,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_WWFCwD": {
@@ -186,7 +186,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_Lga89L": {
@@ -204,7 +204,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_J8AMaC": {
@@ -222,7 +222,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_teHhim": {
@@ -240,7 +240,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_gygGch": {
@@ -258,7 +258,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_jQUkmY": {
@@ -276,7 +276,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
