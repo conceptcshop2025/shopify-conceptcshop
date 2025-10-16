@@ -22,3 +22,21 @@
 .c-subcollection-list.c-collection-list .collection-list .collection-card {
   flex-basis: auto; 
 }
+
+.container-tags-third-level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-tags-third-level .tag-third-level {
+  background-color: #efefef;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container-tags-third-level .tag-third-level:hover {
+  background-color: #DEDEDE;
+}

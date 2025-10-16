@@ -170,6 +170,34 @@
       </div>
     </div>
   </div>
+{% else %}
+  {% if collection.metafields.custom.subcollections_third_level != blank %}
+    {{ 'custom-subcollection-list.css' | asset_url | stylesheet_tag }}
+    <div class="container container-tags-third-level">
+      {% for metafield in collection.metafields.custom.subcollections_third_level.value %}
+        <a class="tag tag-third-level">
+          {{ metafield.tag_label }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="container">
+    No subcollections found for {{ collection.title }}
+    <p style="color: blue;">URL: {{ collection.url }}</p>
+    <ul>
+      {% for filter in collection.filters %}
+        <li>
+          <span style="color:red;">{{ filter.label }}</span>
+          <ol>
+            {% for value in filter.values %}
+              <li>{{ value.label }} ({{ value.param_name }})</li>
+            {% endfor %}
+          </ol>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {%- endif -%}
 
 {% schema %}
