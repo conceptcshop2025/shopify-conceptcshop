@@ -104,10 +104,16 @@
             "style": "text-decoration:none"
           }
         },
+        "text_WbYxQY": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Paiement sécurisé et fiable avec</h4>"
+          }
+        },
         "1a32539d-0292-4e51-aace-014f43c480d7": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/t/2/assets/payment.png?v=69563648246536645381635255107\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
+            "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/files/paiement-securise.png?v=1760639941\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
           }
         },
         "pickup_availability_WJzdXV": {
@@ -161,6 +167,7 @@
         "liquid_piWnn8",
         "buy_buttons",
         "bbc74f40-fc72-4d3c-adc8-1b5840cda30e",
+        "text_WbYxQY",
         "1a32539d-0292-4e51-aace-014f43c480d7",
         "pickup_availability_WJzdXV",
         "one_click_upsell_on_page_7f7pz7",
