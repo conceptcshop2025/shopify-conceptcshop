@@ -4,11 +4,21 @@
 
 .c-subcollection-list.c-subcollection-list .collection-list {
   align-items: center;
+  justify-content: center;
 }
 
 .c-subcollection-list.c-subcollection-list .collection-list .collection-card .collection_item_content {
   width: initial;
   height: initial;
-  border-radius: 1.5rem;
-  padding: .5rem .25rem;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.c-subcollection-list.c-subcollection-list .collection-list .collection-card:hover .collection_item_content {
+  background-color: #DEDEDE !important;
+}
+
+.c-subcollection-list.c-collection-list .collection-list .collection-card {
+  flex-basis: auto; 
 }
