@@ -180,7 +180,7 @@
             {% assign filter_values_size = filter.values | size %}
             {% if filter_values_size > 0 %}
               {% for tag in filter.values %}
-                <a class="tag tag-third-level">
+                <a href="{{ collection.url }}?{{ tag.param_name }}={{ tag.value }}" class="tag tag-third-level">
                   {{ tag.label }}
                 </a>
               {% endfor %}
