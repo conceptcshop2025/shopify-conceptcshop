@@ -18,34 +18,35 @@
         "page_width": "xs"
       }
     },
-    "custom_featured_collections_iPHV4p": {
+    "custom_featured_collections_UbCbVe": {
       "type": "custom-featured-collections",
       "blocks": {
-        "content_media_bREPtM": {
+        "content_media_YHGerA": {
           "type": "content_media",
           "settings": {
-            "image_media": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp"
+            "image_media": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp"
           }
         },
-        "collection_hGCQtC": {
+        "collection_xwXCyj": {
           "type": "collection",
           "settings": {
             "collection": "coffre-a-outils-1",
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "content_media_bREPtM",
-        "collection_hGCQtC"
+        "content_media_YHGerA",
+        "collection_xwXCyj"
       ],
-      "name": "# Featured collections",
+      "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "content_order": "image_first",
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -55,405 +56,35 @@
         "subheading": "Featured collection"
       }
     },
-    "custom_multi_column_LepKpn": {
-      "type": "custom-multi-column",
+    "custom_featured_collections_6bzcY6": {
+      "type": "custom-featured-collections",
       "blocks": {
-        "image_with_text_itPGjh": {
-          "type": "image_with_text",
+        "content_media_3NWyyi": {
+          "type": "content_media",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
-            "block_background": "",
-            "text_block_background": "",
-            "title": "",
-            "heading_tag": "h3",
-            "content": "",
-            "link_url": "",
-            "link_text": ""
+            "image_media": "shopify://shop_images/Front_Site_Coffrets_255423c9-87fe-47f2-9f29-d7070dc7b412.webp"
           }
         },
-        "image_with_text_hmPjFg": {
-          "type": "image_with_text",
+        "collection_CRiYzW": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
-            "block_background": "",
-            "text_block_background": "",
+            "collection": "coffrets",
+            "products_count": 8,
             "title": "",
-            "heading_tag": "h3",
-            "content": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "image_with_text_DeQNGz": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
-            "block_background": "",
-            "text_block_background": "",
-            "title": "",
-            "heading_tag": "h3",
-            "content": "",
             "link_url": "",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "image_with_text_itPGjh",
-        "image_with_text_hmPjFg",
-        "image_with_text_DeQNGz"
+        "content_media_3NWyyi",
+        "collection_CRiYzW"
       ],
-      "disabled": true,
-      "name": "# Multi-column",
-      "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "full_width": true,
-        "column_gap": 4
-      }
-    },
-    "slideshow_GPbrwV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_6hYKUi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Promo_Outils_OCT_2025.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 400,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_j38qJX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Principal_20_off_2_au_8_oct_2025_1560_x_500_px_2.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
-            "subheading": "Tell your story",
-            "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_6n9J8k": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Traite_ta_Couette_Septembre_2025_8c2e4927-c680-4886-b492-e7853cb7ea2c.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
-            "subheading": "Tell your story",
-            "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_6hYKUi",
-        "image_j38qJX",
-        "image_6n9J8k"
-      ],
-      "disabled": true,
-      "name": "t:sections.slideshow.presets.slideshow.name",
-      "settings": {
-        "allow_transparent_header": true,
-        "show_next_section_button": true,
-        "media_size": "auto",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "featured_collections_Y98Xdy": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_4MqYNA": {
-          "type": "collection",
-          "settings": {
-            "collection": "coffre-a-outils-1",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "View all"
-          }
-        },
-        "collection_fdViay": {
-          "type": "collection",
-          "settings": {
-            "collection": "moroccanoil",
-            "products_count": 8,
-            "title": "Promo Moroccanoil",
-            "link_url": "shopify://collections/moroccanoil",
-            "link_text": "View all"
-          }
-        },
-        "collection_NTqx4n": {
-          "type": "collection",
-          "settings": {
-            "collection": "traite-ta-couette-cadeau",
-            "products_count": 8,
-            "title": "Promo masques capillaires",
-            "link_url": "shopify://collections/traite-ta-couette-cadeau",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_4MqYNA",
-        "collection_fdViay",
-        "collection_NTqx4n"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
+        "content_order": "collections_first",
         "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 0.2,
-        "subheading": ""
-      }
-    },
-    "image_with_text_rARA4N": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_XU3FmE": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_3cYGqT": {
-          "type": "heading",
-          "settings": {
-            "text": "Promo outils",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_iqpqkR": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_XjaqnJ": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Regarder la promo",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XU3FmE",
-        "heading_3cYGqT",
-        "richtext_iqpqkR",
-        "button_XjaqnJ"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_txL776": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_XGnnee": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_mKNtMD": {
-          "type": "heading",
-          "settings": {
-            "text": "Promo moroccanoil",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_fpe7T9": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_8EPVNJ": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Voir moroccoanoil",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XGnnee",
-        "heading_mKNtMD",
-        "richtext_fpe7T9",
-        "button_8EPVNJ"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/Slider_Mobile_Moro_20_off_2_au_8_oct_2025.webp",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_3URLck": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_GMUCrQ": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_YfFN6X": {
-          "type": "heading",
-          "settings": {
-            "text": "Promo masques capillaires",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_a6rEyY": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_FtCw4R": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Voir la promo",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_GMUCrQ",
-        "heading_YfFN6X",
-        "richtext_a6rEyY",
-        "button_FtCw4R"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/Slider_Mobile_Traite_ta_Couette_Septembre_2025_1.webp",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
-    "featured_collections_hxP6Uz": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_dqbB6n": {
-          "type": "collection",
-          "settings": {
-            "collection": "coffre-a-outils-1",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_dqbB6n"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -463,59 +94,35 @@
         "subheading": "Featured collection"
       }
     },
-    "featured_collections_in4kCB": {
-      "type": "featured-collections",
+    "custom_featured_collections_mfDFAX": {
+      "type": "custom-featured-collections",
       "blocks": {
-        "collection_BzbwRn": {
+        "content_media_bH36KT": {
+          "type": "content_media",
+          "settings": {
+            "image_media": "shopify://shop_images/Ilettre_Jusqu_a_50_off_MEP.webp"
+          }
+        },
+        "collection_7VQXCp": {
           "type": "collection",
           "settings": {
-            "collection": "moroccanoil",
+            "collection": "promo-du-moment",
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_BzbwRn"
+        "content_media_bH36KT",
+        "collection_7VQXCp"
       ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
-      }
-    },
-    "featured_collections_nUUEP7": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_ddtrnJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "traite-ta-couette-cadeau",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_ddtrnJ"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
+        "content_order": "image_first",
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -528,15 +135,8 @@
   },
   "order": [
     "main",
-    "custom_featured_collections_iPHV4p",
-    "custom_multi_column_LepKpn",
-    "slideshow_GPbrwV",
-    "featured_collections_Y98Xdy",
-    "image_with_text_rARA4N",
-    "image_with_text_txL776",
-    "image_with_text_3URLck",
-    "featured_collections_hxP6Uz",
-    "featured_collections_in4kCB",
-    "featured_collections_nUUEP7"
+    "custom_featured_collections_UbCbVe",
+    "custom_featured_collections_6bzcY6",
+    "custom_featured_collections_mfDFAX"
   ]
 }

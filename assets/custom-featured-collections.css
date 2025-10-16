@@ -42,6 +42,30 @@
     object-position: center;
     height: 100%;
   }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--image_first {
+    grid-template-columns: .33fr 1fr;
+  }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--image_first .content_media {
+    order: 1;
+  }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--image_first .featured-collections-carousel__item {
+    order: 2;
+  }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--collections_first {
+    grid-template-columns: 1fr .33fr;
+  }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--collections_first .content_media {
+    order: 2;
+  }
+
+  .c-featured-collections-with-image .featured-collections-carousel.order--collections_first .featured-collections-carousel__item {
+    order: 1;
+  }
 }
 
 @media (min-width: 1280px) {

@@ -41,7 +41,7 @@
           {%- endif -%}
         </div>
 
-        <featured-collections-carousel id="{{ wrapper_carousel_id }}" class="featured-collections-carousel">
+        <featured-collections-carousel id="{{ wrapper_carousel_id }}" class="featured-collections-carousel order--{{ section.settings.content_order }}">
           {%- for block in section.blocks -%}
             {% case block.type %}
             {% when 'content_media' %}
@@ -131,6 +131,26 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Content order"
+    },
+    {
+      "type": "select",
+      "id": "content_order",
+      "label": "Content order",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image first"
+        },
+        {
+          "value": "collections_first",
+          "label": "Collections first"
+        }
+      ],
+      "default": "image_first"
     },
     {
       "type": "checkbox",
@@ -272,6 +292,9 @@
       "name": "# Collections with image",
       "category": "t:global.categories.collections",
       "blocks": [
+        {
+          "type": "content_media"
+        },
         {
           "type": "collection"
         }
