@@ -11,13 +11,267 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
+      }
+    },
+    "custom_collection_list_xRcmnf": {
+      "type": "custom-collection-list",
+      "blocks": {
+        "collection_jwNgN4": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "pellicules",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_exVwQn": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "cheveux-gras",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_MTt7GR": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "cuir-chevelu-sensible-ou-sec",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_3xN9Gh": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "promo-perte-de-cheveux",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_ryVixL": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "besoin-de-reparation",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_b6rnWV": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "manque-dhydratation",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_bgfm7d": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "cheveux-blonds",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_4TRmPA": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "gestion-des-boucles",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_XDV8HJ": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "frissotis",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_7i8XD9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "volume",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_f9MUrW": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "pointes-fourchues",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_ETzhmB": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "protection-couleur",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_jwNgN4",
+        "collection_exVwQn",
+        "collection_MTt7GR",
+        "collection_3xN9Gh",
+        "collection_ryVixL",
+        "collection_b6rnWV",
+        "collection_bgfm7d",
+        "collection_4TRmPA",
+        "collection_XDV8HJ",
+        "collection_7i8XD9",
+        "collection_f9MUrW",
+        "collection_ETzhmB"
+      ],
+      "name": "# Collection list",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": false,
+        "collections_per_row_mobile": "1",
+        "column_gap": 16,
+        "subheading": "",
+        "title": "Problematique",
+        "content": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_collection_list_xRcmnf"
   ]
 }
