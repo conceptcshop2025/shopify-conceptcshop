@@ -190,23 +190,6 @@
       {% endfor %}
     </div>
   {% endif %}
-
-  <div class="container">
-    No subcollections found for {{ collection.title }}
-    <p style="color: blue;">URL: {{ collection.url }}</p>
-    <ul>
-      {% for filter in collection.filters %}
-        <li>
-          <span style="color:red;">{{ filter.label }}</span>
-          <ol>
-            {% for value in filter.values %}
-              <li>{{ value.label }} ({{ value.param_name }})</li>
-            {% endfor %}
-          </ol>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
 {%- endif -%}
 
 {% schema %}

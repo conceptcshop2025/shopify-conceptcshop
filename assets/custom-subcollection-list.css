@@ -29,6 +29,7 @@
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .container-tags-third-level .tag-third-level {
