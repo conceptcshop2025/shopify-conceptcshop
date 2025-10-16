@@ -32,7 +32,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .c-collection-list .collection-list {
     justify-content: center;
   }
