@@ -174,20 +174,22 @@
   {% if collection.metafields.custom.subcollections_third_level != blank %}
     {{ 'custom-subcollection-list.css' | asset_url | stylesheet_tag }}
     <div class="container container-tags-third-level">
-      {% for metafield in collection.metafields.custom.subcollections_third_level.value %}
-        {% for filter in collection.filters %}
-          {% if filter.label == metafield.tag_label %}
-            {% assign filter_values_size = filter.values | size %}
-            {% if filter_values_size > 0 %}
-              {% for tag in filter.values %}
-                <a href="{{ collection.url }}?{{ tag.param_name }}={{ tag.value }}" class="tag tag-third-level">
-                  {{ tag.label }}
-                </a>
-              {% endfor %}
+      <div class="wrapper-tags-third-level">
+        {% for metafield in collection.metafields.custom.subcollections_third_level.value %}
+          {% for filter in collection.filters %}
+            {% if filter.label == metafield.tag_label %}
+              {% assign filter_values_size = filter.values | size %}
+              {% if filter_values_size > 0 %}
+                {% for tag in filter.values %}
+                  <a href="{{ collection.url }}?{{ tag.param_name }}={{ tag.value }}" class="tag tag-third-level">
+                    {{ tag.label }}
+                  </a>
+                {% endfor %}
+              {% endif %}
             {% endif %}
-          {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
+      </div>
     </div>
   {% endif %}
 {%- endif -%}

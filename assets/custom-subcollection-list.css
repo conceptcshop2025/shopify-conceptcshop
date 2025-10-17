@@ -24,12 +24,19 @@
 }
 
 .container-tags-third-level {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.container-tags-third-level .wrapper-tags-third-level {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+  width: 300%;
 }
 
 .container-tags-third-level .tag-third-level {
@@ -42,4 +49,17 @@
 
 .container-tags-third-level .tag-third-level:hover {
   background-color: #DEDEDE;
+}
+
+@media (min-width: 1024px) {
+  .container-tags-third-level {
+    overflow: initial;
+    width: initial;
+    max-width: initial;
+  }
+
+  .container-tags-third-level .wrapper-tags-third-level {
+    width: initial;
+    justify-content: center;
+  }
 }
