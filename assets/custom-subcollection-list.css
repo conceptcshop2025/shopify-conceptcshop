@@ -1,0 +1,82 @@
+.c-subcollection-list {
+  overflow-x: scroll;
+  width: 100%;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-left: 0.5rem;
+}
+
+.c-subcollection-list .section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 220%;
+}
+
+.c-subcollection-list .tag.tag-subcollection {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: initial;
+  height: initial;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #efefef;
+}
+
+.c-subcollection-list .tag.tag-subcollection:hover {
+  background-color: #DEDEDE !important;
+}
+
+.container-tags-third-level {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.container-tags-third-level .wrapper-tags-third-level {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  width: 300%;
+  padding-left: 0.5rem;
+}
+
+.container-tags-third-level .tag-third-level {
+  background-color: #efefef;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  transition: background-color 0.3s ease-in-out;
+  width: auto;
+}
+
+.container-tags-third-level .tag-third-level:hover {
+  background-color: #DEDEDE;
+}
+
+@media (min-width: 1024px) {
+  .container-tags-third-level,
+  .c-subcollection-list {
+    overflow: initial;
+    width: initial;
+    max-width: initial;
+    margin-inline-start: max(var(--container-gutter),50% - var(--container-max-width) / 2);
+    margin-inline-end: max(var(--container-gutter),50% - var(--container-max-width) / 2);
+  }
+
+  .container-tags-third-level .wrapper-tags-third-level,
+  .c-subcollection-list .section-wrapper {
+    width: initial;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
