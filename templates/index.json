@@ -37,6 +37,7 @@
       "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
+        "content_order": "image_first",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -207,6 +208,42 @@
             "overlay_opacity": 0
           }
         },
+        "collection_6FcrJG": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "coiffant",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_VfmXQ9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "tube-de-coloration",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "collection_J8AMaC": {
           "type": "collection",
           "settings": {
@@ -225,8 +262,27 @@
             "overlay_opacity": 0
           }
         },
+        "collection_LyYAy9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "brosse-sechoir",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "collection_teHhim": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
@@ -245,6 +301,7 @@
         },
         "collection_gygGch": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
@@ -263,6 +320,7 @@
         },
         "collection_jQUkmY": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "background_item_color": "#efefef",
             "text_item_color": "#000000",
@@ -286,7 +344,10 @@
         "collection_H4KwTm",
         "collection_WWFCwD",
         "collection_Lga89L",
+        "collection_6FcrJG",
+        "collection_VfmXQ9",
         "collection_J8AMaC",
+        "collection_LyYAy9",
         "collection_teHhim",
         "collection_gygGch",
         "collection_jQUkmY"
