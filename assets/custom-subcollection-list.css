@@ -1,26 +1,35 @@
-.c-subcollection-list .collection-card .collection_item_content {
-  text-align: center;
+.c-subcollection-list {
+  overflow-x: scroll;
+  width: 100%;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-left: 0.5rem;
 }
 
-.c-subcollection-list.c-subcollection-list .collection-list {
+.c-subcollection-list .section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 220%;
+}
+
+.c-subcollection-list .tag.tag-subcollection {
+  text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.c-subcollection-list.c-subcollection-list .collection-list .collection-card .collection_item_content {
   width: initial;
   height: initial;
   border-radius: .5rem;
   padding: .5rem 1rem;
   transition: background-color 0.3s ease-in-out;
+  background-color: #efefef;
 }
 
-.c-subcollection-list.c-subcollection-list .collection-list .collection-card:hover .collection_item_content {
+.c-subcollection-list .tag.tag-subcollection:hover {
   background-color: #DEDEDE !important;
-}
-
-.c-subcollection-list.c-collection-list .collection-list .collection-card {
-  flex-basis: auto; 
 }
 
 .container-tags-third-level {
@@ -55,7 +64,8 @@
 }
 
 @media (min-width: 1024px) {
-  .container-tags-third-level {
+  .container-tags-third-level,
+  .c-subcollection-list {
     overflow: initial;
     width: initial;
     max-width: initial;
@@ -63,7 +73,8 @@
     margin-inline-end: max(var(--container-gutter),50% - var(--container-max-width) / 2);
   }
 
-  .container-tags-third-level .wrapper-tags-third-level {
+  .container-tags-third-level .wrapper-tags-third-level,
+  .c-subcollection-list .section-wrapper {
     width: initial;
     justify-content: center;
     padding-left: 0;

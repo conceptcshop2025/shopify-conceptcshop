@@ -9,6 +9,7 @@
   assign subcollections = collection.metafields.custom.subcollections.value
 %}
 
+
 {%- capture collection_breadcrumb -%}
   {%- if section.settings.show_breadcrumb -%}
     <nav class="breadcrumb breadcrumb--floating" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
@@ -96,7 +97,14 @@
   </collection-banner>
 {%- elsif collection_content != blank -%}
   <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
-    <div class="relative section-spacing section-spacing--tight">
+    {% style %}
+    .section-collection-banner {
+      --section-vertical-spacing: 1rem;
+      --section-stack-gap: 1rem;
+    }
+
+    {% endstyle %}
+    <div class="relative section-spacing section-spacing--tight section-collection-banner">
       <div class="container container--{{ section.settings.content_width }}">
         {{- collection_breadcrumb -}}
 
