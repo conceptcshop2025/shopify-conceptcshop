@@ -120,11 +120,10 @@
         "collection_qgFDBY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
-            "text_item_color": "#ffffff",
+            "background_item_color": "#fdf7f6",
+            "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "shampoing",
-            "image": "shopify://shop_images/nuda-coffret-des-fetes-glow-on-the-go-2547958.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -133,13 +132,13 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "collection_8zT7aN": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#faf0ee",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "shampoing-sec",
@@ -157,7 +156,7 @@
         "collection_H4KwTm": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#f8e8e5",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-1",
@@ -175,7 +174,7 @@
         "collection_WWFCwD": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#f5e1dc",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-sans-rincage",
@@ -193,7 +192,7 @@
         "collection_Lga89L": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#f2d9d4",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "traitement",
@@ -211,7 +210,7 @@
         "collection_6FcrJG": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#efd2cb",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "coiffant",
@@ -229,7 +228,7 @@
         "collection_VfmXQ9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#eccac3",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "tube-de-coloration",
@@ -247,7 +246,7 @@
         "collection_J8AMaC": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#e9c3bb",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "accessoires",
@@ -265,7 +264,7 @@
         "collection_LyYAy9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#e6bcb2",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "brosse-sechoir",
