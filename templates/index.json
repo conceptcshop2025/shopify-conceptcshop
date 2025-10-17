@@ -67,13 +67,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Front_Site_Coffrets_255423c9-87fe-47f2-9f29-d7070dc7b412.webp",
-            "block_background": "#6a1b1f",
-            "text_block_background": "#fff6f1",
-            "title": "<strong>JUSQU'À 35% DE RABAIS!</strong>",
+            "image": "shopify://shop_images/Slider_Mobile_20_a_40_off_Design_Me_2.webp",
+            "block_background": "#f4a9bd",
+            "text_block_background": "#000000",
+            "title": "<strong>25 à 40% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Économisez jusqu’à 35 % sur nos coffrets haut de gamme, parfaits pour vous gâter ou offrir en cadeau!<br/></p>",
-            "link_url": "shopify://collections/coffrets",
+            "content": "<p>Gamme capillaire végane et sans cruauté, qui allie performance, soin et créativité pour tous les types de cheveux.<br/></p>",
+            "link_url": "shopify://collections/design-me",
             "link_text": "magasiner"
           }
         },
