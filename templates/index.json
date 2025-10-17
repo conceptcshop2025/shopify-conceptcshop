@@ -9,6 +9,45 @@
  */
 {
   "sections": {
+    "custom_featured_collections_LJAE7C": {
+      "type": "custom-featured-collections",
+      "blocks": {
+        "content_media_AyAnmB": {
+          "type": "content_media",
+          "settings": {
+            "image_media": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025.webp"
+          }
+        },
+        "collection_yfbyye": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffre-a-outils-1",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_media_AyAnmB",
+        "collection_yfbyye"
+      ],
+      "disabled": true,
+      "name": "# Collections with image",
+      "settings": {
+        "color_scheme": "",
+        "content_order": "image_first",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
+      }
+    },
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
@@ -73,6 +112,260 @@
         "padding_bottom": 40,
         "full_width": true,
         "column_gap": 4
+      }
+    },
+    "custom_collection_list_Y6XW4j": {
+      "type": "custom-collection-list",
+      "blocks": {
+        "collection_qgFDBY": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#e4c0ae",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "shampoing",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8zT7aN": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#dab9a9",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "shampoing-sec",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_H4KwTm": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#d0b3a5",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "revitalisant-1",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_WWFCwD": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#c5aca0",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "revitalisant-sans-rincage",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_Lga89L": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#bba69b",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "traitement",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_6FcrJG": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#b19f97",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coiffage",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_VfmXQ9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#a79992",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coloration",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_J8AMaC": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#9d938e",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "outils-accessoires",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_LyYAy9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#948c89",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "outils-de-coiffure",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_teHhim": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "outils-accessoires",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_gygGch": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coloration",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_jQUkmY": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "produits-de-coiffage",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_qgFDBY",
+        "collection_8zT7aN",
+        "collection_H4KwTm",
+        "collection_WWFCwD",
+        "collection_Lga89L",
+        "collection_6FcrJG",
+        "collection_VfmXQ9",
+        "collection_J8AMaC",
+        "collection_LyYAy9",
+        "collection_teHhim",
+        "collection_gygGch",
+        "collection_jQUkmY"
+      ],
+      "name": "# Collection list",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": false,
+        "collections_per_row_mobile": "1",
+        "column_gap": 16,
+        "subheading": "",
+        "title": "Nos collections",
+        "content": ""
       }
     },
     "slideshow": {
@@ -919,7 +1212,9 @@
     }
   },
   "order": [
+    "custom_featured_collections_LJAE7C",
     "custom_multi_column_BHzrQP",
+    "custom_collection_list_Y6XW4j",
     "slideshow",
     "featured_collections_j4txfR",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",

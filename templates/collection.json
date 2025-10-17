@@ -26,6 +26,25 @@
         "overlay_opacity": 30
       }
     },
+    "custom_subcollection_list_tNULwz": {
+      "type": "custom-subcollection-list",
+      "name": "# Subcollection list",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": false,
+        "collections_per_row_mobile": "1",
+        "column_gap": 16,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -53,6 +72,7 @@
   },
   "order": [
     "collection-banner",
+    "custom_subcollection_list_tNULwz",
     "main"
   ]
 }

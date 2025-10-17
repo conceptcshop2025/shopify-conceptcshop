@@ -1,16 +1,22 @@
 {
-    "name": "shopify-conceptcshop",
-    "version": "1.0.0",
-    "description": "Concept C Shopify Theme",
-    "scripts": {
-        "dev": "shopify theme dev",
-        "build": "shopify theme build",
-        "serve": "shopify theme serve",
-        "deploy": "shopify theme push"
-    },
-    "author": "Juan Felipe Cancino",
-    "license": "ISC",
-    "devDependencies": {
-        "@shopify/theme": "^3.85.0"
-    }
+  "name": "shopify-conceptcshop",
+  "version": "1.0.0",
+  "description": "Concept C Shopify Theme",
+  "scripts": {
+    "pull": "shopify theme pull --nodelete",
+    "push": "shopify theme push --nodelete",
+    "dev": "shopify theme dev --store concept-c-shop.myshopify.com --theme-editor-sync",
+    "build": "shopify theme build",
+    "serve": "shopify theme serve",
+    "deploy": "shopify theme push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conceptcshop2025/shopify-conceptcshop.git"
+  },
+  "author": "Juan Felipe Cancino",
+  "license": "ISC",
+  "devDependencies": {
+    "@shopify/theme": "^3.85.0"
+  }
 }
