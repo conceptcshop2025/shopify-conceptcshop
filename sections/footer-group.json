@@ -90,15 +90,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_NGw9Cw": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "title": "<a href=\"https://www.google.com/maps/place/Concept+C.+La+R%C3%A9f%C3%A9rence+en+Produits+de+Coiffure+-+Entrep%C3%B4t/@46.8055782,-71.3011397,15z/data=!4m6!3m5!1s0x4cb897bcfd36315d:0x6718884b8c19d24!8m2!3d46.8055782!4d-71.3011397!16s%2Fg%2F11vbtt69ht?entry=ttu\" title=\"https://www.google.com/maps/place/Concept+C.+La+R%C3%A9f%C3%A9rence+en+Produits+de+Coiffure+-+Entrep%C3%B4t/@46.8055782,-71.3011397,15z/data=!4m6!3m5!1s0x4cb897bcfd36315d:0x6718884b8c19d24!8m2!3d46.8055782!4d-71.3011397!16s%2Fg%2F11vbtt69ht?entry=ttu\">SIÈGE SOCIAL & CENTRE DE DISTRIBUTION</a>",
-            "content": "<p>1360 Av. Galilée local 110 </p><p>Québec, Qc </p><p>G1P 4E3</p><p><a href=\"tel:4187802999\" title=\"tel:4187802999\">(418) 780-2999</a></p>",
-            "enable_follow_on_shop": false
-          }
-        },
         "a9c8ab7d-515b-4355-bc63-71dd0500ec28": {
           "type": "links",
           "settings": {
@@ -115,15 +106,6 @@
             "menu_title": ""
           }
         },
-        "text_Ggtgfq": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "title": "About our store",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "newsletter_WatDyd": {
           "type": "newsletter",
           "settings": {
@@ -135,10 +117,8 @@
         }
       },
       "block_order": [
-        "text_NGw9Cw",
         "a9c8ab7d-515b-4355-bc63-71dd0500ec28",
         "links_ztVBhB",
-        "text_Ggtgfq",
         "newsletter_WatDyd"
       ],
       "custom_css": [

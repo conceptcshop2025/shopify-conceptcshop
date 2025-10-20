@@ -239,63 +239,6 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "collection_teHhim": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "background_item_color": "#efefef",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "outils-accessoires",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_gygGch": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "background_item_color": "#efefef",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "produits-de-coloration",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_jQUkmY": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "background_item_color": "#efefef",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "produits-de-coiffage",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
@@ -307,10 +250,7 @@
         "collection_6FcrJG",
         "collection_VfmXQ9",
         "collection_J8AMaC",
-        "collection_LyYAy9",
-        "collection_teHhim",
-        "collection_gygGch",
-        "collection_jQUkmY"
+        "collection_LyYAy9"
       ],
       "name": "# Collection list",
       "settings": {
@@ -390,11 +330,6 @@
     "1de00121-d287-4d65-ad85-9d644957207a": {
       "type": "featured-product",
       "blocks": {
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-vendor-1": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {}
-        },
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-title-1": {
           "type": "title",
           "settings": {
@@ -418,34 +353,6 @@
             "rating_mode": "rating"
           }
         },
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-payment_terms-1": {
-          "type": "payment_terms",
-          "disabled": true,
-          "settings": {}
-        },
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-separator-1": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {}
-        },
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-description-1": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-variant_picker-1": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-quantity_selector-1": {
           "type": "quantity_selector",
           "settings": {}
@@ -466,27 +373,16 @@
           "settings": {
             "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/t/2/assets/payment.png?v=69563648246536645381635255107\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
           }
-        },
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-pickup_availability-1": {
-          "type": "pickup_availability",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-vendor-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-title-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-price-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-badges-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-rating-1",
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-payment_terms-1",
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-separator-1",
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-description-1",
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-variant_picker-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-quantity_selector-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-buy_buttons-1",
-        "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c",
-        "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-pickup_availability-1"
+        "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c"
       ],
       "settings": {
         "color_scheme": "",
