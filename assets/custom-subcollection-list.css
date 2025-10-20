@@ -28,10 +28,6 @@
   background-color: #efefef;
 }
 
-.c-subcollection-list .tag.tag-subcollection:hover {
-  background-color: #DEDEDE !important;
-}
-
 .container-tags-third-level {
   width: 100%;
   max-width: 100%;
@@ -59,10 +55,6 @@
   width: auto;
 }
 
-.container-tags-third-level .tag-third-level:hover {
-  background-color: #DEDEDE;
-}
-
 @media (min-width: 1024px) {
   .container-tags-third-level,
   .c-subcollection-list {
@@ -78,5 +70,15 @@
     width: initial;
     justify-content: center;
     padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-tags-third-level .tag-third-level:hover {
+    background-color: #DEDEDE;
+  }
+
+  .c-subcollection-list .tag.tag-subcollection:hover {
+    background-color: #DEDEDE !important;
   }
 }
