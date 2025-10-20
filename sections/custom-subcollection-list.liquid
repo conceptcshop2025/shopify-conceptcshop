@@ -105,7 +105,17 @@
               {% assign filter_values_size = filter.values | size %}
               {% if filter_values_size > 0 %}
                 {% for tag in filter.values %}
-                  <a href="{{ collection.url }}?{{ tag.param_name }}={{ tag.value }}" class="tag tag-third-level">
+                  {% liquid
+                    assign url = collection.url | append: '?' | append: tag.param_name | append: '=' | append: tag.value
+                    comment
+                      exemptions for special characters in URL like & (and) , (comma)
+                        - Cire, gel & pommade
+                    endcomment
+                    if tag.label == 'Cire, gel & pommade'
+                      assign url = collection.url | append: '?filter.p.product_type-cire-gel-amp-pommade'
+                    endif
+                  %}
+                  <a href="{{ url }}" class="tag tag-third-level">
                     {{ tag.label }}
                   </a>
                 {% endfor %}

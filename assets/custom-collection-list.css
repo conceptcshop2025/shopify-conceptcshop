@@ -19,7 +19,17 @@
 
 .c-collection-list .collection-list .collection-card {
   flex-basis: 8.438rem;
+  outline: none;
+  border-radius: 50%;
 }
+
+
+.c-collection-list .collection-list .collection-card:focus,
+.c-collection-list .collection-list .collection-card *,
+.c-collection-list .collection-list .collection-card:focus * {
+  outline: none;
+}
+
 
 @media (min-width: 768px) {
   .c-collection-list .collection-list .collection-card .collection_item_content {
