@@ -20,8 +20,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: initial;
-  height: initial;
   border-radius: .5rem;
   padding: .5rem 1rem;
   transition: background-color 0.3s ease-in-out;
@@ -53,6 +51,17 @@
   border-radius: .5rem;
   transition: background-color 0.3s ease-in-out;
   width: auto;
+}
+
+.c-subcollection-list .tag.tag-subcollection,
+.container-tags-third-level .tag-third-level {
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.c-subcollection-list .tag.tag-subcollection > *,
+.container-tags-third-level .tag-third-level > * {
+  pointer-events: none;
 }
 
 @media (min-width: 1024px) {
