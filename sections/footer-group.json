@@ -67,33 +67,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "newsletter_hpyQqC": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image_size": "auto",
-        "subheading": "",
-        "title": "10% de rabais sur ta première commande!",
-        "content": "<p>Sur des gammes telles que Kérastase | Shu Uemera | Oribe et promotions exclusives!</p>",
-        "button_text": "Je m'inscris",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "custom_liquid_TgkeFP": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% if request.locale.iso_code == 'en' %}\n<div class=\"klaviyo-form-VCSinP\"></div>\n{% else %}\n<div class=\"klaviyo-form-SHMDB6\"></div>\n{% endif %}",
-        "text_alignment": "center"
-      }
-    },
     "172287913422739c97": {
       "type": "apps",
       "blocks": {
@@ -185,8 +158,6 @@
   },
   "order": [
     "rich_text_YtibTt",
-    "newsletter_hpyQqC",
-    "custom_liquid_TgkeFP",
     "172287913422739c97",
     "footer"
   ]
