@@ -21,6 +21,8 @@
   flex-basis: 8.438rem;
   outline: none;
   border-radius: 50%;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 
 
