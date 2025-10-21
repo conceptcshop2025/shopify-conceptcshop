@@ -24,7 +24,7 @@
         "collection_MeRYAd": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#e4c0ae",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "soldes",
@@ -42,7 +42,7 @@
         "collection_hDWTnY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#dab9a9",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "coffre-a-outils-1",
@@ -60,7 +60,7 @@
         "collection_9myRtQ": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#d0b3a5",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "offre-du-moment-shu-uemura",
@@ -78,7 +78,7 @@
         "collection_GraXgJ": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#c5aca0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "promo-du-moment-pureology",
@@ -96,7 +96,7 @@
         "collection_bi3VWV": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#bba69b",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "la-voute",
@@ -114,7 +114,7 @@
         "collection_WagTQn": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#b19f97",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "les-minis-a-moins-de-10",
@@ -132,7 +132,7 @@
         "collection_mGEd8q": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#a79992",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "les-minis-entre-10-et-15",
@@ -150,7 +150,7 @@
         "collection_3PmpwP": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#9d938e",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "les-minis-entre-15-et-20",
@@ -168,7 +168,7 @@
         "collection_eTitC9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#efefef",
+            "background_item_color": "#948c89",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "les-minis-a-de-20",
