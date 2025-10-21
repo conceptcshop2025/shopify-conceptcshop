@@ -18,6 +18,200 @@
         "page_width": "xs"
       }
     },
+    "custom_collection_list_n3pNUt": {
+      "type": "custom-collection-list",
+      "blocks": {
+        "collection_MeRYAd": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "soldes",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_hDWTnY": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "coffre-a-outils-1",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9myRtQ": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "",
+            "collection": "offre-du-moment-shu-uemura",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_GraXgJ": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "promo-du-moment-pureology",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_bi3VWV": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "la-voute",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_WagTQn": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "les-minis-a-moins-de-10",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_mGEd8q": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "les-minis-entre-10-et-15",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_3PmpwP": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "les-minis-entre-15-et-20",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_eTitC9": {
+          "type": "collection",
+          "settings": {
+            "background_item_color": "#efefef",
+            "text_item_color": "#000000",
+            "color_scheme": "scheme-4",
+            "collection": "les-minis-a-de-20",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_MeRYAd",
+        "collection_hDWTnY",
+        "collection_9myRtQ",
+        "collection_GraXgJ",
+        "collection_bi3VWV",
+        "collection_WagTQn",
+        "collection_mGEd8q",
+        "collection_3PmpwP",
+        "collection_eTitC9"
+      ],
+      "name": "# Collection list",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": true,
+        "collections_per_row_mobile": "1",
+        "column_gap": 8,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "custom_featured_collections_UbCbVe": {
       "type": "custom-featured-collections",
       "blocks": {
@@ -135,6 +329,7 @@
   },
   "order": [
     "main",
+    "custom_collection_list_n3pNUt",
     "custom_featured_collections_UbCbVe",
     "custom_featured_collections_6bzcY6",
     "custom_featured_collections_mfDFAX"
