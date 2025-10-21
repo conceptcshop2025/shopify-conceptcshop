@@ -110,10 +110,15 @@
                     comment
                       exemptions for special characters in URL like & (and) , (comma)
                         - Cire, gel & pommade
+                        - 100% clean
                     endcomment
-                    if tag.label == 'Cire, gel & pommade'
-                      assign url = collection.url | append: '?filter.p.product_type-cire-gel-amp-pommade'
-                    endif
+
+                    case tag.label
+                      when 'Cire, gel & pommade'
+                         assign url = collection.url | append: '?filter.p.product_type-cire-gel-amp-pommade'
+                      when '100% Clean'
+                         assign url = collection.url | append: '?filter.p.m.custom.filtre_specificite-100-clean'
+                    endcase
                   %}
                   <a href="{{ url }}" class="tag tag-third-level">
                     {{ tag.label }}

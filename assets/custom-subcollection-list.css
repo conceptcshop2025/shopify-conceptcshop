@@ -81,13 +81,3 @@
     padding-left: 0;
   }
 }
-
-@media (min-width: 1200px) {
-  .container-tags-third-level .tag-third-level:hover {
-    background-color: #DEDEDE;
-  }
-
-  .c-subcollection-list .tag.tag-subcollection:hover {
-    background-color: #DEDEDE !important;
-  }
-}
