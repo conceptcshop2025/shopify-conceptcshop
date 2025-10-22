@@ -1,4 +1,9 @@
 {%- if section.settings.liquid != blank -%}
+  
+  {% if page.handle == 'concours-1000-a-gagner-chez-concept-c' %}
+    {{ 'styles-page-concours.css' | asset_url | stylesheet_tag }}
+  {% endif %}
+
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
