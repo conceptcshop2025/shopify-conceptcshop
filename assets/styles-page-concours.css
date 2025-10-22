@@ -1,0 +1,55 @@
+@media (max-width: 1100px) {
+  .section-spacing .container:has(.klaviyo-form-VBkgJH) {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form {
+    display: block !important;
+  }
+
+  .klaviyo-form-VBkgJH #rich-text-01K8438CMQ70A0X6TGT5XFTGBC h1 span {
+    line-height: 1.5;
+    font-size: 36px !important;
+  }
+
+  .klaviyo-form-VBkgJH #rich-text-01K8438CMQ70A0X6TGT5XFTGBC h1:nth-child(4) {
+    margin-top: -60px;
+  }
+
+  .klaviyo-form-VBkgJH #rich-text-01K8438CMQ70A0X6TGT5XFTGBC h1:nth-child(4) span {
+    font-size: 72px !important;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form .kl-private-reset-css-Xuajs1:has(img),
+  .klaviyo-form-VBkgJH form.klaviyo-form .kl-private-reset-css-Xuajs1:has(div[data-testid="form-row"]) {
+    width: 100% !important;
+    min-width: initial !important;
+    min-height: initial !important;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form img {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form .kl-private-reset-css-Xuajs1:has(div[data-testid="form-row"]) {
+    padding: 20px 0 !important;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form input,
+  .klaviyo-form-VBkgJH form.klaviyo-form input::placeholder,
+  .klaviyo-form-VBkgJH form.klaviyo-form button {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 1101px) {
+  .klaviyo-form-VBkgJH #rich-text-01K8438CMQ70A0X6TGT5XFTGBC h1 span {
+    line-height: 1;
+  }
+
+  .klaviyo-form-VBkgJH form.klaviyo-form .kl-private-reset-css-Xuajs1:has(div[data-testid="form-row"]) {
+    padding: 20px 0 !important;
+  }
+}
