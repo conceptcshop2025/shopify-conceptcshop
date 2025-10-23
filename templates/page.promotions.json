@@ -394,15 +394,16 @@
           "settings": {
             "color_scheme": "scheme-2",
             "collection": "soldes",
+            "image": "shopify://shop_images/Slider_Coffrets_2025_750_x_600_px.png",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "content_position": "place-self-end-center text-center",
+            "subheading": "Nos soldes",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "Voir la promo",
+            "button_link": "shopify://collections/soldes",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         },
         "collection_fpVy77": {
