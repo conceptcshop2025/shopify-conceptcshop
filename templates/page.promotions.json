@@ -412,14 +412,14 @@
             "color_scheme": "scheme-2",
             "collection": "coffre-a-outils-1",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "content_position": "place-self-end-center text-center",
+            "subheading": "Promo outils",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "Voir nos outils",
+            "button_link": "shopify://collections/coffre-a-outils-1",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         },
         "collection_dwqCN8": {
