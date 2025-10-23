@@ -411,8 +411,9 @@
           "settings": {
             "color_scheme": "scheme-2",
             "collection": "coffre-a-outils-1",
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-start-center text-center",
             "subheading": "Promo outils",
             "title": "",
             "button_text": "Voir nos outils",
