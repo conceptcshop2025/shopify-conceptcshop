@@ -392,7 +392,7 @@
         "collection_nyfAKW": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "soldes",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -408,7 +408,7 @@
         "collection_fpVy77": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "coffre-a-outils-1",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -424,7 +424,7 @@
         "collection_dwqCN8": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "offre-du-moment-shu-uemura",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -440,7 +440,7 @@
         "collection_zyt4xQ": {
           "type": "collection",
           "settings": {
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-2",
             "collection": "promo-du-moment-pureology",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -456,7 +456,7 @@
         "collection_L4e3W9": {
           "type": "collection",
           "settings": {
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-2",
             "collection": "les-minis",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
