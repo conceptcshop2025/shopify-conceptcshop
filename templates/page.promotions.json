@@ -505,7 +505,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "stack_collections_mobile": false,
-        "collections_per_row_mobile": "1",
+        "collections_per_row_mobile": "2",
         "subheading": "",
         "title": "Nos Promos",
         "content": ""
