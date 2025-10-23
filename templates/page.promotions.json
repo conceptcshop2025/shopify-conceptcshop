@@ -195,6 +195,7 @@
         "collection_3PmpwP",
         "collection_eTitC9"
       ],
+      "disabled": true,
       "name": "# Collection list",
       "settings": {
         "color_scheme": "",
@@ -236,6 +237,7 @@
         "content_media_YHGerA",
         "collection_xwXCyj"
       ],
+      "disabled": true,
       "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
@@ -274,6 +276,7 @@
         "content_media_3NWyyi",
         "collection_CRiYzW"
       ],
+      "disabled": true,
       "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
@@ -312,6 +315,7 @@
         "content_media_bH36KT",
         "collection_7VQXCp"
       ],
+      "disabled": true,
       "name": "# Collections with image",
       "settings": {
         "color_scheme": "",
@@ -325,6 +329,61 @@
         "vertical_spacing_factor": 1,
         "subheading": "Featured collection"
       }
+    },
+    "shop_the_look_UTWPJ3": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_RDMzVQ": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Coffrets_2025_750_x_600_px.png",
+            "hot_spots_background": "#e4c0ae",
+            "product_1": "k18-coffret-mini-coups-de-coeur-du-futur",
+            "product_1_horizontal_position": 94,
+            "product_1_vertical_position": 56,
+            "product_2": "living-proof-coffret-double-the-clean-shampoing-sec-phd-et-phd-advanced",
+            "product_2_horizontal_position": 40,
+            "product_2_vertical_position": 65,
+            "product_3": "kerastase-coffret-des-fetes-genesis-septembre-2025",
+            "product_3_horizontal_position": 83,
+            "product_3_vertical_position": 10,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_Ke3XBa": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 30,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_RDMzVQ",
+        "look_Ke3XBa"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
     }
   },
   "order": [
@@ -332,6 +391,7 @@
     "custom_collection_list_n3pNUt",
     "custom_featured_collections_UbCbVe",
     "custom_featured_collections_6bzcY6",
-    "custom_featured_collections_mfDFAX"
+    "custom_featured_collections_mfDFAX",
+    "shop_the_look_UTWPJ3"
   ]
 }
