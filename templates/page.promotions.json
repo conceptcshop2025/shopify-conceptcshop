@@ -18,51 +18,47 @@
         "page_width": "xs"
       }
     },
-    "custom_collection_list_n3pNUt": {
-      "type": "custom-collection-list",
+    "collection_list_dTLqd8": {
+      "type": "collection-list",
       "blocks": {
-        "collection_MeRYAd": {
+        "collection_nyfAKW": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#e4c0ae",
-            "text_item_color": "#000000",
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "soldes",
+            "image": "shopify://shop_images/Slider_Coffrets_2025_750_x_600_px.png",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "content_position": "place-self-end-center text-center",
+            "subheading": "Nos soldes",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "Voir la promo",
+            "button_link": "shopify://collections/soldes",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 10
           }
         },
-        "collection_hDWTnY": {
+        "collection_fpVy77": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#dab9a9",
-            "text_item_color": "#000000",
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "coffre-a-outils-1",
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "content_position": "place-self-start-center text-center",
+            "subheading": "Promo outils",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "Voir nos outils",
+            "button_link": "shopify://collections/coffre-a-outils-1",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 10
           }
         },
-        "collection_9myRtQ": {
+        "collection_dwqCN8": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#d0b3a5",
-            "text_item_color": "#000000",
-            "color_scheme": "",
+            "color_scheme": "scheme-2",
             "collection": "offre-du-moment-shu-uemura",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -72,15 +68,13 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
-        "collection_GraXgJ": {
+        "collection_zyt4xQ": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#c5aca0",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-2",
             "collection": "promo-du-moment-pureology",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -90,15 +84,29 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         },
-        "collection_bi3VWV": {
+        "collection_L4e3W9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#bba69b",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-2",
+            "collection": "les-minis",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xnhBRF": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-2",
             "collection": "la-voute",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
@@ -108,230 +116,37 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_WagTQn": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#b19f97",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "les-minis-a-moins-de-10",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_mGEd8q": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#a79992",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "les-minis-entre-10-et-15",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_3PmpwP": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#9d938e",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "les-minis-entre-15-et-20",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_eTitC9": {
-          "type": "collection",
-          "settings": {
-            "background_item_color": "#948c89",
-            "text_item_color": "#000000",
-            "color_scheme": "scheme-4",
-            "collection": "les-minis-a-de-20",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 30
           }
         }
       },
       "block_order": [
-        "collection_MeRYAd",
-        "collection_hDWTnY",
-        "collection_9myRtQ",
-        "collection_GraXgJ",
-        "collection_bi3VWV",
-        "collection_WagTQn",
-        "collection_mGEd8q",
-        "collection_3PmpwP",
-        "collection_eTitC9"
+        "collection_nyfAKW",
+        "collection_fpVy77",
+        "collection_dwqCN8",
+        "collection_zyt4xQ",
+        "collection_L4e3W9",
+        "collection_xnhBRF"
       ],
-      "name": "# Collection list",
+      "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "image_size": "xs",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 4,
         "stack_collections_mobile": false,
-        "collections_per_row_mobile": "1",
-        "column_gap": 8,
+        "collections_per_row_mobile": "2",
         "subheading": "",
-        "title": "",
+        "title": "Nos Promos",
         "content": ""
-      }
-    },
-    "custom_featured_collections_UbCbVe": {
-      "type": "custom-featured-collections",
-      "blocks": {
-        "content_media_YHGerA": {
-          "type": "content_media",
-          "settings": {
-            "image_media": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp"
-          }
-        },
-        "collection_xwXCyj": {
-          "type": "collection",
-          "settings": {
-            "collection": "coffre-a-outils-1",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_media_YHGerA",
-        "collection_xwXCyj"
-      ],
-      "name": "# Collections with image",
-      "settings": {
-        "color_scheme": "",
-        "content_order": "image_first",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
-      }
-    },
-    "custom_featured_collections_6bzcY6": {
-      "type": "custom-featured-collections",
-      "blocks": {
-        "content_media_3NWyyi": {
-          "type": "content_media",
-          "settings": {
-            "image_media": "shopify://shop_images/Front_Site_Coffrets_255423c9-87fe-47f2-9f29-d7070dc7b412.webp"
-          }
-        },
-        "collection_CRiYzW": {
-          "type": "collection",
-          "settings": {
-            "collection": "coffrets",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_media_3NWyyi",
-        "collection_CRiYzW"
-      ],
-      "name": "# Collections with image",
-      "settings": {
-        "color_scheme": "",
-        "content_order": "collections_first",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
-      }
-    },
-    "custom_featured_collections_mfDFAX": {
-      "type": "custom-featured-collections",
-      "blocks": {
-        "content_media_bH36KT": {
-          "type": "content_media",
-          "settings": {
-            "image_media": "shopify://shop_images/Ilettre_Jusqu_a_50_off_MEP.webp"
-          }
-        },
-        "collection_7VQXCp": {
-          "type": "collection",
-          "settings": {
-            "collection": "promo-du-moment",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_media_bH36KT",
-        "collection_7VQXCp"
-      ],
-      "name": "# Collections with image",
-      "settings": {
-        "color_scheme": "",
-        "content_order": "image_first",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
       }
     }
   },
   "order": [
     "main",
-    "custom_collection_list_n3pNUt",
-    "custom_featured_collections_UbCbVe",
-    "custom_featured_collections_6bzcY6",
-    "custom_featured_collections_mfDFAX"
+    "collection_list_dTLqd8"
   ]
 }
