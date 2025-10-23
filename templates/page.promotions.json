@@ -385,6 +385,130 @@
         "content": "",
         "popover_title": "Nos Promos"
       }
+    },
+    "collection_list_dTLqd8": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_nyfAKW": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "soldes",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fpVy77": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "coffre-a-outils-1",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dwqCN8": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "offre-du-moment-shu-uemura",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_zyt4xQ": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "promo-du-moment-pureology",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_L4e3W9": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "les-minis",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xnhBRF": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "collection": "la-voute",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_nyfAKW",
+        "collection_fpVy77",
+        "collection_dwqCN8",
+        "collection_zyt4xQ",
+        "collection_L4e3W9",
+        "collection_xnhBRF"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": true,
+        "collections_per_row_mobile": "1",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -393,6 +517,7 @@
     "custom_featured_collections_UbCbVe",
     "custom_featured_collections_6bzcY6",
     "custom_featured_collections_mfDFAX",
-    "shop_the_look_UTWPJ3"
+    "shop_the_look_UTWPJ3",
+    "collection_list_dTLqd8"
   ]
 }
