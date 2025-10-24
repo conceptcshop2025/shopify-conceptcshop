@@ -1,0 +1,163 @@
+{{ 'custom-promotions-list.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .section--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{% endstyle %}
+
+<div class="promotions-list-section color-scheme color-scheme--{{ section.settings.color_scheme.id }} section--{{ section.id }}">
+  {% style %}
+    .section--{{ section.id }}.promotions-list-section .section-content {
+      grid-template-columns: repeat({{ section.settings.items_per_row_mobile }}, 1fr);
+    }
+
+    {% if section.settings.show_slider_in_mobile %}
+      @media (max-width: 1023px) {
+        .section--{{ section.id }}.promotions-list-section .section-wrapper.slider-mobile .section-content {
+          grid-template-columns: repeat({{ section.blocks.size }}, 90%);
+        }
+      }
+    {% endif %}
+
+    @media (min-width: 1024px) {
+      .section--{{ section.id }}.promotions-list-section .section-content {
+        grid-template-columns: repeat({{ section.settings.items_per_row }}, 1fr);
+      }
+
+      {% if section.settings.show_slider_in_desktop %}
+        .section--{{ section.id }}.promotions-list-section .section-wrapper.slider-desktop .section-content {
+          grid-template-columns: repeat({{ section.blocks.size }}, 25%);
+        }
+      {% endif %}
+    }
+  {% endstyle %}
+
+  {% if section.settings.section_title != blank %}
+    <div class="container">
+      <h2 class="section-title h3">{{ section.settings.section_title }}</h2>
+    </div>
+  {% endif %}
+  <div class="section-wrapper {% if section.settings.show_slider_in_mobile %} slider-mobile{% endif %} {% if section.settings.show_slider_in_desktop %} slider-desktop{% endif %}">
+    <div class="section-content">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'promotion_card' %}
+            {% render 'custom-item-card', item_card_type: 'promotion-card', item_image: block.settings.promotion_image, item_title: block.settings.promotion_title, item_description: block.settings.promotion_description, item_link: block.settings.promotion_link, item_link_label: block.settings.promotion_link_text   %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "# Promotions list",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Promotions list settings"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:global.colors.scheme",
+        "default": "scheme-1"
+      },
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section title",
+        "default": "Nos promotions"
+      },
+      {
+        "type": "range",
+        "id": "items_per_row",
+        "label": "Items per row",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "default": 5
+      },
+      {
+        "type": "range",
+        "id": "items_per_row_mobile",
+        "label": "Items per row mobile",
+        "min": 1,
+        "max": 3,
+        "step": 1,
+        "default": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "show_slider_in_mobile",
+        "label": "Show slider in mobile",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_slider_in_desktop",
+        "label": "Show slider in desktop",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 48
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 48
+      }
+    ],
+    "blocks": [
+      {
+        "type": "promotion_card",
+        "name": "Promotion card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "promotion_image",
+            "label": "Promotion image"
+          },
+          {
+            "type": "text",
+            "id": "promotion_title",
+            "label": "Promotion title"
+          },
+          {
+            "type": "richtext",
+            "id": "promotion_description",
+            "label": "Promotion description",
+          },
+          {
+            "type": "url",
+            "id": "promotion_link",
+            "label": "Promotion link"
+          },
+          {
+            "type": "text",
+            "id": "promotion_link_text",
+            "label": "Promotion link text",
+            "default": "Voir plus"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "# Promotions list"
+      }
+    ],
+  }
+{% endschema %}

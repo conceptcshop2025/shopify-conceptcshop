@@ -11,140 +11,173 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
     },
-    "collection_list_dTLqd8": {
-      "type": "collection-list",
+    "custom_promotions_list_zWBgwM": {
+      "type": "custom-promotions-list",
       "blocks": {
-        "collection_nyfAKW": {
-          "type": "collection",
+        "promotion_card_gkgW94": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "soldes",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Voir plus",
-            "button_link": "shopify://collections/soldes",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         },
-        "collection_fpVy77": {
-          "type": "collection",
+        "promotion_card_VaAWDL": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "coffre-a-outils-1",
-            "expand_collection": false,
-            "content_position": "place-self-start-center text-center",
-            "subheading": "Promo outils",
-            "title": "",
-            "button_text": "Voir nos outils",
-            "button_link": "shopify://collections/coffre-a-outils-1",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         },
-        "collection_dwqCN8": {
-          "type": "collection",
+        "promotion_card_YbzKLB": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "offre-du-moment-shu-uemura",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         },
-        "collection_zyt4xQ": {
-          "type": "collection",
+        "promotion_card_ficQLT": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "promo-du-moment-pureology",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         },
-        "collection_L4e3W9": {
-          "type": "collection",
+        "promotion_card_fzPxBC": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "les-minis",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         },
-        "collection_xnhBRF": {
-          "type": "collection",
+        "promotion_card_4nRFwh": {
+          "type": "promotion_card",
           "settings": {
-            "color_scheme": "scheme-2",
-            "collection": "la-voute",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_AyGmfg": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_iKecUX": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
           }
         }
       },
       "block_order": [
-        "collection_nyfAKW",
-        "collection_fpVy77",
-        "collection_dwqCN8",
-        "collection_zyt4xQ",
-        "collection_L4e3W9",
-        "collection_xnhBRF"
+        "promotion_card_gkgW94",
+        "promotion_card_VaAWDL",
+        "promotion_card_YbzKLB",
+        "promotion_card_ficQLT",
+        "promotion_card_fzPxBC",
+        "promotion_card_4nRFwh",
+        "promotion_card_AyGmfg",
+        "promotion_card_iKecUX"
       ],
-      "name": "t:sections.collection_list.presets.collection_list.name",
+      "name": "# Promotions list",
       "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 4,
-        "stack_collections_mobile": false,
-        "collections_per_row_mobile": "2",
-        "subheading": "",
-        "title": "Nos Promos",
-        "content": ""
+        "color_scheme": "scheme-2",
+        "section_title": "Nos promotions",
+        "items_per_row": 5,
+        "items_per_row_mobile": 2,
+        "show_slider_in_mobile": true,
+        "show_slider_in_desktop": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "custom_promotions_list_zDYMHA": {
+      "type": "custom-promotions-list",
+      "blocks": {
+        "promotion_card_kaaxJD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_NMJDzj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_9xKTNt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
+            "promotion_title": "Nos soldes",
+            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_card_kaaxJD",
+        "promotion_card_NMJDzj",
+        "promotion_card_9xKTNt"
+      ],
+      "name": "# Promotions list",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_title": "Formats Voyage",
+        "items_per_row": 5,
+        "items_per_row_mobile": 1,
+        "show_slider_in_mobile": true,
+        "show_slider_in_desktop": false,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
     "main",
-    "collection_list_dTLqd8"
+    "custom_promotions_list_zWBgwM",
+    "custom_promotions_list_zDYMHA"
   ]
 }
