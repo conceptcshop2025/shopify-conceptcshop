@@ -8,16 +8,16 @@
     display: block !important;
   }
 
-  .klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S h1 span {
+  .klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH h1 span {
     line-height: 1.5;
     font-size: 36px !important;
   }
 
-  .klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S h1:nth-child(4) {
+  .klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH h1:nth-child(4) {
     margin-top: -60px;
   }
 
-  .klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S h1:nth-child(4) span {
+  .klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH h1:nth-child(4) span {
     font-size: 72px !important;
   }
 
@@ -45,7 +45,7 @@
 
   /* changes 23-10-2025 */
 
-  .klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S div:nth-child(3) span {
+  .klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH div:nth-child(3) span {
     font-size: 18px !important;
   }
 
@@ -53,7 +53,7 @@
 }
 
 @media (min-width: 1101px) {
-  .klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S h1 span {
+  .klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH h1 span {
     line-height: 1;
     font-size: 48px !important;
   }
@@ -77,7 +77,7 @@
 }
 
 @media (min-width: 1280px) {
-.klaviyo-form-VBkgJH #rich-text-01K88NA0GWATFBQ8266CWK008S h1 span {
+.klaviyo-form-VBkgJH #rich-text-01K8BQ380Y25ZCTWTMBR5DEMZH h1 span {
     line-height: 1;
     font-size: 72px !important;
   }
