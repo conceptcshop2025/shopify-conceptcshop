@@ -1,0 +1,27 @@
+{% unless snippet_styles_rendered %}
+  {% assign snippet_styles_rendered = true %}
+  {{ 'custom-item-card.css' | asset_url | stylesheet_tag }}
+{% endunless %}
+
+<div class="item-card {{ item_card_type }}">
+  {% if item_image != blank %}
+    <div class="item-image">
+      <img src="{{ item_image | image_url: width: '600' }}" alt="{{ item_title }}" title="{{ item_title }}" width="600" height="400"/>
+    </div>
+  {% endif %}
+  <div class="item-content">
+    {% if item_title != blank %}
+      <h3 class="item-title">{{ item_title }}</h3>
+    {% endif %}
+    {% if item_description != blank %}
+      <div class="item-description">
+        {{ item_description }}
+      </div>
+    {% endif %}
+    {% if item_link != blank %}
+      <a href="{{ item_link }}" class="item-link button">
+        {{ item_link_label }}
+      </a>
+    {% endif %}
+  </div>
+</div>
