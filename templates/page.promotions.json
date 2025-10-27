@@ -25,7 +25,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
             "promotion_title": "Promo outils",
-            "promotion_description": "<p>Jusq'à<strong>50% de rabais</strong>sur plus de<strong>200 outils</strong>chauffants!</p>",
+            "promotion_description": "<p>Jusq'à <strong>50% de rabais</strong>sur plus de<strong>200 outils</strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
@@ -35,7 +35,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Slider_Mobile_Lancement_Triphasic_Caps_RF_2.webp",
             "promotion_title": "PERTE DE CHEVEUX",
-            "promotion_description": "<p><strong>Nouveau!</strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
+            "promotion_description": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
             "promotion_link": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "promotion_link_text": "Voir plus"
           }
@@ -119,6 +119,9 @@
         "items_per_row_mobile": 2,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
+        "show_view_all_link": true,
+        "view_all_link_url": "shopify://collections/soldes",
+        "view_all_link_text": "Voir toutes nos promotions",
         "padding_top": 48,
         "padding_bottom": 48
       }
@@ -170,6 +173,9 @@
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
+        "show_view_all_link": false,
+        "view_all_link_url": "",
+        "view_all_link_text": "Voir tout",
         "padding_top": 48,
         "padding_bottom": 48
       }
