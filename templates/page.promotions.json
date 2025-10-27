@@ -53,10 +53,10 @@
         "promotion_card_ficQLT": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
+            "promotion_image": "shopify://shop_images/Promos_Sitye_1.png",
+            "promotion_title": "2e produit à -20% sur Izumi Tonic",
+            "promotion_description": "<p>La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
+            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
