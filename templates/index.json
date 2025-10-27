@@ -41,13 +41,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Coffrets_2025_750_x_600_px.png",
-            "block_background": "#6a1b1f",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
+            "block_background": "#0b2342",
             "text_block_background": "#ffffff",
-            "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
+            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
             "heading_tag": "h4",
-            "content": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!<br/></p>",
-            "link_url": "shopify://collections/coffrets",
+            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         }
