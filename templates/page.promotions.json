@@ -43,10 +43,10 @@
         "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
+            "promotion_image": "shopify://shop_images/Slider_Coffrets_2025_750_x_600_px.png",
+            "promotion_title": "JUSQU'À 40% DE RABAIS!",
+            "promotion_description": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
         },
