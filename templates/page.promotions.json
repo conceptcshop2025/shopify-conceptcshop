@@ -23,20 +23,20 @@
         "promotion_card_gkgW94": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
+            "promotion_image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "promotion_title": "Promo outils",
+            "promotion_description": "<p>Jusq'à<strong>50% de rabais</strong>sur plus de<strong>200 outils</strong>chauffants!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_VaAWDL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Image_produit_29_de0aa091-841d-45d4-8600-0811ea6cabbe.png",
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
+            "promotion_image": "shopify://shop_images/Slider_Mobile_Lancement_Triphasic_Caps_RF_2.webp",
+            "promotion_title": "PERTE DE CHEVEUX",
+            "promotion_description": "<p><strong>Nouveau!</strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
+            "promotion_link": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "promotion_link_text": "Voir plus"
           }
         },
