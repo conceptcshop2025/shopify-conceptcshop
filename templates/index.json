@@ -12,6 +12,19 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_8jiqTB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
+            "block_background": "#0b2342",
+            "text_block_background": "#ffffff",
+            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
+            "link_url": "shopify://collections/balmain",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
@@ -37,25 +50,12 @@
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_8jiqTB": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
-            "block_background": "#0b2342",
-            "text_block_background": "#ffffff",
-            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
-            "link_url": "shopify://collections/balmain",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
+        "image_with_text_8jiqTB",
         "image_with_text_3LUanK",
-        "image_with_text_QxKH3t",
-        "image_with_text_8jiqTB"
+        "image_with_text_QxKH3t"
       ],
       "name": "# Multi-column",
       "settings": {
