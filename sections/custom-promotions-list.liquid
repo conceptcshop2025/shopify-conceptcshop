@@ -35,8 +35,11 @@
   {% endstyle %}
 
   {% if section.settings.section_title != blank %}
-    <div class="container">
+    <div class="container {% if section.settings.show_view_all_link %} with-link{% endif %}">
       <h2 class="section-title h3">{{ section.settings.section_title }}</h2>
+      {% if section.settings.show_view_all_link %}
+        <a href="{{ section.settings.view_all_link_url }}" class="view-all-link link">{{ section.settings.view_all_link_text }}</a>
+      {% endif %}
     </div>
   {% endif %}
   <div class="section-wrapper {% if section.settings.show_slider_in_mobile %} slider-mobile{% endif %} {% if section.settings.show_slider_in_desktop %} slider-desktop{% endif %}">
@@ -100,6 +103,23 @@
         "id": "show_slider_in_desktop",
         "label": "Show slider in desktop",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_view_all_link",
+        "label": "Show 'View all' link",
+        "default": false
+      },
+      {
+        "type": "url",
+        "id": "view_all_link_url",
+        "label": "'View all' link URL"
+      },
+      {
+        "type": "text",
+        "id": "view_all_link_text",
+        "label": "'View all' link text",
+        "default": "Voir tout"
       },
       {
         "type": "range",
