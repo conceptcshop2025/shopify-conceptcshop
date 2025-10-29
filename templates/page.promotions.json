@@ -25,7 +25,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_2.webp",
             "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils</strong>chauffants!</p>",
+            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
@@ -111,9 +111,9 @@
         "promotion_card_kaaxJD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
+            "promotion_title": "L'Oréal Série Expert",
+            "promotion_description": "<p>À l'Achat de 150$ de produits l'Oréal Profesionnel, obtiens gratuitement un duo Vitamino Color Spectrum!</p>",
+            "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -134,14 +134,23 @@
             "promotion_link": "shopify://collections/soldes",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_WftmgA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_kaaxJD",
         "promotion_card_NMJDzj",
-        "promotion_card_9xKTNt"
+        "promotion_card_9xKTNt",
+        "promotion_card_WftmgA"
       ],
-      "disabled": true,
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-2",
