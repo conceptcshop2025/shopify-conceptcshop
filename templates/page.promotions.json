@@ -20,13 +20,23 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_gkgW94": {
+        "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_2.webp",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_2.webp",
+            "promotion_title": "BAS DE NOËL",
+            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
+            "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_ficQLT": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
+            "promotion_title": "2E PRODUIT À -20%",
+            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
+            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -50,23 +60,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_ficQLT": {
+        "promotion_card_gkgW94": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
-            "promotion_title": "2E PRODUIT À -20%",
-            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_PTb6QC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_2.webp",
-            "promotion_title": "BAS DE NOËL",
-            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/les-minis",
+            "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_2.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -83,11 +83,11 @@
         }
       },
       "block_order": [
-        "promotion_card_gkgW94",
+        "promotion_card_PTb6QC",
+        "promotion_card_ficQLT",
         "promotion_card_VaAWDL",
         "promotion_card_YbzKLB",
-        "promotion_card_ficQLT",
-        "promotion_card_PTb6QC",
+        "promotion_card_gkgW94",
         "promotion_card_hdA6Gg"
       ],
       "name": "# Promotions list",
