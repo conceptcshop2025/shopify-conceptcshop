@@ -151,6 +151,7 @@
         "promotion_card_9xKTNt",
         "promotion_card_WftmgA"
       ],
+      "disabled": true,
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-2",
