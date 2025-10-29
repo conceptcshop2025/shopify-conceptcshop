@@ -269,6 +269,78 @@
         "content": ""
       }
     },
+    "custom_promotions_list_iYkpnQ": {
+      "type": "custom-promotions-list",
+      "blocks": {
+        "promotion_card_YG48YR": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_xET4BN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_YW7G76": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_TcjCNj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BaQ7WX": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_card_YG48YR",
+        "promotion_card_xET4BN",
+        "promotion_card_YW7G76",
+        "promotion_card_TcjCNj",
+        "promotion_card_BaQ7WX"
+      ],
+      "disabled": true,
+      "name": "# Promotions list",
+      "settings": {
+        "color_scheme": "",
+        "section_title": "Nos promotions",
+        "items_per_row": 5,
+        "items_per_row_mobile": 1,
+        "show_slider_in_mobile": false,
+        "show_slider_in_desktop": false,
+        "show_view_all_link": false,
+        "view_all_link_url": "",
+        "view_all_link_text": "Voir tout",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "featured_collections_j4txfR": {
       "type": "featured-collections",
       "blocks": {
@@ -534,6 +606,7 @@
   "order": [
     "custom_multi_column_BHzrQP",
     "custom_collection_list_Y6XW4j",
+    "custom_promotions_list_iYkpnQ",
     "featured_collections_j4txfR",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "1de00121-d287-4d65-ad85-9d644957207a",
