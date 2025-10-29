@@ -16,7 +16,7 @@
     {% if section.settings.show_slider_in_mobile %}
       @media (max-width: 1023px) {
         .section--{{ section.id }}.promotions-list-section .section-wrapper.slider-mobile .section-content {
-          grid-template-columns: repeat({{ section.blocks.size }}, 90%);
+          grid-template-columns: repeat({{ section.blocks.size }}, 75%);
         }
       }
     {% endif %}
