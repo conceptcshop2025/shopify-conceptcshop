@@ -111,6 +111,7 @@
         "promotion_card_kaaxJD": {
           "type": "promotion_card",
           "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1.png",
             "promotion_title": "L'Oréal Série Expert",
             "promotion_description": "<p>À l'Achat de 150$ de produits l'Oréal Profesionnel, obtiens gratuitement un duo Vitamino Color Spectrum!</p>",
             "promotion_link": "shopify://collections/loreal",
@@ -151,7 +152,6 @@
         "promotion_card_9xKTNt",
         "promotion_card_WftmgA"
       ],
-      "disabled": true,
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-2",
