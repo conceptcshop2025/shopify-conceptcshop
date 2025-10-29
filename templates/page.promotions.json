@@ -111,46 +111,16 @@
         "promotion_card_kaaxJD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.jpg",
             "promotion_title": "L'Oréal Série Expert",
             "promotion_description": "<p>À l'Achat de 150$ de produits l'Oréal Profesionnel, obtiens gratuitement un duo Vitamino Color Spectrum!</p>",
             "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_NMJDzj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_9xKTNt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_title": "Nos soldes",
-            "promotion_description": "<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Nam pharetra dictum laoreet. Nulla eget libero viverra, gravida nisl vel, efficitur sapien.<strong> Etiam euismod velit dolor,</strong> ac gravida justo dapibus vel.</p>",
-            "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_WftmgA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
-        "promotion_card_kaaxJD",
-        "promotion_card_NMJDzj",
-        "promotion_card_9xKTNt",
-        "promotion_card_WftmgA"
+        "promotion_card_kaaxJD"
       ],
       "name": "# Promotions list",
       "settings": {
