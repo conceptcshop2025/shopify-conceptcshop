@@ -333,17 +333,17 @@
       "disabled": true,
       "name": "# Promotions list",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "section_title": "Nos promotions",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
-        "show_slider_in_mobile": false,
+        "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
-        "show_view_all_link": false,
-        "view_all_link_url": "",
-        "view_all_link_text": "Voir tout",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "show_view_all_link": true,
+        "view_all_link_url": "shopify://pages/promotions",
+        "view_all_link_text": "Voir nos promotions",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collections_j4txfR": {
