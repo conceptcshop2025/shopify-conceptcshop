@@ -141,6 +141,7 @@
         "promotion_card_NMJDzj",
         "promotion_card_9xKTNt"
       ],
+      "disabled": true,
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-2",
@@ -172,6 +173,7 @@
       "block_order": [
         "promotion_card_McCiBz"
       ],
+      "disabled": true,
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "",
