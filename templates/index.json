@@ -275,10 +275,30 @@
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_2.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_TcjCNj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
+            "promotion_title": "COFFRETS DES FÊTES",
+            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BaQ7WX": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -301,34 +321,14 @@
             "promotion_link": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_TcjCNj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_3.webp",
-            "promotion_title": "JUSQU'À 40% DE RABAIS!",
-            "promotion_description": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BaQ7WX": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_2.webp",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_YG48YR",
-        "promotion_card_xET4BN",
-        "promotion_card_YW7G76",
         "promotion_card_TcjCNj",
-        "promotion_card_BaQ7WX"
+        "promotion_card_BaQ7WX",
+        "promotion_card_xET4BN",
+        "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
       "settings": {
