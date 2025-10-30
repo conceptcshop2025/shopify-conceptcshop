@@ -81,7 +81,7 @@
         "collection_qgFDBY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#e4c0ae",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "shampoing",
@@ -99,7 +99,7 @@
         "collection_8zT7aN": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#dab9a9",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "shampoing-sec",
@@ -117,7 +117,7 @@
         "collection_H4KwTm": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#d0b3a5",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-1",
@@ -135,7 +135,7 @@
         "collection_WWFCwD": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#c5aca0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-sans-rincage",
@@ -153,7 +153,7 @@
         "collection_Lga89L": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#bba69b",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "traitement",
@@ -171,7 +171,7 @@
         "collection_6FcrJG": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#b19f97",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coiffage",
@@ -189,7 +189,7 @@
         "collection_VfmXQ9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#a79992",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coloration",
@@ -207,7 +207,7 @@
         "collection_J8AMaC": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#9d938e",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-accessoires",
@@ -225,7 +225,7 @@
         "collection_LyYAy9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#ecd7c0",
+            "background_item_color": "#948c89",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-de-coiffure",
@@ -302,6 +302,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/outils-accessoires",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
@@ -317,13 +327,14 @@
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
+        "promotion_card_A9aVXj",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "section_title": "Nos promotions",
-        "items_per_row": 4,
+        "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
