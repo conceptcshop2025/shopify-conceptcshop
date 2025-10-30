@@ -275,7 +275,7 @@
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_15a253a4-1a14-4025-8ed0-080873006ef1.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -285,7 +285,7 @@
         "promotion_card_TcjCNj": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
+            "promotion_image": "shopify://shop_images/2_170099b3-1497-4a12-9ca5-8e6b3957669c.webp",
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -295,7 +295,7 @@
         "promotion_card_BaQ7WX": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.webp",
+            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
@@ -321,7 +321,7 @@
       ],
       "name": "# Promotions list",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "section_title": "Nos promotions",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
