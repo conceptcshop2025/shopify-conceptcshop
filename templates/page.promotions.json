@@ -23,10 +23,30 @@
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_2.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_YbzKLB": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
+            "promotion_title": "JUSQU'À 40% DE RABAIS!",
+            "promotion_description": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_gkgW94": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -50,26 +70,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_YbzKLB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_3.webp",
-            "promotion_title": "JUSQU'À 40% DE RABAIS!",
-            "promotion_description": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_gkgW94": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_hdA6Gg": {
           "type": "promotion_card",
           "disabled": true,
@@ -84,10 +84,10 @@
       },
       "block_order": [
         "promotion_card_PTb6QC",
-        "promotion_card_ficQLT",
-        "promotion_card_VaAWDL",
         "promotion_card_YbzKLB",
         "promotion_card_gkgW94",
+        "promotion_card_ficQLT",
+        "promotion_card_VaAWDL",
         "promotion_card_hdA6Gg"
       ],
       "name": "# Promotions list",
