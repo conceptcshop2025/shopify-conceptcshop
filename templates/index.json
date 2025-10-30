@@ -265,7 +265,7 @@
         "collections_per_row_mobile": "1",
         "column_gap": 16,
         "subheading": "",
-        "title": "Nos collections",
+        "title": "",
         "content": ""
       }
     },
@@ -302,6 +302,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/outils-accessoires",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
@@ -317,13 +327,14 @@
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
+        "promotion_card_A9aVXj",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
         "section_title": "Nos promotions",
-        "items_per_row": 4,
+        "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
