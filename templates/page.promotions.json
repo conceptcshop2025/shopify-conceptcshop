@@ -149,10 +149,21 @@
             "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_aWWz9r": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.webp",
+            "promotion_title": "Esthederm",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
-        "promotion_card_McCiBz"
+        "promotion_card_McCiBz",
+        "promotion_card_aWWz9r"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -160,7 +171,7 @@
         "section_title": "ÉCHANTILLONS",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
-        "show_slider_in_mobile": false,
+        "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
         "show_view_all_link": false,
         "view_all_link_url": "",
