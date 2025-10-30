@@ -15,26 +15,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
-            "block_background": "#0b2342",
-            "text_block_background": "#ffffff",
-            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
-            "link_url": "shopify://collections/balmain",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain_e33c2e2c-7030-4f91-adba-3cb5dc8c1e41.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>Promo outils</strong>",
+            "title": "<strong>25% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
+            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier<br/></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         },
@@ -46,16 +33,29 @@
             "text_block_background": "#ffffff",
             "title": "<strong>PERTE DE CHEVEUX</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
+            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p><p></p>",
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "<strong>Promo outils</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
       "settings": {
@@ -302,16 +302,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_xET4BN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
-            "promotion_title": "2E PRODUIT À -20%",
-            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
@@ -327,7 +317,6 @@
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
-        "promotion_card_xET4BN",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
@@ -496,6 +485,7 @@
       "block_order": [
         "collection_qArX93"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -612,8 +602,8 @@
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "featured_collections_j4txfR",
-    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "1de00121-d287-4d65-ad85-9d644957207a",
+    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "featured_collections_KmTfiQ",
     "1719666865e4431f24",
     "b615708a-3ec6-4230-8baa-7847640de80a",
