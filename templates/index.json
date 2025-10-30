@@ -20,7 +20,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>25% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
+            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.<br/></p>",
             "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
@@ -33,7 +33,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>PERTE DE CHEVEUX</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
+            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p><p></p>",
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "link_text": "magasiner"
           }
@@ -46,7 +46,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
