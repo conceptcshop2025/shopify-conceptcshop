@@ -302,16 +302,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_xET4BN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
-            "promotion_title": "2E PRODUIT À -20%",
-            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
@@ -327,7 +317,6 @@
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
-        "promotion_card_xET4BN",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
