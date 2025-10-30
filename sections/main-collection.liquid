@@ -109,6 +109,10 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
+{% if collection.handle == 'vente-annuelle-2025' %}
+  {{ 'custom-vente-anuelle-2025.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
 <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
   <div class="container">
     <div class="v-stack gap-6 sm:gap-12">

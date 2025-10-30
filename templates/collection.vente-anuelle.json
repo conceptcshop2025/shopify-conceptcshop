@@ -21,7 +21,7 @@
         "show_collection_title": true,
         "show_collection_description": true,
         "show_breadcrumb": true,
-        "content_width": "xs",
+        "content_width": "lg",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
