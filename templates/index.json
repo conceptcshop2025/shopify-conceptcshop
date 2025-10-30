@@ -46,7 +46,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "content": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
@@ -363,35 +363,6 @@
         "subheading": ""
       }
     },
-    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "soldes",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/soldes",
-            "link_text": "Voir les soldes"
-          }
-        }
-      },
-      "block_order": [
-        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "1de00121-d287-4d65-ad85-9d644957207a": {
       "type": "featured-product",
       "blocks": {
@@ -466,6 +437,35 @@
         "subheading": "",
         "title": "Ton essentiel pour la perte de cheveux!",
         "content": ""
+      }
+    },
+    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "soldes",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/soldes",
+            "link_text": "Voir les soldes"
+          }
+        }
+      },
+      "block_order": [
+        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "featured_collections_KmTfiQ": {
