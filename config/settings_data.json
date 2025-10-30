@@ -198,6 +198,11 @@
         "type": "shopify://apps/gdpr-cookie-consent/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
         "settings": {}
+      },
+      "5182184951224911228": {
+        "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
