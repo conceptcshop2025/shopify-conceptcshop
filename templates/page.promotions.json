@@ -50,6 +50,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_M9AwAA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/outils-accessoires",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_VaAWDL": {
           "type": "promotion_card",
           "settings": {
@@ -76,6 +86,7 @@
         "promotion_card_PTb6QC",
         "promotion_card_YbzKLB",
         "promotion_card_gkgW94",
+        "promotion_card_M9AwAA",
         "promotion_card_VaAWDL",
         "promotion_card_hdA6Gg"
       ],
@@ -139,6 +150,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_qbFiXU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3_9a34487f-8835-4144-8bda-a8965aa9e71e.webp",
+            "promotion_title": "Shu Uemura",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
+            "promotion_link": "shopify://collections/shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
@@ -152,6 +173,7 @@
       },
       "block_order": [
         "promotion_card_McCiBz",
+        "promotion_card_qbFiXU",
         "promotion_card_aWWz9r"
       ],
       "name": "# Promotions list",
