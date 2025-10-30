@@ -34,8 +34,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
-            "promotion_title": "JUSQU'À 40% DE RABAIS!",
-            "promotion_description": "<p>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_title": "COFFRETS DES FÊTES",
+            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
