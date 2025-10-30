@@ -15,26 +15,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
-            "block_background": "#0b2342",
-            "text_block_background": "#ffffff",
-            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
-            "link_url": "shopify://collections/balmain",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain_e33c2e2c-7030-4f91-adba-3cb5dc8c1e41.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>Promo outils</strong>",
+            "title": "<strong>25% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
+            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         },
@@ -50,12 +37,25 @@
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "link_text": "magasiner"
           }
+        },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "<strong>Promo outils</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
       "settings": {
