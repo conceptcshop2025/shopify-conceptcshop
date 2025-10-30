@@ -145,7 +145,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6.webp",
             "promotion_title": "Kérastase",
-            "promotion_description": "<p>À l’achat d’un produit Kérastase, recevez un échantillon gratuit Kérastase!<br/></p>",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus"
           }
