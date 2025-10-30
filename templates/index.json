@@ -81,7 +81,7 @@
         "collection_qgFDBY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#e4c0ae",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "shampoing",
@@ -99,7 +99,7 @@
         "collection_8zT7aN": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#dab9a9",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "shampoing-sec",
@@ -117,7 +117,7 @@
         "collection_H4KwTm": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#d0b3a5",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-1",
@@ -135,7 +135,7 @@
         "collection_WWFCwD": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#c5aca0",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-sans-rincage",
@@ -153,7 +153,7 @@
         "collection_Lga89L": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#bba69b",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "traitement",
@@ -171,7 +171,7 @@
         "collection_6FcrJG": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#b19f97",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coiffage",
@@ -189,7 +189,7 @@
         "collection_VfmXQ9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#a79992",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coloration",
@@ -207,7 +207,7 @@
         "collection_J8AMaC": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#9d938e",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-accessoires",
@@ -225,7 +225,7 @@
         "collection_LyYAy9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#948c89",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-de-coiffure",
