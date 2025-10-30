@@ -15,26 +15,13 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain.webp",
-            "block_background": "#0b2342",
-            "text_block_background": "#ffffff",
-            "title": "<strong>BALMAIN HAUTE COUTURE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p><br/></p>",
-            "link_url": "shopify://collections/balmain",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain_e33c2e2c-7030-4f91-adba-3cb5dc8c1e41.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>Promo outils</strong>",
+            "title": "<strong>25% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusq'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p><p></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
+            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier<br/></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         },
@@ -46,16 +33,29 @@
             "text_block_background": "#ffffff",
             "title": "<strong>PERTE DE CHEVEUX</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
+            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p><p></p>",
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "<strong>Promo outils</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
       "settings": {
@@ -81,7 +81,7 @@
         "collection_qgFDBY": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#e4c0ae",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "",
             "collection": "shampoing",
@@ -99,7 +99,7 @@
         "collection_8zT7aN": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#dab9a9",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "shampoing-sec",
@@ -117,7 +117,7 @@
         "collection_H4KwTm": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#d0b3a5",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-1",
@@ -135,7 +135,7 @@
         "collection_WWFCwD": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#c5aca0",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "revitalisant-sans-rincage",
@@ -153,7 +153,7 @@
         "collection_Lga89L": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#bba69b",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "traitement",
@@ -171,7 +171,7 @@
         "collection_6FcrJG": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#b19f97",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coiffage",
@@ -189,7 +189,7 @@
         "collection_VfmXQ9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#a79992",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "produits-de-coloration",
@@ -207,7 +207,7 @@
         "collection_J8AMaC": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#9d938e",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-accessoires",
@@ -225,7 +225,7 @@
         "collection_LyYAy9": {
           "type": "collection",
           "settings": {
-            "background_item_color": "#948c89",
+            "background_item_color": "#ecd7c0",
             "text_item_color": "#000000",
             "color_scheme": "scheme-4",
             "collection": "outils-de-coiffure",
@@ -275,7 +275,7 @@
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_15a253a4-1a14-4025-8ed0-080873006ef1.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -285,7 +285,7 @@
         "promotion_card_TcjCNj": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
+            "promotion_image": "shopify://shop_images/2_170099b3-1497-4a12-9ca5-8e6b3957669c.webp",
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -295,20 +295,10 @@
         "promotion_card_BaQ7WX": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.webp",
+            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_xET4BN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
-            "promotion_title": "2E PRODUIT À -20%",
-            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -327,14 +317,13 @@
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
-        "promotion_card_xET4BN",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "section_title": "Nos promotions",
-        "items_per_row": 5,
+        "items_per_row": 4,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
@@ -370,35 +359,6 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "soldes",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/soldes",
-            "link_text": "Voir les soldes"
-          }
-        }
-      },
-      "block_order": [
-        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -479,6 +439,35 @@
         "content": ""
       }
     },
+    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "soldes",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/soldes",
+            "link_text": "Voir les soldes"
+          }
+        }
+      },
+      "block_order": [
+        "template--16107640619159__acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4-collection-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "featured_collections_KmTfiQ": {
       "type": "featured-collections",
       "blocks": {
@@ -496,6 +485,7 @@
       "block_order": [
         "collection_qArX93"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -612,8 +602,8 @@
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "featured_collections_j4txfR",
-    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "1de00121-d287-4d65-ad85-9d644957207a",
+    "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "featured_collections_KmTfiQ",
     "1719666865e4431f24",
     "b615708a-3ec6-4230-8baa-7847640de80a",

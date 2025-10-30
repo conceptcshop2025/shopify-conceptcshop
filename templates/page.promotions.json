@@ -23,7 +23,7 @@
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_15a253a4-1a14-4025-8ed0-080873006ef1.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -33,7 +33,7 @@
         "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5.webp",
+            "promotion_image": "shopify://shop_images/2_170099b3-1497-4a12-9ca5-8e6b3957669c.webp",
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -43,20 +43,10 @@
         "promotion_card_gkgW94": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.webp",
+            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_ficQLT": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_1.webp",
-            "promotion_title": "2E PRODUIT À -20%",
-            "promotion_description": "<p>Izumi Tonic - La routine fortifiante inspirée du riz japonais pour des cheveux plus forts, brillants et résistants.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -86,7 +76,6 @@
         "promotion_card_PTb6QC",
         "promotion_card_YbzKLB",
         "promotion_card_gkgW94",
-        "promotion_card_ficQLT",
         "promotion_card_VaAWDL",
         "promotion_card_hdA6Gg"
       ],
@@ -143,7 +132,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1.webp",
+            "promotion_image": "shopify://shop_images/6_e649f005-bdfd-47a5-83e8-8dda4170f7fa.webp",
             "promotion_title": "Kérastase",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -153,7 +142,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.webp",
+            "promotion_image": "shopify://shop_images/7.webp",
             "promotion_title": "Esthederm",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/esthederm",
