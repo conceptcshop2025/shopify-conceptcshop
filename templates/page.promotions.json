@@ -63,10 +63,10 @@
         "promotion_card_VaAWDL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_1.webp",
-            "promotion_title": "PERTE DE CHEVEUX",
-            "promotion_description": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
-            "promotion_link": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_5_ee2129fc-299c-42ec-81b3-846448d079b5.webp",
+            "promotion_title": "LANCEMENT BALMAIN",
+            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
+            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         },
