@@ -20,16 +20,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_W7BpWz": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
-            "promotion_title": "LIQUIDATION",
-            "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
-            "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
@@ -37,6 +27,16 @@
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_M9AwAA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/outils-accessoires",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -50,6 +50,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_W7BpWz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
+            "promotion_title": "LIQUIDATION",
+            "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
+            "promotion_link": "shopify://collections/la-voute",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_gkgW94": {
           "type": "promotion_card",
           "settings": {
@@ -57,16 +67,6 @@
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_M9AwAA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
-            "promotion_link": "shopify://collections/outils-accessoires",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -93,11 +93,11 @@
         }
       },
       "block_order": [
-        "promotion_card_W7BpWz",
         "promotion_card_PTb6QC",
-        "promotion_card_YbzKLB",
-        "promotion_card_gkgW94",
         "promotion_card_M9AwAA",
+        "promotion_card_YbzKLB",
+        "promotion_card_W7BpWz",
+        "promotion_card_gkgW94",
         "promotion_card_VaAWDL",
         "promotion_card_hdA6Gg"
       ],
