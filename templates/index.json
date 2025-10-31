@@ -321,6 +321,16 @@
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
+            "promotion_title": "LIQUIDATION",
+            "promotion_description": "<p>TOUT à 50% de rabais!</p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -328,7 +338,8 @@
         "promotion_card_TcjCNj",
         "promotion_card_BaQ7WX",
         "promotion_card_A9aVXj",
-        "promotion_card_YW7G76"
+        "promotion_card_YW7G76",
+        "promotion_card_BPnVjf"
       ],
       "name": "# Promotions list",
       "settings": {
