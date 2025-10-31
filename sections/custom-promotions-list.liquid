@@ -36,7 +36,7 @@
 
   {% if section.settings.section_title != blank %}
     <div class="container {% if section.settings.show_view_all_link %} with-link{% endif %}">
-      <h2 class="section-title h3">{{ section.settings.section_title }}</h2>
+      <h2 class="section-title h2">{{ section.settings.section_title }}</h2>
       {% if section.settings.show_view_all_link %}
         <a href="{{ section.settings.view_all_link_url }}" class="view-all-link link">{{ section.settings.view_all_link_text }}</a>
       {% endif %}
