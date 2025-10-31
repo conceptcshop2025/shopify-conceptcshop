@@ -28,13 +28,13 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Triphasic_Caps_RF_2.webp",
-            "block_background": "#3f6453",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PERTE DE CHEVEUX</strong>",
+            "image": "shopify://shop_images/Slider_Single_s_Day_Kerastase.webp",
+            "block_background": "#c0776e",
+            "text_block_background": "#000000",
+            "title": "<strong>11% et PLUS de RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p><p></p>",
-            "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
+            "content": "<p>C’est le Single’s Day de Kérastase! Profitez <strong>d'un minumum de 11 % de rabais</strong> sur toute la gamme.<em> *certaines conditions s'appliquent</em><br/><br/></p>",
+            "link_url": "shopify://collections/kerastase",
             "link_text": "magasiner"
           }
         },
@@ -292,13 +292,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_BaQ7WX": {
+        "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
+            "promotion_title": "LIQUIDATION",
+            "promotion_description": "<p>TOUT à 50% de rabais!</p>",
+            "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -312,13 +312,23 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_BaQ7WX": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Google_Promo_Outils_OCT_2025_1200_x_1200_px_500_x_500_px_1.webp",
-            "promotion_title": "PERTE DE CHEVEUX",
-            "promotion_description": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p>",
-            "promotion_link": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
+            "promotion_title": "LANCEMENT BALMAIN",
+            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
+            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -326,15 +336,16 @@
       "block_order": [
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
-        "promotion_card_BaQ7WX",
+        "promotion_card_BPnVjf",
         "promotion_card_A9aVXj",
+        "promotion_card_BaQ7WX",
         "promotion_card_YW7G76"
       ],
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
         "section_title": "Nos promotions",
-        "items_per_row": 5,
+        "items_per_row": 6,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": false,
@@ -433,7 +444,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "product": "rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
+        "product": "k18-shampoing-sec-airwash-118-ml",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 55,
@@ -446,7 +457,7 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "subheading": "",
-        "title": "Ton essentiel pour la perte de cheveux!",
+        "title": "Coup de coeur de l'équipe!",
         "content": ""
       }
     },
