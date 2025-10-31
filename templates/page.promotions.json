@@ -128,10 +128,22 @@
             "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_rhVDjF": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_9.webp",
+            "promotion_title": "René Furterer",
+            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p>(av tx et code promo)</p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
-        "promotion_card_kaaxJD"
+        "promotion_card_kaaxJD",
+        "promotion_card_rhVDjF"
       ],
       "name": "# Promotions list",
       "settings": {
