@@ -67,18 +67,22 @@
 }
 
 .product-list .product-card .rating-badge__stars svg path {
-  fill: #fff;
+  fill: #A47864;
 }
 
 .product-list .product-card .text-on-sale,
 .product-list .product-card .text-subdued:not(.line-through) {
-  color: #FFF;
+  color: #A47864;
   font-size: 1.1rem;
   line-height: 1;
 }
 
 .product-list .product-card .rating-badge .text-subdued {
   font-size: .8rem;
+}
+
+.product-card .product-card__info {
+  background-color: #fff !important;
 }
 
 @media (min-width: 1024px) {

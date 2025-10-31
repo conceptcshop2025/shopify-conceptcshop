@@ -12,7 +12,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
         "image_size": "auto",
         "allow_transparent_header": true,
         "show_image": true,
@@ -30,7 +30,7 @@
       "type": "custom-subcollection-list",
       "name": "# Subcollection list",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
         "background_tags": "#efefef",
         "text_tags": "#454545",
         "separate_section_with_border": false,
@@ -53,7 +53,7 @@
         ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",
