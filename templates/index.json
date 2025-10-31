@@ -28,12 +28,12 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Triphasic_Caps_RF_2.webp",
-            "block_background": "#3f6453",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PERTE DE CHEVEUX</strong>",
+            "image": "shopify://shop_images/Slider_Single_s_Day_Kerastase.webp",
+            "block_background": "#c0776e",
+            "text_block_background": "#000000",
+            "title": "<strong>11% et PLUS de RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p><strong>Nouveau! </strong>20 $ de rabais sur les Triphasic Caps + cadeau gratuit! Freinez la chute, stimulez la pousse!</p><p></p>",
+            "content": "<p>C’est le Single’s Day de Kérastase! Profitez <strong>d'un minumum de 11 % de rabais</strong> sur toute la gamme.<em> *certaine conditions d'appliquent</em><br/><br/></p>",
             "link_url": "shopify://products/rene-furterer-triphasic-complement-alimentaire-antichute-progressive-et-reactionnelle-90-capsules-aout-2025",
             "link_text": "magasiner"
           }
