@@ -19,11 +19,38 @@
         "reveal": true,
         "enable_parallax": true,
         "show_collection_title": true,
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_breadcrumb": true,
         "content_width": "lg",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "faq_xnVTBq": {
+      "type": "faq",
+      "blocks": {
+        "question_RqCiWz": {
+          "type": "question",
+          "settings": {
+            "question": "Voir les termois et conditions",
+            "answer": "<p>Certaines gammes| produits ne sont pas incluses dans la promotion, soit Moroccanoil, Esthederm (seulement les coffrets et les sérums Age Proteom), Steampod et Airlight Pro.<br/><br/>D’autres sont offertes à un taux de rabais différent, soit Kérastase (-11 %), T3 & Coola (-15 %) et Shu Uemura (-25 %).<br/><br/>Les rabais s’appliquent automatiquement au panier, même sur les articles en solde, les coffrets et ceux de la Voûte.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_RqCiWz"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0; padding-block-end: 0;}"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "custom_subcollection_list_tNULwz": {
@@ -74,6 +101,7 @@
   },
   "order": [
     "collection-banner",
+    "faq_xnVTBq",
     "custom_subcollection_list_tNULwz",
     "main"
   ]
