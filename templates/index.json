@@ -403,14 +403,14 @@
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
-        "section_title": "Nos toutes nos promotions",
+        "section_title": "Nos promotions",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
         "show_slider_in_desktop": true,
         "show_view_all_link": true,
         "view_all_link_url": "shopify://pages/promotions",
-        "view_all_link_text": "Voir nos promotions",
+        "view_all_link_text": "Voir toutes nos promotions",
         "padding_top": 0,
         "padding_bottom": 0
       }
