@@ -83,8 +83,9 @@
         },
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2_746ef7d5-9b79-44aa-a26f-22ab55f09f79.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3_77677493-8386-47fd-bddc-b6d602004bda.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches.<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
