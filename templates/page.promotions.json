@@ -83,7 +83,6 @@
         },
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3_77677493-8386-47fd-bddc-b6d602004bda.webp",
             "promotion_title": "IDÉES CADEAUX",
