@@ -320,6 +320,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_YW7G76": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
+            "promotion_title": "LANCEMENT BALMAIN",
+            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
@@ -359,35 +369,14 @@
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_BaQ7WX": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_87316eb3-44a4-479d-a53e-144ac88a55a6.webp",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_YW7G76": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
-            "promotion_title": "LANCEMENT BALMAIN",
-            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
+        "promotion_card_YW7G76",
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
-        "promotion_card_A9aVXj",
-        "promotion_card_BaQ7WX",
-        "promotion_card_YW7G76"
+        "promotion_card_A9aVXj"
       ],
       "name": "# Promotions list",
       "settings": {
