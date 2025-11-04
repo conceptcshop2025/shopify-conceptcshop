@@ -70,13 +70,6 @@
   fill: #A47864;
 }
 
-.product-list .product-card .text-on-sale,
-.product-list .product-card .text-subdued:not(.line-through) {
-  color: #A47864;
-  font-size: 1.1rem;
-  line-height: 1;
-}
-
 .product-list .product-card .rating-badge .text-subdued {
   font-size: .8rem;
 }
@@ -90,5 +83,11 @@
     font-size: 5.5rem;
     padding-top: 4rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-card .container-title-price {
+    grid-template-rows: 60px 21px !important;
   }
 }
