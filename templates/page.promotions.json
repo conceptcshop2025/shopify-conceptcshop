@@ -54,7 +54,17 @@
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_15c19929-bbcd-4f04-b8c1-18dc36eb2c7e.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
+            "promotion_title": "IDÉES CADEAUX",
+            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
+            "promotion_link": "shopify://collections/boutique-cadeaux",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_nj3968": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
@@ -97,6 +107,7 @@
         "promotion_card_hdA6Gg",
         "promotion_card_PTb6QC",
         "promotion_card_CHNQNy",
+        "promotion_card_nj3968",
         "promotion_card_M9AwAA",
         "promotion_card_YbzKLB",
         "promotion_card_W7BpWz"
