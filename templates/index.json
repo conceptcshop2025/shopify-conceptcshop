@@ -403,7 +403,7 @@
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
-        "section_title": "Nos promotions",
+        "section_title": "Nos toutes nos promotions",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
