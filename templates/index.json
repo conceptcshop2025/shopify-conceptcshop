@@ -330,6 +330,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_cDxUCT": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7bd694cd-c5aa-4e49-96dd-e18b8df75cd5.webp",
+            "promotion_title": "11% ET PLUS DE RABAIS!",
+            "promotion_description": "<p>C’est le Single’s Day de Kérastase! Profitez <strong>d'un minumum de 11 % de rabais</strong> sur toute la gamme. *certaines conditions s'appliquent<br/><br/></p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
@@ -373,6 +383,7 @@
       },
       "block_order": [
         "promotion_card_YW7G76",
+        "promotion_card_cDxUCT",
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
