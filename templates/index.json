@@ -350,6 +350,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_kinknG": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
+            "promotion_title": "IDÉES CADEAUX",
+            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
+            "promotion_link": "shopify://collections/boutique-cadeaux",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_TcjCNj": {
           "type": "promotion_card",
           "settings": {
@@ -385,6 +395,7 @@
         "promotion_card_YW7G76",
         "promotion_card_cDxUCT",
         "promotion_card_YG48YR",
+        "promotion_card_kinknG",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"
