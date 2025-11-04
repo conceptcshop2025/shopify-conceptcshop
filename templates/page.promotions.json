@@ -111,7 +111,7 @@
         "show_slider_in_desktop": false,
         "show_view_all_link": true,
         "view_all_link_url": "shopify://collections/soldes",
-        "view_all_link_text": "Voir toutes nos promotions",
+        "view_all_link_text": "",
         "padding_top": 48,
         "padding_bottom": 48
       }
