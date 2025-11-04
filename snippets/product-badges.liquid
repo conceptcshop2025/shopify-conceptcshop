@@ -66,7 +66,7 @@ Supported variables
             {%- endif -%}
 
             {%- if show_on_sale_badge -%}
-              <on-sale-badge class="badge badge--on-sale">
+              <on-sale-badge class="badge badge--on-sale" savings="{{ savings }}">
                 {%- liquid
                   if settings.discount_mode == 'text'
                     echo 'product.general.on_sale' | t
@@ -77,7 +77,11 @@ Supported variables
                       if product.compare_at_price_varies or variant.compare_at_price == blank
                         echo 'product.general.on_sale_badge' | t
                       else
-                        echo 'product.general.discount_badge_html' | t: savings: savings
+                        if savings == '0%' or savings == '1%' or savings == '2%' or savings == '3%' or savings == '4%'
+                          echo 'product.general.on_sale_badge' | t
+                        else
+                          echo 'product.general.discount_badge_html' | t: savings: savings
+                        endif
                       endif
                     endif
                   endif
