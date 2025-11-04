@@ -94,6 +94,26 @@
       {% endfor %}
     </div>
   </div>
+  <div>
+    <h2>Links sans styles: </h2>
+    <div>
+      {% for subcollection in subcollections %}
+        <a href="{{ subcollection.url }}" class="" style="display: block; margin: 10px 0;">
+          {{ subcollection.title }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Links sans styles 2: </h2>
+    <div id="js-links">
+      {% for subcollection in subcollections %}
+        <a href="{{ subcollection.url }}" class="" style="display: block; margin: 10px 0;">
+          {{ subcollection.title }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
 {% else %}
   {% if collection.metafields.custom.subcollections_third_level != blank %}
     {{ 'custom-subcollection-list.css' | asset_url | stylesheet_tag }}
@@ -132,6 +152,17 @@
     </div>
   {% endif %}
 {%- endif -%}
+
+<script>
+  const containerLinks = document.getElementById('js-links');
+  const links = containerLinks.querySelectorAll('a');
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.location.href = link.href;
+    });
+  });
+</script>
 
 {% schema %}
 {
