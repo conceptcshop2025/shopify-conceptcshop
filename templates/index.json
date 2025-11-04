@@ -320,16 +320,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_kinknG": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_15c19929-bbcd-4f04-b8c1-18dc36eb2c7e.webp",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_YW7G76": {
           "type": "promotion_card",
           "settings": {
@@ -357,6 +347,16 @@
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_kinknG": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_15c19929-bbcd-4f04-b8c1-18dc36eb2c7e.webp",
+            "promotion_title": "IDÉES CADEAUX",
+            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
+            "promotion_link": "shopify://collections/boutique-cadeaux",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -392,10 +392,10 @@
         }
       },
       "block_order": [
-        "promotion_card_kinknG",
         "promotion_card_YW7G76",
         "promotion_card_cDxUCT",
         "promotion_card_YG48YR",
+        "promotion_card_kinknG",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"
