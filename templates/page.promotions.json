@@ -43,7 +43,6 @@
         },
         "promotion_card_p7dyCA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.png",
             "promotion_title": "25% DE RABAIS!",
