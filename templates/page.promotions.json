@@ -54,20 +54,10 @@
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_8e4caf70-4196-4580-8f97-210187e3554b.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_M9AwAA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -78,6 +68,16 @@
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_M9AwAA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -97,8 +97,8 @@
         "promotion_card_hdA6Gg",
         "promotion_card_PTb6QC",
         "promotion_card_CHNQNy",
-        "promotion_card_M9AwAA",
         "promotion_card_YbzKLB",
+        "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
