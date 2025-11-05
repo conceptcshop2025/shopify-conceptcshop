@@ -149,11 +149,22 @@
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_hfDNFW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_b100dd5f-5aed-4829-a0f9-68fda610a230.png",
+            "promotion_title": "Moroccanoil",
+            "promotion_description": "<p>À l’achat de 50$ de produits Moroccanoil, obtiens gratuitement une crème pour les mains 15 ml! *exclusivité web | avant tx et code promo</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_kaaxJD",
-        "promotion_card_rhVDjF"
+        "promotion_card_rhVDjF",
+        "promotion_card_hfDNFW"
       ],
       "name": "# Promotions list",
       "settings": {
