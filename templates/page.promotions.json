@@ -194,6 +194,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_jxEwGf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2_70a78c12-22e9-4c18-b467-2f1d99d0d79d.webp",
+            "promotion_title": "Balmain",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande. *exclusivité web</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
@@ -217,6 +227,7 @@
       },
       "block_order": [
         "promotion_card_McCiBz",
+        "promotion_card_jxEwGf",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r"
       ],
