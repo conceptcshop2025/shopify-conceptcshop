@@ -60,6 +60,8 @@
 .c-subcollection-list .tag.tag-subcollection,
 .container-tags-third-level .tag-third-level {
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 @media (min-width: 1024px) {
