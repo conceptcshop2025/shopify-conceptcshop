@@ -1,0 +1,21 @@
+.collection-tags {
+  padding-left: .5rem;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.tag.tag-collection {
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  background-color: #efefef;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#collection-tags-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: .5rem;
+  flex-wrap: wrap;
+}

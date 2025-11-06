@@ -31,6 +31,8 @@
       "name": "# Subcollection list",
       "settings": {
         "color_scheme": "",
+        "background_tags": "#efefef",
+        "text_tags": "#454545",
         "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
@@ -43,6 +45,13 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "custom_collection_tags_DdQdc6": {
+      "type": "custom-collection-tags",
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": ""
       }
     },
     "main": {
@@ -73,6 +82,7 @@
   "order": [
     "collection-banner",
     "custom_subcollection_list_tNULwz",
+    "custom_collection_tags_DdQdc6",
     "main"
   ]
 }
