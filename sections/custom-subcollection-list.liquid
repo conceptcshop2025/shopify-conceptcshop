@@ -94,21 +94,12 @@
       {% endfor %}
     </div>
   </div>
-  <div>
-    <h2>Links sans styles: </h2>
-    <div>
+  
+  <h2>Test: Tags sans scroll: </h2>
+  <div class="container c-subcollection-list" style="overflow:auto;">
+    <div class="section-wrapper" style="width: 100%;">
       {% for subcollection in subcollections %}
-        <a href="{{ subcollection.url }}" class="" style="display: block; margin: 10px 0;">
-          {{ subcollection.title }}
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-  <div>
-    <h2>Links sans styles 2: </h2>
-    <div id="js-links">
-      {% for subcollection in subcollections %}
-        <a href="{{ subcollection.url }}" class="" style="display: block; margin: 10px 0;">
+        <a href="{{ subcollection.url }}" class="tag tag-subcollection">
           {{ subcollection.title }}
         </a>
       {% endfor %}
