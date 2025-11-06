@@ -121,28 +121,29 @@
       <div class="wrapper-tags-third-level">
         {% for metafield in collection.metafields.custom.subcollections_third_level.value %}
           {% for filter in collection.filters %}
-            {% if filter.label == metafield.tag_label %}
+            {% if metafield.tag_system_value == filter.param_name %}
+              {% comment %} <p><strong>{{ metafield.tag_label }}</strong></p> {% endcomment %}
               {% assign filter_values_size = filter.values | size %}
               {% if filter_values_size > 0 %}
                 {% for tag in filter.values %}
                   {% liquid
-                    assign url = collection.url | append: '?' | append: tag.param_name | append: '=' | append: tag.value
-                    comment
-                      exemptions for special characters in URL like & (and) , (comma)
-                        - Cire, gel & pommade
-                        - 100% clean
-                    endcomment
+                      assign url = collection.url | append: '?' | append: tag.param_name | append: '=' | append: tag.value
+                      comment
+                        exemptions for special characters in URL like & (and) , (comma)
+                          - Cire, gel & pommade
+                          - 100% clean
+                      endcomment
 
-                    case tag.label
-                      when 'Cire, gel & pommade'
-                         assign url = collection.url | append: '?filter.p.product_type-cire-gel-amp-pommade'
-                      when '100% Clean'
-                         assign url = collection.url | append: '?filter.p.m.custom.filtre_specificite-100-clean'
-                    endcase
-                  %}
-                  <a href="{{ url }}" class="tag tag-third-level">
-                    {{ tag.label }}
-                  </a>
+                      case tag.label
+                        when 'Cire, gel & pommade'
+                            assign url = collection.url | append: '?filter.p.product_type-cire-gel-amp-pommade'
+                        when '100% Clean'
+                            assign url = collection.url | append: '?filter.p.m.custom.filtre_specificite-100-clean'
+                      endcase
+                    %}
+                    <a href="{{ url }}" class="tag tag-third-level">
+                      {{ tag.label }}
+                    </a>
                 {% endfor %}
               {% endif %}
             {% endif %}

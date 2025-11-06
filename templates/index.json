@@ -320,16 +320,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_YW7G76": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
-            "promotion_title": "LANCEMENT BALMAIN",
-            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_cDxUCT": {
           "type": "promotion_card",
           "settings": {
@@ -340,10 +330,20 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_n6jaTw": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.png",
+            "promotion_title": "25% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 18 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
+            "promotion_link": "shopify://collections/shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_YG48YR": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_15a253a4-1a14-4025-8ed0-080873006ef1.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_27a78b20-76d7-4343-81c8-9f1020e12da3.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -353,7 +353,7 @@
         "promotion_card_kinknG": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_8e4caf70-4196-4580-8f97-210187e3554b.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
@@ -373,7 +373,7 @@
         "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.png",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p>TOUT à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/liquidation",
@@ -392,8 +392,8 @@
         }
       },
       "block_order": [
-        "promotion_card_YW7G76",
         "promotion_card_cDxUCT",
+        "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
         "promotion_card_TcjCNj",

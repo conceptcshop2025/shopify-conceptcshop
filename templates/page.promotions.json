@@ -21,16 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_VaAWDL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
-            "promotion_title": "LANCEMENT BALMAIN",
-            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_hdA6Gg": {
           "type": "promotion_card",
           "settings": {
@@ -41,10 +31,20 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_p7dyCA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.png",
+            "promotion_title": "25% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 18 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
+            "promotion_link": "shopify://collections/shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_15a253a4-1a14-4025-8ed0-080873006ef1.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_ee119ff0-71c1-4491-893e-ea75becfa2bb.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -54,20 +54,10 @@
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7_600a9d73-cf16-4482-96d5-a80091b9965f.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_8e4caf70-4196-4580-8f97-210187e3554b.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_M9AwAA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -81,10 +71,20 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_M9AwAA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_6_f4e4bb62-c256-4bc9-8908-c562bc94e0dc.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.png",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -93,12 +93,12 @@
         }
       },
       "block_order": [
-        "promotion_card_VaAWDL",
         "promotion_card_hdA6Gg",
+        "promotion_card_p7dyCA",
         "promotion_card_PTb6QC",
         "promotion_card_CHNQNy",
-        "promotion_card_M9AwAA",
         "promotion_card_YbzKLB",
+        "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
@@ -138,11 +138,22 @@
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_hfDNFW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_b100dd5f-5aed-4829-a0f9-68fda610a230.png",
+            "promotion_title": "Moroccanoil",
+            "promotion_description": "<p>À l’achat de 50$ de produits Moroccanoil, obtiens gratuitement une crème pour les mains 15 ml! *exclusivité web | avant tx et code promo</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_kaaxJD",
-        "promotion_card_rhVDjF"
+        "promotion_card_rhVDjF",
+        "promotion_card_hfDNFW"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -172,6 +183,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_jxEwGf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2_70a78c12-22e9-4c18-b467-2f1d99d0d79d.webp",
+            "promotion_title": "Balmain",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande. *exclusivité web</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
@@ -195,6 +216,7 @@
       },
       "block_order": [
         "promotion_card_McCiBz",
+        "promotion_card_jxEwGf",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r"
       ],
