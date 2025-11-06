@@ -1,3 +1,8 @@
+.c-collection-list .collection-list {
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+}
+
 .c-collection-list .collection-list .collection-card .collection_item_content {
   width: 8.438rem;
   height: 8.438rem;

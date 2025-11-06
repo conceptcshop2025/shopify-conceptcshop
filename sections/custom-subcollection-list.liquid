@@ -94,17 +94,6 @@
       {% endfor %}
     </div>
   </div>
-  
-  <h2>Test: Tags sans scroll: </h2>
-  <div class="container c-subcollection-list" style="overflow:auto;">
-    <div class="section-wrapper" style="width: 100%;">
-      {% for subcollection in subcollections %}
-        <a href="{{ subcollection.url }}" class="tag tag-subcollection">
-          {{ subcollection.title }}
-        </a>
-      {% endfor %}
-    </div>
-  </div>
 {% else %}
   {% if collection.metafields.custom.subcollections_third_level != blank %}
     {{ 'custom-subcollection-list.css' | asset_url | stylesheet_tag }}

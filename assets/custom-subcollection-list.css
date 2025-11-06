@@ -4,6 +4,8 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-left: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
 }
 
 .c-subcollection-list .section-wrapper {
