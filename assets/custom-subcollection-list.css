@@ -62,6 +62,7 @@
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
+  touch-action: manipulation;
 }
 
 @media (min-width: 1024px) {
