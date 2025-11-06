@@ -4880,11 +4880,6 @@ product-rerender {
   display: flex;
 }
 
-.header__primary-nav-item a,
-.header__primary-nav-item summary {
-  font-weight: 600;
-}
-
 .header__primary-nav-item:before {
   content: attr(data-title);
   width: max-content;

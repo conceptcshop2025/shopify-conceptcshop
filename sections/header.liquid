@@ -56,6 +56,13 @@
       }
     }
   {%- endif -%}
+
+  {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' %}
+    .header__primary-nav-item a,
+    .header__primary-nav-item summary {
+      font-weight: 600;
+    }
+  {% endif %}
 </style>
 
 <height-observer variable="header">
