@@ -320,16 +320,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_YW7G76": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_7.webp",
-            "promotion_title": "LANCEMENT BALMAIN",
-            "promotion_description": "<p><strong>25% de rabais! </strong>Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_cDxUCT": {
           "type": "promotion_card",
           "settings": {
@@ -402,7 +392,6 @@
         }
       },
       "block_order": [
-        "promotion_card_YW7G76",
         "promotion_card_cDxUCT",
         "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
