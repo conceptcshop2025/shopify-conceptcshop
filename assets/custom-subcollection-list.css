@@ -4,6 +4,8 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-left: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
 }
 
 .c-subcollection-list .section-wrapper {
@@ -32,6 +34,8 @@
   overflow-x: scroll;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
 }
 
 .container-tags-third-level .wrapper-tags-third-level {
@@ -55,13 +59,9 @@
 
 .c-subcollection-list .tag.tag-subcollection,
 .container-tags-third-level .tag-third-level {
-  touch-action: manipulation;
   cursor: pointer;
-}
-
-.c-subcollection-list .tag.tag-subcollection > *,
-.container-tags-third-level .tag-third-level > * {
-  pointer-events: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 @media (min-width: 1024px) {
