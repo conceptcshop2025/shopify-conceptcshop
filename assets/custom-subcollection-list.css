@@ -59,7 +59,6 @@
 
 .c-subcollection-list .tag.tag-subcollection,
 .container-tags-third-level .tag-third-level {
-  touch-action: manipulation;
   cursor: pointer;
 }
 
