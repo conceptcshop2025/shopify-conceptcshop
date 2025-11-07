@@ -16,6 +16,25 @@
 #collection-tags-container {
   display: flex;
   justify-content: flex-start;
-  gap: .5rem;
+  flex-direction: column;
+  gap: 1rem;
   flex-wrap: wrap;
+}
+
+#collection-tags-container .row-tag {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .collection-tags {
+    overflow-x: initial;
+  }
+  
+  #collection-tags-container,
+  #collection-tags-container .row-tag {
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
