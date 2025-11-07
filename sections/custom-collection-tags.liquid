@@ -1,0 +1,218 @@
+{% liquid
+  assign subcollections = collection.metafields.custom.subcollections.value
+  assign tags_third_level = collection.metafields.custom.subcollections_third_level
+%}
+
+{% if subcollections.size > 0 or tags_third_level != blank %}
+  {{ 'custom-collection-tags.css' | asset_url | stylesheet_tag }}
+
+  {% style %}
+    .shopify-section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .shopify-section--{{ section.id }} #collection-tags-container {
+      width: max-content;
+    }
+  {% endstyle %}
+
+  <div class="collection-tags shopify-section--{{ section.id }}">
+    {% if subcollections.size > 0 %}
+      {% assign middle_size = subcollections.size | divided_by: 2 %}
+      <div class="collection-tags-wrapper" id="collection-tags-container">
+        <div class="row-tag">
+        {% for tag in subcollections %}
+          <a href="{{ tag.url }}" class="tag tag-collection tag-index--{{ forloop.index }}" role="link" tabindex="0">
+            {{ tag.title }}
+          </a>
+          {% if forloop.index == middle_size %}
+        </div>
+        <div class="row-tag">
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="collection-tags-wrapper tags-third-level" id="collection-tags-container">
+        {% assign tag_links_string = '' %}
+
+        {% for metafield in tags_third_level.value %}
+          {% for filter in collection.filters %}
+            {% if metafield.tag_system_value == filter.param_name %}
+              {% assign filter_values_size = filter.values | size %}
+              {% if filter_values_size > 0 %}
+                {% for tag in filter.values %}
+                  {% assign url = collection.url | append: '?' | append: tag.param_name | append: '=' | append: tag.value %}
+
+                  {% comment %}
+                    exemptions for special characters in URL like & (and) , (comma)
+                    - Cire, gel & pommade
+                    - 100% clean
+                  {% endcomment %}
+
+                  {% case tag.label %}
+                    {% when 'Cire, gel & pommade' %}
+                      {% assign url = collection.url | append: '?filter.p.product_type=Cire%2C+gel+%26+pommade' %}
+                    {% when '100% Clean' %}
+                      {% assign url = collection.url | append: '?filter.p.m.custom.filtre_specificite=100%25+Clean' %}
+                  {% endcase %}
+
+                  {% assign tag_link = '<a href="' | append: url | append: '" class="tag tag-collection tag-index--' | append: forloop.index | append: '" role="link" tabindex="0">' | append: tag.label | append: '</a>' %}
+
+                  {% if tag_links_string == '' %}
+                    {% assign tag_links_string = tag_link %}
+                  {% else %}
+                    {% assign tag_links_string = tag_links_string | append: '||' | append: tag_link %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      
+        {% liquid
+          assign tag_links_array = tag_links_string | split: '||'
+          assign tag_links_array_size = tag_links_string | split: '||' | size
+          assign middle_size = tag_links_array_size | divided_by: 2
+        %}
+        <div class="row-tag">
+          {% for tag in tag_links_array %}
+            {{ tag }}
+            {% if forloop.index == middle_size %}
+              </div>
+              <div class="row-tag">
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <script>
+    function isIosSafari() {
+        var ua = (window.navigator && navigator.userAgent) || '';
+        var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+        var webkit = !!ua.match(/WebKit/i);
+        var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+        return iOSSafari;
+    }
+
+    function removeHoverIosSafari() {
+      if (!isIosSafari()) return;
+      // Tags of interest: Only process certain interactive elements
+      function shouldPrevent(target) {
+          var tagName = target.tagName.toLowerCase();
+          var datasetBind = target.dataset.bind;
+          var preventFilter = (datasetBind && datasetBind.indexOf('click') > -1) || (tagName == 'a' || tagName == 'button');
+          return preventFilter;
+      }
+      var eventSelector = {
+          touchend: function (_, target) {
+              // Reset any flags on touchend
+              target.dataset._clicked_ = '';
+              target.dataset._mousemove_ = '0';
+              target.dataset._timeOutId_ = '';
+          },
+          mouseover: function (e) {
+              e.preventDefault(); // Prevent default hover behavior
+          },
+          mousemove: function (e, target) {
+              e.preventDefault(); // Prevent default hover behavior
+              var _mousemoves = +(target.dataset._mousemove_ || '0');
+              _mousemoves = _mousemoves + 1;
+              console.log('mousemoves: ' + _mousemoves);
+              target.dataset._mousemove_ = _mousemoves;
+              // Trigger click event after enough movement
+              if (_mousemoves > 1 && !target.dataset._timeOutId_) {
+                  var id = setTimeout(function () {
+                      console.log('double mousemove click fired');
+                      target.click(); // Simulate a click after mouse move
+                  }, 80); // Adjust delay to fine-tune the click event timing
+                  target.dataset._timeOutId_ = id;
+              }
+          },
+          click: function (e, target) {
+              // Prevent double click
+              if (target.dataset._clicked_) {
+                  // This check prevents interference with valid tracking
+                  // and programmatic click events.
+                  if (e.isTrusted) {
+                    console.log('prevented doubleclick');
+                    e.preventDefault();
+                  }
+                  return;
+              }
+              // Prevent timeout click
+              if (target.dataset._timeOutId_) {
+                  console.log('cleared timeout');
+                  clearTimeout(+target.dataset._timeOutId_);
+              }
+              // Mark element as clicked
+              target.dataset._clicked_ = 'true';
+          }
+      };
+      function preventHover(e) {
+          var target = e.target;
+          // Skip elements that don't have click handlers or necessary attributes
+          if (!(target && target.click && target.tagName && target.dataset)) return;
+          if (!shouldPrevent(target)) return;
+          var type = e.type;
+          console.log(type, target);
+          eventSelector[type] && eventSelector[type](e, target);
+      }
+      // Add event listeners for touch and mouse events
+      document.addEventListener('touchend', preventHover, true);
+      document.addEventListener('mouseover', preventHover, true);
+      document.addEventListener('mousemove', preventHover, true);
+      document.addEventListener('click', preventHover, true);
+    }
+
+    setTimeout(removeHoverIosSafari, 500);
+
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "# Collection tags",
+  "class": "shopify-section--collection-list",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "step": 1      
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "step": 1      
+    }
+  ],
+  "presets": [
+    {
+      "name": "# Collection tags",
+      "category": "t:global.categories.collections"
+    }
+  ]
+}
+{% endschema %}
