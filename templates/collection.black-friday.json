@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "show_image": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "lg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "faq_xnVTBq": {
+      "type": "faq",
+      "blocks": {
+        "question_RqCiWz": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Voir les termes et conditions</strong>",
+            "answer": "<p><strong>Certaines gammes| produits ne sont pas incluses dans la promotion:</strong></p><ul><li>Moroccanoil (25% de rabais du 19 novembre au 2 décembre)</li><li>Esthederm (Coffrets des Fêtes et sérums Age Proteom)</li><li>Steampod et Airlight Pro de L'Oréal<br/></li></ul><p><strong>D’autres sont offertes à un taux de rabais différent:</strong></p><ul><li>Kérastase:  -11 % (Prix déjà ajusté)</li><li>T3 & Coola: -15 % (Rabais appliqué au panier)</li><li>Shu Uemura: -25 % (Rabais appliqué au panier)<br/><br/><em>*Les rabais de la vente, incluant le 20%, s’appliquent automatiquement au panier, même sur les articles en solde, les coffrets et ceux de la Liquidation.</em></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "question_RqCiWz"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0; padding-block-end: 0;}"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "custom_subcollection_list_tNULwz": {
+      "type": "custom-subcollection-list",
+      "name": "# Subcollection list",
+      "settings": {
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "background_tags": "#efefef",
+        "text_tags": "#454545",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "stack_collections_mobile": false,
+        "collections_per_row_mobile": "1",
+        "column_gap": 16,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "faq_xnVTBq",
+    "custom_subcollection_list_tNULwz",
+    "main"
+  ]
+}
