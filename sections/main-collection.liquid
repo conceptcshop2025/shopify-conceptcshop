@@ -109,7 +109,7 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-{% if collection.handle == 'vente-annuelle' %}
+{% if collection.handle == 'vente-annuelle' or collection.handle == 'black-friday' %}
   {{ 'custom-vente-anuelle-2025.css' | asset_url | stylesheet_tag }}
 {% endif %}
 

@@ -12,7 +12,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "image_size": "auto",
         "allow_transparent_header": true,
         "show_image": true,
@@ -45,7 +45,7 @@
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "",
@@ -80,7 +80,7 @@
         ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
       ],
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",

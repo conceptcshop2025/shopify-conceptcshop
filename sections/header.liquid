@@ -57,7 +57,7 @@
     }
   {%- endif -%}
 
-  {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' %}
+  {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' or collection.handle == 'black-friday' %}
     .header__primary-nav-item a,
     .header__primary-nav-item summary {
       font-weight: 600;
@@ -66,7 +66,7 @@
 </style>
 
 <height-observer variable="header">
-  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' %} color-scheme--scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d {% else %} color-scheme--{{ section.settings.color_scheme.id }}{% endif %}">
+  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' or collection.handle == 'black-friday' %} color-scheme--scheme-3 {% else %} color-scheme--{{ section.settings.color_scheme.id }}{% endif %}">
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
     LOGO AREA
@@ -74,7 +74,7 @@
     {%- endcomment -%}
 
     {%- capture logo_content -%}
-      {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' %}
+      {% if request.page_type == 'index' or collection.handle == 'vente-annuelle' or collection.handle == 'black-friday' %}
         {% if request.locale.iso_code == 'fr' %}
           <img src="https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-noir-fr-resized.png?v=1761850807" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
         {% else %}
@@ -98,7 +98,7 @@
       {% endif %}
     {%- endcapture -%}
 
-    {%- if request.page_type == 'index' or collection.handle == 'vente-annuelle' -%}
+    {%- if request.page_type == 'index' or collection.handle == 'vente-annuelle' or collection.handle == 'black-friday' -%}
       <h1 class="header__logo">
         <a href="{{ routes.root_url }}">{{ logo_content }}</a>
       </h1>
