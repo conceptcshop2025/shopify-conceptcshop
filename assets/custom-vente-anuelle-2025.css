@@ -90,11 +90,13 @@
   color: rgb(var(--button-text-color));
 }
 
-.product-card .button.quick_button_add_to_card {
+.product-card .button.quick_button_add_to_card,
+.product-card .button.back_in_stock_button {
   background-image: linear-gradient(rgb(228, 192, 174), rgb(228, 192, 174)), linear-gradient(transparent, transparent);
 }
 
-.product-card .button.quick_button_add_to_card:hover {
+.product-card .button.quick_button_add_to_card:hover,
+.product-card .button.back_in_stock_button:hover {
   /* background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(transparent, transparent); */
   color: rgb(228, 192, 174);
   border-color: rgb(228, 192, 174);
