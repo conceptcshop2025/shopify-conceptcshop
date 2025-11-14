@@ -23,7 +23,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "<strong>*Livraison rapide et gratuite avec Loomis dès 59 $</strong>"
+            "text": "<strong>*Livraison rapide et gratuite avec dès 59 $</strong>"
           }
         }
       },
@@ -32,9 +32,9 @@
         "message-1"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
-        "enable_sticky": false,
-        "autoplay": false,
+        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
+        "enable_sticky": true,
+        "autoplay": true,
         "cycle_speed": 5,
         "desktop_font_size": 10,
         "mobile_font_size": 10
