@@ -177,7 +177,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_e649f005-bdfd-47a5-83e8-8dda4170f7fa.webp",
+            "promotion_image": "shopify://shop_images/13.webp",
             "promotion_title": "Kérastase",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -187,7 +187,7 @@
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2_70a78c12-22e9-4c18-b467-2f1d99d0d79d.webp",
+            "promotion_image": "shopify://shop_images/9.webp",
             "promotion_title": "Balmain",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande. *exclusivité web</p>",
             "promotion_link": "shopify://collections/balmain",
@@ -197,7 +197,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3_9a34487f-8835-4144-8bda-a8965aa9e71e.webp",
+            "promotion_image": "shopify://shop_images/12.webp",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -207,7 +207,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7.webp",
+            "promotion_image": "shopify://shop_images/10.webp",
             "promotion_title": "Esthederm",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/esthederm",
