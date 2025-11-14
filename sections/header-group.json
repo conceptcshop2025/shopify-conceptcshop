@@ -23,7 +23,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "*Livraison gratuite avec Loomis pour toute commande de 59 $ & plus.  Expédition rapide & carboneutre"
+            "text": "<strong>*Livraison rapide et gratuite avec Loomis dès 59 $</strong>"
           }
         }
       },
