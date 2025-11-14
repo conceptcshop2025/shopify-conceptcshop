@@ -143,12 +143,11 @@
         },
         "complementary_products": {
           "type": "complementary_products",
-          "disabled": true,
           "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
+            "title": "Nos recommendations pour vous",
+            "products_count": 4,
             "show_below_gallery": true,
-            "stack_products": false,
+            "stack_products": true,
             "show_quick_buy": true
           }
         }
@@ -201,9 +200,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
