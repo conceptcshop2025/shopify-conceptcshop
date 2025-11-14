@@ -12,7 +12,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "image_size": "auto",
         "allow_transparent_header": true,
         "show_image": true,
@@ -33,7 +33,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Voir les termes et conditions</strong>",
-            "answer": "<p><strong>Certaines gammes| produits ne sont pas incluses dans la promotion:</strong></p><ul><li>Moroccanoil (25% de rabais du 19 novembre au 2 décembre)</li><li>Esthederm (Coffrets des Fêtes et sérums Age Proteom)</li><li>Steampod et Airlight Pro de L'Oréal<br/></li></ul><p><strong>D’autres sont offertes à un taux de rabais différent:</strong></p><ul><li>Kérastase:  -11 % (Prix déjà ajusté)</li><li>T3 & Coola: -15 % (Rabais appliqué au panier)</li><li>Shu Uemura: -25 % (Rabais appliqué au panier)<br/><br/><em>*Les rabais de la vente, incluant le 20%, s’appliquent automatiquement au panier, même sur les articles en solde, les coffrets et ceux de la Liquidation.</em></li></ul>"
+            "answer": "<p><strong>Certaines gammes sont exclues du 15 %, soit en raison de leur propre offre du Vendredi fou, soit parce que la marque ne l’autorise pas. Voici les détails :</strong><br/></p><ul><li><a href=\"/collections/kerastase\" title=\"Kérastase\">Kérastase  (20 novembre au 2 décembre - par ici pour connaître les termes) </a></li><li>Esthederm (20% de rabais 27-28 novembre excluant les Coffrets des Fêtes et Age Proteom).</li><li><a href=\"/collections/shu-uemura\" title=\"Shu Uemura\">Shu Uemura (25% de rabais du 20 au 30 novembre - par ici pour connaître les termes) </a></li><li>Moroccanoil (25% de rabais du 19 novembre au 2 décembre)</li><li>Promo Outils (déjà en rabais)</li><li>Steampod et Airlight Pro de L'Oréal (16% de rabais du 21 novembre au 1er décembre)<br/><br/><em>*Les rabais des Soldes du Vendredi Fou, incluant le 15%, s’appliquent automatiquement au panier, même sur l'onglet Soldes, Liquidation et Coffrets.</em></li></ul>"
           }
         }
       },
@@ -45,7 +45,7 @@
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "",
@@ -80,7 +80,7 @@
         ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
       ],
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-3",
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",

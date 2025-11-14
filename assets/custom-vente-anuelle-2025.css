@@ -78,6 +78,41 @@
   background-color: #fff !important;
 }
 
+/* Style for black friday */
+
+.product-card .product-title {
+  color: rgb(var(--button-text-color));
+}
+
+.product-card compare-at-price.text-subdued,
+.product-card sale-price.text-subdued,
+.product-card .rating-badge .text-subdued {
+  color: rgb(var(--button-text-color));
+}
+
+/* .product-card .button.quick_button_add_to_card,
+.product-card .button.back_in_stock_button {
+  background-image: linear-gradient(rgb(228, 192, 174), rgb(228, 192, 174)), linear-gradient(transparent, transparent);
+}
+
+.product-card .button.quick_button_add_to_card:hover,
+.product-card .button.back_in_stock_button:hover {
+  color: rgb(228, 192, 174);
+  border-color: rgb(228, 192, 174);
+} */
+
+.product-card .button.quick_button_add_to_card,
+.product-card .button.back_in_stock_button {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(transparent, transparent);
+  color: #FFF;
+}
+
+.product-card .button.quick_button_add_to_card:hover,
+.product-card .button.back_in_stock_button:hover {
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+}
+
 @media (min-width: 1024px) {
   .section-collection-banner .h1 {
     font-size: 5.5rem;
@@ -89,5 +124,9 @@
 @media (min-width: 1200px) {
   .product-card .container-title-price {
     grid-template-rows: 60px 21px !important;
+  }
+
+  .product-card .product-card__info {
+    grid-template-rows: minmax(auto, 90px) 25px 44px !important;
   }
 }
