@@ -473,6 +473,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_3EbYeD": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
+            "promotion_title": "ESTHEDERM",
+            "promotion_description": "<p>Jusqu’au 30 novembre, obtenez 20 % de rabais sur les gammes Préventive, Corrective et Esthe-White !<br/><br/></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_TcjCNj": {
           "type": "promotion_card",
           "settings": {
@@ -509,6 +520,7 @@
         "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
+        "promotion_card_3EbYeD",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"
