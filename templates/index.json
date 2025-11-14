@@ -433,6 +433,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_wTBXR8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu’au 24 décembre : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_n6jaTw": {
           "type": "promotion_card",
           "settings": {
@@ -460,6 +470,16 @@
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_3EbYeD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
+            "promotion_title": "ESTHEDERM",
+            "promotion_description": "<p>Jusqu’au 30 novembre, obtenez 20 % de rabais sur les gammes Préventive, Corrective et Esthe-White !<br/><br/></p>",
+            "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -495,9 +515,11 @@
         }
       },
       "block_order": [
+        "promotion_card_wTBXR8",
         "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
+        "promotion_card_3EbYeD",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"

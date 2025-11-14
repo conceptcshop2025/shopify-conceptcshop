@@ -24,27 +24,47 @@
         "promotion_card_p7dyCA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.png",
+            "promotion_image": "shopify://shop_images/5_9b68503c-e3bb-4a37-b560-02868e52d75c.webp",
             "promotion_title": "25% DE RABAIS!",
             "promotion_description": "<p>Jusqu’au 18 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
             "promotion_link": "shopify://collections/shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_mCyAz8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu’au 24 décembre : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils!<br/><br/></p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_ee119ff0-71c1-4491-893e-ea75becfa2bb.webp",
+            "promotion_image": "shopify://shop_images/2_4e011bda-f6d8-44ff-affd-da81c908d787.webp",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Ftj9mi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
+            "promotion_title": "ESTHEDERM",
+            "promotion_description": "<p>Jusqu’au 30 novembre, obtenez 20 % de rabais sur les gammes Préventive, Corrective et Esthe-White !<br/><br/></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_8e4caf70-4196-4580-8f97-210187e3554b.webp",
+            "promotion_image": "shopify://shop_images/1_aee55738-c36b-46c3-96c8-6d70af110fd1.webp",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
@@ -54,7 +74,7 @@
         "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_170099b3-1497-4a12-9ca5-8e6b3957669c.webp",
+            "promotion_image": "shopify://shop_images/3_6490169b-b065-4145-b757-88151e8d9f5c.webp",
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -64,7 +84,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4_61f0241b-a3ef-4630-b083-3a5688269992.webp",
+            "promotion_image": "shopify://shop_images/6_61e74411-deda-4a05-9f4d-3ac26d36c19a.webp",
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -74,7 +94,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_4.png",
+            "promotion_image": "shopify://shop_images/14.webp",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -84,7 +104,9 @@
       },
       "block_order": [
         "promotion_card_p7dyCA",
+        "promotion_card_mCyAz8",
         "promotion_card_PTb6QC",
+        "promotion_card_Ftj9mi",
         "promotion_card_CHNQNy",
         "promotion_card_YbzKLB",
         "promotion_card_M9AwAA",
@@ -111,7 +133,7 @@
         "promotion_card_fkjYR9": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_bf0ec863-32f5-45dc-b8fc-3088cb07d75e.webp",
+            "promotion_image": "shopify://shop_images/8.webp",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Jusqu'au 19 novembre, à l’achat de 130 $ de produits Kérastase, recevez gratuitement un shampoing gloss absolu bain hydra-glaze 30 ml !</p><p>*avant tx et code promo<br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -121,7 +143,7 @@
         "promotion_card_kaaxJD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2.jpg",
+            "promotion_image": "shopify://shop_images/7_05663a7e-c69e-4cc1-83cb-d626b4152b8d.webp",
             "promotion_title": "L'Oréal Série Expert",
             "promotion_description": "<p>À l'Achat de 150$* de produits l'Oréal Profesionnel, obtiens gratuitement un duo Vitamino Color Spectrum!</p><p>*avant tx et code promo</p>",
             "promotion_link": "shopify://collections/loreal",
@@ -131,7 +153,7 @@
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_0f78b504-c2fc-4014-91ee-d76598f02add.webp",
+            "promotion_image": "shopify://shop_images/11.webp",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p>*avant tx et code promo</p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -177,7 +199,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_e649f005-bdfd-47a5-83e8-8dda4170f7fa.webp",
+            "promotion_image": "shopify://shop_images/13.webp",
             "promotion_title": "Kérastase",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -187,7 +209,7 @@
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2_70a78c12-22e9-4c18-b467-2f1d99d0d79d.webp",
+            "promotion_image": "shopify://shop_images/9.webp",
             "promotion_title": "Balmain",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande. *exclusivité web</p>",
             "promotion_link": "shopify://collections/balmain",
@@ -197,7 +219,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_3_9a34487f-8835-4144-8bda-a8965aa9e71e.webp",
+            "promotion_image": "shopify://shop_images/12.webp",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -207,7 +229,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7.webp",
+            "promotion_image": "shopify://shop_images/10.webp",
             "promotion_title": "Esthederm",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/esthederm",
