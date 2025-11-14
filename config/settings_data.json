@@ -304,6 +304,17 @@
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#454545"
         }
+      },
+      "scheme-08002677-7017-45a6-b37f-becb3b0cb4eb": {
+        "settings": {
+          "background": "#fff500",
+          "background_gradient": "",
+          "text_color": "#454545",
+          "primary_button_background": "#e4c0ae",
+          "primary_button_text_color": "#454545",
+          "circle_button_background": "#e4c0ae",
+          "circle_button_icon": "#454545"
+        }
       }
     }
   },
