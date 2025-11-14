@@ -33,10 +33,9 @@
         },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
-            "promotion_title": "Promo Outils",
+            "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu’au 24 décembre : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils!<br/><br/></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
