@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "in_store_pickup_app_star_rating_YL7Aez": {
+          "type": "shopify://apps/in-store-pickup-app/blocks/star_rating/019a935c-8ea6-760f-9c5b-756ab8dc3ee4",
+          "settings": {
+            "product": "{{product}}",
+            "colour": "#ff0000"
+          }
+        },
         "vendor": {
           "type": "vendor",
           "disabled": true,
@@ -154,6 +161,7 @@
         }
       },
       "block_order": [
+        "in_store_pickup_app_star_rating_YL7Aez",
         "vendor",
         "title",
         "judge_me_reviews_preview_badge_ckPhH7",
@@ -201,9 +209,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
