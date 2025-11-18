@@ -443,6 +443,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_qUDXT7": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_8fc3f9bb-ab16-480a-88bf-582e87442cf9.webp",
+            "promotion_title": "25% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 2 décembre, profitez de 25 % de rabais sur la gamme Moroccanoil. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_n6jaTw": {
           "type": "promotion_card",
           "settings": {
@@ -516,6 +527,7 @@
       },
       "block_order": [
         "promotion_card_wTBXR8",
+        "promotion_card_qUDXT7",
         "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
