@@ -445,7 +445,6 @@
         },
         "promotion_card_qUDXT7": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_8fc3f9bb-ab16-480a-88bf-582e87442cf9.webp",
             "promotion_title": "25% DE RABAIS!",
@@ -456,10 +455,11 @@
         },
         "promotion_card_n6jaTw": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/5_9b68503c-e3bb-4a37-b560-02868e52d75c.webp",
             "promotion_title": "25% DE RABAIS!",
-            "promotion_description": "<p>Jusqu’au 18 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
+            "promotion_description": "<p>Jusqu’au 30 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura + une pochette gratuite à l’achat de deux produits en format régulier! *Certaines conditions s’appliquent | rabais appliqué au panier.<br/></p>",
             "promotion_link": "shopify://collections/shu-uemura",
             "promotion_link_text": "Voir plus"
           }
