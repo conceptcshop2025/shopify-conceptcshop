@@ -443,16 +443,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_fUPDTK": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_46a79e0f-2a94-4e96-b680-d39f20cd111a.webp",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 1er décembre, profitez de 30 % de rabais sur la gamme Pureology. *certaines conditions s'appliquent | rabais appliqué au panier.</p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_qUDXT7": {
           "type": "promotion_card",
           "settings": {
@@ -470,6 +460,16 @@
             "promotion_title": "25% DE RABAIS!",
             "promotion_description": "<p>Jusqu’au 30 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura + une pochette gratuite à l’achat de deux produits en format régulier! *Certaines conditions s’appliquent | rabais appliqué au panier.<br/></p>",
             "promotion_link": "shopify://collections/shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_fUPDTK": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_46a79e0f-2a94-4e96-b680-d39f20cd111a.webp",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 1er décembre, profitez de 30 % de rabais sur la gamme Pureology. *certaines conditions s'appliquent | rabais appliqué au panier.</p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -536,9 +536,9 @@
       },
       "block_order": [
         "promotion_card_wTBXR8",
-        "promotion_card_fUPDTK",
         "promotion_card_qUDXT7",
         "promotion_card_n6jaTw",
+        "promotion_card_fUPDTK",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
