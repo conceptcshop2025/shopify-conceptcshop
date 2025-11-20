@@ -145,9 +145,9 @@
         "promotion_card_fkjYR9": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2852abb4-8376-4758-8570-41a0c876e397.webp",
             "promotion_title": "Kérastase",
-            "promotion_description": "<p>Jusqu'au 19 novembre, à l’achat de 130 $ de produits Kérastase, recevez gratuitement un shampoing gloss absolu bain hydra-glaze 30 ml !</p><p>*avant tx et code promo<br/></p>",
+            "promotion_description": "<p><strong>Vendredi Fou du 20 nov. au 2 déc. </strong>plusieurs cadeaux avec achats, du format voyage Nutritive jusqu’aux ensembles avec chandelle, diffuseur et soin Première.<br/>*avant tx et code promo<br/></p>",
             "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus"
           }
