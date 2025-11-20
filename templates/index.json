@@ -438,8 +438,18 @@
           "settings": {
             "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
             "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 24 décembre : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils!</p>",
+            "promotion_description": "<p>Jusqu’au 24 décembre :<strong>économisez jusqu’à 50 %</strong>sur plus de 200 outils + jusqu'au 1er décembre<strong>16% de rabais sur le Steampod et le Airlight Pro!</strong></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_fUPDTK": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_46a79e0f-2a94-4e96-b680-d39f20cd111a.webp",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 1er décembre, profitez de 30 % de rabais sur la gamme Pureology. *certaines conditions s'appliquent | rabais appliqué au panier.</p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -526,6 +536,7 @@
       },
       "block_order": [
         "promotion_card_wTBXR8",
+        "promotion_card_fUPDTK",
         "promotion_card_qUDXT7",
         "promotion_card_n6jaTw",
         "promotion_card_YG48YR",
