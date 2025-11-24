@@ -12,12 +12,189 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
+      }
+    },
+    "custom_promotions_list_6ypJR4": {
+      "type": "custom-promotions-list",
+      "blocks": {
+        "promotion_card_nKnzfG": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_Pjyb7W": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_3tgt9Y": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_BTcJfY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_zNHVwi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_CbXhnL": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_e7eqUC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_LbnkyU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_GGenGW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_tbpGfV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_9zCf9A": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_JCbyzN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_QB9kWe": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        },
+        "promotion_card_WTUxdU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
+            "promotion_title": "L'Oreal",
+            "promotion_description": "<p>Du 4 au 6 décembre</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir Produits"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_card_nKnzfG",
+        "promotion_card_Pjyb7W",
+        "promotion_card_3tgt9Y",
+        "promotion_card_BTcJfY",
+        "promotion_card_zNHVwi",
+        "promotion_card_CbXhnL",
+        "promotion_card_e7eqUC",
+        "promotion_card_LbnkyU",
+        "promotion_card_GGenGW",
+        "promotion_card_tbpGfV",
+        "promotion_card_9zCf9A",
+        "promotion_card_JCbyzN",
+        "promotion_card_QB9kWe",
+        "promotion_card_WTUxdU"
+      ],
+      "name": "# Promotions list",
+      "settings": {
+        "color_scheme": "",
+        "section_title": "",
+        "items_per_row": 5,
+        "items_per_row_mobile": 2,
+        "show_slider_in_mobile": false,
+        "show_slider_in_desktop": false,
+        "show_view_all_link": false,
+        "view_all_link_url": "",
+        "view_all_link_text": "Voir tout",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_promotions_list_6ypJR4"
   ]
 }
