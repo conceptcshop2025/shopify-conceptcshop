@@ -1,0 +1,10 @@
+.item-card.expired::after,
+.item-card.active-today::after {
+  display: none;
+}
+
+.item-card.expired {
+  filter: grayscale(100%);
+  cursor: not-allowed;
+  pointer-events: none;
+}
