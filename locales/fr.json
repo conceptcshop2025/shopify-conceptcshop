@@ -363,7 +363,7 @@
       "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais d'expédition</a> calculés lors du paiement",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
       "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\" class=\"link\">Frais d'expédition</a> calculés à l'étape de paiement.",
-      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
+      "taxes_and_shipping_at_checkout": "Taxes et frais de livraison calculés à l’étape du paiement.",
       "add_order_note": "Ajouter une note",
       "edit_order_note": "Modifier la note",
       "order_note": "Note de commande",
@@ -380,7 +380,7 @@
       "remove_with_title": "Supprimer {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
+      "limit_unreached_html": "Il ne vous manque que {{ remaining_amount }} pour profiter de la livraison gratuite.",
       "limit_reached_html": "Frais de livraison offerts !"
     },
     "shipping_estimator": {
