@@ -35,10 +35,19 @@
             "question": "<strong>Voir les termes et conditions</strong>",
             "answer": "<p><strong>Certaines gammes sont exclues du 15 %, soit en raison de leur propre offre du Vendredi fou, soit parce que la marque ne l’autorise pas. Voici les détails :</strong><br/></p><ul><li><a href=\"/collections/kerastase\" title=\"Kérastase\">Kérastase  (20 novembre au 2 décembre - par ici pour connaître les termes) </a></li><li><a href=\"https://conceptcshop.com/collections/esthederm\" title=\"https://conceptcshop.com/collections/esthederm\">Esthederm (20% de rabais 27-28 novembre excluant les Coffrets des Fêtes et Age Proteom).</a></li><li><a href=\"/collections/shu-uemura\" title=\"Shu Uemura\">Shu Uemura (25% de rabais du 20 au 30 novembre - par ici pour connaître les termes) </a></li><li><a href=\"https://conceptcshop.com/collections/moroccanoil\" title=\"https://conceptcshop.com/collections/moroccanoil\">Moroccanoil (25% de rabais du 19 novembre au 2 décembre)</a></li><li><a href=\"https://conceptcshop.com/collections/coffre-a-outils-1\" title=\"https://conceptcshop.com/collections/coffre-a-outils-1\">Promo Outils (jusqu'à 50% de rabais déjà en vigueur)</a></li><li><a href=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\" title=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\">Steampod 4</a> et <a href=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\" title=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\">Airlight Pro</a> de L'Oréal (16% de rabais du 20 novembre au 1er décembre)</li><li><a href=\"/collections/pureology\" title=\"Pureology\">Pureology (30% de rabais du 20 novembre au 1er décembre)</a><br/><br/><em>*Les rabais des Soldes du Vendredi Fou, incluant le 15%, s’appliquent automatiquement au panier, même sur l'onglet Soldes, Liquidation et Coffrets.</em></li></ul>"
           }
+        },
+        "question_U3HgqT": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "<strong>Découvrir les 100 cadeaux! </strong>",
+            "answer": "<p>Du <strong>27 novembre au 2 décembre</strong>, cours la chance de gagner un cadeau gratuit avec ta commande.</p><p><strong>100 cadeaux, pour plus de 8 000 $ en valeur, seront ajoutés au hasard!</strong></p><ul><li>2 X GHD. Fer Plat Chronos Noir</li><li>2 X T3. Séchoir AirePower Pro</li><li>2 X Mermade. Brosse Séchoir – Rose</li><li>2 X René Furterer. Triphasic Reactional Traitement Antichute Réactionnelle – 12 × 5 ml</li><li>10 X Living Proof. Coffret Double The Clean – Shampoing Sec PHD Et PHD Advanced</li><li>10 X Esthederm. Sérum Cou et Visage Intensive Pro-Collagène+ – 30 ml</li><li>12 X Pureology. Spray Sans Rinçage 21-en-1 Color Fanatic – 400 ml</li><li>12 X Balmain. Spray Protecteur Solaire – 200 ml</li><li>12 X Oribe. Crème Nourrissante pour les Mains Côte D’Azur – 100 ml</li><li>12 X K18. Shampoing Sec AirWash – 118 ml</li><li>24 X Kérastase Duo Nutritive Format Voyage </li></ul><p><strong>Peut-être que le prochain cadeau sera pour vous!</strong></p>"
+          }
         }
       },
       "block_order": [
-        "question_RqCiWz"
+        "question_RqCiWz",
+        "question_U3HgqT"
       ],
       "custom_css": [
         ".section-spacing {padding-block-start: 0; padding-block-end: 0;}"
