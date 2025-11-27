@@ -21,6 +21,16 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_acD4AE": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.jpg",
+            "promotion_title": "8 000$ EN CADEAUX!",
+            "promotion_description": "<p>Du <strong>27 novembre au 2 décembre</strong>, cours la chance de gagner un cadeau gratuit avec ta commande.<strong>100 cadeaux, pour plus de 8 000 $ en valeur, seront ajoutés au hasard!</strong></p>",
+            "promotion_link": "shopify://collections/soldes-vendredi-fou",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -123,6 +133,7 @@
         }
       },
       "block_order": [
+        "promotion_card_acD4AE",
         "promotion_card_mCyAz8",
         "promotion_card_p7dyCA",
         "promotion_card_wkU8yp",
