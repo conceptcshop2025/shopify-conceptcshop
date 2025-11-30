@@ -60,20 +60,31 @@
             "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_UnEGmW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
+            "promotion_title": "René Furtérer",
+            "promotion_description": "<p>8 décembre</p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_z3jxe3",
         "promotion_card_kTArGh",
         "promotion_card_TChyGp",
-        "promotion_card_78jiW6"
+        "promotion_card_78jiW6",
+        "promotion_card_UnEGmW"
       ],
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "",
         "section_title": "Marathon des marques",
-        "items_per_row": 5,
-        "items_per_row_mobile": 1,
+        "items_per_row": 4,
+        "items_per_row_mobile": 2,
         "show_slider_in_mobile": false,
         "show_slider_in_desktop": false,
         "show_view_all_link": false,
