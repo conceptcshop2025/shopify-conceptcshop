@@ -90,6 +90,16 @@
             "promotion_link": "shopify://collections/wella",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_ykM7p9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
+            "promotion_title": "REDKEN",
+            "promotion_description": "<p>11 décembre</p>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -99,7 +109,8 @@
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
-        "promotion_card_xqiQgC"
+        "promotion_card_xqiQgC",
+        "promotion_card_ykM7p9"
       ],
       "name": "# Promotions list",
       "settings": {
