@@ -74,9 +74,20 @@
         "promotion_card_UWFLLm": {
           "type": "promotion_card",
           "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_image": "shopify://shop_images/6_1c294511-7668-4fb1-8668-2714211c5a9e.webp",
+            "promotion_title": "DESIGN.ME",
+            "promotion_description": "<h3><strong>9 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/design-me",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_xqiQgC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/7_55aaf09c-8b89-4089-9ff5-d667e2a5a414.webp",
+            "promotion_title": "WELLA",
+            "promotion_description": "<h3><strong>10 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/wella",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -87,7 +98,8 @@
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
-        "promotion_card_UWFLLm"
+        "promotion_card_UWFLLm",
+        "promotion_card_xqiQgC"
       ],
       "name": "# Promotions list",
       "settings": {
