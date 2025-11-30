@@ -66,8 +66,17 @@
           "settings": {
             "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
             "promotion_title": "René Furtérer",
-            "promotion_description": "<p>8 décembre</p>",
+            "promotion_description": "<h3><strong>8 décembre</strong></h3>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_UWFLLm": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -77,7 +86,8 @@
         "promotion_card_kTArGh",
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
-        "promotion_card_UnEGmW"
+        "promotion_card_UnEGmW",
+        "promotion_card_UWFLLm"
       ],
       "name": "# Promotions list",
       "settings": {
