@@ -100,6 +100,16 @@
             "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_i8bqcp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/9_d41906fb-2c91-49df-b888-5229408a7565.webp",
+            "promotion_title": "AMIKA",
+            "promotion_description": "<h3><strong>12 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/amika",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -110,7 +120,8 @@
         "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
-        "promotion_card_ykM7p9"
+        "promotion_card_ykM7p9",
+        "promotion_card_i8bqcp"
       ],
       "name": "# Promotions list",
       "settings": {
