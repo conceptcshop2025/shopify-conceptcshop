@@ -120,6 +120,16 @@
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_TMjkLh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
+            "promotion_title": "CONCEPT C",
+            "promotion_description": "<h3><strong>14 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -132,7 +142,8 @@
         "promotion_card_xqiQgC",
         "promotion_card_ykM7p9",
         "promotion_card_i8bqcp",
-        "promotion_card_U7hcGp"
+        "promotion_card_U7hcGp",
+        "promotion_card_TMjkLh"
       ],
       "name": "# Promotions list",
       "settings": {
