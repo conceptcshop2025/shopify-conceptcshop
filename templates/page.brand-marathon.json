@@ -18,6 +18,36 @@
         "page_width": "xs"
       }
     },
+    "rich_text_MXTN3n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qKDAm3": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>MARATHON DES MARQUES</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Mcwdm8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Une marque différente en promotion chaque jour, pendant 14 jours!</strong></p><ul><li>25 % de rabais sur la marque du jour.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li><li>Promotion valide chaque jour de minuit à 23 h 59.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qKDAm3",
+        "richtext_Mcwdm8"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
@@ -170,7 +200,7 @@
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "",
-        "section_title": "Marathon des marques",
+        "section_title": "calendrier complet",
         "items_per_row": 4,
         "items_per_row_mobile": 2,
         "show_slider_in_mobile": false,
@@ -185,6 +215,7 @@
   },
   "order": [
     "main",
+    "rich_text_MXTN3n",
     "custom_promotions_list_REqQzh"
   ]
 }
