@@ -140,6 +140,16 @@
             "promotion_link": "shopify://collections/color-wow",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_3EKRWt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/13_474afa8a-cd2b-4fd5-85fa-2b43a54aeb36.webp",
+            "promotion_title": "OLAPLEX",
+            "promotion_description": "<h3><strong>16 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/olaplex-1",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -154,7 +164,8 @@
         "promotion_card_i8bqcp",
         "promotion_card_U7hcGp",
         "promotion_card_TMjkLh",
-        "promotion_card_NBizmM"
+        "promotion_card_NBizmM",
+        "promotion_card_3EKRWt"
       ],
       "name": "# Promotions list",
       "settings": {
