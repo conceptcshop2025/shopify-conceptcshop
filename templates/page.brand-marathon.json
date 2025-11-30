@@ -110,6 +110,16 @@
             "promotion_link": "shopify://collections/amika",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_U7hcGp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
+            "promotion_title": "PUREOLOGY",
+            "promotion_description": "<h3><strong>13 décembre</strong></h3>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -121,7 +131,8 @@
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
         "promotion_card_ykM7p9",
-        "promotion_card_i8bqcp"
+        "promotion_card_i8bqcp",
+        "promotion_card_U7hcGp"
       ],
       "name": "# Promotions list",
       "settings": {
