@@ -31,7 +31,7 @@
         "richtext_Mcwdm8": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Une marque différente en promotion chaque jour, pendant 14 jours!</strong></p><ul><li>25 % de rabais sur la marque du jour.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li><li>Promotion valide chaque jour de minuit à 23 h 59.</li></ul>"
+            "content": "<p><strong>Une marque différente en promotion chaque jour, pendant 14 jours!</strong></p><ul><li>25 % de rabais sur la marque du jour, valide de minuit à 23 h 59.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li></ul><p></p>"
           }
         }
       },
