@@ -130,6 +130,16 @@
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_NBizmM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
+            "promotion_title": "COLOR WOW",
+            "promotion_description": "<p>15 décembre</p>",
+            "promotion_link": "shopify://collections/color-wow",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -143,7 +153,8 @@
         "promotion_card_ykM7p9",
         "promotion_card_i8bqcp",
         "promotion_card_U7hcGp",
-        "promotion_card_TMjkLh"
+        "promotion_card_TMjkLh",
+        "promotion_card_NBizmM"
       ],
       "name": "# Promotions list",
       "settings": {
