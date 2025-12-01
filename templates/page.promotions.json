@@ -41,16 +41,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_p7dyCA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_9b68503c-e3bb-4a37-b560-02868e52d75c.webp",
-            "promotion_title": "25% DE RABAIS!",
-            "promotion_description": "<p>Jusqu’au 30 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura + une pochette gratuite à l’achat de deux produits en format régulier! Certaines conditions s’appliquent | rabais appliqué au panier.<br/><br/></p>",
-            "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_wkU8yp": {
           "type": "promotion_card",
           "settings": {
@@ -135,7 +125,6 @@
       "block_order": [
         "promotion_card_acD4AE",
         "promotion_card_mCyAz8",
-        "promotion_card_p7dyCA",
         "promotion_card_wkU8yp",
         "promotion_card_KdDqzr",
         "promotion_card_PTb6QC",
