@@ -73,6 +73,7 @@
         },
         "promotion_card_Ftj9mi": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
             "promotion_title": "ESTHEDERM",
