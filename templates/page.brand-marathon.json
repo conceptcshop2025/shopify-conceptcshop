@@ -56,7 +56,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/1_68b0cb1f-e06c-499a-95d7-3bf96efe7693.webp",
             "promotion_title": "4 DÉCEMBRE",
-            "promotion_description": "<p><strong>Living Proof </strong></p><p>25% de rabais<br/></p>",
+            "promotion_description": "<h3><strong>Living Proof </strong></h3><p>25% de rabais<br/></p>",
             "promotion_link": "shopify://collections/living-proof",
             "promotion_link_text": "Voir plus"
           }
@@ -75,8 +75,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/3_e0213433-1f3b-4d42-b4d9-a918d6740ef4.webp",
-            "promotion_title": "L'ORÉAL",
-            "promotion_description": "<h3><strong>6 décembre</strong></h3>",
+            "promotion_title": "6 DÉCEMBRE",
+            "promotion_description": "<h3><strong>L'Oréal</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
@@ -85,8 +85,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/4_493b5bd1-80c3-41db-b24f-1464cbd84d02.webp",
-            "promotion_title": "K18",
-            "promotion_description": "<h3><strong>7 décembre</strong></h3>",
+            "promotion_title": "7 DÉCEMBRE",
+            "promotion_description": "<h3><strong>K18</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
@@ -96,7 +96,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
             "promotion_title": "René Furtérer",
-            "promotion_description": "<h3><strong>8 décembre</strong></h3>",
+            "promotion_description": "<h3><strong>René Furterer</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
