@@ -95,7 +95,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
-            "promotion_title": "René Furtérer",
+            "promotion_title": "8 DÉCEMBRE",
             "promotion_description": "<h3><strong>René Furterer</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
@@ -105,8 +105,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/6_1c294511-7668-4fb1-8668-2714211c5a9e.webp",
-            "promotion_title": "DESIGN.ME",
-            "promotion_description": "<h3><strong>9 décembre</strong></h3>",
+            "promotion_title": "9 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Design.Me</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/design-me",
             "promotion_link_text": "Voir plus"
           }
