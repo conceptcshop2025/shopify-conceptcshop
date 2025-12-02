@@ -495,11 +495,20 @@
         },
         "promotion_card_3EbYeD": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px.png",
             "promotion_title": "ESTHEDERM",
             "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_MQpabj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_1.png",
+            "promotion_title": "ESTHEDERM",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires.</p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
@@ -543,6 +552,7 @@
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
+        "promotion_card_MQpabj",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"
