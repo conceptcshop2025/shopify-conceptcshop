@@ -62,34 +62,21 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain_e33c2e2c-7030-4f91-adba-3cb5dc8c1e41.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_BOB.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>25% DE RABAIS!</strong>",
+            "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier<br/></p>",
+            "content": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
             "link_url": "shopify://collections/balmain",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Single_s_Day_Kerastase.webp",
-            "block_background": "#c0776e",
-            "text_block_background": "#000000",
-            "title": "<strong>11% et PLUS de RABAIS!</strong>",
-            "heading_tag": "h4",
-            "content": "<p>C’est le Single’s Day de Kérastase! Profitez <strong>d'un minumum de 11 % de rabais</strong> sur toute la gamme.<em> *certaines conditions s'appliquent</em><br/><br/></p>",
-            "link_url": "shopify://collections/kerastase",
             "link_text": "magasiner"
           }
         },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_OCT_2025_eee297a4-3474-460f-9d61-127f4cff85dd.webp",
-            "block_background": "#1c1c1c",
+            "image": "shopify://shop_images/Slider_Mobile_Special_Outils_NOV_2025.webp",
+            "block_background": "#6e0d0d",
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
@@ -97,12 +84,25 @@
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
+        },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>Économisez jusqu’à 40 %</strong> sur nos coffrets haut de gamme, parfaits pour vous gâter ou offrir en cadeau!</p>",
+            "link_url": "shopify://collections/kerastase",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "image_with_text_8jiqTB",
-        "image_with_text_QxKH3t",
-        "image_with_text_3LUanK"
+        "image_with_text_3LUanK",
+        "image_with_text_QxKH3t"
       ],
       "disabled": true,
       "name": "# Multi-column",
@@ -433,12 +433,22 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_kz9GFh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.jpg",
+            "promotion_title": "8 000$ EN CADEAUX!",
+            "promotion_description": "<p>Du <strong>27 novembre au 2 décembre</strong>, cours la chance de gagner un cadeau gratuit avec ta commande. <strong>100 cadeaux, pour plus de 8 000 $ en valeur, seront ajoutés au hasard!</strong></p>",
+            "promotion_link": "shopify://collections/soldes-vendredi-fou",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_wTBXR8": {
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
             "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 24 décembre :<strong>économisez jusqu’à 50 %</strong>sur plus de 200 outils + jusqu'au 1er décembre<strong>16% de rabais sur le Steampod et le Airlight Pro!</strong></p>",
+            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
@@ -453,22 +463,12 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_n6jaTw": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_9b68503c-e3bb-4a37-b560-02868e52d75c.webp",
-            "promotion_title": "25% DE RABAIS!",
-            "promotion_description": "<p>Jusqu’au 30 novembre, profitez de 25 % de rabais sur la gamme Shu Uemura + une pochette gratuite à l’achat de deux produits en format régulier! *Certaines conditions s’appliquent | rabais appliqué au panier.<br/></p>",
-            "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_46a79e0f-2a94-4e96-b680-d39f20cd111a.webp",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 1er décembre, profitez de 30 % de rabais sur la gamme Pureology. *certaines conditions s'appliquent | rabais appliqué au panier.</p>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
@@ -496,9 +496,19 @@
         "promotion_card_3EbYeD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px.png",
             "promotion_title": "ESTHEDERM",
-            "promotion_description": "<p>Jusqu’au 30 novembre, obtenez 20 % de rabais sur les gammes Préventive, Corrective et Esthe-White !<br/><br/></p>",
+            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_MQpabj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_1.png",
+            "promotion_title": "ESTHEDERM",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires.</p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
@@ -535,13 +545,14 @@
         }
       },
       "block_order": [
+        "promotion_card_kz9GFh",
         "promotion_card_wTBXR8",
         "promotion_card_qUDXT7",
-        "promotion_card_n6jaTw",
         "promotion_card_fUPDTK",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
+        "promotion_card_MQpabj",
         "promotion_card_TcjCNj",
         "promotion_card_BPnVjf",
         "promotion_card_A9aVXj"

@@ -11,177 +11,197 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
     },
-    "custom_promotions_list_6ypJR4": {
-      "type": "custom-promotions-list",
+    "rich_text_MXTN3n": {
+      "type": "rich-text",
       "blocks": {
-        "promotion_card_nKnzfG": {
-          "type": "promotion_card",
+        "heading_qKDAm3": {
+          "type": "heading",
           "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
+            "text": "<strong>MARATHON DES MARQUES</strong>",
+            "heading_tag": "h1"
           }
         },
-        "promotion_card_Pjyb7W": {
-          "type": "promotion_card",
+        "richtext_Mcwdm8": {
+          "type": "richtext",
           "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_3tgt9Y": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_BTcJfY": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_zNHVwi": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_CbXhnL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_e7eqUC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_LbnkyU": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_GGenGW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_tbpGfV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_9zCf9A": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_JCbyzN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_QB9kWe": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
-          }
-        },
-        "promotion_card_WTUxdU": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/paul-mitchell-demelant-pour-enfants-taming-spray-250-ml-4559427.png",
-            "promotion_title": "L'Oreal",
-            "promotion_description": "<p>Du 4 au 6 décembre</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir Produits"
+            "content": "<p><strong>Une marque différente en promotion chaque jour, pendant 14 jours!</strong></p><ul><li>25 % de rabais sur la marque du jour, valide de minuit à 23 h 59.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li><li>certaines conditions s'appliquent. Exclut les outils.</li></ul><p></p>"
           }
         }
       },
       "block_order": [
-        "promotion_card_nKnzfG",
-        "promotion_card_Pjyb7W",
-        "promotion_card_3tgt9Y",
-        "promotion_card_BTcJfY",
-        "promotion_card_zNHVwi",
-        "promotion_card_CbXhnL",
-        "promotion_card_e7eqUC",
-        "promotion_card_LbnkyU",
-        "promotion_card_GGenGW",
-        "promotion_card_tbpGfV",
-        "promotion_card_9zCf9A",
-        "promotion_card_JCbyzN",
-        "promotion_card_QB9kWe",
-        "promotion_card_WTUxdU"
+        "heading_qKDAm3",
+        "richtext_Mcwdm8"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_promotions_list_REqQzh": {
+      "type": "custom-promotions-list",
+      "blocks": {
+        "promotion_card_z3jxe3": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_68b0cb1f-e06c-499a-95d7-3bf96efe7693.webp",
+            "promotion_title": "4 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Living Proof </strong></h3><p>25% de rabais<br/></p>",
+            "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_kTArGh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_b1eba02c-0a95-4998-b7e3-f4fd1b9d6d61.webp",
+            "promotion_title": "5 DÉCEMBRE",
+            "promotion_description": "<h3>Matrix</h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/matrix",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_TChyGp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_e0213433-1f3b-4d42-b4d9-a918d6740ef4.webp",
+            "promotion_title": "6 DÉCEMBRE",
+            "promotion_description": "<h3><strong>L'Oréal</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_78jiW6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_493b5bd1-80c3-41db-b24f-1464cbd84d02.webp",
+            "promotion_title": "7 DÉCEMBRE",
+            "promotion_description": "<h3><strong>K18</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_UnEGmW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
+            "promotion_title": "8 DÉCEMBRE",
+            "promotion_description": "<h3><strong>René Furterer</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_UWFLLm": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_1c294511-7668-4fb1-8668-2714211c5a9e.webp",
+            "promotion_title": "9 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Design.Me</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/design-me",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_xqiQgC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/7_55aaf09c-8b89-4089-9ff5-d667e2a5a414.webp",
+            "promotion_title": "10 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Wella</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/wella",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_ykM7p9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
+            "promotion_title": "11 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Redken</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_i8bqcp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Marathon_des_marques_Decembre_2025_500_x_300_px.webp",
+            "promotion_title": "12 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Amika</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/amika",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_U7hcGp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
+            "promotion_title": "13 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Pureology</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_TMjkLh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
+            "promotion_title": "14 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Concept C</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_NBizmM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
+            "promotion_title": "15 DÉCEMBRE",
+            "promotion_description": "<h3>Color Wow</h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/color-wow",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_3EKRWt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/13_474afa8a-cd2b-4fd5-85fa-2b43a54aeb36.webp",
+            "promotion_title": "16 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Olaplex</strong></h3><p>25% de rabais</p>",
+            "promotion_link": "shopify://collections/olaplex-1",
+            "promotion_link_text": "Voir plus"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_card_z3jxe3",
+        "promotion_card_kTArGh",
+        "promotion_card_TChyGp",
+        "promotion_card_78jiW6",
+        "promotion_card_UnEGmW",
+        "promotion_card_UWFLLm",
+        "promotion_card_xqiQgC",
+        "promotion_card_ykM7p9",
+        "promotion_card_i8bqcp",
+        "promotion_card_U7hcGp",
+        "promotion_card_TMjkLh",
+        "promotion_card_NBizmM",
+        "promotion_card_3EKRWt"
       ],
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "",
-        "section_title": "",
-        "items_per_row": 5,
+        "section_title": "calendrier complet",
+        "items_per_row": 3,
         "items_per_row_mobile": 2,
         "show_slider_in_mobile": false,
         "show_slider_in_desktop": false,
@@ -195,6 +215,7 @@
   },
   "order": [
     "main",
-    "custom_promotions_list_6ypJR4"
+    "rich_text_MXTN3n",
+    "custom_promotions_list_REqQzh"
   ]
 }
