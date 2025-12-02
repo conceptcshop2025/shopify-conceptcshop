@@ -90,7 +90,7 @@
           "settings": {
             "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
             "block_background": "#1c1c1c",
-            "text_block_background": "#000000",
+            "text_block_background": "#ffffff",
             "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
             "heading_tag": "h4",
             "content": "<p><strong>Économisez jusqu’à 40 %</strong> sur nos coffrets haut de gamme, parfaits pour vous gâter ou offrir en cadeau!</p>",
