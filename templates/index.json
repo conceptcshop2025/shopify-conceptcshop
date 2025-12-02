@@ -88,12 +88,12 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Single_s_Day_Kerastase.webp",
+            "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
             "block_background": "#c0776e",
             "text_block_background": "#000000",
-            "title": "<strong>11% et PLUS de RABAIS!</strong>",
+            "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>C’est le Single’s Day de Kérastase! Profitez <strong>d'un minumum de 11 % de rabais</strong> sur toute la gamme.<em> *certaines conditions s'appliquent</em><br/><br/></p>",
+            "content": "<p><strong>Économisez jusqu’à 40 %</strong> sur nos coffrets haut de gamme, parfaits pour vous gâter ou offrir en cadeau!</p>",
             "link_url": "shopify://collections/kerastase",
             "link_text": "magasiner"
           }
