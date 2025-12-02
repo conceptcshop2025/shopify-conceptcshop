@@ -125,8 +125,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
-            "promotion_title": "REDKEN",
-            "promotion_description": "<h3><strong>11 décembre</strong></h3>",
+            "promotion_title": "11 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Redken</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus"
           }
