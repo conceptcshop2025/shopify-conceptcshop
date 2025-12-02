@@ -76,7 +76,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Special_Outils_NOV_2025.webp",
-            "block_background": "#1c1c1c",
+            "block_background": "#6e0d0d",
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
@@ -89,7 +89,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
-            "block_background": "#c0776e",
+            "block_background": "#1c1c1c",
             "text_block_background": "#000000",
             "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
             "heading_tag": "h4",
