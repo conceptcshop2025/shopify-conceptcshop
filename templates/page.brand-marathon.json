@@ -65,8 +65,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/2_b1eba02c-0a95-4998-b7e3-f4fd1b9d6d61.webp",
-            "promotion_title": "MATRIX",
-            "promotion_description": "<h3>5 décembre</h3>",
+            "promotion_title": "5 DÉCEMBRE",
+            "promotion_description": "<h3>Matrix</h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/matrix",
             "promotion_link_text": "Voir plus"
           }
