@@ -134,9 +134,9 @@
         "promotion_card_i8bqcp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_d41906fb-2c91-49df-b888-5229408a7565.webp",
-            "promotion_title": "AMIKA",
-            "promotion_description": "<h3><strong>12 décembre</strong></h3>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Marathon_des_marques_Decembre_2025_500_x_300_px.webp",
+            "promotion_title": "12 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Amika</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/amika",
             "promotion_link_text": "Voir plus"
           }
@@ -145,8 +145,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
-            "promotion_title": "PUREOLOGY",
-            "promotion_description": "<h3><strong>13 décembre</strong></h3>",
+            "promotion_title": "13 DÉCEMBRE",
+            "promotion_description": "<h3><strong>PUREOLOGY</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
