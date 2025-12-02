@@ -146,7 +146,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
             "promotion_title": "13 DÉCEMBRE",
-            "promotion_description": "<h3><strong>PUREOLOGY</strong></h3><p>25% de rabais</p>",
+            "promotion_description": "<h3><strong>Pureology</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
@@ -155,8 +155,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
-            "promotion_title": "CONCEPT C",
-            "promotion_description": "<h3><strong>14 décembre</strong></h3>",
+            "promotion_title": "14 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Concept C</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
@@ -165,8 +165,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
-            "promotion_title": "COLOR WOW",
-            "promotion_description": "<p>15 décembre</p>",
+            "promotion_title": "15 DÉCEMBRE",
+            "promotion_description": "<h3>Color Wow</h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/color-wow",
             "promotion_link_text": "Voir plus"
           }
