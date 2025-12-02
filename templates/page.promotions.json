@@ -53,10 +53,11 @@
         },
         "promotion_card_KdDqzr": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_46a79e0f-2a94-4e96-b680-d39f20cd111a.webp",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 1er décembre, profitez de 30 % de rabais sur la gamme Pureology. *certaines conditions s'appliquent | rabais appliqué au panier.</p>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
