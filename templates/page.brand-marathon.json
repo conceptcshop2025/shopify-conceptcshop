@@ -115,8 +115,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/7_55aaf09c-8b89-4089-9ff5-d667e2a5a414.webp",
-            "promotion_title": "WELLA",
-            "promotion_description": "<h3><strong>10 décembre</strong></h3>",
+            "promotion_title": "10 DÉCEMBRE",
+            "promotion_description": "<h3><strong>Wella</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/wella",
             "promotion_link_text": "Voir plus"
           }
