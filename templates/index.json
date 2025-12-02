@@ -62,12 +62,12 @@
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_Balmain_e33c2e2c-7030-4f91-adba-3cb5dc8c1e41.webp",
+            "image": "shopify://shop_images/Slider_Mobile_Lancement_BOB.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>25% DE RABAIS!</strong>",
+            "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Lancement Balmain Haute Couture! Transforme la routine capillaire en rituel de luxe inspiré des coulisses de la mode.</p><p>*rabais appliqué au panier<br/></p>",
+            "content": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.</p><p>*rabais appliqué au panier<br/></p>",
             "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
