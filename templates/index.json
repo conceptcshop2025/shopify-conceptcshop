@@ -497,9 +497,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/6_e7ab6374-671b-451b-acab-6de48da6d58d.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px.png",
             "promotion_title": "ESTHEDERM",
-            "promotion_description": "<p>Jusqu’au 30 novembre, obtenez 20 % de rabais sur les gammes Préventive, Corrective et Esthe-White !<br/><br/></p>",
+            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
