@@ -487,8 +487,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/5_1d20e361-6ce8-4376-885d-1e22c53e9df8.png",
-            "promotion_title": "ESTHEDERM",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/></p>",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! * <em>Prix déjà réduits.</em><br/><br/><br/></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
