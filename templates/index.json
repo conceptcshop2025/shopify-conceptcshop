@@ -508,7 +508,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
             "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils!</p>",
+            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
@@ -518,7 +518,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/13_875600f5-721e-42af-a87c-0fd4456ba75a.png",
             "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
@@ -528,7 +528,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/11.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
+            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
             "promotion_link": "shopify://collections/bob",
             "promotion_link_text": "Voir plus"
           }
@@ -538,7 +538,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/20_3d577d9c-0edf-40e6-bb28-0f47b9e75059.png",
             "promotion_title": "LIQUIDATION",
-            "promotion_description": "<p>TOUT à 50% de rabais!</p>",
+            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
