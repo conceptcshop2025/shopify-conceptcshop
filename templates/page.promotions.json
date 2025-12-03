@@ -56,7 +56,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/12.png",
             "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 19 décembre, obtenez <strong>15% de rabais </strong>sur les meilleurs vendeurs chez Kérastase!</p>",
+            "promotion_description": "<p>Jusqu'au 19 décembre, obtenez <strong>15% de rabais </strong>sur les meilleurs vendeurs chez Kérastase! <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus"
           }
