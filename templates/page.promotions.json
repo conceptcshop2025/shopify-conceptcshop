@@ -168,7 +168,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/17_13c37d63-6d89-4279-95b1-618220a88abd.png",
             "promotion_title": "René Furterer",
-            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p>*avant tx et code promo</p>",
+            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
