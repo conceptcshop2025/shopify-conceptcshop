@@ -443,6 +443,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_a9h4Qk": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/12.png",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 19 décembre, obtenez 15% de rabais sur les meilleurs vendeurs chez Kérastase!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
@@ -536,6 +546,7 @@
       },
       "block_order": [
         "promotion_card_wTBXR8",
+        "promotion_card_a9h4Qk",
         "promotion_card_fUPDTK",
         "promotion_card_YG48YR",
         "promotion_card_kinknG",
