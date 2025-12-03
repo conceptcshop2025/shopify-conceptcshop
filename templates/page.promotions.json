@@ -41,6 +41,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_GEdgYM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/12.png",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 19 décembre, obtenez <strong>15% de rabais </strong>sur les meilleurs vendeurs chez Kérastase!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Br6U6t": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
@@ -115,6 +135,8 @@
       "block_order": [
         "promotion_card_mCyAz8",
         "promotion_card_KdDqzr",
+        "promotion_card_GEdgYM",
+        "promotion_card_Br6U6t",
         "promotion_card_PTb6QC",
         "promotion_card_Ftj9mi",
         "promotion_card_6QdVwr",
