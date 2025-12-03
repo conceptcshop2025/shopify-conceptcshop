@@ -228,6 +228,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_6iwY9K": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_title": "Redken",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande. *exclusivité web</p>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
           "settings": {
@@ -261,6 +271,7 @@
       },
       "block_order": [
         "promotion_card_McCiBz",
+        "promotion_card_6iwY9K",
         "promotion_card_jxEwGf",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r"
