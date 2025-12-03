@@ -116,7 +116,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/13_875600f5-721e-42af-a87c-0fd4456ba75a.png",
             "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
+            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
