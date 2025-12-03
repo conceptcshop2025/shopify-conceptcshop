@@ -232,8 +232,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_1.webp",
             "promotion_title": "Redken",
-            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande. *exclusivité web</p>",
+            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Redken.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus"
           }
