@@ -497,8 +497,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/7_2cddc5f4-3b40-4a2f-8d32-47e978074b43.png",
-            "promotion_title": "ESTHEDERM",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires.</p>",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires d'Esthederm. *<em>Prix déjà réduits.</em><br/><br/></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
