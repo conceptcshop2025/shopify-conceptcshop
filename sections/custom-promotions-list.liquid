@@ -1,4 +1,7 @@
 {{ 'custom-promotions-list.css' | asset_url | stylesheet_tag }}
+{% if page.template_suffix == 'brand-marathon'%}
+  {{ 'custom-page-brand-marathon.css' | asset_url | stylesheet_tag }}
+{% endif %}
 
 {% style %}
   .section--{{ section.id }} {
@@ -53,6 +56,10 @@
     </div>
   </div>
 </div>
+
+{% if page.template_suffix == 'brand-marathon'%}
+  <script src="{{ 'custom-page-brand-marathon.js' | asset_url }}" defer></script>
+{% endif %}
 
 {% schema %}
   {
