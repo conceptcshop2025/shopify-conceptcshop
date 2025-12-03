@@ -43,6 +43,7 @@
       "block_order": [
         "image_m9i4GY"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -104,7 +105,6 @@
         "image_with_text_3LUanK",
         "image_with_text_QxKH3t"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
