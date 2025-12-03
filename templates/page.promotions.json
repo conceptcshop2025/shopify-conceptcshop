@@ -66,7 +66,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/9_2a80294c-f288-4270-96a4-e6ed5e39910e.png",
             "promotion_title": "35% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology. <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
@@ -95,8 +95,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/5_1d20e361-6ce8-4376-885d-1e22c53e9df8.png",
-            "promotion_title": "ESTHEDERM",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/><br/></p>",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! *<em>Prix déjà réduits.</em><br/><br/></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
