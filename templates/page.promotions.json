@@ -21,41 +21,20 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_acD4AE": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px.jpg",
-            "promotion_title": "8 000$ EN CADEAUX!",
-            "promotion_description": "<p>Du <strong>27 novembre au 2 décembre</strong>, cours la chance de gagner un cadeau gratuit avec ta commande.<strong>100 cadeaux, pour plus de 8 000 $ en valeur, seront ajoutés au hasard!</strong></p>",
-            "promotion_link": "shopify://collections/soldes-vendredi-fou",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_175370ad-972a-4d52-b959-e18673f6acf7.webp",
+            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils + jusqu'au 1er décembre <strong>16% de rabais sur le Steampod et le Airlight Pro!</strong><br/><br/></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_wkU8yp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_8fc3f9bb-ab16-480a-88bf-582e87442cf9.webp",
-            "promotion_title": "25% DE RABAIS!",
-            "promotion_description": "<p>Jusqu’au 2 décembre, profitez de 25 % de rabais sur la gamme Moroccanoil. *certaines conditions s'appliquent | rabais appliqué au panier.<br/><br/></p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_KdDqzr": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2.png",
+            "promotion_image": "shopify://shop_images/9_2a80294c-f288-4270-96a4-e6ed5e39910e.png",
             "promotion_title": "35% DE RABAIS",
             "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
             "promotion_link": "shopify://collections/pureology",
@@ -65,7 +44,7 @@
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_4e011bda-f6d8-44ff-affd-da81c908d787.webp",
+            "promotion_image": "shopify://shop_images/2_55403355-6d0a-4efc-bdd2-a43d214a4fdc.png",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
@@ -75,7 +54,7 @@
         "promotion_card_Ftj9mi": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px.png",
+            "promotion_image": "shopify://shop_images/5_1d20e361-6ce8-4376-885d-1e22c53e9df8.png",
             "promotion_title": "ESTHEDERM",
             "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic!<br/><br/></p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -85,7 +64,7 @@
         "promotion_card_6QdVwr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_1.png",
+            "promotion_image": "shopify://shop_images/7_2cddc5f4-3b40-4a2f-8d32-47e978074b43.png",
             "promotion_title": "ESTHEDERM",
             "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires.</p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -95,7 +74,7 @@
         "promotion_card_CHNQNy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/1_aee55738-c36b-46c3-96c8-6d70af110fd1.webp",
+            "promotion_image": "shopify://shop_images/1_eb2a2a14-5a90-4992-a4e9-fdf720e800e4.png",
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
@@ -105,7 +84,7 @@
         "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_6490169b-b065-4145-b757-88151e8d9f5c.webp",
+            "promotion_image": "shopify://shop_images/3_f1d1aa09-b140-4e8c-9a28-16c59f9db042.png",
             "promotion_title": "COFFRETS DES FÊTES",
             "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -115,7 +94,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_61e74411-deda-4a05-9f4d-3ac26d36c19a.webp",
+            "promotion_image": "shopify://shop_images/13_875600f5-721e-42af-a87c-0fd4456ba75a.png",
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore!<br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -125,7 +104,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/14.webp",
+            "promotion_image": "shopify://shop_images/20_3d577d9c-0edf-40e6-bb28-0f47b9e75059.png",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -134,9 +113,7 @@
         }
       },
       "block_order": [
-        "promotion_card_acD4AE",
         "promotion_card_mCyAz8",
-        "promotion_card_wkU8yp",
         "promotion_card_KdDqzr",
         "promotion_card_PTb6QC",
         "promotion_card_Ftj9mi",
@@ -164,30 +141,10 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_fkjYR9": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_2852abb4-8376-4758-8570-41a0c876e397.webp",
-            "promotion_title": "Kérastase",
-            "promotion_description": "<p><strong>Vendredi Fou du 20 nov. au 2 déc. </strong>plusieurs cadeaux avec achats, du format voyage Nutritive jusqu’aux ensembles avec chandelle, diffuseur et soin Première.<br/>*avant tx et code promo<br/></p>",
-            "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kaaxJD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_05663a7e-c69e-4cc1-83cb-d626b4152b8d.webp",
-            "promotion_title": "L'Oréal Série Expert",
-            "promotion_description": "<p>À l'Achat de 150$* de produits l'Oréal Profesionnel, obtiens gratuitement un duo Vitamino Color Spectrum!</p><p>*avant tx et code promo</p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11.webp",
+            "promotion_image": "shopify://shop_images/17_13c37d63-6d89-4279-95b1-618220a88abd.png",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p>*avant tx et code promo</p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -207,8 +164,6 @@
         }
       },
       "block_order": [
-        "promotion_card_fkjYR9",
-        "promotion_card_kaaxJD",
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW"
       ],
