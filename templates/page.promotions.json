@@ -21,6 +21,16 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_Br6U6t": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
+            "promotion_link": "shopify://collections/bob",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -31,13 +41,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_KdDqzr": {
+        "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_2a80294c-f288-4270-96a4-e6ed5e39910e.png",
-            "promotion_title": "35% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
-            "promotion_link": "shopify://collections/pureology",
+            "promotion_image": "shopify://shop_images/3_f1d1aa09-b140-4e8c-9a28-16c59f9db042.png",
+            "promotion_title": "COFFRETS DES FÊTES",
+            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -51,13 +61,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Br6U6t": {
+        "promotion_card_KdDqzr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
-            "promotion_link": "shopify://collections/bob",
+            "promotion_image": "shopify://shop_images/9_2a80294c-f288-4270-96a4-e6ed5e39910e.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology.</p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -68,6 +78,16 @@
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_CHNQNy": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_eb2a2a14-5a90-4992-a4e9-fdf720e800e4.png",
+            "promotion_title": "IDÉES CADEAUX",
+            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
+            "promotion_link": "shopify://collections/boutique-cadeaux",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -88,26 +108,6 @@
             "promotion_title": "ESTHEDERM",
             "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires.</p>",
             "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_CHNQNy": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_eb2a2a14-5a90-4992-a4e9-fdf720e800e4.png",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_YbzKLB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_f1d1aa09-b140-4e8c-9a28-16c59f9db042.png",
-            "promotion_title": "COFFRETS DES FÊTES",
-            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -133,15 +133,15 @@
         }
       },
       "block_order": [
-        "promotion_card_mCyAz8",
-        "promotion_card_KdDqzr",
-        "promotion_card_GEdgYM",
         "promotion_card_Br6U6t",
+        "promotion_card_mCyAz8",
+        "promotion_card_YbzKLB",
+        "promotion_card_GEdgYM",
+        "promotion_card_KdDqzr",
         "promotion_card_PTb6QC",
+        "promotion_card_CHNQNy",
         "promotion_card_Ftj9mi",
         "promotion_card_6QdVwr",
-        "promotion_card_CHNQNy",
-        "promotion_card_YbzKLB",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
