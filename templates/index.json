@@ -64,7 +64,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Lancement_BOB.webp",
-            "block_background": "#1c1c1c",
+            "block_background": "#000000",
             "text_block_background": "#ffffff",
             "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
