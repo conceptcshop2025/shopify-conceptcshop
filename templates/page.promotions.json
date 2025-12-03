@@ -183,6 +183,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_HUtj3h": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2_a7174409-36b2-4f00-a7eb-990fb12bd4d4.png",
+            "promotion_title": "Oribe",
+            "promotion_description": "<p>À l'Achat de 75$ * de produits Oribe, obtiens gratuitement un ensemble réparation et protection Gold Lust<em>*avant tx et code promo. Exclusivité Web</em></p>",
+            "promotion_link": "shopify://collections/oribe",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "disabled": true,
@@ -198,6 +208,7 @@
       "block_order": [
         "promotion_card_rhVDjF",
         "promotion_card_LgNW4P",
+        "promotion_card_HUtj3h",
         "promotion_card_hfDNFW"
       ],
       "name": "# Promotions list",
