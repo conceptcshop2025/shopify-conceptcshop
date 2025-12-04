@@ -458,6 +458,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_BRYgT7": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_915ac9df-8316-415e-adc6-8c7aa6cbae42.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 17 décembre, obtiens<strong> 30 % de rabais</strong> sur nos meilleurs vendeurs Shu Uemura! *prix déjà réduits</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
@@ -571,6 +581,7 @@
       },
       "block_order": [
         "promotion_card_a9h4Qk",
+        "promotion_card_BRYgT7",
         "promotion_card_fUPDTK",
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
