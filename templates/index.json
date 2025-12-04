@@ -60,6 +60,20 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_n4gyFi": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Marathon_des_Marques_Dec_2025.webp",
+            "block_background": "",
+            "text_block_background": "",
+            "title": "25% DE RABAIS!",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
@@ -101,6 +115,7 @@
         }
       },
       "block_order": [
+        "image_with_text_n4gyFi",
         "image_with_text_8jiqTB",
         "image_with_text_3LUanK",
         "image_with_text_QxKH3t"
