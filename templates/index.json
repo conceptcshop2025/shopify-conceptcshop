@@ -62,7 +62,6 @@
       "blocks": {
         "image_with_text_n4gyFi": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Marathon_des_Marques_Dec_2025.webp",
             "block_background": "#dcefea",
@@ -102,6 +101,7 @@
         },
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
             "block_background": "#1c1c1c",
