@@ -23,7 +23,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>J'ai oublié mon code promo</strong> ",
-            "answer": "<p>Si vous avez omis d'appliquer un code promo lors de votre commande, vous disposez d'un délai de 48 heures à compter de la date de la commande pour nous en informer. Vous pouvez nous contacter par courriel à l'adresse <a href=\"mailto:info@conceptcshop.com\"><span style=\"text-decoration:underline\">info@conceptcshop.com</span></a>. </p><p>Au-delà de cette période de 48 heures, aucun remboursement de code ne sera possible.</p>"
+            "answer": "<p>Si vous avez omis d'appliquer un code promo lors de votre commande, vous disposez d'un délai de 72 heures à compter de la date de la commande pour nous en informer. Vous pouvez nous contacter par courriel à l'adresse <a>info@conceptcshop.com</a></p><p>Au-delà de cette période de 72 heures, aucun remboursement ou ajustement ne pourra être effectué.</p><p>Les codes promo sont jumelables, mais non cumulables entre eux. Ils peuvent être exclus de certaines promotions en cours, notamment lorsque le prix d’un produit est déjà réduit ou intégré à une offre spéciale.<br/></p><p>Veuillez noter que certaines promotions sont exclusives au site web et ne sont pas applicables en succursales.<br/></p>"
           }
         },
         "question-3": {
