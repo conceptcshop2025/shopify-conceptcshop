@@ -58,7 +58,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Ramassage en magasin</strong>",
-            "answer": "<p>L'option de ramassage en magasin est actuellement suspendue. Elle sera de nouveau disponible dans nos deux succursales (Trois-Rivières et Québec en 2025.</p>"
+            "answer": "<p>L'option de ramassage en magasin est actuellement suspendue. Elle sera de nouveau disponible dans nos deux succursales (Trois-Rivières et Québec en 2026).</p>"
           }
         }
       },
@@ -72,6 +72,7 @@
         "question_mNxWjJ"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "",
