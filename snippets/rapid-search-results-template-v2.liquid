@@ -86,6 +86,17 @@
     {{ cart | json }}
   </script>
 
+  {% if collection %}
+  <script type="application/json" id="rpsCollectionInfo">
+    {
+      "id": {{ collection.id | json }},
+      "handle": {{ collection.handle | json }},
+      "title": {{ collection.title | json }},
+      "default_sort_by": {{ collection.default_sort_by | json }}
+    }
+  </script>
+  {% endif %}
+
   <style id="rps-theme-section-style-{{ section.id }}">
     {% if rps_theme_settings.theme_version == 2 %}
       #shopify-section-template{{ section.id }}__search.shopify-section .search-page__header {
