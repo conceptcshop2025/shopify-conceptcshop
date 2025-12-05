@@ -32,3 +32,7 @@ function initBrandMarathon() {
     }
   });
 }
+
+setTimeout(() => {
+  initBrandMarathon();
+}, 1000);
