@@ -448,6 +448,26 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_wTBXR8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_8tfLFH": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
+            "promotion_link": "shopify://collections/bob",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_a9h4Qk": {
           "type": "promotion_card",
           "settings": {
@@ -528,16 +548,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_wTBXR8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -545,16 +555,6 @@
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_8tfLFH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
-            "promotion_link": "shopify://collections/bob",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -580,6 +580,8 @@
         }
       },
       "block_order": [
+        "promotion_card_wTBXR8",
+        "promotion_card_8tfLFH",
         "promotion_card_a9h4Qk",
         "promotion_card_BRYgT7",
         "promotion_card_fUPDTK",
@@ -588,9 +590,7 @@
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
         "promotion_card_MQpabj",
-        "promotion_card_wTBXR8",
         "promotion_card_A9aVXj",
-        "promotion_card_8tfLFH",
         "promotion_card_WByKPp",
         "promotion_card_BPnVjf"
       ],
