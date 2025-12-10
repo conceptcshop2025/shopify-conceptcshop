@@ -458,6 +458,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_6RjbUa": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
+            "promotion_title": "CARTE-CADEAU",
+            "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
+            "promotion_link": "shopify://collections/carte-cadeau",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_8tfLFH": {
           "type": "promotion_card",
           "settings": {
@@ -495,16 +505,6 @@
             "promotion_title": "35% DE RABAIS",
             "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology. <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6RjbUa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
-            "promotion_title": "CARTE-CADEAU",
-            "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
-            "promotion_link": "shopify://collections/carte-cadeau",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -591,11 +591,11 @@
       },
       "block_order": [
         "promotion_card_wTBXR8",
+        "promotion_card_6RjbUa",
         "promotion_card_8tfLFH",
         "promotion_card_a9h4Qk",
         "promotion_card_BRYgT7",
         "promotion_card_fUPDTK",
-        "promotion_card_6RjbUa",
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
         "promotion_card_kinknG",
