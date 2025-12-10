@@ -91,13 +91,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_PTb6QC": {
+        "promotion_card_XW6tdr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_55403355-6d0a-4efc-bdd2-a43d214a4fdc.png",
-            "promotion_title": "BAS DE NOËL",
-            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/les-minis",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
+            "promotion_title": "CARTE-CADEAU",
+            "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
+            "promotion_link": "shopify://collections/carte-cadeau",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -108,6 +108,16 @@
             "promotion_title": "IDÉES CADEAUX",
             "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
             "promotion_link": "shopify://collections/boutique-cadeaux",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_PTb6QC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_55403355-6d0a-4efc-bdd2-a43d214a4fdc.png",
+            "promotion_title": "BAS DE NOËL",
+            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
+            "promotion_link": "shopify://collections/les-minis",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -160,8 +170,9 @@
         "promotion_card_GEdgYM",
         "promotion_card_VcEKhH",
         "promotion_card_KdDqzr",
-        "promotion_card_PTb6QC",
+        "promotion_card_XW6tdr",
         "promotion_card_CHNQNy",
+        "promotion_card_PTb6QC",
         "promotion_card_Ftj9mi",
         "promotion_card_6QdVwr",
         "promotion_card_M9AwAA",
