@@ -448,6 +448,17 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_6RjbUa": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
+            "promotion_title": "CARTE-CADEAU",
+            "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
+            "promotion_link": "shopify://collections/carte-cadeau",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_wTBXR8": {
           "type": "promotion_card",
           "settings": {
@@ -580,6 +591,7 @@
         }
       },
       "block_order": [
+        "promotion_card_6RjbUa",
         "promotion_card_wTBXR8",
         "promotion_card_8tfLFH",
         "promotion_card_a9h4Qk",
