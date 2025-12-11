@@ -1718,6 +1718,29 @@
           "name": "Video"
         }
       }
+    },
+    "custom-header": {
+      "content": "Event Mode",
+      "settings": {
+        "enable_event_mode": {
+          "label": "Enable event mode"
+        },
+        "header-background": {
+          "label": "Header Background",
+          "info": "This setting will also affect the event page or the event collection."
+        },
+        "header_text_color": {
+          "label": "Header text color"
+        },
+        "version_logo": {
+          "label": "Logo style",
+          "options": {
+            "original_option": "Original",
+            "black_option": "Black",
+            "white_option": "White"
+          }
+        }
+      }
     }
   }
 }

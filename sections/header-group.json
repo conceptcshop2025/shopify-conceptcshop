@@ -59,7 +59,11 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "enable_event_mode": false,
+        "header_background": "",
+        "header_text_color": "",
+        "version_logo": "original"
       }
     },
     "171337816813ecb67b": {

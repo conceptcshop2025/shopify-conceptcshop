@@ -68,6 +68,36 @@
   {% endif %}
 </style>
 
+{% liquid 
+  assign event_mode = section.settings.enable_event_mode
+  if event_mode
+    assign header_background = section.settings.header_background
+    assign header_text = section.settings.header_text_color
+    assign logo_src = ""
+
+    case section.settings.version_logo
+      when 'original'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/conceptc-logo-original-fr.webp?v=1765470704'
+        else
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/conceptc-logo-original-en.webp?v=1765470704'
+        endif
+      when 'black'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-noir-fr-resized.png?v=1761850807'
+        else
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-noir-en-resized.png?v=1761920722'
+        endif
+      when 'white'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-resized.png?v=1763043020'
+        else 
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-eng-resized.png?v=1763043020'
+        endif
+    endcase
+  endif
+%}
+
 <height-observer variable="header">
   <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %} color-scheme--scheme-3 {% else %} color-scheme--{{ section.settings.color_scheme.id }}{% endif %}">
     {%- comment -%}
@@ -77,12 +107,8 @@
     {%- endcomment -%}
 
     {%- capture logo_content -%}
-      {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %}
-        {% if request.locale.iso_code == 'fr' %}
-          <img src="https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-resized.png?v=1763043020" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
-        {% else %}
-          <img src="https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-eng-resized.png?v=1763043020" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
-        {% endif %}
+      {% if event_mode %}
+        <img src="{{ logo_src }}" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
       {% else %}
         {%- if section.settings.logo -%}
           {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
@@ -567,6 +593,47 @@
       "id": "transparent_logo",
       "label": "t:sections.header.transparent_header_logo_image",
       "info": "t:sections.header.transparent_header_logo_size_recommendation"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.custom-header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_event_mode",
+      "label": "t:sections.custom-header.settings.enable_event_mode.label",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "header_background",
+      "label": "t:sections.custom-header.settings.header-background.label",
+      "info": "t:sections.custom-header.settings.header-background.info"
+    },
+    {
+      "type": "color",
+      "id": "header_text_color",
+      "label": "t:sections.custom-header.settings.header_text_color.label"
+    },
+    {
+      "type": "select",
+      "id": "version_logo",
+      "label": "t:sections.custom-header.settings.version_logo.label",
+      "options": [
+        {
+          "value": "original",
+          "label": "t:sections.custom-header.settings.version_logo.options.original_option"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.custom-header.settings.version_logo.options.black_option"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.custom-header.settings.version_logo.options.white_option"
+        }
+      ],
+      "default": "original"
     }
   ],
   "blocks": [
