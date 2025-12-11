@@ -60,10 +60,10 @@
         "show_country_flag": true,
         "show_locale_selector": true,
         "transparent_header_text_color": "#ffffff",
-        "enable_event_mode": false,
-        "header_background": "",
-        "header_text_color": "",
-        "version_logo": "original"
+        "enable_event_mode": true,
+        "header_background": "#e92626",
+        "header_text_color": "#ffffff",
+        "version_logo": "white"
       }
     },
     "171337816813ecb67b": {

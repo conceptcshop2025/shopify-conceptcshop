@@ -56,16 +56,6 @@
       }
     }
   {%- endif -%}
-
-  {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %}
-    .header__primary-nav-item a,
-    .header__primary-nav-item summary {
-      font-weight: 600;
-    }
-    .swym-wishlist svg {
-      stroke: #FFFFFF;
-    }
-  {% endif %}
 </style>
 
 {% liquid 
@@ -98,8 +88,40 @@
   endif
 %}
 
+{% if event_mode %}
+  {% style %}
+    x-header.header,
+    .header__dropdown-menu:not(:has(.header__dropdown-menu)),
+    .header__dropdown-menu {
+      background-color: {{ header_background }};
+    }
+
+    .header__primary-nav-item a,
+    .header__primary-nav-item summary {
+      font-weight: 600;
+      color: {{ header_text }};
+    }
+
+    .swym-wishlist svg path {
+      fill: {{ header_text }};
+    }
+
+    .header__secondary-nav {
+      color: {{ header_text }};
+    }
+
+    .header .localization-toggle {
+      color: {{ header_text }};
+    }
+
+    .header__nav-icon path {
+      stroke: {{ header_text }};
+    }
+  {% endstyle %}
+{% endif %}
+
 <height-observer variable="header">
-  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %} color-scheme--scheme-3 {% else %} color-scheme--{{ section.settings.color_scheme.id }}{% endif %}">
+  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
     LOGO AREA
@@ -127,7 +149,7 @@
       {% endif %}
     {%- endcapture -%}
 
-    {%- if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' -%}
+    {%- if event_mode -%}
       <h1 class="header__logo">
         <a href="{{ routes.root_url }}">{{ logo_content }}</a>
       </h1>
@@ -613,7 +635,8 @@
     {
       "type": "color",
       "id": "header_text_color",
-      "label": "t:sections.custom-header.settings.header_text_color.label"
+      "label": "t:sections.custom-header.settings.header_text_color.label",
+      "default": "#454545"
     },
     {
       "type": "select",
