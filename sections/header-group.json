@@ -61,7 +61,7 @@
         "show_locale_selector": true,
         "transparent_header_text_color": "#ffffff",
         "enable_event_mode": true,
-        "header_background": "#e92626",
+        "header_background": "#df2424",
         "header_text_color": "#ffffff",
         "version_logo": "white"
       }
