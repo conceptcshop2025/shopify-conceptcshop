@@ -63,7 +63,8 @@
         "enable_event_mode": true,
         "header_background": "#f11831",
         "header_text_color": "#ffffff",
-        "version_logo": "white"
+        "version_logo": "white",
+        "collection_target": "soldes-vendredi-fou"
       }
     },
     "171337816813ecb67b": {

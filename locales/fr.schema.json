@@ -1739,6 +1739,9 @@
             "black_option": "Noir",
             "white_option": "Blanc"
           }
+        },
+        "collection_target": {
+          "label": "collection d'événement"
         }
       }
     }
