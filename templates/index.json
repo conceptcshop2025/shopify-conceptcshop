@@ -341,10 +341,10 @@
           "settings": {
             "collection": "shampoing",
             "background_item_color": "#f11831",
-            "text_item_color": "#1c1c1c",
+            "text_item_color": "#ffffff",
             "image": "shopify://shop_images/Image_produit_43_e8ebe598-fd13-40cb-91d5-52c641d7155b.png",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#f11831",
+            "overlay_opacity": 40
           }
         },
         "collection_item_MtgM3Y": {
@@ -352,7 +352,8 @@
           "settings": {
             "collection": "shampoing-sec",
             "background_item_color": "#cee0d7",
-            "text_item_color": "#1c1c1c",
+            "text_item_color": "#ffffff",
+            "image": "shopify://shop_images/Slider_Principale_Boxing_Day_2025_1560_x_500_px.png",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
