@@ -59,13 +59,13 @@
 </style>
 
 {% liquid 
-  assign event_mode = section.settings.enable_event_mode
+  assign event_mode = settings.enable_event_mode
   if event_mode
-    assign header_background = section.settings.header_background
-    assign header_text = section.settings.header_text_color
+    assign header_background = settings.header_background
+    assign header_text = settings.header_text_color
     assign logo_src = ""
 
-    case section.settings.version_logo
+    case settings.version_logo
       when 'original'
         if request.locale.iso_code == 'fr'
           assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/conceptc-logo-original-fr.webp?v=1765470704'
@@ -615,53 +615,6 @@
       "id": "transparent_logo",
       "label": "t:sections.header.transparent_header_logo_image",
       "info": "t:sections.header.transparent_header_logo_size_recommendation"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.custom-header.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_event_mode",
-      "label": "t:sections.custom-header.settings.enable_event_mode.label",
-      "default": false
-    },
-    {
-      "type": "color",
-      "id": "header_background",
-      "label": "t:sections.custom-header.settings.header-background.label",
-      "info": "t:sections.custom-header.settings.header-background.info"
-    },
-    {
-      "type": "color",
-      "id": "header_text_color",
-      "label": "t:sections.custom-header.settings.header_text_color.label",
-      "default": "#454545"
-    },
-    {
-      "type": "select",
-      "id": "version_logo",
-      "label": "t:sections.custom-header.settings.version_logo.label",
-      "options": [
-        {
-          "value": "original",
-          "label": "t:sections.custom-header.settings.version_logo.options.original_option"
-        },
-        {
-          "value": "black",
-          "label": "t:sections.custom-header.settings.version_logo.options.black_option"
-        },
-        {
-          "value": "white",
-          "label": "t:sections.custom-header.settings.version_logo.options.white_option"
-        }
-      ],
-      "default": "original"
-    },
-    {
-      "type": "collection",
-      "id": "collection_target",
-      "label": "t:sections.custom-header.settings.collection_target.label"
     }
   ],
   "blocks": [
