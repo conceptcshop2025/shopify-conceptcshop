@@ -56,20 +56,72 @@
       }
     }
   {%- endif -%}
+</style>
 
-  {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %}
+{% liquid 
+  assign event_mode = settings.enable_event_mode
+  if event_mode
+    assign header_background = settings.header_background
+    assign header_text = settings.header_text_color
+    assign logo_src = ""
+
+    case settings.version_logo
+      when 'original'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/conceptc-logo-original-fr.webp?v=1765470704'
+        else
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/conceptc-logo-original-en.webp?v=1765470704'
+        endif
+      when 'black'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-noir-fr-resized.png?v=1761850807'
+        else
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-noir-en-resized.png?v=1761920722'
+        endif
+      when 'white'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-resized.png?v=1763043020'
+        else 
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-eng-resized.png?v=1763043020'
+        endif
+    endcase
+  endif
+%}
+
+{% if event_mode %}
+  {% style %}
+    x-header.header,
+    .header__dropdown-menu:not(:has(.header__dropdown-menu)),
+    .header__dropdown-menu {
+      background-color: {{ header_background }};
+    }
+
     .header__primary-nav-item a,
     .header__primary-nav-item summary {
       font-weight: 600;
+      color: {{ header_text }};
     }
-    .swym-wishlist svg {
-      stroke: #FFFFFF;
+
+    .swym-wishlist svg path {
+      fill: {{ header_text }};
     }
-  {% endif %}
-</style>
+
+    .header__secondary-nav {
+      color: {{ header_text }};
+    }
+
+    .header .localization-toggle {
+      color: {{ header_text }};
+    }
+
+    .header__nav-icon path {
+      stroke: {{ header_text }};
+    }
+  {% endstyle %}
+{% endif %}
 
 <height-observer variable="header">
-  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %} color-scheme--scheme-3 {% else %} color-scheme--{{ section.settings.color_scheme.id }}{% endif %}">
+  <x-header {% if section.settings.hide_on_scroll and section.settings.enable_sticky %}hide-on-scroll{% endif %} class="header color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
     LOGO AREA
@@ -77,12 +129,8 @@
     {%- endcomment -%}
 
     {%- capture logo_content -%}
-      {% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %}
-        {% if request.locale.iso_code == 'fr' %}
-          <img src="https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-resized.png?v=1763043020" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
-        {% else %}
-          <img src="https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-eng-resized.png?v=1763043020" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
-        {% endif %}
+      {% if event_mode %}
+        <img src="{{ logo_src }}" alt="{{ shop.name }}" title="{{ shop.name }}" class="header__logo-image" width="300" height="118" />
       {% else %}
         {%- if section.settings.logo -%}
           {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
@@ -101,7 +149,7 @@
       {% endif %}
     {%- endcapture -%}
 
-    {%- if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' -%}
+    {%- if event_mode -%}
       <h1 class="header__logo">
         <a href="{{ routes.root_url }}">{{ logo_content }}</a>
       </h1>

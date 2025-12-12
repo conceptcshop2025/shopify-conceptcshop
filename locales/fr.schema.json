@@ -1718,6 +1718,32 @@
           "name": "Vidéo"
         }
       }
+    },
+    "custom-header": {
+      "content": "Mode d'événement",
+      "settings": {
+        "enable_event_mode": {
+          "label": "Activer le mode d'événement"
+        },
+        "header-background": {
+          "label": "Header Background",
+          "info": "Ce paramètre affectera également la page d'événement ou la collection d'événements."
+        },
+        "header_text_color": {
+          "label": "Couleur du texte de l'en-tête"
+        },
+        "version_logo": {
+          "label": "Style de logo",
+          "options": {
+            "original_option": "Original",
+            "black_option": "Noir",
+            "white_option": "Blanc"
+          }
+        },
+        "collection_target": {
+          "label": "collection d'événement"
+        }
+      }
     }
   }
 }

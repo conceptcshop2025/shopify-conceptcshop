@@ -16,8 +16,34 @@
     {% if section.blocks.size > 0 %}
       <div class="collection-tags-wrapper" id="collection-tags-container">
         {% for bullet in section.blocks %}
-          <a href="{{ bullet.settings.collection.url }}" class="tag tag-collection tag-collection-bullet tag-index--{{ forloop.index }}" role="link" tabindex="0" style="background-color: {{ bullet.settings.background_item_color }}; color: {{ bullet.settings.text_item_color }};">
-            {{ bullet.settings.collection.title }}
+          {% style %}
+            .tag.tag-collection.tag-collection-bullet.tag-index--{{ forloop.index }} {
+              position: relative;
+              overflow: hidden;
+              {% if bullet.settings.image == blank  %}
+                background-color: {{ bullet.settings.background_item_color }};
+              {% else %}
+                background-image: url({{ bullet.settings.image | image_url: width: 180, height: 180  }});
+                background-size: cover;
+              {% endif %}
+              color: {{ bullet.settings.text_item_color }};
+            }
+
+            .tag.tag-collection.tag-collection-bullet.tag-index--{{ forloop.index }}:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+              background: {{ bullet.settings.overlay_color }};
+              opacity: {{ bullet.settings.overlay_opacity | times: 0.01 }};
+            }
+          {% endstyle %}
+
+          <a href="{{ bullet.settings.collection.url }}" class="tag tag-collection tag-collection-bullet tag-index--{{ forloop.index }}" role="link" tabindex="0">
+            <span>{{ bullet.settings.collection.title }}</span>
           </a>
         {% endfor %}
       </div>

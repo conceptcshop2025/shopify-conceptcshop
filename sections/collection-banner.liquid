@@ -7,7 +7,28 @@
 {% liquid
   assign collection_father = collection.metafields.custom.collection_father
   assign subcollections = collection.metafields.custom.subcollections.value
+
+  assign event_mode = settings.enable_event_mode
+  if event_mode
+    assign header_background = settings.header_background
+    assign header_text = settings.header_text_color
+    assign collection_event = settings.collection_target
+  endif
 %}
+
+{% if collection_event == collection.handle and event_mode %}
+  {% style %}
+    #section--{{ section.id }}.section-collection-banner {
+      background: {{ header_background }};
+      color: {{ header_text }};
+    }
+
+    #section--{{ section.id }}.section-collection-banner .breadcrumb__list-item a,
+    #section--{{ section.id }}.section-collection-banner .breadcrumb__list-item:before {
+      color: {{ header_text }};
+    }
+  {% endstyle %}
+{% endif %}
 
 
 {%- capture collection_breadcrumb -%}
@@ -104,7 +125,7 @@
     }
 
     {% endstyle %}
-    <div class="relative section-spacing section-spacing--tight section-collection-banner">
+    <div class="relative section-spacing section-spacing--tight section-collection-banner" id="section--{{ section.id }}">
       <div class="container container--{{ section.settings.content_width }}">
         {{- collection_breadcrumb -}}
 

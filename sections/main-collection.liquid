@@ -109,11 +109,73 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-{% if collection.handle == 'vente-annuelle' or collection.handle == 'soldes-vendredi-fou' %}
-  {{ 'custom-vente-anuelle-2025.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign collection_father = collection.metafields.custom.collection_father
+  assign subcollections = collection.metafields.custom.subcollections.value
+
+  assign event_mode = settings.enable_event_mode
+  if event_mode
+    assign header_background = settings.header_background
+    assign header_text = settings.header_text_color
+    assign collection_event = settings.collection_target
+  endif
+%}
+
+{% if collection_event == collection.handle and event_mode %}
+  {% style %}
+    #section--{{ section.id }},
+    #section--{{ section.id }} .collection-toolbar {
+      background: {{ header_background }};
+      color: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .price-range .range,
+    #section--{{ section.id }} .price-range .range::-webkit-slider-thumb,
+    #section--{{ section.id }} .accordion__content .dot-checkbox,
+    #section--{{ section.id }} .product-card .product-card__media {
+      background: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .price-range .input-group .input-prefix {
+      border-color: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .price-range .input-group .input-prefix,
+    #section--{{ section.id }} .price-range .input-group .input-prefix::placeholder,
+    #section--{{ section.id }} .price-range .input-group .text-subdued,
+    #section--{{ section.id }} .price-range .input-group .input-prefix input::placeholder,
+    #section--{{ section.id }} .collection-toolbar__products-count {
+      color: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .removable-facet facet-link a svg path {
+      stroke: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .removable-facet .text-subdued,
+    #section--{{ section.id }} .facets-clear-all,
+    #section--{{ section.id }} .product-card .text-on-sale,
+    #section--{{ section.id }} .product-card sale-price:not(.text-on-sale),
+    #section--{{ section.id }} .product-card .rating-badge .smallcaps {
+      color: {{ header_text }};
+    }
+
+    #section--{{ section.id }} .product-card {
+      border-radius: .5rem .5rem 0 0;
+    }
+
+    #section--{{ section.id }} .product-card .shopify-product-form button,
+    #section--{{ section.id }} .product-card .back_in_stock_button {
+      --initial-gradient: linear-gradient({{ header_text }}, {{ header_text }});
+    }
+
+    #section--{{ section.id }} .rating-badge__stars svg path {
+      fill: {{ header_text }};
+    }
+  {% endstyle %}
 {% endif %}
 
-<div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
+<div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }}" id="section--{{ section.id }}">
   <div class="container">
     <div class="v-stack gap-6 sm:gap-12">
       {%- if collection.all_products_count == 0 -%}

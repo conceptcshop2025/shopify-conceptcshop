@@ -833,5 +833,53 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
+  },
+  {
+    "name": "t:sections.custom-header.content",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_event_mode",
+        "label": "t:sections.custom-header.settings.enable_event_mode.label",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "header_background",
+        "label": "t:sections.custom-header.settings.header-background.label",
+        "info": "t:sections.custom-header.settings.header-background.info"
+      },
+      {
+        "type": "color",
+        "id": "header_text_color",
+        "label": "t:sections.custom-header.settings.header_text_color.label",
+        "default": "#454545"
+      },
+      {
+        "type": "select",
+        "id": "version_logo",
+        "label": "t:sections.custom-header.settings.version_logo.label",
+        "options": [
+          {
+            "value": "original",
+            "label": "t:sections.custom-header.settings.version_logo.options.original_option"
+          },
+          {
+            "value": "black",
+            "label": "t:sections.custom-header.settings.version_logo.options.black_option"
+          },
+          {
+            "value": "white",
+            "label": "t:sections.custom-header.settings.version_logo.options.white_option"
+          }
+        ],
+        "default": "original"
+      },
+      {
+        "type": "collection",
+        "id": "collection_target",
+        "label": "t:sections.custom-header.settings.collection_target.label"
+      }
+    ]
   }
 ]
