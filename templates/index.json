@@ -340,21 +340,20 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#f11831",
+            "background_item_color": "#cb2b2b",
             "text_item_color": "#ffffff",
-            "image": "shopify://shop_images/Image_produit_43_e8ebe598-fd13-40cb-91d5-52c641d7155b.png",
             "overlay_color": "#f11831",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "collection_item_MtgM3Y": {
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#cee0d7",
+            "background_item_color": "#cb2b2b",
             "text_item_color": "#ffffff",
-            "image": "shopify://shop_images/Slider_Principale_Boxing_Day_2025_1560_x_500_px.png",
-            "overlay_color": "#000000",
+            "image": "shopify://shop_images/Pastilles_Site_Boxing_Day.png",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         },
@@ -362,8 +361,9 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#cee0d7",
-            "text_item_color": "#1c1c1c",
+            "background_item_color": "#cb2b2b",
+            "text_item_color": "#000000",
+            "image": "shopify://shop_images/Pastilles_Site_Boxing_Day_1.png",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -373,7 +373,7 @@
           "settings": {
             "collection": "revitalisant-sans-rincage",
             "background_item_color": "#cee0d7",
-            "text_item_color": "#1c1c1c",
+            "text_item_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -442,7 +442,7 @@
       ],
       "name": "# Collection bullet list",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -453,7 +453,7 @@
         "promotion_card_wTBXR8": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_4ac1806a-26ae-4a07-ab2a-1244f2c5a66a.png",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
@@ -463,7 +463,7 @@
         "promotion_card_6RjbUa": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_1_a8060478-5155-4d5e-81dc-b84ebe657eae.png",
             "promotion_title": "CARTE-CADEAU",
             "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
             "promotion_link": "shopify://collections/carte-cadeau",
@@ -473,7 +473,7 @@
         "promotion_card_8tfLFH": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2_ca24e774-7d17-48ae-bb1f-3ad3111102d3.png",
             "promotion_title": "20% DE RABAIS",
             "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
             "promotion_link": "shopify://collections/bob",
