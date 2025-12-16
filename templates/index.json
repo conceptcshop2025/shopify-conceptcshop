@@ -62,12 +62,12 @@
         "image_with_text_n4gyFi": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Top_10_2025_1.webp",
+            "image": "shopify://shop_images/Top_10_2025_1_83f7d70c-cb48-43b8-8cde-2fc56ba50fd9.webp",
             "block_background": "#000000",
             "text_block_background": "#ffffff",
             "title": "<strong>JUSQU'À 50% DE RABAIS!</strong>",
             "heading_tag": "h3",
-            "content": "<p>Jusqu’au 25 décembre seulement, obtenez <strong>jusqu’à 50 % de rabais</strong> sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.<br/><br/><br/><br/><br/><br/></p>",
+            "content": "<p>Jusqu’au 25 décembre seulement, obtenez <strong>jusqu’à 50 % de rabais</strong> sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.<br/></p>",
             "link_url": "shopify://pages/le-marathon",
             "link_text": "magasiner"
           }
