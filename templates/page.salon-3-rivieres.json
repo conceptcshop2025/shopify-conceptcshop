@@ -13,6 +13,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
@@ -39,6 +40,7 @@
         "subheading_hgKgNA"
       ],
       "settings": {
+        "color_scheme": "",
         "image_size": "xs",
         "image": "shopify://shop_images/Design_sans_titre_43_95d8c3d0-9782-44f2-b991-faf6f9c2bdb0.png",
         "allow_transparent_header": false,
@@ -86,7 +88,7 @@
         "richtext_W3nK3w": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Heures d'ouvertures</strong><br/>Lundi: Fermé<br/>Mardi: 9:00 - 18:30<br/>Mercredi: 9:00 - 20:00<br/>Jeudi: 9:00 - 20:00<br/>Vendredi: 9:00 -17:30<br/>Samedi: Fermé<br/>Dimanche: Fermé</p>"
+            "content": "<p><strong>Heures d'ouvertures</strong><br/>Lundi: Fermé<br/>Mardi: 9:30 - 20:00<br/>Mercredi: 9:00 - 20:00<br/>Jeudi: 9:00 - 20:00<br/>Vendredi: 9:00 -18:00<br/>Samedi: Fermé<br/>Dimanche: Fermé</p>"
           }
         }
       },
@@ -98,6 +100,7 @@
         "richtext_W3nK3w"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Design_sans_titre_44_5dd2a6a8-c31b-43ab-baa6-e1cad292a4c2.png",
         "reveal_on_scroll": true,
@@ -112,6 +115,7 @@
         "image_69bwDt": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165353.874.png",
             "column_count": "8",
             "row_count": 2,
@@ -129,6 +133,7 @@
         "image_FyKbWe": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165450.815.png",
             "column_count": "4",
             "row_count": 1,
@@ -146,6 +151,7 @@
         "image_Nf7PBD": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165517.541.png",
             "column_count": "4",
             "row_count": 1,
@@ -167,6 +173,7 @@
         "image_Nf7PBD"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
