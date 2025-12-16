@@ -72,19 +72,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_8jiqTB": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_BOB.webp",
-            "block_background": "#000000",
-            "text_block_background": "#ffffff",
-            "title": "<strong>20% DE RABAIS!</strong>",
-            "heading_tag": "h4",
-            "content": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
-            "link_url": "shopify://collections/bob",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
@@ -95,6 +82,19 @@
             "heading_tag": "h4",
             "content": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_8jiqTB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Creation_sans_titre.webp",
+            "block_background": "#000000",
+            "text_block_background": "#ffffff",
+            "title": "<strong>CARTE-CADEAU</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Faites plaisir sans vous tromper grâce avec nos cartes cadeaux électroniques, valides en ligne et en succursale, envoyée instantanément par courriel.</p>",
+            "link_url": "shopify://collections/carte-cadeau",
             "link_text": "magasiner"
           }
         },
@@ -115,8 +115,8 @@
       },
       "block_order": [
         "image_with_text_n4gyFi",
-        "image_with_text_8jiqTB",
         "image_with_text_3LUanK",
+        "image_with_text_8jiqTB",
         "image_with_text_QxKH3t"
       ],
       "disabled": true,
