@@ -32,7 +32,7 @@
         "message-1"
       ],
       "settings": {
-        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
+        "color_scheme": "scheme-3",
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 5,
@@ -66,12 +66,7 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff",
-        "enable_event_mode": true,
-        "header_background": "#f11831",
-        "header_text_color": "#ffffff",
-        "version_logo": "white",
-        "collection_target": "soldes-vendredi-fou"
+        "transparent_header_text_color": "#ffffff"
       }
     },
     "171337816813ecb67b": {
