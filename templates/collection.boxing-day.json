@@ -48,6 +48,7 @@
         "question_hT7NPg",
         "question_mrwMzw"
       ],
+      "disabled": true,
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
         "color_scheme": "scheme-227e750f-6f17-4337-afab-ec76906214c6",
