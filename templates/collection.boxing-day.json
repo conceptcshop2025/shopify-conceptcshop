@@ -26,6 +26,30 @@
         "overlay_opacity": 30
       }
     },
+    "faq_4hGN9Y": {
+      "type": "faq",
+      "blocks": {
+        "question_hT7NPg": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_hT7NPg"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "name": "# Collection tags",
@@ -62,6 +86,7 @@
   },
   "order": [
     "collection-banner",
+    "faq_4hGN9Y",
     "custom_collection_tags_DdQdc6",
     "main"
   ]
