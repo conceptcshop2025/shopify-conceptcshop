@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_3aCrmk": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>Achetez avant le 17 décembre pour recevoir votre commande avant Noël!</strong>"
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -22,6 +28,7 @@
         }
       },
       "block_order": [
+        "message_3aCrmk",
         "message-1"
       ],
       "settings": {
