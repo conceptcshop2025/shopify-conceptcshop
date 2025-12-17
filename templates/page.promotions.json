@@ -21,26 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_pdgWJm": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_0d329f49-e668-4073-9d61-d042c89e5438.webp",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<p>Le <strong>Marathon des Marques</strong> est de retour! <strong>14 jours, 14 marques et 25 % de rabais </strong>chaque jour, avec seulement 24 h pour en profiter. <em>*rabais appliqué au panier</em></p>",
-            "promotion_link": "shopify://pages/le-marathon",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Br6U6t": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
-            "promotion_link": "shopify://collections/bob",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -163,8 +143,6 @@
         }
       },
       "block_order": [
-        "promotion_card_pdgWJm",
-        "promotion_card_Br6U6t",
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
         "promotion_card_YbzKLB",
@@ -226,13 +204,22 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_BJF8hT": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_4f2e83bd-284b-4e9e-b28e-954fda144a53.png",
+            "promotion_title": "L'Oréal",
+            "promotion_description": "<p>À l'achat de 75$ * de produits l’Oréal, obtiens Urban Decay. Vaporisateur Fixateur de Maquillage Hydrofuge All Nighter - 30 ml! *avant tx et code promo. <br/><br/></p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_500_x_300_px_1_b100dd5f-5aed-4829-a0f9-68fda610a230.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_bbba689f-abb6-4d53-8735-0a9a69893ee8.webp",
             "promotion_title": "Moroccanoil",
-            "promotion_description": "<p>À l’achat de 50$ de produits Moroccanoil, obtiens gratuitement une crème pour les mains 15 ml! *exclusivité web | avant tx et code promo</p>",
+            "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
@@ -242,6 +229,7 @@
         "promotion_card_rhVDjF",
         "promotion_card_LgNW4P",
         "promotion_card_HUtj3h",
+        "promotion_card_BJF8hT",
         "promotion_card_hfDNFW"
       ],
       "name": "# Promotions list",

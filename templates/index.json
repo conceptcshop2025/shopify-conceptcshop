@@ -43,6 +43,7 @@
       "block_order": [
         "image_m9i4GY"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -62,26 +63,13 @@
         "image_with_text_n4gyFi": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Marathon_des_Marques_Dec_2025.webp",
-            "block_background": "#dcefea",
-            "text_block_background": "",
-            "title": "<strong>25% DE RABAIS!</strong>",
-            "heading_tag": "h3",
-            "content": "<p>Le <strong>Marathon des Marques</strong> est de retour! <strong>14 jours, 14 marques et 25 % de rabais </strong>chaque jour, avec seulement 24 h pour en profiter. <em>*Rabais appliqué au panier.</em><br/><br/></p>",
-            "link_url": "shopify://pages/le-marathon",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_8jiqTB": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Lancement_BOB.webp",
+            "image": "shopify://shop_images/Top_10_2025_1_83f7d70c-cb48-43b8-8cde-2fc56ba50fd9.webp",
             "block_background": "#000000",
             "text_block_background": "#ffffff",
-            "title": "<strong>20% DE RABAIS!</strong>",
-            "heading_tag": "h4",
-            "content": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu. *rabais appliqué au panier</p>",
-            "link_url": "shopify://collections/bob",
+            "title": "<strong>JUSQU'À 50% DE RABAIS!</strong>",
+            "heading_tag": "h3",
+            "content": "<p>Jusqu’au 25 décembre seulement, obtenez <strong>jusqu’à 50 % de rabais</strong> sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.<br/></p>",
+            "link_url": "shopify://collections/promo-du-moment-2",
             "link_text": "magasiner"
           }
         },
@@ -93,8 +81,21 @@
             "text_block_background": "#ffffff",
             "title": "<strong>Promo outils</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusqu'à <strong>50% de rabais </strong>sur plus de <strong>200 outils </strong>chauffants!</p>",
+            "content": "<p>Jusqu’au 1er janvier, économisez <strong>jusqu’à 50 %</strong> sur plus de 200 outils chauffants. *Prix déjà réduits.<br/><br/></p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_8jiqTB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Cartes-Cadeaux.webp",
+            "block_background": "#000000",
+            "text_block_background": "#ffffff",
+            "title": "<strong>CARTE-CADEAU</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Faites plaisir sans vous tromper grâce avec nos cartes <strong>cadeaux électroniques</strong>, valides en ligne et en succursale, <strong>envoyée instantanément par courriel.</strong></p>",
+            "link_url": "shopify://collections/carte-cadeau",
             "link_text": "magasiner"
           }
         },
@@ -115,11 +116,10 @@
       },
       "block_order": [
         "image_with_text_n4gyFi",
-        "image_with_text_8jiqTB",
         "image_with_text_3LUanK",
+        "image_with_text_8jiqTB",
         "image_with_text_QxKH3t"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -450,16 +450,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_wTBXR8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_6RjbUa": {
           "type": "promotion_card",
           "settings": {
@@ -467,16 +457,6 @@
             "promotion_title": "CARTE-CADEAU",
             "promotion_description": "<p>La carte qui ouvre la porte aux essentiels beauté les plus aimés. À offrir, sans hésiter!<br/><br/></p>",
             "promotion_link": "shopify://collections/carte-cadeau",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_8tfLFH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p><strong>Lancement B.O.B!</strong> Marque canadienne de soins capillaires clean et efficaces, pensée pour offrir des résultats visibles sans superflu.<em> *rabais appliqué au panier</em></p>",
-            "promotion_link": "shopify://collections/bob",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -560,6 +540,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_wTBXR8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_hPp4B9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_59b4fcca-66f2-437e-b4bb-f48b92412168.webp",
+            "promotion_title": "JUSQU'À 50% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 25 décembre seulement, obtenez<strong>jusqu’à 50 % de rabais</strong>sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -592,9 +592,7 @@
         }
       },
       "block_order": [
-        "promotion_card_wTBXR8",
         "promotion_card_6RjbUa",
-        "promotion_card_8tfLFH",
         "promotion_card_a9h4Qk",
         "promotion_card_BRYgT7",
         "promotion_card_fUPDTK",
@@ -603,6 +601,8 @@
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
         "promotion_card_MQpabj",
+        "promotion_card_wTBXR8",
+        "promotion_card_hPp4B9",
         "promotion_card_A9aVXj",
         "promotion_card_WByKPp",
         "promotion_card_BPnVjf"

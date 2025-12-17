@@ -7967,3 +7967,7 @@ ul {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.text-on-sale.h4 {
+  font-weight: bold;
+}
