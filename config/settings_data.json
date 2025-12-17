@@ -37,7 +37,7 @@
     "social_instagram": "https://www.instagram.com/conceptcshop/",
     "social_tiktok": "https://www.tiktok.com/@conceptcshop",
     "favicon": "shopify://shop_images/conceptcshop.com.png",
-    "enable_event_mode": false,
+    "enable_event_mode": true,
     "header_background": "#cb2b2b",
     "header_text_color": "#ffffff",
     "version_logo": "white",
@@ -315,6 +315,17 @@
           "background": "#fff500",
           "background_gradient": "",
           "text_color": "#454545",
+          "primary_button_background": "#e4c0ae",
+          "primary_button_text_color": "#454545",
+          "circle_button_background": "#e4c0ae",
+          "circle_button_icon": "#454545"
+        }
+      },
+      "scheme-227e750f-6f17-4337-afab-ec76906214c6": {
+        "settings": {
+          "background": "#cb2b2b",
+          "background_gradient": "",
+          "text_color": "#ffffff",
           "primary_button_background": "#e4c0ae",
           "primary_button_text_color": "#454545",
           "circle_button_background": "#e4c0ae",
