@@ -448,16 +448,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_wTBXR8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_6RjbUa": {
           "type": "promotion_card",
           "settings": {
@@ -548,6 +538,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_wTBXR8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
+            "promotion_title": "PROMO OUTILS",
+            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_hPp4B9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_59b4fcca-66f2-437e-b4bb-f48b92412168.webp",
+            "promotion_title": "JUSQU'À 50% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 25 décembre seulement, obtenez<strong>jusqu’à 50 % de rabais</strong>sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -580,7 +590,6 @@
         }
       },
       "block_order": [
-        "promotion_card_wTBXR8",
         "promotion_card_6RjbUa",
         "promotion_card_a9h4Qk",
         "promotion_card_BRYgT7",
@@ -590,6 +599,8 @@
         "promotion_card_kinknG",
         "promotion_card_3EbYeD",
         "promotion_card_MQpabj",
+        "promotion_card_wTBXR8",
+        "promotion_card_hPp4B9",
         "promotion_card_A9aVXj",
         "promotion_card_WByKPp",
         "promotion_card_BPnVjf"
