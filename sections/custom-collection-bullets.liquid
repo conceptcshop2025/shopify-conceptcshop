@@ -27,6 +27,7 @@
                 background-size: cover;
               {% endif %}
               color: {{ bullet.settings.text_item_color }};
+              border-color: {{ bullet.settings.border_item_color }};
             }
 
             .tag.tag-collection.tag-collection-bullet.tag-index--{{ forloop.index }}:before {
@@ -184,6 +185,12 @@
           "id": "background_item_color",
           "label": "Background color",
           "default": "#efefef"
+        },
+        {
+          "type": "color",
+          "id": "border_item_color",
+          "label": "Border color",
+          "default": "#CEE0D7"
         },
         {
           "type": "color",
