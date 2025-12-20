@@ -341,6 +341,7 @@
           "settings": {
             "collection": "shampoing",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -351,6 +352,7 @@
           "settings": {
             "collection": "shampoing-sec",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -361,6 +363,7 @@
           "settings": {
             "collection": "revitalisant-1",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -371,6 +374,7 @@
           "settings": {
             "collection": "revitalisant-sans-rincage",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -381,6 +385,7 @@
           "settings": {
             "collection": "traitement",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -391,6 +396,7 @@
           "settings": {
             "collection": "produits-de-coiffage",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -401,6 +407,7 @@
           "settings": {
             "collection": "produits-de-coloration",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -411,6 +418,7 @@
           "settings": {
             "collection": "outils-accessoires",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -421,6 +429,7 @@
           "settings": {
             "collection": "outils-de-coiffure",
             "background_item_color": "#cee0d7",
+            "border_item_color": "#cee0d7",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -455,16 +464,6 @@
             "promotion_title": "CARTE-CADEAU",
             "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes<strong>cadeaux électroniques</strong>, valides en ligne et en succursale,<strong>envoyée instantanément par courriel.</strong><br/><br/></p>",
             "promotion_link": "shopify://collections/carte-cadeau",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_a9h4Qk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/12.png",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 19 décembre, obtenez <strong>15% de rabais </strong>sur les meilleurs vendeurs chez Kérastase! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -581,7 +580,6 @@
       },
       "block_order": [
         "promotion_card_6RjbUa",
-        "promotion_card_a9h4Qk",
         "promotion_card_fUPDTK",
         "promotion_card_YG48YR",
         "promotion_card_TcjCNj",
