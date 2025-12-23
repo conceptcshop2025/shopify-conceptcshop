@@ -153,24 +153,24 @@ LIQUID
     }
 
     #section--{{ section.id }} .removable-facet .text-subdued,
-    #section--{{ section.id }} .facets-clear-all,
-    #section--{{ section.id }} .product-card .text-on-sale,
-    #section--{{ section.id }} .product-card sale-price:not(.text-on-sale),
-    #section--{{ section.id }} .product-card .rating-badge .smallcaps {
+    #section--{{ section.id }} .facets-clear-all {
       color: {{ header_text }};
     }
 
     #section--{{ section.id }} .product-card {
+      border: 0;
+    }
+
+    #section--{{ section.id }} .product-card .product-card__media {
       border-radius: .5rem .5rem 0 0;
     }
 
-    #section--{{ section.id }} .product-card .shopify-product-form button,
-    #section--{{ section.id }} .product-card .back_in_stock_button {
-      --initial-gradient: linear-gradient({{ header_text }}, {{ header_text }});
+    #section--{{ section.id }} .product-card .product-card__info {
+      background-color: {{ header_text }};
     }
 
-    #section--{{ section.id }} .rating-badge__stars svg path {
-      fill: {{ header_text }};
+    #section--{{ section.id }} .product-card .product-card__info .product-title {
+      color: #454545;
     }
   {% endstyle %}
 {% endif %}

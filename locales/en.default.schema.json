@@ -1737,7 +1737,8 @@
           "options": {
             "original_option": "Original",
             "black_option": "Black",
-            "white_option": "White"
+            "white_option": "White",
+            "christmas_option": "Christmas"
           }
         },
         "collection_target": {

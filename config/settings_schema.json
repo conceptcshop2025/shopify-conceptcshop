@@ -871,6 +871,10 @@
           {
             "value": "white",
             "label": "t:sections.custom-header.settings.version_logo.options.white_option"
+          },
+          {
+            "value": "christmas",
+            "label": "t:sections.custom-header.settings.version_logo.options.christmas_option"
           }
         ],
         "default": "original"

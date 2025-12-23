@@ -84,6 +84,12 @@
         else 
           assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/new-logo-blanc-eng-resized.png?v=1763043020'
         endif
+      when 'christmas'
+        if request.locale.iso_code == 'fr'
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-christmas-fr-resized.png?v=1766504642'
+        else 
+          assign logo_src = 'https://cdn.shopify.com/s/files/1/0025/5695/2637/files/logo-christmas-en-resized.png?v=1766504642'
+        endif
     endcase
   endif
 %}

@@ -112,7 +112,7 @@ Supported variables
       }
 
       .product-card .container-title-price {
-        grid-template-rows: 50px 21px;
+        grid-template-rows: minmax(50px, 60px) 21px;
       }
     }
   {% endstyle %}
@@ -190,7 +190,7 @@ Supported variables
           <div class="v-stack justify-items-center gap-1 container-title-price">
             {%- if show_title -%}
               <a href="{{ product.url }}" class="product-title {% if text_class != blank %}{{ text_class }}{% endif %} {% if settings.product_title_max_lines > 0 %}line-clamp{% endif %}" {% if settings.product_title_max_lines > 0 %}style="--line-clamp-count: {{ settings.product_title_max_lines }}"{% endif %} data-instant>
-                {{- product.title | truncate: 63 -}}
+                {{- product.title | truncate: 55 -}}
               </a>
             {%- endif -%}
 
