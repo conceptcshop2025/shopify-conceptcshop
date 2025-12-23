@@ -152,6 +152,17 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_6gY4BE": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_aebcce10-68e6-4e30-b03e-74f6c610062a.png",
+            "promotion_title": "Kérastase",
+            "promotion_description": "<p>À l'achat de 160$ * de produits Kérastase, obtiens gratuitement une pochette et un crème de jour Curl Manifesto!</p><p><em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
@@ -204,6 +215,7 @@
         }
       },
       "block_order": [
+        "promotion_card_6gY4BE",
         "promotion_card_rhVDjF",
         "promotion_card_LgNW4P",
         "promotion_card_HUtj3h",
