@@ -155,7 +155,7 @@
         "promotion_card_6gY4BE": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_aebcce10-68e6-4e30-b03e-74f6c610062a.png",
+            "promotion_image": "shopify://shop_images/11_bca7a480-9ced-47bb-b818-b76c2f1d9397.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>À l'achat de 160$ * de produits Kérastase, obtiens gratuitement une pochette et un crème de jour Curl Manifesto!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -165,50 +165,50 @@
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/17_13c37d63-6d89-4279-95b1-618220a88abd.png",
+            "promotion_image": "shopify://shop_images/10.png",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_LgNW4P": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px.webp",
-            "promotion_title": "Balmain",
-            "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_HUtj3h": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_2_a7174409-36b2-4f00-a7eb-990fb12bd4d4.png",
+            "promotion_image": "shopify://shop_images/13_bef73d89-3d78-4757-b169-b02465c56876.png",
             "promotion_title": "Oribe",
             "promotion_description": "<p>À l'Achat de 75$ * de produits Oribe, obtiens gratuitement un ensemble réparation et protection Gold Lust<em>*avant tx et code promo. Exclusivité Web.</em></p>",
             "promotion_link": "shopify://collections/oribe",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_BJF8hT": {
+        "promotion_card_LgNW4P": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_4f2e83bd-284b-4e9e-b28e-954fda144a53.png",
-            "promotion_title": "L'Oréal",
-            "promotion_description": "<p>À l'achat de 75$ * de produits l’Oréal, obtiens Urban Decay. Vaporisateur Fixateur de Maquillage Hydrofuge All Nighter - 30 ml! *avant tx et code promo. <br/><br/></p>",
-            "promotion_link": "shopify://collections/loreal",
+            "promotion_image": "shopify://shop_images/12_673e8233-63ef-45bd-876c-46cdedc0c6f3.png",
+            "promotion_title": "Balmain",
+            "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_bbba689f-abb6-4d53-8735-0a9a69893ee8.webp",
+            "promotion_image": "shopify://shop_images/15_f151127a-2ecc-4179-919b-601670c8fd77.png",
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BJF8hT": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/14_8f3f6c0e-d0c8-45c5-ae73-e38466149920.png",
+            "promotion_title": "L'Oréal",
+            "promotion_description": "<p>À l'achat de 75$ * de produits l’Oréal, obtiens Urban Decay. Vaporisateur Fixateur de Maquillage Hydrofuge All Nighter - 30 ml! *avant tx et code promo. <br/><br/></p>",
+            "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -216,10 +216,10 @@
       "block_order": [
         "promotion_card_6gY4BE",
         "promotion_card_rhVDjF",
-        "promotion_card_LgNW4P",
         "promotion_card_HUtj3h",
-        "promotion_card_BJF8hT",
-        "promotion_card_hfDNFW"
+        "promotion_card_LgNW4P",
+        "promotion_card_hfDNFW",
+        "promotion_card_BJF8hT"
       ],
       "name": "# Promotions list",
       "settings": {
