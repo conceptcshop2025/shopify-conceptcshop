@@ -24,7 +24,7 @@
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_32150510-3798-46e9-bc42-79bbf510d690.png",
+            "promotion_image": "shopify://shop_images/1_ba59687f-e59b-4c69-ac28-6aaf4b749de2.png",
             "promotion_title": "PROMO OUTILS",
             "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils <em>*prix déjà réduits</em><br/></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
@@ -34,69 +34,69 @@
         "promotion_card_XW6tdr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Decembre_2025_500_x_300_px_980a9317-79c6-4cc0-b2e8-c7b0da228b9a.webp",
+            "promotion_image": "shopify://shop_images/2_1ccaceee-7be1-47aa-944b-4d14384866b5.png",
             "promotion_title": "CARTE-CADEAU",
             "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes cadeaux électroniques, valides en ligne et en succursale, envoyée instantanément par courriel.<br/><br/><br/><br/></p>",
             "promotion_link": "shopify://collections/carte-cadeau",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_YbzKLB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_f1d1aa09-b140-4e8c-9a28-16c59f9db042.png",
-            "promotion_title": "COFFRETS DES FÊTES",
-            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_KdDqzr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_2a80294c-f288-4270-96a4-e6ed5e39910e.png",
-            "promotion_title": "35% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 35 % de rabais sur le Color Fanatic 21-en-1 de Pureology. <em>*prix déjà réduits</em></p>",
+            "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
+            "promotion_title": "JUSQU'À 35% DE RABAIS",
+            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % sur toute la gamme Pureology.* Prix déjà réduits.</p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_CHNQNy": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_eb2a2a14-5a90-4992-a4e9-fdf720e800e4.png",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_PTb6QC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_55403355-6d0a-4efc-bdd2-a43d214a4fdc.png",
+            "promotion_image": "shopify://shop_images/8_e93fd564-ef19-4ccd-9201-da12157c6cd5.png",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
             "promotion_link": "shopify://collections/les-minis",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Ftj9mi": {
+        "promotion_card_YbzKLB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/5_1d20e361-6ce8-4376-885d-1e22c53e9df8.png",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! *<em>Prix déjà réduits.</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
+            "promotion_image": "shopify://shop_images/5_8ef6b303-6308-4908-85a7-7ac3cdcd9dda.png",
+            "promotion_title": "COFFRETS DES FÊTES",
+            "promotion_description": "<p><strong>Jusqu'à 50% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_CHNQNy": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_6c88fe1d-775f-45b7-88a8-b21237debebd.png",
+            "promotion_title": "IDÉES CADEAUX",
+            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
+            "promotion_link": "shopify://collections/boutique-cadeaux",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_6QdVwr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_2cddc5f4-3b40-4a2f-8d32-47e978074b43.png",
+            "promotion_image": "shopify://shop_images/7_38706b81-dcdb-4424-ab04-962dd6d5f50e.png",
             "promotion_title": "15% DE RABAIS",
             "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Ftj9mi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_f1483300-c83a-41de-ae7b-39c962598454.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! *<em>Prix déjà réduits.</em><br/><br/></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
@@ -104,7 +104,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/13_875600f5-721e-42af-a87c-0fd4456ba75a.png",
+            "promotion_image": "shopify://shop_images/9_90641e24-eddc-4aa2-b504-7a831ad4e370.png",
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -114,7 +114,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/20_3d577d9c-0edf-40e6-bb28-0f47b9e75059.png",
+            "promotion_image": "shopify://shop_images/22.png",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -125,12 +125,12 @@
       "block_order": [
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
-        "promotion_card_YbzKLB",
         "promotion_card_KdDqzr",
-        "promotion_card_CHNQNy",
         "promotion_card_PTb6QC",
-        "promotion_card_Ftj9mi",
+        "promotion_card_YbzKLB",
+        "promotion_card_CHNQNy",
         "promotion_card_6QdVwr",
+        "promotion_card_Ftj9mi",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
