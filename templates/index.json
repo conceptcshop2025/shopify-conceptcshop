@@ -14,6 +14,7 @@
       "blocks": {
         "image_m9i4GY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FR_Slider_Principale_Boxing_Day_2025_1560_x_500_px.webp",
             "mobile_image": "shopify://shop_images/Slider_Mobile_Boxing_Day_2025_750_x_600_px.webp",
@@ -119,7 +120,6 @@
         "image_with_text_3LUanK",
         "image_with_text_QxKH3t"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
