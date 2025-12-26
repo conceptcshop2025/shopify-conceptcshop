@@ -457,6 +457,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_EWTRkb": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<p>Du 26 au 28 décembre, profitez de 25% de rabais sur toute la gamme Moroccanoil.<em>* Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_wTBXR8": {
           "type": "promotion_card",
           "settings": {
@@ -482,7 +492,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
             "promotion_title": "JUSQU'À 35% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
+            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % de rabais sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
@@ -559,6 +569,7 @@
         }
       },
       "block_order": [
+        "promotion_card_EWTRkb",
         "promotion_card_wTBXR8",
         "promotion_card_6RjbUa",
         "promotion_card_fUPDTK",
