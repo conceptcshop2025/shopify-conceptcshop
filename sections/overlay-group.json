@@ -33,7 +33,7 @@
         "apparition_delay": 5,
         "show_only_on_index": false,
         "hide_for_account_holders": true,
-        "show_only_once": false,
+        "show_only_once": true,
         "show_newsletter_form": true,
         "title": "Inscris-toi !",
         "content": "<em>Tu veux des conseils, des trucs et des astuces gratuites. Également des promotions coup de coeur.</em>",
