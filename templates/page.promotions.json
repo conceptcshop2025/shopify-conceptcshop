@@ -191,24 +191,13 @@
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_BJF8hT": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/14_8f3f6c0e-d0c8-45c5-ae73-e38466149920.png",
-            "promotion_title": "L'Oréal",
-            "promotion_description": "<p>À l'achat de 75$ * de produits l’Oréal, obtiens Urban Decay. Vaporisateur Fixateur de Maquillage Hydrofuge All Nighter - 30 ml! *avant tx et code promo. <br/><br/></p>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_6gY4BE",
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
-        "promotion_card_LgNW4P",
-        "promotion_card_BJF8hT"
+        "promotion_card_LgNW4P"
       ],
       "name": "# Promotions list",
       "settings": {
