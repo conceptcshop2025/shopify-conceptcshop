@@ -21,16 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_78p3pB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.png",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 28 décembre, profitez de 25% de rabais sur toute la gamme Moroccanoil.<em>* Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -133,7 +123,6 @@
         }
       },
       "block_order": [
-        "promotion_card_78p3pB",
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
         "promotion_card_KdDqzr",
