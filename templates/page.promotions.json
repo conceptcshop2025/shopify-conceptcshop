@@ -172,13 +172,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_HUtj3h": {
+        "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/13_bef73d89-3d78-4757-b169-b02465c56876.png",
-            "promotion_title": "Oribe",
-            "promotion_description": "<p>À l'Achat de 75$ * de produits Oribe, obtiens gratuitement un ensemble réparation et protection Gold Lust<em>*avant tx et code promo. Exclusivité Web.</em></p>",
-            "promotion_link": "shopify://collections/oribe",
+            "promotion_image": "shopify://shop_images/15_f151127a-2ecc-4179-919b-601670c8fd77.png",
+            "promotion_title": "Moroccanoil",
+            "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -189,16 +189,6 @@
             "promotion_title": "Balmain",
             "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_hfDNFW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/15_f151127a-2ecc-4179-919b-601670c8fd77.png",
-            "promotion_title": "Moroccanoil",
-            "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -216,9 +206,8 @@
       "block_order": [
         "promotion_card_6gY4BE",
         "promotion_card_rhVDjF",
-        "promotion_card_HUtj3h",
-        "promotion_card_LgNW4P",
         "promotion_card_hfDNFW",
+        "promotion_card_LgNW4P",
         "promotion_card_BJF8hT"
       ],
       "name": "# Promotions list",
