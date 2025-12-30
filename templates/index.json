@@ -59,24 +59,10 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
-        "image_with_text_n4gyFi": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Infolettre_Top_10_2025_2.webp",
-            "block_background": "#000000",
-            "text_block_background": "#ffffff",
-            "title": "<strong>TOP 10 2025</strong>",
-            "heading_tag": "h3",
-            "content": "<p>Jusqu’au 25 décembre seulement, obtenez <strong>jusqu’à 50 % de rabais</strong> sur nos meilleurs vendeurs de l’année. *Prix déjà réduits.<br/></p>",
-            "link_url": "shopify://collections/promo-du-moment-2",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Cartes-Cadeaux_1e917c74-777f-4c13-bbb3-56726d2f14e2.webp",
+            "image": "shopify://shop_images/Front_Site_Janvier_2026.webp",
             "block_background": "#000000",
             "text_block_background": "#ffffff",
             "title": "<strong>CARTE-CADEAU</strong>",
@@ -86,23 +72,10 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Special_Outils_NOV_2025.webp",
-            "block_background": "#6e0d0d",
-            "text_block_background": "#ffffff",
-            "title": "<strong>Promo outils</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’au 1er janvier, économisez <strong>jusqu’à 50 %</strong> sur plus de 200 outils chauffants. *Prix déjà réduits.<br/><br/></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Header_site_Onglet_Promotions_750_x_600_px.webp",
+            "image": "shopify://shop_images/Front_Site_Janvier_2026_2.png",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
             "title": "<strong>JUSQU'À 40% DE RABAIS!</strong>",
@@ -111,13 +84,25 @@
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
+        },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Janvier_2026_1.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#ffffff",
+            "title": "<strong>Promo outils</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’au 1er janvier, économisez <strong>jusqu’à 50 %</strong> sur plus de 200 outils chauffants. *Prix déjà réduits.<br/><br/></p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
-        "image_with_text_n4gyFi",
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK",
-        "image_with_text_QxKH3t"
+        "image_with_text_QxKH3t",
+        "image_with_text_3LUanK"
       ],
       "disabled": true,
       "name": "# Multi-column",
