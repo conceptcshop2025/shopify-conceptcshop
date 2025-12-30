@@ -67,7 +67,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>EXTRA 20% DE RABAIS</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusqu’au 22 janvier, profite de 20 % de rabais additionnel dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "content": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
             "link_url": "shopify://collections/soldes",
             "link_text": "magasiner"
           }
