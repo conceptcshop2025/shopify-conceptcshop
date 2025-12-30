@@ -60,6 +60,13 @@
             "question": "<strong>Ramassage en magasin</strong>",
             "answer": "<p>L'option de ramassage en magasin est actuellement suspendue. Elle sera de nouveau disponible dans nos deux succursales (Trois-Rivières et Québec en 2026).</p>"
           }
+        },
+        "question_pfNgHQ": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Offrez-vous une politique de satisfaction ?</strong>",
+            "answer": "<p>Nous comprenons qu’acheter en ligne peut parfois soulever des questions. Bien que nous n’offrions pas de politique de satisfaction pour le moment et que toutes les ventes soient finales, notre équipe est là pour vous accompagner avant l’achat. N’hésitez pas à nous écrire sur nos réseaux sociaux ou à l’adresse <a>info@conceptcshop.com</a> : il nous fera plaisir de vous aider à choisir le produit le mieux adapté à vos besoins.</p>"
+          }
         }
       },
       "block_order": [
@@ -69,7 +76,8 @@
         "question_FKdRTn",
         "question_VNyCeW",
         "question_m7YHxb",
-        "question_mNxWjJ"
+        "question_mNxWjJ",
+        "question_pfNgHQ"
       ],
       "settings": {
         "color_scheme": "",
