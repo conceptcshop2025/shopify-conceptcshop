@@ -63,7 +63,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Front_Site_Janvier_2026.webp",
-            "block_background": "#000000",
+            "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
             "title": "<strong>EXTRA 20% DE RABAIS</strong>",
             "heading_tag": "h4",
@@ -91,9 +91,9 @@
             "image": "shopify://shop_images/Front_Site_Janvier_2026_1.webp",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>Promo outils</strong>",
+            "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusqu’au 1er janvier, économisez <strong>jusqu’à 50 %</strong> sur plus de 200 outils chauffants. *Prix déjà réduits.<br/><br/></p>",
+            "content": "<p>Gamme professionnelle qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois!<br/><br/></p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
