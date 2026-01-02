@@ -442,6 +442,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_dArbHC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
@@ -452,13 +462,23 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_dArbHC": {
+        "promotion_card_NkepKY": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em></p>",
-            "promotion_link": "shopify://collections/k18",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
+            "promotion_title": "LANCEMENT CHANDELLES CONCEPT C",
+            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
+            "promotion_link": "shopify://collections/chandelles",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_jMCcyk": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
+            "promotion_title": "JUSQU'À 40% DE RABAIS",
+            "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -484,8 +504,10 @@
         }
       },
       "block_order": [
-        "promotion_card_fUPDTK",
         "promotion_card_dArbHC",
+        "promotion_card_fUPDTK",
+        "promotion_card_NkepKY",
+        "promotion_card_jMCcyk",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
