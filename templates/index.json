@@ -454,7 +454,6 @@
         },
         "promotion_card_DbYAAb": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
             "promotion_title": "15% DE RABAIS",
