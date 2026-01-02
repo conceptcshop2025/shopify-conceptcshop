@@ -64,18 +64,16 @@
         },
         "promotion_card_rWpG9A": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
             "promotion_title": "JUSQU'À 40% DE RABAIS",
             "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/metal-detox",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_UU9Eyi": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/1_1df7888d-133e-4102-9571-7b8d3f42855c.webp",
             "promotion_title": "EXTRA 20% DE RABAIS",
