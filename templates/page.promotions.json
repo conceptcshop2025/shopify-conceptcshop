@@ -54,12 +54,11 @@
         },
         "promotion_card_nVkt8h": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
             "promotion_title": "LANCEMENT CHANDELLES CONCEPT C",
             "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://collections/chandelles",
             "promotion_link_text": "Voir plus"
           }
         },
