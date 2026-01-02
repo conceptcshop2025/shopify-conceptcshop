@@ -54,6 +54,28 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_nVkt8h": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
+            "promotion_title": "LANCEMENT CHANDELLES CONCEPT C",
+            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_rWpG9A": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
+            "promotion_title": "JUSQU'À 40% DE RABAIS",
+            "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/metal-detox",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -149,6 +171,8 @@
         "promotion_card_k9PTTp",
         "promotion_card_aatVKL",
         "promotion_card_KdDqzr",
+        "promotion_card_nVkt8h",
+        "promotion_card_rWpG9A",
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
         "promotion_card_PTb6QC",
