@@ -442,100 +442,30 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_NWfpmX": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.webp",
-            "promotion_title": "PLUS DE 7 500$ EN CADEAUX!",
-            "promotion_description": "<p><strong>Du 26 décembre au 1er janvier,</strong> cours la chance de gagner un cadeau gratuit avec ta commande. <strong>10 outils chauffants + 200 primes, pour plus de 7 500 $ en valeur, seront ajoutés au hasard!</strong></p>",
-            "promotion_link": "shopify://collections/boxing-day",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_wTBXR8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_ba59687f-e59b-4c69-ac28-6aaf4b749de2.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6RjbUa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_1ccaceee-7be1-47aa-944b-4d14384866b5.png",
-            "promotion_title": "CARTE-CADEAU",
-            "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes<strong>cadeaux électroniques</strong>, valides en ligne et en succursale,<strong>envoyée instantanément par courriel.</strong><br/><br/></p>",
-            "promotion_link": "shopify://collections/carte-cadeau",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
-            "promotion_title": "JUSQU'À 35% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % de rabais sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
+            "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 11 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_YG48YR": {
+        "promotion_card_dArbHC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_e93fd564-ef19-4ccd-9201-da12157c6cd5.png",
-            "promotion_title": "BAS DE NOËL",
-            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/bas-de-noel-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_TcjCNj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_8ef6b303-6308-4908-85a7-7ac3cdcd9dda.png",
-            "promotion_title": "COFFRETS DES FÊTES",
-            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kinknG": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_6c88fe1d-775f-45b7-88a8-b21237debebd.png",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_MQpabj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_38706b81-dcdb-4424-ab04-962dd6d5f50e.png",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires d'Esthederm. *<em>Prix déjà réduits.</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_3EbYeD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_f1483300-c83a-41de-ae7b-39c962598454.png",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! * <em>Prix déjà réduits.</em><br/><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
+            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_90641e24-eddc-4aa2-b504-7a831ad4e370.png",
+            "promotion_image": "shopify://shop_images/6_0c9812f6-0bda-4831-93d2-fec65cab8e57.webp",
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -545,7 +475,7 @@
         "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/22.png",
+            "promotion_image": "shopify://shop_images/15.webp",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/liquidation",
@@ -554,15 +484,8 @@
         }
       },
       "block_order": [
-        "promotion_card_NWfpmX",
-        "promotion_card_wTBXR8",
-        "promotion_card_6RjbUa",
         "promotion_card_fUPDTK",
-        "promotion_card_YG48YR",
-        "promotion_card_TcjCNj",
-        "promotion_card_kinknG",
-        "promotion_card_MQpabj",
-        "promotion_card_3EbYeD",
+        "promotion_card_dArbHC",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
