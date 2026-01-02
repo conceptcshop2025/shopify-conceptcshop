@@ -43,6 +43,7 @@
       "block_order": [
         "image_m9i4GY"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -81,7 +82,7 @@
             "title": "<strong>LANCEMENT CHANDELLES CONCEPT C</strong>",
             "heading_tag": "h4",
             "content": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "link_url": "shopify://collections/coffrets",
+            "link_url": "shopify://collections/chandelles",
             "link_text": "magasiner"
           }
         },
@@ -94,7 +95,7 @@
             "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
             "heading_tag": "h4",
             "content": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_url": "shopify://collections/promo-du-moment-2",
             "link_text": "magasiner"
           }
         }
@@ -104,7 +105,6 @@
         "image_with_text_QxKH3t",
         "image_with_text_3LUanK"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
