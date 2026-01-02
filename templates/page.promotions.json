@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_k9PTTp": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
             "promotion_title": "20% DE RABAIS!",
