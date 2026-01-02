@@ -163,20 +163,10 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_6gY4BE": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11_bca7a480-9ced-47bb-b818-b76c2f1d9397.png",
-            "promotion_title": "Kérastase",
-            "promotion_description": "<p>À l'achat de 160$ * de produits Kérastase, obtiens gratuitement une pochette et un crème de jour Curl Manifesto!</p><p><em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10.png",
+            "promotion_image": "shopify://shop_images/7_3529fbfa-4b6c-4ee1-a9a4-be6cc3842bba.webp",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -186,7 +176,7 @@
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/15_f151127a-2ecc-4179-919b-601670c8fd77.png",
+            "promotion_image": "shopify://shop_images/9_71d85881-892f-4f95-ab89-9da5e0df77f7.webp",
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
@@ -196,7 +186,7 @@
         "promotion_card_LgNW4P": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/12_673e8233-63ef-45bd-876c-46cdedc0c6f3.png",
+            "promotion_image": "shopify://shop_images/8_c602fcd4-25d1-420f-a091-488dc1ce29b7.webp",
             "promotion_title": "Balmain",
             "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/balmain",
@@ -205,7 +195,6 @@
         }
       },
       "block_order": [
-        "promotion_card_6gY4BE",
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P"
@@ -231,7 +220,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/16_70b4e49f-4eb9-4bf8-860f-0041fe992396.png",
+            "promotion_image": "shopify://shop_images/10_081abe8a-6b4a-43ac-ba7a-39ae46202179.webp",
             "promotion_title": "Kérastase",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -241,7 +230,7 @@
         "promotion_card_6iwY9K": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/17_2bbab209-9a7f-4806-91f6-6d991dc97dc3.png",
+            "promotion_image": "shopify://shop_images/11_e7f30619-dbcc-41be-813c-4beb6a3b7a74.webp",
             "promotion_title": "Redken",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Redken.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/redken",
@@ -251,7 +240,7 @@
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/18_5fc990c5-c1f7-41ce-a288-4d4903dfbcda.png",
+            "promotion_image": "shopify://shop_images/12_3b925dbc-e050-4be0-83ea-3ecd1ddd4855.webp",
             "promotion_title": "Balmain",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/balmain",
@@ -261,7 +250,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/19_ae4c3747-a623-45b4-939f-d26bda62d5fe.png",
+            "promotion_image": "shopify://shop_images/13_13bfff46-2e80-4bd3-a830-f7ca9f39f6cf.webp",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -271,7 +260,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/20_bdd9d148-ac01-49da-a58e-eb157b4bd285.png",
+            "promotion_image": "shopify://shop_images/14_4e2bb7a1-7d5f-4210-98bf-5a9a29b96c18.webp",
             "promotion_title": "Esthederm",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/esthederm",
