@@ -452,6 +452,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_DbYAAb": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fUPDTK": {
           "type": "promotion_card",
           "settings": {
@@ -482,6 +493,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_bAfbf8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_1df7888d-133e-4102-9571-7b8d3f42855c.webp",
+            "promotion_title": "EXTRA 20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -505,9 +526,11 @@
       },
       "block_order": [
         "promotion_card_dArbHC",
+        "promotion_card_DbYAAb",
         "promotion_card_fUPDTK",
         "promotion_card_NkepKY",
         "promotion_card_jMCcyk",
+        "promotion_card_bAfbf8",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
