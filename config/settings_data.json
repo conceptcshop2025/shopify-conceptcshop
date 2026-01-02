@@ -37,7 +37,7 @@
     "social_instagram": "https://www.instagram.com/conceptcshop/",
     "social_tiktok": "https://www.tiktok.com/@conceptcshop",
     "favicon": "shopify://shop_images/conceptcshop.com.png",
-    "enable_event_mode": true,
+    "enable_event_mode": false,
     "header_background": "#f11831",
     "header_text_color": "#ffffff",
     "version_logo": "christmas",
