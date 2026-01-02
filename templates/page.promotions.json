@@ -21,13 +21,36 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_EmQg7R": {
+        "promotion_card_k9PTTp": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.webp",
-            "promotion_title": "PLUS DE 7 500$ EN CADEAUX!",
-            "promotion_description": "<p>Du <strong>26 décembre au 1er janvier</strong>, cours la chance de gagner un cadeau gratuit avec ta commande. <strong>10 outils chauffants + 200 primes, pour plus de 7 500 $ en valeur, seront ajoutés au hasard!<br/></strong><br/></p>",
-            "promotion_link": "shopify://collections/boxing-day",
+            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
+            "promotion_title": "20% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em><br/></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_aatVKL": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_KdDqzr": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 11 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -48,16 +71,6 @@
             "promotion_title": "CARTE-CADEAU",
             "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes cadeaux électroniques, valides en ligne et en succursale, envoyée instantanément par courriel.<br/><br/><br/><br/></p>",
             "promotion_link": "shopify://collections/carte-cadeau",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_KdDqzr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
-            "promotion_title": "JUSQU'À 35% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % de rabais sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -133,10 +146,11 @@
         }
       },
       "block_order": [
-        "promotion_card_EmQg7R",
+        "promotion_card_k9PTTp",
+        "promotion_card_aatVKL",
+        "promotion_card_KdDqzr",
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
-        "promotion_card_KdDqzr",
         "promotion_card_PTb6QC",
         "promotion_card_YbzKLB",
         "promotion_card_CHNQNy",
