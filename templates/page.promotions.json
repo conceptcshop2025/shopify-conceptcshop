@@ -76,6 +76,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_UU9Eyi": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_1df7888d-133e-4102-9571-7b8d3f42855c.webp",
+            "promotion_title": "EXTRA 20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_mCyAz8": {
           "type": "promotion_card",
           "settings": {
@@ -173,6 +184,7 @@
         "promotion_card_KdDqzr",
         "promotion_card_nVkt8h",
         "promotion_card_rWpG9A",
+        "promotion_card_UU9Eyi",
         "promotion_card_mCyAz8",
         "promotion_card_XW6tdr",
         "promotion_card_PTb6QC",
