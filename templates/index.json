@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "product_slider_banner_eGbwtc": {
+      "type": "product-slider-banner",
+      "name": "# Product Slider Banner",
+      "settings": {
+        "banner_image_desktop": "shopify://shop_images/image_test.avif",
+        "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
+        "banner_background": "#edd95c",
+        "banner_title": "Lorem ipsum dolor sit amet!",
+        "banner_title_color": "#454545",
+        "banner_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Curabitur hendrerit</strong>, ante ac varius viverra, enim ipsum efficitur purus, quis<strong> efficitur risus</strong> lacus quis <strong>nulla</strong>.</p>",
+        "banner_description_color": "#454545",
+        "banner_button_label": "Learn more",
+        "banner_button_url": "shopify://collections/over-100",
+        "banner_button_background": "#454545",
+        "banner_button_label_color": "#ffffff"
+      }
+    },
     "slideshow_eYpVHW": {
       "type": "slideshow",
       "blocks": {
@@ -845,6 +862,7 @@
     }
   },
   "order": [
+    "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
     "custom_multi_column_BHzrQP",
     "custom_collection_list_Y6XW4j",

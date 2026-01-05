@@ -1,0 +1,205 @@
+{% liquid
+  assign image_desktop = section.settings.banner_image_desktop
+  assign image_mobile = section.settings.banner_image_mobile
+  assign banner_background = section.settings.banner_background
+  assign banner_title = section.settings.banner_title
+  assign banner_title_color = section.settings.banner_title_color
+  assign banner_description_color = section.settings.banner_description_color
+  assign banner_description = section.settings.banner_description
+  assign banner_button_url = section.settings.banner_button_url
+  assign banner_button_label = section.settings.banner_button_label
+  assign banner_button_background = section.settings.banner_button_background
+  assign banner_button_label_color = section.settings.banner_button_label_color
+  assign banner_content_alignment = section.settings.banner_content_alignment
+  assign banner_position = section.settings.banner_position
+%}
+
+{{ 'product-slider-banner.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+.section--{{ section.id }} {
+  background: {% if image_desktop == blank and image_mobile == blank %}{{ banner_background }}{% endif %};
+}
+
+.section--{{ section.id }} .banner-title {
+  color: {{ banner_title_color }};
+}
+
+.section--{{ section.id }} .banner-description {
+  color: {{ banner_description_color }};
+}
+
+.section--{{ section.id }} .banner_button {
+  --initial-gradient: linear-gradient({{ banner_button_background }}, {{ banner_button_background }});
+  color: {{ banner_button_label_color }};
+  border-color: {{ banner_button_background }}
+}
+
+.section--{{ section.id }} .banner_button:hover {
+  color: {{ banner_button_background }} !important;
+  border-color: {{ banner_button_background }} !important;
+}
+
+.section--{{ section.id }} .banner-text {
+  align-items: {% if banner_content_alignment == 'right' %}flex-end{% elsif banner_content_alignment == 'center' %}center{% else %}flex-start{% endif %};
+  text-align: {{ banner_content_alignment }};
+}
+
+@media (min-width: 1200px) {
+  .section--{{ section.id }} .banner-text {
+    margin-left: {{ banner_position }};
+  }
+}
+
+{% endstyle %}
+
+<div class="product-slider-banner section--{{ section.id }} container">
+  <div class="banner-container">
+    {% if image_desktop != blank or image_mobile != blank %}
+      <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+      <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+    {% endif %}
+
+    {% if banner_title != blank %}
+      <div class="banner-text">
+        {% if banner_title != blank %}
+          <h2 class="banner-title">{{ banner_title }}</h2>
+        {% endif %}
+
+        {% if banner_description != blank %}
+          <div class="banner-description">{{ banner_description }}</div>
+        {% endif %}
+
+        {% if banner_button_label != blank %}
+          <a href="{% if banner_button_url != blank %}{{ banner_button_url }}{% else %}#{% endif %}" class="button banner_button">
+            {{ banner_button_label }}
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "# Product Slider Banner",
+    "class": "section--product-slider-banner",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.banner_header.content"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image_desktop",
+        "label": "t:sections.product_slider_banner.settings.banner_image_desktop.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image_mobile",
+        "label": "t:sections.product_slider_banner.settings.banner_image_mobile.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_background",
+        "label": "t:sections.product_slider_banner.settings.banner_background.label",
+        "info": "t:sections.product_slider_banner.settings.banner_background.info"
+      },
+      {
+        "type": "text",
+        "id": "banner_title",
+        "label": "t:sections.product_slider_banner.settings.banner_title.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_title_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_title_color.label"
+      },
+      {
+        "type": "richtext",
+        "id": "banner_description",
+        "label": "t:sections.product_slider_banner.settings.banner_description.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_description_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_description_color.label"
+      },
+      {
+        "type": "text",
+        "id": "banner_button_label",
+        "label": "t:sections.product_slider_banner.settings.banner_button_label.label"
+      },
+      {
+        "type": "url",
+        "id": "banner_button_url",
+        "label": "t:sections.product_slider_banner.settings.banner_button_url.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_button_background",
+        "default": "#E4C0AE",
+        "label": "t:sections.product_slider_banner.settings.banner_button_background.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_button_label_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_button_label_color.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.banner_header_alignment.content"
+      },
+      {
+        "type": "select",
+        "id": "banner_content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.left_option"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.center_option"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.right_option"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.product_slider_banner.settings.banner_content_alignment.label"
+      },
+      {
+        "type": "select",
+        "id": "banner_position",
+        "options": [
+          {
+            "value": "0",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.left_option"
+          },
+          {
+            "value": "30%",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.center_option"
+          },
+          {
+            "value": "60%",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.right_option"
+          }
+        ],
+        "default": "0",
+        "label": "t:sections.product_slider_banner.settings.banner_position.label",
+        "info": "t:sections.product_slider_banner.settings.banner_position.info"
+      },
+    ],
+    "presets": [
+      {
+        "name": "# Product Slider Banner"
+      }
+    ]
+  }
+{% endschema %}

@@ -1745,6 +1745,67 @@
           "label": "Event collection"
         }
       }
+    },
+    "product_slider_banner": {
+      "settings": {
+        "banner_header": {
+          "content": "Banner settings"
+        },
+        "banner_image_desktop": {
+          "label": "Image banner desktop"
+        },
+        "banner_image_mobile": {
+          "label": "Image banner mobile"
+        },
+        "banner_background": {
+          "label": "Banner background",
+          "info": "Only available if you do not add an image banner"
+        },
+        "banner_title": {
+          "label": "Banner title"
+        },
+        "banner_description": {
+          "label": "Banner description"
+        },
+        "banner_button_label": {
+          "label": "Button text"
+        },
+        "banner_button_url": {
+          "label": "Button url"
+        },
+        "banner_title_color": {
+          "label": "Title color"
+        },
+        "banner_description_color": {
+          "label": "Description color"
+        },
+        "banner_button_background": {
+          "label": "Button background"
+        },
+        "banner_button_label_color": {
+          "label": "Button label color"
+        },
+        "banner_header_alignment": {
+          "content": "Banner alignment"
+        },
+        "banner_content_alignment": {
+          "label": "Banner text alignment",
+          "options": {
+            "left_option": "Left",
+            "right_option": "Right",
+            "center_option": "Center"
+          }
+        },
+        "banner_position": {
+          "label": "Banner position",
+          "info": "This option is only available for desktop resolution.",
+          "options": {
+            "left_option": "Left",
+            "right_option": "Right",
+            "center_option": "Center"
+          }
+        }
+      }
     }
   }
 }
