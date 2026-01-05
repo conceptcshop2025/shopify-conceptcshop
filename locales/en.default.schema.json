@@ -1804,6 +1804,13 @@
             "right_option": "Right",
             "center_option": "Center"
           }
+        },
+        "slider_header": {
+          "content": "Slider settings"
+        },
+        "slider_collection": {
+          "label": "Slider collection",
+          "info": "Available only when you do not add a product blocks."
         }
       }
     }
