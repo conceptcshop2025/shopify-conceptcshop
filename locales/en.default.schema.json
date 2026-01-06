@@ -1824,6 +1824,15 @@
         "product_card_tag_text_and_price_color": {
           "label": "Product card text and price color"
         },
+        "section_settings_header": {
+          "content": "Section settings"
+        },
+        "padding_top": {
+          "label": "Padding top"
+        },
+        "padding_bottom": {
+          "label": "Padding bottom"
+        }
       }
     }
   }

@@ -100,7 +100,7 @@
 
 @media (min-width: 560px) {
   .product-slider-banner .banner-container .image-mobile {
-    max-height: 500px;
+    max-height: 31.25rem;
     object-fit: cover;
     height: 100%;
   }

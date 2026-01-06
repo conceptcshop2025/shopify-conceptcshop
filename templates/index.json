@@ -29,8 +29,8 @@
         "slider_collection": "loreal",
         "product_card_background": "#e4c0ae",
         "product_card_text_color": "#454545",
-        "product_card_tag_background": "#ffffff",
-        "product_card_tag_text_and_price_color": "#f11831"
+        "product_card_tag_background": "#1c1c1c",
+        "product_card_tag_text_and_price_color": "#ffffff"
       }
     },
     "slideshow_eYpVHW": {
