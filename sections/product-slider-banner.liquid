@@ -19,6 +19,10 @@
       assign products = section.settings.slider_collection.products
     endif
   endif
+  assign product_card_background = section.settings.product_card_background
+  assign product_card_text_color = section.settings.product_card_text_color
+  assign product_card_tag_background = section.settings.product_card_tag_background
+  assign product_card_tag_text_and_price_color = section.settings.product_card_tag_text_and_price_color
 %}
 
 {{ 'product-slider-banner.css' | asset_url | stylesheet_tag }}
@@ -53,6 +57,28 @@
 .section--{{ section.id }} .banner-text {
   align-items: {% if banner_content_alignment == 'right' %}flex-end{% elsif banner_content_alignment == 'center' %}center{% else %}flex-start{% endif %};
   text-align: {{ banner_content_alignment }};
+}
+
+.section--{{ section.id }}.product-slider-banner .collection-card {
+  background: {{ product_card_background }};
+}
+
+.section--{{ section.id }} .collection-card .product-vendor,
+.section--{{ section.id }} .collection-card .product-title {
+  color: {{ product_card_text_color }};
+}
+
+.section--{{ section.id }}.product-slider-banner .product-slider .collection-card .card-tags li {
+  background-color: {{ product_card_tag_background }};
+  color: {{ product_card_tag_text_and_price_color }};
+}
+
+.product-slider-banner .product-slider .collection-card .product-price  compare-at-price {
+  color: {{ product_card_text_color }};
+}
+
+.product-slider-banner .product-slider .collection-card .product-price .text-on-sale {
+  color: {{ product_card_tag_text_and_price_color }};
 }
 
 @media (min-width: 768px) {
@@ -275,6 +301,30 @@
         "id": "slider_collection",
         "label": "t:sections.product_slider_banner.settings.slider_collection.label",
         "info": "t:sections.product_slider_banner.settings.slider_collection.info"
+      },
+      {
+        "type": "color",
+        "id": "product_card_background",
+        "label": "t:sections.product_slider_banner.settings.product_card_background.label",
+        "default": "#EFEFEF"
+      },
+      {
+        "type": "color",
+        "id": "product_card_text_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_text_color.label",
+        "default": "#454545"
+      },
+      {
+        "type": "color",
+        "id": "product_card_tag_background",
+        "label": "t:sections.product_slider_banner.settings.product_card_tag_background.label",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "product_card_tag_text_and_price_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_tag_text_and_price_color.label",
+        "default": "#E4C0AE"
       }
     ],
     "presets": [

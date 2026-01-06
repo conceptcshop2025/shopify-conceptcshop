@@ -26,7 +26,11 @@
         "banner_button_label_color": "#ffffff",
         "banner_content_alignment": "left",
         "banner_position": "0",
-        "slider_collection": "loreal"
+        "slider_collection": "loreal",
+        "product_card_background": "#e4c0ae",
+        "product_card_text_color": "#454545",
+        "product_card_tag_background": "#ffffff",
+        "product_card_tag_text_and_price_color": "#f11831"
       }
     },
     "slideshow_eYpVHW": {

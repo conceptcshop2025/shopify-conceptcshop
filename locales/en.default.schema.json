@@ -1811,7 +1811,19 @@
         "slider_collection": {
           "label": "Slider collection",
           "info": "Available only when you do not add a product blocks."
-        }
+        },
+        "product_card_background": {
+          "label": "Product card background"
+        },
+        "product_card_text_color": {
+          "label": "Product card text color"
+        },
+        "product_card_tag_background": {
+          "label": "Product card tag background"
+        },
+        "product_card_tag_text_and_price_color": {
+          "label": "Product card text and price color"
+        },
       }
     }
   }

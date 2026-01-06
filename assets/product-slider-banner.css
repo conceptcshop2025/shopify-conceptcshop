@@ -87,6 +87,7 @@
 
 .product-slider-banner .product-slider .collection-card .product-price  compare-at-price {
   font-size: 0.75rem;
+  opacity: 0.7;
 }
 
 @media (max-width: 767px) {
