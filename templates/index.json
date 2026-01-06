@@ -9,113 +9,6 @@
  */
 {
   "sections": {
-    "collection_list_xtq3kF": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_kdagLL": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "over-100",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_X6br8e": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "15-30",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_Hfk6ky": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "30-50",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_MaFYLH": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "collection": "50-75",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_B8ribb": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "collection": "75-100",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_kdagLL",
-        "collection_X6br8e",
-        "collection_Hfk6ky",
-        "collection_MaFYLH",
-        "collection_B8ribb"
-      ],
-      "name": "t:sections.collection_list.presets.collection_list.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "stack_collections_mobile": true,
-        "collections_per_row_mobile": "1",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "product_slider_banner_eGbwtc": {
       "type": "product-slider-banner",
       "name": "# Product Slider Banner",
@@ -972,7 +865,6 @@
     }
   },
   "order": [
-    "collection_list_xtq3kF",
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
     "custom_multi_column_BHzrQP",
