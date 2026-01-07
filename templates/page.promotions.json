@@ -71,12 +71,22 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Qfq9j3": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 20% de rabais sur les litres Moroccanoil.* Prix déjà réduits<br/><br/></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_KdDqzr": {
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
             "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 11 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
@@ -108,6 +118,7 @@
         "promotion_card_rWpG9A",
         "promotion_card_k9PTTp",
         "promotion_card_aatVKL",
+        "promotion_card_Qfq9j3",
         "promotion_card_KdDqzr",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
