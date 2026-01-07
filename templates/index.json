@@ -30,7 +30,10 @@
         "product_card_background": "#e4c0ae",
         "product_card_text_color": "#454545",
         "product_card_tag_background": "#1c1c1c",
-        "product_card_tag_text_and_price_color": "#ffffff"
+        "product_card_tag_text_and_price_color": "#ffffff",
+        "slider_buttons_background": "#e4c0ae",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "slideshow_eYpVHW": {

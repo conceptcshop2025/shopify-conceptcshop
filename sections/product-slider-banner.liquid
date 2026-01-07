@@ -23,85 +23,89 @@
   assign product_card_text_color = section.settings.product_card_text_color
   assign product_card_tag_background = section.settings.product_card_tag_background
   assign product_card_tag_text_and_price_color = section.settings.product_card_tag_text_and_price_color
+  assign slider_buttons_background = section.settings.slider_buttons_background
 %}
 
 {{ 'product-slider-banner.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-.section--{{ section.id }} {
-  background: {% if image_desktop == blank and image_mobile == blank %}{{ banner_background }}{% endif %};
-
-  --collection-list-item-size: unset;
-  --collection-list-items-per-row: 2;
-
-  padding-top: {{ section.settings.padding_top }}px;
-  padding-bottom: {{ section.settings.padding_bottom }}px;
-}
-
-.section--{{ section.id }} .banner-title {
-  color: {{ banner_title_color }};
-}
-
-.section--{{ section.id }} .banner-description {
-  color: {{ banner_description_color }};
-}
-
-.section--{{ section.id }} .banner_button {
-  --initial-gradient: linear-gradient({{ banner_button_background }}, {{ banner_button_background }});
-  color: {{ banner_button_label_color }};
-  border-color: {{ banner_button_background }}
-}
-
-.section--{{ section.id }} .banner_button:hover {
-  color: {{ banner_button_background }} !important;
-  border-color: {{ banner_button_background }} !important;
-}
-
-.section--{{ section.id }} .banner-text {
-  align-items: {% if banner_content_alignment == 'right' %}flex-end{% elsif banner_content_alignment == 'center' %}center{% else %}flex-start{% endif %};
-  text-align: {{ banner_content_alignment }};
-}
-
-.section--{{ section.id }}.product-slider-banner .collection-card {
-  background: {{ product_card_background }};
-}
-
-.section--{{ section.id }} .collection-card .product-vendor,
-.section--{{ section.id }} .collection-card .product-title {
-  color: {{ product_card_text_color }};
-}
-
-.section--{{ section.id }}.product-slider-banner .product-slider .collection-card .card-tags li {
-  background-color: {{ product_card_tag_background }};
-  color: {{ product_card_tag_text_and_price_color }};
-}
-
-.product-slider-banner .product-slider .collection-card .product-price  compare-at-price {
-  color: {{ product_card_text_color }};
-}
-
-.product-slider-banner .product-slider .collection-card .product-price .text-on-sale {
-  color: {{ product_card_tag_text_and_price_color }};
-}
-
-@media (min-width: 768px) {
   .section--{{ section.id }} {
+    background: {% if image_desktop == blank and image_mobile == blank %}{{ banner_background }}{% endif %};
+
     --collection-list-item-size: unset;
-    --collection-list-items-per-row: 3;
+    --collection-list-items-per-row: 2;
+
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
   }
-}
 
-@media (min-width: 1200px) {
-  .section--{{ section.id }} {
-    --collection-list-item-size: unset;
-    --collection-list-items-per-row: 4;
+  .section--{{ section.id }} .banner-title {
+    color: {{ banner_title_color }};
+  }
+
+  .section--{{ section.id }} .banner-description {
+    color: {{ banner_description_color }};
+  }
+
+  .section--{{ section.id }} .banner_button {
+    --initial-gradient: linear-gradient({{ banner_button_background }}, {{ banner_button_background }});
+    color: {{ banner_button_label_color }};
+    border-color: {{ banner_button_background }}
+  }
+
+  .section--{{ section.id }} .banner_button:hover {
+    color: {{ banner_button_background }} !important;
+    border-color: {{ banner_button_background }} !important;
   }
 
   .section--{{ section.id }} .banner-text {
-    margin-left: {{ banner_position }};
+    align-items: {% if banner_content_alignment == 'right' %}flex-end{% elsif banner_content_alignment == 'center' %}center{% else %}flex-start{% endif %};
+    text-align: {{ banner_content_alignment }};
   }
-}
 
+  .section--{{ section.id }}.product-slider-banner .collection-card {
+    background: {{ product_card_background }};
+  }
+
+  .section--{{ section.id }} .collection-card .product-vendor,
+  .section--{{ section.id }} .collection-card .product-title {
+    color: {{ product_card_text_color }};
+  }
+
+  .section--{{ section.id }}.product-slider-banner .product-slider .collection-card .card-tags li {
+    background-color: {{ product_card_tag_background }};
+    color: {{ product_card_tag_text_and_price_color }};
+  }
+
+  .product-slider-banner .product-slider .collection-card .product-price  compare-at-price {
+    color: {{ product_card_text_color }};
+  }
+
+  .product-slider-banner .product-slider .collection-card .product-price .text-on-sale {
+    color: {{ product_card_tag_text_and_price_color }};
+  }
+
+  .product-slider-banner .product-slider .circle-button {
+    background: {{ slider_buttons_background }};
+  }
+
+  @media (min-width: 768px) {
+    .section--{{ section.id }} {
+      --collection-list-item-size: unset;
+      --collection-list-items-per-row: 3;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .section--{{ section.id }} {
+      --collection-list-item-size: unset;
+      --collection-list-items-per-row: 4;
+    }
+
+    .section--{{ section.id }} .banner-text {
+      margin-left: {{ banner_position }};
+    }
+  }
 {% endstyle %}
 
 <div class="product-slider-banner section--{{ section.id }}">
@@ -129,12 +133,12 @@
       </div>
     {% endif %}
   </div>
-  {% comment %} Slider {% endcomment %}
+
   {% if products != blank %}
     <div class="product-slider">
       {% capture product_list %}
         {% for product in products %}
-          <div class="product-item collection-card shrink-0 snap-center  group">
+          <a class="product-item collection-card shrink-0 snap-center  group" href="{{ product.url }}">
             <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" title="{{ product.title }}" width="250" height="190" class="product-slider-image">
             <div class="product-information">
               <ul class="card-tags">
@@ -150,10 +154,9 @@
                 {%- render 'price-list', product: product, context: 'card' -%}
               </p>
             </div>
-          </div>
+          </a>
         {% endfor %}
       {% endcapture %}
-
       <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover ">
         {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
@@ -165,7 +168,32 @@
         </carousel-prev-button>
 
         <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area bleed lg:unbleed">
-          {{ product_list }}
+          {% if section.blocks.size > 0 %}
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'product_item' %}
+                  <a class="product-item collection-card shrink-0 snap-center  group" href="{{ block.settings.product_item_product.url }}">
+                    <img src="{{ block.settings.product_item_product.featured_image | image_url }}" alt="{{ block.settings.product_item_product.title }}" title="{{ block.settings.product_item_product.title }}" width="250" height="190" class="product-slider-image">
+                    <div class="product-information">
+                      <ul class="card-tags">
+                        {% for collection in block.settings.product_item_product.collections %}
+                          {% if collection.handle == 'nouveautes' or collection.handle == 'soldes' %}
+                            <li>{{ collection.title }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                      <p class="product-vendor">{{ block.settings.product_item_product.vendor }}</p>
+                      <p class="product-title">{{ block.settings.product_item_product.title | truncate: 60 }}</p>
+                      <p class="product-price">
+                        {%- render 'price-list', product: block.settings.product_item_product, context: 'card' -%}
+                      </p>
+                    </div>
+                  </a>
+              {% endcase %}
+            {% endfor %}
+          {% else %}
+            {{ product_list }}
+          {% endif %}
         </scroll-carousel>
 
         <carousel-next-button class="floating-controls-container__control" aria-controls="{{ carousel_id }}">
@@ -177,7 +205,6 @@
       </div>
     </div>
   {% endif %}
-  {% comment %} END Slider {% endcomment %}
 </div>
 
 {% schema %}
@@ -330,6 +357,12 @@
         "default": "#E4C0AE"
       },
       {
+        "type": "color",
+        "id": "slider_buttons_background",
+        "label": "t:sections.product_slider_banner.settings.slider_buttons_background.label",
+        "default": "#E4C0AE"
+      },
+      {
         "type": "header",
         "content": "t:sections.product_slider_banner.settings.section_settings_header.content"
       },
@@ -350,6 +383,19 @@
         "min": 0,
         "max": 100,
         "step": 1      
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product_item",
+        "name": "t:sections.product_slider_banner.blocks.product_item.name",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product_item_product",
+            "label": "t:sections.product_slider_banner.blocks.product_item.settings.product_item_product.label"
+          }
+        ]
       }
     ],
     "presets": [

@@ -1832,6 +1832,19 @@
         },
         "padding_bottom": {
           "label": "Padding bottom"
+        },
+        "slider_buttons_background": {
+          "label": "Background slider buttons"
+        }
+      },
+      "blocks": {
+        "product_item": {
+          "name": "Product item",
+          "settings": {
+            "product_item_product": {
+              "label": "Product"
+            }
+          }
         }
       }
     }
