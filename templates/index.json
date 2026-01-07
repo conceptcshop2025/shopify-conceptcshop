@@ -452,19 +452,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_DbYAAb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_6F8fxJ": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
             "promotion_title": "20% DE RABAIS",
@@ -500,6 +489,16 @@
             "promotion_title": "LANCEMENT CHANDELLES CONCEPT C",
             "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
             "promotion_link": "shopify://collections/chandelles",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_DbYAAb": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -546,11 +545,11 @@
       },
       "block_order": [
         "promotion_card_dArbHC",
-        "promotion_card_DbYAAb",
         "promotion_card_6F8fxJ",
         "promotion_card_fUPDTK",
         "promotion_card_iN7AJU",
         "promotion_card_NkepKY",
+        "promotion_card_DbYAAb",
         "promotion_card_jMCcyk",
         "promotion_card_bAfbf8",
         "promotion_card_A9aVXj",
