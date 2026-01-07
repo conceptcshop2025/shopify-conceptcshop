@@ -61,6 +61,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_JzwnGW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur la gamme Balmain. *Rabais automatiquement appliqué au panier.</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_aatVKL": {
           "type": "promotion_card",
           "settings": {
@@ -117,6 +127,7 @@
         "promotion_card_nVkt8h",
         "promotion_card_rWpG9A",
         "promotion_card_k9PTTp",
+        "promotion_card_JzwnGW",
         "promotion_card_aatVKL",
         "promotion_card_Qfq9j3",
         "promotion_card_KdDqzr",
@@ -217,6 +228,7 @@
         },
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/12_3b925dbc-e050-4be0-83ea-3ecd1ddd4855.webp",
             "promotion_title": "Balmain",
