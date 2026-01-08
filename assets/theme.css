@@ -7971,3 +7971,11 @@ ul {
 .text-on-sale.h4 {
   font-weight: bold;
 }
+
+@media (min-width:1920px) {
+  .c-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
