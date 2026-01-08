@@ -21,6 +21,16 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_nVkt8h": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
+            "promotion_title": "CHANDELLE CONCEPT C GRATUITE!",
+            "promotion_description": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre <strong>GRATUITE</strong>. Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</p>",
+            "promotion_link": "shopify://collections/chandelles",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_UU9Eyi": {
           "type": "promotion_card",
           "settings": {
@@ -28,16 +38,6 @@
             "promotion_title": "EXTRA 20% DE RABAIS",
             "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
             "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_nVkt8h": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
-            "promotion_title": "LANCEMENT CHANDELLES CONCEPT C",
-            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "promotion_link": "shopify://collections/chandelles",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -66,7 +66,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur la gamme Balmain. *Rabais automatiquement appliqué au panier.</p>",
+            "promotion_description": "<p>Jusqu’au 22 janvier, obtenez 20 % de rabais sur la gamme Balmain. *Rabais automatiquement appliqué au panier.</p>",
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
@@ -123,8 +123,8 @@
         }
       },
       "block_order": [
-        "promotion_card_UU9Eyi",
         "promotion_card_nVkt8h",
+        "promotion_card_UU9Eyi",
         "promotion_card_rWpG9A",
         "promotion_card_k9PTTp",
         "promotion_card_JzwnGW",
