@@ -517,13 +517,9 @@
     },
     "custom_quick_add_button": {
       "label_button": "Ajouter"
-    }
-  },
-  "customer_accounts": {
-    "sign_in": {
-      "step_one": {
-        "heading": "Se connecter ou créer un compte"
-      }
+    },
+    "custom_release_date_product_button": {
+      "label_button": "Avertissez-moi le jour du lancement"
     }
   }
 }

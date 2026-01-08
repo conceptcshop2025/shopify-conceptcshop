@@ -7972,7 +7972,7 @@ ul {
   font-weight: bold;
 }
 
-.badge-list:has(.badge--custom.badge--release) {
+.product-card .product-card__figure > .badge-list:has(.badge--custom.badge--release) {
   inset-block-start: 2rem;
 }
 

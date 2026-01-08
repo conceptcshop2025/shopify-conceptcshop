@@ -513,6 +513,9 @@
     },
     "custom_quick_add_button": {
       "label_button": "Add"
+    },
+    "custom_release_date_product_button": {
+      "label_button": "Notify me on launch day"
     }
   }
 }

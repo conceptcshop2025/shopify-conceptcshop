@@ -141,7 +141,7 @@ Supported variables
       {% if release_date != blank %}
         {% unless actual_date >= metafield_date %}
           <badge-list class="badge-list badge-list--vertical">
-            <span class="badge badge--custom badge--release">Disponible le {{ release_date }}</span>
+            <span class="badge badge--custom badge--release">Disponible le {{ release_date | date: '%B %d' }}</span>
           </badge-list>
         {% endunless %}
       {% endif %}
@@ -269,12 +269,25 @@ Supported variables
       {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
 
-    {% if product.available %}
-      {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+    {% if release_date == blank %}
+      {% if product.available %}
+        {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+      {% else %}
+        <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
+          {{ 'collection.general.product_card_out_of_stock' | t }}
+        </a>
+      {% endif %}
     {% else %}
-      <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
-        {{ 'collection.general.product_card_out_of_stock' | t }}
-      </a>
+      {% if actual_date <= metafield_date %}
+        {% comment %} Changer bouton de bak in stock par KLAVIYO {% endcomment %}
+        <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
+          {{ 'sections.custom_release_date_product_button.label_button' | t }}
+        </a>
+      {% else %}
+        {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+      {% endif %}
     {% endif %}
+
+    
   </div>
 </product-card>
