@@ -60,12 +60,25 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Janvier_2026_9386d01f-8a17-4ce9-87ba-a90c3b18b8ee.webp",
+            "block_background": "#bcb1a4",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>CHANDELLE CONCEPT C GRATUITE!</strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>À partir de 125 $ d’achat</strong> (avant tx, après application des codes promo) recevez une chandelle de soya Romarin & Cèdre <strong>GRATUITE</strong>.<em> Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</em><br/></p>",
+            "link_url": "shopify://collections/chandelles",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Front_Site_Janvier_2026.webp",
-            "block_background": "#1c1c1c",
-            "text_block_background": "#ffffff",
+            "block_background": "#e1bcbd",
+            "text_block_background": "#1c1c1c",
             "title": "<strong>EXTRA 20% DE RABAIS</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
@@ -73,36 +86,23 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Front_Site_Janvier_2026_2.webp",
-            "block_background": "#1c1c1c",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LANCEMENT CHANDELLES CONCEPT C</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "link_url": "shopify://collections/chandelles",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Front_Site_Janvier_2026_1.webp",
+            "image": "shopify://shop_images/Promo_Balmain_20_Janvier.png",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
+            "title": "<strong>20% DE RABAIS BALMAIN</strong>",
             "heading_tag": "h4",
-            "content": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
-            "link_url": "shopify://collections/promo-du-moment-2",
+            "content": "<p>Jusqu’au 22 janvier, profitez de notre événement Balmain et découvrez la gamme avec 20 % de rabais.<em> *Rabais est automatiquement appliqué au panier.</em></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
-        "image_with_text_8jiqTB",
         "image_with_text_QxKH3t",
+        "image_with_text_8jiqTB",
         "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
@@ -795,7 +795,7 @@
           }
         },
         "juniper_tiktok_feed_mintty_tiktok_feed_NV7VmU": {
-          "type": "shopify://apps/juniper-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "type": "shopify://apps/mintt-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
           "settings": {
             "title": "TikTok",
             "title_color": "#1c1c1c",
