@@ -14,7 +14,7 @@
       "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
-        "banner_image_desktop": "shopify://shop_images/Google_Promo_Masques_Capillaires_Janvier_2026_1200_x_628_px_1560_x_500_px_1.png",
+        "banner_image_desktop": "shopify://shop_images/Google_Promo_Masques_Capillaires_Janvier_2026_1200_x_628_px_1560_x_500_px_2.webp",
         "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
         "banner_background": "#edd95c",
         "banner_title": "",
@@ -29,9 +29,9 @@
         "banner_position": "0",
         "slider_collection": "traite-ta-couette",
         "product_card_background": "#e4c0ae",
-        "product_card_text_color": "#454545",
-        "product_card_tag_background": "#1c1c1c",
-        "product_card_tag_text_and_price_color": "#ffffff",
+        "product_card_text_color": "#1c1c1c",
+        "product_card_tag_background": "#e20073",
+        "product_card_tag_text_and_price_color": "#1c1c1c",
         "slider_buttons_background": "#e4c0ae",
         "padding_top": 20,
         "padding_bottom": 20
