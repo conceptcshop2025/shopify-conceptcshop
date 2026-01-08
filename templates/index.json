@@ -484,8 +484,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -495,8 +495,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -506,8 +506,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -517,8 +517,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -528,8 +528,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -539,8 +539,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -550,8 +550,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -561,8 +561,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -572,8 +572,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
