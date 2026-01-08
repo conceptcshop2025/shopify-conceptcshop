@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "product_slider_banner_eGbwtc": {
+      "type": "product-slider-banner",
+      "disabled": true,
+      "name": "# Product Slider Banner",
+      "settings": {
+        "banner_image_desktop": "shopify://shop_images/image_test.avif",
+        "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
+        "banner_background": "#edd95c",
+        "banner_title": "Lorem ipsum dolor sit amet!",
+        "banner_title_color": "#454545",
+        "banner_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Curabitur hendrerit</strong>, ante ac varius viverra, enim ipsum efficitur purus, quis<strong> efficitur risus</strong> lacus quis <strong>nulla</strong>.</p>",
+        "banner_description_color": "#454545",
+        "banner_button_label": "Learn more",
+        "banner_button_url": "shopify://collections/over-100",
+        "banner_button_background": "#454545",
+        "banner_button_label_color": "#ffffff",
+        "banner_content_alignment": "left",
+        "banner_position": "0",
+        "slider_collection": "loreal",
+        "product_card_background": "#e4c0ae",
+        "product_card_text_color": "#454545",
+        "product_card_tag_background": "#1c1c1c",
+        "product_card_tag_text_and_price_color": "#ffffff",
+        "slider_buttons_background": "#e4c0ae",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "slideshow_eYpVHW": {
       "type": "slideshow",
       "blocks": {
@@ -446,7 +474,7 @@
         "view_all_link_url": "shopify://pages/promotions",
         "view_all_link_text": "Voir toutes nos promotions",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "custom_collection_bullets_7CdYne": {
@@ -566,6 +594,8 @@
       "name": "# Collection bullet list",
       "settings": {
         "color_scheme": "",
+        "section_title": "Magasinez par catégorie",
+        "section_title_alignment": "center",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -834,6 +864,7 @@
     }
   },
   "order": [
+    "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
     "custom_multi_column_BHzrQP",
     "custom_collection_list_Y6XW4j",

@@ -1745,6 +1745,108 @@
           "label": "collection d'événement"
         }
       }
+    },
+    "product_slider_banner": {
+      "settings": {
+        "banner_header": {
+          "content": "Paramètres de la bannière"
+        },
+        "banner_image_desktop": {
+          "label": "Bannière d'image pour ordinateur"
+        },
+        "banner_image_mobile": {
+          "label": "Bannière d'image mobile"
+        },
+        "banner_background": {
+          "label": "Arrière-plan de la bannière",
+          "info": "Disponible seulement si vous n'ajoutez pas de bannière d'image"
+        },
+        "banner_title": {
+          "label": "Titre de la bannière"
+        },
+        "banner_description": {
+          "label": "Description de la bannière"
+        },
+        "banner_button_label": {
+          "label": "Texte du bouton"
+        },
+        "banner_button_url": {
+          "label": "Url du bouton"
+        },
+        "banner_title_color": {
+          "label": "Couleur du titre"
+        },
+        "banner_description_color": {
+          "label": "Couleur de la description"
+        },
+        "banner_button_background": {
+          "label": "Arrière-plan du bouton"
+        },
+        "banner_button_label_color": {
+          "label": "Couleur de l'étiquette du bouton"
+        },
+        "banner_header_alignment": {
+          "content": "Alignement de la bannière"
+        },
+        "banner_content_alignment": {
+          "label": "Alignement du texte de la bannière",
+          "options": {
+            "left_option": "Gauche",
+            "right_option": "Droite",
+            "center_option": "Centre"
+          }
+        },
+        "banner_position": {
+          "label": "Position de la bannière",
+          "info": "Cette option est disponible uniquement pour la résolution de bureau.",
+          "options": {
+            "left_option": "Gauche",
+            "right_option": "Droite",
+            "center_option": "Centre"
+          }
+        },
+        "slider_header": {
+          "content": "Paramètres du curseur"
+        },
+        "slider_collection": {
+          "label": "Collection de curseurs",
+          "info": "Disponible seulement si vous n'ajoutez pas de blocs de produits."
+        },
+        "product_card_background": {
+          "label": "Arrière-plan de la fiche produit"
+        },
+        "product_card_text_color": {
+          "label": "Couleur du texte de la fiche produit"
+        },
+        "product_card_tag_background": {
+          "label": "Arrière-plan de l'étiquette de la fiche produit"
+        },
+        "product_card_tag_text_and_price_color": {
+          "label": "Texte de la fiche produit et couleur du prix"
+        },
+        "section_settings_header": {
+          "content": "Paramètres de section"
+        },
+        "padding_top": {
+          "label": "Marge supérieure"
+        },
+        "padding_bottom": {
+          "label": "Marge inférieure"
+        },
+        "slider_buttons_background": {
+          "label": "Boutons du curseur d'arrière-plan"
+        }
+      },
+      "blocks": {
+        "product_item": {
+          "name": "Article de produit",
+          "settings": {
+            "product_item_product": {
+              "label": "Produit"
+            }
+          }
+        }
+      }
     }
   }
 }
