@@ -1,0 +1,407 @@
+{% liquid
+  assign image_desktop = section.settings.banner_image_desktop
+  assign image_mobile = section.settings.banner_image_mobile
+  assign banner_background = section.settings.banner_background
+  assign banner_title = section.settings.banner_title
+  assign banner_title_color = section.settings.banner_title_color
+  assign banner_description_color = section.settings.banner_description_color
+  assign banner_description = section.settings.banner_description
+  assign banner_button_url = section.settings.banner_button_url
+  assign banner_button_label = section.settings.banner_button_label
+  assign banner_button_background = section.settings.banner_button_background
+  assign banner_button_label_color = section.settings.banner_button_label_color
+  assign banner_content_alignment = section.settings.banner_content_alignment
+  assign banner_position = section.settings.banner_position
+  if section.blocks.size > 0
+    assign products = section.blocks
+  else
+    if section.settings.slider_collection != blank
+      assign products = section.settings.slider_collection.products
+    endif
+  endif
+  assign product_card_background = section.settings.product_card_background
+  assign product_card_text_color = section.settings.product_card_text_color
+  assign product_card_tag_background = section.settings.product_card_tag_background
+  assign product_card_tag_text_and_price_color = section.settings.product_card_tag_text_and_price_color
+  assign slider_buttons_background = section.settings.slider_buttons_background
+%}
+
+{{ 'product-slider-banner.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .section--{{ section.id }} {
+    background: {% if image_desktop == blank and image_mobile == blank %}{{ banner_background }}{% endif %};
+
+    --collection-list-item-size: unset;
+    --collection-list-items-per-row: 2;
+
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .section--{{ section.id }} .banner-title {
+    color: {{ banner_title_color }};
+  }
+
+  .section--{{ section.id }} .banner-description {
+    color: {{ banner_description_color }};
+  }
+
+  .section--{{ section.id }} .banner_button {
+    --initial-gradient: linear-gradient({{ banner_button_background }}, {{ banner_button_background }});
+    color: {{ banner_button_label_color }};
+    border-color: {{ banner_button_background }}
+  }
+
+  .section--{{ section.id }} .banner_button:hover {
+    color: {{ banner_button_background }} !important;
+    border-color: {{ banner_button_background }} !important;
+  }
+
+  .section--{{ section.id }} .banner-text {
+    align-items: {% if banner_content_alignment == 'right' %}flex-end{% elsif banner_content_alignment == 'center' %}center{% else %}flex-start{% endif %};
+    text-align: {{ banner_content_alignment }};
+  }
+
+  .section--{{ section.id }}.product-slider-banner .collection-card {
+    background: {{ product_card_background }};
+  }
+
+  .section--{{ section.id }} .collection-card .product-vendor,
+  .section--{{ section.id }} .collection-card .product-title {
+    color: {{ product_card_text_color }};
+  }
+
+  .section--{{ section.id }}.product-slider-banner .product-slider .collection-card .card-tags li {
+    background-color: {{ product_card_tag_background }};
+    color: {{ product_card_tag_text_and_price_color }};
+  }
+
+  .product-slider-banner .product-slider .collection-card .product-price  compare-at-price {
+    color: {{ product_card_text_color }};
+  }
+
+  .product-slider-banner .product-slider .collection-card .product-price .text-on-sale {
+    color: {{ product_card_tag_text_and_price_color }};
+  }
+
+  .product-slider-banner .product-slider .circle-button {
+    background: {{ slider_buttons_background }};
+  }
+
+  @media (min-width: 768px) {
+    .section--{{ section.id }} {
+      --collection-list-item-size: unset;
+      --collection-list-items-per-row: 3;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .section--{{ section.id }} {
+      --collection-list-item-size: unset;
+      --collection-list-items-per-row: 4;
+    }
+
+    .section--{{ section.id }} .banner-text {
+      margin-left: {{ banner_position }};
+    }
+  }
+{% endstyle %}
+
+<div class="product-slider-banner section--{{ section.id }}">
+  <div class="banner-container container">
+    {% if image_desktop != blank or image_mobile != blank %}
+      <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+      <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+    {% endif %}
+
+    {% if banner_title != blank %}
+      <div class="banner-text">
+        {% if banner_title != blank %}
+          <h2 class="banner-title">{{ banner_title }}</h2>
+        {% endif %}
+
+        {% if banner_description != blank %}
+          <div class="banner-description">{{ banner_description }}</div>
+        {% endif %}
+
+        {% if banner_button_label != blank %}
+          <a href="{% if banner_button_url != blank %}{{ banner_button_url }}{% else %}#{% endif %}" class="button banner_button">
+            {{ banner_button_label }}
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if products != blank %}
+    <div class="product-slider">
+      {% capture product_list %}
+        {% for product in products %}
+          <a class="product-item collection-card shrink-0 snap-center  group" href="{{ product.url }}">
+            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" title="{{ product.title }}" width="250" height="190" class="product-slider-image">
+            <div class="product-information">
+              <ul class="card-tags">
+                {% for collection in product.collections %}
+                  {% if collection.handle == 'nouveautes' or collection.handle == 'soldes' %}
+                    <li>{{ collection.title }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+              <p class="product-vendor">{{ product.vendor }}</p>
+              <p class="product-title">{{ product.title | truncate: 60 }}</p>
+              <p class="product-price">
+                {%- render 'price-list', product: product, context: 'card' -%}
+              </p>
+            </div>
+          </a>
+        {% endfor %}
+      {% endcapture %}
+      <div class="floating-controls-container floating-controls-container--inside floating-controls-container--on-hover ">
+        {%- assign carousel_id = 'carousel-' | append: section.id -%}
+
+        <carousel-prev-button class="floating-controls-container__control" aria-controls="{{ carousel_id }}">
+          <button type="button" class="prev-next-button prev-next-button--prev circle-button circle-button--lg hover:animate-icon-inline" disabled>
+            <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+            {%- render 'icon' with 'arrow-left', direction_aware: true -%}
+          </button>
+        </carousel-prev-button>
+
+        <scroll-carousel id="{{ carousel_id }}" group-cells allow-drag class="collection-list scroll-area bleed lg:unbleed">
+          {% if section.blocks.size > 0 %}
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'product_item' %}
+                  <a class="product-item collection-card shrink-0 snap-center  group" href="{{ block.settings.product_item_product.url }}">
+                    <img src="{{ block.settings.product_item_product.featured_image | image_url }}" alt="{{ block.settings.product_item_product.title }}" title="{{ block.settings.product_item_product.title }}" width="250" height="190" class="product-slider-image">
+                    <div class="product-information">
+                      <ul class="card-tags">
+                        {% for collection in block.settings.product_item_product.collections %}
+                          {% if collection.handle == 'nouveautes' or collection.handle == 'soldes' %}
+                            <li>{{ collection.title }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                      <p class="product-vendor">{{ block.settings.product_item_product.vendor }}</p>
+                      <p class="product-title">{{ block.settings.product_item_product.title | truncate: 60 }}</p>
+                      <p class="product-price">
+                        {%- render 'price-list', product: block.settings.product_item_product, context: 'card' -%}
+                      </p>
+                    </div>
+                  </a>
+              {% endcase %}
+            {% endfor %}
+          {% else %}
+            {{ product_list }}
+          {% endif %}
+        </scroll-carousel>
+
+        <carousel-next-button class="floating-controls-container__control" aria-controls="{{ carousel_id }}">
+          <button type="button" class="prev-next-button prev-next-button--next circle-button circle-button--lg hover:animate-icon-inline">
+            <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+            {%- render 'icon' with 'arrow-right', direction_aware: true -%}
+          </button>
+        </carousel-next-button>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "# Product Slider Banner",
+    "class": "section--product-slider-banner",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.banner_header.content"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image_desktop",
+        "label": "t:sections.product_slider_banner.settings.banner_image_desktop.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image_mobile",
+        "label": "t:sections.product_slider_banner.settings.banner_image_mobile.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_background",
+        "label": "t:sections.product_slider_banner.settings.banner_background.label",
+        "info": "t:sections.product_slider_banner.settings.banner_background.info"
+      },
+      {
+        "type": "text",
+        "id": "banner_title",
+        "label": "t:sections.product_slider_banner.settings.banner_title.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_title_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_title_color.label"
+      },
+      {
+        "type": "richtext",
+        "id": "banner_description",
+        "label": "t:sections.product_slider_banner.settings.banner_description.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_description_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_description_color.label"
+      },
+      {
+        "type": "text",
+        "id": "banner_button_label",
+        "label": "t:sections.product_slider_banner.settings.banner_button_label.label"
+      },
+      {
+        "type": "url",
+        "id": "banner_button_url",
+        "label": "t:sections.product_slider_banner.settings.banner_button_url.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_button_background",
+        "default": "#E4C0AE",
+        "label": "t:sections.product_slider_banner.settings.banner_button_background.label"
+      },
+      {
+        "type": "color",
+        "id": "banner_button_label_color",
+        "default": "#454545",
+        "label": "t:sections.product_slider_banner.settings.banner_button_label_color.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.banner_header_alignment.content"
+      },
+      {
+        "type": "select",
+        "id": "banner_content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.left_option"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.center_option"
+          },
+          {
+            "value": "right",
+            "label": "t:sections.product_slider_banner.settings.banner_content_alignment.options.right_option"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.product_slider_banner.settings.banner_content_alignment.label"
+      },
+      {
+        "type": "select",
+        "id": "banner_position",
+        "options": [
+          {
+            "value": "0",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.left_option"
+          },
+          {
+            "value": "30%",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.center_option"
+          },
+          {
+            "value": "60%",
+            "label": "t:sections.product_slider_banner.settings.banner_position.options.right_option"
+          }
+        ],
+        "default": "0",
+        "label": "t:sections.product_slider_banner.settings.banner_position.label",
+        "info": "t:sections.product_slider_banner.settings.banner_position.info"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.slider_header.content"
+      },
+      {
+        "type": "collection",
+        "id": "slider_collection",
+        "label": "t:sections.product_slider_banner.settings.slider_collection.label",
+        "info": "t:sections.product_slider_banner.settings.slider_collection.info"
+      },
+      {
+        "type": "color",
+        "id": "product_card_background",
+        "label": "t:sections.product_slider_banner.settings.product_card_background.label",
+        "default": "#EFEFEF"
+      },
+      {
+        "type": "color",
+        "id": "product_card_text_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_text_color.label",
+        "default": "#454545"
+      },
+      {
+        "type": "color",
+        "id": "product_card_tag_background",
+        "label": "t:sections.product_slider_banner.settings.product_card_tag_background.label",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "product_card_tag_text_and_price_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_tag_text_and_price_color.label",
+        "default": "#E4C0AE"
+      },
+      {
+        "type": "color",
+        "id": "slider_buttons_background",
+        "label": "t:sections.product_slider_banner.settings.slider_buttons_background.label",
+        "default": "#E4C0AE"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.product_slider_banner.settings.section_settings_header.content"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "t:sections.product_slider_banner.settings.padding_top.label",
+        "default": 20,
+        "min": 0,
+        "max": 100,
+        "step": 1      
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "t:sections.product_slider_banner.settings.padding_bottom.label",
+        "default": 20,
+        "min": 0,
+        "max": 100,
+        "step": 1      
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product_item",
+        "name": "t:sections.product_slider_banner.blocks.product_item.name",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product_item_product",
+            "label": "t:sections.product_slider_banner.blocks.product_item.settings.product_item_product.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "# Product Slider Banner"
+      }
+    ]
+  }
+{% endschema %}
