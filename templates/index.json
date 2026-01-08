@@ -70,6 +70,7 @@
       "block_order": [
         "image_m9i4GY"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -86,12 +87,25 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Janvier_2026_9386d01f-8a17-4ce9-87ba-a90c3b18b8ee.webp",
+            "block_background": "#bcb1a4",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>CHANDELLE CONCEPT C GRATUITE!</strong>",
+            "heading_tag": "h4",
+            "content": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre <strong>GRATUITE.</strong> <em>Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</em></p>",
+            "link_url": "shopify://collections/chandelles",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Front_Site_Janvier_2026.webp",
-            "block_background": "#1c1c1c",
-            "text_block_background": "#ffffff",
+            "block_background": "#e1bcbd",
+            "text_block_background": "#1c1c1c",
             "title": "<strong>EXTRA 20% DE RABAIS</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
@@ -99,39 +113,25 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Front_Site_Janvier_2026_2.webp",
-            "block_background": "#1c1c1c",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LANCEMENT CHANDELLES CONCEPT C</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "link_url": "shopify://collections/coffrets",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Front_Site_Janvier_2026_1.webp",
+            "image": "shopify://shop_images/Promo_Balmain_20_Janvier.png",
             "block_background": "#1c1c1c",
             "text_block_background": "#ffffff",
-            "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
+            "title": "<strong>20% DE RABAIS BALMAIN</strong>",
             "heading_tag": "h4",
-            "content": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
+            "content": "<p>Jusqu’au 22 janvier, profitez de notre événement Balmain et découvrez la gamme avec 20 % de rabais.<em> *Rabais est automatiquement appliqué au panier.</em></p>",
+            "link_url": "shopify://collections/balmain",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
-        "image_with_text_8jiqTB",
         "image_with_text_QxKH3t",
+        "image_with_text_8jiqTB",
         "image_with_text_3LUanK"
       ],
-      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -345,6 +345,137 @@
         "content": ""
       }
     },
+    "custom_promotions_list_iYkpnQ": {
+      "type": "custom-promotions-list",
+      "blocks": {
+        "promotion_card_dArbHC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_jMCcyk": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
+            "promotion_title": "JUSQU'À 40% DE RABAIS",
+            "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_iN7AJU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 20% de rabais sur les litres Moroccanoil.<em>* Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_fUPDTK": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_6F8fxJ": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, obtenez 20 % de rabais sur la gamme Balmain. <em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_DbYAAb": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_NkepKY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
+            "promotion_title": "CHANDELLE CONCEPT C GRATUITE!",
+            "promotion_description": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre<strong>GRATUITE.</strong><em>Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</em></p>",
+            "promotion_link": "shopify://collections/chandelles",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_bAfbf8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_c26dfbb0-64e6-4773-842e-ecd1f3b39ff7.webp",
+            "promotion_title": "EXTRA 20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_0c9812f6-0bda-4831-93d2-fec65cab8e57.webp",
+            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/15.webp",
+            "promotion_title": "LIQUIDATION",
+            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_card_dArbHC",
+        "promotion_card_jMCcyk",
+        "promotion_card_iN7AJU",
+        "promotion_card_fUPDTK",
+        "promotion_card_6F8fxJ",
+        "promotion_card_DbYAAb",
+        "promotion_card_NkepKY",
+        "promotion_card_bAfbf8",
+        "promotion_card_A9aVXj",
+        "promotion_card_BPnVjf"
+      ],
+      "name": "# Promotions list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "section_title": "Nos promotions",
+        "items_per_row": 5,
+        "items_per_row_mobile": 1,
+        "show_slider_in_mobile": true,
+        "show_slider_in_desktop": true,
+        "show_view_all_link": true,
+        "view_all_link_url": "shopify://pages/promotions",
+        "view_all_link_text": "Voir toutes nos promotions",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_collection_bullets_7CdYne": {
       "type": "custom-collection-bullets",
       "blocks": {
@@ -352,8 +483,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -363,8 +494,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -374,8 +505,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -385,8 +516,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -396,8 +527,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -407,8 +538,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -418,8 +549,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -429,8 +560,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -440,8 +571,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#f11931",
-            "border_item_color": "#f11931",
+            "background_item_color": "#e1bcbd",
+            "border_item_color": "#b78e8f",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -464,148 +595,6 @@
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "custom_promotions_list_iYkpnQ": {
-      "type": "custom-promotions-list",
-      "blocks": {
-        "promotion_card_NWfpmX": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.webp",
-            "promotion_title": "PLUS DE 7 500$ EN CADEAUX!",
-            "promotion_description": "<p><strong>Du 26 décembre au 1er janvier,</strong> cours la chance de gagner un cadeau gratuit avec ta commande. <strong>10 outils chauffants + 200 primes, pour plus de 7 500 $ en valeur, seront ajoutés au hasard!</strong></p>",
-            "promotion_link": "shopify://collections/boxing-day",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_wTBXR8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_ba59687f-e59b-4c69-ac28-6aaf4b749de2.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 % </strong>sur plus de 200 outils! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6RjbUa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_1ccaceee-7be1-47aa-944b-4d14384866b5.png",
-            "promotion_title": "CARTE-CADEAU",
-            "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes<strong>cadeaux électroniques</strong>, valides en ligne et en succursale,<strong>envoyée instantanément par courriel.</strong><br/><br/></p>",
-            "promotion_link": "shopify://collections/carte-cadeau",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_fUPDTK": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
-            "promotion_title": "JUSQU'À 35% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % de rabais sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_YG48YR": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/8_e93fd564-ef19-4ccd-9201-da12157c6cd5.png",
-            "promotion_title": "BAS DE NOËL",
-            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/bas-de-noel-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_TcjCNj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_8ef6b303-6308-4908-85a7-7ac3cdcd9dda.png",
-            "promotion_title": "COFFRETS DES FÊTES",
-            "promotion_description": "<p><strong>Jusqu'à 40% de rabais!</strong>Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kinknG": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_6c88fe1d-775f-45b7-88a8-b21237debebd.png",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section Idées cadeaux et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_MQpabj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_38706b81-dcdb-4424-ab04-962dd6d5f50e.png",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires d'Esthederm. *<em>Prix déjà réduits.</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_3EbYeD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_f1483300-c83a-41de-ae7b-39c962598454.png",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! * <em>Prix déjà réduits.</em><br/><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_90641e24-eddc-4aa2-b504-7a831ad4e370.png",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/22.png",
-            "promotion_title": "LIQUIDATION",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        }
-      },
-      "block_order": [
-        "promotion_card_NWfpmX",
-        "promotion_card_wTBXR8",
-        "promotion_card_6RjbUa",
-        "promotion_card_fUPDTK",
-        "promotion_card_YG48YR",
-        "promotion_card_TcjCNj",
-        "promotion_card_kinknG",
-        "promotion_card_MQpabj",
-        "promotion_card_3EbYeD",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf"
-      ],
-      "name": "# Promotions list",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "section_title": "Nos promotions",
-        "items_per_row": 5,
-        "items_per_row_mobile": 1,
-        "show_slider_in_mobile": true,
-        "show_slider_in_desktop": true,
-        "show_view_all_link": true,
-        "view_all_link_url": "shopify://pages/promotions",
-        "view_all_link_text": "Voir toutes nos promotions",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "featured_collections_j4txfR": {
@@ -833,7 +822,7 @@
           }
         },
         "juniper_tiktok_feed_mintty_tiktok_feed_NV7VmU": {
-          "type": "shopify://apps/juniper-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "type": "shopify://apps/mintt-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
           "settings": {
             "title": "TikTok",
             "title_color": "#1c1c1c",
@@ -876,8 +865,8 @@
     "slideshow_eYpVHW",
     "custom_multi_column_BHzrQP",
     "custom_collection_list_Y6XW4j",
-    "custom_collection_bullets_7CdYne",
     "custom_promotions_list_iYkpnQ",
+    "custom_collection_bullets_7CdYne",
     "featured_collections_j4txfR",
     "1de00121-d287-4d65-ad85-9d644957207a",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",

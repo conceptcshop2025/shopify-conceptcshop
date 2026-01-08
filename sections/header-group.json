@@ -14,12 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_3aCrmk": {
-          "type": "message",
-          "settings": {
-            "text": "<strong>Boxing Day - Extra 15% de rabais! *</strong>"
-          }
-        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -28,7 +22,6 @@
         }
       },
       "block_order": [
-        "message_3aCrmk",
         "message-1"
       ],
       "settings": {

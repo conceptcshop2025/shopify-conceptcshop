@@ -21,33 +21,73 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_EmQg7R": {
+        "promotion_card_nVkt8h": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Boxing_Day.webp",
-            "promotion_title": "PLUS DE 7 500$ EN CADEAUX!",
-            "promotion_description": "<p>Du <strong>26 décembre au 1er janvier</strong>, cours la chance de gagner un cadeau gratuit avec ta commande. <strong>10 outils chauffants + 200 primes, pour plus de 7 500 $ en valeur, seront ajoutés au hasard!<br/></strong><br/></p>",
-            "promotion_link": "shopify://collections/boxing-day",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
+            "promotion_title": "CHANDELLE CONCEPT C GRATUITE!",
+            "promotion_description": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre <strong>GRATUITE</strong>. Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</p>",
+            "promotion_link": "shopify://collections/chandelles",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_mCyAz8": {
+        "promotion_card_UU9Eyi": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/1_ba59687f-e59b-4c69-ac28-6aaf4b749de2.png",
-            "promotion_title": "PROMO OUTILS",
-            "promotion_description": "<p>Jusqu’au 1er janvier : <strong>économisez jusqu’à 50 %</strong> sur plus de 200 outils <em>*prix déjà réduits</em><br/></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_c26dfbb0-64e6-4773-842e-ecd1f3b39ff7.webp",
+            "promotion_title": "EXTRA 20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "promotion_link": "shopify://collections/soldes",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_XW6tdr": {
+        "promotion_card_rWpG9A": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/2_1ccaceee-7be1-47aa-944b-4d14384866b5.png",
-            "promotion_title": "CARTE-CADEAU",
-            "promotion_description": "<p>Faites plaisir sans vous tromper grâce avec nos cartes cadeaux électroniques, valides en ligne et en succursale, envoyée instantanément par courriel.<br/><br/><br/><br/></p>",
-            "promotion_link": "shopify://collections/carte-cadeau",
+            "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
+            "promotion_title": "JUSQU'À 40% DE RABAIS",
+            "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_k9PTTp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
+            "promotion_title": "20% DE RABAIS!",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em><br/></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_JzwnGW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 22 janvier, obtenez 20 % de rabais sur la gamme Balmain. *Rabais automatiquement appliqué au panier.</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_aatVKL": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
+            "promotion_title": "15% DE RABAIS",
+            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Qfq9j3": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 20% de rabais sur les litres Moroccanoil.* Prix déjà réduits<br/><br/></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -67,7 +107,7 @@
             "promotion_image": "shopify://shop_images/8_e93fd564-ef19-4ccd-9201-da12157c6cd5.png",
             "promotion_title": "BAS DE NOËL",
             "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/les-minis",
+            "promotion_link": "shopify://collections/format-voyage",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -106,15 +146,15 @@
           "settings": {
             "promotion_image": "shopify://shop_images/6_f1483300-c83a-41de-ae7b-39c962598454.png",
             "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, obtenez 30 % de rabais sur la gamme Intensive Hyaluronic d'Esthederm! *<em>Prix déjà réduits.</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/esthederm",
+            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_90641e24-eddc-4aa2-b504-7a831ad4e370.png",
+            "promotion_image": "shopify://shop_images/6_0c9812f6-0bda-4831-93d2-fec65cab8e57.webp",
             "promotion_title": "ACCESSOIRES CONCEPT C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -124,7 +164,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/22.png",
+            "promotion_image": "shopify://shop_images/15.webp",
             "promotion_title": "LIQUIDATION",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -133,15 +173,14 @@
         }
       },
       "block_order": [
-        "promotion_card_EmQg7R",
-        "promotion_card_mCyAz8",
-        "promotion_card_XW6tdr",
+        "promotion_card_nVkt8h",
+        "promotion_card_UU9Eyi",
+        "promotion_card_rWpG9A",
+        "promotion_card_k9PTTp",
+        "promotion_card_JzwnGW",
+        "promotion_card_aatVKL",
+        "promotion_card_Qfq9j3",
         "promotion_card_KdDqzr",
-        "promotion_card_PTb6QC",
-        "promotion_card_YbzKLB",
-        "promotion_card_CHNQNy",
-        "promotion_card_6QdVwr",
-        "promotion_card_Ftj9mi",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
@@ -192,12 +231,23 @@
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_UVYaL9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_2.webp",
+            "promotion_title": "Redken",
+            "promotion_description": "<p>À l'achat de 75$ de produits Redken, obtiens gartuitement un Traitement Thermo-Protecteur Acidic Color Gloss - 30 ml! <em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
-        "promotion_card_LgNW4P"
+        "promotion_card_LgNW4P",
+        "promotion_card_UVYaL9"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -239,6 +289,7 @@
         },
         "promotion_card_jxEwGf": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/12_3b925dbc-e050-4be0-83ea-3ecd1ddd4855.webp",
             "promotion_title": "Balmain",
