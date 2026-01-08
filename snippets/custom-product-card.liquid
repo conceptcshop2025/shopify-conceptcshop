@@ -43,6 +43,13 @@ Supported variables
     assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true
     assign show_swatches = show_swatches | default: true, allow_false: true
   endif
+
+  comment
+    validation produits avec date de lancement 
+  endcomment
+  assign release_date = product.metafields.custom.release_date
+  assign metafield_date = release_date | date: "%s"
+  assign actual_date = "now" | date: "%s"
 -%}
 
 {% unless snippet_styles_rendered %}
@@ -130,6 +137,14 @@ Supported variables
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true, context: 'card', collection_origin: block.settings.collection.handle, collection_origin_title: block.settings.collection.title -%}
       {%- endif -%}
+
+      {% if release_date != blank %}
+        {% unless actual_date >= metafield_date %}
+          <badge-list class="badge-list badge-list--vertical">
+            <span class="badge badge--custom badge--release">Disponible le {{ release_date }}</span>
+          </badge-list>
+        {% endunless %}
+      {% endif %}
 
       <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>
         {%- capture sizes -%}

@@ -7972,6 +7972,15 @@ ul {
   font-weight: bold;
 }
 
+.badge-list:has(.badge--custom.badge--release) {
+  inset-block-start: 2rem;
+}
+
+.badge--custom.badge--release {
+  background-color: #CB2B2B;
+  color: #fff;
+}
+
 @media (min-width:1920px) {
   .c-container {
     max-width: 1920px;
