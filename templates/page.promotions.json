@@ -94,57 +94,7 @@
         "promotion_card_KdDqzr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_060093cc-d439-4565-b43d-7e515ceaea3a.png",
-            "promotion_title": "JUSQU'À 35% DE RABAIS",
-            "promotion_description": "<p>Du 26 au 31 décembre, profitez de 30 à 35 % de rabais sur toute la gamme Pureology.<em>* Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_PTb6QC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/8_e93fd564-ef19-4ccd-9201-da12157c6cd5.png",
-            "promotion_title": "BAS DE NOËL",
-            "promotion_description": "<p>Des minis qui feront plaisir à coup sûr dans le bas de Noël! 🎁<br/><br/></p>",
-            "promotion_link": "shopify://collections/format-voyage",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_YbzKLB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_8ef6b303-6308-4908-85a7-7ac3cdcd9dda.png",
-            "promotion_title": "COFFRETS DES FÊTES",
-            "promotion_description": "<p><strong>Jusqu'à 50% de rabais!</strong> Offrez-vous ou offrez en cadeau nos coffrets haut de gamme à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_CHNQNy": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_6c88fe1d-775f-45b7-88a8-b21237debebd.png",
-            "promotion_title": "IDÉES CADEAUX",
-            "promotion_description": "<p>Trouvez l’inspiration parfaite! Explorez notre section <strong>Idées cadeaux</strong> et gâtez vos proches (ou vous-même)!<br/><br/></p>",
-            "promotion_link": "shopify://collections/boutique-cadeaux",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6QdVwr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_38706b81-dcdb-4424-ab04-962dd6d5f50e.png",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 décembre, profitez de 15 % de rabais sur tous les produits solaires d'Esthederm. *<em>Prix déjà réduits.</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Ftj9mi": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_f1483300-c83a-41de-ae7b-39c962598454.png",
+            "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
             "promotion_title": "30% DE RABAIS",
             "promotion_description": "<p>Jusqu'au 12 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
