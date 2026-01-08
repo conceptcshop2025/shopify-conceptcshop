@@ -11,6 +11,7 @@
   "sections": {
     "product_slider_banner_eGbwtc": {
       "type": "product-slider-banner",
+      "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
         "banner_image_desktop": "shopify://shop_images/image_test.avif",
@@ -473,7 +474,7 @@
         "view_all_link_url": "shopify://pages/promotions",
         "view_all_link_text": "Voir toutes nos promotions",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "custom_collection_bullets_7CdYne": {
@@ -593,6 +594,8 @@
       "name": "# Collection bullet list",
       "settings": {
         "color_scheme": "",
+        "section_title": "Magasinez par catégorie",
+        "section_title_alignment": "center",
         "padding_top": 20,
         "padding_bottom": 20
       }
