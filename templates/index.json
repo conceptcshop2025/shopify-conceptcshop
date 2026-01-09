@@ -30,8 +30,8 @@
         "slider_collection": "traite-ta-couette",
         "product_card_background": "#e4c0ae",
         "product_card_text_color": "#1c1c1c",
-        "product_card_tag_background": "#e20073",
-        "product_card_tag_text_and_price_color": "#1c1c1c",
+        "product_card_tag_background": "#efefef",
+        "product_card_tag_text_and_price_color": "#e20073",
         "slider_buttons_background": "#e4c0ae",
         "padding_top": 20,
         "padding_bottom": 20
