@@ -14,24 +14,24 @@
       "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
-        "banner_image_desktop": "shopify://shop_images/image_test.avif",
+        "banner_image_desktop": "shopify://shop_images/Google_Promo_Masques_Capillaires_Janvier_2026_1200_x_628_px_1560_x_500_px_2.webp",
         "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
         "banner_background": "#edd95c",
-        "banner_title": "Lorem ipsum dolor sit amet!",
+        "banner_title": "",
         "banner_title_color": "#454545",
-        "banner_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Curabitur hendrerit</strong>, ante ac varius viverra, enim ipsum efficitur purus, quis<strong> efficitur risus</strong> lacus quis <strong>nulla</strong>.</p>",
+        "banner_description": "",
         "banner_description_color": "#454545",
-        "banner_button_label": "Learn more",
+        "banner_button_label": "",
         "banner_button_url": "shopify://collections/over-100",
         "banner_button_background": "#454545",
         "banner_button_label_color": "#ffffff",
         "banner_content_alignment": "left",
         "banner_position": "0",
-        "slider_collection": "loreal",
+        "slider_collection": "traite-ta-couette",
         "product_card_background": "#e4c0ae",
-        "product_card_text_color": "#454545",
-        "product_card_tag_background": "#1c1c1c",
-        "product_card_tag_text_and_price_color": "#ffffff",
+        "product_card_text_color": "#1c1c1c",
+        "product_card_tag_background": "#efefef",
+        "product_card_tag_text_and_price_color": "#e20073",
         "slider_buttons_background": "#e4c0ae",
         "padding_top": 20,
         "padding_bottom": 20
@@ -484,8 +484,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -495,8 +495,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -506,8 +506,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -517,8 +517,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -528,8 +528,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -539,8 +539,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -550,8 +550,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -561,8 +561,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -572,8 +572,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#e1bcbd",
-            "border_item_color": "#b78e8f",
+            "background_item_color": "#e4c0ae",
+            "border_item_color": "#b49889",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
