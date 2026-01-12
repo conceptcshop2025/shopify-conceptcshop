@@ -7979,6 +7979,15 @@ ul {
 .badge--custom.badge--release {
   background-color: #CB2B2B;
   color: #fff;
+  width: calc(100% - 3rem);
+  line-height: 1;
+}
+
+@media (min-width: 1200px) {
+  .badge--custom.badge--release {
+    width: 100%;
+    line-height: initial;
+  }
 }
 
 @media (min-width:1920px) {

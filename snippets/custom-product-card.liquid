@@ -280,7 +280,7 @@ Supported variables
     {% else %}
       {% if actual_date <= metafield_date %}
         <button class="button back_in_stock_button custom-show-popup" onclick='showCustomKlaviyoPopup({{ product.title | json }}, {{ product.metafields.custom.release_date | date: "%Y-%m-%d" | json }})'>
-          {{ 'sections.custom_release_date_product_button.label_button' | t }}
+          {{ 'collection.general.product_card_out_of_stock' | t }}
         </button>
       {% else %}
         {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
