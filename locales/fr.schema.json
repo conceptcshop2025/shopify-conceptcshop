@@ -1822,7 +1822,7 @@
           "label": "Arrière-plan de l'étiquette de la fiche produit"
         },
         "product_card_tag_text_and_price_color": {
-          "label": "Texte de la fiche produit et couleur du prix"
+          "label": "Couleur de l'étiquette du card de produit"
         },
         "section_settings_header": {
           "content": "Paramètres de section"
@@ -1835,6 +1835,12 @@
         },
         "slider_buttons_background": {
           "label": "Boutons du curseur d'arrière-plan"
+        },
+        "product_card_price_color": {
+          "label": "Couleur du prix"
+        },
+        "product_card_regular_price_color": {
+          "label": "Couleur du prix régulier de la fiche produit"
         }
       },
       "blocks": {
