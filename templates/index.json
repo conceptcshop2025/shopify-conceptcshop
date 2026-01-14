@@ -607,19 +607,20 @@
       "blocks": {
         "look_4UbDwa": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
             "hot_spots_background": "#ffffff",
             "product_1": "matrix-masque-traitement-hydratation-intense-food-for-soft",
             "product_1_horizontal_position": 35,
             "product_1_vertical_position": 35,
-            "product_2": "copy-of-cynos-traitement-hydratant-500-ml",
+            "product_2": "biotop-masque-hydratant-911-quinoa-250-ml",
             "product_2_horizontal_position": 34,
             "product_2_vertical_position": 65,
-            "product_3": "biotop-masque-hydratant-911-quinoa-250-ml",
+            "product_3": "amika-masque-nourrissant-soulfood-250-ml",
             "product_3_horizontal_position": 66,
             "product_3_vertical_position": 42,
-            "product_4": "amika-masque-nourrissant-soulfood-250-ml",
+            "product_4": "voir-masque-capillaire-et-traitement-detoxifiant-rhythm-of-the-rain-200-ml",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
@@ -647,7 +648,6 @@
         "look_4UbDwa",
         "look_3AWEUf"
       ],
-      "disabled": true,
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
