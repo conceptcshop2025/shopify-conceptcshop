@@ -141,7 +141,7 @@ Supported variables
       {% if release_date != blank %}
         {% unless actual_date >= metafield_date %}
           <badge-list class="badge-list badge-list--vertical">
-            <span class="badge badge--custom badge--release">Disponible le {{ release_date | date: '%B %d' }}</span>
+            <span class="badge badge--custom badge--release">{{ 'sections.badge_release.content' | t }}{{ release_date | date: '%B %d' }}</span>
           </badge-list>
         {% endunless %}
       {% endif %}

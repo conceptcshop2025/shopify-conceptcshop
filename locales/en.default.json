@@ -516,6 +516,9 @@
     },
     "custom_release_date_product_button": {
       "label_button": "Notify me on launch day"
+    },
+    "badge_release": {
+      "content": "Available on "
     }
   }
 }
