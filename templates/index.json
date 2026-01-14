@@ -624,29 +624,10 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
-        },
-        "look_3AWEUf": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 30,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 70,
-            "product_2_vertical_position": 30,
-            "product_3": "",
-            "product_3_horizontal_position": 60,
-            "product_3_vertical_position": 65,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
         }
       },
       "block_order": [
-        "look_4UbDwa",
-        "look_3AWEUf"
+        "look_4UbDwa"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
