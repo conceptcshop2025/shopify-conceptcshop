@@ -15,7 +15,7 @@
       "name": "# Product Slider Banner",
       "settings": {
         "banner_image_desktop": "shopify://shop_images/Slider_Principal_Promo_Masques_Capillaires_Janvier_2026_1560_x_500_px.webp",
-        "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
+        "banner_image_mobile": "shopify://shop_images/Slider_Mobile_Promo_Masques_Capillaires_Janvier_2026.webp",
         "banner_background": "#edd95c",
         "banner_title": "",
         "banner_title_color": "#454545",
