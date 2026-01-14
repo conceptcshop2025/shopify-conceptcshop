@@ -602,35 +602,6 @@
         "padding_bottom": 20
       }
     },
-    "featured_collections_j4txfR": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_eGEX8J": {
-          "type": "collection",
-          "settings": {
-            "collection": "nouveautes",
-            "products_count": 8,
-            "title": "Nouveautés",
-            "link_url": "shopify://collections/nouveautes",
-            "link_text": "Voir les nouveautés"
-          }
-        }
-      },
-      "block_order": [
-        "collection_eGEX8J"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "shop_the_look_fmQLB9": {
       "type": "shop-the-look",
       "blocks": {
@@ -685,6 +656,35 @@
         "title": "Masque hydratant, idéal sur cheveux secs!",
         "content": "",
         "popover_title": ""
+      }
+    },
+    "featured_collections_j4txfR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_eGEX8J": {
+          "type": "collection",
+          "settings": {
+            "collection": "nouveautes",
+            "products_count": 8,
+            "title": "Nouveautés",
+            "link_url": "shopify://collections/nouveautes",
+            "link_text": "Voir les nouveautés"
+          }
+        }
+      },
+      "block_order": [
+        "collection_eGEX8J"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "1de00121-d287-4d65-ad85-9d644957207a": {
@@ -928,8 +928,8 @@
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "custom_collection_bullets_7CdYne",
-    "featured_collections_j4txfR",
     "shop_the_look_fmQLB9",
+    "featured_collections_j4txfR",
     "1de00121-d287-4d65-ad85-9d644957207a",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",
     "featured_collections_KmTfiQ",
