@@ -637,7 +637,7 @@
         "look_4UbDwa": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px.png",
+            "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
             "hot_spots_background": "#ffffff",
             "product_1": "matrix-masque-traitement-hydratation-intense-food-for-soft",
             "product_1_horizontal_position": 35,
@@ -682,9 +682,9 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Shop the look",
+        "title": "Masque hydratant, idéal sur cheveux secs!",
         "content": "",
-        "popover_title": "Shop the look"
+        "popover_title": ""
       }
     },
     "1de00121-d287-4d65-ad85-9d644957207a": {
