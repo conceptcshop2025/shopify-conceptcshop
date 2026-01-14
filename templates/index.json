@@ -14,7 +14,7 @@
       "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
-        "banner_image_desktop": "shopify://shop_images/Google_Promo_Masques_Capillaires_Janvier_2026_1200_x_628_px_1560_x_500_px_2.webp",
+        "banner_image_desktop": "shopify://shop_images/Slider_Principal_Promo_Masques_Capillaires_Janvier_2026_1560_x_500_px.webp",
         "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
         "banner_background": "#edd95c",
         "banner_title": "",
