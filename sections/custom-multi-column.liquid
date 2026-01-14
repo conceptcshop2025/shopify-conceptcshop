@@ -53,7 +53,7 @@
 
     @media (min-width: 1200px) {
       #shopify-section-{{ section.id }} .multi-column {
-        grid: auto / auto-flow calc(100dvw / {{ section.blocks.size }});
+        grid: auto / auto-flow calc(100% / {{ section.blocks.size }});
       }
     }
   </style>
@@ -63,7 +63,7 @@
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container">
+    <div class="c-container">
       <div class="section-stack">
         {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.content_alignment -%}
 

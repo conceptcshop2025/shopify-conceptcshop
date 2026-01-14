@@ -16,6 +16,11 @@ Supported variables
 * has_content_below_gallery: if true, the product has extra information show below the gallery
 * context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
 {%- endcomment -%}
+ {% liquid
+   assign release_date = product.metafields.custom.release_date
+  assign metafield_date = release_date | date: "%s"
+  assign actual_date = "now" | date: "%s"
+ %}
 
 <safe-sticky class="product-info {% if center_basic_info %}product-info--center{% endif %}">
   <div class="product-info__block-list">
@@ -139,6 +144,13 @@ Supported variables
                 <a href="{{ product.url }}">{{ product_title }}</a>
               </h2>
             {%- endif -%}
+            {% if release_date != blank %}
+              {% unless actual_date >= metafield_date %}
+                <badge-list class="badge-list badge-list--vertical">
+                  <span class="badge badge--custom badge--release badge-release-pdp">{{ 'sections.badge_release.content' | t }}{{ release_date | date: '%B %d' }}</span>
+                </badge-list>
+              {% endunless %}
+            {% endif %}
 
           {%- when 'sku' -%}
             {% if product.selected_or_first_available_variant.sku != blank %}
