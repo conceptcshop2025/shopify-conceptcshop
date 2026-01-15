@@ -426,8 +426,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
-            "promotion_title": "CHANDELLE CONCEPT C GRATUITE!",
-            "promotion_description": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre<strong>GRATUITE.</strong><em>Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</em></p>",
+            "promotion_title": "CHANDELLES CONCEPT C!",
+            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
             "promotion_link": "shopify://collections/chandelles",
             "promotion_link_text": "Voir plus"
           }
