@@ -11,7 +11,6 @@
   "sections": {
     "product_slider_banner_eGbwtc": {
       "type": "product-slider-banner",
-      "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
         "banner_image_desktop": "shopify://shop_images/Slider_Principal_Promo_Masques_Capillaires_Janvier_2026_1560_x_500_px.webp",
@@ -136,6 +135,7 @@
         "image_with_text_8jiqTB",
         "image_with_text_3LUanK"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -619,7 +619,6 @@
       "blocks": {
         "look_4UbDwa": {
           "type": "look",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
             "hot_spots_background": "#ffffff",
