@@ -118,8 +118,15 @@
 <div class="product-slider-banner section--{{ section.id }}">
   <div class="banner-container container">
     {% if image_desktop != blank or image_mobile != blank %}
-      <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
-      <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+      {% if section.settings.banner_url != blank %}
+        <a href="{{ section.settings.banner_url }}">
+          <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+          <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+        </a>
+      {% else %}
+        <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+        <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+      {% endif %}
     {% endif %}
 
     {% if banner_title != blank %}
@@ -233,6 +240,11 @@
         "type": "image_picker",
         "id": "banner_image_mobile",
         "label": "t:sections.product_slider_banner.settings.banner_image_mobile.label"
+      },
+      {
+        "type": "url",
+        "id": "banner_url",
+        "label": "Image url"
       },
       {
         "type": "color",
