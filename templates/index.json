@@ -11,18 +11,18 @@
   "sections": {
     "product_slider_banner_eGbwtc": {
       "type": "product-slider-banner",
-      "disabled": true,
       "name": "# Product Slider Banner",
       "settings": {
-        "banner_image_desktop": "shopify://shop_images/Google_Promo_Masques_Capillaires_Janvier_2026_1200_x_628_px_1560_x_500_px_2.webp",
-        "banner_image_mobile": "shopify://shop_images/image_test_mobile.avif",
+        "banner_image_desktop": "shopify://shop_images/Slider_Principal_Promo_Masques_Capillaires_Janvier_2026_1560_x_500_px.webp",
+        "banner_image_mobile": "shopify://shop_images/Slider_Mobile_Promo_Masques_Capillaires_Janvier_2026.webp",
+        "banner_url": "shopify://collections/traite-ta-couette",
         "banner_background": "#edd95c",
         "banner_title": "",
         "banner_title_color": "#454545",
         "banner_description": "",
         "banner_description_color": "#454545",
         "banner_button_label": "",
-        "banner_button_url": "shopify://collections/over-100",
+        "banner_button_url": "shopify://collections/traite-ta-couette",
         "banner_button_background": "#454545",
         "banner_button_label_color": "#ffffff",
         "banner_content_alignment": "left",
@@ -30,8 +30,10 @@
         "slider_collection": "traite-ta-couette",
         "product_card_background": "#e4c0ae",
         "product_card_text_color": "#1c1c1c",
-        "product_card_tag_background": "#efefef",
-        "product_card_tag_text_and_price_color": "#e20073",
+        "product_card_tag_background": "#1c1c1c",
+        "product_card_tag_text_and_price_color": "#ffffff",
+        "product_card_price_color": "#e20073",
+        "product_card_regular_price_color": "#454545",
         "slider_buttons_background": "#e4c0ae",
         "padding_top": 20,
         "padding_bottom": 20
@@ -91,12 +93,12 @@
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Front_Site_Janvier_2026_9386d01f-8a17-4ce9-87ba-a90c3b18b8ee.webp",
+            "image": "shopify://shop_images/Front_Site_Janvier_2026_f6f98852-ef34-42a1-9ca8-f49fec9cb5eb.webp",
             "block_background": "#bcb1a4",
             "text_block_background": "#1c1c1c",
-            "title": "<strong>CHANDELLE CONCEPT C GRATUITE!</strong>",
+            "title": "<strong>CHANDELLES CONCEPT C!</strong>",
             "heading_tag": "h4",
-            "content": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre <strong>GRATUITE.</strong> <em>Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</em></p>",
+            "content": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
             "link_url": "shopify://collections/chandelles",
             "link_text": "magasiner"
           }
@@ -133,6 +135,7 @@
         "image_with_text_8jiqTB",
         "image_with_text_3LUanK"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -409,6 +412,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xrG6Fz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_5d50fa6a-888a-4783-b366-74afd6428b65.webp",
+            "promotion_title": "CADEAU D'UNE VALEUR DE 89$",
+            "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em><strong> </strong></em><em>(une valeur de 89 $.)</em></p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_NkepKY": {
           "type": "promotion_card",
           "settings": {
@@ -457,6 +470,7 @@
         "promotion_card_fUPDTK",
         "promotion_card_6F8fxJ",
         "promotion_card_DbYAAb",
+        "promotion_card_xrG6Fz",
         "promotion_card_NkepKY",
         "promotion_card_bAfbf8",
         "promotion_card_A9aVXj",
@@ -598,6 +612,42 @@
         "section_title_alignment": "center",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "shop_the_look_fmQLB9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_4UbDwa": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
+            "hot_spots_background": "#ffffff",
+            "product_1": "matrix-masque-traitement-hydratation-intense-food-for-soft",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "biotop-masque-hydratant-911-quinoa-250-ml",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "amika-masque-nourrissant-soulfood-250-ml",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "voir-masque-capillaire-et-traitement-detoxifiant-rhythm-of-the-rain-200-ml",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_4UbDwa"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Masque hydratant, idéal sur cheveux secs!",
+        "content": "",
+        "popover_title": ""
       }
     },
     "featured_collections_j4txfR": {
@@ -870,6 +920,7 @@
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "custom_collection_bullets_7CdYne",
+    "shop_the_look_fmQLB9",
     "featured_collections_j4txfR",
     "1de00121-d287-4d65-ad85-9d644957207a",
     "acf25b8b-ef84-4ec0-83ad-2663a0eaa5f4",

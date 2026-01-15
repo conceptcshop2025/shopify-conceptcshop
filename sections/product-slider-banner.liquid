@@ -24,6 +24,8 @@
   assign product_card_tag_background = section.settings.product_card_tag_background
   assign product_card_tag_text_and_price_color = section.settings.product_card_tag_text_and_price_color
   assign slider_buttons_background = section.settings.slider_buttons_background
+  assign product_card_price_color = section.settings.product_card_price_color
+  assign product_card_regular_price_color = section.settings.product_card_regular_price_color
 %}
 
 {{ 'product-slider-banner.css' | asset_url | stylesheet_tag }}
@@ -82,11 +84,16 @@
   }
 
   .product-slider-banner .product-slider .collection-card .product-price .text-on-sale {
-    color: {{ product_card_tag_text_and_price_color }};
+    color: {{ product_card_price_color }};
   }
 
   .product-slider-banner .product-slider .circle-button {
     background: {{ slider_buttons_background }};
+  }
+
+  .product-slider-banner .product-slider .collection-card .product-price sale-price:not(.text-on-sale),
+  .product-slider-banner .product-slider .collection-card .product-price compare-at-price.line-through {
+    color:{{ product_card_regular_price_color }};
   }
 
   @media (min-width: 768px) {
@@ -111,8 +118,15 @@
 <div class="product-slider-banner section--{{ section.id }}">
   <div class="banner-container container">
     {% if image_desktop != blank or image_mobile != blank %}
-      <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
-      <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+      {% if section.settings.banner_url != blank %}
+        <a href="{{ section.settings.banner_url }}">
+          <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+          <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+        </a>
+      {% else %}
+        <img src="{{ image_desktop | image_url }}" alt="{{ image_desktop.alt }}" width="{{ image_desktop.width }}" height="{{ image_desktop.height }}" class="image-desktop">
+        <img src="{{ image_mobile | image_url }}" alt="{{ image_mobile.alt }}" width="{{ image_mobile.width }}" height="{{ image_mobile.height }}" class="image-mobile">
+      {% endif %}
     {% endif %}
 
     {% if banner_title != blank %}
@@ -226,6 +240,11 @@
         "type": "image_picker",
         "id": "banner_image_mobile",
         "label": "t:sections.product_slider_banner.settings.banner_image_mobile.label"
+      },
+      {
+        "type": "url",
+        "id": "banner_url",
+        "label": "Image url"
       },
       {
         "type": "color",
@@ -355,6 +374,18 @@
         "id": "product_card_tag_text_and_price_color",
         "label": "t:sections.product_slider_banner.settings.product_card_tag_text_and_price_color.label",
         "default": "#E4C0AE"
+      },
+      {
+        "type": "color",
+        "id": "product_card_price_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_price_color.label",
+        "default": "#454545"
+      },
+      {
+        "type": "color",
+        "id": "product_card_regular_price_color",
+        "label": "t:sections.product_slider_banner.settings.product_card_regular_price_color.label",
+        "default": "#454545"
       },
       {
         "type": "color",

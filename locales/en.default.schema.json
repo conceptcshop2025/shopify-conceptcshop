@@ -1822,7 +1822,7 @@
           "label": "Product card tag background"
         },
         "product_card_tag_text_and_price_color": {
-          "label": "Product card text and price color"
+          "label": "Product card tag color"
         },
         "section_settings_header": {
           "content": "Section settings"
@@ -1835,6 +1835,12 @@
         },
         "slider_buttons_background": {
           "label": "Background slider buttons"
+        },
+        "product_card_price_color": {
+          "label": "Product card price color"
+        },
+        "product_card_regular_price_color": {
+          "label": "Product card regular price color"
         }
       },
       "blocks": {
