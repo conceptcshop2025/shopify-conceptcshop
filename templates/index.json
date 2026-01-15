@@ -411,6 +411,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xrG6Fz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_5d50fa6a-888a-4783-b366-74afd6428b65.webp",
+            "promotion_title": "KÉRASTASE",
+            "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em><strong> </strong></em><em>(une valeur de 89 $.)</em></p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_NkepKY": {
           "type": "promotion_card",
           "settings": {
@@ -459,6 +469,7 @@
         "promotion_card_fUPDTK",
         "promotion_card_6F8fxJ",
         "promotion_card_DbYAAb",
+        "promotion_card_xrG6Fz",
         "promotion_card_NkepKY",
         "promotion_card_bAfbf8",
         "promotion_card_A9aVXj",
