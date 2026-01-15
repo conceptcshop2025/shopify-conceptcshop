@@ -15,9 +15,14 @@
     .shopify-section--{{ section.id }} #collection-tags-container {
       width: max-content;
     }
+
+    .collection-tags.shopify-section--{{ section.id }} .tag.tag-collection {
+      background: {{ section.settings.background_tags }};
+      color: {{ section.settings.color_tags }};
+    }
   {% endstyle %}
 
-  <div class="collection-tags shopify-section--{{ section.id }}">
+  <div class="collection-tags shopify-section--{{ section.id }} color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
     {% if subcollections.size > 0 %}
       {% assign middle_size = subcollections.size | divided_by: 2 %}
       <div class="collection-tags-wrapper" id="collection-tags-container">
@@ -188,6 +193,18 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "background_tags",
+      "label": "Background tags",
+      "default": "#E4C0AE"
+    },
+    {
+      "type": "color",
+      "id": "color_tags",
+      "label": "Color tags",
+      "default": "#454545"
     },
     {
       "type": "range",
