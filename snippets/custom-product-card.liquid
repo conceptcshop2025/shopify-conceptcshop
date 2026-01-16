@@ -279,7 +279,15 @@ Supported variables
       {% endif %}
     {% else %}
       {% if actual_date <= metafield_date %}
-        <button class="button back_in_stock_button custom-show-popup" onclick='showCustomKlaviyoPopup({{ product.title | json }}, {{ product.metafields.custom.release_date | date: "%Y-%m-%d" | json }})'>
+        {% liquid
+          assign product_title = product.title | json
+          assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
+          assign product_image = product.featured_image.src | json
+          assign product_url = request.origin | append: product.url | json
+        %}
+        <button
+          class="button back_in_stock_button custom-show-popup"
+          onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }})'>
           {{ 'collection.general.product_card_out_of_stock' | t }}
         </button>
       {% else %}

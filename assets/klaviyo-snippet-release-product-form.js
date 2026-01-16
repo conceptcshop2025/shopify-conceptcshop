@@ -1,4 +1,4 @@
-function showCustomKlaviyoPopup(productTitle, releaseDate) {
+function showCustomKlaviyoPopup(productTitle, releaseDate, releaseProductImage, releaseProductUrl) {
 
   const popup = document.querySelector('.custom-popup');
   popup.classList.add('show');
@@ -16,6 +16,8 @@ function showCustomKlaviyoPopup(productTitle, releaseDate) {
 
   _learnq.push(['identify', {
     'product_title': productTitle,
-    'release_date': releaseDate
+    'release_date': releaseDate,
+    'release_produt_image': releaseProductImage,
+    'release_product_url': releaseProductUrl
   }]);
 }
