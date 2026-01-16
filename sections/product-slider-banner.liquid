@@ -115,8 +115,8 @@
   }
 {% endstyle %}
 
-<div class="product-slider-banner section--{{ section.id }} container-product-slider-banner">
-  <div class="banner-container">
+<div class="product-slider-banner section--{{ section.id }}">
+  <div class="banner-container container">
     {% if image_desktop != blank or image_mobile != blank %}
       {% if section.settings.banner_url != blank %}
         <a href="{{ section.settings.banner_url }}">
