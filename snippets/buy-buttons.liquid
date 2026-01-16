@@ -119,7 +119,7 @@ Supported variables
     {% liquid
       assign product_title = product.title | json
       assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
-      assign product_image = product.featured_media.src | json
+      assign product_image = product.images[0].src | json
       assign product_url = product.url | json
     %}
     <button class="button back_in_stock_button custom-show-popup" onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }})'>

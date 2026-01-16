@@ -282,7 +282,7 @@ Supported variables
         {% liquid
           assign product_title = product.title | json
           assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
-          assign product_image = product.featured_image.src | json
+          assign product_image = product.images[0].src | json
           assign product_url = request.origin | append: product.url | json
         %}
         <button
