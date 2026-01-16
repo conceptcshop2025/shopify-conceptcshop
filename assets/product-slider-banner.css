@@ -102,6 +102,12 @@
   margin: auto 0 0 0;
 }
 
+.section--product-slider-banner {
+  max-width: calc(100% - 4rem);
+  width: 100%;
+  margin: 0 auto;
+}
+
 @media (max-width: 767px) {
   .product-slider-banner {
     --distance-to-bleed: 0;
@@ -156,6 +162,10 @@
 
   .product-slider-banner .product-slider .collection-card {
     flex-basis: 14.563rem;
+  }
+
+  .section--product-slider-banner {
+    max-width: 1360px;
   }
 }
 
