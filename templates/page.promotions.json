@@ -25,8 +25,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
-            "promotion_title": "CHANDELLE CONCEPT C GRATUITE!",
-            "promotion_description": "<p>125 $ d’achat et + (avant tx, après codes promo) : chandelle de soya Romarin & Cèdre <strong>GRATUITE</strong>. Certaines conditions s’appliquent. Exclut Kérastase et Shu Uemura.</p>",
+            "promotion_title": "CHANDELLES CONCEPT C!",
+            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
             "promotion_link": "shopify://collections/chandelles",
             "promotion_link_text": "Voir plus"
           }
@@ -97,7 +97,7 @@
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
             "promotion_title": "20% DE RABAIS",
             "promotion_description": "<p>Jusqu'au 12 mars, profiter de 20% de rabais sur les litres Moroccanoil.* Prix déjà réduits<br/><br/></p>",
-            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link": "shopify://collections/litres-moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
