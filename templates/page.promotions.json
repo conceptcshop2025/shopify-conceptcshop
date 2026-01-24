@@ -110,6 +110,17 @@
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_jTx6Hi": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.webp",
+            "promotion_title": "2 Refresh Dust pour 30$",
+            "promotion_description": "<p>Jusqu’au 28 février, obtenez 2 shampoings secs Refresh Dust pour 30 $! <em>*prix déjà réduit.</em><br/><br/></p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -121,7 +132,8 @@
         "promotion_card_Qfq9j3",
         "promotion_card_KdDqzr",
         "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz"
+        "promotion_card_W7BpWz",
+        "promotion_card_jTx6Hi"
       ],
       "name": "# Promotions list",
       "settings": {
