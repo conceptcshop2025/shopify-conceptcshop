@@ -253,6 +253,7 @@
         },
         "promotion_card_6iwY9K": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/11_e7f30619-dbcc-41be-813c-4beb6a3b7a74.webp",
             "promotion_title": "Redken",
