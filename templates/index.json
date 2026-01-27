@@ -354,7 +354,6 @@
       "blocks": {
         "promotion_card_N8yGnz": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_09078a40-c82e-42ce-a080-0a144753f64a.webp",
             "promotion_title": "14% sur le Steampod & Airlight Pro!",
