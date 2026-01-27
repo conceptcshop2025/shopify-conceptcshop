@@ -21,6 +21,17 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_tWp9Tw": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.png",
+            "promotion_title": "Promo Masques Capillaires",
+            "promotion_description": "<p>Jusqu’au 4 février, obtiens jusqu’à 50 % de rabais sur plus de 200 masques + une mini brosse miracle gratuite! <em>*Prix déjà réduits.</em><br/><br/></p>",
+            "promotion_link": "shopify://collections/traite-ta-couette",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_ARjCpL": {
           "type": "promotion_card",
           "settings": {
@@ -145,6 +156,7 @@
         }
       },
       "block_order": [
+        "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
         "promotion_card_nVkt8h",
         "promotion_card_rWpG9A",
