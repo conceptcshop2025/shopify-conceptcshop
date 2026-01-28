@@ -43,6 +43,13 @@ Supported variables
     assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true
     assign show_swatches = show_swatches | default: true, allow_false: true
   endif
+
+  comment
+    validation produits avec date de lancement 
+  endcomment
+  assign release_date = product.metafields.custom.release_date
+  assign metafield_date = release_date | date: "%s"
+  assign actual_date = "now" | date: "%s"
 -%}
 
 {% unless snippet_styles_rendered %}
@@ -130,6 +137,14 @@ Supported variables
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true, context: 'card', collection_origin: block.settings.collection.handle, collection_origin_title: block.settings.collection.title -%}
       {%- endif -%}
+
+      {% if release_date != blank %}
+        {% unless actual_date >= metafield_date %}
+          <badge-list class="badge-list badge-list--vertical">
+            <span class="badge badge--custom badge--release">{{ 'sections.badge_release.content' | t }}{{ release_date | date: '%B %d' }}</span>
+          </badge-list>
+        {% endunless %}
+      {% endif %}
 
       <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>
         {%- capture sizes -%}
@@ -254,12 +269,33 @@ Supported variables
       {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
 
-    {% if product.available %}
-      {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+    {% if release_date == blank %}
+      {% if product.available %}
+        {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+      {% else %}
+        <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
+          {{ 'collection.general.product_card_out_of_stock' | t }}
+        </a>
+      {% endif %}
     {% else %}
-      <a href="#" class="BIS_trigger button back_in_stock_button" data-product-data="{{ product | json | escape }}">
-        {{ 'collection.general.product_card_out_of_stock' | t }}
-      </a>
+      {% if actual_date <= metafield_date %}
+        {% liquid
+          assign product_title = product.title | json
+          assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
+          assign product_image = product.images[0].src | json
+          assign product_url = request.origin | append: product.url | json
+          assign klaviyoFormTargetId = product.metafields.custom.release_product_klaviyo_id | json
+        %}
+        <button
+          class="button back_in_stock_button custom-show-popup"
+          onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }}, {{ klaviyoFormTargetId }})'>
+          {{ 'sections.custom_release_date_product_button.label_button' | t }}
+        </button>
+      {% else %}
+        {% render 'custom-quick-add-button', show_quick_buy: show_quick_buy, quick_buy_context: quick_buy_context, product: product, section: section, block: block %}
+      {% endif %}
     {% endif %}
+
+    
   </div>
 </product-card>
