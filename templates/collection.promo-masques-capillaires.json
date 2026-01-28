@@ -33,7 +33,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Termes et Conditions</strong>",
-            "answer": "<p>La Promo des Masques Capillaires est en vigueur jusqu’au 4 février à 23 h 59. À l’achat d’un masque, vous obtenez gratuitement une mini brosse Miracle. La prime s’ajoutera automatiquement au panier. Maximum d’une prime par commande. <strong> Certains masques sont exclus de la promotion et auront leur propre prime ou aucune prime:</strong></p><p><br/>▪️Kérastase : à l’achat d’un masque, obtenez un format deluxe. <a href=\"/collections/promo-du-moment-kerastase\" title=\"Promo du moment Kérastase\">Voir l’offre complète.</a><br/>▪️Moroccanoil : à l’achat d’un masque dans l'onglet de la promo, obtenez un masque Gloss Ultra Brillant en format voyage. <a href=\"/collections/promo-du-moment-moroccanoil\" target=\"_blank\" title=\"Promo du moment Moroccanoil\">Voir l'offre complète.</a><br/>▪️Shu Uemura : aucune prime, 25 % de rabais sur les masques. <a href=\"/collections/promo-du-moment-shu-uemura\" target=\"_blank\" title=\"Promo du moment Shu Uemura\">Voir l'offre complète.</a></p>"
+            "answer": "<p>La Promo des Masques Capillaires est en vigueur jusqu’au 4 février à 23 h 59. À l’achat d’un masque, vous obtenez gratuitement une mini brosse Miracle. La prime s’ajoutera automatiquement au panier. Maximum d’une prime par commande. <strong> Certains masques sont exclus de la promotion et auront leur propre prime ou aucune prime:</strong></p><p><br/>▪️Kérastase : à l’achat d’un masque, obtenez un format deluxe. <a href=\"/collections/promo-du-moment-kerastase\" title=\"Promo du moment Kérastase\">Voir l’offre complète.</a><br/>▪️Moroccanoil : à l’achat d’un masque dans l'onglet de la promo, obtenez un masque Gloss Ultra Brillant en format voyage.<strong> OFFRE ÉPUISÉE</strong> <a href=\"/collections/promo-du-moment-moroccanoil\" target=\"_blank\" title=\"Promo du moment Moroccanoil\">Voir l'offre complète. </a><br/>▪️Shu Uemura : aucune prime, 25 % de rabais sur les masques. <a href=\"/collections/promo-du-moment-shu-uemura\" target=\"_blank\" title=\"Promo du moment Shu Uemura\">Voir l'offre complète.</a></p>"
           }
         }
       },
@@ -55,6 +55,8 @@
       "name": "# Collection tags",
       "settings": {
         "color_scheme": "",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
         "padding_top": 20,
         "padding_bottom": 20
       }
