@@ -7971,3 +7971,35 @@ ul {
 .text-on-sale.h4 {
   font-weight: bold;
 }
+
+.product-card .product-card__figure > .badge-list:has(.badge--custom.badge--release) {
+  inset-block-start: 2rem;
+}
+
+.badge--custom.badge--release {
+  background-color: #ee7272;
+  color: #fff;
+  width: calc(100% - 3rem);
+  line-height: 1;
+}
+
+.badge--custom.badge--release.badge-release-pdp {
+  display: inline-block;
+  width: fit-content;
+  padding: .25rem 1rem;
+}
+
+@media (min-width: 1200px) {
+  .badge--custom.badge--release {
+    width: 100%;
+    line-height: initial;
+  }
+}
+
+@media (min-width:1920px) {
+  .c-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
