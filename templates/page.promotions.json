@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_tWp9Tw": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.png",
             "promotion_title": "Promo Masques Capillaires",
@@ -217,23 +216,12 @@
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_UVYaL9": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_2.webp",
-            "promotion_title": "Redken",
-            "promotion_description": "<p>À l'achat de 75$ de produits Redken, obtiens gartuitement un Traitement Thermo-Protecteur Acidic Color Gloss - 30 ml! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/redken",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
-        "promotion_card_LgNW4P",
-        "promotion_card_UVYaL9"
+        "promotion_card_LgNW4P"
       ],
       "name": "# Promotions list",
       "settings": {
