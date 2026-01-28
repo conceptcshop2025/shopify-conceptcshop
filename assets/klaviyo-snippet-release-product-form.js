@@ -1,4 +1,4 @@
-function showCustomKlaviyoPopup(productTitle, releaseDate, releaseProductImage, releaseProductUrl) {
+function showCustomKlaviyoPopup(productTitle, releaseDate, releaseProductImage, releaseProductUrl, klaviyoId) {
 
   const popup = document.querySelector('.custom-popup');
   popup.classList.add('show');
@@ -7,7 +7,8 @@ function showCustomKlaviyoPopup(productTitle, releaseDate, releaseProductImage, 
     popup.classList.remove('show');
   });
 
-  const klaviyoFormContainer = popup.querySelector('.klaviyo-form-UbWDNZ');
+  const klaviyoFormContainer = popup.querySelector(`.klaviyo-form-${klaviyoId}`);
+  klaviyoFormContainer.classList.add('show');
   klaviyoFormContainer.addEventListener('click', function (e) {
     e.stopPropagation();
   });

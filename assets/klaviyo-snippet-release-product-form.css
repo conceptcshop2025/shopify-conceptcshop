@@ -19,3 +19,11 @@
   background-color: rgb(255, 255, 255);
   border-radius: .5rem;
 }
+
+.custom-popup .klaviyo-form {
+  display: none;
+}
+
+.custom-popup .klaviyo-form.show {
+  display: flex;
+}

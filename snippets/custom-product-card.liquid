@@ -284,10 +284,11 @@ Supported variables
           assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
           assign product_image = product.images[0].src | json
           assign product_url = request.origin | append: product.url | json
+          assign klaviyoFormTargetId = product.metafields.custom.release_product_klaviyo_id | json
         %}
         <button
           class="button back_in_stock_button custom-show-popup"
-          onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }})'>
+          onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }}, {{ klaviyoFormTargetId }})'>
           {{ 'sections.custom_release_date_product_button.label_button' | t }}
         </button>
       {% else %}
