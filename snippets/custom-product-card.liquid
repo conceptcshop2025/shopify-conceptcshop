@@ -141,7 +141,20 @@ Supported variables
       {% if release_date != blank %}
         {% unless actual_date >= metafield_date %}
           <badge-list class="badge-list badge-list--vertical">
-            <span class="badge badge--custom badge--release">{{ 'sections.badge_release.content' | t }}{{ release_date | date: '%B %d' }}</span>
+            {% liquid
+              assign french_months = "Janvier,Fevrier,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre" | split: ","
+              assign month_index = release_date | date: "%-m" | minus: 1
+              assign month_name = french_months[month_index]
+            %}
+            <span class="badge badge--custom badge--release">
+              {{ 'sections.badge_release.content' | t }}
+              
+              {% if request.locale.iso_code == 'fr' %}
+                {{ release_date | date: '%d' }} {{ month_name }} 
+              {% else %}
+                {{ release_date | date: '%B %d' }}
+              {% endif %}
+            </span>
           </badge-list>
         {% endunless %}
       {% endif %}
