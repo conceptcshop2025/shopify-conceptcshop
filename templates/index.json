@@ -352,6 +352,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_N8yGnz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_09078a40-c82e-42ce-a080-0a144753f64a.webp",
+            "promotion_title": "14% sur le Steampod & Airlight Pro!",
+            "promotion_description": "<p>Jusqu’au 14 février, profitez de <strong>14 % de rabais</strong> sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. <em>*Prix déjà réduits.</em></p>",
+            "promotion_link": "shopify://collections/outils-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_dArbHC": {
           "type": "promotion_card",
           "settings": {
@@ -377,7 +387,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 20% de rabais sur les litres Moroccanoil.<em>* Prix déjà réduits</em></p>",
+            "promotion_description": "<p>Jusqu'au 31 janvier, profiter de 20% de rabais sur les litres Moroccanoil.<em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/litres-moroccanoil",
             "promotion_link_text": "Voir plus"
           }
@@ -387,18 +397,8 @@
           "settings": {
             "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
             "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 12 mars, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
+            "promotion_description": "<p>Jusqu'au 31 janvier, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6F8fxJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_3302884f-9ac6-4630-9969-5c103f5625ba.webp",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 22 janvier, obtenez 20 % de rabais sur la gamme Balmain. <em>*Rabais automatiquement appliqué au panier.</em></p>",
-            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -432,16 +432,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_bAfbf8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_c26dfbb0-64e6-4773-842e-ecd1f3b39ff7.webp",
-            "promotion_title": "EXTRA 20% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
-            "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -464,15 +454,14 @@
         }
       },
       "block_order": [
+        "promotion_card_N8yGnz",
         "promotion_card_dArbHC",
         "promotion_card_jMCcyk",
         "promotion_card_iN7AJU",
         "promotion_card_fUPDTK",
-        "promotion_card_6F8fxJ",
         "promotion_card_DbYAAb",
         "promotion_card_xrG6Fz",
         "promotion_card_NkepKY",
-        "promotion_card_bAfbf8",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
