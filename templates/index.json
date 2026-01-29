@@ -94,7 +94,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Facing_site_Festilitre-2.jpg",
-            "block_background": "#bcb1a4",
+            "block_background": "#e0b193",
             "text_block_background": "#1c1c1c",
             "title": "<strong>CHANDELLES CONCEPT C!</strong>",
             "heading_tag": "h4",
@@ -107,7 +107,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Facing_Site_-_Redken-2.jpg",
-            "block_background": "#e1bcbd",
+            "block_background": "#dbd8d5",
             "text_block_background": "#1c1c1c",
             "title": "<strong>EXTRA 20% DE RABAIS</strong>",
             "heading_tag": "h4",
