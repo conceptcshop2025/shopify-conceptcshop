@@ -452,6 +452,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Wpa8yL": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.webp",
+            "promotion_title": "2 Refresh Dust pour 30$",
+            "promotion_description": "<p>Jusqu’au 28 février, obtenez 2 shampoings secs Refresh Dust pour 30 $! <em>*prix déjà réduit.</em></p>",
+            "promotion_link": "shopify://products/schwarzkopf-duo-refresh-dust",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
@@ -474,6 +484,7 @@
         "promotion_card_xrG6Fz",
         "promotion_card_NkepKY",
         "promotion_card_A9aVXj",
+        "promotion_card_Wpa8yL",
         "promotion_card_BPnVjf"
       ],
       "name": "# Promotions list",
