@@ -120,7 +120,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Facing_Site_-_Parfum_2-2.jpg",
-            "block_background": "#1c1c1c",
+            "block_background": "#0c1c3d",
             "text_block_background": "#ffffff",
             "title": "<strong>20% DE RABAIS BALMAIN</strong>",
             "heading_tag": "h4",
