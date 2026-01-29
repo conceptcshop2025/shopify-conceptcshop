@@ -31,6 +31,9 @@
     },
     "product_slider_banner_VK9knX": {
       "type": "product-slider-banner",
+      "custom_css": [
+        ".product-slider-banner .product-slider {margin-top: 10rem;}"
+      ],
       "name": "# Product Slider Banner",
       "settings": {
         "banner_url": "",
