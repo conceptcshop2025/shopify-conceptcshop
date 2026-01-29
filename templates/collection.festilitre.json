@@ -11,6 +11,7 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_1560_x_300_px.jpg",
@@ -26,6 +27,34 @@
         "content_width": "xs",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "product_slider_banner_VK9knX": {
+      "type": "product-slider-banner",
+      "name": "# Product Slider Banner",
+      "settings": {
+        "banner_url": "",
+        "banner_background": "#f7cdd6",
+        "banner_title": "Festilitre",
+        "banner_title_color": "#454545",
+        "banner_description": "<p>Plus de 500 litres à partir de 23,99$</p>",
+        "banner_description_color": "#454545",
+        "banner_button_label": "",
+        "banner_button_url": "",
+        "banner_button_background": "#E4C0AE",
+        "banner_button_label_color": "#454545",
+        "banner_content_alignment": "left",
+        "banner_position": "0",
+        "slider_collection": "festilitre",
+        "product_card_background": "#EFEFEF",
+        "product_card_text_color": "#454545",
+        "product_card_tag_background": "#FFFFFF",
+        "product_card_tag_text_and_price_color": "#E4C0AE",
+        "product_card_price_color": "#454545",
+        "product_card_regular_price_color": "#454545",
+        "slider_buttons_background": "#E4C0AE",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "custom_collection_tags_DdQdc6": {
@@ -66,6 +95,7 @@
   },
   "order": [
     "collection-banner",
+    "product_slider_banner_VK9knX",
     "custom_collection_tags_DdQdc6",
     "main"
   ]
