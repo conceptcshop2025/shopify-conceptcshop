@@ -21,6 +21,16 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_cLxwze": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1.webp",
+            "promotion_title": "Lancement baume pour les pointes Redken!",
+            "promotion_description": "<p>Jusqu’au 4 février, obtenez 20 % de rabais sur le nouveau baume pour les pointes Redken ABC, ainsi que deux formats deluxe! <em>*Prix déjà réduit</em><br/><br/></p>",
+            "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_tWp9Tw": {
           "type": "promotion_card",
           "settings": {
@@ -131,17 +141,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_cLxwze": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1.webp",
-            "promotion_title": "Lancement baume pour les pointes Redken!",
-            "promotion_description": "<p>Jusqu’au 4 février, obtenez 20 % de rabais sur le nouveau baume pour les pointes Redken ABC, ainsi que deux formats deluxe! <em>*Prix déjà réduit</em><br/><br/></p>",
-            "promotion_link": "",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_jTx6Hi": {
           "type": "promotion_card",
           "disabled": true,
@@ -155,6 +154,7 @@
         }
       },
       "block_order": [
+        "promotion_card_cLxwze",
         "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
         "promotion_card_nVkt8h",
@@ -166,7 +166,6 @@
         "promotion_card_KdDqzr",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
-        "promotion_card_cLxwze",
         "promotion_card_jTx6Hi"
       ],
       "name": "# Promotions list",
