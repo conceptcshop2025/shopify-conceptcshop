@@ -11,6 +11,9 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "custom_css": [
+        ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
         "image": "shopify://shop_images/Haut_Collection_DeskFestilitre_Hiver_2026_1560_x_300_px_3840_x_300_px.webp",
