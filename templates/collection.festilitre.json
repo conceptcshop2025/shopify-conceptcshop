@@ -33,6 +33,9 @@
     },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
+      "custom_css": [
+        ".collection-tags .tag.tag-collection {background: #f7cdd6;}"
+      ],
       "name": "# Collection tags",
       "settings": {
         "color_scheme": "",
