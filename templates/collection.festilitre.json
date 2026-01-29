@@ -13,17 +13,19 @@
       "type": "collection-banner",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_1560_x_300_px.jpg",
+        "mobile_image": "shopify://shop_images/Haut_COllection_Mobile_Festilitre_Hiver_2026_750_x_300_px.jpg",
         "image_size": "auto",
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_image": true,
-        "reveal": true,
-        "enable_parallax": true,
-        "show_collection_title": true,
-        "show_collection_description": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
         "show_breadcrumb": true,
         "content_width": "xs",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "custom_collection_tags_DdQdc6": {
@@ -31,6 +33,8 @@
       "name": "# Collection tags",
       "settings": {
         "color_scheme": "",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
         "padding_top": 20,
         "padding_bottom": 20
       }
