@@ -93,16 +93,30 @@ Supported variables
 {%- if badges != blank -%}
   <badge-list class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
     {% if collection_origin == 'nouveautes' %}
-      <span class="badge badge-new">{{- collection_origin_title | upcase | remove_last: 's' -}}</span>
+      <span class="badge badge-new">
+        {% if request.locale.iso_code == 'fr' %}
+          Nouveauté
+        {% else %}
+          {{- collection_origin_title | upcase -}}
+        {% endif %}
+      </span>
     {% elsif collection_origin == 'soldes' %}
-      <span class="badge badge-sale">{{- collection_origin_title | upcase | remove_last: 's' -}}</span>
+      <span class="badge badge-sale">
+        {{- collection_origin_title | upcase -}}
+      </span>
     {% endif %}
     {{- badges -}}
   </badge-list>
 {% else %}
   {% if collection_origin == 'nouveautes' or collection_origin == 'soldes' %}
     <badge-list class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
-      <span class="badge {% if collection_origin == 'nouveautes' %}badge-new{% elsif collection_origin == 'soldes' %}badge-sale{% endif %}">{{- collection_origin_title | upcase | remove_last: 's' -}}</span>
+      <span class="badge {% if collection_origin == 'nouveautes' %}badge-new{% elsif collection_origin == 'soldes' %}badge-sale{% endif %}">
+        {% if request.locale.iso_code == 'fr' %}
+          {% if collection_origin == 'nouveautes' %}Nouveauté{% elsif collection_origin == 'soldes' %}Soldes{% endif %}
+        {% else %}
+          {{- collection_origin_title | upcase -}}
+        {% endif %}
+      </span>
     </badge-list>
   {% endif %}
 {%- endif -%}
