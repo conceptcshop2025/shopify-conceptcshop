@@ -183,6 +183,17 @@
             "promotion_link": "shopify://collections/offre-esthederm",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_nT6RHc": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_68eb0a26-c9a4-4745-8bc8-8b05613caa50.webp",
+            "promotion_title": "Promo Pureology Hydrate & Strength Cure",
+            "promotion_description": "<p>Jusqu’au 31 mars, obtenez 20 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/litres-pureology",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -201,7 +212,8 @@
         "promotion_card_W7BpWz",
         "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
-        "promotion_card_kWUDpN"
+        "promotion_card_kWUDpN",
+        "promotion_card_nT6RHc"
       ],
       "name": "# Promotions list",
       "settings": {
