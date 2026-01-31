@@ -175,6 +175,7 @@
         },
         "promotion_card_kWUDpN": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
             "promotion_title": "Offre sur les gammes Intensive Esthederm",
