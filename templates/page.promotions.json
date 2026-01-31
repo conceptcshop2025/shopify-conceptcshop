@@ -274,12 +274,24 @@
             "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_k3YdxA": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_3.webp",
+            "promotion_title": "Gloss Absolu de Kérastase pour la St-Valentin!",
+            "promotion_description": "<p>À l’achat du parfum Gloss Absolu de Kérastase, recevez en cadeau le format deluxe des Glazing Drops.</p>",
+            "promotion_link": "shopify://products/kerastase-gloss-absolu-le-parfum-fragrance-pour-cheveux",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
-        "promotion_card_LgNW4P"
+        "promotion_card_LgNW4P",
+        "promotion_card_k3YdxA"
       ],
       "name": "# Promotions list",
       "settings": {
