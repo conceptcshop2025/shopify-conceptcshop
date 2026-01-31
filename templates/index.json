@@ -523,7 +523,7 @@
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_4.webp",
             "promotion_title": "Économisez 100 $ sur une sélection d’outils  GHD",
             "promotion_description": "<p>Découvrez les fers plats Chronos et Platinum+ ainsi que le séchoir Helios de ghd, maintenant offerts avec 100 $ de rabais!<br/></p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://collections/promo-festive",
             "promotion_link_text": "Voir plus"
           }
         },
