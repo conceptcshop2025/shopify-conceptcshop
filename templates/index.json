@@ -482,6 +482,17 @@
             "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_Jiyfhk": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
+            "promotion_title": "Nouveautés Chronologiste de Kérastase",
+            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
+            "promotion_link": "shopify://collections/offre-a-decouvrir",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -497,7 +508,8 @@
         "promotion_card_NkepKY",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_KWx3bV"
+        "promotion_card_KWx3bV",
+        "promotion_card_Jiyfhk"
       ],
       "name": "# Promotions list",
       "settings": {
