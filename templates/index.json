@@ -493,6 +493,17 @@
             "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_TMyD6Y": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
+            "promotion_title": "Offre sur les gammes Intensive Esthederm",
+            "promotion_description": "<p>Jusqu’au 28 février, profitez de <strong>20 à 30 % de rabais</strong> sur les collections Intensive*. <em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/offre-esthederm",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -509,7 +520,8 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_KWx3bV",
-        "promotion_card_Jiyfhk"
+        "promotion_card_Jiyfhk",
+        "promotion_card_TMyD6Y"
       ],
       "name": "# Promotions list",
       "settings": {
