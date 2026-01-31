@@ -471,6 +471,17 @@
             "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_KWx3bV": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
+            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
+            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -485,7 +496,8 @@
         "promotion_card_xrG6Fz",
         "promotion_card_NkepKY",
         "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf"
+        "promotion_card_BPnVjf",
+        "promotion_card_KWx3bV"
       ],
       "name": "# Promotions list",
       "settings": {
