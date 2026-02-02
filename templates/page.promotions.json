@@ -61,6 +61,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_3qQfyr": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
+            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
+            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_EJkGNM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
+            "promotion_title": "Nouveautés Chronologiste de Kérastase",
+            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
+            "promotion_link": "shopify://collections/offre-a-decouvrir",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
@@ -78,28 +98,6 @@
             "promotion_title": "Liquidation",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_3qQfyr": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
-            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
-            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_EJkGNM": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
-            "promotion_title": "Nouveautés Chronologiste de Kérastase",
-            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -153,10 +151,10 @@
         "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
         "promotion_card_jTx6Hi",
-        "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz",
         "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
+        "promotion_card_M9AwAA",
+        "promotion_card_W7BpWz",
         "promotion_card_kWUDpN",
         "promotion_card_nT6RHc",
         "promotion_card_RxDNcX",
@@ -229,6 +227,16 @@
             "promotion_link": "shopify://products/kerastase-gloss-absolu-le-parfum-fragrance-pour-cheveux",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_eA8iqg": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/15_660dffe7-4e25-48f0-8788-75eafd289663.png",
+            "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
+            "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
+            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -236,7 +244,8 @@
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
         "promotion_card_WaqA6k",
-        "promotion_card_k3YdxA"
+        "promotion_card_k3YdxA",
+        "promotion_card_eA8iqg"
       ],
       "name": "# Promotions list",
       "settings": {
