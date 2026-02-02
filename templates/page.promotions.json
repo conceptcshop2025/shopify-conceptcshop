@@ -61,36 +61,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_nVkt8h": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026.webp",
-            "promotion_title": "CHANDELLES CONCEPT C!",
-            "promotion_description": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "promotion_link": "shopify://collections/chandelles",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rWpG9A": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_0510390a-6b36-4b9a-8746-f1691e5916e6.webp",
-            "promotion_title": "JUSQU'À 40% DE RABAIS",
-            "promotion_description": "<p>Gamme qui protège la couleur, booste la brillance et prolonge l’éclat, maintenant jusqu’à 40 % de rabais tout le mois! *<em>Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_k9PTTp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_1ec99654-3535-4e7e-85e4-eb1e926775be.webp",
-            "promotion_title": "20% DE RABAIS!",
-            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 20 % de rabais sur le Airwash et le Astrolift de K18! *<em>Prix déjà réduits.</em><br/></p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_eayUt9": {
           "type": "promotion_card",
           "settings": {
@@ -98,36 +68,6 @@
             "promotion_title": "CADEAU D'UNE VALEUR DE 89$",
             "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em> (une valeur de 89 $.)</em></p>",
             "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_aatVKL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_26991d52-e574-4bed-ab58-26f615d7119b.webp",
-            "promotion_title": "15% DE RABAIS",
-            "promotion_description": "<p>Jusqu’au 31 janvier, obtenez 15 % sur les gamme Osmoclean et Eau Cellulaire d'Esthederm. *<em>Prix déjà réduits.</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Qfq9j3": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_583262d8-3ad5-4b38-90bb-d3230b3fe475.webp",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 31 janvier, profiter de 20% de rabais sur les litres Moroccanoil.* Prix déjà réduits<br/><br/></p>",
-            "promotion_link": "shopify://collections/litres-moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_KdDqzr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_422c6eb5-f175-4fc4-bf23-b24801efd266.webp",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<p>Jusqu'au 31 janvier, profiter de 30% de rabais sur les litres Pureology. <em>* Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -223,13 +163,7 @@
         "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
         "promotion_card_jTx6Hi",
-        "promotion_card_nVkt8h",
-        "promotion_card_rWpG9A",
-        "promotion_card_k9PTTp",
         "promotion_card_eayUt9",
-        "promotion_card_aatVKL",
-        "promotion_card_Qfq9j3",
-        "promotion_card_KdDqzr",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
         "promotion_card_3qQfyr",
