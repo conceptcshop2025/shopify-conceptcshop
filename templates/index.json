@@ -355,7 +355,7 @@
         "promotion_card_GXRBUw": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1.webp",
+            "promotion_image": "shopify://shop_images/1_b29afd89-debb-498a-b1c5-3d02f2afe79b.png",
             "promotion_title": "Lancement baume pour les pointes Redken!",
             "promotion_description": "<p>Jusqu’au 4 février, obtenez 10$ de rabais sur le nouveau baume pour les pointes Redken ABC, ainsi que deux formats deluxe! <em>*Prix déjà réduit</em></p>",
             "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
@@ -365,7 +365,7 @@
         "promotion_card_N8yGnz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_09078a40-c82e-42ce-a080-0a144753f64a.webp",
+            "promotion_image": "shopify://shop_images/3_c342d36f-f9f6-4129-9e44-0fc35e633ed1.png",
             "promotion_title": "14% sur le Steampod & Airlight Pro!",
             "promotion_description": "<p>Jusqu’au 14 février, profitez de <strong>14 % de rabais</strong> sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. <em>*Prix déjà réduits.</em></p>",
             "promotion_link": "shopify://collections/outils-loreal",
@@ -375,36 +375,15 @@
         "promotion_card_Wpa8yL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.webp",
+            "promotion_image": "shopify://shop_images/2_fb68a51f-5abc-4e35-a9e8-caac37b5c82e.png",
             "promotion_title": "2 Refresh Dust pour 30$",
             "promotion_description": "<p>Jusqu’au 28 février, obtenez 2 shampoings secs Refresh Dust pour 30 $! <em>*prix déjà réduit.</em></p>",
             "promotion_link": "shopify://products/schwarzkopf-duo-refresh-dust",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_0c9812f6-0bda-4831-93d2-fec65cab8e57.webp",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/15.webp",
-            "promotion_title": "LIQUIDATION",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_KWx3bV": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
             "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
@@ -413,9 +392,28 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_Jiyfhk": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
             "promotion_title": "Nouveautés Chronologiste de Kérastase",
@@ -426,7 +424,6 @@
         },
         "promotion_card_TMyD6Y": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
             "promotion_title": "Offre sur les gammes Intensive Esthederm",
@@ -456,31 +453,19 @@
             "promotion_link": "shopify://collections/promo-festive",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_K3R4CY": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_44c7e2b3-aa8a-41d1-9f5a-745d83cdb8b4.webp",
-            "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
-            "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_GXRBUw",
         "promotion_card_N8yGnz",
         "promotion_card_Wpa8yL",
+        "promotion_card_KWx3bV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_KWx3bV",
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
         "promotion_card_X67QHk",
-        "promotion_card_7TnXyM",
-        "promotion_card_K3R4CY"
+        "promotion_card_7TnXyM"
       ],
       "name": "# Promotions list",
       "settings": {
