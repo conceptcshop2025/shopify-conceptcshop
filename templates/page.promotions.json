@@ -81,6 +81,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_kWUDpN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
+            "promotion_title": "Offre sur les gammes Intensive Esthederm",
+            "promotion_description": "<p>Jusqu’au 28 février, profitez de <strong>20 à 30 % de rabais</strong> sur les collections Intensive*. <em>Prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/offre-esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
@@ -101,17 +111,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_kWUDpN": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
-            "promotion_title": "Offre sur les gammes Intensive Esthederm",
-            "promotion_description": "<p>Jusqu’au 28 février, profitez de <strong>20 à 30 % de rabais</strong> sur les collections Intensive*. <em>Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_nT6RHc": {
           "type": "promotion_card",
           "disabled": true,
@@ -120,17 +119,6 @@
             "promotion_title": "Promo Pureology Hydrate & Strength Cure",
             "promotion_description": "<p>Jusqu’au 31 mars, obtenez 20 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/litres-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_RxDNcX": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_44c7e2b3-aa8a-41d1-9f5a-745d83cdb8b4.webp",
-            "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
-            "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -153,11 +141,10 @@
         "promotion_card_jTx6Hi",
         "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
+        "promotion_card_kWUDpN",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
-        "promotion_card_kWUDpN",
         "promotion_card_nT6RHc",
-        "promotion_card_RxDNcX",
         "promotion_card_xJDyp9"
       ],
       "name": "# Promotions list",
@@ -230,6 +217,7 @@
         },
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/15_660dffe7-4e25-48f0-8788-75eafd289663.png",
             "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
