@@ -61,21 +61,11 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_eayUt9": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Janvier_2026_5d50fa6a-888a-4783-b366-74afd6428b65.webp",
-            "promotion_title": "CADEAU D'UNE VALEUR DE 89$",
-            "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em> (une valeur de 89 $.)</em></p>",
-            "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_0c9812f6-0bda-4831-93d2-fec65cab8e57.webp",
-            "promotion_title": "ACCESSOIRES CONCEPT C",
+            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
+            "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
@@ -84,8 +74,8 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/15.webp",
-            "promotion_title": "LIQUIDATION",
+            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
+            "promotion_title": "Liquidation",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus"
@@ -163,7 +153,6 @@
         "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
         "promotion_card_jTx6Hi",
-        "promotion_card_eayUt9",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
         "promotion_card_3qQfyr",
