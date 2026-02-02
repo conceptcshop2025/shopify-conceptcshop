@@ -24,7 +24,7 @@
         "promotion_card_cLxwze": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1.webp",
+            "promotion_image": "shopify://shop_images/1_b29afd89-debb-498a-b1c5-3d02f2afe79b.png",
             "promotion_title": "Lancement baume pour les pointes Redken!",
             "promotion_description": "<p>Jusqu’au 4 février, obtenez 10$ de rabais sur le nouveau baume pour les pointes Redken ABC, ainsi que deux formats deluxe! <em>*Prix déjà réduit</em><br/><br/></p>",
             "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
@@ -34,7 +34,7 @@
         "promotion_card_tWp9Tw": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.png",
+            "promotion_image": "shopify://shop_images/4_1bbd050d-3b33-465e-a03d-ed976ed82ad0.png",
             "promotion_title": "Promo Masques Capillaires",
             "promotion_description": "<p>Jusqu’au 4 février, obtiens jusqu’à 50 % de rabais sur plus de 200 masques + une mini brosse miracle gratuite! <em>*Prix déjà réduits.</em><br/><br/></p>",
             "promotion_link": "shopify://collections/traite-ta-couette",
@@ -44,7 +44,7 @@
         "promotion_card_ARjCpL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_09078a40-c82e-42ce-a080-0a144753f64a.webp",
+            "promotion_image": "shopify://shop_images/3_c342d36f-f9f6-4129-9e44-0fc35e633ed1.png",
             "promotion_title": "14% sur le Steampod & Airlight Pro!",
             "promotion_description": "<p>Jusqu’au 14 février, profitez de <strong>14 % de rabais</strong> sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. <em>*Prix déjà réduit.</em></p>",
             "promotion_link": "shopify://collections/outils-loreal",
@@ -54,7 +54,7 @@
         "promotion_card_jTx6Hi": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026.webp",
+            "promotion_image": "shopify://shop_images/2_fb68a51f-5abc-4e35-a9e8-caac37b5c82e.png",
             "promotion_title": "2 Refresh Dust pour 30$",
             "promotion_description": "<p>Jusqu’au 28 février, obtenez 2 shampoings secs Refresh Dust pour 30 $! <em>*prix déjà réduit.</em><br/><br/></p>",
             "promotion_link": "shopify://products/schwarzkopf-duo-refresh-dust",
@@ -221,6 +221,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_WaqA6k": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/14_c69429d2-2643-4c38-b262-197fb514e353.png",
+            "promotion_title": "Kérastase",
+            "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em> (une valeur de 89 $.)</em></p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_k3YdxA": {
           "type": "promotion_card",
           "disabled": true,
@@ -237,6 +247,7 @@
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
+        "promotion_card_WaqA6k",
         "promotion_card_k3YdxA"
       ],
       "name": "# Promotions list",
