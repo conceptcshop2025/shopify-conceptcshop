@@ -183,7 +183,7 @@
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_3529fbfa-4b6c-4ee1-a9a4-be6cc3842bba.webp",
+            "promotion_image": "shopify://shop_images/11_1101cda0-e69c-4b41-887b-b23e179b629f.png",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -193,7 +193,7 @@
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/9_71d85881-892f-4f95-ab89-9da5e0df77f7.webp",
+            "promotion_image": "shopify://shop_images/13_95816c51-c092-4384-916d-49a4b927369b.png",
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
@@ -203,7 +203,7 @@
         "promotion_card_LgNW4P": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_c602fcd4-25d1-420f-a091-488dc1ce29b7.webp",
+            "promotion_image": "shopify://shop_images/12_aa900e50-a973-46e1-9160-945e5e0eecd2.png",
             "promotion_title": "Balmain",
             "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/balmain",
@@ -222,7 +222,6 @@
         },
         "promotion_card_k3YdxA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_3.webp",
             "promotion_title": "Gloss Absolu de Kérastase pour la St-Valentin!",
