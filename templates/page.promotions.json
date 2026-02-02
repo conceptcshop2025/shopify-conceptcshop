@@ -76,7 +76,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
             "promotion_title": "Nouveautés Chronologiste de Kérastase",
-            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
+            "promotion_description": "<p>À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus"
           }
@@ -217,7 +217,6 @@
         },
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/15_660dffe7-4e25-48f0-8788-75eafd289663.png",
             "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
