@@ -382,6 +382,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_7TnXyM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_4.webp",
+            "promotion_title": "Économisez 100 $ sur une sélection d’outils  GHD",
+            "promotion_description": "<p>Découvrez les fers plats Chronos et Platinum+ ainsi que le séchoir Helios de ghd, maintenant offerts avec 100 $ de rabais!<br/></p>",
+            "promotion_link": "shopify://collections/promo-festive",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_KWx3bV": {
           "type": "promotion_card",
           "settings": {
@@ -442,30 +452,19 @@
             "promotion_link": "shopify://collections/litres-pureology",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_7TnXyM": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_4.webp",
-            "promotion_title": "Économisez 100 $ sur une sélection d’outils  GHD",
-            "promotion_description": "<p>Découvrez les fers plats Chronos et Platinum+ ainsi que le séchoir Helios de ghd, maintenant offerts avec 100 $ de rabais!<br/></p>",
-            "promotion_link": "shopify://collections/promo-festive",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_GXRBUw",
         "promotion_card_N8yGnz",
         "promotion_card_Wpa8yL",
+        "promotion_card_7TnXyM",
         "promotion_card_KWx3bV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
-        "promotion_card_X67QHk",
-        "promotion_card_7TnXyM"
+        "promotion_card_X67QHk"
       ],
       "name": "# Promotions list",
       "settings": {
