@@ -81,6 +81,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_UX7pPN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c0622a1e-d69e-41db-a3ec-de5643ae23fe.webp",
+            "promotion_title": "Absolut Repair Molecular!",
+            "promotion_description": "<p>Jusqu’au 9 mars, profitez de jusqu’à 55 % de rabais sur Absolut Repair Molecular, la gamme qui répare en profondeur, renforce la fibre capillaire et redonne douceur et brillance aux cheveux abîmés.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_3qQfyr": {
           "type": "promotion_card",
           "settings": {
@@ -150,6 +160,7 @@
         "promotion_card_jTx6Hi",
         "promotion_card_xJDyp9",
         "promotion_card_nT6RHc",
+        "promotion_card_UX7pPN",
         "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
         "promotion_card_kWUDpN",
