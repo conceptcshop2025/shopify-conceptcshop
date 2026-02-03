@@ -73,7 +73,6 @@
       "block_order": [
         "image_m9i4GY"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -98,7 +97,7 @@
             "text_block_background": "#1c1c1c",
             "title": "<strong>FESTILITRE</strong>",
             "heading_tag": "h4",
-            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$!</p>",
+            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
             "link_url": "shopify://collections/festilitre",
             "link_text": "magasiner"
           }
@@ -109,7 +108,7 @@
             "image": "shopify://shop_images/Facing_Site_-_Redken-2.jpg",
             "block_background": "#dbd8d5",
             "text_block_background": "#1c1c1c",
-            "title": "<strong>EXTRA 20% DE RABAIS</strong>",
+            "title": "<strong>NOUVEAUTÉ REDKEN</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
             "link_url": "shopify://collections/soldes",
