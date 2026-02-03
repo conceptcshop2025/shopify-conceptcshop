@@ -444,7 +444,6 @@
         },
         "promotion_card_X67QHk": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_68eb0a26-c9a4-4745-8bc8-8b05613caa50.webp",
             "promotion_title": "Promo Pureology Hydrate & Strength Cure",
