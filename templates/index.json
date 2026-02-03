@@ -73,6 +73,7 @@
       "block_order": [
         "image_m9i4GY"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -110,7 +111,7 @@
             "text_block_background": "#1c1c1c",
             "title": "<strong>NOUVEAUTÉ REDKEN</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusqu’au 22 janvier, profite de <strong>20 % de rabais additionnel</strong> dans l’onglet Soldes.<br/><em>*Rabais automatiquement appliqué au panier.</em></p>",
+            "content": "<p>10$ de rabais sur le baume sans rinçage qui répare et scelle les pointes abîmées, réduit la casse et protège de la chaleur.<br/><br/></p>",
             "link_url": "shopify://collections/soldes",
             "link_text": "magasiner"
           }
