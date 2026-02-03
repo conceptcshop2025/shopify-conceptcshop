@@ -224,6 +224,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_YMibxi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_c339f62b-868c-4da0-b8a1-802651955c03.webp",
+            "promotion_title": "K18",
+            "promotion_description": "<p>À l’achat de 100 $ de produits K18, recevez un mini Heat Bounce en cadeau!</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_RKN74E": {
           "type": "promotion_card",
           "settings": {
@@ -242,6 +252,7 @@
         "promotion_card_WaqA6k",
         "promotion_card_k3YdxA",
         "promotion_card_eA8iqg",
+        "promotion_card_YMibxi",
         "promotion_card_RKN74E"
       ],
       "name": "# Promotions list",
