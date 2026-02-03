@@ -451,6 +451,16 @@
             "promotion_link": "shopify://collections/litres-pureology",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_a9WnUA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c0622a1e-d69e-41db-a3ec-de5643ae23fe.webp",
+            "promotion_title": "Absolut Repair Molecular!",
+            "promotion_description": "<p>Jusqu’au 9 mars, profitez de <strong>jusqu’à 55 % de rabais</strong> sur Absolut Repair Molecular, la gamme qui répare en profondeur, renforce la fibre capillaire et redonne douceur et brillance aux cheveux abîmés. <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -463,7 +473,8 @@
         "promotion_card_BPnVjf",
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
-        "promotion_card_X67QHk"
+        "promotion_card_X67QHk",
+        "promotion_card_a9WnUA"
       ],
       "name": "# Promotions list",
       "settings": {
