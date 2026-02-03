@@ -94,12 +94,12 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Facing_site_Festilitre-2-2_1.webp",
-            "block_background": "#e0b193",
+            "block_background": "#f8d2da",
             "text_block_background": "#1c1c1c",
             "title": "<strong>FESTILITRE</strong>",
             "heading_tag": "h4",
-            "content": "<p>Les nouvelles chandelles Concept C font leur entrée, pour une ambiance douce, chic et réconfortante.</p>",
-            "link_url": "shopify://collections/chandelles",
+            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$!</p>",
+            "link_url": "shopify://collections/festilitre",
             "link_text": "magasiner"
           }
         },
