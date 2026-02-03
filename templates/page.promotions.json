@@ -204,6 +204,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_YMibxi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_c339f62b-868c-4da0-b8a1-802651955c03.webp",
+            "promotion_title": "K18",
+            "promotion_description": "<p>Jusqu'au 9 mars, à l’achat de 100 $ de produits K18, recevez un mini Heat Bounce en cadeau! <em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_RKN74E": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_5034e010-cabd-4524-8c4b-609631cb78e3.webp",
+            "promotion_title": "L'Oréal",
+            "promotion_description": "<p>Jusqu'au 9 mars, à l’achat de 60 $ de produits Serioxyl, recevez un mini shampoing Serioxyl 100 ml en cadeau! <em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/promo-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_k3YdxA": {
           "type": "promotion_card",
           "settings": {
@@ -223,26 +243,6 @@
             "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_YMibxi": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_c339f62b-868c-4da0-b8a1-802651955c03.webp",
-            "promotion_title": "K18",
-            "promotion_description": "<p>À l’achat de 100 $ de produits K18, recevez un mini Heat Bounce en cadeau!</p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_RKN74E": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_5034e010-cabd-4524-8c4b-609631cb78e3.webp",
-            "promotion_title": "L'Oréal",
-            "promotion_description": "<p>À l’achat de 60 $ de produits Serioxyl, recevez un mini shampoing Serioxyl 100 ml en cadeau!</p>",
-            "promotion_link": "shopify://collections/promo-loreal",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -250,10 +250,10 @@
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
         "promotion_card_WaqA6k",
-        "promotion_card_k3YdxA",
-        "promotion_card_eA8iqg",
         "promotion_card_YMibxi",
-        "promotion_card_RKN74E"
+        "promotion_card_RKN74E",
+        "promotion_card_k3YdxA",
+        "promotion_card_eA8iqg"
       ],
       "name": "# Promotions list",
       "settings": {
