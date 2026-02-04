@@ -461,6 +461,17 @@
             "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_AWYxwj": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_31f084aa-f66f-41cc-be41-5fa103d9a9c3.webp",
+            "promotion_title": "Nouveauté Redken",
+            "promotion_description": "<p>10$ de rabais sur le baume sans rinçage qui répare et scelle les pointes abîmées, réduit la casse et protège de la chaleur.</p>",
+            "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -474,7 +485,8 @@
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
         "promotion_card_X67QHk",
-        "promotion_card_a9WnUA"
+        "promotion_card_a9WnUA",
+        "promotion_card_AWYxwj"
       ],
       "name": "# Promotions list",
       "settings": {
