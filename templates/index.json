@@ -619,7 +619,6 @@
       "blocks": {
         "look_tqWdE6": {
           "type": "look",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Creation_sans_titre_30bcbdcb-8648-49a1-9d05-cc9288000d4b.webp",
             "hot_spots_background": "#ffffff",
@@ -629,7 +628,7 @@
             "product_2": "loreal-serie-expert-shampoing-creme-metal-detox-1500-ml",
             "product_2_horizontal_position": 25,
             "product_2_vertical_position": 40,
-            "product_3": "redken-shampoing-acidic-bonding-concentrate-1000-ml",
+            "product_3": "redken-shampoing-clarifiant-hair-cleansing-cream-1000-ml",
             "product_3_horizontal_position": 65,
             "product_3_vertical_position": 60,
             "product_4": "design-me-shampoing-volumisant-puff-me-1000-ml-festilitre",
@@ -639,6 +638,7 @@
         },
         "look_4UbDwa": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
             "hot_spots_background": "#ffffff",
@@ -666,7 +666,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Masque hydratant, idéal sur cheveux secs!",
+        "title": "Nos meilleurs vendeurs!",
         "content": "",
         "popover_title": ""
       }
