@@ -21,6 +21,16 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_qtnB6q": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
+            "promotion_title": "Festilitre",
+            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
+            "promotion_link": "shopify://collections/festilitre",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fnTjbD": {
           "type": "promotion_card",
           "settings": {
@@ -143,6 +153,7 @@
         }
       },
       "block_order": [
+        "promotion_card_qtnB6q",
         "promotion_card_fnTjbD",
         "promotion_card_tWp9Tw",
         "promotion_card_ARjCpL",
