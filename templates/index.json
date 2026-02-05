@@ -382,33 +382,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_KWx3bV": {
+        "promotion_card_a9WnUA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
-            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
-            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c0622a1e-d69e-41db-a3ec-de5643ae23fe.webp",
+            "promotion_title": "Absolut Repair Molecular!",
+            "promotion_description": "<p>Jusqu’au 9 mars, profitez de <strong>jusqu’à 55 % de rabais</strong> sur Absolut Repair Molecular, la gamme qui répare en profondeur, renforce la fibre capillaire et redonne douceur et brillance aux cheveux abîmés. <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -442,13 +422,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_a9WnUA": {
+        "promotion_card_KWx3bV": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c0622a1e-d69e-41db-a3ec-de5643ae23fe.webp",
-            "promotion_title": "Absolut Repair Molecular!",
-            "promotion_description": "<p>Jusqu’au 9 mars, profitez de <strong>jusqu’à 55 % de rabais</strong> sur Absolut Repair Molecular, la gamme qui répare en profondeur, renforce la fibre capillaire et redonne douceur et brillance aux cheveux abîmés. <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
+            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
+            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -461,20 +441,51 @@
             "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_KWqFmF": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
+            "promotion_title": "Festilitre",
+            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
+            "promotion_link": "shopify://collections/festilitre",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_N8yGnz",
         "promotion_card_Wpa8yL",
         "promotion_card_7TnXyM",
-        "promotion_card_KWx3bV",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
+        "promotion_card_a9WnUA",
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
         "promotion_card_X67QHk",
-        "promotion_card_a9WnUA",
-        "promotion_card_AWYxwj"
+        "promotion_card_KWx3bV",
+        "promotion_card_AWYxwj",
+        "promotion_card_A9aVXj",
+        "promotion_card_BPnVjf",
+        "promotion_card_KWqFmF"
       ],
       "name": "# Promotions list",
       "settings": {
