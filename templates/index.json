@@ -442,6 +442,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_KWqFmF": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
+            "promotion_title": "Festilitre",
+            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
+            "promotion_link": "shopify://collections/festilitre",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -461,16 +471,6 @@
             "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_KWqFmF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
-            "promotion_title": "Festilitre",
-            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
-            "promotion_link": "shopify://collections/festilitre",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -483,9 +483,9 @@
         "promotion_card_X67QHk",
         "promotion_card_KWx3bV",
         "promotion_card_AWYxwj",
+        "promotion_card_KWqFmF",
         "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
-        "promotion_card_KWqFmF"
+        "promotion_card_BPnVjf"
       ],
       "name": "# Promotions list",
       "settings": {
