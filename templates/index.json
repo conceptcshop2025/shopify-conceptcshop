@@ -352,16 +352,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_GXRBUw": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_b29afd89-debb-498a-b1c5-3d02f2afe79b.png",
-            "promotion_title": "Lancement baume pour les pointes Redken!",
-            "promotion_description": "<p>Jusqu’au 4 février, obtenez 10$ de rabais sur le nouveau baume pour les pointes Redken ABC, ainsi que deux formats deluxe! <em>*Prix déjà réduit</em></p>",
-            "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_N8yGnz": {
           "type": "promotion_card",
           "settings": {
@@ -464,7 +454,6 @@
         },
         "promotion_card_AWYxwj": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_31f084aa-f66f-41cc-be41-5fa103d9a9c3.webp",
             "promotion_title": "Nouveauté Redken",
@@ -475,7 +464,6 @@
         }
       },
       "block_order": [
-        "promotion_card_GXRBUw",
         "promotion_card_N8yGnz",
         "promotion_card_Wpa8yL",
         "promotion_card_7TnXyM",
