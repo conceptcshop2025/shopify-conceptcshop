@@ -104,6 +104,20 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_NFaYwa": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix.webp",
+            "block_background": "#1c1c1c",
+            "text_block_background": "#d7f265",
+            "title": "<strong>HUILE MATRIX BILLION BOND</strong>",
+            "heading_tag": "h3",
+            "content": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! Recevez une Fat Oil de NYX en cadeau avec votre huile!</p>",
+            "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
           "settings": {
@@ -129,27 +143,13 @@
             "link_url": "shopify://collections/promo-du-moment-2",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_NFaYwa": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix.webp",
-            "block_background": "#1c1c1c",
-            "text_block_background": "#d7f265",
-            "title": "<strong>HUILE MATRIX BILLION BOND</strong>",
-            "heading_tag": "h3",
-            "content": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! Recevez une Fat Oil de NYX en cadeau avec votre huile!</p>",
-            "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_QxKH3t",
+        "image_with_text_NFaYwa",
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK",
-        "image_with_text_NFaYwa"
+        "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
       "settings": {
