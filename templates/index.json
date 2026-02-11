@@ -752,10 +752,16 @@
             "payment_button_text_color": ""
           }
         },
+        "text_MRfXbc": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Paiement sécurise et fiable avec</h4>"
+          }
+        },
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/t/2/assets/payment.png?v=69563648246536645381635255107\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
+            "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/files/paiement-securise.png?v=1760639941\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
           }
         }
       },
@@ -766,7 +772,11 @@
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-rating-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-quantity_selector-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-buy_buttons-1",
+        "text_MRfXbc",
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c"
+      ],
+      "custom_css": [
+        "h4 {text-transform: initial; text-align: center;}"
       ],
       "settings": {
         "color_scheme": "",
