@@ -179,7 +179,8 @@
     },
     "products_count": {
       "one": "{{ count }} product",
-      "other": "{{ count }} products"
+      "other": "{{ count }} products",
+      "zero": "{{ count }} product"
     },
     "faceting": {
       "filters": "Filters",
@@ -221,7 +222,8 @@
       "comment_published": "Your comment has been published.",
       "count": {
         "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "other": "{{ count }} comments",
+        "zero": "{{ count }} comment"
       }
     }
   },
@@ -420,11 +422,13 @@
     },
     "results_count": {
       "one": "{{ count }} result",
-      "other": "{{ count }} results"
+      "other": "{{ count }} results",
+      "zero": "{{ count }} result"
     },
     "results_count_for_terms": {
       "one": "{{ count }} result for \"{{ terms }}\"",
-      "other": "{{ count }} results for \"{{ terms }}\""
+      "other": "{{ count }} results for \"{{ terms }}\"",
+      "zero": "{{ count }} result for \" {{ terms }} \""
     }
   },
   "gift_card": {
@@ -541,6 +545,14 @@
         },
         "item_label": {
           "many": "{{count}} items"
+        },
+        "unfulfillable_product": {
+          "message": {
+            "many": "%{delivery_method} is no longer available for these items."
+          },
+          "default_message": {
+            "many": "The chosen delivery method is no longer available for these items."
+          }
         }
       },
       "order_summary": {
@@ -563,6 +575,23 @@
         },
         "number_items": {
           "many": "%{count} items"
+        },
+        "unit_price": {
+          "per_item": {
+            "many": "%{price} for %{count} items"
+          }
+        },
+        "subtotal_label_with_quantity": {
+          "many": "Subtotal %{count} items"
+        },
+        "view_all_items": {
+          "many": "Show all items %{count}"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "No store is available with your items."
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "many": "No shops available in %{country} with your items"
         }
       },
       "shipping": {
@@ -595,7 +624,52 @@
           },
           "free_for_first_n_order": {
             "many": "For the first %{count} orders"
+          },
+          "free_shipping_cycles": {
+            "many": "Free shipping for %{count} plus deliveries"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "many": "Free shipping for %{count} deliveries"
+          },
+          "first_n_order_free_with_cycle": {
+            "many": "Free shipping for %{count} more deliveries, then %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "many": "Free shipping for %{count} deliveries, then %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "many": "%{count} additional deliveries for %{shipping_price} each"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "many": "%{count} additional deliveries for %{shipping_price} each"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "many": "Free shipping for the first %{cycle}, followed by %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "many": "%{shipping_price} for %{count} plus deliveries (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "many": "%{shipping_price} for %{count} plus deliveries (%{per_delivery_cost}), followed by %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost}), followed by %{recurring_order_shipping_price}"
           }
+        },
+        "shipping_method_first_shipment_group_title": {
+          "many": "First shipments"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "many": "Recurring mailings"
+        },
+        "unbranded_description_with_fulfillment_days": {
+          "many": "Shipping within %{count} business days"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "many": "Shipping within %{count} weeks"
         }
       },
       "payment": {
@@ -610,6 +684,18 @@
         },
         "order_edit_banner_items_added": {
           "many": "%{count} added"
+        },
+        "discount_show_more_warnings": {
+          "many": "Show more %{count}"
+        },
+        "discount_codes_removed_summary": {
+          "many": "%{count} discount codes have been removed"
+        },
+        "discount_codes_modified_summary": {
+          "many": "%{count} discount codes have been changed"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "many": "%{count} discount codes have been removed or changed"
         }
       },
       "shipping_errors": {
@@ -651,6 +737,15 @@
         },
         "thank_you_item_label": {
           "many": "%{count} items"
+        },
+        "thank_you_unconfirmed_items_heading": {
+          "many": "Some items are unconfirmed"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "many": "You have not been charged for these"
+        },
+        "items_fulfilled_by_store": {
+          "many": "The items you purchased will be shipped from other stores."
         }
       },
       "order_payment_collection": {
@@ -731,6 +826,9 @@
         },
         "number_of_pickup_points_near_location": {
           "many": "%{count} relay points found near your location"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "No collection points are available for your items."
         }
       },
       "local_pickup": {
@@ -741,11 +839,29 @@
         },
         "reveal_more_label": {
           "many": "See %{count} more locations"
+        },
+        "location_information": {
+          "many": "There are %{count} locations with stock nearby"
         }
       },
       "remote_merchandise_only": {
         "detail_item_label": {
           "many": "{{count}} items"
+        }
+      },
+      "customer_account": {
+        "saved_address_option_description": {
+          "many": "You have {{count}} saved addresses."
+        }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "remove_items_action": {
+          "many": "remove unavailable items"
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "many": "This order will be shipped to an address provided by {{merchant}} . Select a delivery address."
         }
       }
     },
@@ -790,6 +906,12 @@
         },
         "gift_resend_failure": {
           "many": "There was a problem returning your gift cards. Try again or contact us."
+        },
+        "tracking_number": {
+          "many": "Tracking numbers"
+        },
+        "gift_card_resend_button": {
+          "many": "Resend the gift cards"
         }
       }
     },
@@ -811,6 +933,9 @@
             },
             "banner_due": {
               "many": "Your payment is due in {{count}} days"
+            },
+            "banner_overdue_for_single_fulfillment": {
+              "many": "The payment of {{amount}} is {{count}} days overdue. {{link}}"
             }
           }
         }
@@ -830,6 +955,38 @@
       },
       "mapClusterTitle": {
         "many": "Cluster of {{number}} markers"
+      }
+    },
+    "order_details": {
+      "image_gallery": {
+        "load_more_items": {
+          "many": "Load {{count}} additional items"
+        }
+      }
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "subscription_contracts": {
+          "more_items": {
+            "many": "{{count}} additional products"
+          },
+          "product_count": {
+            "many": "{{count}} products"
+          }
+        },
+        "updating_contracts": {
+          "many": "Updating {{count}} subscription contracts..."
+        },
+        "contracts_updated": {
+          "many": "{{count}} subscription contracts have been successfully updated"
+        }
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "many": "{{count}} minutes ago"
+        }
       }
     }
   }
