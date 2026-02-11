@@ -752,6 +752,13 @@
             "payment_button_text_color": ""
           }
         },
+        "text_MRfXbc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h4>Paiement sécurise et fiable avec</h4>"
+          }
+        },
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c": {
           "type": "liquid",
           "settings": {
@@ -766,6 +773,7 @@
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-rating-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-quantity_selector-1",
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-buy_buttons-1",
+        "text_MRfXbc",
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c"
       ],
       "settings": {
