@@ -2,6 +2,16 @@
   #shopify-section-{{ section.id }} {
     --footer-content-justify-items: {% if section.settings.blocks.size <= 2 %}start{% else %}space-between{% endif %};
   }
+
+  {% if request.locale.iso_code == 'fr' %}
+    .klaviyo-form-VCSinP {
+      display: none !important;
+    }
+  {% else %}
+    .klaviyo-form-SHMDB6 {
+      display: none !important;
+    }
+  {% endif %}
 </style>
 
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
