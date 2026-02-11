@@ -129,12 +129,26 @@
             "link_url": "shopify://collections/promo-du-moment-2",
             "link_text": "magasiner"
           }
+        },
+        "image_with_text_NFaYwa": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "image_with_text_QxKH3t",
         "image_with_text_8jiqTB",
-        "image_with_text_3LUanK"
+        "image_with_text_3LUanK",
+        "image_with_text_NFaYwa"
       ],
       "name": "# Multi-column",
       "settings": {
