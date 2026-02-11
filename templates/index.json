@@ -776,7 +776,7 @@
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c"
       ],
       "custom_css": [
-        "h4 {text-transform: capitalize; text-align: center;}"
+        "h4 {text-transform: initial; text-align: center;}"
       ],
       "settings": {
         "color_scheme": "",
