@@ -134,13 +134,14 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix.webp",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
+            "title": "<strong>HUILE MATRIX BILLION BOND</strong>",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
+            "content": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! Recevez une Fat Oil de NYX en cadeau avec votre huile!<br/><br/></p>",
+            "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
+            "link_text": "magasiner"
           }
         }
       },
