@@ -109,7 +109,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix.webp",
-            "block_background": "#d7f265",
+            "block_background": "#5fd5d6",
             "text_block_background": "#1c1c1c",
             "title": "<strong>HUILE MATRIX BILLION BOND</strong>",
             "heading_tag": "h3",
