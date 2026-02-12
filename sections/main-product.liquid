@@ -21,6 +21,10 @@
       break
     endif
   endfor
+
+  assign release_date = product.metafields.custom.release_date
+  assign metafield_date = release_date | date: "%s"
+  assign actual_date = "now" | date: "%s"
 -%}
 
 <style>
@@ -128,30 +132,44 @@
         </div>
       </div>
 
-      <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
-        {%- liquid
-          assign button_disabled = false
-          assign button_style = 'solid'
+      {% if release_date == blank or actual_date >= metafield_date %}
+        <buy-buttons class="buy-buttons" template="{{ product.template_suffix | escape }}" form="{{ product_form_id }}">
+          {%- liquid
+            assign button_disabled = false
+            assign button_style = 'solid'
 
-          if product.selected_or_first_available_variant == nil
-            assign button_disabled = true
-            assign button_style = 'outline'
-            assign button_content = 'product.general.unavailable_button' | t
-          elsif product.selected_or_first_available_variant.available == false
-            assign button_disabled = true
-            assign button_style = 'outline'
-            assign button_content = 'product.general.sold_out_button' | t
-          else
-            if product.template_suffix contains 'pre-order'
-              assign button_content = 'product.general.pre_order_button' | t
+            if product.selected_or_first_available_variant == nil
+              assign button_disabled = true
+              assign button_style = 'outline'
+              assign button_content = 'product.general.unavailable_button' | t
+            elsif product.selected_or_first_available_variant.available == false
+              assign button_disabled = true
+              assign button_style = 'outline'
+              assign button_content = 'product.general.sold_out_button' | t
             else
-              assign button_content = 'product.general.add_to_cart_button' | t
+              if product.template_suffix contains 'pre-order'
+                assign button_content = 'product.general.pre_order_button' | t
+              else
+                assign button_content = 'product.general.add_to_cart_button' | t
+              endif
             endif
-          endif
-        -%}
+          -%}
 
-        {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
-      </buy-buttons>
+          {%- render 'button', content: button_content, style: button_style, type: 'submit', form: product_form_id, disabled: button_disabled -%}
+        </buy-buttons>
+      {% else %}
+        {% liquid
+          assign product_title = product.title | json
+          assign product_release_date = product.metafields.custom.release_date | date: "%Y-%m-%d" | json
+          assign product_image = product.images[0].src | json
+          assign product_url = product.url | json
+          assign klaviyoFormTargetId = product.metafields.custom.release_product_klaviyo_id | json
+        %}
+        <button class="button back_in_stock_button custom-show-popup" onclick='showCustomKlaviyoPopup({{ product_title }}, {{ product_release_date }}, {{ product_image }}, {{ product_url }}, {{ klaviyoFormTargetId }})'>
+          {{ 'sections.custom_release_date_product_button.label_button' | t }}
+        </button>
+      {% endif %}
+
     </product-sticky-bar>
   </product-rerender>
 {%- endif -%}
