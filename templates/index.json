@@ -106,10 +106,9 @@
         },
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix.webp",
-            "block_background": "#5fd5d6",
+            "block_background": "#dff47b",
             "text_block_background": "#1c1c1c",
             "title": "<strong>HUILE BILLION BOND</strong>",
             "heading_tag": "h4",
@@ -133,6 +132,7 @@
         },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Facing_Site_-_Parfum_2-2.jpg",
             "block_background": "#0c1c3d",
