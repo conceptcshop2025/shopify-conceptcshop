@@ -377,6 +377,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_KWx3bV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
+            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
+            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_Wpa8yL": {
           "type": "promotion_card",
           "settings": {
@@ -437,16 +447,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_KWx3bV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
-            "promotion_title": "Parfums coup de cœur pour la St-Valentin!",
-            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_AWYxwj": {
           "type": "promotion_card",
           "settings": {
@@ -490,13 +490,13 @@
       },
       "block_order": [
         "promotion_card_N8yGnz",
+        "promotion_card_KWx3bV",
         "promotion_card_Wpa8yL",
         "promotion_card_7TnXyM",
         "promotion_card_a9WnUA",
         "promotion_card_Jiyfhk",
         "promotion_card_TMyD6Y",
         "promotion_card_X67QHk",
-        "promotion_card_KWx3bV",
         "promotion_card_AWYxwj",
         "promotion_card_KWqFmF",
         "promotion_card_A9aVXj",
