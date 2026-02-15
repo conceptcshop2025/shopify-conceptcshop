@@ -41,16 +41,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_ARjCpL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/3_c342d36f-f9f6-4129-9e44-0fc35e633ed1.png",
-            "promotion_title": "14% sur le Steampod & Airlight Pro!",
-            "promotion_description": "<p>Jusqu’au 14 février, profitez de <strong>14 % de rabais</strong> sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. <em>*Prix déjà réduit.</em></p>",
-            "promotion_link": "shopify://collections/outils-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_jTx6Hi": {
           "type": "promotion_card",
           "settings": {
@@ -145,7 +135,6 @@
       "block_order": [
         "promotion_card_qtnB6q",
         "promotion_card_fnTjbD",
-        "promotion_card_ARjCpL",
         "promotion_card_jTx6Hi",
         "promotion_card_xJDyp9",
         "promotion_card_nT6RHc",
