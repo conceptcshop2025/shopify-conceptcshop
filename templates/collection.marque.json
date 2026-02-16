@@ -26,6 +26,17 @@
         "overlay_opacity": 30
       }
     },
+    "custom_collection_tags_XfY4PX": {
+      "type": "custom-collection-tags",
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": "",
+        "background_tags": "#E4C0AE",
+        "color_tags": "#454545",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -53,6 +64,7 @@
   },
   "order": [
     "collection-banner",
+    "custom_collection_tags_XfY4PX",
     "main"
   ]
 }
