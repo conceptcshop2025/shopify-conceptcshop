@@ -12,7 +12,13 @@
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
 
-    <link rel="canonical" href="{{ canonical_url }}">
+    {% if request.path contains '/en/collections/shampoing/amika' %}
+      <link rel="canonical" href="https://conceptcshop.com/en/collections/amika-shampoos" />
+    {% elsif request.path contains '/collections/shampoing/amika' %}
+      <link rel="canonical" href="https://conceptcshop.com/collections/amika-shampoings" />
+    {% else %}
+        <link rel="canonical" href="{{ canonical_url }}" />
+    {% endif %}
 
     {%- if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
