@@ -236,6 +236,7 @@
         },
         "promotion_card_q7cLQW": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_39d1712e-dd3d-43f2-894b-f9bb3960458a.webp",
             "promotion_title": "Litres Redken",
