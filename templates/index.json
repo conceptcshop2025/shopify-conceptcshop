@@ -635,17 +635,17 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Olympiques.webp",
+            "image": "shopify://shop_images/Olympiques_a385b5a3-9bfc-4b66-be52-e7c1cd22889f.webp",
             "hot_spots_background": "#ffffff",
-            "product_1": "matrix-shampooing-hydratant-food-for-soft-1000-ml",
-            "product_1_horizontal_position": 50,
-            "product_1_vertical_position": 30,
-            "product_2": "loreal-serie-expert-shampoing-creme-metal-detox-1500-ml",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "redken-shampoing-acidic-bonding-concentrate-1000-ml",
-            "product_3_horizontal_position": 77,
-            "product_3_vertical_position": 45,
+            "product_1": "redken-shampoing-clarifiant-hair-cleansing-cream-1000-ml",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 50,
+            "product_2": "biolage-shampoing-clarifiant-scalp-sync-1000-ml-mai-2025",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_3": "loreal-serie-expert-shampoing-anti-gras-scalp-advanced-1500-ml",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 50,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
@@ -681,7 +681,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Nos meilleurs vendeurs!",
+        "title": "Cuir chevelu gras?",
         "content": "",
         "popover_title": ""
       }
