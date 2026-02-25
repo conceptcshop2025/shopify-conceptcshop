@@ -135,7 +135,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
-            "block_background": "#0c1c3d",
+            "block_background": "#003936",
             "text_block_background": "#ffffff",
             "title": "<strong>LANCEMENT ACIDIC GROW FULL!</strong>",
             "heading_tag": "h4",
