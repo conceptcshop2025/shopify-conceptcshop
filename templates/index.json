@@ -134,10 +134,10 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Facing_Site_-_Parfum_2-2.jpg",
+            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
             "block_background": "#0c1c3d",
             "text_block_background": "#ffffff",
-            "title": "<strong>CADEAU ST-VALENTIN</strong>",
+            "title": "<strong>LANCEMENT ACIDIC GROW FULL!</strong>",
             "heading_tag": "h4",
             "content": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums Saint-Valentin!</p>",
             "link_url": "shopify://collections/promo-du-moment-2",
