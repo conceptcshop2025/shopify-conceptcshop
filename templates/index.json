@@ -468,6 +468,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_3L7aRU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_813b14b2-335e-437c-9762-3c1d509fe0f5.webp",
+            "promotion_title": "Huile Billion Bond",
+            "promotion_description": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! Recevez une Fat Oil de NYX en cadeau avec votre huile!</p>",
+            "promotion_link": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -500,6 +510,7 @@
         "promotion_card_AWYxwj",
         "promotion_card_KWqFmF",
         "promotion_card_r8q9UW",
+        "promotion_card_3L7aRU",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
