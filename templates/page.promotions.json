@@ -41,6 +41,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_bLKYEr": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_b557bde8-df38-4461-9058-259e05e740b4.webp",
+            "promotion_title": "Lancement Acidic Grow Full",
+            "promotion_description": "<p>Jusqu’au 1er mars à 23 h 59, profitez de cadeaux à l’achat (valeur de 28$) et découvrez Redken Acidic Grow Full, une gamme qui renforce les cheveux et les rend visiblement plus denses! </p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fnTjbD": {
           "type": "promotion_card",
           "settings": {
@@ -145,6 +156,7 @@
       "block_order": [
         "promotion_card_qtnB6q",
         "promotion_card_Aakyjr",
+        "promotion_card_bLKYEr",
         "promotion_card_fnTjbD",
         "promotion_card_jTx6Hi",
         "promotion_card_xJDyp9",
