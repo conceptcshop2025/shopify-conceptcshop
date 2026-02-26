@@ -91,6 +91,19 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
+            "block_background": "#003936",
+            "text_block_background": "#ffffff",
+            "title": "<strong>LANCEMENT ACIDIC GROW FULL!</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’au 1er mars à 23 h 59, profitez de cadeaux à l’achat (valeur de 28$) et découvrez Redken Acidic Grow Full, une gamme qui renforce les cheveux et les rend visiblement plus denses! </p>",
+            "link_url": "shopify://collections/promo-du-moment-1",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
@@ -119,6 +132,7 @@
         },
         "image_with_text_8jiqTB": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Facing_Site_-_Redken-2.jpg",
             "block_background": "#dbd8d5",
@@ -129,27 +143,13 @@
             "link_url": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
-            "block_background": "#003936",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LANCEMENT ACIDIC GROW FULL!</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’au 1er mars à 23 h 59, profitez de cadeaux à l’achat (valeur de 28$) et découvrez Redken Acidic Grow Full, une gamme qui renforce les cheveux et les rend visiblement plus denses! </p>",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
+        "image_with_text_3LUanK",
         "image_with_text_QxKH3t",
         "image_with_text_NFaYwa",
-        "image_with_text_8jiqTB",
-        "image_with_text_3LUanK"
+        "image_with_text_8jiqTB"
       ],
       "name": "# Multi-column",
       "settings": {
