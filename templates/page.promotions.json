@@ -268,17 +268,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_q7cLQW": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_39d1712e-dd3d-43f2-894b-f9bb3960458a.webp",
-            "promotion_title": "Litres Redken",
-            "promotion_description": "<p>À l’achat de 2 litres Redken, obtenez gratuitement une trousse matelassée!</p>",
-            "promotion_link": "shopify://collections/promo-redken-acidic",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_RKN74E": {
           "type": "promotion_card",
           "settings": {
@@ -308,6 +297,16 @@
             "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_CDrjLY": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -318,10 +317,10 @@
         "promotion_card_YMibxi",
         "promotion_card_VpL8my",
         "promotion_card_L9FdV8",
-        "promotion_card_q7cLQW",
         "promotion_card_RKN74E",
         "promotion_card_kRxtHU",
-        "promotion_card_eA8iqg"
+        "promotion_card_eA8iqg",
+        "promotion_card_CDrjLY"
       ],
       "name": "# Promotions list",
       "settings": {
