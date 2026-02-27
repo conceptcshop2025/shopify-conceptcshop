@@ -367,6 +367,17 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_g8C9jW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_120cc29d-4856-40e8-91e4-00aa3dd89156.webp",
+            "promotion_title": "40% sur Balmain",
+            "promotion_description": "<p>Jusqu’au 9 mars à 23 h 59, profitez de 40 % de rabais sur la gamme Balmain.</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_KWx3bV": {
           "type": "promotion_card",
           "settings": {
@@ -499,6 +510,7 @@
         }
       },
       "block_order": [
+        "promotion_card_g8C9jW",
         "promotion_card_KWx3bV",
         "promotion_card_Wpa8yL",
         "promotion_card_7TnXyM",
