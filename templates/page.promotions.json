@@ -268,6 +268,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_CDrjLY": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_f71b5959-24d4-4100-b04a-9a8d59974e35.webp",
+            "promotion_title": "Parfum d'ambiance",
+            "promotion_description": "<p>À l’achat de 3 produits Kérastase format régulier, obtenez gratuitement un format voyage! <strong>*N’oubliez pas d’ajouter le parfum dans votre panier afin de profiter de la promotion.</strong></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_RKN74E": {
           "type": "promotion_card",
           "settings": {
@@ -297,16 +308,6 @@
             "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_CDrjLY": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -317,10 +318,10 @@
         "promotion_card_YMibxi",
         "promotion_card_VpL8my",
         "promotion_card_L9FdV8",
+        "promotion_card_CDrjLY",
         "promotion_card_RKN74E",
         "promotion_card_kRxtHU",
-        "promotion_card_eA8iqg",
-        "promotion_card_CDrjLY"
+        "promotion_card_eA8iqg"
       ],
       "name": "# Promotions list",
       "settings": {
