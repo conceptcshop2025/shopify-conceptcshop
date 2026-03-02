@@ -271,7 +271,6 @@
         },
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_f71b5959-24d4-4100-b04a-9a8d59974e35.webp",
             "promotion_title": "Parfum d'ambiance",
