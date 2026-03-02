@@ -91,19 +91,6 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
-            "block_background": "#003936",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LANCEMENT REDKEN</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Découvrez Acidic Grow Full, une gamme qui renforce les cheveux et les rend visiblement plus denses!</p>",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_QxKH3t": {
           "type": "image_with_text",
           "settings": {
@@ -114,6 +101,19 @@
             "heading_tag": "h4",
             "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosses économies! <em>*prend fin le 19 mars 23h59</em></p>",
             "link_url": "shopify://collections/festilitre",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
+            "block_background": "#003936",
+            "text_block_background": "#ffffff",
+            "title": "<strong>LANCEMENT REDKEN</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Découvrez Acidic Grow Full, une gamme qui renforce les cheveux et les rend visiblement plus denses!</p>",
+            "link_url": "shopify://collections/promo-du-moment-1",
             "link_text": "magasiner"
           }
         },
@@ -146,8 +146,8 @@
         }
       },
       "block_order": [
-        "image_with_text_3LUanK",
         "image_with_text_QxKH3t",
+        "image_with_text_3LUanK",
         "image_with_text_NFaYwa",
         "image_with_text_8jiqTB"
       ],
