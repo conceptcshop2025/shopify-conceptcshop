@@ -258,6 +258,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_g7JEaM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c2b63aa5-0faf-4fcd-8c22-231a68a2a8db.webp",
+            "promotion_title": "Essentiels Esthederm",
+            "promotion_description": "<p>À l'achat de 149$ de produits Esthederm, obtiens gratuitement une trousse d'essentiels formats voyage! <em>*avant tx et code promo. Exclusivité web. </em></p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
           "disabled": true,
@@ -317,6 +327,7 @@
         "promotion_card_WaqA6k",
         "promotion_card_YMibxi",
         "promotion_card_VpL8my",
+        "promotion_card_g7JEaM",
         "promotion_card_L9FdV8",
         "promotion_card_CDrjLY",
         "promotion_card_RKN74E",
