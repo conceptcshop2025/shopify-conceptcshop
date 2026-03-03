@@ -427,6 +427,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_KXzYDt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_97459045-c778-4304-a8a0-cdb60253c1a0.webp",
+            "promotion_title": "15% coiffants Shu Uemura",
+            "promotion_description": "<p>Jusqu’au 31 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_TMyD6Y": {
           "type": "promotion_card",
           "disabled": true,
@@ -516,6 +526,7 @@
         "promotion_card_7TnXyM",
         "promotion_card_a9WnUA",
         "promotion_card_Jiyfhk",
+        "promotion_card_KXzYDt",
         "promotion_card_TMyD6Y",
         "promotion_card_X67QHk",
         "promotion_card_AWYxwj",
