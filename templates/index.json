@@ -528,6 +528,17 @@
             "promotion_link": "shopify://collections/evo",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_tkP8nH": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_0ac33728-2b75-4c08-a12e-c66d98e0dd3d.png",
+            "promotion_title": "20 % de rabais sur les formats jumbo!",
+            "promotion_description": "<p>20 % de rabais sur les shampoings secs Living Proof format jumbo!</p>",
+            "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -546,7 +557,8 @@
         "promotion_card_3L7aRU",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_UbccKe"
+        "promotion_card_UbccKe",
+        "promotion_card_tkP8nH"
       ],
       "name": "# Promotions list",
       "settings": {
