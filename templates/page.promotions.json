@@ -396,6 +396,7 @@
         },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/13_13bfff46-2e80-4bd3-a830-f7ca9f39f6cf.webp",
             "promotion_title": "Shu Uemura",
