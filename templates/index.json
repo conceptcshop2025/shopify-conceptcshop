@@ -546,8 +546,8 @@
           "settings": {
             "promotion_image": "shopify://shop_images/5_0308d9b4-ca06-452e-8a33-7d4a9269e26c.png",
             "promotion_title": "15% sur la cure réactionnelle",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_description": "<p>Jusqu'au 1er avril, obtenez 15 % de rabais sur la cure réactionnelle pour la perte de cheveux René Furterer!</p>",
+            "promotion_link": "shopify://products/rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
             "promotion_link_text": "Voir plus"
           }
         }
