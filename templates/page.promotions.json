@@ -141,17 +141,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_kWUDpN": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2.webp",
-            "promotion_title": "Offre sur les gammes Intensive Esthederm",
-            "promotion_description": "<p>Jusqu’au 28 février, profitez de <strong>20 à 30 % de rabais</strong> sur les collections Intensive*. <em>Prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
@@ -182,6 +171,17 @@
             "promotion_link": "shopify://collections/evo",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_pK7wYN": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/4_0ac33728-2b75-4c08-a12e-c66d98e0dd3d.png",
+            "promotion_title": "20 % de rabais sur les formats jumbo!",
+            "promotion_description": "<p>Jusqu'au 1er avril, obtenez 20 % de rabais sur les shampoings secs Living Proof format jumbo!</p>",
+            "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -197,10 +197,10 @@
         "promotion_card_UX7pPN",
         "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
-        "promotion_card_kWUDpN",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
-        "promotion_card_hD46iY"
+        "promotion_card_hD46iY",
+        "promotion_card_pK7wYN"
       ],
       "name": "# Promotions list",
       "settings": {
