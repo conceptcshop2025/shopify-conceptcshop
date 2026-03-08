@@ -176,7 +176,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_3000_x_800_px.png",
+        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_3000_x_800_px_1.png",
         "image_size": "auto",
         "subheading": "",
         "title": "FESTILITRE",
@@ -191,7 +191,7 @@
         "flip_background_opacity": 50,
         "flip_text_color": "",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "custom_collection_list_Y6XW4j": {
