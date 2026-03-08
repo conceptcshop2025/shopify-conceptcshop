@@ -169,6 +169,30 @@
         "column_gap": 4
       }
     },
+    "countdown_j3bgUj": {
+      "type": "countdown",
+      "disabled": true,
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Subheading",
+        "title": "Special offer",
+        "content": "<p>Share something about your limited offer or temporary promotion.</p>",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "custom_collection_list_Y6XW4j": {
       "type": "custom-collection-list",
       "blocks": {
@@ -1044,6 +1068,7 @@
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
     "custom_multi_column_BHzrQP",
+    "countdown_j3bgUj",
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "custom_collection_bullets_7CdYne",
