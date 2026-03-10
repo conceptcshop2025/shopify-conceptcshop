@@ -51,6 +51,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_hD46iY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/6_fd3f5bf7-32f6-4e05-884a-6326953ab31a.png",
+            "promotion_title": "40% sur Evo",
+            "promotion_description": "<p>Jusqu’au 1er avril à 23 h 59, profitez de 40 % de rabais sur la gamme Evo ! Exclut les formats litre.<br/></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_xJDyp9": {
           "type": "promotion_card",
           "settings": {
@@ -110,30 +120,19 @@
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_hD46iY": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_fd3f5bf7-32f6-4e05-884a-6326953ab31a.png",
-            "promotion_title": "40% sur Evo",
-            "promotion_description": "<p>Jusqu’au 1er avril à 23 h 59, profitez de 40 % de rabais sur la gamme Evo!</p>",
-            "promotion_link": "shopify://collections/evo",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_qtnB6q",
         "promotion_card_XA7h76",
         "promotion_card_pK7wYN",
+        "promotion_card_hD46iY",
         "promotion_card_xJDyp9",
         "promotion_card_nT6RHc",
         "promotion_card_gW8hra",
         "promotion_card_EJkGNM",
         "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz",
-        "promotion_card_hD46iY"
+        "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
       "settings": {
