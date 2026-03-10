@@ -31,20 +31,10 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_bLKYEr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_b557bde8-df38-4461-9058-259e05e740b4.webp",
-            "promotion_title": "Lancement Redken",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses  et recevez une brosse capillaire gratuite à l’achat de 50 $!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_xJDyp9": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_4.webp",
+            "promotion_image": "shopify://shop_images/8_8450030a-9b20-4b9c-9e81-1d6ad434b59d.png",
             "promotion_title": "Économisez 100 $ sur une sélection d’outils  GHD",
             "promotion_description": "<p>Découvrez les fers plats Chronos et Platinum+ ainsi que le séchoir Helios de ghd, maintenant offerts avec 100 $ de rabais!</p>",
             "promotion_link": "shopify://collections/promo-festive",
@@ -54,7 +44,7 @@
         "promotion_card_nT6RHc": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_68eb0a26-c9a4-4745-8bc8-8b05613caa50.webp",
+            "promotion_image": "shopify://shop_images/12_5755bd9d-9cb9-43c0-8960-e80fe4c031a6.png",
             "promotion_title": "Promo Pureology Hydrate & Strength Cure",
             "promotion_description": "<p>Jusqu’au 31 mars, obtenez 20 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em></p>",
             "promotion_link": "shopify://collections/litres-pureology",
@@ -64,7 +54,7 @@
         "promotion_card_gW8hra": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_97459045-c778-4304-a8a0-cdb60253c1a0.webp",
+            "promotion_image": "shopify://shop_images/7_274c778c-860e-48c0-a921-8183abbe6774.png",
             "promotion_title": "15% coiffants Shu Uemura",
             "promotion_description": "<p>Jusqu’au 31 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
@@ -74,7 +64,7 @@
         "promotion_card_EJkGNM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
+            "promotion_image": "shopify://shop_images/9_ab83a35a-166d-430b-ba73-1db0b2281bf0.png",
             "promotion_title": "Nouveautés Chronologiste de Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
@@ -84,7 +74,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
+            "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -94,7 +84,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_80cdbea2-f936-41cd-ba62-e37e003c9281.png",
             "promotion_title": "Liquidation",
             "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -137,7 +127,6 @@
       },
       "block_order": [
         "promotion_card_qtnB6q",
-        "promotion_card_bLKYEr",
         "promotion_card_xJDyp9",
         "promotion_card_nT6RHc",
         "promotion_card_gW8hra",
@@ -169,7 +158,7 @@
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11_1101cda0-e69c-4b41-887b-b23e179b629f.png",
+            "promotion_image": "shopify://shop_images/14_a019bc5a-9ea2-4dbe-a339-ad0740a944eb.png",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -179,7 +168,7 @@
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/13_95816c51-c092-4384-916d-49a4b927369b.png",
+            "promotion_image": "shopify://shop_images/21_7b05feea-7922-4e53-b548-203ea43b615c.png",
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
@@ -200,7 +189,7 @@
         "promotion_card_VpL8my": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_79fe499f-4087-4cb5-ba1a-f21aeee48350.webp",
+            "promotion_image": "shopify://shop_images/17_f668c15f-884b-4e22-9934-4afb2011e1a3.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p>À l'achat de 50$ de produits Esthederm, obtiens gratuitement un sérum anti-âge 5ml! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -210,7 +199,7 @@
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c2b63aa5-0faf-4fcd-8c22-231a68a2a8db.webp",
+            "promotion_image": "shopify://shop_images/11_d2114497-d2c6-4ce4-84cc-4072d7b097de.png",
             "promotion_title": "Essentiels Esthederm",
             "promotion_description": "<p>À l'achat de 149$ de produits Esthederm, obtiens gratuitement une trousse d'essentiels formats voyage! <em>*avant tx et code promo. </em></p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -231,7 +220,7 @@
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_f71b5959-24d4-4100-b04a-9a8d59974e35.webp",
+            "promotion_image": "shopify://shop_images/10_883e27a3-841f-494a-aad8-269dada6fa99.png",
             "promotion_title": "Parfum d'ambiance Kérastase",
             "promotion_description": "<p>À l’achat de 3 produits Kérastase format régulier, obtenez gratuitement un format voyage! </p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
@@ -263,7 +252,7 @@
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/15_660dffe7-4e25-48f0-8788-75eafd289663.png",
+            "promotion_image": "shopify://shop_images/23.png",
             "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
             "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
             "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
@@ -304,7 +293,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_081abe8a-6b4a-43ac-ba7a-39ae46202179.webp",
+            "promotion_image": "shopify://shop_images/24.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Kérastase.*maximum de 2 par commande.<br/><br/><br/></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -347,7 +336,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/14_4e2bb7a1-7d5f-4210-98bf-5a9a29b96c18.webp",
+            "promotion_image": "shopify://shop_images/26.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Esthederm.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/esthederm",
