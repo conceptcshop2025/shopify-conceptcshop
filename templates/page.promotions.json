@@ -343,6 +343,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_cUyjRa": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026.png",
+            "promotion_title": "Un parfum à essayer!",
+            "promotion_description": "<p>À l’achat d’un masque Pureology Hydrate ou Strength Cure ou du Glow Catcher, recevez gratuitement le parfum Love Luster 15 ml!</p>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
           "settings": {
@@ -366,6 +377,7 @@
         "promotion_card_CDrjLY",
         "promotion_card_RKN74E",
         "promotion_card_kRxtHU",
+        "promotion_card_cUyjRa",
         "promotion_card_eA8iqg"
       ],
       "name": "# Promotions list",
