@@ -197,7 +197,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_8c3178c8-1a00-46d6-813b-fc5f85ceeb23.png",
             "promotion_title": "Balmain",
-            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire!</p>",
+            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire! <em>*maximum d'un cadeau par commande</em></p>",
             "promotion_link": "shopify://collections/promo-35",
             "promotion_link_text": "Voir plus"
           }
