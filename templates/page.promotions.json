@@ -225,11 +225,10 @@
         },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_78639f79-78f4-4908-91b2-7f12ebbb211d.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3.png",
             "promotion_title": "Oribe",
-            "promotion_description": "<p>À l'achat de 85$ de produits Oribe, obtiens gratuitement une mini trousse santé des cheveux! <em>*avant tx et code promo</em></p>",
+            "promotion_description": "<p>À l'achat de 125$ de produits Oribe, obtiens gratuitement une mini trousse santé des cheveux! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/oribe",
             "promotion_link_text": "Voir plus"
           }
