@@ -236,9 +236,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_3_decfc6c2-f233-4eee-bcc6-d43c22c11dd7.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1.png",
             "promotion_title": "Iles Formula",
-            "promotion_description": "<p>À l’achat de 75 $ de produits Iles Formula, recevez une serviette en microfibre turban blanche en cadeau! <em>*avant tx et code promo</em></p>",
+            "promotion_description": "<p>Jusqu'au 1er avril 23h59, à l’achat de 70 $ de produits Iles Formula, recevez gratuitement un Kit de Voyage!<br/><br/></p>",
             "promotion_link": "shopify://collections/iles-formula",
             "promotion_link_text": "Voir plus"
           }
