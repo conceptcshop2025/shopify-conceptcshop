@@ -192,6 +192,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_LgNW4P": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_8c3178c8-1a00-46d6-813b-fc5f85ceeb23.png",
+            "promotion_title": "Balmain",
+            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire!</p>",
+            "promotion_link": "shopify://collections/promo-35",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
@@ -199,17 +209,6 @@
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_LgNW4P": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/12_aa900e50-a973-46e1-9160-945e5e0eecd2.png",
-            "promotion_title": "Balmain",
-            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire!</p>",
-            "promotion_link": "shopify://collections/promo-35",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -270,8 +269,8 @@
         "promotion_card_cUyjRa",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
-        "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
+        "promotion_card_hfDNFW",
         "promotion_card_VpL8my",
         "promotion_card_L9FdV8",
         "promotion_card_kRxtHU",
