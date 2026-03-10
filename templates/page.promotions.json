@@ -188,31 +188,12 @@
         },
         "promotion_card_LgNW4P": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/12_aa900e50-a973-46e1-9160-945e5e0eecd2.png",
             "promotion_title": "Balmain",
             "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_WaqA6k": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/14_c69429d2-2643-4c38-b262-197fb514e353.png",
-            "promotion_title": "Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits Première format régulier de votre choix, recevez un Préconcentré 250 ml gratuit<em> (une valeur de 89 $.)</em></p>",
-            "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_YMibxi": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_c339f62b-868c-4da0-b8a1-802651955c03.webp",
-            "promotion_title": "K18",
-            "promotion_description": "<p>Jusqu'au 9 mars, à l’achat de 100 $ de produits K18, recevez un mini Heat Bounce en cadeau! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -257,18 +238,9 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_RKN74E": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_5034e010-cabd-4524-8c4b-609631cb78e3.webp",
-            "promotion_title": "L'Oréal",
-            "promotion_description": "<p>Jusqu'au 9 mars, à l’achat de 70 $ de produits Serioxyl, recevez un mini shampoing Serioxyl 100 ml en cadeau! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/promo-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_kRxtHU": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_3_decfc6c2-f233-4eee-bcc6-d43c22c11dd7.webp",
             "promotion_title": "Iles Formula",
@@ -303,13 +275,10 @@
         "promotion_card_rhVDjF",
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
-        "promotion_card_WaqA6k",
-        "promotion_card_YMibxi",
         "promotion_card_VpL8my",
         "promotion_card_g7JEaM",
         "promotion_card_L9FdV8",
         "promotion_card_CDrjLY",
-        "promotion_card_RKN74E",
         "promotion_card_kRxtHU",
         "promotion_card_cUyjRa",
         "promotion_card_eA8iqg"
