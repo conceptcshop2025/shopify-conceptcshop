@@ -35,11 +35,11 @@
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #f7cdd6;}"
+        ".collection-tags .tag.tag-collection {background: #f5f3d0;}"
       ],
       "name": "# Collection tags",
       "settings": {
-        "color_scheme": "scheme-5dbb2cff-d013-4c7f-8067-d23ec0ca01a1",
+        "color_scheme": "scheme-1",
         "background_tags": "#e4c0ae",
         "color_tags": "#454545",
         "padding_top": 20,

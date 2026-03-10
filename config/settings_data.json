@@ -350,7 +350,7 @@
           "text_color": "#454545",
           "primary_button_background": "#f5f3d0",
           "primary_button_text_color": "#454545",
-          "circle_button_background": "#e4c0ae",
+          "circle_button_background": "#f5f3d0",
           "circle_button_icon": "#454545"
         }
       }
