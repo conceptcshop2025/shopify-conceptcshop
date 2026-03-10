@@ -41,46 +41,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Aakyjr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_813b14b2-335e-437c-9762-3c1d509fe0f5.webp",
-            "promotion_title": "Huile Billion Bond",
-            "promotion_description": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! Recevez une Fat Oil de NYX en cadeau avec votre huile!<em>*prend fin le 9 mars 23h59</em></p>",
-            "promotion_link": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Qi3V6z": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_120cc29d-4856-40e8-91e4-00aa3dd89156.webp",
-            "promotion_title": "40% de rabais sur Balmain",
-            "promotion_description": "<p>Jusqu’au 9 mars à 23 h 59, profitez de 40 % de rabais sur la gamme Balmain.</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_fnTjbD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_31f084aa-f66f-41cc-be41-5fa103d9a9c3.webp",
-            "promotion_title": "Nouveauté Redken",
-            "promotion_description": "<p>Jusqu'au 9 mars, obtenez 10$ de rabais sur le baume sans rinçage qui répare et scelle les pointes abîmées, réduit la casse et protège de la chaleur.</p>",
-            "promotion_link": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jTx6Hi": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_fb68a51f-5abc-4e35-a9e8-caac37b5c82e.png",
-            "promotion_title": "2 Refresh Dust pour 30$",
-            "promotion_description": "<p>Jusqu’au 9 mars, obtenez 2 shampoings secs Refresh Dust pour 30 $! <em>*prix déjà réduit.</em><br/><br/></p>",
-            "promotion_link": "shopify://products/schwarzkopf-duo-refresh-dust",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_xJDyp9": {
           "type": "promotion_card",
           "settings": {
@@ -108,26 +68,6 @@
             "promotion_title": "15% coiffants Shu Uemura",
             "promotion_description": "<p>Jusqu’au 31 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_UX7pPN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_c0622a1e-d69e-41db-a3ec-de5643ae23fe.webp",
-            "promotion_title": "Absolut Repair Molecular!",
-            "promotion_description": "<p>Jusqu’au 9 mars, profitez de <strong>jusqu’à 55 % de rabais</strong> sur Absolut Repair Molecular, la gamme qui répare en profondeur, renforce la fibre capillaire et redonne douceur et brillance aux cheveux abîmés. <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_3qQfyr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_7969d939-641f-4ef4-9543-a87483a0c8e8.webp",
-            "promotion_title": "Parfums coup de cœur!",
-            "promotion_description": "<p>Le cadeau parfait commence ici. Découvrez notre sélection de parfums!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -198,15 +138,9 @@
       "block_order": [
         "promotion_card_qtnB6q",
         "promotion_card_bLKYEr",
-        "promotion_card_Aakyjr",
-        "promotion_card_Qi3V6z",
-        "promotion_card_fnTjbD",
-        "promotion_card_jTx6Hi",
         "promotion_card_xJDyp9",
         "promotion_card_nT6RHc",
         "promotion_card_gW8hra",
-        "promotion_card_UX7pPN",
-        "promotion_card_3qQfyr",
         "promotion_card_EJkGNM",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
