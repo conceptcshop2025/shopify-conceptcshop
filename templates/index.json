@@ -155,27 +155,12 @@
             "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_8jiqTB": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Facing_Site_-_Redken-2.jpg",
-            "block_background": "#dbd8d5",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>NOUVEAUTÉ REDKEN</strong>",
-            "heading_tag": "h4",
-            "content": "<p>10$ de rabais sur le baume sans rinçage qui répare et scelle les pointes abîmées, réduit la casse et protège de la chaleur.</p>",
-            "link_url": "shopify://products/redken-baume-capillaire-sans-rincage-acidic-bonding-concentrate",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
         "image_with_text_QxKH3t",
-        "image_with_text_NFaYwa",
-        "image_with_text_8jiqTB"
+        "image_with_text_NFaYwa"
       ],
       "name": "# Multi-column",
       "settings": {
@@ -396,7 +381,7 @@
         "promotion_card_7TnXyM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_4.webp",
+            "promotion_image": "shopify://shop_images/8_8450030a-9b20-4b9c-9e81-1d6ad434b59d.png",
             "promotion_title": "Économisez 100 $ sur une sélection d’outils  GHD",
             "promotion_description": "<p>Découvrez les fers plats Chronos et Platinum+ ainsi que le séchoir Helios de ghd, maintenant offerts avec 100 $ de rabais!<br/></p>",
             "promotion_link": "shopify://collections/promo-festive",
@@ -406,7 +391,7 @@
         "promotion_card_Jiyfhk": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_a18235f8-ff29-432c-bad7-f8d9ea08c819.webp",
+            "promotion_image": "shopify://shop_images/9_ab83a35a-166d-430b-ba73-1db0b2281bf0.png",
             "promotion_title": "Nouveautés Chronologiste de Kérastase",
             "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
@@ -416,7 +401,7 @@
         "promotion_card_KXzYDt": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_97459045-c778-4304-a8a0-cdb60253c1a0.webp",
+            "promotion_image": "shopify://shop_images/7_274c778c-860e-48c0-a921-8183abbe6774.png",
             "promotion_title": "15% coiffants Shu Uemura",
             "promotion_description": "<p>Jusqu’au 31 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
@@ -426,10 +411,40 @@
         "promotion_card_X67QHk": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_1_68eb0a26-c9a4-4745-8bc8-8b05613caa50.webp",
+            "promotion_image": "shopify://shop_images/12_5755bd9d-9cb9-43c0-8960-e80fe4c031a6.png",
             "promotion_title": "Promo Pureology Hydrate & Strength Cure",
             "promotion_description": "<p>Jusqu’au 31 mars, obtenez 20 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em><br/><br/></p>",
             "promotion_link": "shopify://collections/litres-pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_r8q9UW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
+            "promotion_title": "Lancement Redken Acidic Grow Full!",
+            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses et recevez une brosse capillaire gratuite à l’achat de 50 $.<br/></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_80cdbea2-f936-41cd-ba62-e37e003c9281.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
+            "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -440,36 +455,6 @@
             "promotion_title": "Festilitre",
             "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
             "promotion_link": "shopify://collections/festilitre",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_r8q9UW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_2_b557bde8-df38-4461-9058-259e05e740b4.webp",
-            "promotion_title": "Lancement Redken Acidic Grow Full!",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses et recevez une brosse capillaire gratuite à l’achat de 50 $.<br/></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/10_a3094f42-6f24-45d1-a118-98465239a5f4.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/20_d6a25a16-c9be-46c6-928b-da5182083518.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -512,10 +497,10 @@
         "promotion_card_Jiyfhk",
         "promotion_card_KXzYDt",
         "promotion_card_X67QHk",
-        "promotion_card_KWqFmF",
         "promotion_card_r8q9UW",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
+        "promotion_card_KWqFmF",
         "promotion_card_UbccKe",
         "promotion_card_tkP8nH",
         "promotion_card_txV4dN"
