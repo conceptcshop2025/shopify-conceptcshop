@@ -165,13 +165,33 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_rhVDjF": {
+        "promotion_card_cUyjRa": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/14_a019bc5a-9ea2-4dbe-a339-ad0740a944eb.png",
-            "promotion_title": "René Furterer",
-            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026.png",
+            "promotion_title": "Un parfum à essayer!",
+            "promotion_description": "<p>À l’achat d’un masque Pureology Hydrate ou Strength Cure ou du Glow Catcher, recevez gratuitement le parfum Love Luster 15 ml! <em>*maximum d'un parfum par commande</em></p>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_CDrjLY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_883e27a3-841f-494a-aad8-269dada6fa99.png",
+            "promotion_title": "Parfum d'ambiance Kérastase",
+            "promotion_description": "<p>À l’achat de 3 produits Kérastase format régulier, obtenez gratuitement un format voyage! </p>",
+            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_g7JEaM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/11_d2114497-d2c6-4ce4-84cc-4072d7b097de.png",
+            "promotion_title": "Essentiels Esthederm",
+            "promotion_description": "<p>À l'achat de 149$ de produits Esthederm, obtiens gratuitement une trousse d'essentiels formats voyage! <em>*avant tx et code promo. </em></p>",
+            "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -206,16 +226,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_g7JEaM": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11_d2114497-d2c6-4ce4-84cc-4072d7b097de.png",
-            "promotion_title": "Essentiels Esthederm",
-            "promotion_description": "<p>À l'achat de 149$ de produits Esthederm, obtiens gratuitement une trousse d'essentiels formats voyage! <em>*avant tx et code promo. </em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
           "disabled": true,
@@ -224,16 +234,6 @@
             "promotion_title": "Oribe",
             "promotion_description": "<p>À l'achat de 85$ de produits Oribe, obtiens gratuitement une mini trousse santé des cheveux! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/oribe",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_CDrjLY": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/10_883e27a3-841f-494a-aad8-269dada6fa99.png",
-            "promotion_title": "Parfum d'ambiance Kérastase",
-            "promotion_description": "<p>À l’achat de 3 produits Kérastase format régulier, obtenez gratuitement un format voyage! </p>",
-            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -248,16 +248,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_cUyjRa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026.png",
-            "promotion_title": "Un parfum à essayer!",
-            "promotion_description": "<p>À l’achat d’un masque Pureology Hydrate ou Strength Cure ou du Glow Catcher, recevez gratuitement le parfum Love Luster 15 ml! <em>*maximum d'un parfum par commande</em></p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
           "settings": {
@@ -267,20 +257,30 @@
             "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_rhVDjF": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/14_a019bc5a-9ea2-4dbe-a339-ad0740a944eb.png",
+            "promotion_title": "René Furterer",
+            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_LFhkJH",
-        "promotion_card_rhVDjF",
+        "promotion_card_cUyjRa",
+        "promotion_card_CDrjLY",
+        "promotion_card_g7JEaM",
         "promotion_card_hfDNFW",
         "promotion_card_LgNW4P",
         "promotion_card_VpL8my",
-        "promotion_card_g7JEaM",
         "promotion_card_L9FdV8",
-        "promotion_card_CDrjLY",
         "promotion_card_kRxtHU",
-        "promotion_card_cUyjRa",
-        "promotion_card_eA8iqg"
+        "promotion_card_eA8iqg",
+        "promotion_card_rhVDjF"
       ],
       "name": "# Promotions list",
       "settings": {
