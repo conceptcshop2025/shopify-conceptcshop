@@ -378,6 +378,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_tkP8nH": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_2.png",
+            "promotion_title": "20 % à 30 de rabais sur les formats jumbo!",
+            "promotion_description": "<p>Jusqu'au 1er avril, obtenez jusqu'à 30 de rabais sur les formats jumbo Living Proof!</p>",
+            "promotion_link": "shopify://collections/promo-living-proof",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_7TnXyM": {
           "type": "promotion_card",
           "settings": {
@@ -469,20 +479,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_tkP8nH": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/4_0ac33728-2b75-4c08-a12e-c66d98e0dd3d.png",
-            "promotion_title": "20 % de rabais sur les formats jumbo!",
-            "promotion_description": "<p>Jusqu'au 1er avril, obtenez 20 % de rabais sur les shampoings secs Living Proof format jumbo!</p>",
-            "promotion_link": "shopify://collections/living-proof",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_txV4dN": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/5_0308d9b4-ca06-452e-8a33-7d4a9269e26c.png",
             "promotion_title": "15% sur la cure réactionnelle",
@@ -493,6 +491,7 @@
         }
       },
       "block_order": [
+        "promotion_card_tkP8nH",
         "promotion_card_7TnXyM",
         "promotion_card_Jiyfhk",
         "promotion_card_KXzYDt",
@@ -502,7 +501,6 @@
         "promotion_card_BPnVjf",
         "promotion_card_KWqFmF",
         "promotion_card_UbccKe",
-        "promotion_card_tkP8nH",
         "promotion_card_txV4dN"
       ],
       "name": "# Promotions list",
