@@ -54,6 +54,7 @@
                     exemptions for special characters in URL like & (and) , (comma)
                     - Cire, gel & pommade
                     - 100% clean
+                    - Mask & Treatment
                   {% endcomment %}
 
                   {% case tag.label %}
@@ -61,6 +62,10 @@
                       {% assign url = collection.url | append: '?filter.p.product_type=Cire%2C+gel+%26+pommade' %}
                     {% when '100% Clean' %}
                       {% assign url = collection.url | append: '?filter.p.m.custom.filtre_specificite=100%25+Clean' %}
+                    {% when 'Masque & Traitement' %}
+                      {% assign url = collection.url | append: '?filter.p.product_type=Masque+%26+Traitement' %}
+                    {% when 'Mask & Treatment' %}
+                      {% assign url = collection.url | append: '?filter.p.product_type=Mask+%26+Treatment' %}
                   {% endcase %}
 
                   {% assign tag_link = '<a href="' | append: url | append: '" class="tag tag-collection tag-index--' | append: forloop.index | append: '" role="link" tabindex="0">' | append: tag.label | append: '</a>' %}
