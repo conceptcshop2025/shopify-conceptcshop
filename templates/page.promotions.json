@@ -208,8 +208,8 @@
           "settings": {
             "promotion_image": "shopify://shop_images/12_aa900e50-a973-46e1-9160-945e5e0eecd2.png",
             "promotion_title": "Balmain",
-            "promotion_description": "<p>À l'Achat de 80$ * de produits Balmain, obtiens gratuitement un masseur cuir chevelu! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/balmain",
+            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire!</p>",
+            "promotion_link": "shopify://collections/promo-35",
             "promotion_link_text": "Voir plus"
           }
         },
