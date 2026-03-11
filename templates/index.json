@@ -161,9 +161,9 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
-            "block_background": "",
+            "block_background": "#f8e7b4",
             "text_block_background": "",
-            "title": "PROMO OUTILS",
+            "title": "<strong>PROMO OUTILS</strong>",
             "heading_tag": "h3",
             "content": "<p>Jusqu'à 40% de rabais sur plus de 200 outils coiffants!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
