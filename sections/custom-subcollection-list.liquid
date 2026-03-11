@@ -124,6 +124,12 @@
                             assign url = collection.url | append: '?filter.p.product_type=Masque+%26+Traitement'
                         when 'Mask & Treatment'
                           assign url = collection.url | append: '?filter.p.product_type=Mask+%26+Treatment'
+                        when 'Séchoir & Diffuseur'
+                          assign url = collection.url | append: '?filter.p.m.custom.filtre_type_d_outil=Séchoir+%26+Diffuseur'
+                        when 'Clipper & Trimmer'
+                          assign url = collection.url | append: '?filter.p.m.custom.filtre_type_d_outil=Clipper+%26+Trimmer'
+                        when 'Hair Dryer & Diffuser'
+                          assign url = collection.url | append: '?filter.p.m.custom.filtre_type_d_outil=Hair+Dryer+%26+Diffuser'
                       endcase
                     %}
                     <a href="{{ url }}" class="tag tag-third-level">
