@@ -181,7 +181,7 @@
             "heading_tag": "h4",
             "content": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
             "link_url": "shopify://collections/promo-du-moment",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         }
       },
@@ -508,6 +508,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_fVi4LR": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
+            "promotion_title": "Volume.Brillance.Tenue.",
+            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_KWqFmF": {
           "type": "promotion_card",
           "settings": {
@@ -530,6 +540,7 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_McHmfD",
+        "promotion_card_fVi4LR",
         "promotion_card_KWqFmF"
       ],
       "name": "# Promotions list",
