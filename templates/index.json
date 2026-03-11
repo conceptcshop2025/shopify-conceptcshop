@@ -161,7 +161,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
-            "block_background": "#f8e7b4",
+            "block_background": "#483c3e",
             "text_block_background": "",
             "title": "<strong>PROMO OUTILS</strong>",
             "heading_tag": "h3",
