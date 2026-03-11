@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "image": "shopify://shop_images/Haut_Collection_DeskFestilitre_Hiver_2026_1560_x_300_px_3840_x_300_px.webp",
+        "mobile_image": "shopify://shop_images/Haut_COllection_Mobile_Festilitre_Hiver_2026_750_x_300_px.jpg",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "show_image": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_collection_tags_DdQdc6": {
+      "type": "custom-collection-tags",
+      "custom_css": [
+        ".collection-tags .tag.tag-collection {background: #f5f3d0;}"
+      ],
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "custom_collection_tags_DdQdc6",
+    "main"
+  ]
+}
