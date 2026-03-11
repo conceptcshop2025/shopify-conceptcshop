@@ -164,10 +164,24 @@
             "block_background": "#f4e3ad",
             "text_block_background": "#1c1c1c",
             "title": "<strong>PROMO OUTILS</strong>",
-            "heading_tag": "h3",
+            "heading_tag": "h4",
             "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
+          }
+        },
+        "image_with_text_nBDx6B": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_VBT_Mars_2026.png",
+            "block_background": "",
+            "text_block_background": "",
+            "title": "<strong>VOLUME.BRILLANCE.TENUE.</strong>",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://collections/promo-du-moment",
+            "link_text": ""
           }
         }
       },
@@ -175,7 +189,8 @@
         "image_with_text_3LUanK",
         "image_with_text_QxKH3t",
         "image_with_text_NFaYwa",
-        "image_with_text_Lt8DPB"
+        "image_with_text_Lt8DPB",
+        "image_with_text_nBDx6B"
       ],
       "name": "# Multi-column",
       "settings": {
