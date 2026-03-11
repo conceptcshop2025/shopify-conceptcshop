@@ -162,7 +162,7 @@
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
             "block_background": "#483c3e",
-            "text_block_background": "",
+            "text_block_background": "#f4e3ad",
             "title": "<strong>PROMO OUTILS</strong>",
             "heading_tag": "h3",
             "content": "<p>Jusqu'à 40% de rabais sur plus de 200 outils coiffants!</p>",
