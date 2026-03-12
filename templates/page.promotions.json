@@ -31,6 +31,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_LqYqPc": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_e2845d9c-0f3c-4148-990d-f08f0fecaeeb.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, Steampod, CHI et Avanti.</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_XA7h76": {
           "type": "promotion_card",
           "settings": {
@@ -114,6 +124,7 @@
       },
       "block_order": [
         "promotion_card_qtnB6q",
+        "promotion_card_LqYqPc",
         "promotion_card_XA7h76",
         "promotion_card_pK7wYN",
         "promotion_card_hD46iY",
