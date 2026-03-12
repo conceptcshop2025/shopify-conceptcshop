@@ -119,6 +119,7 @@
       "blocks": {
         "image_with_text_3LUanK": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
             "block_background": "#003936",
@@ -127,6 +128,32 @@
             "heading_tag": "h4",
             "content": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses  et recevez une brosse capillaire gratuite à l’achat de 50 $!</p>",
             "link_url": "shopify://collections/promo-du-moment-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_Lt8DPB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
+            "block_background": "#f4e3ad",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>PROMO OUTILS</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_nBDx6B": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_VBT_Mars_2026.png",
+            "block_background": "#c7b0cc",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>VOLUME & BRILLANCE!</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
+            "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
         },
@@ -145,6 +172,7 @@
         },
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix_1.png",
             "block_background": "#811f48",
@@ -155,42 +183,14 @@
             "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_Lt8DPB": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
-            "block_background": "#f4e3ad",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>PROMO OUTILS</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_nBDx6B": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_VBT_Mars_2026.png",
-            "block_background": "#c7b0cc",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>VOLUME & BRILLANCE!</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
-            "link_url": "shopify://collections/promo-du-moment",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
-        "image_with_text_QxKH3t",
-        "image_with_text_NFaYwa",
         "image_with_text_Lt8DPB",
-        "image_with_text_nBDx6B"
+        "image_with_text_nBDx6B",
+        "image_with_text_QxKH3t",
+        "image_with_text_NFaYwa"
       ],
       "name": "# Multi-column",
       "settings": {
