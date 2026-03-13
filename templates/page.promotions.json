@@ -183,6 +183,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_z8nzEW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3_c73e1a4a-e9d8-4c26-a6a7-0267361c6d07.png",
+            "promotion_title": "Nouveautés Gloss Absolu!",
+            "promotion_description": "<p>Jusqu'au 1er avril, à l’achat de 2 produits Kérastase format régulier Gloss Absolu, obtenez gratuitement une crème Frizz-Glaze de 30 ml!</p>",
+            "promotion_link": "shopify://collections/offre-kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
@@ -277,6 +288,7 @@
       "block_order": [
         "promotion_card_LFhkJH",
         "promotion_card_cUyjRa",
+        "promotion_card_z8nzEW",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_LgNW4P",
