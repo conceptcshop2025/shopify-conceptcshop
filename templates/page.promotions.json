@@ -81,6 +81,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_KD3rrr": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_c5e40ea6-c5f0-4a96-9371-0bc9e33a189a.png",
+            "promotion_title": "Découvrez Fibre Clinix!",
+            "promotion_description": "<p>Plus de 35 % de rabais sur Fibre Clinix pour une réparation intense avec la technologie BONDXTEND. </p>",
+            "promotion_link": "shopify://collections/offre-en-cours",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_nT6RHc": {
           "type": "promotion_card",
           "settings": {
@@ -139,6 +149,7 @@
         "promotion_card_XA7h76",
         "promotion_card_pK7wYN",
         "promotion_card_hD46iY",
+        "promotion_card_KD3rrr",
         "promotion_card_nT6RHc",
         "promotion_card_gW8hra",
         "promotion_card_EJkGNM",
