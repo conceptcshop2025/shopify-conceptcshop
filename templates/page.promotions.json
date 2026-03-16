@@ -267,6 +267,7 @@
         },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3.png",
             "promotion_title": "Oribe",
