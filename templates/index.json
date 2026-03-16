@@ -412,8 +412,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
-            "promotion_title": "Lancement Redken Acidic Grow Full!",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses et recevez une brosse capillaire gratuite à l’achat de 50 $.<br/></p>",
+            "promotion_title": "Découvrez Acidic Grow Full",
+            "promotion_description": "<p>La gamme qui renforce les cheveux et les rend visiblement plus denses! Profitez jusqu’à 25 % de rabais, en plus de recevoir une brosse capillaire gratuite à l’achat de 50 $.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus"
           }
