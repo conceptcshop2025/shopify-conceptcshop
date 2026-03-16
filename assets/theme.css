@@ -8003,3 +8003,9 @@ ul {
     margin: 0 auto;
   } */
 }
+
+@media (min-width: 1000px) {
+  .section-collection-banner .prose .h1 {
+    padding-top: 30px;
+  }
+}
