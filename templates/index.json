@@ -88,32 +88,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "countdown_j3bgUj": {
-      "type": "countdown",
-      "disabled": true,
-      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_3000_x_800_px_2.png",
-        "mobile_image": "shopify://shop_images/Compte_a_Rebours_1200_x_400_px_1200_x_500_px.png",
-        "image_size": "auto",
-        "subheading": "",
-        "title": "FIN FESTILITRE",
-        "content": "",
-        "button_link": "shopify://collections/festilitre",
-        "button_text": "",
-        "expiration_date": "2026-03-19 23:59",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
@@ -208,6 +182,32 @@
         "padding_bottom": 40,
         "full_width": true,
         "column_gap": 4
+      }
+    },
+    "countdown_j3bgUj": {
+      "type": "countdown",
+      "disabled": true,
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_3000_x_800_px_2.png",
+        "mobile_image": "shopify://shop_images/Compte_a_Rebours_1200_x_400_px_1200_x_500_px.png",
+        "image_size": "auto",
+        "subheading": "",
+        "title": "FIN FESTILITRE",
+        "content": "",
+        "button_link": "shopify://collections/festilitre",
+        "button_text": "",
+        "expiration_date": "2026-03-19 23:59",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_collection_list_Y6XW4j": {
@@ -1025,8 +1025,8 @@
   "order": [
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
-    "countdown_j3bgUj",
     "custom_multi_column_BHzrQP",
+    "countdown_j3bgUj",
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
     "custom_collection_bullets_7CdYne",
