@@ -196,7 +196,6 @@
         },
         "promotion_card_z8nzEW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3_c73e1a4a-e9d8-4c26-a6a7-0267361c6d07.png",
             "promotion_title": "Nouveautés Gloss Absolu!",
