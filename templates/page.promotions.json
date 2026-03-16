@@ -299,6 +299,7 @@
         },
         "promotion_card_rhVDjF": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/14_a019bc5a-9ea2-4dbe-a339-ad0740a944eb.png",
             "promotion_title": "René Furterer",
