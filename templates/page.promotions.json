@@ -51,6 +51,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_HnxPEN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
+            "promotion_title": "Découvrez Acidic Grow Full",
+            "promotion_description": "<p>La gamme qui renforce les cheveux et les rend visiblement plus denses! Profitez jusqu’à 25 % de rabais, en plus de recevoir une brosse capillaire gratuite à l’achat de 50 $.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_XA7h76": {
           "type": "promotion_card",
           "settings": {
@@ -146,6 +156,7 @@
         "promotion_card_qtnB6q",
         "promotion_card_LqYqPc",
         "promotion_card_zDQPUa",
+        "promotion_card_HnxPEN",
         "promotion_card_XA7h76",
         "promotion_card_pK7wYN",
         "promotion_card_hD46iY",
@@ -174,16 +185,6 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_LFhkJH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses et recevez une brosse capillaire gratuite à l’achat de 50 $!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_cUyjRa": {
           "type": "promotion_card",
           "settings": {
@@ -308,7 +309,6 @@
         }
       },
       "block_order": [
-        "promotion_card_LFhkJH",
         "promotion_card_cUyjRa",
         "promotion_card_z8nzEW",
         "promotion_card_X79mcW",
