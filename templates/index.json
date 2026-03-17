@@ -105,6 +105,19 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_QxKH3t": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Facing_site_Festilitre-2-2_1.webp",
+            "block_background": "#f8d2da",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>FESTILITRE</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosses économies! <em>*prend fin le 19 mars 23h59</em></p>",
+            "link_url": "shopify://collections/festilitre",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_Lt8DPB": {
           "type": "image_with_text",
           "settings": {
@@ -131,19 +144,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_QxKH3t": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Facing_site_Festilitre-2-2_1.webp",
-            "block_background": "#f8d2da",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>FESTILITRE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosses économies! <em>*prend fin le 19 mars 23h59</em></p>",
-            "link_url": "shopify://collections/festilitre",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
           "disabled": true,
@@ -161,9 +161,9 @@
       },
       "block_order": [
         "image_with_text_3LUanK",
+        "image_with_text_QxKH3t",
         "image_with_text_Lt8DPB",
         "image_with_text_nBDx6B",
-        "image_with_text_QxKH3t",
         "image_with_text_NFaYwa"
       ],
       "name": "# Multi-column",
@@ -186,16 +186,15 @@
     },
     "countdown_j3bgUj": {
       "type": "countdown",
-      "disabled": true,
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/FB_Cover_Page_Festilitre_Hiver_2026_1640_x_924_px_3000_x_800_px_2.png",
+        "image": "shopify://shop_images/Compte_a_Rebours_3000_x_500_px.png",
         "mobile_image": "shopify://shop_images/Compte_a_Rebours_1200_x_400_px_1200_x_500_px.png",
         "image_size": "auto",
         "subheading": "",
-        "title": "FIN FESTILITRE",
+        "title": "<strong>FIN FESTILITRE</strong>",
         "content": "",
         "button_link": "shopify://collections/festilitre",
         "button_text": "",
@@ -204,10 +203,10 @@
         "timer_position": "end",
         "animate_number": true,
         "flip_background": "",
-        "flip_background_opacity": 50,
+        "flip_background_opacity": 44,
         "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 25
       }
     },
     "custom_collection_list_Y6XW4j": {
