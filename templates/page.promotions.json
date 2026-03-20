@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_qtnB6q": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
             "promotion_title": "35% sur Matrix*",
