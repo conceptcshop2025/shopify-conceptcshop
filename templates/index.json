@@ -105,16 +105,16 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_QxKH3t": {
+        "image_with_text_NFaYwa": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Facing_site_Festilitre-2-2_1.webp",
-            "block_background": "#f8d2da",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>FESTILITRE</strong>",
+            "image": "shopify://shop_images/Mobile_35_off_Matrix_750_x_600_px.png",
+            "block_background": "#dfb1d3",
+            "text_block_background": "#000000",
+            "title": "<strong>35% SUR MATRIX*</strong>",
             "heading_tag": "h4",
-            "content": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosses économies! <em>*prend fin le 19 mars 23h59</em></p>",
-            "link_url": "shopify://collections/festilitre",
+            "content": "<p>Jusqu’au 30 mars à 23 h 59, profite de 35 % de rabais sur une sélection de produits Matrix !</p>",
+            "link_url": "shopify://collections/a-ne-pas-manquer",
             "link_text": "magasiner"
           }
         },
@@ -143,28 +143,13 @@
             "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_NFaYwa": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_35_off_Matrix_750_x_600_px.png",
-            "block_background": "#dfb1d3",
-            "text_block_background": "#000000",
-            "title": "<strong>35% SUR MATRIX*</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’au 30 mars à 23 h 59, profite de 35 % de rabais sur une sélection de produits Matrix !</p>",
-            "link_url": "shopify://collections/a-ne-pas-manquer",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_3LUanK",
-        "image_with_text_QxKH3t",
+        "image_with_text_NFaYwa",
         "image_with_text_Lt8DPB",
-        "image_with_text_nBDx6B",
-        "image_with_text_NFaYwa"
+        "image_with_text_nBDx6B"
       ],
       "name": "# Multi-column",
       "settings": {
@@ -530,7 +515,6 @@
         },
         "promotion_card_KWqFmF": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
             "promotion_title": "35% sur Matrix*",
