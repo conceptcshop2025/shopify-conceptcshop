@@ -207,7 +207,6 @@
         },
         "promotion_card_X79mcW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_4.png",
             "promotion_title": "Shu Uemura",
