@@ -23,6 +23,7 @@
       "blocks": {
         "promotion_card_qtnB6q": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
             "promotion_title": "Festilitre",
