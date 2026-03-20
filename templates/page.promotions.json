@@ -25,10 +25,10 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_5a467bee-d5ef-4069-87d6-c4f2a6bd6b30.webp",
-            "promotion_title": "Festilitre",
-            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies! <em>*prend fin le 19 mars 23h59</em><br/><br/><br/></p>",
-            "promotion_link": "shopify://collections/festilitre",
+            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
+            "promotion_title": "35% sur Matrix*",
+            "promotion_description": "<p>Du 20 au 30 mars, profitez de 35 % de rabais sur cette sélection de produits Matrix.</p>",
+            "promotion_link": "shopify://collections/a-ne-pas-manquer",
             "promotion_link_text": "Voir plus"
           }
         },
