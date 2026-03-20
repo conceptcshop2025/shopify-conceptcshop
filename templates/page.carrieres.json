@@ -13,12 +13,90 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
+      }
+    },
+    "custom_multi_column_KR7h4j": {
+      "type": "custom-multi-column",
+      "blocks": {
+        "image_with_text_xjwwxE": {
+          "type": "image_with_text",
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_RgmfDw": {
+          "type": "image_with_text",
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_VKz4dL": {
+          "type": "image_with_text",
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TEzapk": {
+          "type": "image_with_text",
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_xjwwxE",
+        "image_with_text_RgmfDw",
+        "image_with_text_VKz4dL",
+        "image_with_text_TEzapk"
+      ],
+      "name": "# Multi-column",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Multi-column",
+        "content": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "column_gap": 4
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_multi_column_KR7h4j"
   ]
 }
