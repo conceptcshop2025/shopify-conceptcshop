@@ -148,12 +148,12 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Lancement_Huile_Billion_Bond_Matrix_1.png",
-            "block_background": "#811f48",
+            "image": "shopify://shop_images/Mobile_35_off_Matrix_750_x_600_px.png",
+            "block_background": "#c9ddec",
             "text_block_background": "#ffffff",
-            "title": "<strong>HUILE BILLION BOND</strong>",
+            "title": "<strong>35% SUR MATRIX*</strong>",
             "heading_tag": "h4",
-            "content": "<p>L’huile réparatrice qui aide à renforcer la fibre, lisser les pointes et protéger jusqu’à 230 °C, sans effet gras! </p>",
+            "content": "<p>Jusqu’au 30 mars à 23 h 59, profite de 35 % de rabais sur une sélection de produits Matrix !</p>",
             "link_url": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
             "link_text": "magasiner"
           }
