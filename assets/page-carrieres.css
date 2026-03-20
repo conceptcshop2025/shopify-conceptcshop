@@ -1,0 +1,21 @@
+.image-with-text .prose .h2 {
+  color: rgb(228, 192, 174);
+  margin-bottom: 32px;
+}
+
+.multi-column .multi-column__item {
+  max-width: 350px;
+}
+
+.multi-column .multi-column__item img {
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .multi-column {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}

@@ -71,6 +71,10 @@
     {% render 'custom-meta-script' %}
 
     {% render 'rapid-search-settings' %}
+
+    {% if page.handle == 'carrieres' %}
+      {{- 'page-carrieres.css' | asset_url | stylesheet_tag -}}
+    {% endif %}
 </head>
 
   {% liquid
