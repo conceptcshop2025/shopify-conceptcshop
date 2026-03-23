@@ -35,7 +35,7 @@
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #f4623b; color: #000000;}"
+        ".collection-tags .tag.tag-collection {background: #f4623b; color: #ffffff;}"
       ],
       "name": "# Collection tags",
       "settings": {
