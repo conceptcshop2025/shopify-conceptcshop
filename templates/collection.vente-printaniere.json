@@ -31,6 +31,38 @@
         "overlay_opacity": 0
       }
     },
+    "faq_8FaQwK": {
+      "type": "faq",
+      "blocks": {
+        "question_AMGJYX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Termes et Conditions</strong>",
+            "answer": "<p><strong>Certaines gammes sont exclues du 20 % parce que la marque ne l’autorise pas. Voici les détails :</strong><br/></p><ul><li><a href=\"/collections/kerastase\" title=\"Kérastase\">Kérastase</a></li><li><a href=\"/collections/moroccanoil\" title=\"Moroccanoil\">Moroccanoil </a></li><li><a href=\"/collections/esthederm\" title=\"Esthederm\">Esthederm </a></li><li>Coola (offre 15% de rabais_</li><li><a href=\"https://conceptcshop.com/collections/coffre-a-outils-1\" title=\"https://conceptcshop.com/collections/coffre-a-outils-1\">Promo Outils (jusqu'à 40% de rabais déjà en vigueur)</a></li><li><a href=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\" title=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\">Steampod 4</a> et <a href=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\" title=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\">Airlight Pro</a> <br/><br/><em>*Les rabais / cadeaux de la Vente Printanière, incluant le 20%, s’appliquent automatiquement au panier, même sur l'onglet Soldes, Liquidation et Coffrets . </em><em><strong>À noter : Les codes promo sont jumelables avec d’autres offres, mais ne peuvent pas être cumulés entre eux.</strong></em></li></ul>"
+          }
+        },
+        "question_pGWHdb": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AMGJYX",
+        "question_pGWHdb"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
@@ -72,6 +104,7 @@
   },
   "order": [
     "collection-banner",
+    "faq_8FaQwK",
     "custom_collection_tags_DdQdc6",
     "main"
   ]
