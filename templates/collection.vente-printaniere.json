@@ -44,7 +44,7 @@
         "question_pGWHdb": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
+            "question": "<strong>Découvrir les cadeaux</strong>",
             "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         }
