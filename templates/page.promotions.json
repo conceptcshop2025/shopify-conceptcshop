@@ -384,9 +384,8 @@
         },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/13_13bfff46-2e80-4bd3-a830-f7ca9f39f6cf.webp",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_12bf8681-d495-4fd7-8752-c91ae18c4db3.png",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
             "promotion_link": "shopify://collections/shu-uemura",
