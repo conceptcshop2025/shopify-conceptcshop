@@ -463,6 +463,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_NkdzxJ": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_006c70f4-57b1-4a69-8ef2-f36acff962a5.png",
+            "promotion_title": "Lernberger & Stafsing",
+            "promotion_description": "<p>Nouveau! Du 26 au 30 mars, obtenez 20 % de rabais sur la gamme. <em>Rabais automatiquement appliqué à la caisse.</em></p>",
+            "promotion_link": "shopify://collections/lernberger-stafsing-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_X67QHk": {
           "type": "promotion_card",
           "settings": {
@@ -532,6 +543,7 @@
         "promotion_card_acpmHk",
         "promotion_card_Jiyfhk",
         "promotion_card_KXzYDt",
+        "promotion_card_NkdzxJ",
         "promotion_card_X67QHk",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
