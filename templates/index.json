@@ -47,8 +47,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Vente_Printaniere_2026.png",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Boxing_Day_2025_750_x_600_px.webp",
+            "image": "shopify://shop_images/Slider_Principal_Vente_Printaniere_2026_4bbfec81-9496-4ed2-95ab-0685f79ae952.png",
+            "mobile_image": "shopify://shop_images/V2_Mobile_Vente_Printaniere_2026_750_x_400_px.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
