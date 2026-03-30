@@ -394,116 +394,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_r8q9UW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
-            "promotion_title": "Découvrez Acidic Grow Full",
-            "promotion_description": "<p>La gamme qui renforce les cheveux et les rend visiblement plus denses! Profitez jusqu’à 25 % de rabais, en plus de recevoir une brosse capillaire gratuite à l’achat de 50 $.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_tkP8nH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_2.png",
-            "promotion_title": "20 à 30% de rabais sur les formats jumbo!",
-            "promotion_description": "<p>Jusqu'au 30 mars, obtenez jusqu'à 30% de rabais sur les formats jumbo Living Proof!</p>",
-            "promotion_link": "shopify://collections/promo-living-proof",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_UbccKe": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_fd3f5bf7-32f6-4e05-884a-6326953ab31a.png",
-            "promotion_title": "40% sur Evo",
-            "promotion_description": "<p>Jusqu’au 30 mars, profitez de 40 % de rabais sur la gamme Evo ! <em>Exclut les formats litre.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_txV4dN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_0308d9b4-ca06-452e-8a33-7d4a9269e26c.png",
-            "promotion_title": "15% sur la cure réactionnelle",
-            "promotion_description": "<p>Jusqu’au 30 mars, obtenez 15 % de rabais sur la cure réactionnelle contre la perte de cheveux René Furterer!</p>",
-            "promotion_link": "shopify://products/rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_acpmHk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_c5e40ea6-c5f0-4a96-9371-0bc9e33a189a.png",
-            "promotion_title": "Découvrez Fibre Clinix!",
-            "promotion_description": "<p>Plus de 35 % de rabais sur Fibre Clinix pour une réparation intense avec la technologie BONDXTEND!</p>",
-            "promotion_link": "shopify://collections/offre-en-cours",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Jiyfhk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_ab83a35a-166d-430b-ba73-1db0b2281bf0.png",
-            "promotion_title": "Nouveautés Chronologiste de Kérastase",
-            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_KXzYDt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_274c778c-860e-48c0-a921-8183abbe6774.png",
-            "promotion_title": "15% coiffants Shu Uemura",
-            "promotion_description": "<p>Jusqu’au 30 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_NkdzxJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_006c70f4-57b1-4a69-8ef2-f36acff962a5.png",
-            "promotion_title": "Lernberger Stafsing",
-            "promotion_description": "<p>Nouveau! Du 26 au 30 mars, obtenez 20 % de rabais sur la gamme LS. <em>Rabais automatiquement appliqué à la caisse.</em></p>",
-            "promotion_link": "shopify://collections/lernberger-stafsing-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_X67QHk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/12_5755bd9d-9cb9-43c0-8960-e80fe4c031a6.png",
-            "promotion_title": "Promo Pureology Hydrate & Strength Cure",
-            "promotion_description": "<p>Jusqu’au 30 mars, obtenez 30 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/litres-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_80cdbea2-f936-41cd-ba62-e37e003c9281.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_McHmfD": {
           "type": "promotion_card",
           "settings": {
@@ -533,23 +423,34 @@
             "promotion_link": "shopify://collections/a-ne-pas-manquer",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/8_51628b53-21da-455b-8542-2026e023362d.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/18_4b865943-73cf-4315-91e0-b0c5c497d9c6.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
-        "promotion_card_r8q9UW",
-        "promotion_card_tkP8nH",
-        "promotion_card_UbccKe",
-        "promotion_card_txV4dN",
-        "promotion_card_acpmHk",
-        "promotion_card_Jiyfhk",
-        "promotion_card_KXzYDt",
-        "promotion_card_NkdzxJ",
-        "promotion_card_X67QHk",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
         "promotion_card_McHmfD",
         "promotion_card_fVi4LR",
-        "promotion_card_KWqFmF"
+        "promotion_card_KWqFmF",
+        "promotion_card_A9aVXj",
+        "promotion_card_BPnVjf"
       ],
       "name": "# Promotions list",
       "settings": {
