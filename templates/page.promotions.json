@@ -144,7 +144,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
+            "promotion_image": "shopify://shop_images/8_51628b53-21da-455b-8542-2026e023362d.png",
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.</p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -246,6 +246,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_6HAEyK": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_title": "Chronologiste de Kérastase",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_eA8iqg": {
           "type": "promotion_card",
           "settings": {
@@ -285,6 +295,7 @@
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_hfDNFW",
+        "promotion_card_6HAEyK",
         "promotion_card_eA8iqg",
         "promotion_card_L9FdV8",
         "promotion_card_rhVDjF"
