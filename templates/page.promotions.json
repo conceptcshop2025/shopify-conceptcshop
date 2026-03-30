@@ -196,20 +196,10 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_cUyjRa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026.png",
-            "promotion_title": "Un parfum à essayer!",
-            "promotion_description": "<p>À l’achat d’un masque Pureology Hydrate ou Strength Cure ou du Glow Catcher, recevez gratuitement le parfum Love Luster 15 ml! <em>*maximum d'un parfum par commande</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_z8nzEW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3_c73e1a4a-e9d8-4c26-a6a7-0267361c6d07.png",
+            "promotion_image": "shopify://shop_images/4_34f4a786-2d0f-4f78-9479-2b4616cfdf83.png",
             "promotion_title": "Nouveautés Gloss Absolu!",
             "promotion_description": "<p>Jusqu'au 1er avril, à l’achat de 2 produits Kérastase format régulier Gloss Absolu, obtenez gratuitement une crème Frizz-Glaze de 30 ml!</p>",
             "promotion_link": "shopify://collections/offre-kerastase",
@@ -219,7 +209,7 @@
         "promotion_card_X79mcW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_4.png",
+            "promotion_image": "shopify://shop_images/7_8805f6c4-3fe2-40b5-abe6-351f2ded1ff9.png",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p>Jusqu'au 13 avril, à l’achat de 95 $ de produits Shu Uemura en format régulier, recevez un format voyage du sérum de nuit Essence Absolue!</p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -229,7 +219,7 @@
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_883e27a3-841f-494a-aad8-269dada6fa99.png",
+            "promotion_image": "shopify://shop_images/6_bf9d8e58-cb6d-4fb0-ad2a-1dbf4b36a9d0.png",
             "promotion_title": "Parfum d'ambiance Kérastase",
             "promotion_description": "<p>À l’achat de 3 produits Kérastase format régulier, obtenez gratuitement un format voyage! </p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
@@ -239,40 +229,30 @@
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11_d2114497-d2c6-4ce4-84cc-4072d7b097de.png",
+            "promotion_image": "shopify://shop_images/10_1f87e122-2f0e-4643-a265-6c7943f65aa8.png",
             "promotion_title": "Essentiels Esthederm",
             "promotion_description": "<p>À l'achat de 149$ de produits Esthederm, obtiens gratuitement une trousse d'essentiels formats voyage! <em>*avant tx et code promo. </em></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_LgNW4P": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_8c3178c8-1a00-46d6-813b-fc5f85ceeb23.png",
-            "promotion_title": "Balmain",
-            "promotion_description": "<p>À l’achat d’un produit format régulier Balmain, recevez en cadeau le Spray Protecteur Solaire! <em>*maximum d'un cadeau par commande</em></p>",
-            "promotion_link": "shopify://collections/promo-35",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/21_7b05feea-7922-4e53-b548-203ea43b615c.png",
+            "promotion_image": "shopify://shop_images/13_841f5105-c2b8-4ea2-8f06-cbece4d9843c.png",
             "promotion_title": "Moroccanoil",
             "promotion_description": "<p>À l’achat de 85$ de produits Moroccanoil, obtiens gratuitement une brume ultra-légère - 5 ml! * avant tx et code promo</p>",
             "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_VpL8my": {
+        "promotion_card_eA8iqg": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/17_f668c15f-884b-4e22-9934-4afb2011e1a3.png",
-            "promotion_title": "Esthederm",
-            "promotion_description": "<p>À l'achat de 50$ de produits Esthederm, obtiens gratuitement un sérum anti-âge 5ml! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
+            "promotion_image": "shopify://shop_images/11_ebef7699-6f75-44f9-b2c4-49a62b017818.png",
+            "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
+            "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
+            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -284,26 +264,6 @@
             "promotion_title": "Oribe",
             "promotion_description": "<p>À l'achat de 125$ de produits Oribe, obtiens gratuitement une mini trousse santé des cheveux! <em>*avant tx et code promo</em></p>",
             "promotion_link": "shopify://collections/oribe",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kRxtHU": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1.png",
-            "promotion_title": "Iles Formula",
-            "promotion_description": "<p>Jusqu'au 30 mars 23h59, à l’achat de 70 $ de produits Iles Formula, recevez gratuitement un Kit de Voyage! <em>*Exclusivité Web. Avant tx et code promo.</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/iles-formula",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_eA8iqg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/23.png",
-            "promotion_title": "Nouvelle huile Ultimate Reset de Shu Uemura",
-            "promotion_description": "<p>Jusqu'au 31 mars, à l’achat de 2 produits Ultime Reset format régulier, recevez un parfum d’ambiance en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-du-moment-shu-uemura",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -320,17 +280,13 @@
         }
       },
       "block_order": [
-        "promotion_card_cUyjRa",
         "promotion_card_z8nzEW",
         "promotion_card_X79mcW",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
-        "promotion_card_LgNW4P",
         "promotion_card_hfDNFW",
-        "promotion_card_VpL8my",
-        "promotion_card_L9FdV8",
-        "promotion_card_kRxtHU",
         "promotion_card_eA8iqg",
+        "promotion_card_L9FdV8",
         "promotion_card_rhVDjF"
       ],
       "name": "# Promotions list",
