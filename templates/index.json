@@ -45,10 +45,9 @@
       "blocks": {
         "image_m9i4GY": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Slider_Principal_Vente_Printaniere_2026_9e426645-8efe-43e1-b6de-1775024b061d.png",
-            "mobile_image": "shopify://shop_images/V2_Mobile_Vente_Printaniere_2026_750_x_400_px_898ff3a1-a857-4a6e-9275-57b9a9ecd917.png",
+            "image": "shopify://shop_images/Slider_Principal_Vente_Printaniere_2026_4bbfec81-9496-4ed2-95ab-0685f79ae952.png",
+            "mobile_image": "shopify://shop_images/V2_Mobile_Vente_Printaniere_2026_750_x_400_px.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -75,7 +74,6 @@
       "block_order": [
         "image_m9i4GY"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -152,6 +150,7 @@
         "image_with_text_Lt8DPB",
         "image_with_text_nBDx6B"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
