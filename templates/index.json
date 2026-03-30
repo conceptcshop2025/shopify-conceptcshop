@@ -423,6 +423,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Lg7cQV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_29419d1e-4a8f-4929-a063-f80cd80e9612.png",
+            "promotion_title": "Vente du Printemps!",
+            "promotion_description": "<p>Du 2 au 13 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/vente-printaniere",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -448,6 +458,7 @@
         "promotion_card_McHmfD",
         "promotion_card_fVi4LR",
         "promotion_card_KWqFmF",
+        "promotion_card_Lg7cQV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf"
       ],
