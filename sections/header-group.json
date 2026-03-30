@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_nxeyrq": {
+          "type": "message",
+          "settings": {
+            "text": "2 au 13 avril - Vente du Printemps - 20% sur presque tout!"
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -22,6 +28,7 @@
         }
       },
       "block_order": [
+        "message_nxeyrq",
         "message-1"
       ],
       "settings": {
