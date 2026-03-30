@@ -146,7 +146,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
             "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p><strong>20 % de rabais</strong> sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*Prix déjà réduits</em><br/><br/></p>",
+            "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.</p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
@@ -154,9 +154,9 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_80cdbea2-f936-41cd-ba62-e37e003c9281.png",
+            "promotion_image": "shopify://shop_images/18_4b865943-73cf-4315-91e0-b0c5c497d9c6.png",
             "promotion_title": "Liquidation",
-            "promotion_description": "<p><strong>TOUT</strong> à 50% de rabais!</p>",
+            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus"
           }
