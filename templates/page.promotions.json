@@ -366,7 +366,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/16_31490ade-571a-4128-b06d-05ed301048c5.png",
             "promotion_title": "René Furterer",
-            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit René Furterer.*maximum de 1 par commande.</p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. Maximum de 1 par commande. Jusqu’à épuisement des stocks.</p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
@@ -376,7 +376,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/15_6f24f34e-6d74-47bf-842e-d1369e19d9ae.png",
             "promotion_title": "Shu Uemura",
-            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Shu Uemura.*maximum de 1 par commande.</p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. Maximum de 1 par commande. Jusqu’à épuisement des stocks.</p>",
             "promotion_link": "shopify://collections/shu-uemura",
             "promotion_link_text": "Voir plus"
           }
