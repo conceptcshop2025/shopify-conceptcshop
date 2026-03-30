@@ -474,8 +474,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -583,7 +583,7 @@
       ],
       "name": "# Collection bullet list",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-b5081b04-108b-4d59-b912-9c3fc6b86fc0",
         "section_title": "Magasinez par catégorie",
         "section_title_alignment": "center",
         "padding_top": 20,
