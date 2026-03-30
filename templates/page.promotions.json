@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_pMykUn": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/2_29419d1e-4a8f-4929-a063-f80cd80e9612.png",
             "promotion_title": "Vente du Printemps!",
