@@ -31,6 +31,17 @@
             "promotion_link_text": "Voir les détails"
           }
         },
+        "promotion_card_qHnALT": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2.png",
+            "promotion_title": "Ensemble découverte gratuit!",
+            "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 13 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
+            "promotion_link": "shopify://products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_qtnB6q": {
           "type": "promotion_card",
           "settings": {
@@ -84,6 +95,7 @@
       },
       "block_order": [
         "promotion_card_pMykUn",
+        "promotion_card_qHnALT",
         "promotion_card_qtnB6q",
         "promotion_card_LqYqPc",
         "promotion_card_zDQPUa",
