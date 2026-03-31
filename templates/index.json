@@ -403,26 +403,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_fVi4LR": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
-            "promotion_title": "Volume.Brillance.Tenue.",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_KWqFmF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
-            "promotion_title": "35% sur Matrix*",
-            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
-            "promotion_link": "shopify://collections/a-ne-pas-manquer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_7TebqV": {
           "type": "promotion_card",
           "disabled": true,
@@ -463,16 +443,26 @@
             "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_fVi4LR": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
+            "promotion_title": "Volume.Brillance.Tenue.",
+            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_McHmfD",
-        "promotion_card_fVi4LR",
-        "promotion_card_KWqFmF",
         "promotion_card_7TebqV",
         "promotion_card_Lg7cQV",
         "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf"
+        "promotion_card_BPnVjf",
+        "promotion_card_fVi4LR"
       ],
       "name": "# Promotions list",
       "settings": {
