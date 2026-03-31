@@ -33,7 +33,6 @@
         },
         "promotion_card_qHnALT": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2.png",
             "promotion_title": "Ensemble découverte gratuit!",
