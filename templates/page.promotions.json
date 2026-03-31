@@ -42,16 +42,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_qtnB6q": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
-            "promotion_title": "35% sur Matrix*",
-            "promotion_description": "<p>Du 20 au 30 mars, profitez de 35 % de rabais sur cette sélection de produits Matrix.</p>",
-            "promotion_link": "shopify://collections/a-ne-pas-manquer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_LqYqPc": {
           "type": "promotion_card",
           "settings": {
@@ -59,16 +49,6 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, Steampod, CHI et Avanti.</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_zDQPUa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
-            "promotion_title": "Volume.Tenue.Brillance.",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques. </p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -91,16 +71,26 @@
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_zDQPUa": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
+            "promotion_title": "Volume.Tenue.Brillance.",
+            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques. </p>",
+            "promotion_link": "shopify://collections/promo-du-moment",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_pMykUn",
         "promotion_card_qHnALT",
-        "promotion_card_qtnB6q",
         "promotion_card_LqYqPc",
-        "promotion_card_zDQPUa",
         "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz"
+        "promotion_card_W7BpWz",
+        "promotion_card_zDQPUa"
       ],
       "name": "# Promotions list",
       "settings": {
