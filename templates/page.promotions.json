@@ -131,6 +131,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_dFGrUi": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_d3628a6e-bb50-472b-8014-73bd09c848f4.png",
+            "promotion_title": "Nouveauté & Icône",
+            "promotion_description": "<p>À l’achat d’un sérum de nuit Nutritive format régulier, obtenez gratuitement un format deluxe de la crème Frizz-Glaze. <em>Offre valide jusqu’au 13 avril à 23 h 59 ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/kerastase-serum-8hmns-nutritive-90-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_X79mcW": {
           "type": "promotion_card",
           "settings": {
@@ -216,6 +226,7 @@
       },
       "block_order": [
         "promotion_card_z8nzEW",
+        "promotion_card_dFGrUi",
         "promotion_card_X79mcW",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
