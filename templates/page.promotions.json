@@ -141,11 +141,10 @@
         },
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/10_1f87e122-2f0e-4643-a265-6c7943f65aa8.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_955e8710-a1dd-4c8e-a10c-ef26a13afec3.png",
             "promotion_title": "Essentiels Esthederm",
-            "promotion_description": "<p>À l’achat de 149 $ de produits Esthederm en format régulier (avant taxes et codes promo), recevez une trousse d’essentiels en formats voyage. <em>Limite de 1 par commande. Jusqu’au 31 mars ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>À l’achat d’un sérum Age Proteom pour le visage ou les yeux, obtenez gratuitement un format deluxe du sérum pour le visage. <em>Limite de 1 par commande. Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
