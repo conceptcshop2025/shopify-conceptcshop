@@ -141,6 +141,7 @@
         },
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/10_1f87e122-2f0e-4643-a265-6c7943f65aa8.png",
             "promotion_title": "Essentiels Esthederm",
