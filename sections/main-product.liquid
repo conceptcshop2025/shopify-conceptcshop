@@ -47,6 +47,7 @@
 {%- capture product_form_id -%}product-form-main-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+  {% render 'breadcrumb', product: product %}
   <div class="container {% unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
     <product-rerender id="product-info-{{ product.id }}-{{ section.id }}" observe-form="{{ product_form_id }}" allow-partial-rerender>
       <div class="product">
@@ -194,6 +195,20 @@ quick buy information in a template, that will be extracted in JS, which ensures
   } catch (e) {
     // Safari in private mode does not allow setting item, we silently fail
   }
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const collectionOrigin = new URLSearchParams(window.location.search).get('collection-origin');
+    const collectionUrl = new URLSearchParams(window.location.search).get('collection-url');
+
+    if (collectionOrigin) {
+      document.querySelector('.collection-item-breadcrumb').textContent = collectionOrigin;
+      if (collectionUrl) {
+        document.querySelector('.collection-item-breadcrumb').setAttribute('href', collectionUrl);
+      }
+    }
+  });
 </script>
 
 {% schema %}
