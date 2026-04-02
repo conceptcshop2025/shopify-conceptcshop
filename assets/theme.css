@@ -8009,3 +8009,34 @@ ul {
     padding-top: 30px;
   }
 }
+
+/* Breadcrumb PDP */
+
+.breadcrumb-pdp {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 2;
+  inset-block-start: initial;
+  inset-inline-start: initial;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.breadcrumb-pdp .breadcrumb__list {
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1000px) {
+  .breadcrumb-pdp {
+    padding: 0 48px;
+    max-width: var(--container-lg-max-width);
+    margin: 0 auto 10px auto;
+  }
+}
+
+@media (min-width: 1370px) {
+  .breadcrumb-pdp {
+    padding: 0;
+  }
+}
