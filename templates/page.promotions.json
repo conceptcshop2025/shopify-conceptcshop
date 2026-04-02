@@ -71,6 +71,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_nXytEh": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d1d431ba-80cb-4a0f-a5af-18a827bf6b2a.png",
+            "promotion_title": "Célébrez le mois de la terre!",
+            "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml. <em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em><br/></p>",
+            "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_zDQPUa": {
           "type": "promotion_card",
           "disabled": true,
@@ -89,6 +100,7 @@
         "promotion_card_LqYqPc",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
+        "promotion_card_nXytEh",
         "promotion_card_zDQPUa"
       ],
       "name": "# Promotions list",
@@ -109,13 +121,13 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_z8nzEW": {
+        "promotion_card_dFGrUi": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_34f4a786-2d0f-4f78-9479-2b4616cfdf83.png",
-            "promotion_title": "Nouveautés Gloss Absolu!",
-            "promotion_description": "<p>À l’achat de 2 produits Kérastase Gloss Absolu en format régulier, obtenez gratuitement une crème Frizz-Glaze de 30 ml. <em>Offre valide jusqu’au 1er avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/offre-kerastase",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_d3628a6e-bb50-472b-8014-73bd09c848f4.png",
+            "promotion_title": "Nouveauté & Icône",
+            "promotion_description": "<p>À l’achat d’un sérum de nuit Nutritive format régulier, obtenez gratuitement un format deluxe de la crème Frizz-Glaze. <em>Offre valide jusqu’au 13 avril à 23 h 59 ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/kerastase-serum-8hmns-nutritive-90-ml",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -169,16 +181,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_6HAEyK": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1.png",
-            "promotion_title": "Chronologiste de Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits en format régulier, recevez un Bain Chronologiste en format voyage. <em>Offre valide jusqu’au 1er avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
           "disabled": true,
@@ -203,13 +205,12 @@
         }
       },
       "block_order": [
-        "promotion_card_z8nzEW",
+        "promotion_card_dFGrUi",
         "promotion_card_X79mcW",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_GTXk6b",
         "promotion_card_hfDNFW",
-        "promotion_card_6HAEyK",
         "promotion_card_L9FdV8",
         "promotion_card_rhVDjF"
       ],
