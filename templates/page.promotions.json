@@ -181,16 +181,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_6HAEyK": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1.png",
-            "promotion_title": "Chronologiste de Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits en format régulier, recevez un Bain Chronologiste en format voyage. <em>Offre valide jusqu’au 1er avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_L9FdV8": {
           "type": "promotion_card",
           "disabled": true,
@@ -221,7 +211,6 @@
         "promotion_card_g7JEaM",
         "promotion_card_GTXk6b",
         "promotion_card_hfDNFW",
-        "promotion_card_6HAEyK",
         "promotion_card_L9FdV8",
         "promotion_card_rhVDjF"
       ],
