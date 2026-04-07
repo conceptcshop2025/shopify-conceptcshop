@@ -16,8 +16,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "image": "shopify://shop_images/Desk_Haut_Collection_Promo_Outils_VTB_a98064e7-cb86-445b-9be6-053eb36662af.png",
-        "mobile_image": "shopify://shop_images/Mobile_Haut_Collection_Promo_Outils_VTB_1.png",
+        "image": "shopify://shop_images/Desk_Haut_Collection_Promo_Outils_VTB_957c0951-441f-4836-a03c-688fdbe9d652.png",
+        "mobile_image": "shopify://shop_images/Mobile_Haut_Collection_Promo_Outils_VTB_245850a0-f235-4bc6-8343-d9640759fa71.png",
         "image_size": "auto",
         "allow_transparent_header": false,
         "show_image": true,
@@ -34,7 +34,7 @@
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #f5f3d0;}"
+        ".collection-tags .tag.tag-collection {background: #a3acb7;}"
       ],
       "name": "# Collection tags",
       "settings": {
