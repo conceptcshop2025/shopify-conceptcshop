@@ -107,13 +107,13 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Mobile_35_off_Matrix_750_x_600_px.png",
+            "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
             "block_background": "#dfb1d3",
             "text_block_background": "#000000",
-            "title": "<strong>35% SUR MATRIX*</strong>",
+            "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
-            "content": "<p>Jusqu’au 30 mars à 23 h 59, profite de 35 % de rabais sur une sélection de produits Matrix !</p>",
-            "link_url": "shopify://collections/a-ne-pas-manquer",
+            "content": "<p>Jusqu’au 16 avril, profite d’un extra 20 % de rabais sur les soldes, la liquidation, les coffrets et tes marques préférées ! <em>Tous les détails ici! </em></p>",
+            "link_url": "shopify://collections/vente-printaniere",
             "link_text": "magasiner"
           }
         },
