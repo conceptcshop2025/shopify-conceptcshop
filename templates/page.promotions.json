@@ -26,9 +26,19 @@
           "settings": {
             "promotion_image": "shopify://shop_images/2_29419d1e-4a8f-4929-a063-f80cd80e9612.png",
             "promotion_title": "Vente du Printemps!",
-            "promotion_description": "<p>Du 2 au 13 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
+            "promotion_description": "<p>Du 2 au 16 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
             "promotion_link": "shopify://collections/vente-printaniere",
             "promotion_link_text": "Voir les détails"
+          }
+        },
+        "promotion_card_LqYqPc": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3d8039a7-d725-4b3e-8834-2db12b815a2f.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, Steampod, CHI et Avanti.</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_qHnALT": {
@@ -36,18 +46,8 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2.png",
             "promotion_title": "Ensemble découverte gratuit!",
-            "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 13 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
+            "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 16 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
             "promotion_link": "shopify://products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_LqYqPc": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_e2845d9c-0f3c-4148-990d-f08f0fecaeeb.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, Steampod, CHI et Avanti.</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -95,8 +95,8 @@
       },
       "block_order": [
         "promotion_card_pMykUn",
-        "promotion_card_qHnALT",
         "promotion_card_LqYqPc",
+        "promotion_card_qHnALT",
         "promotion_card_nXytEh",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
