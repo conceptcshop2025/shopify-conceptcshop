@@ -94,8 +94,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
-            "block_background": "#d96c43",
-            "text_block_background": "#000000",
+            "block_background": "#c45834",
+            "text_block_background": "#ffffff",
             "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’au 16 avril, profite d’un <strong>extra 20 %</strong> de rabais sur les soldes, la liquidation, les coffrets et tes marques préférées ! <em>Tous les détails ici</em></p>",
