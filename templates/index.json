@@ -393,24 +393,14 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_McHmfD": {
+        "promotion_card_BJmxLb": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_e2845d9c-0f3c-4148-990d-f08f0fecaeeb.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_0b53235d-8326-45e6-9b4d-27c1f293c51d.png",
+            "promotion_title": "Célébrez le mois de la terre!",
+            "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml.<em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
             "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Lg7cQV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_93f046af-013b-48a0-88d2-0660c411a7e0.png",
-            "promotion_title": "Vente du Printemps!",
-            "promotion_description": "<p>Du 2 au 16 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/vente-printaniere",
-            "promotion_link_text": "Voir les détails"
           }
         },
         "promotion_card_7TebqV": {
@@ -420,16 +410,6 @@
             "promotion_title": "Ensemble découverte gratuit!",
             "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 16 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
             "promotion_link": "shopify://products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BJmxLb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_0b53235d-8326-45e6-9b4d-27c1f293c51d.png",
-            "promotion_title": "Célébrez le mois de la terre!",
-            "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml.<em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -453,6 +433,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Lg7cQV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_93f046af-013b-48a0-88d2-0660c411a7e0.png",
+            "promotion_title": "Vente du Printemps!",
+            "promotion_description": "<p>Du 2 au 16 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/vente-printaniere",
+            "promotion_link_text": "Voir les détails"
+          }
+        },
+        "promotion_card_McHmfD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3d8039a7-d725-4b3e-8834-2db12b815a2f.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fVi4LR": {
           "type": "promotion_card",
           "disabled": true,
@@ -466,12 +466,12 @@
         }
       },
       "block_order": [
-        "promotion_card_McHmfD",
-        "promotion_card_Lg7cQV",
-        "promotion_card_7TebqV",
         "promotion_card_BJmxLb",
+        "promotion_card_7TebqV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
+        "promotion_card_Lg7cQV",
+        "promotion_card_McHmfD",
         "promotion_card_fVi4LR"
       ],
       "name": "# Promotions list",
