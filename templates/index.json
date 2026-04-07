@@ -90,25 +90,11 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
-            "block_background": "#003936",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LANCEMENT REDKEN</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses!</p>",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
-            "block_background": "#dfb1d3",
+            "block_background": "#ecba9e",
             "text_block_background": "#000000",
             "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
@@ -130,8 +116,22 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_3LUanK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
+            "block_background": "#003936",
+            "text_block_background": "#ffffff",
+            "title": "<strong>LANCEMENT REDKEN</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement plus denses!</p>",
+            "link_url": "shopify://collections/promo-du-moment-1",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_nBDx6B": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_VBT_Mars_2026.png",
             "block_background": "#c7b0cc",
@@ -145,9 +145,9 @@
         }
       },
       "block_order": [
-        "image_with_text_3LUanK",
         "image_with_text_NFaYwa",
         "image_with_text_Lt8DPB",
+        "image_with_text_3LUanK",
         "image_with_text_nBDx6B"
       ],
       "disabled": true,
