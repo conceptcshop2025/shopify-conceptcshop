@@ -94,7 +94,7 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
-            "block_background": "#ecba9e",
+            "block_background": "#d96c43",
             "text_block_background": "#000000",
             "title": "<strong>20% DE RABAIS!</strong>",
             "heading_tag": "h4",
