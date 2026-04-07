@@ -92,7 +92,6 @@
       "blocks": {
         "image_with_text_3LUanK": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
             "block_background": "#003936",
@@ -106,6 +105,7 @@
         },
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mobile_35_off_Matrix_750_x_600_px.png",
             "block_background": "#dfb1d3",
@@ -120,9 +120,9 @@
         "image_with_text_Lt8DPB": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026.png",
-            "block_background": "#f4e3ad",
-            "text_block_background": "#1c1c1c",
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_1.png",
+            "block_background": "#444b53",
+            "text_block_background": "#ffffff",
             "title": "<strong>PROMO OUTILS</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
