@@ -11,14 +11,13 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
         ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
       ],
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "image": "shopify://shop_images/Desk_Haut_Collection_Promo_Outils_VTB_1a3b3bf9-f832-4b8b-8efc-8ee89e938745.png",
-        "mobile_image": "shopify://shop_images/Mobile_Haut_Collection_Promo_Outils_VTB_3.png",
+        "color_scheme": "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244",
+        "image": "shopify://shop_images/Desk_Haut_Collection_Vente_Printaniere_55b20a7c-5d0c-4e7b-8c67-2640fb3e53e9.png",
+        "mobile_image": "shopify://shop_images/Mobile_Haut_de_Collection_Vente_Printaniere_2026_750_x_300_px.png",
         "image_size": "auto",
         "allow_transparent_header": false,
         "show_image": true,
@@ -32,10 +31,42 @@
         "overlay_opacity": 0
       }
     },
+    "faq_8FaQwK": {
+      "type": "faq",
+      "blocks": {
+        "question_AMGJYX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Termes et Conditions</strong>",
+            "answer": "<p><strong>La vente a lieu du 2 avril à 8 h au 13 avril à 23 h 59. Certaines gammes sont exclues du 20 %, la marque ne l’autorisant pas. Voici les détails :</strong><br/></p><ul><li><a href=\"/collections/kerastase\" title=\"Kérastase\">Kérastase </a></li></ul><p>▫️<a href=\"/collections/recharge-500-ml-kerastase\" title=\"Mois de la terre chez Kérastase!\">15 % de rabais sur les recharges bains et huiles & les bains 500 ml</a><br/>▫️<a href=\"/products/kerastase-serum-8hmns-nutritive-90-ml\" title=\"Kérastase. Nutritive Sérum de Nuit 8h Magic - 90 ml\">Deluxe Gloss Absolu gratuit à l'achat du sérum de nuit Nutritive!</a></p><ul><li><a href=\"/collections/moroccanoil\" title=\"Moroccanoil\">Moroccanoil </a></li><li><a href=\"/collections/esthederm\" title=\"Esthederm\">Esthederm </a></li><li><a href=\"/collections/coola\" title=\"COOLA\">Coola (offre 15% de rabais)</a></li><li><a href=\"https://conceptcshop.com/collections/coffre-a-outils-1\" title=\"https://conceptcshop.com/collections/coffre-a-outils-1\">Promo Outils (jusqu'à 40% de rabais déjà en vigueur)</a></li><li><a href=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\" title=\"https://conceptcshop.com/products/loreal-fer-plat-a-vapeur-steampod-4-0\">Steampod 4</a> et <a href=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\" title=\"https://conceptcshop.com/products/loreal-sechoir-airlight-pro\">Airlight Pro</a> </li><li><a href=\"/products/nuda-creme-bronzante-instantanee-pour-le-corps-glow-melt-130-ml\" title=\"Nuda. Crème Bronzante Instantanée pour le Corps GlowMelt - 130 ml\">Glowmelt </a>et <a href=\"/products/nuda-lait-autobronzant-graduel-silk-milk-240-ml\" title=\"Nuda. Lait Autobronzant Graduel Silk Milk - 240 ml\">SilkMilk</a> de Nuda. <br/><br/><em>* </em>Les rabais et cadeaux de la Vente Printanière, incluant le 20 %, s’appliquent automatiquement au panier, y compris dans les sections Soldes, Liquidation et Coffrets. <strong>Les codes promo peuvent être jumelés à d’autres offres, mais ne sont pas cumulables entre eux.</strong><br/><br/></li></ul>"
+          }
+        },
+        "question_pGWHdb": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Découvrir les cadeaux</strong>",
+            "answer": "<p>Du <strong>2 au 13 avril</strong>, cours la chance de gagner un cadeau gratuit avec ta commande! <em><strong>*exclusivité web</strong></em></p><p><strong>250 cadeaux avec achat , pour une valeur totale de plus de 6 000 $!</strong></p><ul><li><a href=\"/products/davines-shampoing-de-beaute-absolue-oi-280-ml\" title=\"Davines. Shampoing de Beauté Absolue OI - 280 ml\">50 X Davines. Shampoing de Beauté Absolue OI - 50 ml</a> <br/>(renvoi au format 280 ml à titre indicatif)</li><li><a href=\"/products/loreal-serie-expert-lp-se-arm-shp-300ml-r-vi61\" title=\"L'Oréal. Série Expert Shampoing Absolut Repair Molecular - 300 ml\">24 X L'Oréal. Série Expert Shampoing Absolut Repair Molecular 300 ml</a></li><li><a href=\"/products/kerastase-gloss-absolu-frizz-glaze-cream-250-ml\" title=\"Kérastase. Gloss Absolu Frizz-Glaze Cream - 240 ml\">12 X  Kérastase. Gloss Absolu Frizz-Glaze Cream - 240 ml</a></li><li><a href=\"/products/kerastase-serum-fortifiant-extentioniste-50-ml\" title=\"Kérastase. Resistance Sérum Extentioniste - 50 ml\">5 X Kérastase. Resistance Sérum extentioniste - 50 ml</a></li><li><a href=\"/products/kerastase-gloss-absolu-duo-parfum-et-huile\" title=\"Kérastase. Gloss Absolu Duo - Le Parfum et Huile Glaze Drops\">Kérastase. Gloss Absolu Duo - Le Parfum et Huile Glaze Drops</a></li><li><a href=\"/products/schwarzkopf-spray-baume-couleur-fibre-clinix-200-ml\" title=\"Schwarzkopf. Spray-Baume Couleur Fibre Clinix - 200 ml\">12  X Schwarzkopf. Spray-Baume Couleur Fibre Clinix - 200 ml</a></li><li><a href=\"/products/shu-uemura-serum-de-nuit-nourrissant-petit-format\" title=\"Shu Uemura. Sérum de Nuit Nourrissant Essence Absolue - 30 ml\">24 X Shu Uemura. Sérum de Nuit Nourrissant Essence Absolue - 30 ml</a></li><li><a href=\"/products/schwarzkopf-osis-serum-brillance-anti-frisottis-glow-50-ml\" title=\"Schwarzkopf. Osis+ Sérum Brillance Anti-Frisottis Glow - 50 ml\">40 X Schwarzkopf. Osis+ Sérum Brillance Anti-Frisottis Glow - 50 ml</a></li><li><a href=\"/products/schwarzkopf-revitalisant-sans-rincage-bonacure-moisture-kick-50-ml\" title=\"Schwarzkopf. Revitalisant Sans-Rinçage Bonacure Moisture Kick - 50 ml\">72 X Schwarzkopf. Revitalisant Sans-Rinçage Bonacure Moisture Kick - 50 ml</a></li><li><a href=\"/products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml\" title=\"Redken. Sérum Cuir Chevelu et Cheveux Densité et Force Acidic Grow Full - 100 ml\">20 X Redken. Sérum Cuir Chevelu et Cheveux Densité et Force Acidic Grow Full -100 ml</a></li></ul><p><br/>Pour tout achat de 350 $ avant taxes et codes promo, vous recevrez automatiquement <a href=\"/products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus\" title=\"Prime avec Achat. Concept C. Ensemble Découverte Pour Tout Achat De 350$ Et Plus\">un ensemble découverte de formats deluxe</a> d’une valeur de plus de 85 $! <br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AMGJYX",
+        "question_pGWHdb"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #a48fab; color: #000000;}"
+        ".collection-tags .tag.tag-collection {background: #dc6943; color: #ffffff;}"
       ],
       "name": "# Collection tags",
       "settings": {
@@ -73,6 +104,7 @@
   },
   "order": [
     "collection-banner",
+    "faq_8FaQwK",
     "custom_collection_tags_DdQdc6",
     "main"
   ]

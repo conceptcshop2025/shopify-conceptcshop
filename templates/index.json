@@ -46,20 +46,20 @@
         "image_m9i4GY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FR_Slider_Principale_Boxing_Day_2025_1560_x_500_px.webp",
-            "mobile_image": "shopify://shop_images/Slider_Mobile_Boxing_Day_2025_750_x_600_px.webp",
+            "image": "shopify://shop_images/Slider_Principal_Vente_Printaniere_2026_4bbfec81-9496-4ed2-95ab-0685f79ae952.png",
+            "mobile_image": "shopify://shop_images/V2_Mobile_Vente_Printaniere_2026_750_x_400_px.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/boxing-day",
+            "button_1_link": "shopify://collections/vente-printaniere",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
-            "button_2_link": "shopify://collections/boxing-day",
+            "button_2_link": "shopify://collections/vente-printaniere",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -74,7 +74,6 @@
       "block_order": [
         "image_m9i4GY"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -151,6 +150,7 @@
         "image_with_text_Lt8DPB",
         "image_with_text_nBDx6B"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
@@ -393,106 +393,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_r8q9UW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_55469c02-8ccc-454c-b735-a818e9e25359.png",
-            "promotion_title": "Découvrez Acidic Grow Full",
-            "promotion_description": "<p>La gamme qui renforce les cheveux et les rend visiblement plus denses! Profitez jusqu’à 25 % de rabais, en plus de recevoir une brosse capillaire gratuite à l’achat de 50 $.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_tkP8nH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_2.png",
-            "promotion_title": "20 à 30% de rabais sur les formats jumbo!",
-            "promotion_description": "<p>Jusqu'au 30 mars, obtenez jusqu'à 30% de rabais sur les formats jumbo Living Proof!</p>",
-            "promotion_link": "shopify://collections/promo-living-proof",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_UbccKe": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_fd3f5bf7-32f6-4e05-884a-6326953ab31a.png",
-            "promotion_title": "40% sur Evo",
-            "promotion_description": "<p>Jusqu’au 30 mars, profitez de 40 % de rabais sur la gamme Evo ! <em>Exclut les formats litre.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_txV4dN": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_0308d9b4-ca06-452e-8a33-7d4a9269e26c.png",
-            "promotion_title": "15% sur la cure réactionnelle",
-            "promotion_description": "<p>Jusqu’au 30 mars, obtenez 15 % de rabais sur la cure réactionnelle contre la perte de cheveux René Furterer!</p>",
-            "promotion_link": "shopify://products/rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_acpmHk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_c5e40ea6-c5f0-4a96-9371-0bc9e33a189a.png",
-            "promotion_title": "Découvrez Fibre Clinix!",
-            "promotion_description": "<p>Plus de 35 % de rabais sur Fibre Clinix pour une réparation intense avec la technologie BONDXTEND!</p>",
-            "promotion_link": "shopify://collections/offre-en-cours",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Jiyfhk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_ab83a35a-166d-430b-ba73-1db0b2281bf0.png",
-            "promotion_title": "Nouveautés Chronologiste de Kérastase",
-            "promotion_description": "<p>Découvrez les nouveautés de la gamme Chronologiste de Kérastase. À l’achat de 2 produits format régulier, recevez un Bain Chronologiste format voyage en cadeau.</p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_KXzYDt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_274c778c-860e-48c0-a921-8183abbe6774.png",
-            "promotion_title": "15% coiffants Shu Uemura",
-            "promotion_description": "<p>Jusqu’au 31 mars, profitez de 15 % de rabais sur les coiffants Shu Uemura ainsi que sur l’huile Essence Absolue. <em>*prix déjà réduit</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_X67QHk": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/12_5755bd9d-9cb9-43c0-8960-e80fe4c031a6.png",
-            "promotion_title": "Promo Pureology Hydrate & Strength Cure",
-            "promotion_description": "<p>Jusqu’au 31 mars, obtenez 20 % de rabais sur les essentiels Hydrate et Strength Cure de Pureology. <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/litres-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_eb57df5e-324b-4d45-8b78-d54a68e18f2e.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p><strong>20 % de rabais </strong>sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore! <em>*prix déjà réduits</em><br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_80cdbea2-f936-41cd-ba62-e37e003c9281.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>TOUT à 50% de rabais! <em>*prix déjà réduits</em></p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_McHmfD": {
           "type": "promotion_card",
           "settings": {
@@ -503,8 +403,59 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Lg7cQV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_93f046af-013b-48a0-88d2-0660c411a7e0.png",
+            "promotion_title": "Vente du Printemps!",
+            "promotion_description": "<p>Du 2 au 13 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
+            "promotion_link": "shopify://collections/vente-printaniere",
+            "promotion_link_text": "Voir les détails"
+          }
+        },
+        "promotion_card_7TebqV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_c0020f30-8f7b-4e3a-b831-1dc7cd6e9122.png",
+            "promotion_title": "Ensemble découverte gratuit!",
+            "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 13 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
+            "promotion_link": "shopify://products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BJmxLb": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_2b62500a-e87b-44a6-9797-9a60f2448cab.png",
+            "promotion_title": "Célébrez le mois de la terre!",
+            "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml.<em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_A9aVXj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_4_053df895-f4c5-4613-82c7-85c4c9332dd1.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_BPnVjf": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_5_69645475-28fd-4a43-9b75-0532aa4634ca.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
+            "promotion_link": "shopify://collections/liquidation",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_fVi4LR": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
             "promotion_title": "Volume.Brillance.Tenue.",
@@ -512,32 +463,16 @@
             "promotion_link": "shopify://collections/promo-du-moment",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_KWqFmF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Promotions_Site_Fevrier_2026_07c2c84d-9f4a-4eda-a598-a458596c4090.png",
-            "promotion_title": "35% sur Matrix*",
-            "promotion_description": "<p>Plus de 500 litres de shampoings, revitalisants et masques à partir de 23.99$! Gros formats = grosse économies!</p>",
-            "promotion_link": "shopify://collections/a-ne-pas-manquer",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
-        "promotion_card_r8q9UW",
-        "promotion_card_tkP8nH",
-        "promotion_card_UbccKe",
-        "promotion_card_txV4dN",
-        "promotion_card_acpmHk",
-        "promotion_card_Jiyfhk",
-        "promotion_card_KXzYDt",
-        "promotion_card_X67QHk",
+        "promotion_card_McHmfD",
+        "promotion_card_Lg7cQV",
+        "promotion_card_7TebqV",
+        "promotion_card_BJmxLb",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_McHmfD",
-        "promotion_card_fVi4LR",
-        "promotion_card_KWqFmF"
+        "promotion_card_fVi4LR"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -561,8 +496,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -572,8 +507,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -583,8 +518,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -594,8 +529,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -605,8 +540,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -616,8 +551,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -627,8 +562,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -638,8 +573,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -649,8 +584,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#b49889",
+            "background_item_color": "#ffb890",
+            "border_item_color": "#cd7f58",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -670,7 +605,7 @@
       ],
       "name": "# Collection bullet list",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-b5081b04-108b-4d59-b912-9c3fc6b86fc0",
         "section_title": "Magasinez par catégorie",
         "section_title_alignment": "center",
         "padding_top": 20,
@@ -683,17 +618,17 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Google_Promo_Outils_Printemps_2026_1200_x_1200_px.png",
+            "image": "shopify://shop_images/amika-brosse-chauffante-blowout-babe-5396369_243d1b65-e996-4e94-a2bd-4f9dec521747.png",
             "hot_spots_background": "#ffffff",
-            "product_1": "t3-fer-plat-lisseur-boucleur-rose-satin",
-            "product_1_horizontal_position": 30,
+            "product_1": "amika-brosse-chauffante-bombshell-blowout",
+            "product_1_horizontal_position": 15,
             "product_1_vertical_position": 75,
-            "product_2": "t3-fer-plat-lisseur-boucleur-blanc",
+            "product_2": "kerastase-gloss-absolu-huile-glaze-drops-45-ml",
             "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 75,
-            "product_3": "davines-bouclier-thermo-protecteur-anti-cassure-melu-250-ml",
+            "product_2_vertical_position": 80,
+            "product_3": "redken-spray-mousse-volume-root-lifter-300g",
             "product_3_horizontal_position": 70,
-            "product_3_vertical_position": 75,
+            "product_3_vertical_position": 80,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
