@@ -50,6 +50,22 @@
   transform: rotate(0);
 }
 
+.container-post-carrieres .section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-post-carrieres .section-title .btn-clear-filter {
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+  font-size: 12px;
+}
+
+.container-post-carrieres .section-title .btn-clear-filter:hover {
+  color: rgb(228, 192, 174);
+}
+
 @media (min-width: 1500px) {
   .container-post-carrieres {
     max-width: 1500px;

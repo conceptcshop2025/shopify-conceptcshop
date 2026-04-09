@@ -1,13 +1,16 @@
 {{ 'post-carrieres.css' | asset_url | stylesheet_tag }}
 
 <div class="container-post-carrieres">
-  <h2 class="section-title">{{ section.settings.section_title }}</h2>
+  <h2 class="section-title">
+    <span>{{ section.settings.section_title }}</span>
+    <small class="btn-clear-filter">Reinitialiser filtre</small>
+  </h2>
   <div class="post-carrieres__content">
     {%  liquid
       assign career_posts = metaobjects.career_posts.values
     %}
     {% for post in career_posts %}
-      <div class="post-carrieres__item">
+      <div class="post-carrieres__item" data-target-post="{% for type in post.job_type.value %}{{ type | strip_html | downcase | replace: ' ', "-" }}{% endfor %}">
         <div class="post-heading">
           <h3 class="post-carrieres__title">{{ post.title | strip_html }}</h3>
           <p class="post-carrieres__excerpt">
@@ -36,13 +39,56 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+
     const items = document.querySelectorAll('.post-carrieres__item .post-heading');
-    console.log(items);
     items.forEach(item => {
       item.addEventListener('click', function() {
         this.closest('.post-carrieres__item').classList.toggle('active');
       });
     });
+
+    const multicolumnItems = document.querySelectorAll('.multi-column__item');
+    const allJobPosts = document.querySelectorAll('.post-carrieres__item');
+
+    if (multicolumnItems.length > 0) {
+      multicolumnItems.forEach((item) => {
+        const categoryItem = item.querySelector('.h4').innerText.toLowerCase();
+
+        if(categoryItem.includes('entrepôt')) {
+          item.setAttribute('data-post', 'entrepôt');
+        } else if (categoryItem.includes('siège social')) {
+          item.setAttribute('data-post', 'siège-social');
+        } else if (categoryItem.includes('boutique')) {
+          item.setAttribute('data-post', 'boutique');
+        } else if (categoryItem.includes('salon de coiffure')) {
+          item.setAttribute('data-post', 'salon-de-coiffure');
+        }
+
+        item.addEventListener('click', function() {
+          const showed = this.getAttribute('data-post');
+          
+          if (allJobPosts.length > 0) {
+            allJobPosts.forEach((job) => {
+              if (job.getAttribute('data-target-post') === showed) {
+                job.classList.remove('hidden');
+              } else {
+                job.classList.add('hidden');
+              }
+            });
+          }
+        });
+
+      });
+    }
+
+    const btnClearFilter = document.querySelector('.btn-clear-filter');
+    if (btnClearFilter) {
+      btnClearFilter.addEventListener('click', function() {
+        allJobPosts.forEach((job) => {
+          job.classList.remove('hidden');
+        });
+      });
+    }
   });
 </script>
 
