@@ -134,13 +134,13 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_VBT_Mars_2026.png",
+            "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px.png",
             "block_background": "#c7b0cc",
             "text_block_background": "#1c1c1c",
-            "title": "<strong>VOLUME & BRILLANCE!</strong>",
+            "title": "<strong>20% MOROCCANOIL</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
-            "link_url": "shopify://collections/promo-du-moment",
+            "link_url": "shopify://collections/moroccanoil",
             "link_text": "magasiner"
           }
         }
