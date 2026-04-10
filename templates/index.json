@@ -135,7 +135,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px.png",
-            "block_background": "#47c9d4",
+            "block_background": "#0091a8",
             "text_block_background": "#ffffff",
             "title": "<strong>20% MOROCCANOIL</strong>",
             "heading_tag": "h4",
