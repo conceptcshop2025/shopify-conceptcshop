@@ -104,6 +104,20 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_nBDx6B": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px.png",
+            "block_background": "#006b95",
+            "text_block_background": "#ffffff",
+            "title": "<strong>20% MOROCCANOIL</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Vos indispensables enfin en rabais! Valide sur les produits iconiques, les coffrets et les formats litres.</p>",
+            "link_url": "shopify://collections/moroccanoil",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_Lt8DPB": {
           "type": "image_with_text",
           "settings": {
@@ -129,27 +143,13 @@
             "link_url": "shopify://collections/promo-du-moment-1",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_nBDx6B": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px.png",
-            "block_background": "#0091a8",
-            "text_block_background": "#ffffff",
-            "title": "<strong>20% MOROCCANOIL</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Vos indispensables enfin en rabais! Valide sur les produits iconiques, les coffrets et les formats litres.<br/><br/></p>",
-            "link_url": "shopify://collections/moroccanoil",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_NFaYwa",
+        "image_with_text_nBDx6B",
         "image_with_text_Lt8DPB",
-        "image_with_text_3LUanK",
-        "image_with_text_nBDx6B"
+        "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
       "settings": {
