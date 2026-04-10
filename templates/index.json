@@ -135,8 +135,8 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px.png",
-            "block_background": "#c7b0cc",
-            "text_block_background": "#1c1c1c",
+            "block_background": "#47c9d4",
+            "text_block_background": "#ffffff",
             "title": "<strong>20% MOROCCANOIL</strong>",
             "heading_tag": "h4",
             "content": "<p>Vos indispensables enfin en rabais! Valide sur les produits iconiques, les coffrets et les formats litres.<br/><br/></p>",
