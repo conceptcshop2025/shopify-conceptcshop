@@ -35,9 +35,10 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_7886c038-7c20-4d40-8a71-358a79da8902.png",
+            "promotion_title": "20% SUR MOROCCANOIL",
+            "promotion_description": "<p>Profitez de 20 % sur toute la gamme Moroccanoil! Produits iconiques, coffrets et formats litres… tout y est. <em>Offre valide jusqu’au 19 avril ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
