@@ -443,6 +443,17 @@
             "promotion_link_text": "Voir les détails"
           }
         },
+        "promotion_card_XzQUhL": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_35f2c8e4-66e7-4634-afc9-aeb736137998.png",
+            "promotion_title": "20% SUR MOROCCANOIL",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_McHmfD": {
           "type": "promotion_card",
           "settings": {
@@ -471,6 +482,7 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Lg7cQV",
+        "promotion_card_XzQUhL",
         "promotion_card_McHmfD",
         "promotion_card_fVi4LR"
       ],
