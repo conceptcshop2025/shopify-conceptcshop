@@ -106,7 +106,6 @@
         },
         "image_with_text_nBDx6B": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px_1.png",
             "block_background": "#0f4c4f",
@@ -133,6 +132,7 @@
         },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
             "block_background": "#003936",
