@@ -447,7 +447,7 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_title": "",
+            "promotion_title": "Nouveauté Redken",
             "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus"
