@@ -443,9 +443,18 @@
             "promotion_link_text": "Voir les détails"
           }
         },
-        "promotion_card_XzQUhL": {
+        "promotion_card_n6KzNV": {
           "type": "promotion_card",
           "disabled": true,
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_XzQUhL": {
+          "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_929c5f41-cbb7-4772-81c2-e8cee2b6e521.png",
             "promotion_title": "20% SUR MOROCCANOIL",
@@ -482,6 +491,7 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Lg7cQV",
+        "promotion_card_n6KzNV",
         "promotion_card_XzQUhL",
         "promotion_card_McHmfD",
         "promotion_card_fVi4LR"
