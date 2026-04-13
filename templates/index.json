@@ -413,6 +413,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_n6KzNV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_278b1c79-5684-43cb-9faa-3ff70c544009.png",
+            "promotion_title": "Nouveauté Redken",
+            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -441,16 +451,6 @@
             "promotion_description": "<p>Du 2 au 16 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
             "promotion_link": "shopify://collections/vente-printaniere",
             "promotion_link_text": "Voir les détails"
-          }
-        },
-        "promotion_card_n6KzNV": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_title": "Nouveauté Redken",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_XzQUhL": {
@@ -488,10 +488,10 @@
       "block_order": [
         "promotion_card_BJmxLb",
         "promotion_card_7TebqV",
+        "promotion_card_n6KzNV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Lg7cQV",
-        "promotion_card_n6KzNV",
         "promotion_card_XzQUhL",
         "promotion_card_McHmfD",
         "promotion_card_fVi4LR"
