@@ -184,6 +184,7 @@
         },
         "promotion_card_hfDNFW": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/13_841f5105-c2b8-4ea2-8f06-cbece4d9843c.png",
             "promotion_title": "Moroccanoil",
