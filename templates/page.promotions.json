@@ -33,7 +33,6 @@
         },
         "promotion_card_REFVjV": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_929c5f41-cbb7-4772-81c2-e8cee2b6e521.png",
             "promotion_title": "20% SUR MOROCCANOIL",
