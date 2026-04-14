@@ -51,6 +51,66 @@
         "remove_vertical_spacing": false
       }
     },
+    "text_with_icons_6E9fLJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_pyWg4p": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-building",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Évènements d’entreprise",
+            "content": ""
+          }
+        },
+        "item_788dDB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coffee",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Café gratuit",
+            "content": ""
+          }
+        },
+        "item_9KQEBt": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-pin",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Stationnement gratuit",
+            "content": ""
+          }
+        },
+        "item_C3pN8F": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Avancement au sein de l’entreprise",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pyWg4p",
+        "item_788dDB",
+        "item_9KQEBt",
+        "item_C3pN8F"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
     "custom_multi_column_KR7h4j": {
       "type": "custom-multi-column",
       "blocks": {
@@ -152,66 +212,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "text_with_icons_6E9fLJ": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_pyWg4p": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-building",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Évènements d’entreprise",
-            "content": ""
-          }
-        },
-        "item_788dDB": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coffee",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Café gratuit",
-            "content": ""
-          }
-        },
-        "item_9KQEBt": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-pin",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Stationnement gratuit",
-            "content": ""
-          }
-        },
-        "item_C3pN8F": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-document",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Avancement au sein de l’entreprise",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_pyWg4p",
-        "item_788dDB",
-        "item_9KQEBt",
-        "item_C3pN8F"
-      ],
-      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
       }
     },
     "text_with_icons_FUAMbb": {
@@ -328,10 +328,10 @@
   "order": [
     "main",
     "rich_text_GdCUhz",
-    "custom_multi_column_KR7h4j",
     "rich_text_4zbqUe",
     "text_with_icons_6E9fLJ",
     "text_with_icons_FUAMbb",
+    "custom_multi_column_KR7h4j",
     "post_carrieres_7aNVLh",
     "177574002997de2dc3",
     "custom_liquid_BR3wDU"
