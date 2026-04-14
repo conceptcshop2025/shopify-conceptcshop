@@ -18,17 +18,17 @@
         "page_width": "xs"
       }
     },
-    "rich_text_nfgJQP": {
-      "type": "rich-text",
+    "image_with_text_PT9M7e": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_YrWfNB": {
+        "heading_GzaUCm": {
           "type": "heading",
           "settings": {
             "text": "Rejoins une équipe où ton talent fait la différence",
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
-        "richtext_Vpbc6i": {
+        "richtext_9373BD": {
           "type": "richtext",
           "settings": {
             "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits coiffants et des conseils personnalisés qui font vraiment la différence.</p><p><br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.</p><p><br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?</p><p><br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !<br/></p>"
@@ -36,19 +36,18 @@
         }
       },
       "block_order": [
-        "heading_YrWfNB",
-        "richtext_Vpbc6i"
+        "heading_GzaUCm",
+        "richtext_9373BD"
       ],
-      "custom_css": [
-        ".h1 {color: #e4c0ae; margin-bottom: 24px;}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Creation_sans_titre_30c20402-ff06-4bfc-b821-6695357e86d4.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true
       }
     },
     "custom_multi_column_KR7h4j": {
@@ -57,7 +56,7 @@
         "image_with_text_xjwwxE": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/DSCF7792_3bb12fb0-7a41-49a0-aa2a-12ddac647fdd.jpg",
+            "image": "shopify://shop_images/Page_Carriere_1.png",
             "block_background": "",
             "text_block_background": "",
             "title": "Postes en boutiques",
@@ -70,7 +69,7 @@
         "image_with_text_RgmfDw": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Creation_sans_titre_2.png",
+            "image": "shopify://shop_images/Page_Carriere.png",
             "block_background": "",
             "text_block_background": "",
             "title": "Postes au salon de coiffure",
@@ -83,7 +82,7 @@
         "image_with_text_VKz4dL": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Creation_sans_titre_1_9a31f8e3-cac4-4008-879e-db613b59de7b.png",
+            "image": "shopify://shop_images/Page_Carriere_2.png",
             "block_background": "",
             "text_block_background": "",
             "title": "Postes à l'entrepôt",
@@ -96,7 +95,7 @@
         "image_with_text_TEzapk": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Creation_sans_titre_e3501256-4214-4b9f-91db-a5aceb98c9d6.png",
+            "image": "shopify://shop_images/Page_Carriere_3.png",
             "block_background": "",
             "text_block_background": "",
             "title": "Postes au siège social",
@@ -327,7 +326,7 @@
   },
   "order": [
     "main",
-    "rich_text_nfgJQP",
+    "image_with_text_PT9M7e",
     "custom_multi_column_KR7h4j",
     "rich_text_4zbqUe",
     "text_with_icons_6E9fLJ",
