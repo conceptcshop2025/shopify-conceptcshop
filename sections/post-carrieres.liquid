@@ -15,12 +15,12 @@
           <h3 class="post-carrieres__title">{{ post.title | strip_html }}</h3>
           <p class="post-carrieres__excerpt">
             <span>
-              Location: {% for loc in post.location.value %}
+              Localisation: {% for loc in post.location.value %}
                 {{ loc | strip_html }}
               {% endfor %}
             </span>
             <span>
-              | type de poste: {% for type in post.job_type.value %}
+              | Type de poste: {% for type in post.job_type.value %}
                 {{ type | strip_html }}
               {% endfor %}
             </span>
@@ -34,6 +34,7 @@
         </div>
       </div>
     {% endfor %}
+    <p class="post-carrieres__no-results hidden">Aucun poste n’est actuellement disponible, mais n’hésite pas à nous transmettre ta candidature spontanée.</p>
   </div>
 </div>
 
@@ -66,7 +67,7 @@
 
         item.addEventListener('click', function() {
           const showed = this.getAttribute('data-post');
-          
+          console.log(showed);
           if (allJobPosts.length > 0) {
             allJobPosts.forEach((job) => {
               if (job.getAttribute('data-target-post') === showed) {
@@ -75,6 +76,14 @@
                 job.classList.add('hidden');
               }
             });
+
+            const noResults = document.querySelector('.post-carrieres__no-results');
+            const visiblePosts = Array.from(allJobPosts).filter(job => !job.classList.contains('hidden'));
+            if (visiblePosts.length === 0) {
+              noResults.classList.remove('hidden');
+            } else {
+              noResults.classList.add('hidden');
+            }
           }
         });
 
