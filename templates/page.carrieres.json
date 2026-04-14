@@ -40,7 +40,7 @@
         "richtext_Vpbc6i"
       ],
       "custom_css": [
-        ".h1 {color: #e4c0ae;}"
+        ".h1 {color: #e4c0ae; margin-bottom: 24px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
