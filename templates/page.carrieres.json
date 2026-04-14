@@ -18,6 +18,36 @@
         "page_width": "xs"
       }
     },
+    "rich_text_GdCUhz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6eMjNR": {
+          "type": "heading",
+          "settings": {
+            "text": "Rejoins une équipe où ton talent fait la différence",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_emReAW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits coiffants et des conseils personnalisés qui font vraiment la différence.<br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.<br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?<br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6eMjNR",
+        "richtext_emReAW"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_with_text_PT9M7e": {
       "type": "image-with-text",
       "blocks": {
@@ -325,6 +355,7 @@
   },
   "order": [
     "main",
+    "rich_text_GdCUhz",
     "image_with_text_PT9M7e",
     "custom_multi_column_KR7h4j",
     "rich_text_4zbqUe",
