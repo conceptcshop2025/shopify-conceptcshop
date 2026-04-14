@@ -18,17 +18,17 @@
         "page_width": "xs"
       }
     },
-    "image_with_text_PT9M7e": {
-      "type": "image-with-text",
+    "rich_text_nfgJQP": {
+      "type": "rich-text",
       "blocks": {
-        "heading_GzaUCm": {
+        "heading_YrWfNB": {
           "type": "heading",
           "settings": {
             "text": "Rejoins une équipe où ton talent fait la différence",
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         },
-        "richtext_9373BD": {
+        "richtext_Vpbc6i": {
           "type": "richtext",
           "settings": {
             "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits coiffants et des conseils personnalisés qui font vraiment la différence.</p><p><br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.</p><p><br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?</p><p><br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !<br/></p>"
@@ -36,18 +36,19 @@
         }
       },
       "block_order": [
-        "heading_GzaUCm",
-        "richtext_9373BD"
+        "heading_YrWfNB",
+        "richtext_Vpbc6i"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "custom_css": [
+        ".h1 {color: #e4c0ae;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/Creation_sans_titre_30c20402-ff06-4bfc-b821-6695357e86d4.png",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "custom_multi_column_KR7h4j": {
@@ -326,7 +327,7 @@
   },
   "order": [
     "main",
-    "image_with_text_PT9M7e",
+    "rich_text_nfgJQP",
     "custom_multi_column_KR7h4j",
     "rich_text_4zbqUe",
     "text_with_icons_6E9fLJ",
