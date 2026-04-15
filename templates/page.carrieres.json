@@ -337,6 +337,9 @@
     },
     "custom_liquid_BR3wDU": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".tap-area {background: #E4C0AE; border-radius: 8px; padding:5px;}"
+      ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "color_scheme": "",
