@@ -473,16 +473,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Hx9MyD": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_title": "Davines Essential",
-            "promotion_description": "",
-            "promotion_link": "",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_fVi4LR": {
           "type": "promotion_card",
           "disabled": true,
@@ -504,7 +494,6 @@
         "promotion_card_Lg7cQV",
         "promotion_card_XzQUhL",
         "promotion_card_McHmfD",
-        "promotion_card_Hx9MyD",
         "promotion_card_fVi4LR"
       ],
       "name": "# Promotions list",
