@@ -31,7 +31,7 @@
         "richtext_emReAW": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits coiffants et des conseils personnalisés qui font vraiment la différence.<br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.<br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?<br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !</p>"
+            "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits professionnels et des conseils personnalisés qui font vraiment la différence.<br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.<br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?<br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !</p>"
           }
         }
       },
@@ -67,7 +67,7 @@
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
         "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
@@ -137,7 +137,7 @@
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
         "separate_section_with_border": false,
         "stack_on_mobile": false,
         "icon_color": "",
@@ -197,7 +197,7 @@
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
         "separate_section_with_border": false,
         "stack_on_mobile": false,
         "icon_color": "",
@@ -277,7 +277,7 @@
         "content_alignment": "center",
         "text_alignment": "center",
         "subheading": "",
-        "title": "Découvrir les carrières",
+        "title": "Découvrir nos offres d'emploi",
         "content": "",
         "padding_top": 32,
         "padding_bottom": 32,
@@ -318,7 +318,7 @@
         "heading_xB8Pdh": {
           "type": "heading",
           "settings": {
-            "text": "Demeurez à l’affût des opportunités d’emploi chez Concept C ! Suivez-nous sur Facebook et Instagram",
+            "text": "Reste à l’affût des opportunités d’emploi chez Concept C ! Suis-nous sur Facebook et Instagram",
             "heading_tag": "h4"
           }
         }
@@ -337,6 +337,9 @@
     },
     "custom_liquid_BR3wDU": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".tap-area {background: #E4C0AE; border-radius: 8px; padding:5px;}"
+      ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "color_scheme": "",
