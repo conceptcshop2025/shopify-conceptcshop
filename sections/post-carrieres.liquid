@@ -55,14 +55,24 @@
       multicolumnItems.forEach((item) => {
         const categoryItem = item.querySelector('.h4').innerText.toLowerCase();
 
-        if(categoryItem.includes('entrepôt') || categoryItem.includes('warehouse')) {
+        if(categoryItem.includes('entrepôt')) {
           item.setAttribute('data-post', 'entrepôt');
-        } else if (categoryItem.includes('siège social') || categoryItem.includes('head office')) {
+        } else if (categoryItem.includes('siège social')) {
           item.setAttribute('data-post', 'siège-social');
-        } else if (categoryItem.includes('boutique') || categoryItem.includes('in-store')) {
+        } else if (categoryItem.includes('boutique')) {
           item.setAttribute('data-post', 'boutique');
-        } else if (categoryItem.includes('salon de coiffure') || categoryItem.includes('hair salon')) {
+        } else if (categoryItem.includes('salon de coiffure')) {
           item.setAttribute('data-post', 'salon-de-coiffure');
+        }
+        // validations for english categories
+         else if (categoryItem.includes('warehouse')) {
+          item.setAttribute('data-post', 'warehouse');
+        } else if (categoryItem.includes('head office')) {
+          item.setAttribute('data-post', 'head-office');
+        } else if (categoryItem.includes('in-store')) {
+          item.setAttribute('data-post', 'store');
+        } else if (categoryItem.includes('hair salon')) {
+          item.setAttribute('data-post', 'hair-salon');
         }
 
         item.addEventListener('click', function() {
