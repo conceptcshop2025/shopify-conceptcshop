@@ -157,6 +157,7 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_00bb8885-fade-4af6-9858-733a5103b310.png",
             "promotion_title": "Sérum Serioxyl",
             "promotion_description": "<p>À l’achat d’un sérum Serioxyl, obtenez gratuitement le shampoing Serioxyl Advanced 100 ml.<em> Limite de 1 par commande. Offre valide jusqu’au 13 mai ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://products/loreal-serie-expert-serum-denser-serioxyl-90-ml",
