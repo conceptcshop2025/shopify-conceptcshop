@@ -55,19 +55,18 @@
       multicolumnItems.forEach((item) => {
         const categoryItem = item.querySelector('.h4').innerText.toLowerCase();
 
-        if(categoryItem.includes('entrepôt')) {
+        if(categoryItem.includes('entrepôt') || categoryItem.includes('warehouse')) {
           item.setAttribute('data-post', 'entrepôt');
-        } else if (categoryItem.includes('siège social')) {
+        } else if (categoryItem.includes('siège social') || categoryItem.includes('head office')) {
           item.setAttribute('data-post', 'siège-social');
-        } else if (categoryItem.includes('boutique')) {
+        } else if (categoryItem.includes('boutique') || categoryItem.includes('in-store')) {
           item.setAttribute('data-post', 'boutique');
-        } else if (categoryItem.includes('salon de coiffure')) {
+        } else if (categoryItem.includes('salon de coiffure') || categoryItem.includes('hair salon')) {
           item.setAttribute('data-post', 'salon-de-coiffure');
         }
 
         item.addEventListener('click', function() {
           const showed = this.getAttribute('data-post');
-          console.log(showed);
           if (allJobPosts.length > 0) {
             allJobPosts.forEach((job) => {
               if (job.getAttribute('data-target-post') === showed) {
