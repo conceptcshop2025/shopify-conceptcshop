@@ -1,0 +1,123 @@
+{{ 'post-carrieres.css' | asset_url | stylesheet_tag }}
+
+<div class="container-post-carrieres">
+  <h2 class="section-title">
+    <span>{{ section.settings.section_title }}</span>
+    <small class="btn-clear-filter">{{ 'post_carrieres.general.clear_filter' | t }}</small>
+  </h2>
+  <div class="post-carrieres__content">
+    {%  liquid
+      assign career_posts = metaobjects.career_posts.values
+    %}
+    {% for post in career_posts %}
+      <div class="post-carrieres__item" data-target-post="{% for type in post.job_type.value %}{{ type | strip_html | downcase | replace: ' ', "-" }}{% endfor %}">
+        <div class="post-heading">
+          <h3 class="post-carrieres__title">{{ post.title | strip_html }}</h3>
+          <p class="post-carrieres__excerpt">
+            <span>
+              {{ 'post_carrieres.general.localisation_text' | t }}: {% for loc in post.location.value %}
+                {{ loc | strip_html }}
+              {% endfor %}
+            </span>
+            <span>
+              | {{ 'post_carrieres.general.job_type_text' | t }}: {% for type in post.job_type.value %}
+                {{ type | strip_html }}
+              {% endfor %}
+            </span>
+          </p>
+        </div>
+        <div class="post-body">
+          <div class="post-description">{{ post.description | metafield_tag  }}</div>
+          <div class="post-link">
+            <a href="{{ post.indeed_url.value }}" class="button" target="_blank" rel="noopener">{{ 'post_carrieres.general.see_offer_text' | t }}</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    <p class="post-carrieres__no-results hidden">{{ 'post_carrieres.general.no_offerts_text' | t }}</p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+
+    const items = document.querySelectorAll('.post-carrieres__item .post-heading');
+    items.forEach(item => {
+      item.addEventListener('click', function() {
+        this.closest('.post-carrieres__item').classList.toggle('active');
+      });
+    });
+
+    const multicolumnItems = document.querySelectorAll('.multi-column__item');
+    const allJobPosts = document.querySelectorAll('.post-carrieres__item');
+
+    if (multicolumnItems.length > 0) {
+      multicolumnItems.forEach((item) => {
+        const categoryItem = item.querySelector('.h4').innerText.toLowerCase();
+
+        if(categoryItem.includes('entrepôt')) {
+          item.setAttribute('data-post', 'entrepôt');
+        } else if (categoryItem.includes('siège social')) {
+          item.setAttribute('data-post', 'siège-social');
+        } else if (categoryItem.includes('boutique')) {
+          item.setAttribute('data-post', 'boutique');
+        } else if (categoryItem.includes('salon de coiffure')) {
+          item.setAttribute('data-post', 'salon-de-coiffure');
+        }
+
+        item.addEventListener('click', function() {
+          const showed = this.getAttribute('data-post');
+          console.log(showed);
+          if (allJobPosts.length > 0) {
+            allJobPosts.forEach((job) => {
+              if (job.getAttribute('data-target-post') === showed) {
+                job.classList.remove('hidden');
+              } else {
+                job.classList.add('hidden');
+              }
+            });
+
+            const noResults = document.querySelector('.post-carrieres__no-results');
+            const visiblePosts = Array.from(allJobPosts).filter(job => !job.classList.contains('hidden'));
+            if (visiblePosts.length === 0) {
+              noResults.classList.remove('hidden');
+            } else {
+              noResults.classList.add('hidden');
+            }
+          }
+        });
+
+      });
+    }
+
+    const btnClearFilter = document.querySelector('.btn-clear-filter');
+    if (btnClearFilter) {
+      btnClearFilter.addEventListener('click', function() {
+        allJobPosts.forEach((job) => {
+          job.classList.remove('hidden');
+        });
+      });
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Post Carrieres",
+    "tag": "section",
+    "class": "post-carrieres",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section title",
+        "default": "Nos offres d'emploi"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Post Carrieres"
+      }
+    ]
+  }
+{% endschema %}

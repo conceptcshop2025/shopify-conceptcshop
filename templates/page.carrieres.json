@@ -18,17 +18,205 @@
         "page_width": "xs"
       }
     },
+    "rich_text_GdCUhz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6eMjNR": {
+          "type": "heading",
+          "settings": {
+            "text": "Rejoins une équipe où ton talent fait la différence",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_emReAW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Concept C, notre mission est simple : accompagner nos clients dans leurs ambitions, en leur offrant au même endroit les meilleurs produits coiffants et des conseils personnalisés qui font vraiment la différence.<br/>Nous aspirons à être bien plus qu’une marque : un complice du quotidien, présent dans chaque moment où l’on a envie de se sentir confiant, bien dans sa peau et fidèle à soi-même.<br/>Ce qui nous guide au quotidien ?<br/>L’honnêteté, la complicité, le respect et la rigueur. Des valeurs que nous partageons autant avec nos clients qu’avec notre équipe.<br/>Ça te parle ?<br/>Viens faire carrière chez Concept C et explore nos opportunités ou fais-nous parvenir ta candidature spontanée !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6eMjNR",
+        "richtext_emReAW"
+      ],
+      "custom_css": [
+        ".h1 {color: #e4c0ae; margin-bottom: 32px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_4zbqUe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BU8LeM": {
+          "type": "heading",
+          "settings": {
+            "text": "Les avantages de travailler chez Concept C ",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BU8LeM"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_6E9fLJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_pyWg4p": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-building",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Évènements d’entreprise",
+            "content": ""
+          }
+        },
+        "item_788dDB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coffee",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Café gratuit",
+            "content": ""
+          }
+        },
+        "item_9KQEBt": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-pin",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Stationnement gratuit",
+            "content": ""
+          }
+        },
+        "item_C3pN8F": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Avancement au sein de l’entreprise",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pyWg4p",
+        "item_788dDB",
+        "item_9KQEBt",
+        "item_C3pN8F"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "text_with_icons_FUAMbb": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_KkTM6n": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Environnement dynamique et en constante évolution",
+            "content": ""
+          }
+        },
+        "item_r8A74V": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Conciliation travail/vie personnelle",
+            "content": ""
+          }
+        },
+        "item_Kz3xpC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-secure-profile",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Formation continue",
+            "content": ""
+          }
+        },
+        "item_HbWdmp": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Rabais employé",
+            "content": ""
+          }
+        },
+        "item_CMJKgX": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Régime d’assurance collective",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_KkTM6n",
+        "item_r8A74V",
+        "item_Kz3xpC",
+        "item_HbWdmp",
+        "item_CMJKgX"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
     "custom_multi_column_KR7h4j": {
       "type": "custom-multi-column",
       "blocks": {
         "image_with_text_xjwwxE": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Page_Carriere_1.png",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Postes en boutiques",
+            "heading_tag": "h4",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -36,11 +224,12 @@
         "image_with_text_RgmfDw": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Page_Carriere.png",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Postes au salon de coiffure",
+            "heading_tag": "h4",
+            "content": "<p>Trois-rivières</p>",
             "link_url": "",
             "link_text": ""
           }
@@ -48,11 +237,12 @@
         "image_with_text_VKz4dL": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Page_Carriere_2.png",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Postes à l'entrepôt",
+            "heading_tag": "h4",
+            "content": "<p>Québec</p>",
             "link_url": "",
             "link_text": ""
           }
@@ -60,11 +250,12 @@
         "image_with_text_TEzapk": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Page_Carriere_3.png",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Postes au siège social",
+            "heading_tag": "h4",
+            "content": "<p>Québec</p>",
             "link_url": "",
             "link_text": ""
           }
@@ -79,24 +270,70 @@
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "subheading": "About",
-        "title": "Multi-column",
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Découvrir les carrières",
         "content": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "full_width": false,
         "column_gap": 4
+      }
+    },
+    "post_carrieres_7aNVLh": {
+      "type": "post-carrieres",
+      "name": "Post Carrieres",
+      "settings": {
+        "section_title": "Nos offres d'emploi"
+      }
+    },
+    "177574002997de2dc3": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_p3N4Th": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTQwODM1\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_p3N4Th"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "custom_liquid_BR3wDU": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"text-social-icons-carrieres h4\">Demeurez à l’affût des opportunités d’emploi chez Concept C ! Suivez-nous sur Facebook et Instagram</p>\n<div class=\"social-icons-carrieres\">\n<a href=\"https://www.facebook.com/conceptcshop/\" class=\"tap-area\" target=\"_blank\" rel=\"noopener\" aria-label=\"Nous suivre sur Facebook\"><svg aria-hidden=\"true\" focusable=\"false\" width=\"36\" class=\"icon icon-facebook\" viewBox=\"0 0 24 24\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.183 21.85v-8.868H7.2V9.526h2.983V6.982a4.17 4.17 0 0 1 4.44-4.572 22.33 22.33 0 0 1 2.667.144v3.084h-1.83a1.44 1.44 0 0 0-1.713 1.68v2.208h3.423l-.447 3.456h-2.97v8.868h-3.57Z\" fill=\"currentColor\"></path>\n    </svg></a>\n\n<a href=\"https://www.instagram.com/conceptcshop/\" class=\"tap-area\" target=\"_blank\" rel=\"noopener\" aria-label=\"Nous suivre sur Instagram\"><svg aria-hidden=\"true\" focusable=\"false\" width=\"36\" class=\"icon icon-instagram\" viewBox=\"0 0 24 24\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 2.4c-2.607 0-2.934.011-3.958.058-1.022.046-1.72.209-2.33.446a4.705 4.705 0 0 0-1.7 1.107 4.706 4.706 0 0 0-1.108 1.7c-.237.611-.4 1.31-.446 2.331C2.41 9.066 2.4 9.392 2.4 12c0 2.607.011 2.934.058 3.958.046 1.022.209 1.72.446 2.33a4.706 4.706 0 0 0 1.107 1.7c.534.535 1.07.863 1.7 1.108.611.237 1.309.4 2.33.446 1.025.047 1.352.058 3.959.058s2.934-.011 3.958-.058c1.022-.046 1.72-.209 2.33-.446a4.706 4.706 0 0 0 1.7-1.107 4.706 4.706 0 0 0 1.108-1.7c.237-.611.4-1.31.446-2.33.047-1.025.058-1.352.058-3.959s-.011-2.934-.058-3.958c-.047-1.022-.209-1.72-.446-2.33a4.706 4.706 0 0 0-1.107-1.7 4.705 4.705 0 0 0-1.7-1.108c-.611-.237-1.31-.4-2.331-.446C14.934 2.41 14.608 2.4 12 2.4Zm0 1.73c2.563 0 2.867.01 3.88.056.935.042 1.443.199 1.782.33.448.174.768.382 1.104.718.336.336.544.656.718 1.104.131.338.287.847.33 1.783.046 1.012.056 1.316.056 3.879 0 2.563-.01 2.867-.056 3.88-.043.935-.199 1.444-.33 1.782a2.974 2.974 0 0 1-.719 1.104 2.974 2.974 0 0 1-1.103.718c-.339.131-.847.288-1.783.33-1.012.046-1.316.056-3.88.056-2.563 0-2.866-.01-3.878-.056-.936-.042-1.445-.199-1.783-.33a2.974 2.974 0 0 1-1.104-.718 2.974 2.974 0 0 1-.718-1.104c-.131-.338-.288-.847-.33-1.783-.047-1.012-.056-1.316-.056-3.879 0-2.563.01-2.867.056-3.88.042-.935.199-1.443.33-1.782.174-.448.382-.768.718-1.104a2.974 2.974 0 0 1 1.104-.718c.338-.131.847-.288 1.783-.33C9.133 4.14 9.437 4.13 12 4.13Zm0 11.07a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm0-8.13a4.93 4.93 0 1 0 0 9.86 4.93 4.93 0 0 0 0-9.86Zm6.276-.194a1.152 1.152 0 1 1-2.304 0 1.152 1.152 0 0 1 2.304 0Z\" fill=\"currentColor\"></path>\n    </svg></a>\n</div>",
+        "text_alignment": "center"
       }
     }
   },
   "order": [
     "main",
-    "custom_multi_column_KR7h4j"
+    "rich_text_GdCUhz",
+    "rich_text_4zbqUe",
+    "text_with_icons_6E9fLJ",
+    "text_with_icons_FUAMbb",
+    "custom_multi_column_KR7h4j",
+    "post_carrieres_7aNVLh",
+    "177574002997de2dc3",
+    "custom_liquid_BR3wDU"
   ]
 }
