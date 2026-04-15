@@ -3,7 +3,7 @@
 <div class="container-post-carrieres">
   <h2 class="section-title">
     <span>{{ section.settings.section_title }}</span>
-    <small class="btn-clear-filter">Reinitialiser filtre</small>
+    <small class="btn-clear-filter">{{ 'post_carrieres.general.clear_filter' | t }}</small>
   </h2>
   <div class="post-carrieres__content">
     {%  liquid
@@ -15,12 +15,12 @@
           <h3 class="post-carrieres__title">{{ post.title | strip_html }}</h3>
           <p class="post-carrieres__excerpt">
             <span>
-              Localisation: {% for loc in post.location.value %}
+              {{ 'post_carrieres.general.localisation_text' | t }}: {% for loc in post.location.value %}
                 {{ loc | strip_html }}
               {% endfor %}
             </span>
             <span>
-              | Type de poste: {% for type in post.job_type.value %}
+              | {{ 'post_carrieres.general.job_type_text' | t }}: {% for type in post.job_type.value %}
                 {{ type | strip_html }}
               {% endfor %}
             </span>
@@ -29,12 +29,12 @@
         <div class="post-body">
           <div class="post-description">{{ post.description | metafield_tag  }}</div>
           <div class="post-link">
-            <a href="{{ post.indeed_url.value }}" class="button" target="_blank" rel="noopener">Voir l'offre</a>
+            <a href="{{ post.indeed_url.value }}" class="button" target="_blank" rel="noopener">{{ 'post_carrieres.general.see_offer_text' | t }}</a>
           </div>
         </div>
       </div>
     {% endfor %}
-    <p class="post-carrieres__no-results hidden">Aucun poste n’est actuellement disponible, mais n’hésite pas à nous transmettre ta candidature spontanée.</p>
+    <p class="post-carrieres__no-results hidden">{{ 'post_carrieres.general.no_offerts_text' | t }}</p>
   </div>
 </div>
 
