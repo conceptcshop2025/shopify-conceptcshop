@@ -153,6 +153,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_MdzkNH": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
@@ -241,6 +251,7 @@
       },
       "block_order": [
         "promotion_card_RaAF78",
+        "promotion_card_MdzkNH",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_GTXk6b",
