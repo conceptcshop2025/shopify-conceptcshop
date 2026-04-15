@@ -66,6 +66,10 @@
   color: rgb(228, 192, 174);
 }
 
+.post-carrieres__no-results {
+  color: #F11931;
+}
+
 @media (min-width: 1500px) {
   .container-post-carrieres {
     max-width: 1500px;
