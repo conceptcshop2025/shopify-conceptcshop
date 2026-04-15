@@ -142,6 +142,17 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_RaAF78": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_9e0523dc-2262-45d8-85a6-b2dbac390fb3.png",
+            "promotion_title": "Davines Essential Haircare!",
+            "promotion_description": "<p>À l’achat de 60 $ de produits Essential Haircare, obtenez gratuitement un mini exfoliant Solu de 75 ml.<em> Limite de 1 par commande. Offre valide jusqu'au 13 mai ou à l'épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-2",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
@@ -229,6 +240,7 @@
         }
       },
       "block_order": [
+        "promotion_card_RaAF78",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_GTXk6b",
