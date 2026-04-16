@@ -104,32 +104,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_nBDx6B": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px_1.png",
-            "block_background": "#0f4c4f",
-            "text_block_background": "#ffffff",
-            "title": "<strong>20% SUR  MOROCCANOIL</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’au 19 avril, profitez de 20 % sur toute la gamme Moroccanoil!  Produits iconiques, coffrets et formats litres… tout y est. </p>",
-            "link_url": "shopify://collections/moroccanoil",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_Lt8DPB": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_1.png",
-            "block_background": "#444b53",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PROMO OUTILS</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_4AwCpc": {
           "type": "image_with_text",
           "disabled": true,
@@ -158,6 +132,32 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_nBDx6B": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px_1.png",
+            "block_background": "#0f4c4f",
+            "text_block_background": "#ffffff",
+            "title": "<strong>20% SUR  MOROCCANOIL</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’au 19 avril, profitez de 20 % sur toute la gamme Moroccanoil!  Produits iconiques, coffrets et formats litres… tout y est. </p>",
+            "link_url": "shopify://collections/moroccanoil",
+            "link_text": "magasiner"
+          }
+        },
+        "image_with_text_Lt8DPB": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_1.png",
+            "block_background": "#444b53",
+            "text_block_background": "#ffffff",
+            "title": "<strong>PROMO OUTILS</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
+            "link_url": "shopify://collections/coffre-a-outils-1",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "disabled": true,
@@ -175,10 +175,10 @@
       },
       "block_order": [
         "image_with_text_NFaYwa",
-        "image_with_text_nBDx6B",
-        "image_with_text_Lt8DPB",
         "image_with_text_4AwCpc",
         "image_with_text_JhDcEi",
+        "image_with_text_nBDx6B",
+        "image_with_text_Lt8DPB",
         "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
