@@ -135,8 +135,8 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Sun_Bum_Avril_2026_750_x_600_px.png",
-            "block_background": "",
-            "text_block_background": "",
+            "block_background": "#e5dd81",
+            "text_block_background": "#231409",
             "title": "<strong>LANCEMENT SUN BUM</strong>",
             "heading_tag": "h4",
             "content": "<p>Sun Bum, marque solaire inspirée du surf, protège et hydrate sous le soleil. À l’achat de 20 $, recevez un Coco Balm cerise gratuit, pour des lèvres nourries tout l’été!</p>",
