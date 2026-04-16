@@ -134,9 +134,10 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/Lancement_Sun_Bum_Avril_2026_750_x_600_px.png",
             "block_background": "",
             "text_block_background": "",
-            "title": "Column title",
+            "title": "LANCEMENT SUN BUM",
             "heading_tag": "h3",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
