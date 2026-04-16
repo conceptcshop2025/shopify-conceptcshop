@@ -819,6 +819,7 @@
         },
         "template--16107640619159__1de00121-d287-4d65-ad85-9d644957207a-rating-1": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
@@ -841,12 +842,14 @@
         },
         "text_MRfXbc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h4>Paiement sécurise et fiable avec</h4>"
           }
         },
         "4ea93b40-cf19-48da-b1e2-1a3afa2ae72c": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://cdn.shopify.com/s/files/1/0025/5695/2637/files/paiement-securise.png?v=1760639941\" alt=\"Paiements s&eacute;curis&eacute; et fiable\" width=\"294\" height=\"84\" />"
           }
@@ -867,7 +870,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "product": "pureology-masque-traitement-hydrate-janvier-2026",
+        "product": "kerastase-genesis-serum-anti-chute-fortifiant-30-ml",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 55,
@@ -880,7 +883,7 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "subheading": "",
-        "title": "Nouvelle formule améliorée",
+        "title": "Toute la force Genesis en format mini!",
         "content": ""
       }
     },
