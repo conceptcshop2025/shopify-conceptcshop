@@ -135,7 +135,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Sun_Bum_Avril_2026_750_x_600_px.png",
-            "block_background": "#e5dd81",
+            "block_background": "#f4e266",
             "text_block_background": "#231409",
             "title": "<strong>LANCEMENT SUN BUM</strong>",
             "heading_tag": "h4",
