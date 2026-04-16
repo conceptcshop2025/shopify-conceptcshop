@@ -144,6 +144,20 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_JhDcEi": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_LS_Air_Libre.png",
+            "block_background": "",
+            "text_block_background": "",
+            "title": "<strong>SÉCHAGE À L'AIR LIBRE</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "disabled": true,
@@ -164,6 +178,7 @@
         "image_with_text_nBDx6B",
         "image_with_text_Lt8DPB",
         "image_with_text_4AwCpc",
+        "image_with_text_JhDcEi",
         "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
