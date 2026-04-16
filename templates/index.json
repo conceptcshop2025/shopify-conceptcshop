@@ -149,13 +149,13 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_LS_Air_Libre.png",
-            "block_background": "",
-            "text_block_background": "",
+            "block_background": "#bdac9f",
+            "text_block_background": "#ffffff",
             "title": "<strong>SÉCHAGE À L'AIR LIBRE</strong>",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
+            "content": "<p>La BB crème capillaire idéale pour l’air libre : hydrate, protège, discipline et lisse les frisottis. <strong>Format 50 ml gratuit à l’achat du 150 ml!</strong></p>",
+            "link_url": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
+            "link_text": "magasiner"
           }
         },
         "image_with_text_3LUanK": {
