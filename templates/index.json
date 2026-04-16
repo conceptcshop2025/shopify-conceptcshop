@@ -130,6 +130,19 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_4AwCpc": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "block_background": "",
+            "text_block_background": "",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "image_with_text_3LUanK": {
           "type": "image_with_text",
           "disabled": true,
@@ -149,6 +162,7 @@
         "image_with_text_NFaYwa",
         "image_with_text_nBDx6B",
         "image_with_text_Lt8DPB",
+        "image_with_text_4AwCpc",
         "image_with_text_3LUanK"
       ],
       "name": "# Multi-column",
