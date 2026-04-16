@@ -123,7 +123,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_LS_Air_Libre.png",
-            "block_background": "#6f5e54",
+            "block_background": "#19446e",
             "text_block_background": "#ffffff",
             "title": "<strong>SÉCHAGE À L'AIR LIBRE</strong>",
             "heading_tag": "h4",
