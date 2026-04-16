@@ -73,6 +73,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_aFCiCk": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
+            "promotion_title": "20% sur K18",
+            "promotion_description": "<p>Profitez de 20 % de rabais sur la gamme K18! <em>Jusqu’au 30 avril épuisement des stocks. Certaines conditions s’appliquent.</em></p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_qHnALT": {
           "type": "promotion_card",
           "settings": {
@@ -141,6 +152,7 @@
         "promotion_card_gKtAFG",
         "promotion_card_REFVjV",
         "promotion_card_LqYqPc",
+        "promotion_card_aFCiCk",
         "promotion_card_qHnALT",
         "promotion_card_nXytEh",
         "promotion_card_U3ViJA",
