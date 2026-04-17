@@ -176,7 +176,6 @@
         },
         "promotion_card_MdzkNH": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_00bb8885-fade-4af6-9858-733a5103b310.png",
             "promotion_title": "Sérum Serioxyl",
