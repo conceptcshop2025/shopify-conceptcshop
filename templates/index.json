@@ -423,22 +423,42 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_FVxyPV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
+            "promotion_title": "Coffrets du Printemps",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_McHmfD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3d8039a7-d725-4b3e-8834-2db12b815a2f.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_BJmxLb": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_0b53235d-8326-45e6-9b4d-27c1f293c51d.png",
+            "promotion_image": "shopify://shop_images/15_5e875ecd-edd5-44c9-ae7f-5efc3065d021.png",
             "promotion_title": "Célébrez le mois de la terre!",
             "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml.<em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_n6KzNV": {
+        "promotion_card_rUxfJc": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_834896a3-4e15-4686-a9e0-880f9f47ae44.png",
-            "promotion_title": "Nouveauté Redken",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
+            "promotion_title": "Redken Acidic Grow Full",
+            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus"
           }
@@ -446,7 +466,7 @@
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_4_053df895-f4c5-4613-82c7-85c4c9332dd1.png",
+            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -456,21 +476,10 @@
         "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_5_69645475-28fd-4a43-9b75-0532aa4634ca.png",
+            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
             "promotion_title": "Liquidation",
             "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_FVxyPV": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
-            "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -496,20 +505,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_rUxfJc": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_Pywjda": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_c2449c89-22d0-40bf-89e8-02c5fdbf45db.png",
             "promotion_title": "Séchage à l'air libre",
@@ -520,7 +517,6 @@
         },
         "promotion_card_naEBkP": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
             "promotion_title": "Lancement Sun Bum",
@@ -538,43 +534,20 @@
             "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_McHmfD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3d8039a7-d725-4b3e-8834-2db12b815a2f.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_fVi4LR": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
-            "promotion_title": "Volume.Brillance.Tenue.",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
+        "promotion_card_FVxyPV",
+        "promotion_card_McHmfD",
         "promotion_card_BJmxLb",
-        "promotion_card_n6KzNV",
+        "promotion_card_rUxfJc",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_FVxyPV",
         "promotion_card_jJAwwp",
         "promotion_card_7MWKHn",
-        "promotion_card_rUxfJc",
         "promotion_card_Pywjda",
         "promotion_card_naEBkP",
-        "promotion_card_XzQUhL",
-        "promotion_card_McHmfD",
-        "promotion_card_fVi4LR"
+        "promotion_card_XzQUhL"
       ],
       "name": "# Promotions list",
       "settings": {
