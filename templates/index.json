@@ -91,20 +91,6 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
-        "image_with_text_NFaYwa": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
-            "block_background": "#c45834",
-            "text_block_background": "#ffffff",
-            "title": "<strong>VENTE DU PRINTEMPS - EXTRA 20%</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’au 16 avril, profite d’un<strong> EXTRA 20 % sur presque tout le site ✨</strong> Soldes, liquidation, coffrets et marques favorites tout y est ... voir les détails ici !</p>",
-            "link_url": "shopify://collections/vente-printaniere",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_4AwCpc": {
           "type": "image_with_text",
           "settings": {
@@ -157,29 +143,13 @@
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_3LUanK": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.webp",
-            "block_background": "#003936",
-            "text_block_background": "#ffffff",
-            "title": "<strong>NOUVEAUTÉ REDKEN</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement  + épais + forts et + denses!</p>",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
-        "image_with_text_NFaYwa",
         "image_with_text_4AwCpc",
         "image_with_text_JhDcEi",
         "image_with_text_nBDx6B",
-        "image_with_text_Lt8DPB",
-        "image_with_text_3LUanK"
+        "image_with_text_Lt8DPB"
       ],
       "name": "# Multi-column",
       "settings": {
@@ -496,7 +466,6 @@
         },
         "promotion_card_7MWKHn": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
             "promotion_title": "20% de rabais sur K18",
