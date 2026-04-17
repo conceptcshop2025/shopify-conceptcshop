@@ -117,7 +117,7 @@
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_51628b53-21da-455b-8542-2026e023362d.png",
+            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.</p>",
             "promotion_link": "shopify://collections/concept-c",
@@ -127,21 +127,10 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/18_4b865943-73cf-4315-91e0-b0c5c497d9c6.png",
+            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
             "promotion_title": "Liquidation",
             "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_zDQPUa": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_1_e0ce49c2-5ef6-4dae-915a-9bc4dc4afff6.png",
-            "promotion_title": "Volume.Tenue.Brillance.",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 70 produits coiffants : fixatifs, sprays, mousses, sérums, huiles et protections thermiques. </p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -157,8 +146,7 @@
         "promotion_card_HPrxrN",
         "promotion_card_nXytEh",
         "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz",
-        "promotion_card_zDQPUa"
+        "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
       "settings": {
