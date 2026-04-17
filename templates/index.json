@@ -433,6 +433,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_7MWKHn": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
+            "promotion_title": "20% de rabais sur K18",
+            "promotion_description": "<p>Des produits innovants conçus pour réparer les cheveux abîmés de l’intérieur. Jusqu’au 30 avril ou épuisement des stocks. Certaines conditions s’appliquent.</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -443,19 +453,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_jJAwwp": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
             "promotion_title": "15$ de rabais sur le Miracle Creator",
@@ -464,13 +463,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_7MWKHn": {
+        "promotion_card_BPnVjf": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
-            "promotion_title": "20% de rabais sur K18",
-            "promotion_description": "<p>Des produits innovants conçus pour réparer les cheveux abîmés de l’intérieur. Jusqu’au 30 avril ou épuisement des stocks. Certaines conditions s’appliquent.</p>",
-            "promotion_link": "shopify://collections/k18",
+            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
+            "promotion_title": "Liquidation",
+            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
+            "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -510,10 +509,10 @@
         "promotion_card_McHmfD",
         "promotion_card_BJmxLb",
         "promotion_card_rUxfJc",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
-        "promotion_card_jJAwwp",
         "promotion_card_7MWKHn",
+        "promotion_card_A9aVXj",
+        "promotion_card_jJAwwp",
+        "promotion_card_BPnVjf",
         "promotion_card_Pywjda",
         "promotion_card_naEBkP",
         "promotion_card_XzQUhL"
