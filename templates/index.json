@@ -393,13 +393,23 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_FVxyPV": {
+        "promotion_card_7MWKHn": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
-            "promotion_link": "shopify://collections/coffrets",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
+            "promotion_title": "20% de rabais sur K18",
+            "promotion_description": "<p>Des produits innovants conçus pour réparer les cheveux abîmés de l’intérieur. Jusqu’au 30 avril ou épuisement des stocks. Certaines conditions s’appliquent.</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_jJAwwp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
+            "promotion_title": "15$ de rabais sur le Miracle Creator",
+            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -410,6 +420,16 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_FVxyPV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
+            "promotion_title": "Coffrets du Printemps",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
+            "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -433,16 +453,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_7MWKHn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
-            "promotion_title": "20% de rabais sur K18",
-            "promotion_description": "<p>Des produits innovants conçus pour réparer les cheveux abîmés de l’intérieur. Jusqu’au 30 avril ou épuisement des stocks. Certaines conditions s’appliquent.</p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
           "settings": {
@@ -450,16 +460,6 @@
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
             "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jJAwwp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "15$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -505,13 +505,13 @@
         }
       },
       "block_order": [
-        "promotion_card_FVxyPV",
+        "promotion_card_7MWKHn",
+        "promotion_card_jJAwwp",
         "promotion_card_McHmfD",
+        "promotion_card_FVxyPV",
         "promotion_card_BJmxLb",
         "promotion_card_rUxfJc",
-        "promotion_card_7MWKHn",
         "promotion_card_A9aVXj",
-        "promotion_card_jJAwwp",
         "promotion_card_BPnVjf",
         "promotion_card_Pywjda",
         "promotion_card_naEBkP",
