@@ -247,61 +247,6 @@
             "promotion_link": "shopify://collections/offre-esthederm",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_X79mcW": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026.png",
-            "promotion_title": "Shu Uemura",
-            "promotion_description": "<p>À l’achat de 95 $ de produits Shu Uemura en format régulier (avant taxes et codes promo), recevez un format voyage de l’huile nourrissante Essence Absolue. <em>Limite de 1 par commande. Jusqu’au 13 avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_dFGrUi": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_d3628a6e-bb50-472b-8014-73bd09c848f4.png",
-            "promotion_title": "Nouveauté & Icône",
-            "promotion_description": "<p>À l’achat d’un sérum de nuit Nutritive format régulier, obtenez gratuitement un format deluxe de la crème Frizz-Glaze. <em>Offre valide jusqu’au 13 avril à 23 h 59 ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/kerastase-serum-8hmns-nutritive-90-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_hfDNFW": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_841f5105-c2b8-4ea2-8f06-cbece4d9843c.png",
-            "promotion_title": "Moroccanoil",
-            "promotion_description": "<p>À l’achat de 85 $ de produits Moroccanoil en format régulier (avant taxes et codes promo), recevez gratuitement une brume ultra-légère de 5 ml. <em>Limite de 1 par commande, jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_L9FdV8": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mars_2026_3.png",
-            "promotion_title": "Oribe",
-            "promotion_description": "<p>À l'achat de 125$ de produits Oribe, obtiens gratuitement une mini trousse santé des cheveux! <em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/oribe",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rhVDjF": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/14_a019bc5a-9ea2-4dbe-a339-ad0740a944eb.png",
-            "promotion_title": "René Furterer",
-            "promotion_description": "<p>À l'Achat de 100$ * de produits René Furterer, obtiens gratuitement un pillulier magnétique!</p><p><em>*avant tx et code promo</em></p>",
-            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -312,12 +257,7 @@
         "promotion_card_CNGFbY",
         "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
-        "promotion_card_GTXk6b",
-        "promotion_card_X79mcW",
-        "promotion_card_dFGrUi",
-        "promotion_card_hfDNFW",
-        "promotion_card_L9FdV8",
-        "promotion_card_rhVDjF"
+        "promotion_card_GTXk6b"
       ],
       "name": "# Promotions list",
       "settings": {
