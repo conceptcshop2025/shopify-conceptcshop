@@ -316,34 +316,11 @@
         },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_43150dab-5134-4f64-828d-8a8274931aef.png",
             "promotion_title": "Pureology",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Pureology. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6iwY9K": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/11_e7f30619-dbcc-41be-813c-4beb6a3b7a74.webp",
-            "promotion_title": "Redken",
-            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Redken.*maximum de 1 par commande.</p>",
-            "promotion_link": "shopify://collections/redken",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jxEwGf": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/12_3b925dbc-e050-4be0-83ea-3ecd1ddd4855.webp",
-            "promotion_title": "Balmain",
-            "promotion_description": "<p><strong>Recevez un échantillon</strong> gratuit à l’achat d’un produit Balmain.*maximum de 1 par commande.</p>",
-            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         }
@@ -353,9 +330,7 @@
         "promotion_card_jfRV8G",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
-        "promotion_card_9XbYyw",
-        "promotion_card_6iwY9K",
-        "promotion_card_jxEwGf"
+        "promotion_card_9XbYyw"
       ],
       "name": "# Promotions list",
       "settings": {
