@@ -483,6 +483,17 @@
             "promotion_link_text": "Voir les détails"
           }
         },
+        "promotion_card_FVxyPV": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
+            "promotion_title": "Coffrets du Printemps",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_jJAwwp": {
           "type": "promotion_card",
           "disabled": true,
@@ -577,6 +588,7 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Lg7cQV",
+        "promotion_card_FVxyPV",
         "promotion_card_jJAwwp",
         "promotion_card_7MWKHn",
         "promotion_card_rUxfJc",
