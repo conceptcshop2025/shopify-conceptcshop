@@ -283,17 +283,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_jfRV8G": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/22_6ec57b53-9d3a-49ff-b9d8-623e52fa7156.png",
-            "promotion_title": "René Furterer",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
@@ -323,14 +312,25 @@
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_jfRV8G": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/22_6ec57b53-9d3a-49ff-b9d8-623e52fa7156.png",
+            "promotion_title": "René Furterer",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
         "promotion_card_McCiBz",
-        "promotion_card_jfRV8G",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
-        "promotion_card_9XbYyw"
+        "promotion_card_9XbYyw",
+        "promotion_card_jfRV8G"
       ],
       "name": "# Promotions list",
       "settings": {
