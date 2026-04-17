@@ -21,16 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_pMykUn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_29419d1e-4a8f-4929-a063-f80cd80e9612.png",
-            "promotion_title": "Vente du Printemps!",
-            "promotion_description": "<p>Du 2 au 16 avril, profitez de 20 % de rabais sur presque tout et découvrez vos incontournables à prix avantageux!</p>",
-            "promotion_link": "shopify://collections/vente-printaniere",
-            "promotion_link_text": "Voir les détails"
-          }
-        },
         "promotion_card_GxVjqA": {
           "type": "promotion_card",
           "disabled": true,
@@ -117,16 +107,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_qHnALT": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2.png",
-            "promotion_title": "Ensemble découverte gratuit!",
-            "promotion_description": "<p>Pour tout achat de 350 $ et +, recevez un ensemble découverte Concept C (valeur de 85 $ et plus). <em>Jusqu’au 16 avril ou épuisement des stocks. Avant taxes et après codes promo.</em></p>",
-            "promotion_link": "shopify://products/concept-c-shop-ensemble-decouverte-pour-tout-achat-de-350-et-plus",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_nXytEh": {
           "type": "promotion_card",
           "settings": {
@@ -180,7 +160,6 @@
         }
       },
       "block_order": [
-        "promotion_card_pMykUn",
         "promotion_card_GxVjqA",
         "promotion_card_gKtAFG",
         "promotion_card_REFVjV",
@@ -189,7 +168,6 @@
         "promotion_card_aFCiCk",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
-        "promotion_card_qHnALT",
         "promotion_card_nXytEh",
         "promotion_card_U3ViJA",
         "promotion_card_M9AwAA",
