@@ -185,7 +185,6 @@
         },
         "promotion_card_zCbJwF": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d169b50f-034e-40a3-931d-e4c9d1f0fc24.png",
             "promotion_title": "Pureology 21-en-1!",
