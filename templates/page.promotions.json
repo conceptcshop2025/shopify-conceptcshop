@@ -221,7 +221,7 @@
         "promotion_card_CDrjLY": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_bf9d8e58-cb6d-4fb0-ad2a-1dbf4b36a9d0.png",
+            "promotion_image": "shopify://shop_images/16_f1598364-b193-43a7-ad65-7660b4ded562.png",
             "promotion_title": "Parfum d'ambiance Kérastase",
             "promotion_description": "<p>À l’achat de 3 produits Kérastase en format régulier, obtenez gratuitement un parfum d’ambiance. <em>Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
@@ -231,7 +231,7 @@
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_955e8710-a1dd-4c8e-a10c-ef26a13afec3.png",
+            "promotion_image": "shopify://shop_images/18_70c36c68-98eb-4c7d-a2d3-0926bbba798c.png",
             "promotion_title": "Esthederm Age Proteom",
             "promotion_description": "<p>À l’achat d’un sérum Age Proteom pour le visage ou les yeux, obtenez gratuitement un format deluxe du sérum pour le visage. <em>Limite de 1 par commande. Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/offre-en-cours",
@@ -241,7 +241,7 @@
         "promotion_card_GTXk6b": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_ff86837d-0b55-4f8a-8e1c-6eae2c3b48fa.png",
+            "promotion_image": "shopify://shop_images/19_aa4de74c-70de-40bc-8132-ef2c9f5bd301.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p>À l’achat d’un sérum pour le visage, obtenez 20 % de rabais sur une crème. <em>Le rabais s’applique automatiquement au panier. Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks. Exclut Age Proteom ainsi que la gamme acide hyaluronique.</em></p>",
             "promotion_link": "shopify://collections/offre-esthederm",
@@ -340,7 +340,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/14_210e3ddd-c719-486b-abfc-40edfb322bf5.png",
+            "promotion_image": "shopify://shop_images/20_ddbec471-ba26-4755-96bc-fd6b519851f7.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Kérastase. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -351,7 +351,7 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/16_31490ade-571a-4128-b06d-05ed301048c5.png",
+            "promotion_image": "shopify://shop_images/22_6ec57b53-9d3a-49ff-b9d8-623e52fa7156.png",
             "promotion_title": "René Furterer",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
@@ -361,7 +361,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/15_6f24f34e-6d74-47bf-842e-d1369e19d9ae.png",
+            "promotion_image": "shopify://shop_images/21_14569a9d-7c9a-45c7-b3bc-0908b5923871.png",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -371,7 +371,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/17_279d9192-5db4-4636-b219-c5deb4dd42d9.png",
+            "promotion_image": "shopify://shop_images/23_94b15a50-87e8-4487-8949-62eee02f550a.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
