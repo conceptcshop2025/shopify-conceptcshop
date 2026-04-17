@@ -107,20 +107,10 @@
         "promotion_card_nXytEh": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_0b53235d-8326-45e6-9b4d-27c1f293c51d.png",
+            "promotion_image": "shopify://shop_images/15_5e875ecd-edd5-44c9-ae7f-5efc3065d021.png",
             "promotion_title": "Célébrez le mois de la terre!",
             "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml. <em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em><br/></p>",
             "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_U3ViJA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_834896a3-4e15-4686-a9e0-880f9f47ae44.png",
-            "promotion_title": "Nouveauté Redken",
-            "promotion_description": "<p>Découvrez Acidic Grow Full, la gamme qui renforce les cheveux et les rend visiblement + épais + forts et + denses!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -166,7 +156,6 @@
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_nXytEh",
-        "promotion_card_U3ViJA",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz",
         "promotion_card_zDQPUa"
