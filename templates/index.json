@@ -93,6 +93,7 @@
       "blocks": {
         "image_with_text_NFaYwa": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Vente_Printaniere_2026_750_x_600_px_1.png",
             "block_background": "#c45834",
@@ -106,7 +107,6 @@
         },
         "image_with_text_4AwCpc": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Sun_Bum_Avril_2026_750_x_600_px.png",
             "block_background": "#f4e266",
@@ -120,7 +120,6 @@
         },
         "image_with_text_JhDcEi": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_LS_Air_Libre.png",
             "block_background": "#19446e",
@@ -147,6 +146,7 @@
         },
         "image_with_text_Lt8DPB": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_1.png",
             "block_background": "#444b53",
