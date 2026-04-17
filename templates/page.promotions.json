@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_GxVjqA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
             "promotion_title": "Lancement Sun Bum",
@@ -34,7 +33,6 @@
         },
         "promotion_card_gKtAFG": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_c2449c89-22d0-40bf-89e8-02c5fdbf45db.png",
             "promotion_title": "Séchage à l'air libre",
