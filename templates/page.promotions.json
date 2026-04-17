@@ -65,7 +65,6 @@
         },
         "promotion_card_zQ3xUA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
             "promotion_title": "Coffrets du Printemps",
@@ -76,7 +75,6 @@
         },
         "promotion_card_aFCiCk": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
             "promotion_title": "20% sur K18",
@@ -87,7 +85,6 @@
         },
         "promotion_card_qQcwXa": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
             "promotion_title": "Redken Acidic Grow Full",
