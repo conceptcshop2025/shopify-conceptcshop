@@ -93,7 +93,6 @@
         },
         "promotion_card_HPrxrN": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
             "promotion_title": "15$ de rabais sur le Miracle Creator",
