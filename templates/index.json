@@ -130,6 +130,20 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_WkPhpE": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Coffrets_du_Printemps_2026_750_x_600_px.png",
+            "block_background": "#b6908e",
+            "text_block_background": "#ffffff",
+            "title": "JUSQU'À 40% DE RABAIS",
+            "heading_tag": "h3",
+            "content": "<p>Économisez jusqu’à 40 % sur une sélection de coffrets pour tous les goûts! Parfait pour se faire plaisir ou offrir, à prix avantageux!</p>",
+            "link_url": "shopify://collections/coffrets",
+            "link_text": ""
+          }
+        },
         "image_with_text_Lt8DPB": {
           "type": "image_with_text",
           "disabled": true,
@@ -149,6 +163,7 @@
         "image_with_text_4AwCpc",
         "image_with_text_JhDcEi",
         "image_with_text_nBDx6B",
+        "image_with_text_WkPhpE",
         "image_with_text_Lt8DPB"
       ],
       "name": "# Multi-column",
