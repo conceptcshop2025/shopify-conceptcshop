@@ -119,6 +119,7 @@
         },
         "image_with_text_nBDx6B": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20_Moro_Avril_2026_750_x_600_px_1.png",
             "block_background": "#0f4c4f",
@@ -132,11 +133,10 @@
         },
         "image_with_text_WkPhpE": {
           "type": "image_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Coffrets_du_Printemps_2026_750_x_600_px.png",
-            "block_background": "#a07671",
-            "text_block_background": "#ffffff",
+            "block_background": "#cdaaa9",
+            "text_block_background": "#1c1c1c",
             "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
             "heading_tag": "h4",
             "content": "<p>Économisez jusqu’à 40 % sur une sélection de coffrets pour tous les goûts! Parfait pour se faire plaisir ou offrir, à prix avantageux!</p>",
