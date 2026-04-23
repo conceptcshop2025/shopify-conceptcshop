@@ -73,7 +73,6 @@
         },
         "promotion_card_zckjbr": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d1b7548b-e6b9-4337-aaec-521cfb48e336.png",
             "promotion_title": "20% sur Esthederm",
