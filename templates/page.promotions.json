@@ -71,16 +71,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_zckjbr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d1b7548b-e6b9-4337-aaec-521cfb48e336.png",
-            "promotion_title": "20% sur Esthederm",
-            "promotion_description": "<p>Une approche experte du soin de la peau, pour des résultats visibles. <strong>Recevez 2 échantillons avec chaque commande. </strong><em>Offre valide jusqu’au 26 avril ou épuisement des stocks. Certaines conditions s’appliquent.</em></p>",
-            "promotion_link": "https://conceptcshop.com/collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_qQcwXa": {
           "type": "promotion_card",
           "settings": {
@@ -138,7 +128,6 @@
         "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
         "promotion_card_aFCiCk",
-        "promotion_card_zckjbr",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_nXytEh",
