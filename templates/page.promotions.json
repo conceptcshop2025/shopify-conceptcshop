@@ -283,6 +283,7 @@
         },
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/23_94b15a50-87e8-4487-8949-62eee02f550a.png",
             "promotion_title": "Esthederm",
