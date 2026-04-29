@@ -31,6 +31,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_34NEND": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
+            "promotion_title": "Incontournables soins solaires",
+            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
+            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_gKtAFG": {
           "type": "promotion_card",
           "settings": {
@@ -124,6 +135,7 @@
       },
       "block_order": [
         "promotion_card_GxVjqA",
+        "promotion_card_34NEND",
         "promotion_card_gKtAFG",
         "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
