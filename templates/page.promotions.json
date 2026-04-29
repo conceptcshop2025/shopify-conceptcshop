@@ -21,16 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_GxVjqA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
-            "promotion_title": "Lancement Sun Bum",
-            "promotion_description": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien. <strong>À l’achat de 19.99$, recevez un baume à lèvres Coco balm Cerise gratuit.</strong></p>",
-            "promotion_link": "shopify://collections/sun-bum",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_34NEND": {
           "type": "promotion_card",
           "disabled": true,
@@ -39,6 +29,16 @@
             "promotion_title": "Incontournables soins solaires",
             "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
             "promotion_link": "shopify://collections/visage-corps-soin-solaire",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_GxVjqA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
+            "promotion_title": "Lancement Sun Bum",
+            "promotion_description": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien. <strong>À l’achat de 19.99$, recevez un baume à lèvres Coco balm Cerise gratuit.</strong></p>",
+            "promotion_link": "shopify://collections/sun-bum",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -69,6 +69,17 @@
             "promotion_title": "Coffrets du Printemps",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_h9Cghm": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
+            "promotion_title": "Promo perte de cheveux",
+            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $! </strong></p>",
+            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -134,11 +145,12 @@
         }
       },
       "block_order": [
-        "promotion_card_GxVjqA",
         "promotion_card_34NEND",
+        "promotion_card_GxVjqA",
         "promotion_card_gKtAFG",
         "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
+        "promotion_card_h9Cghm",
         "promotion_card_aFCiCk",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
