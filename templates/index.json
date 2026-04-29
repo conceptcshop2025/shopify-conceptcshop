@@ -119,6 +119,20 @@
             "link_text": "magasiner"
           }
         },
+        "image_with_text_Qt3b3V": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/RF_Perte_de_cheveux.png",
+            "block_background": "#00412f",
+            "text_block_background": "#ffffff",
+            "title": "<strong>PERTE DE CHEVEUX</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml gratuitement à l’achat de 75 $!</strong></p>",
+            "link_url": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_4AwCpc": {
           "type": "image_with_text",
           "settings": {
@@ -157,29 +171,15 @@
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
-        },
-        "image_with_text_Qt3b3V": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/RF_Perte_de_cheveux.png",
-            "block_background": "#00412f",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PERTE DE CHEVEUX</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml gratuitement à l’achat de 75 $.</strong></p>",
-            "link_url": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "image_with_text_ry6pB4",
         "image_with_text_Lt8DPB",
+        "image_with_text_Qt3b3V",
         "image_with_text_4AwCpc",
         "image_with_text_JhDcEi",
-        "image_with_text_WkPhpE",
-        "image_with_text_Qt3b3V"
+        "image_with_text_WkPhpE"
       ],
       "name": "# Multi-column",
       "settings": {
