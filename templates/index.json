@@ -522,6 +522,17 @@
             "promotion_link": "shopify://collections/sun-bum",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_Dp6KDg": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
+            "promotion_title": "Incontournables FPS",
+            "promotion_description": "<p>Les essentiels FPS corps et visage pour toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat! </strong></p>",
+            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -534,7 +545,8 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Pywjda",
-        "promotion_card_naEBkP"
+        "promotion_card_naEBkP",
+        "promotion_card_Dp6KDg"
       ],
       "name": "# Promotions list",
       "settings": {
