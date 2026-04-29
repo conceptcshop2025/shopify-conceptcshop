@@ -378,12 +378,12 @@
       },
       "scheme-bb49f3a6-b558-446d-abbe-c0b339e9de44": {
         "settings": {
-          "background": "#ebd988",
+          "background": "#f4e266",
           "background_gradient": "",
           "text_color": "#1c1c1c",
-          "primary_button_background": "#ebd988",
+          "primary_button_background": "#f4e266",
           "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#ebd988",
+          "circle_button_background": "#f4e266",
           "circle_button_icon": "#1c1c1c"
         }
       }
