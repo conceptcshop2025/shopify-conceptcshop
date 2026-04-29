@@ -96,13 +96,13 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "block_background": "",
-            "text_block_background": "",
-            "title": "INCONTOURNABLES SPF",
+            "block_background": "#dccabd",
+            "text_block_background": "#1c1c1c",
+            "title": "<strong>INCONTOURNABLES FPS</strong>",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Les essentiels FPS corps et visage pour toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat! </strong></p>",
             "link_url": "",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         },
         "image_with_text_4AwCpc": {
