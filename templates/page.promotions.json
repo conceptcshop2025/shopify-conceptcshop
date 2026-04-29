@@ -221,6 +221,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_icwraR": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_5aa7fb4b-0a58-4ca4-886b-35d65fae47f9.png",
+            "promotion_title": "Kérastase Genesis",
+            "promotion_description": "<p>À l’achat d’un sérum Genesis, obtenez gratuitement le bain hydra-fortifiant 30 ml! <em>Offre valide jusqu'au 12 juin ou épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/kerastase-serum-anti-casse-fortifiant-genesis-90-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_MdzkNH": {
           "type": "promotion_card",
           "settings": {
@@ -295,6 +306,7 @@
       "block_order": [
         "promotion_card_RaAF78",
         "promotion_card_74qt63",
+        "promotion_card_icwraR",
         "promotion_card_MdzkNH",
         "promotion_card_zCbJwF",
         "promotion_card_rn9iBq",
