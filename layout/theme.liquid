@@ -12,12 +12,48 @@
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
 
-    {% if request.path contains '/en/collections/shampoing/amika' %}
-      <link rel="canonical" href="https://conceptcshop.com/en/collections/amika-shampoos" />
-    {% elsif request.path contains '/collections/shampoing/amika' %}
-      <link rel="canonical" href="https://conceptcshop.com/collections/amika-shampoings" />
+    {% if request.path contains '/en/collections/shampoing/wella' %}
+      <link rel="canonical" href="/en/collections/wella-shampoos" />
+    {% elsif request.path contains '/collections/shampoing/matrix' %}
+      <link rel="canonical" href="/collections/matrix-shampoings" />
+    {% elsif request.path contains '/collections/fer-plat/chi' %}
+      <link rel="canonical" href="/collections/chi-fers-plats" />
+    {% elsif request.path contains '/en/collections/protecteur-thermal/living-proof' %}
+      <link rel="canonical" href="/en/collections/living-proof-heat-protectants" />
+    {% elsif request.path contains '/collections/loreal/15-30' %}
+      <link rel="canonical" href="/collections/loreal-shampoings" />
+    {% elsif request.path contains '/collections/shampoing/cheveux-epais' %}
+      <link rel="canonical" href="/collections/shampoings-cheveux-epais" />
+    {% elsif request.path contains '/collections/fer-plat/avanti' %}
+      <link rel="canonical" href="/collections/avanti-fers-plats" />
+    {% elsif request.path contains '/collections/produits-de-coloration/revlon' %}
+      <link rel="canonical" href="/collections/revlon-produits-coloration" />
+    {% elsif request.path contains '/collections/shampoing/lanza' %}
+      <link rel="canonical" href="/collections/lanza-shampoings" />
+    {% elsif request.path contains '/collections/protecteur-thermal/loreal' %}
+      <link rel="canonical" href="/collections/loreal-protecteurs-thermal" />
+    {% elsif request.path contains '/collections/shampoing/oribe' %}
+      <link rel="canonical" href="/collections/oribe-shampoings" />
+    {% elsif request.path contains '/collections/shampoing/joico' %}
+      <link rel="canonical" href="/collections/joico-shampoings" />
+    {% elsif request.path contains '/collections/fer-a-friser/babyliss' %}
+      <link rel="canonical" href="/collections/babyliss-pro-fers-friser" />
+    {% elsif request.path contains '/en/collections/matrix/shampoing' %}
+      <link rel="canonical" href="/en/collections/matrix-shampoos" />
+    {% elsif request.path contains '/en/collections/shampoing/bain-de-terre' %}
+      <link rel="canonical" href="/en/collections/bain-de-terre-shampoos" />
+    {% elsif request.path contains '/collections/shampoing-volume/volume' %}
+      <link rel="canonical" href="/collections/shampoing-volume" />
+    {% elsif request.path contains '/collections/traitement-hydratant-2/30-50' %}
+      <link rel="canonical" href="/collections/traitement-hydratant-2" />
+    {% elsif request.path contains '/collections/fer-plat/75-100' %}
+      <link rel="canonical" href="/collections/fer-plat" />
+    {% elsif request.path contains '/collections/traitement-sans-rincage/cheveux-secs' %}
+      <link rel="canonical" href="/collections/traitement-sans-rincage" />
+    {% elsif request.path contains '/collections/festilitre/r-co' %}
+      <link rel="canonical" href="/collections/festilitre" />
     {% else %}
-        <link rel="canonical" href="{{ canonical_url }}" />
+      <link rel="canonical" href="{{ canonical_url }}" />
     {% endif %}
 
     {%- if settings.favicon -%}
