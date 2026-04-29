@@ -513,6 +513,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_naEBkP": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
+            "promotion_title": "Lancement Sun Bum",
+            "promotion_description": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien. <strong>À l’achat de 19.99$, recevez un baume à lèvres Coco balm Cerise gratuit.</strong></p>",
+            "promotion_link": "shopify://collections/sun-bum",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_p9NUDD": {
           "type": "promotion_card",
           "disabled": true,
@@ -521,16 +531,6 @@
             "promotion_title": "-15% sur le séchage à l'air libre!",
             "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
             "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_naEBkP": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
-            "promotion_title": "Lancement Sun Bum",
-            "promotion_description": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien. <strong>À l’achat de 19.99$, recevez un baume à lèvres Coco balm Cerise gratuit.</strong></p>",
-            "promotion_link": "shopify://collections/sun-bum",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -556,6 +556,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_kKqEEE": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
+            "promotion_title": "Duo fortifiant Izumi Tonic",
+            "promotion_description": "<p>25 % de rabais sur le duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_bnh4a6": {
           "type": "promotion_card",
           "disabled": true,
@@ -578,10 +588,11 @@
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_Pywjda",
-        "promotion_card_p9NUDD",
         "promotion_card_naEBkP",
+        "promotion_card_p9NUDD",
         "promotion_card_ALEibb",
         "promotion_card_Dp6KDg",
+        "promotion_card_kKqEEE",
         "promotion_card_bnh4a6"
       ],
       "name": "# Promotions list",
