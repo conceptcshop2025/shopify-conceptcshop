@@ -556,8 +556,20 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_6HdUpJ": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
+            "promotion_title": "Héros Pureology",
+            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_kKqEEE": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
             "promotion_title": "Duo fortifiant Izumi Tonic",
@@ -592,6 +604,7 @@
         "promotion_card_p9NUDD",
         "promotion_card_ALEibb",
         "promotion_card_Dp6KDg",
+        "promotion_card_6HdUpJ",
         "promotion_card_kKqEEE",
         "promotion_card_bnh4a6"
       ],
