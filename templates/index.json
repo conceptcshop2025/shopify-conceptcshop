@@ -150,7 +150,7 @@
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_d40a550e-157a-4ee2-85ff-4d819e2350a4.png",
             "block_background": "#dbc382",
-            "text_block_background": "#ffffff",
+            "text_block_background": "#1c1c1c",
             "title": "<strong>PROMO OUTILS</strong>",
             "heading_tag": "h4",
             "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
