@@ -523,6 +523,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_LRic8G": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
+            "promotion_title": "Solaires Esthederm",
+            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
+            "promotion_link": "shopify://collections/esthederm-solaire",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_p9NUDD": {
           "type": "promotion_card",
           "disabled": true,
@@ -601,6 +612,7 @@
         "promotion_card_BPnVjf",
         "promotion_card_Pywjda",
         "promotion_card_naEBkP",
+        "promotion_card_LRic8G",
         "promotion_card_p9NUDD",
         "promotion_card_ALEibb",
         "promotion_card_Dp6KDg",
