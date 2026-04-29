@@ -96,7 +96,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "block_background": "#dccabd",
+            "block_background": "#68a5b7",
             "text_block_background": "#1c1c1c",
             "title": "<strong>INCONTOURNABLES FPS</strong>",
             "heading_tag": "h4",
