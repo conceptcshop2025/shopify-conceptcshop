@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_eemjfH": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VENTE ÉCLAIR - 20% SUR PRESQUE TOUT*</strong>"
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -22,6 +28,7 @@
         }
       },
       "block_order": [
+        "message_eemjfH",
         "message-1"
       ],
       "settings": {
