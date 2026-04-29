@@ -145,6 +145,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xrx7Yh": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
+            "promotion_title": "Héros Pureology",
+            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-pureology",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_tFtmhM": {
           "type": "promotion_card",
           "disabled": true,
@@ -190,6 +201,7 @@
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_nXytEh",
+        "promotion_card_xrx7Yh",
         "promotion_card_tFtmhM",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
