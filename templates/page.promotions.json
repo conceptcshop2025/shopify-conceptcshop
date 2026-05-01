@@ -41,16 +41,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Y4Ycbt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_LqYqPc": {
           "type": "promotion_card",
           "settings": {
@@ -58,6 +48,16 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Y4Ycbt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
+            "promotion_title": "Recharges l'Oréal",
+            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -156,8 +156,8 @@
       "block_order": [
         "promotion_card_34NEND",
         "promotion_card_dTggz7",
-        "promotion_card_Y4Ycbt",
         "promotion_card_LqYqPc",
+        "promotion_card_Y4Ycbt",
         "promotion_card_zQ3xUA",
         "promotion_card_h9Cghm",
         "promotion_card_qQcwXa",
