@@ -319,16 +319,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_CDrjLY": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/16_f1598364-b193-43a7-ad65-7660b4ded562.png",
-            "promotion_title": "Parfum d'ambiance Kérastase",
-            "promotion_description": "<p>À l’achat de 3 produits Kérastase en format régulier, obtenez gratuitement un parfum d’ambiance. <em>Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_g7JEaM": {
           "type": "promotion_card",
           "settings": {
@@ -359,7 +349,6 @@
         "promotion_card_zCbJwF",
         "promotion_card_rn9iBq",
         "promotion_card_CNGFbY",
-        "promotion_card_CDrjLY",
         "promotion_card_g7JEaM",
         "promotion_card_GTXk6b"
       ],
