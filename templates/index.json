@@ -499,7 +499,6 @@
         },
         "promotion_card_bnh4a6": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
             "promotion_title": "Recharges l'Oréal",
