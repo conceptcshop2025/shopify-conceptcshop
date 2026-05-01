@@ -266,17 +266,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_de9Bg7": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5.png",
-            "promotion_title": "Crème eau cellulaire gratuite!",
-            "promotion_description": "<p>À l’achat de 80 $ en produits Esthederm, obtenez gratuitement une Crème Eau Cellulaire 10 ml! <em>Jusqu'au 31 mai ou épuisement des stock.</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_74qt63": {
           "type": "promotion_card",
           "settings": {
@@ -294,6 +283,16 @@
             "promotion_title": "Sérum Serioxyl",
             "promotion_description": "<p>À l’achat d’un sérum Serioxyl, obtenez gratuitement le shampoing Serioxyl Advanced 100 ml.<em> Limite de 1 par commande. Offre valide jusqu’au 13 mai ou jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://products/loreal-serie-expert-serum-denser-serioxyl-90-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_de9Bg7": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5.png",
+            "promotion_title": "Crème eau cellulaire gratuite!",
+            "promotion_description": "<p>À l’achat de 80 $ en produits Esthederm, obtenez gratuitement une Crème Eau Cellulaire 10 ml! <em>Jusqu'au 31 mai ou épuisement des stock.</em></p>",
+            "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -322,9 +321,9 @@
         "promotion_card_CNGFbY",
         "promotion_card_icwraR",
         "promotion_card_RaAF78",
-        "promotion_card_de9Bg7",
         "promotion_card_74qt63",
         "promotion_card_MdzkNH",
+        "promotion_card_de9Bg7",
         "promotion_card_zCbJwF",
         "promotion_card_rn9iBq"
       ],
