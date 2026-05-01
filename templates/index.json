@@ -423,16 +423,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_7MWKHn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_23541b46-3e53-4429-8344-987725a5c2b1.png",
-            "promotion_title": "20% de rabais sur K18",
-            "promotion_description": "<p>Des produits innovants conçus pour réparer les cheveux abîmés de l’intérieur. Jusqu’au 30 avril ou épuisement des stocks. Certaines conditions s’appliquent.</p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_jJAwwp": {
           "type": "promotion_card",
           "settings": {
@@ -450,16 +440,6 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti.<em> Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BJmxLb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/15_5e875ecd-edd5-44c9-ae7f-5efc3065d021.png",
-            "promotion_title": "Célébrez le mois de la terre!",
-            "promotion_description": "<p>Profitez de 15 % de rabais tout le mois d’avril sur les shampoings Kérastase 500 ml, leurs recharges et les huiles rechargeables 75 ml.<em>Jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/recharge-500-ml-kerastase",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -500,26 +480,6 @@
             "promotion_title": "Liquidation",
             "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Pywjda": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_c2449c89-22d0-40bf-89e8-02c5fdbf45db.png",
-            "promotion_title": "Séchage à l'air libre",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux. <strong>Format 50 ml gratuit à l’achat du format 150 ml (valeur de 20$)</strong></p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_naEBkP": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_a817d486-91c9-45ea-b7c1-7203840a9ec2.png",
-            "promotion_title": "Lancement Sun Bum",
-            "promotion_description": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien. <strong>À l’achat de 19.99$, recevez un baume à lèvres Coco balm Cerise gratuit.</strong></p>",
-            "promotion_link": "shopify://collections/sun-bum",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -602,16 +562,12 @@
         }
       },
       "block_order": [
-        "promotion_card_7MWKHn",
         "promotion_card_jJAwwp",
         "promotion_card_McHmfD",
-        "promotion_card_BJmxLb",
         "promotion_card_FVxyPV",
         "promotion_card_rUxfJc",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_Pywjda",
-        "promotion_card_naEBkP",
         "promotion_card_LRic8G",
         "promotion_card_p9NUDD",
         "promotion_card_ALEibb",
