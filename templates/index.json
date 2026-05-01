@@ -465,12 +465,11 @@
         },
         "promotion_card_kKqEEE": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
             "promotion_title": "Duo fortifiant Izumi Tonic",
             "promotion_description": "<p>25 % de rabais sur le duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
             "promotion_link_text": "Voir plus"
           }
         },
