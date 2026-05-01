@@ -51,16 +51,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_Y4Ycbt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_zQ3xUA": {
           "type": "promotion_card",
           "settings": {
@@ -78,6 +68,16 @@
             "promotion_title": "Promo perte de cheveux",
             "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $! </strong></p>",
             "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Y4Ycbt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
+            "promotion_title": "Recharges l'Oréal",
+            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -157,9 +157,9 @@
         "promotion_card_34NEND",
         "promotion_card_dTggz7",
         "promotion_card_LqYqPc",
-        "promotion_card_Y4Ycbt",
         "promotion_card_zQ3xUA",
         "promotion_card_h9Cghm",
+        "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_PC4TfQ",
