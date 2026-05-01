@@ -51,6 +51,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_zNGX4f": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_90db9add-1edb-4549-bb23-d9bd8aa61c2f.png",
+            "promotion_title": "Fête des Mères",
+            "promotion_description": "<p>Pour elle, tout simplement.Trouvez le parfum parfait dans notre sélection pour la fête des Mères, une idée cadeau qui fait toujours plaisir.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_zQ3xUA": {
           "type": "promotion_card",
           "settings": {
@@ -156,6 +166,7 @@
         "promotion_card_34NEND",
         "promotion_card_dTggz7",
         "promotion_card_LqYqPc",
+        "promotion_card_zNGX4f",
         "promotion_card_zQ3xUA",
         "promotion_card_h9Cghm",
         "promotion_card_Y4Ycbt",
