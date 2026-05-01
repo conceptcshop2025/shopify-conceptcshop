@@ -475,28 +475,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_ALEibb": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
-            "promotion_title": "Promo perte de cheveux",
-            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $!</strong></p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Dp6KDg": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
-            "promotion_title": "Incontournables soins solaires",
-            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_6HdUpJ": {
           "type": "promotion_card",
           "disabled": true,
@@ -529,6 +507,26 @@
             "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_ALEibb": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
+            "promotion_title": "Promo perte de cheveux",
+            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $!</strong></p>",
+            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_Dp6KDg": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
+            "promotion_title": "Incontournables soins solaires",
+            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
+            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -540,11 +538,11 @@
         "promotion_card_BPnVjf",
         "promotion_card_LRic8G",
         "promotion_card_p9NUDD",
-        "promotion_card_ALEibb",
-        "promotion_card_Dp6KDg",
         "promotion_card_6HdUpJ",
         "promotion_card_kKqEEE",
-        "promotion_card_bnh4a6"
+        "promotion_card_bnh4a6",
+        "promotion_card_ALEibb",
+        "promotion_card_Dp6KDg"
       ],
       "name": "# Promotions list",
       "settings": {
