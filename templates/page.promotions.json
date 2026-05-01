@@ -113,7 +113,6 @@
         },
         "promotion_card_xrx7Yh": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
             "promotion_title": "Héros Pureology",
