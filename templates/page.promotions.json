@@ -328,16 +328,6 @@
             "promotion_link": "shopify://collections/offre-en-cours",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_GTXk6b": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/19_aa4de74c-70de-40bc-8132-ef2c9f5bd301.png",
-            "promotion_title": "Esthederm",
-            "promotion_description": "<p>À l’achat d’un sérum pour le visage, obtenez 20 % de rabais sur une crème. <em>Le rabais s’applique automatiquement au panier. Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks. Exclut Age Proteom ainsi que la gamme acide hyaluronique.</em></p>",
-            "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -349,8 +339,7 @@
         "promotion_card_zCbJwF",
         "promotion_card_rn9iBq",
         "promotion_card_CNGFbY",
-        "promotion_card_g7JEaM",
-        "promotion_card_GTXk6b"
+        "promotion_card_g7JEaM"
       ],
       "name": "# Promotions list",
       "settings": {
