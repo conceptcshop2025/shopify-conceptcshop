@@ -465,7 +465,6 @@
         },
         "promotion_card_p9NUDD": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
             "promotion_title": "-15% sur le séchage à l'air libre!",
