@@ -393,6 +393,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_p9NUDD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
+            "promotion_title": "-15% sur le séchage à l'air libre!",
+            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
+            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_jJAwwp": {
           "type": "promotion_card",
           "settings": {
@@ -400,16 +410,6 @@
             "promotion_title": "15$ de rabais sur le Miracle Creator",
             "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_McHmfD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti.<em> Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -463,19 +463,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_p9NUDD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_6HdUpJ": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
             "promotion_title": "Héros Pureology",
@@ -515,6 +504,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_McHmfD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti.<em> Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_Dp6KDg": {
           "type": "promotion_card",
           "settings": {
@@ -527,18 +526,18 @@
         }
       },
       "block_order": [
+        "promotion_card_p9NUDD",
         "promotion_card_jJAwwp",
-        "promotion_card_McHmfD",
         "promotion_card_FVxyPV",
         "promotion_card_rUxfJc",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_LRic8G",
-        "promotion_card_p9NUDD",
         "promotion_card_6HdUpJ",
         "promotion_card_kKqEEE",
         "promotion_card_bnh4a6",
         "promotion_card_ALEibb",
+        "promotion_card_McHmfD",
         "promotion_card_Dp6KDg"
       ],
       "name": "# Promotions list",
