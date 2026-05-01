@@ -455,7 +455,6 @@
         },
         "promotion_card_LRic8G": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
             "promotion_title": "Solaires Esthederm",
