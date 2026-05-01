@@ -96,7 +96,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "block_background": "#bfa690",
+            "block_background": "#fe658c",
             "text_block_background": "#1c1c1c",
             "title": "<strong>INCONTOURNABLES SOINS SOLAIRES</strong>",
             "heading_tag": "h4",
