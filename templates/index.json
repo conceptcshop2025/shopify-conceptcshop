@@ -130,34 +130,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_4AwCpc": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Lancement_Sun_Bum_Avril_2026_750_x_600_px.png",
-            "block_background": "#f4e266",
-            "text_block_background": "#231409",
-            "title": "<strong>LANCEMENT SUN BUM</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Sun Bum propose une gamme solaire complète pour toute la famille. Découvrez des produits essentiels à votre quotidien.<br/><strong>À l’achat de 19.99 $, recevez un baume à  lèvres Coco balm Cerise gratuit.</strong></p>",
-            "link_url": "shopify://collections/sun-bum",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_JhDcEi": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_LS_Air_Libre.png",
-            "block_background": "#19446e",
-            "text_block_background": "#ffffff",
-            "title": "<strong>SÉCHAGE À L'AIR LIBRE</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux.<br/><strong>Format 50 ml gratuit à l’achat du format 150 ml (valeur de 20$)</strong></p>",
-            "link_url": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_WkPhpE": {
           "type": "image_with_text",
           "disabled": true,
@@ -177,8 +149,6 @@
         "image_with_text_ry6pB4",
         "image_with_text_Lt8DPB",
         "image_with_text_Qt3b3V",
-        "image_with_text_4AwCpc",
-        "image_with_text_JhDcEi",
         "image_with_text_WkPhpE"
       ],
       "name": "# Multi-column",
