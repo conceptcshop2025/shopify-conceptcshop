@@ -236,6 +236,16 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_CNGFbY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_fe024dba-29c3-42b5-9ed4-03248a5c5506.png",
+            "promotion_title": "Bâton à lisser d'Oribe",
+            "promotion_description": "<p>À l’achat du bâton Supershine d’Oribe, obtenez gratuitement la brosse Coquette Large de Concept C! <em>Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_RaAF78": {
           "type": "promotion_card",
           "settings": {
@@ -308,27 +318,17 @@
             "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_CNGFbY": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_fe024dba-29c3-42b5-9ed4-03248a5c5506.png",
-            "promotion_title": "Bâton à lisser d'Oribe",
-            "promotion_description": "<p>À l’achat du bâton Supershine d’Oribe, obtenez gratuitement la brosse Coquette Large de Concept C! <em>Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
+        "promotion_card_CNGFbY",
         "promotion_card_RaAF78",
         "promotion_card_de9Bg7",
         "promotion_card_74qt63",
         "promotion_card_icwraR",
         "promotion_card_MdzkNH",
         "promotion_card_zCbJwF",
-        "promotion_card_rn9iBq",
-        "promotion_card_CNGFbY"
+        "promotion_card_rn9iBq"
       ],
       "name": "# Promotions list",
       "settings": {
