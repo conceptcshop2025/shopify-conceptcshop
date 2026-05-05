@@ -64,8 +64,8 @@
         "question_pfNgHQ": {
           "type": "question",
           "settings": {
-            "question": "<strong>Offrez-vous une politique de satisfaction ?</strong>",
-            "answer": "<p>Nous comprenons qu’acheter en ligne peut parfois soulever des questions. Bien que nous n’offrions pas de politique de satisfaction pour le moment et que toutes les ventes soient finales, notre équipe est là pour vous accompagner avant l’achat. N’hésitez pas à nous écrire sur nos réseaux sociaux ou à l’adresse <a>info@conceptcshop.com</a> : il nous fera plaisir de vous aider à choisir le produit le mieux adapté à vos besoins.</p>"
+            "question": "<strong>Offrez-vous une garantie de satisfaction ?</strong>",
+            "answer": "<p>Nous comprenons que certaines situations puissent amener une demande de retour. Veuillez toutefois noter que nous n’offrons pas de garantie satisfaction. Dans certains cas, un retour peut être accepté, à condition de respecter les critères établis (délais, état du produit, etc.).</p><p>Pour plus de détails, nous vous invitons à consulter notre politique de retour et remboursement.</p><p>Notre équipe demeure disponible pour toute question  au besoin au <a>info@conceptcshop.com</a> </p>"
           }
         }
       },
