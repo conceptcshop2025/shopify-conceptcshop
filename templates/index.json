@@ -393,46 +393,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_p9NUDD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Q4yWcn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_90db9add-1edb-4549-bb23-d9bd8aa61c2f.png",
-            "promotion_title": "Fête des Mères",
-            "promotion_description": "<p>Pour elle, tout simplement. Trouvez le parfum parfait dans notre sélection pour la fête des Mères, une idée cadeau qui fait toujours plaisir.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jJAwwp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "15$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_bnh4a6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_FVxyPV": {
           "type": "promotion_card",
           "settings": {
@@ -450,6 +410,26 @@
             "promotion_title": "Redken Acidic Grow Full",
             "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_bnh4a6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
+            "promotion_title": "Recharges l'Oréal",
+            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_jJAwwp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
+            "promotion_title": "15$ de rabais sur le Miracle Creator",
+            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -513,6 +493,26 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Q4yWcn": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_90db9add-1edb-4549-bb23-d9bd8aa61c2f.png",
+            "promotion_title": "Fête des Mères",
+            "promotion_description": "<p>Pour elle, tout simplement. Trouvez le parfum parfait dans notre sélection pour la fête des Mères, une idée cadeau qui fait toujours plaisir.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_p9NUDD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
+            "promotion_title": "-15% sur le séchage à l'air libre!",
+            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
+            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_McHmfD": {
           "type": "promotion_card",
           "settings": {
@@ -535,18 +535,18 @@
         }
       },
       "block_order": [
-        "promotion_card_p9NUDD",
-        "promotion_card_Q4yWcn",
-        "promotion_card_jJAwwp",
-        "promotion_card_bnh4a6",
         "promotion_card_FVxyPV",
         "promotion_card_rUxfJc",
+        "promotion_card_bnh4a6",
+        "promotion_card_jJAwwp",
         "promotion_card_LRic8G",
         "promotion_card_6HdUpJ",
         "promotion_card_kKqEEE",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_ALEibb",
+        "promotion_card_Q4yWcn",
+        "promotion_card_p9NUDD",
         "promotion_card_McHmfD",
         "promotion_card_Dp6KDg"
       ],
