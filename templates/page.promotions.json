@@ -250,9 +250,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_title": "Masseur pour le cuir chevelu Balmain",
+            "promotion_description": "<p>À l’achat de 50 $ de produits Balmain, obtenez gratuitement un masseur pour le cuir chevelu. <em>Exclusivité web.</em></p>",
+            "promotion_link": "shopify://collections/balmain",
             "promotion_link_text": "Voir plus"
           }
         },
