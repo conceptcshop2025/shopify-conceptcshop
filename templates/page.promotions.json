@@ -61,16 +61,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_UCeE7Y": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_b168cc2e-50d1-460f-b68e-20a9c2dba29d.png",
-            "promotion_title": "20% sur Nuda",
-            "promotion_description": "<p>Profitez de 20 % de rabais sur toute la gamme du 7 au 11 mai . Des soins autobronzants naturels pour un éclat lumineux et personnalisé!</p>",
-            "promotion_link": "shopify://collections/nuda",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_h9Cghm": {
           "type": "promotion_card",
           "settings": {
@@ -167,7 +157,6 @@
         "promotion_card_dTggz7",
         "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
-        "promotion_card_UCeE7Y",
         "promotion_card_h9Cghm",
         "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
