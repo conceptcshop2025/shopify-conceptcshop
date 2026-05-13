@@ -136,7 +136,7 @@
           "settings": {
             "image": "shopify://shop_images/Ilettre_Jours_C.png",
             "block_background": "#1c1c1c",
-            "text_block_background": "#1c1c1c",
+            "text_block_background": "#a0d4ff",
             "title": "LES JOURS C!",
             "heading_tag": "h4",
             "content": "<p><strong>Jusqu’à 50 % de rabais</strong> sur les produits que vous aimez le plus parmi + de 50 marques professionnelles : vos essentiels testés et approuvés!</p>",
