@@ -42,6 +42,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xaWW7d": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_bef42127-5b82-41f6-9a2a-20af1b524b09.png",
+            "promotion_title": "Le secret d'un sleek parfait",
+            "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
+            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_dTggz7": {
           "type": "promotion_card",
           "settings": {
@@ -166,6 +177,7 @@
       "block_order": [
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
+        "promotion_card_xaWW7d",
         "promotion_card_dTggz7",
         "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
