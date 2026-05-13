@@ -261,7 +261,6 @@
         },
         "promotion_card_qcFYTp": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_59930f7c-bde2-4865-a805-8477e7aaf81a.png",
             "promotion_title": "Masseur pour le cuir chevelu Balmain",
