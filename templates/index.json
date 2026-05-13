@@ -151,9 +151,9 @@
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
             "block_background": "#1e234c",
             "text_block_background": "#ffffff",
-            "title": "LE SECRET D'UN SLEEK PARFAIT",
+            "title": "<strong>LE SECRET D'UN SLEEK PARFAIT</strong>",
             "heading_tag": "h4",
-            "content": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable.</p>",
+            "content": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
             "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "link_text": "magasiner"
           }
