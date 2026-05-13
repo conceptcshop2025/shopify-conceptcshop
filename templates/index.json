@@ -91,6 +91,20 @@
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
+        "image_with_text_YwJeby": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_Jours_C.png",
+            "block_background": "#a0d4ff",
+            "text_block_background": "#000000",
+            "title": "<strong>LES JOURS C!</strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>Jusqu’à 50 % de rabais</strong> sur les meilleurs vendeurs de + de 50 marques professionnelles : vos essentiels préférés, testés et approuvés par vous!</p>",
+            "link_url": "shopify://collections/les-jours-c",
+            "link_text": "magasiner"
+          }
+        },
         "image_with_text_ry6pB4": {
           "type": "image_with_text",
           "settings": {
@@ -130,20 +144,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_YwJeby": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "block_background": "#a0d4ff",
-            "text_block_background": "#000000",
-            "title": "<strong>LES JOURS C!</strong>",
-            "heading_tag": "h4",
-            "content": "<p><strong>Jusqu’à 50 % de rabais</strong> sur les meilleurs vendeurs de + de 50 marques professionnelles : vos essentiels préférés, testés et approuvés par vous!</p>",
-            "link_url": "shopify://collections/les-jours-c",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_CjX9EN": {
           "type": "image_with_text",
           "disabled": true,
@@ -174,10 +174,10 @@
         }
       },
       "block_order": [
+        "image_with_text_YwJeby",
         "image_with_text_ry6pB4",
         "image_with_text_Lt8DPB",
         "image_with_text_Qt3b3V",
-        "image_with_text_YwJeby",
         "image_with_text_CjX9EN",
         "image_with_text_WkPhpE"
       ],
