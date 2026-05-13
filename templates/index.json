@@ -149,8 +149,8 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
-            "block_background": "",
-            "text_block_background": "",
+            "block_background": "#1e234c",
+            "text_block_background": "#ffffff",
             "title": "LE SECRET D'UN SLEEK PARFAIT",
             "heading_tag": "h4",
             "content": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable.</p>",
