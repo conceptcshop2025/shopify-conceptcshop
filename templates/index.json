@@ -99,7 +99,7 @@
             "text_block_background": "#ffffff",
             "title": "<strong>INCONTOURNABLES SOINS SOLAIRES</strong>",
             "heading_tag": "h4",
-            "content": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose (valeur de 15$) gratuite dès 55 $ d’achat!</strong></p>",
+            "content": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
             "link_url": "shopify://collections/visage-corps-soin-solaire",
             "link_text": "magasiner"
           }
@@ -135,7 +135,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "block_background": "#a0d4ff",
+            "block_background": "#1c1c1c",
             "text_block_background": "#1c1c1c",
             "title": "LES JOURS C!",
             "heading_tag": "h4",
