@@ -66,7 +66,6 @@
     },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
-      "disabled": true,
       "custom_css": [
         ".collection-tags .tag.tag-collection {background: #a0d4ff; color: #ffffff;}"
       ],
