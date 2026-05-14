@@ -63,16 +63,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_h9Cghm": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
-            "promotion_title": "Promo perte de cheveux",
-            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $! </strong></p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_Y4Ycbt": {
           "type": "promotion_card",
           "settings": {
@@ -159,7 +149,6 @@
         "promotion_card_WxVzV8",
         "promotion_card_xaWW7d",
         "promotion_card_zQ3xUA",
-        "promotion_card_h9Cghm",
         "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
