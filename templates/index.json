@@ -498,16 +498,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_ALEibb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
-            "promotion_title": "Promo perte de cheveux",
-            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $!</strong></p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_mXPNVx": {
           "type": "promotion_card",
           "disabled": true,
@@ -521,32 +511,11 @@
         },
         "promotion_card_EFhVMe": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_bef42127-5b82-41f6-9a2a-20af1b524b09.png",
             "promotion_title": "Le secret d'un sleek parfait!",
             "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_p9NUDD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_McHmfD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti.<em> Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -571,11 +540,8 @@
         "promotion_card_kKqEEE",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
-        "promotion_card_ALEibb",
         "promotion_card_mXPNVx",
         "promotion_card_EFhVMe",
-        "promotion_card_p9NUDD",
-        "promotion_card_McHmfD",
         "promotion_card_Dp6KDg"
       ],
       "name": "# Promotions list",
