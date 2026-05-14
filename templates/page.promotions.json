@@ -53,26 +53,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_dTggz7": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_LqYqPc": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_zQ3xUA": {
           "type": "promotion_card",
           "settings": {
@@ -178,8 +158,6 @@
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
         "promotion_card_xaWW7d",
-        "promotion_card_dTggz7",
-        "promotion_card_LqYqPc",
         "promotion_card_zQ3xUA",
         "promotion_card_h9Cghm",
         "promotion_card_Y4Ycbt",
@@ -209,16 +187,6 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_CNGFbY": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_fe024dba-29c3-42b5-9ed4-03248a5c5506.png",
-            "promotion_title": "Bâton à lisser d'Oribe",
-            "promotion_description": "<p>À l’achat du bâton Supershine d’Oribe, obtenez gratuitement la brosse Coquette Large de Concept C! <em>Offre valide jusqu’au 31 mai ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_icwraR": {
           "type": "promotion_card",
           "settings": {
@@ -226,16 +194,6 @@
             "promotion_title": "Kérastase Genesis",
             "promotion_description": "<p>À l’achat d’un sérum Genesis, obtenez gratuitement le bain hydra-fortifiant 30 ml! <em>Offre valide jusqu'au 12 juin ou épuisement des stocks.</em></p>",
             "promotion_link": "shopify://products/kerastase-serum-anti-casse-fortifiant-genesis-90-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_RaAF78": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_9e0523dc-2262-45d8-85a6-b2dbac390fb3.png",
-            "promotion_title": "Davines Essential Haircare!",
-            "promotion_description": "<p>À l’achat de 60 $ de produits Essential Haircare, obtenez gratuitement un mini exfoliant Solu de 75 ml.<em> Limite de 1 par commande. Offre valide jusqu'au 13 mai ou à l'épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -301,9 +259,7 @@
         }
       },
       "block_order": [
-        "promotion_card_CNGFbY",
         "promotion_card_icwraR",
-        "promotion_card_RaAF78",
         "promotion_card_74qt63",
         "promotion_card_MdzkNH",
         "promotion_card_qcFYTp",
