@@ -226,24 +226,13 @@
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_rn9iBq": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b7b53a6d-5d38-444f-a86c-e329a143cb8e.png",
-            "promotion_title": "Biolage Scalp Sync & Full Rescue",
-            "promotion_description": "<p>À l’achat de 50 $ de produits Biolage Scalp Sync et Full Rescue, obtenez gratuitement le Sérum Full Rescue 15 ml. <em>Limite d’un par commande. Offre valide jusqu’au 13 mai ou jusqu’à l’épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_icwraR",
         "promotion_card_74qt63",
         "promotion_card_qcFYTp",
-        "promotion_card_de9Bg7",
-        "promotion_card_rn9iBq"
+        "promotion_card_de9Bg7"
       ],
       "name": "# Promotions list",
       "settings": {
