@@ -33,7 +33,6 @@
         },
         "promotion_card_WxVzV8": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_715468b3-b70f-40e0-8046-b52de0711d1f.png",
             "promotion_title": "Les Jours C",
