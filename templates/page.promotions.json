@@ -44,7 +44,6 @@
         },
         "promotion_card_xaWW7d": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_bef42127-5b82-41f6-9a2a-20af1b524b09.png",
             "promotion_title": "Le secret d'un sleek parfait",
