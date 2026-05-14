@@ -227,16 +227,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_zCbJwF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d169b50f-034e-40a3-931d-e4c9d1f0fc24.png",
-            "promotion_title": "Pureology 21-en-1!",
-            "promotion_description": "<p>À l’achat de 100 $ de produits Pureology, obtenez gratuitement un 21-en-1 Color Fanatic 30 ml.<em> Offre valide jusqu’au 13 mai ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_rn9iBq": {
           "type": "promotion_card",
           "settings": {
@@ -253,7 +243,6 @@
         "promotion_card_74qt63",
         "promotion_card_qcFYTp",
         "promotion_card_de9Bg7",
-        "promotion_card_zCbJwF",
         "promotion_card_rn9iBq"
       ],
       "name": "# Promotions list",
