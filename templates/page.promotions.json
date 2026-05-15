@@ -295,6 +295,7 @@
         },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_43150dab-5134-4f64-828d-8a8274931aef.png",
             "promotion_title": "Pureology",
