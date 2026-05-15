@@ -206,7 +206,6 @@
         },
         "promotion_card_CmxthT": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_16de9dac-fdab-4851-9d96-014a4f60a988.png",
             "promotion_title": "Lancement Blond Guard",
