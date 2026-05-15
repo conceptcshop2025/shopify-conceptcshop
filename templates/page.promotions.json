@@ -63,6 +63,7 @@
         },
         "promotion_card_KigpXa": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_bbf8ea2f-b78a-4d92-ae4d-3071691ac738.png",
             "promotion_title": "20% de rabais",
