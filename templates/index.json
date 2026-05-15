@@ -408,6 +408,17 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_nWCVAz": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_bbf8ea2f-b78a-4d92-ae4d-3071691ac738.png",
+            "promotion_title": "20% de rabais",
+            "promotion_description": "<p>Sun Bum propose une gamme solaire complète conçue pour toute la famille, avec des essentiels parfaits pour protéger, hydrater et accompagner votre quotidien tout au long de l’été.</p>",
+            "promotion_link": "shopify://collections/sun-bum",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_FVxyPV": {
           "type": "promotion_card",
           "settings": {
@@ -530,6 +541,7 @@
         }
       },
       "block_order": [
+        "promotion_card_nWCVAz",
         "promotion_card_FVxyPV",
         "promotion_card_rUxfJc",
         "promotion_card_bnh4a6",
