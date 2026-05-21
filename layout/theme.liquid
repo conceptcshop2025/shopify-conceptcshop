@@ -100,8 +100,8 @@
 
     {{ content_for_header }}
 
-    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-    {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{- 'theme.css' | asset_url | stylesheet_tag -}}
+    {{- 'custom.css' | asset_url | stylesheet_tag -}}
     {{- 'custom-swym-wishlist.css' | asset_url | stylesheet_tag -}}
 
     {% render 'custom-meta-script' %}
