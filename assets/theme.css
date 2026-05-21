@@ -8040,3 +8040,8 @@ ul {
     padding: 0;
   }
 }
+
+header-sidebar a,
+header ul li a {
+  color: inherit !important;
+}
