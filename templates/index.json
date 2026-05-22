@@ -490,6 +490,7 @@
         },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
             "promotion_title": "Accessoires Concept C",
