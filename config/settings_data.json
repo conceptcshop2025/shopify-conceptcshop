@@ -71,6 +71,14 @@
               "link": "shopify://collections/design-me"
             }
           },
+          "25a04c51-45f1-485c-9499-2a6279adeda6": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Logo_K18.jpg",
+              "logo_width": 120,
+              "link": "shopify://collections/k18"
+            }
+          },
           "86ab3cdf-e76c-4caa-b5f2-27ca43e32329": {
             "type": "logo",
             "settings": {
@@ -94,24 +102,16 @@
               "logo_width": 120,
               "link": "shopify://collections/redken"
             }
-          },
-          "25a04c51-45f1-485c-9499-2a6279adeda6": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify://shop_images/Logo_K18.jpg",
-              "logo_width": 120,
-              "link": "shopify://collections/k18"
-            }
           }
         },
         "block_order": [
           "7140ed21-6f12-43fe-88b3-15a0e9c1a80b",
           "0370a321-2eaa-423c-a01a-6927bfd918b2",
           "22dd906d-02cd-4987-8b93-aa71c5794b9d",
+          "25a04c51-45f1-485c-9499-2a6279adeda6",
           "86ab3cdf-e76c-4caa-b5f2-27ca43e32329",
           "cb0ffb90-bb24-4100-a4b2-39daaa35e2d6",
-          "d28189a7-1cfe-4adb-ba2c-f63e1861ca38",
-          "25a04c51-45f1-485c-9499-2a6279adeda6"
+          "d28189a7-1cfe-4adb-ba2c-f63e1861ca38"
         ],
         "settings": {
           "color_scheme": "",
