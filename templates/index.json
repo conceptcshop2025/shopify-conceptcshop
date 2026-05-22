@@ -88,6 +88,55 @@
         "controls_color": "#ffffff"
       }
     },
+    "c_home_multi_banner_EHJpLw": {
+      "type": "c-home-multi-banner",
+      "blocks": {
+        "item_banner_QjkLLB": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_Jours_C.png",
+            "background_color": "",
+            "title": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "item_banner_k6gaRg": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
+            "background_color": "",
+            "title": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "item_banner_AT6QFg": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
+            "background_color": "",
+            "title": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_banner_QjkLLB",
+        "item_banner_k6gaRg",
+        "item_banner_AT6QFg"
+      ],
+      "name": "t:c_sections.c_home_multi_banner.name",
+      "settings": {
+        "first_section": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_multi_column_BHzrQP": {
       "type": "custom-multi-column",
       "blocks": {
@@ -1029,6 +1078,7 @@
   "order": [
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
+    "c_home_multi_banner_EHJpLw",
     "custom_multi_column_BHzrQP",
     "countdown_j3bgUj",
     "custom_collection_list_Y6XW4j",
