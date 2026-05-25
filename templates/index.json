@@ -951,6 +951,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_VqkUtd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -1000,6 +1001,7 @@
         },
         "juniper_tiktok_feed_mintty_tiktok_feed_NV7VmU": {
           "type": "shopify://apps/mintt-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "disabled": true,
           "settings": {
             "title": "TikTok",
             "title_color": "#1c1c1c",
