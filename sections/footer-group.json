@@ -115,7 +115,6 @@
         },
         "newsletter_WatDyd": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "title": "Infolettre",
             "content": "<p>Abonnez-vous à notre infolettre et profitez de 10 % de rabais exclusif dès maintenant !</p>",
