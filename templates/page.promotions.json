@@ -101,6 +101,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_MMQHPd": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_title": "15% sur Soleil de Kérastase",
+            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_xrx7Yh": {
           "type": "promotion_card",
           "settings": {
@@ -162,6 +173,7 @@
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_PC4TfQ",
+        "promotion_card_MMQHPd",
         "promotion_card_xrx7Yh",
         "promotion_card_tFtmhM",
         "promotion_card_zQ3xUA",
