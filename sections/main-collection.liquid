@@ -305,6 +305,24 @@ LIQUID
   </div>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const latestCollection = localStorage.getItem('latestCollection');
+    const latestCollectionUrl = localStorage.getItem('latestCollectionUrl');
+
+    if (latestCollection === null || latestCollection === undefined) {
+      localStorage.setItem('latestCollection', '{{ collection.handle }}');
+      localStorage.setItem('latestCollectionUrl', '{{ collection.url }}');
+    } else {
+      const newLatestCollection = '{{ collection.handle }}';
+      if (newLatestCollection !== latestCollection) {
+        localStorage.setItem('latestCollection', newLatestCollection);
+        localStorage.setItem('latestCollectionUrl', '{{ collection.url }}');
+      }
+    }
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main_collection.name",

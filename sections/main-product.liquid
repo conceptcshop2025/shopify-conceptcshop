@@ -199,14 +199,14 @@ quick buy information in a template, that will be extracted in JS, which ensures
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const collectionOrigin = new URLSearchParams(window.location.search).get('collection-origin');
-    const collectionUrl = new URLSearchParams(window.location.search).get('collection-url');
-
-    if (collectionOrigin) {
-      document.querySelector('.collection-item-breadcrumb').textContent = collectionOrigin;
-      if (collectionUrl) {
-        document.querySelector('.collection-item-breadcrumb').setAttribute('href', collectionUrl);
-      }
+    const targetBreadcrumb = document.querySelector('.collection-item-breadcrumb');
+    const latestCollectionUrl = localStorage.getItem('latestCollectionUrl');
+    if (targetBreadcrumb) {
+      const latestCollection = localStorage.getItem('latestCollection');
+      if (latestCollection) {
+        targetBreadcrumb.textContent = latestCollection;
+        targetBreadcrumb.setAttribute('href', latestCollectionUrl);
+      } 
     }
   });
 </script>
