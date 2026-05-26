@@ -122,11 +122,11 @@
         },
         "selleasy_lb_upsell_widget_cpal_pfiGG6": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-cpal/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "disabled": true,
           "settings": {}
         },
         "one_click_upsell_on_page_7f7pz7": {
           "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "disabled": true,
           "settings": {}
         },
         "payment_terms": {
