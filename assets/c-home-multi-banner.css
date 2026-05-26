@@ -1,5 +1,68 @@
 .c-home-multi-banner .multi-banner-container {
+  width: 100%;
+  gap: 16px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  scroll-snap-type: x mandatory;
+}
+
+.c-home-multi-banner .multi-banner-container::-webkit-scrollbar {
+  display: none;
+}
+
+.c-home-multi-banner .multi-banner-container .multi-banner-content {
+  width: 300%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: .9fr 1fr 1fr;
   gap: 4px;
+}
+
+.c-home-multi-banner .multi-banner-container .multi-banner-content .banner-content {
+  padding: 1.5rem;
+}
+
+.c-home-multi-banner .multi-banner-container .multi-banner-content .banner-item img {
+  aspect-ratio: 4 / 3;
+  height: 280px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .c-home-multi-banner .multi-banner-container .multi-banner-content {
+    width: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-home-multi-banner .multi-banner-container .multi-banner-content {
+    width: 150%;
+  }
+}
+
+@media (min-width: 980px) {
+  .c-home-multi-banner .multi-banner-container .multi-banner-content {
+    width: initial;
+  }
+
+  .c-home-multi-banner .multi-banner-container .multi-banner-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-home-multi-banner .multi-banner-container .multi-banner-content .banner-item img {
+    height: 320px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .c-home-multi-banner .multi-banner-container .multi-banner-content .banner-item img {
+    height: 450px;
+  }
 }

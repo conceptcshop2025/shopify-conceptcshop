@@ -1854,5 +1854,43 @@
         }
       }
     }
+  },
+  "c_sections": {
+    "c_home_multi_banner": {
+      "name": "C Home Multi Banner",
+      "settings": {
+        "set_primary_section": {
+          "label": "Cette section est la premiere da la page d'accueil"
+        }
+      },
+      "blocks": {
+        "item_banner": {
+          "name": "Item Banner",
+          "settings": {
+            "image": {
+              "label": "Image",
+            },
+            "background_color": {
+              "label": "Couleur du fond"
+            },
+            "text_color": {
+              "label": "Couleur du texte"
+            },
+            "header_item": {
+              "label": "Header Item"
+            },
+            "description": {
+              "label": "Description Item"
+            },
+            "link_url": {
+              "label": "Url Item"
+            },
+            "link_text": {
+              "label": "Url Label Item"
+            },
+          }
+        }
+      }
+    }
   }
 }

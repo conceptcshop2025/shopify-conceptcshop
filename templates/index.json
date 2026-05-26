@@ -95,33 +95,36 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "background_color": "",
-            "title": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
+            "background_color": "#a0d4ff",
+            "title": "<strong>LES JOURS C!</strong>",
+            "description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
+            "text_color": "#1c1c1c",
+            "link_url": "shopify://collections/les-jours-c",
+            "link_text": "magasiner"
           }
         },
         "item_banner_k6gaRg": {
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "background_color": "",
-            "title": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
+            "background_color": "#fe658c",
+            "title": "<strong>NOS INCONTOURNABLES SOLAIRES</strong>",
+            "description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/visage-corps-soin-solaire",
+            "link_text": "magasiner"
           }
         },
         "item_banner_AT6QFg": {
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
-            "background_color": "",
-            "title": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
+            "background_color": "#1e234c",
+            "title": "<strong>LE SECRET D'UN SLEEK PARFAIT</strong>",
+            "description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "link_text": "magasiner"
           }
         }
       },
@@ -130,6 +133,7 @@
         "item_banner_k6gaRg",
         "item_banner_AT6QFg"
       ],
+      "disabled": true,
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
         "first_section": false,
