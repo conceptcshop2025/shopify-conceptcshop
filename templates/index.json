@@ -459,62 +459,11 @@
       "blocks": {
         "promotion_card_nWCVAz": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_bbf8ea2f-b78a-4d92-ae4d-3071691ac738.png",
             "promotion_title": "20% de rabais",
             "promotion_description": "<p>Sun Bum propose une gamme solaire complète conçue pour toute la famille, avec des essentiels parfaits pour protéger, hydrater et accompagner votre quotidien tout au long de l’été.</p>",
             "promotion_link": "shopify://collections/sun-bum",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_FVxyPV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rUxfJc": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_bnh4a6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jJAwwp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "18$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_LRic8G": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
-            "promotion_title": "Solaires Esthederm",
-            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -528,6 +477,46 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_bnh4a6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
+            "promotion_title": "Recharges l'Oréal",
+            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_LRic8G": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
+            "promotion_title": "Solaires Esthederm",
+            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
+            "promotion_link": "shopify://collections/esthederm-solaire",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_jJAwwp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
+            "promotion_title": "18$ de rabais sur le Miracle Creator",
+            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_rUxfJc": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
+            "promotion_title": "Redken Acidic Grow Full",
+            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_kKqEEE": {
           "type": "promotion_card",
           "settings": {
@@ -538,8 +527,29 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_L6hMKL": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_title": "15% sur Soleil de Kérastase",
+            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!<br/><br/><br/></p>",
+            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_FVxyPV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
+            "promotion_title": "Coffrets du Printemps",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_A9aVXj": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
             "promotion_title": "Accessoires Concept C",
@@ -591,13 +601,14 @@
       },
       "block_order": [
         "promotion_card_nWCVAz",
-        "promotion_card_FVxyPV",
-        "promotion_card_rUxfJc",
-        "promotion_card_bnh4a6",
-        "promotion_card_jJAwwp",
-        "promotion_card_LRic8G",
         "promotion_card_6HdUpJ",
+        "promotion_card_bnh4a6",
+        "promotion_card_LRic8G",
+        "promotion_card_jJAwwp",
+        "promotion_card_rUxfJc",
         "promotion_card_kKqEEE",
+        "promotion_card_L6hMKL",
+        "promotion_card_FVxyPV",
         "promotion_card_A9aVXj",
         "promotion_card_BPnVjf",
         "promotion_card_mXPNVx",
@@ -989,6 +1000,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_VqkUtd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -1038,6 +1050,7 @@
         },
         "juniper_tiktok_feed_mintty_tiktok_feed_NV7VmU": {
           "type": "shopify://apps/mintt-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "disabled": true,
           "settings": {
             "title": "TikTok",
             "title_color": "#1c1c1c",

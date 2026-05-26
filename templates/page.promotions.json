@@ -51,19 +51,8 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_zQ3xUA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_KigpXa": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_bbf8ea2f-b78a-4d92-ae4d-3071691ac738.png",
             "promotion_title": "20% de rabais",
@@ -112,6 +101,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_MMQHPd": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_title": "15% sur Soleil de Kérastase",
+            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_xrx7Yh": {
           "type": "promotion_card",
           "settings": {
@@ -132,8 +131,19 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_zQ3xUA": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
+            "promotion_title": "Coffrets du Printemps",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_M9AwAA": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
             "promotion_title": "Accessoires Concept C",
@@ -157,14 +167,15 @@
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
         "promotion_card_xaWW7d",
-        "promotion_card_zQ3xUA",
         "promotion_card_KigpXa",
         "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
         "promotion_card_HPrxrN",
         "promotion_card_PC4TfQ",
+        "promotion_card_MMQHPd",
         "promotion_card_xrx7Yh",
         "promotion_card_tFtmhM",
+        "promotion_card_zQ3xUA",
         "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
