@@ -571,36 +571,6 @@
             "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_mXPNVx": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_715468b3-b70f-40e0-8046-b52de0711d1f.png",
-            "promotion_title": "Les Jours C",
-            "promotion_description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "promotion_link": "shopify://collections/les-jours-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_EFhVMe": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_bef42127-5b82-41f6-9a2a-20af1b524b09.png",
-            "promotion_title": "Le secret d'un sleek parfait!",
-            "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Dp6KDg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
-            "promotion_title": "Incontournables soins solaires",
-            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
@@ -614,10 +584,7 @@
         "promotion_card_L6hMKL",
         "promotion_card_FVxyPV",
         "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
-        "promotion_card_mXPNVx",
-        "promotion_card_EFhVMe",
-        "promotion_card_Dp6KDg"
+        "promotion_card_BPnVjf"
       ],
       "name": "# Promotions list",
       "settings": {
