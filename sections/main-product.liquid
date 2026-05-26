@@ -208,6 +208,70 @@ quick buy information in a template, that will be extracted in JS, which ensures
         targetBreadcrumb.setAttribute('href', latestCollectionUrl);
       } 
     }
+
+    {% comment %}  {% endcomment %}
+      (function() {
+
+        // FETCH
+        const originalFetch = window.fetch;
+
+        window.fetch = async function(...args) {
+          const response = await originalFetch.apply(this, args);
+
+          const url = args[0];
+
+          if (typeof url === 'string' && url.includes('/cart/add')) {
+
+            response.clone().json().then(data => {
+
+              document.dispatchEvent(
+                new CustomEvent('shopify:item-added', {
+                  detail: data
+                })
+              );
+
+            });
+
+          }
+
+          return response;
+        };
+
+        // XHR
+        const originalOpen = XMLHttpRequest.prototype.open;
+
+        XMLHttpRequest.prototype.open = function(method, url) {
+
+          if (url.includes('/cart/add')) {
+
+            this.addEventListener('load', () => {
+
+              try {
+
+                const data = JSON.parse(this.responseText);
+
+                document.dispatchEvent(
+                  new CustomEvent('shopify:item-added', {
+                    detail: data
+                  })
+                );
+
+              } catch(e) {}
+
+            });
+
+          }
+
+          return originalOpen.apply(this, arguments);
+        };
+
+      })();
+
+      document.addEventListener('shopify:item-added', (e) => {
+        const cartElement = document.querySelector('.header__cart-link').querySelector('a');
+        cartElement.click();
+      });
+     {% comment %}  {% endcomment %}
   });
 </script>
 
