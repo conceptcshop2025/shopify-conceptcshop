@@ -133,7 +133,6 @@
         "item_banner_k6gaRg",
         "item_banner_AT6QFg"
       ],
-      "disabled": true,
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
         "first_section": false,
@@ -219,6 +218,7 @@
         "image_with_text_CjX9EN",
         "image_with_text_WkPhpE"
       ],
+      "disabled": true,
       "name": "# Multi-column",
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
