@@ -471,16 +471,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_6HdUpJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_bnh4a6": {
           "type": "promotion_card",
           "settings": {
@@ -488,26 +478,6 @@
             "promotion_title": "Recharges l'Oréal",
             "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
             "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_LRic8G": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
-            "promotion_title": "Solaires Esthederm",
-            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_jJAwwp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "18$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -521,23 +491,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_kKqEEE": {
+        "promotion_card_6HdUpJ": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
-            "promotion_title": "Duo fortifiant Izumi Tonic",
-            "promotion_description": "<p>25 % de rabais sur le duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
-            "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_L6hMKL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
-            "promotion_title": "15% sur Soleil de Kérastase",
-            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!<br/><br/><br/></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
+            "promotion_title": "Héros Pureology",
+            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -550,41 +510,14 @@
             "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>Jusqu'à 20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_nWCVAz",
-        "promotion_card_6HdUpJ",
         "promotion_card_bnh4a6",
-        "promotion_card_LRic8G",
-        "promotion_card_jJAwwp",
         "promotion_card_rUxfJc",
-        "promotion_card_kKqEEE",
-        "promotion_card_L6hMKL",
-        "promotion_card_FVxyPV",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf"
+        "promotion_card_6HdUpJ",
+        "promotion_card_FVxyPV"
       ],
       "name": "# Promotions list",
       "settings": {
