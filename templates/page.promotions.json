@@ -145,9 +145,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_510a3fba-991b-4f32-9eab-c9e8bf533fec.png",
             "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>Jusqu'à 20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.</p>",
+            "promotion_description": "<p>Les accessoires essentiels pour compléter votre routine capillaire : pinces, chouchous, serviettes et plus encore!</p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
