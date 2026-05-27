@@ -133,7 +133,7 @@
           "settings": {
             "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
             "background_color": "#c9d5fa",
-            "title": "<strong>LANCEMENT - 20% SUR BRIOGEO</strong>",
+            "title": "<strong>LANCEMENT: 20% SUR BRIOGEO</strong>",
             "description": "<p>Découvrez Briogeo chez Concept C! Du cuir chevelu aux pointes, trouvez les soins adaptés à votre routine pour des cheveux visiblement plus sains, forts et éclatants.</p>",
             "text_color": "#1c1c1c",
             "link_url": "shopify://collections/briogeo",
@@ -152,88 +152,6 @@
         "first_section": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "custom_multi_column_BHzrQP": {
-      "type": "custom-multi-column",
-      "blocks": {
-        "image_with_text_YwJeby": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "block_background": "#a0d4ff",
-            "text_block_background": "#000000",
-            "title": "<strong>LES JOURS C!</strong>",
-            "heading_tag": "h4",
-            "content": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "link_url": "shopify://collections/les-jours-c",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_ry6pB4": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "block_background": "#fe658c",
-            "text_block_background": "#ffffff",
-            "title": "<strong>NOS INCONTOURNABLES SOLAIRES</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "link_url": "shopify://collections/visage-corps-soin-solaire",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_CjX9EN": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
-            "block_background": "#1e234c",
-            "text_block_background": "#ffffff",
-            "title": "<strong>LE SECRET D'UN SLEEK PARFAIT</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
-            "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_WkPhpE": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
-            "block_background": "#8891c7",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>20% SUR BRIOGEO</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Nouveau chez Concept C : Briogeo! Des soins capillaires clean et efficaces pour des cheveux visiblement plus sains.</p>",
-            "link_url": "shopify://collections/briogeo",
-            "link_text": "magasiner"
-          }
-        }
-      },
-      "block_order": [
-        "image_with_text_YwJeby",
-        "image_with_text_ry6pB4",
-        "image_with_text_CjX9EN",
-        "image_with_text_WkPhpE"
-      ],
-      "disabled": true,
-      "name": "# Multi-column",
-      "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "full_width": true,
-        "column_gap": 4
       }
     },
     "countdown_j3bgUj": {
@@ -995,7 +913,6 @@
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
     "c_home_multi_banner_EHJpLw",
-    "custom_multi_column_BHzrQP",
     "countdown_j3bgUj",
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
