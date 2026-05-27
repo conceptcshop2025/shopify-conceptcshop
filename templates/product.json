@@ -100,7 +100,7 @@
             "background_color": "#e4c0ae",
             "margin_top": -15,
             "margin_bottom": 10,
-            "classes": "button button--outline w-full",
+            "classes": "button button--outline w-full out-stock-button",
             "style": "text-decoration:none"
           }
         },
