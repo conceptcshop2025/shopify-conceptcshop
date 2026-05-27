@@ -2,6 +2,34 @@
     margin: 0 auto;
 }
 
+.swym-button-bar.swym-wishlist-button-bar:empty {
+    display: none;
+    visibility: hidden;
+}
+
+.product-info__block-item:has(product-form) {
+    margin-bottom: 15px !important;
+}
+
+.product-info__block-item[data-block-type="text"]:has(.prose) {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.product-info__block-item[data-block-type="liquid"]:has(.liquid) {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;;
+}
+
+.product-info__block-item:has(.pickup-availability:empty) {
+    display: none;
+    visibility: hidden;
+}
+
+.product-info__block-item:has(.lb-widget-cpal) {
+    margin-top: 0 !important;
+}
+
 @media (min-width: 1000px) {
     .product .quantity-selector {
         margin: 0;
