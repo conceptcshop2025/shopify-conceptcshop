@@ -132,9 +132,9 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
-            "background_color": "#8891c7",
+            "background_color": "#c9d5fa",
             "title": "<strong>20% SUR BRIOGEO</strong>",
-            "description": "<p>Nouveau chez Concept C : Briogeo! Des soins capillaires clean et efficaces pour des cheveux visiblement plus sains.</p>",
+            "description": "<p>Découvrez Briogeo chez Concept C! Du cuir chevelu aux pointes, trouvez les soins adaptés à votre routine pour des cheveux visiblement plus sains, forts et éclatants.</p>",
             "text_color": "#1c1c1c",
             "link_url": "shopify://collections/briogeo",
             "link_text": "magasiner"
