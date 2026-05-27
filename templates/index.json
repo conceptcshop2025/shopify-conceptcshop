@@ -169,20 +169,6 @@
             "link_text": "magasiner"
           }
         },
-        "image_with_text_Lt8DPB": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_d40a550e-157a-4ee2-85ff-4d819e2350a4.png",
-            "block_background": "#f0dea5",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>PROMO OUTILS</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
         "image_with_text_CjX9EN": {
           "type": "image_with_text",
           "settings": {
@@ -200,13 +186,13 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Coffrets_du_Printemps_2026_750_x_600_px.png",
+            "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
             "block_background": "#cdaaa9",
             "text_block_background": "#1c1c1c",
-            "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
+            "title": "<strong>20% SUR BRIOGEO</strong>",
             "heading_tag": "h4",
-            "content": "<p>Économisez jusqu’à 40 % sur une sélection de coffrets pour tous les goûts! Parfait pour se faire plaisir ou offrir, à prix avantageux!</p>",
-            "link_url": "shopify://collections/coffrets",
+            "content": "<p>Nouveau chez Concept C : Briogeo! Des soins capillaires clean et efficaces pour des cheveux visiblement plus sains.</p>",
+            "link_url": "shopify://collections/briogeo",
             "link_text": "magasiner"
           }
         }
@@ -214,7 +200,6 @@
       "block_order": [
         "image_with_text_YwJeby",
         "image_with_text_ry6pB4",
-        "image_with_text_Lt8DPB",
         "image_with_text_CjX9EN",
         "image_with_text_WkPhpE"
       ],
