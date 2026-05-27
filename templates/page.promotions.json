@@ -21,6 +21,17 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_zrcYQM": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_b4e1a802-5fcc-487e-a587-06753f974c8c.png",
+            "promotion_title": "5 échantillons gratuits",
+            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_34NEND": {
           "type": "promotion_card",
           "settings": {
@@ -163,6 +174,7 @@
         }
       },
       "block_order": [
+        "promotion_card_zrcYQM",
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
         "promotion_card_xaWW7d",
