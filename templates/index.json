@@ -126,12 +126,26 @@
             "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_kjbLWa": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
+            "background_color": "#8891c7",
+            "title": "<strong>20% SUR BRIOGEO</strong>",
+            "description": "<p>Nouveau chez Concept C : Briogeo! Des soins capillaires clean et efficaces pour des cheveux visiblement plus sains.</p>",
+            "text_color": "#1c1c1c",
+            "link_url": "shopify://collections/briogeo",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "item_banner_QjkLLB",
         "item_banner_k6gaRg",
-        "item_banner_AT6QFg"
+        "item_banner_AT6QFg",
+        "item_banner_kjbLWa"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
