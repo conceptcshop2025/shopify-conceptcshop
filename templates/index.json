@@ -187,7 +187,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
-            "block_background": "#cdaaa9",
+            "block_background": "#8891c7",
             "text_block_background": "#1c1c1c",
             "title": "<strong>20% SUR BRIOGEO</strong>",
             "heading_tag": "h4",
