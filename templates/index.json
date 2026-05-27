@@ -388,6 +388,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_93pbp3": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_bd6e774d-b16a-4924-9e78-3aba9345c7ea.png",
+            "promotion_title": "5 échantillons gratuits!",
+            "promotion_description": "<p>À l’achat de 125 $ av tx, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_bnh4a6": {
           "type": "promotion_card",
           "settings": {
@@ -431,6 +442,7 @@
       },
       "block_order": [
         "promotion_card_nWCVAz",
+        "promotion_card_93pbp3",
         "promotion_card_bnh4a6",
         "promotion_card_rUxfJc",
         "promotion_card_6HdUpJ",
