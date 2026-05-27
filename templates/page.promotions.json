@@ -21,11 +21,22 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_fG4cL9": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5_1a4ec30e-654d-43cb-a948-e56d76d82961.png",
+            "promotion_title": "Lancement - 20% sur Briogeo",
+            "promotion_description": "<p>Découvrez Briogeo chez Concept C! Du cuir chevelu aux pointes, trouvez les soins adaptés à votre routine pour des cheveux visiblement plus sains, forts et éclatants.</p>",
+            "promotion_link": "shopify://collections/briogeo",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_zrcYQM": {
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_b4e1a802-5fcc-487e-a587-06753f974c8c.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4_facbdcd6-45d5-4828-a611-a582cff25fe9.png",
             "promotion_title": "5 échantillons gratuits",
             "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
             "promotion_link": "shopify://collections/soldes",
@@ -174,6 +185,7 @@
         }
       },
       "block_order": [
+        "promotion_card_fG4cL9",
         "promotion_card_zrcYQM",
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
