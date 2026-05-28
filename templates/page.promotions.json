@@ -73,8 +73,10 @@
         },
         "promotion_card_xRAEX6": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_title": "",
+            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
+            "promotion_title": "25",
             "promotion_description": "",
             "promotion_link": "",
             "promotion_link_text": "Voir plus"
