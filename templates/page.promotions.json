@@ -82,6 +82,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_bBg98x": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/2_e95623c6-92f9-4850-aebc-7de45e7d0f92.png",
+            "promotion_title": "Steampod X Absolut Repair Molecular",
+            "promotion_description": "<p>À l’achat d’un SteamPod, obtenez gratuitement le duo shampoing et masque Absolut Repair Molecular, d’une valeur de 116 $. <em>Offre valide jusqu’au 30 juin, ou jusqu’à épuisement des stocks. </em></p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_KigpXa": {
           "type": "promotion_card",
           "settings": {
@@ -200,6 +211,7 @@
         "promotion_card_xaWW7d",
         "promotion_card_zrcYQM",
         "promotion_card_xRAEX6",
+        "promotion_card_bBg98x",
         "promotion_card_KigpXa",
         "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
