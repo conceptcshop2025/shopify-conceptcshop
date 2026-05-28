@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_kjbLWa": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
+            "background_color": "#c9d5fa",
+            "title": "<strong>LANCEMENT: 20% SUR BRIOGEO</strong>",
+            "description": "<p>Découvrez Briogeo chez Concept C! Du cuir chevelu aux pointes, trouvez les soins adaptés à votre routine pour des cheveux visiblement plus sains, forts et éclatants.</p>",
+            "text_color": "#1c1c1c",
+            "link_url": "shopify://collections/briogeo",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_QjkLLB": {
           "type": "item_banner",
           "settings": {
@@ -117,6 +129,7 @@
         },
         "item_banner_AT6QFg": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
             "background_color": "#1e234c",
@@ -126,26 +139,13 @@
             "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_kjbLWa": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Lancement_Briogeo_750_X_600_1.png",
-            "background_color": "#c9d5fa",
-            "title": "<strong>LANCEMENT: 20% SUR BRIOGEO</strong>",
-            "description": "<p>Découvrez Briogeo chez Concept C! Du cuir chevelu aux pointes, trouvez les soins adaptés à votre routine pour des cheveux visiblement plus sains, forts et éclatants.</p>",
-            "text_color": "#1c1c1c",
-            "link_url": "shopify://collections/briogeo",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
+        "item_banner_kjbLWa",
         "item_banner_QjkLLB",
         "item_banner_k6gaRg",
-        "item_banner_AT6QFg",
-        "item_banner_kjbLWa"
+        "item_banner_AT6QFg"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
