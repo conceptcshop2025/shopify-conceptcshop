@@ -66,7 +66,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4_facbdcd6-45d5-4828-a611-a582cff25fe9.png",
             "promotion_title": "5 échantillons gratuits",
-            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
+            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!<em> *valide jusqu'au 31 mai ou épuisement des stocks</em></p>",
             "promotion_link": "shopify://collections/soldes",
             "promotion_link_text": "Voir plus"
           }
@@ -76,7 +76,7 @@
           "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
-            "promotion_title": "25",
+            "promotion_title": "25% de rabais",
             "promotion_description": "",
             "promotion_link": "",
             "promotion_link_text": "Voir plus"
