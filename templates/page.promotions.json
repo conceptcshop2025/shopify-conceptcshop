@@ -32,17 +32,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_zrcYQM": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4_facbdcd6-45d5-4828-a611-a582cff25fe9.png",
-            "promotion_title": "5 échantillons gratuits",
-            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
-            "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_34NEND": {
           "type": "promotion_card",
           "settings": {
@@ -70,6 +59,16 @@
             "promotion_title": "Le secret d'un sleek parfait",
             "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_zrcYQM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4_facbdcd6-45d5-4828-a611-a582cff25fe9.png",
+            "promotion_title": "5 échantillons gratuits",
+            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!</p>",
+            "promotion_link": "shopify://collections/soldes",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -186,10 +185,10 @@
       },
       "block_order": [
         "promotion_card_fG4cL9",
-        "promotion_card_zrcYQM",
         "promotion_card_34NEND",
         "promotion_card_WxVzV8",
         "promotion_card_xaWW7d",
+        "promotion_card_zrcYQM",
         "promotion_card_KigpXa",
         "promotion_card_Y4Ycbt",
         "promotion_card_qQcwXa",
