@@ -273,6 +273,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_zEceJC": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1.png",
+            "promotion_title": "",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_74qt63": {
           "type": "promotion_card",
           "settings": {
@@ -309,6 +320,7 @@
         "promotion_card_icwraR",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
+        "promotion_card_zEceJC",
         "promotion_card_74qt63",
         "promotion_card_qcFYTp",
         "promotion_card_CmxthT"
