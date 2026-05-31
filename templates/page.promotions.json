@@ -251,6 +251,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xpkdwW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/COnglet_Promotions_Site_Juin_2026.png",
+            "promotion_title": "Promo Biolage",
+            "promotion_description": "<p>À l’achat de 2 produits dans cette sélection Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
+            "promotion_link": "shopify://collections/offre-en-cours",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_74qt63": {
           "type": "promotion_card",
           "settings": {
@@ -285,6 +296,7 @@
       "block_order": [
         "promotion_card_gMYAA4",
         "promotion_card_icwraR",
+        "promotion_card_xpkdwW",
         "promotion_card_74qt63",
         "promotion_card_qcFYTp",
         "promotion_card_CmxthT"
