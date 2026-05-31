@@ -278,9 +278,9 @@
           "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1.png",
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_title": "Format Voyage Kérastase",
+            "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale J’aime la mer!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus"
           }
         },
