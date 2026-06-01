@@ -208,7 +208,6 @@
         },
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/COnglet_Promotions_Site_Juin_2026.png",
             "promotion_title": "Promo Biolage",
