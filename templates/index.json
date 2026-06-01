@@ -411,7 +411,7 @@
         "show_view_all_link": true,
         "view_all_link_url": "shopify://pages/promotions",
         "view_all_link_text": "Voir toutes nos promotions",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40
       }
     },
@@ -857,20 +857,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
-    },
-    "custom_liquid_kyWnUc": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {padding-top: 10px;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div></div>",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
@@ -888,7 +874,6 @@
     "featured_collections_KmTfiQ",
     "1719666865e4431f24",
     "b615708a-3ec6-4230-8baa-7847640de80a",
-    "169039384397d88aa3",
-    "custom_liquid_kyWnUc"
+    "169039384397d88aa3"
   ]
 }
