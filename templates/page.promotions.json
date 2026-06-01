@@ -63,7 +63,6 @@
         },
         "promotion_card_bBg98x": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/2_e95623c6-92f9-4850-aebc-7de45e7d0f92.png",
             "promotion_title": "Steampod X Absolut Repair Molecular",
