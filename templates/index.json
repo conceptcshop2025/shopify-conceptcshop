@@ -374,8 +374,19 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_xcgFkq": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_rUxfJc": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
             "promotion_title": "Redken Acidic Grow Full",
@@ -397,6 +408,7 @@
       },
       "block_order": [
         "promotion_card_6HdUpJ",
+        "promotion_card_xcgFkq",
         "promotion_card_rUxfJc",
         "promotion_card_FVxyPV"
       ],
