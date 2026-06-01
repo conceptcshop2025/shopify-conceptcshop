@@ -228,7 +228,6 @@
         },
         "promotion_card_cRBzcy": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2.png",
             "promotion_title": "Promo Estivale Kérastase",
