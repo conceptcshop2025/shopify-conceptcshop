@@ -364,23 +364,13 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_93pbp3": {
+        "promotion_card_6HdUpJ": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4_facbdcd6-45d5-4828-a611-a582cff25fe9.png",
-            "promotion_title": "5 échantillons gratuits!",
-            "promotion_description": "<p>À l’achat de 125 $ avant taxes, après l’application d’un code promo, obtenez gratuitement 5 échantillons!<em> *valide jusqu'au 31 mai ou épuisement des stocks</em></p>",
-            "promotion_link": "shopify://products/concept-c-shop-ensemble-echantillons-pour-achat-125-et-plus",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_bnh4a6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
+            "promotion_title": "Héros Pureology",
+            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -391,16 +381,6 @@
             "promotion_title": "Redken Acidic Grow Full",
             "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6HdUpJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -416,10 +396,8 @@
         }
       },
       "block_order": [
-        "promotion_card_93pbp3",
-        "promotion_card_bnh4a6",
-        "promotion_card_rUxfJc",
         "promotion_card_6HdUpJ",
+        "promotion_card_rUxfJc",
         "promotion_card_FVxyPV"
       ],
       "name": "# Promotions list",
