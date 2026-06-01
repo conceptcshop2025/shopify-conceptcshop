@@ -364,6 +364,16 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_xcgFkq": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_6HdUpJ": {
           "type": "promotion_card",
           "settings": {
@@ -374,8 +384,19 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_RE7mtH": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_title": "15% sur soleil de Kérastase",
+            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_rUxfJc": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
             "promotion_title": "Redken Acidic Grow Full",
@@ -387,8 +408,8 @@
         "promotion_card_FVxyPV": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_bacb8c7a-ad8e-4d78-9ab6-9a3f405ce7bc.png",
+            "promotion_title": "Nos Coffrets",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
             "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
@@ -396,7 +417,9 @@
         }
       },
       "block_order": [
+        "promotion_card_xcgFkq",
         "promotion_card_6HdUpJ",
+        "promotion_card_RE7mtH",
         "promotion_card_rUxfJc",
         "promotion_card_FVxyPV"
       ],

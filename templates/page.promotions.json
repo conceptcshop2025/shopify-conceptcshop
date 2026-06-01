@@ -124,8 +124,8 @@
         "promotion_card_zQ3xUA": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_bacb8c7a-ad8e-4d78-9ab6-9a3f405ce7bc.png",
+            "promotion_title": "Nos Coffrets",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/coffrets",
             "promotion_link_text": "Voir plus"
@@ -185,16 +185,6 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_gMYAA4": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_a6011d3e-a994-4286-bb73-d4f92a2bf65a.png",
-            "promotion_title": "Kérastase X Concept C",
-            "promotion_description": "<p>À l’achat de 120$ de produits Kérastase, obtiens gratuitement un recourbe-cils Signature Concept C!</p>",
-            "promotion_link": "shopify://collections/offre-kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_icwraR": {
           "type": "promotion_card",
           "settings": {
@@ -217,7 +207,6 @@
         },
         "promotion_card_bniJUd": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026.png",
             "promotion_title": "Promo Coffrets Kérastase",
@@ -228,7 +217,6 @@
         },
         "promotion_card_zEceJC": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1.png",
             "promotion_title": "Format Voyage Kérastase",
@@ -239,7 +227,6 @@
         },
         "promotion_card_cRBzcy": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2.png",
             "promotion_title": "Promo Estivale Kérastase",
@@ -270,7 +257,6 @@
         }
       },
       "block_order": [
-        "promotion_card_gMYAA4",
         "promotion_card_icwraR",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
