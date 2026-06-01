@@ -250,16 +250,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_74qt63": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2.png",
-            "promotion_title": "Sérum Vitamino Color Spectrum",
-            "promotion_description": "<p>À l’achat d’un sérum Vitamino Color Spectrum, obtenez gratuitement le shampoing Vitamino Color Spectrum 100 ml! <em>Offre valide jusqu'au 31 mai ou épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/loreal-serie-expert-serum-vitamino-color-spectrum-50-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_qcFYTp": {
           "type": "promotion_card",
           "settings": {
@@ -288,7 +278,6 @@
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy",
-        "promotion_card_74qt63",
         "promotion_card_qcFYTp",
         "promotion_card_CmxthT"
       ],
