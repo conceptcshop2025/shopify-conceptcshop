@@ -185,16 +185,6 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_gMYAA4": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_a6011d3e-a994-4286-bb73-d4f92a2bf65a.png",
-            "promotion_title": "Kérastase X Concept C",
-            "promotion_description": "<p>À l’achat de 120$ de produits Kérastase, obtiens gratuitement un recourbe-cils Signature Concept C!</p>",
-            "promotion_link": "shopify://collections/offre-kerastase",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_icwraR": {
           "type": "promotion_card",
           "settings": {
@@ -269,7 +259,6 @@
         }
       },
       "block_order": [
-        "promotion_card_gMYAA4",
         "promotion_card_icwraR",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
