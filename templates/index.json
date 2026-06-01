@@ -131,12 +131,12 @@
           "type": "item_banner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Baton_Oribe_750_x_600_px.png",
-            "background_color": "#1e234c",
-            "title": "<strong>LE SECRET D'UN SLEEK PARFAIT</strong>",
-            "description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
+            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.png",
+            "background_color": "#1c1c1c",
+            "title": "<strong>REDKEN ACIDIC GROW FULL</strong>",
+            "description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $!<em>Jusqu'à épuisement des stocks</em></p>",
             "text_color": "#ffffff",
-            "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "link_url": "shopify://collections/promo-du-moment-1",
             "link_text": "magasiner"
           }
         }
