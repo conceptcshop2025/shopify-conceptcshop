@@ -111,6 +111,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_8Cb83Y": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_18e0eba4-89a6-40a7-8203-049c84985364.png",
+            "promotion_title": "Lancement Smooth Gloss",
+            "promotion_description": "<p>Une routine 3 étapes anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
+            "promotion_link": "shopify://collections/offre-a-decouvrir",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_tFtmhM": {
           "type": "promotion_card",
           "settings": {
@@ -128,16 +138,6 @@
             "promotion_title": "Nos Coffrets",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_M9AwAA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_510a3fba-991b-4f32-9eab-c9e8bf533fec.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>Les accessoires essentiels pour compléter votre routine capillaire : pinces, chouchous, serviettes et plus encore!</p>",
-            "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -162,9 +162,9 @@
         "promotion_card_HPrxrN",
         "promotion_card_MMQHPd",
         "promotion_card_xrx7Yh",
+        "promotion_card_8Cb83Y",
         "promotion_card_tFtmhM",
         "promotion_card_zQ3xUA",
-        "promotion_card_M9AwAA",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
