@@ -208,13 +208,6 @@
           "scriptInitMode": "immediate"
         }
       },
-      "3667842014806057753": {
-        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-        "disabled": true,
-        "settings": {
-          "allowed_templates": ""
-        }
-      }
     },
     "color_schemes": {
       "scheme-1": {

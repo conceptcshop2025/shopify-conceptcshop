@@ -97,10 +97,6 @@
             "style": "text-decoration:none"
           }
         },
-        "one_click_upsell_on_page_7f7pz7": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        },
         "1a32539d-0292-4e51-aace-014f43c480d7": {
           "type": "liquid",
           "settings": {
@@ -149,7 +145,6 @@
         "liquid_piWnn8",
         "buy_buttons",
         "bbc74f40-fc72-4d3c-adc8-1b5840cda30e",
-        "one_click_upsell_on_page_7f7pz7",
         "1a32539d-0292-4e51-aace-014f43c480d7",
         "payment_terms",
         "separator",
