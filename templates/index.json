@@ -132,10 +132,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Blitz_XXL_750_x_600_px.png",
-            "background_color": "",
+            "background_color": "#ad2081",
             "title": "BLITZ D'ÉCONOMIES XXL",
             "description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée : <strong>économisez jusqu’à 70 %</strong> sur une sélection de marques et produits favoris!</p>",
-            "text_color": "",
+            "text_color": "#ffffff",
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": ""
           }
