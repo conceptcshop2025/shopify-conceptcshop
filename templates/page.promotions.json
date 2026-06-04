@@ -21,14 +21,13 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_AmNamg": {
+        "promotion_card_WxVzV8": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
-            "promotion_title": "Jusqu'à 40% de rabais!",
-            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_715468b3-b70f-40e0-8046-b52de0711d1f.png",
+            "promotion_title": "Les Jours C",
+            "promotion_description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
+            "promotion_link": "shopify://collections/les-jours-c",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -42,13 +41,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_WxVzV8": {
+        "promotion_card_AmNamg": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_715468b3-b70f-40e0-8046-b52de0711d1f.png",
-            "promotion_title": "Les Jours C",
-            "promotion_description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "promotion_link": "shopify://collections/les-jours-c",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
+            "promotion_title": "Jusqu'à 40% de rabais!",
+            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -164,9 +163,9 @@
         }
       },
       "block_order": [
-        "promotion_card_AmNamg",
-        "promotion_card_34NEND",
         "promotion_card_WxVzV8",
+        "promotion_card_34NEND",
+        "promotion_card_AmNamg",
         "promotion_card_xaWW7d",
         "promotion_card_xRAEX6",
         "promotion_card_bBg98x",
