@@ -152,6 +152,19 @@
             "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_KVbTBP": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
+            "background_color": "",
+            "title": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_color": "",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
@@ -159,7 +172,8 @@
         "item_banner_k6gaRg",
         "item_banner_AT6QFg",
         "item_banner_8zDdDg",
-        "item_banner_DCT7Gk"
+        "item_banner_DCT7Gk",
+        "item_banner_KVbTBP"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
