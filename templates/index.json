@@ -366,7 +366,6 @@
       "blocks": {
         "promotion_card_jee7y7": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
             "promotion_title": "Jusqu'à 40% de rabais!",
