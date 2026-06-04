@@ -21,6 +21,17 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_JniMyD": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_6d962342-61bc-4d5c-97c8-dd7c659b227a.png",
+            "promotion_title": "-20% sur le séchage à l'air libre!",
+            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
+            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_WxVzV8": {
           "type": "promotion_card",
           "settings": {
@@ -163,6 +174,7 @@
         }
       },
       "block_order": [
+        "promotion_card_JniMyD",
         "promotion_card_WxVzV8",
         "promotion_card_34NEND",
         "promotion_card_AmNamg",
