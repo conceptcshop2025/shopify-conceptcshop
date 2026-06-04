@@ -158,12 +158,12 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
-            "background_color": "",
+            "background_color": "#f397a3",
             "title": "ACCESSOIRES CONCEPT C",
             "description": "<p>Obtenez 30 % de rabais sur les accessoires Concept C : pinces, brosses, bandeaux, trousses, rouleaux sans chaleur et plus encore!</p>",
-            "text_color": "",
-            "link_url": "",
-            "link_text": ""
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/concept-c",
+            "link_text": "magasiner"
           }
         }
       },
