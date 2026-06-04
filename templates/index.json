@@ -126,12 +126,26 @@
             "link_url": "shopify://collections/promo-du-moment-1",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_8zDdDg": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Blitz_XXL_750_x_600_px.png",
+            "background_color": "",
+            "title": "BLITZ D'ÉCONOMIES XXL",
+            "description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée : <strong>économisez jusqu’à 70 %</strong> sur une sélection de marques et produits favoris!</p>",
+            "text_color": "",
+            "link_url": "shopify://collections/promo-du-moment-11",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "item_banner_QjkLLB",
         "item_banner_k6gaRg",
-        "item_banner_AT6QFg"
+        "item_banner_AT6QFg",
+        "item_banner_8zDdDg"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
