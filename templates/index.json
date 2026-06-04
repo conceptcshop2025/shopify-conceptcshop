@@ -145,7 +145,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Essentiels_Ete_10_off.png",
-            "background_color": "#fd7a03",
+            "background_color": "#f4d54c",
             "title": "NOS ESSENTIELS D'ÉTÉ",
             "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10!</strong></p>",
             "text_color": "#ffffff",
