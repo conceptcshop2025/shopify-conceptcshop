@@ -36,6 +36,7 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2_27dbd9d2-bd7f-4576-8546-9c874a58ed8c.png",
             "promotion_title": "-20% + cadeau!",
             "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold format régulier, obtenez 20 % de rabais + format voyage du prolongateur Aloe & Ocean Water gratuitement!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-14",
