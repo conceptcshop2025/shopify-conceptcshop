@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_8zDdDg": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Blitz_XXL_750_x_600_px.png",
+            "background_color": "#e9009f",
+            "title": "BLITZ D'ÉCONOMIES XXL",
+            "description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée : <strong>économisez jusqu’à 70 %</strong> sur une sélection de marques et produits favoris!</p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/promo-du-moment-11",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_QjkLLB": {
           "type": "item_banner",
           "settings": {
@@ -103,18 +115,6 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_k6gaRg": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "background_color": "#fe658c",
-            "title": "<strong>NOS INCONTOURNABLES SOLAIRES</strong>",
-            "description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/visage-corps-soin-solaire",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_AT6QFg": {
           "type": "item_banner",
           "settings": {
@@ -124,19 +124,6 @@
             "description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "text_color": "#ffffff",
             "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_8zDdDg": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Blitz_XXL_750_x_600_px.png",
-            "background_color": "#e9009f",
-            "title": "BLITZ D'ÉCONOMIES XXL",
-            "description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée : <strong>économisez jusqu’à 70 %</strong> sur une sélection de marques et produits favoris!</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
         },
@@ -168,10 +155,9 @@
         }
       },
       "block_order": [
-        "item_banner_QjkLLB",
-        "item_banner_k6gaRg",
-        "item_banner_AT6QFg",
         "item_banner_8zDdDg",
+        "item_banner_QjkLLB",
+        "item_banner_AT6QFg",
         "item_banner_DCT7Gk",
         "item_banner_KVbTBP"
       ],
