@@ -115,21 +115,8 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_AT6QFg": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.png",
-            "background_color": "#000000",
-            "title": "<strong>REDKEN ACIDIC GROW FULL</strong>",
-            "description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_KVbTBP": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
             "background_color": "#f397a3",
@@ -144,7 +131,6 @@
       "block_order": [
         "item_banner_8zDdDg",
         "item_banner_DCT7Gk",
-        "item_banner_AT6QFg",
         "item_banner_KVbTBP"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
