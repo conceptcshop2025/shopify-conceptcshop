@@ -21,9 +21,28 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_EV3tcg": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_a2ff4aa4-e78d-47ff-9f37-983136a367a7.png",
+            "promotion_title": "Blitz d'économies XXL",
+            "promotion_description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée :<strong>économisez jusqu’à 70 %</strong>sur une sélection de marques et produits favoris!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_AmNamg": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
+            "promotion_title": "Jusqu'à 40% de rabais!",
+            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_JniMyD": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_6d962342-61bc-4d5c-97c8-dd7c659b227a.png",
             "promotion_title": "-20% sur le séchage à l'air libre!",
@@ -51,16 +70,6 @@
             "promotion_title": "Essentiels d'été!",
             "promotion_description": "<p>Obtenez 10 % de rabais sur nos essentiels de l’été, incluant nos favoris pour le séchage à l’air libre, les crèmes solaires, les produits pour la gestion de l’humidité et plus encore! <strong>code promo = ete10</strong><br/></p>",
             "promotion_link": "shopify://collections/promo-du-moment",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_AmNamg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
-            "promotion_title": "Jusqu'à 40% de rabais!",
-            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -176,10 +185,11 @@
         }
       },
       "block_order": [
+        "promotion_card_EV3tcg",
+        "promotion_card_AmNamg",
         "promotion_card_JniMyD",
         "promotion_card_XW9PX3",
         "promotion_card_9K96Gd",
-        "promotion_card_AmNamg",
         "promotion_card_xaWW7d",
         "promotion_card_xRAEX6",
         "promotion_card_bBg98x",
