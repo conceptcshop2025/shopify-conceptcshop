@@ -404,27 +404,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_6HdUpJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rUxfJc": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_FVxyPV": {
           "type": "promotion_card",
           "settings": {
@@ -441,8 +420,6 @@
         "promotion_card_eFAHAd",
         "promotion_card_RE7mtH",
         "promotion_card_xcgFkq",
-        "promotion_card_6HdUpJ",
-        "promotion_card_rUxfJc",
         "promotion_card_FVxyPV"
       ],
       "name": "# Promotions list",
