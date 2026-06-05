@@ -103,15 +103,15 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_QjkLLB": {
+        "item_banner_DCT7Gk": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "background_color": "#a0d4ff",
-            "title": "<strong>LES JOURS C!</strong>",
-            "description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "text_color": "#1c1c1c",
-            "link_url": "shopify://collections/les-jours-c",
+            "image": "shopify://shop_images/Essentiels_Ete_10_off.png",
+            "background_color": "#fd7a03",
+            "title": "NOS ESSENTIELS D'ÉTÉ",
+            "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10!</strong></p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
         },
@@ -124,19 +124,6 @@
             "description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "text_color": "#ffffff",
             "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_DCT7Gk": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Essentiels_Ete_10_off.png",
-            "background_color": "#fd7a03",
-            "title": "NOS ESSENTIELS D'ÉTÉ",
-            "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10!</strong></p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
           }
         },
@@ -156,9 +143,8 @@
       },
       "block_order": [
         "item_banner_8zDdDg",
-        "item_banner_QjkLLB",
-        "item_banner_AT6QFg",
         "item_banner_DCT7Gk",
+        "item_banner_AT6QFg",
         "item_banner_KVbTBP"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
