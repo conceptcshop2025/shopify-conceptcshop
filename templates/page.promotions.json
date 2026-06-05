@@ -31,6 +31,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_9K96Gd": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_3.png",
+            "promotion_title": "Essentiels d'été!",
+            "promotion_description": "<p>Obtenez 10 % de rabais sur nos essentiels de l’été, incluant nos favoris pour le séchage à l’air libre, les crèmes solaires, les produits pour la gestion de l’humidité et plus encore! <strong>code promo = ete10</strong><br/></p>",
+            "promotion_link": "shopify://collections/promo-du-moment",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_AmNamg": {
           "type": "promotion_card",
           "settings": {
@@ -59,17 +69,6 @@
             "promotion_title": "-20% + cadeau!",
             "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold format régulier, obtenez 20 % de rabais + format voyage du prolongateur Aloe & Ocean Water gratuitement!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-14",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_9K96Gd": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_3.png",
-            "promotion_title": "Essentiels d'été!",
-            "promotion_description": "<p>Obtenez 10 % de rabais sur nos essentiels de l’été, incluant nos favoris pour le séchage à l’air libre, les crèmes solaires, les produits pour la gestion de l’humidité et plus encore! <strong>code promo = ete10</strong><br/></p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -186,10 +185,10 @@
       },
       "block_order": [
         "promotion_card_EV3tcg",
+        "promotion_card_9K96Gd",
         "promotion_card_AmNamg",
         "promotion_card_JniMyD",
         "promotion_card_XW9PX3",
-        "promotion_card_9K96Gd",
         "promotion_card_xaWW7d",
         "promotion_card_xRAEX6",
         "promotion_card_bBg98x",
@@ -237,6 +236,16 @@
             "promotion_title": "Promo Biolage",
             "promotion_description": "<p>À l’achat de 2 produits dans cette sélection Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
             "promotion_link": "shopify://collections/offre-en-cours",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_zr6WXC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_372dc613-b30f-4cc1-b244-182f54d3adfd.png",
+            "promotion_title": "Promo Moroccanoil",
+            "promotion_description": "<p>À l’achat de 80 $ de produits Moroccanoil, recevez gratuitement un baume à lèvres Thé à la Menthe!</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -299,29 +308,18 @@
             "promotion_link": "shopify://collections/promo-du-moment-6",
             "promotion_link_text": "Voir plus"
           }
-        },
-        "promotion_card_zr6WXC": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_372dc613-b30f-4cc1-b244-182f54d3adfd.png",
-            "promotion_title": "Promo Moroccanoil",
-            "promotion_description": "<p>À l’achat de 80 $ de produits Moroccanoil, recevez gratuitement un baume à lèvres Thé à la Menthe!</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
         }
       },
       "block_order": [
         "promotion_card_icwraR",
         "promotion_card_xpkdwW",
+        "promotion_card_zr6WXC",
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy",
         "promotion_card_c7m9aT",
         "promotion_card_qcFYTp",
-        "promotion_card_CmxthT",
-        "promotion_card_zr6WXC"
+        "promotion_card_CmxthT"
       ],
       "name": "# Promotions list",
       "settings": {
