@@ -1,3 +1,12 @@
+{% comment %} 
+******************************************************** 
+Category_filter:
+  1: Boutique
+  2: Salon de Coiffure
+  3: Entrepot
+  4: Siege Social
+********************************************************
+{% endcomment %}
 {{ 'post-carrieres.css' | asset_url | stylesheet_tag }}
 
 <div class="container-post-carrieres">
@@ -5,37 +14,40 @@
     <span>{{ section.settings.section_title }}</span>
     <small class="btn-clear-filter">{{ 'post_carrieres.general.clear_filter' | t }}</small>
   </h2>
+  {% comment %}  {% endcomment %}
   <div class="post-carrieres__content">
     {%  liquid
-      assign career_posts = metaobjects.career_posts.values
+      assign career_posts = metaobjects.postes_de_carriere.values
     %}
     {% for post in career_posts %}
-      <div class="post-carrieres__item" data-target-post="{% for type in post.job_type.value %}{{ type | strip_html | downcase | replace: ' ', "-" }}{% endfor %}">
+      <div class="post-carrieres__item" data-target-post="{{ post.category_filter }}">
         <div class="post-heading">
-          <h3 class="post-carrieres__title">{{ post.title | strip_html }}</h3>
+          <h3 class="post-carrieres__title">{{ post.titre_du_poste | strip_html }}</h3>
           <p class="post-carrieres__excerpt">
-            <span>
-              {{ 'post_carrieres.general.localisation_text' | t }}: {% for loc in post.location.value %}
-                {{ loc | strip_html }}
-              {% endfor %}
-            </span>
-            <span>
-              | {{ 'post_carrieres.general.job_type_text' | t }}: {% for type in post.job_type.value %}
-                {{ type | strip_html }}
-              {% endfor %}
-            </span>
+            <p>
+              {{ 'post_carrieres.general.localisation_text' | t }}: {{ post.adresse | strip_html }}
+            </p>
+            <p>
+              <span>{{ 'post_carrieres.general.job_type_text' | t }}: {{ post.type_de_poste | strip_html }} - {{ post.lieu_du_poste | strip_html }}</span>
+              <span>| Salaire: {{ post.salaire | strip_html }}</span>
+            </p>
           </p>
         </div>
         <div class="post-body">
+          <div class="post-avantages">
+            <p><strong>Avantages:</strong></p>
+            {{ post.avantages | metafield_tag  }}
+          </div>
           <div class="post-description">{{ post.description | metafield_tag  }}</div>
           <div class="post-link">
-            <a href="{{ post.indeed_url.value }}" class="button" target="_blank" rel="noopener">{{ 'post_carrieres.general.see_offer_text' | t }}</a>
+            <a href="#globo-formbuilder-140835" class="button" rel="noopener">{{ 'post_carrieres.general.see_offer_text' | t }}</a>
           </div>
         </div>
       </div>
     {% endfor %}
     <p class="post-carrieres__no-results hidden">{{ 'post_carrieres.general.no_offerts_text' | t }}</p>
   </div>
+   {% comment %}  {% endcomment %}
 </div>
 
 <script>
@@ -56,23 +68,23 @@
         const categoryItem = item.querySelector('.h4').innerText.toLowerCase();
 
         if(categoryItem.includes('entrepôt')) {
-          item.setAttribute('data-post', 'entrepôt');
+          item.setAttribute('data-post', '3');
         } else if (categoryItem.includes('siège social')) {
-          item.setAttribute('data-post', 'siège-social');
+          item.setAttribute('data-post', '4');
         } else if (categoryItem.includes('boutique')) {
-          item.setAttribute('data-post', 'boutique');
+          item.setAttribute('data-post', '1');
         } else if (categoryItem.includes('salon de coiffure')) {
-          item.setAttribute('data-post', 'salon-de-coiffure');
+          item.setAttribute('data-post', '2');
         }
         // validations for english categories
          else if (categoryItem.includes('warehouse')) {
-          item.setAttribute('data-post', 'warehouse');
+          item.setAttribute('data-post', '3');
         } else if (categoryItem.includes('head office')) {
-          item.setAttribute('data-post', 'head-office');
+          item.setAttribute('data-post', '4');
         } else if (categoryItem.includes('in-store')) {
-          item.setAttribute('data-post', 'store');
+          item.setAttribute('data-post', '1');
         } else if (categoryItem.includes('hair salon')) {
-          item.setAttribute('data-post', 'hair-salon');
+          item.setAttribute('data-post', '2');
         }
 
         item.addEventListener('click', function() {

@@ -42,8 +42,10 @@
   transition: max-height 0.5s ease-in-out;
 }
 
+
+
 .post-carrieres__item.active .post-body {
-  max-height: 1000px;
+  max-height: 2500px;
 }
 
 .post-carrieres__item.active .post-heading:after {
@@ -73,5 +75,9 @@
 @media (min-width: 1500px) {
   .container-post-carrieres {
     max-width: 1500px;
+  }
+
+  .post-carrieres__item.active .post-body {
+    max-height: 1300px;
   }
 }
