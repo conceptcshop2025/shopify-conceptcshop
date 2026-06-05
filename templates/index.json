@@ -103,38 +103,13 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_QjkLLB": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Jours_C.png",
-            "background_color": "#a0d4ff",
-            "title": "<strong>LES JOURS C!</strong>",
-            "description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "text_color": "#1c1c1c",
-            "link_url": "shopify://collections/les-jours-c",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_AT6QFg": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Redken_ACGrow.png",
-            "background_color": "#000000",
-            "title": "<strong>REDKEN ACIDIC GROW FULL</strong>",
-            "description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/promo-du-moment-1",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_DCT7Gk": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Essentiels_Ete_10_off.png",
             "background_color": "#fd7a03",
             "title": "NOS ESSENTIELS D'ÉTÉ",
-            "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10!</strong></p>",
+            "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10</strong></p>",
             "text_color": "#ffffff",
             "link_url": "shopify://collections/promo-du-moment",
             "link_text": "magasiner"
@@ -142,7 +117,6 @@
         },
         "item_banner_KVbTBP": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
             "background_color": "#f397a3",
@@ -156,8 +130,6 @@
       },
       "block_order": [
         "item_banner_8zDdDg",
-        "item_banner_QjkLLB",
-        "item_banner_AT6QFg",
         "item_banner_DCT7Gk",
         "item_banner_KVbTBP"
       ],
@@ -402,23 +374,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_xcgFkq": {
+        "promotion_card_eFAHAd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
-            "promotion_title": "25% de rabais",
-            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_6HdUpJ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_6d962342-61bc-4d5c-97c8-dd7c659b227a.png",
+            "promotion_title": "-20% sur le séchage à l'air libre!",
+            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
+            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -432,14 +394,13 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_rUxfJc": {
+        "promotion_card_xcgFkq": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -456,10 +417,9 @@
       },
       "block_order": [
         "promotion_card_jee7y7",
-        "promotion_card_xcgFkq",
-        "promotion_card_6HdUpJ",
+        "promotion_card_eFAHAd",
         "promotion_card_RE7mtH",
-        "promotion_card_rUxfJc",
+        "promotion_card_xcgFkq",
         "promotion_card_FVxyPV"
       ],
       "name": "# Promotions list",
