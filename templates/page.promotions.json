@@ -54,16 +54,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_WxVzV8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_715468b3-b70f-40e0-8046-b52de0711d1f.png",
-            "promotion_title": "Les Jours C",
-            "promotion_description": "<p><strong>Jusqu’à 50 % de rabais</strong> sur vos essentiels préférés. Testés, approuvés et adorés par vous, parmi les meilleurs vendeurs de plus de 50 marques professionnelles reconnues pour leurs résultats, leur qualité et leur efficacité au quotidien. </p>",
-            "promotion_link": "shopify://collections/les-jours-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_34NEND": {
           "type": "promotion_card",
           "settings": {
@@ -199,7 +189,6 @@
         "promotion_card_JniMyD",
         "promotion_card_XW9PX3",
         "promotion_card_9K96Gd",
-        "promotion_card_WxVzV8",
         "promotion_card_34NEND",
         "promotion_card_AmNamg",
         "promotion_card_xaWW7d",
