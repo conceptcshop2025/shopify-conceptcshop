@@ -532,6 +532,8 @@
       "job_type_text": "Type de poste",
       "see_offer_text": "Postuler",
       "no_offerts_text": "Aucun poste n’est actuellement disponible, mais n’hésite pas à nous transmettre ta candidature spontanée.",
+      "salaire": "Salaire",
+      "avantages": "Avantages"
     }
   }
 }

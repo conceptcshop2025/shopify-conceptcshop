@@ -29,13 +29,13 @@ Category_filter:
             </p>
             <p>
               <span>{{ 'post_carrieres.general.job_type_text' | t }}: {{ post.type_de_poste | strip_html }} - {{ post.lieu_du_poste | strip_html }}</span>
-              <span>| Salaire: {{ post.salaire | strip_html }}</span>
+              <span>| {{ 'post_carrieres.general.salaire' | t }}: {{ post.salaire | strip_html }}</span>
             </p>
           </p>
         </div>
         <div class="post-body">
           <div class="post-avantages">
-            <p><strong>Avantages:</strong></p>
+            <p><strong>{{ 'post_carrieres.general.avantages' | t }}:</strong></p>
             {{ post.avantages | metafield_tag  }}
           </div>
           <div class="post-description">{{ post.description | metafield_tag  }}</div>
