@@ -280,7 +280,6 @@
         },
         "promotion_card_wwYP3X": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_cf43bc60-5a6e-4743-9aa7-55d25b209f64.png",
             "promotion_title": "Fêtes des Pères Kérastase",
