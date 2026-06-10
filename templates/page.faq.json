@@ -12,6 +12,13 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "question_KEReKi": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quelles sont les heures d’ouverture du service client?</strong>",
+            "answer": "<p>Notre service client est disponible du lundi au vendredi, de 8 h à 16 h, à l’exception des jours fériés. Les messages reçus lorsque le service est fermé seront traités dès la réouverture.</p>"
+          }
+        },
         "question-1": {
           "type": "question",
           "settings": {
@@ -70,6 +77,7 @@
         }
       },
       "block_order": [
+        "question_KEReKi",
         "question-1",
         "question-2",
         "question-3",
