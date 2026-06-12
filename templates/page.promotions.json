@@ -252,9 +252,9 @@
         "promotion_card_bniJUd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_46f074fe-73d2-4668-a957-1fdc5b56dec2.png",
             "promotion_title": "Promo Coffrets Kérastase",
-            "promotion_description": "<p>À l’achat d’un Coffret Printemps Kérastase, obtenez gratuitement une pochette estivale Bisou d’été!</p>",
+            "promotion_description": "<p>À l’achat d’un Coffret Printemps Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-10",
             "promotion_link_text": "Voir plus"
           }
