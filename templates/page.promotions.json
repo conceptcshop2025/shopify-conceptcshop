@@ -51,6 +51,16 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_Rhb9Xw": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_5ec9ac50-9d6a-4800-92a9-38fdebbd52e6.png",
+            "promotion_title": "Accessoires Concept C",
+            "promotion_description": "<p>Obtenez 30 % de rabais sur les accessoires Concept C : pinces, brosses, bandeaux, trousses, rouleaux sans chaleur et plus encore!</p>",
+            "promotion_link": "shopify://collections/concept-c",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_JniMyD": {
           "type": "promotion_card",
           "settings": {
@@ -177,6 +187,7 @@
         "promotion_card_EV3tcg",
         "promotion_card_9K96Gd",
         "promotion_card_AmNamg",
+        "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
         "promotion_card_XW9PX3",
         "promotion_card_xaWW7d",
