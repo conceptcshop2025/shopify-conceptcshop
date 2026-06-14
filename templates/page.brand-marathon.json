@@ -97,17 +97,17 @@
             "promotion_image": "shopify://shop_images/Page_Marathon_4.png",
             "promotion_title": "25% DE RABAIS",
             "promotion_description": "<h3><strong>26 et 27 juin</strong></h3>",
-            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_UWFLLm": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_1c294511-7668-4fb1-8668-2714211c5a9e.webp",
-            "promotion_title": "9 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Design.Me</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/design-me",
+            "promotion_image": "shopify://shop_images/Page_Marathon_5.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>28 et 29 juin</strong></h3>",
+            "promotion_link": "shopify://collections/living-proof",
             "promotion_link_text": "Voir plus"
           }
         },
