@@ -76,7 +76,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Page_Marathon_2.png",
             "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<h3><strong>22 & 23 juin</strong></h3>",
+            "promotion_description": "<h3><strong>22 et 23 juin</strong></h3>",
             "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
@@ -84,9 +84,9 @@
         "promotion_card_78jiW6": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_493b5bd1-80c3-41db-b24f-1464cbd84d02.webp",
-            "promotion_title": "7 DÉCEMBRE",
-            "promotion_description": "<h3><strong>K18</strong></h3><p>25% de rabais</p>",
+            "promotion_image": "shopify://shop_images/Page_Marathon_3.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>24 et 25 JUIN</strong></h3>",
             "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus"
           }
