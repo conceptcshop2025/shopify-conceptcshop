@@ -54,10 +54,10 @@
         "promotion_card_z3jxe3": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/1_68b0cb1f-e06c-499a-95d7-3bf96efe7693.webp",
-            "promotion_title": "4 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Living Proof </strong></h3><p>25% de rabais<br/></p>",
-            "promotion_link": "shopify://collections/living-proof",
+            "promotion_image": "shopify://shop_images/Page_Marathon.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>18 et 19 juin</strong></h3>",
+            "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus"
           }
         },
