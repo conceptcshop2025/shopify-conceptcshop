@@ -124,10 +124,10 @@
         "promotion_card_ykM7p9": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
+            "promotion_image": "shopify://shop_images/Page_Marathon_7.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Redken</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/redken",
+            "promotion_description": "<h3><strong>2 et 23 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/davines",
             "promotion_link_text": "Voir plus"
           }
         },
