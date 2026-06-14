@@ -180,6 +180,16 @@
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_3cfNxr": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_13.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3>14 et 15 juillet</h3>",
+            "promotion_link": "shopify://collections/briogeo",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
@@ -195,7 +205,8 @@
         "promotion_card_U7hcGp",
         "promotion_card_TMjkLh",
         "promotion_card_NBizmM",
-        "promotion_card_3EKRWt"
+        "promotion_card_3EKRWt",
+        "promotion_card_3cfNxr"
       ],
       "name": "# Promotions list",
       "settings": {
