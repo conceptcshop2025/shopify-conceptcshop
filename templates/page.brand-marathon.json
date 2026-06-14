@@ -154,10 +154,10 @@
         "promotion_card_TMjkLh": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
+            "promotion_image": "shopify://shop_images/Page_Marathon_10.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Concept C</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/concept-c",
+            "promotion_description": "<h3>8 et 9 juillet</h3>",
+            "promotion_link": "shopify://collections/australian-gold",
             "promotion_link_text": "Voir plus"
           }
         },
