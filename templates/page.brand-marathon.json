@@ -126,7 +126,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Page_Marathon_7.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>2 et 23 juillet</strong></h3>",
+            "promotion_description": "<h3><strong>2 et 3 juillet</strong></h3>",
             "promotion_link": "shopify://collections/davines",
             "promotion_link_text": "Voir plus"
           }
@@ -134,10 +134,10 @@
         "promotion_card_i8bqcp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Marathon_des_marques_Decembre_2025_500_x_300_px.webp",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Amika</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/amika",
+            "promotion_image": "shopify://shop_images/Page_Marathon_8.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>4 et 5 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
           }
         },
