@@ -144,10 +144,10 @@
         "promotion_card_U7hcGp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Pureology</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/pureology",
+            "promotion_image": "shopify://shop_images/Page_Marathon_9.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<h3><strong>6 et 7 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/matrix",
             "promotion_link_text": "Voir plus"
           }
         },
