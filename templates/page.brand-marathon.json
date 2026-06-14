@@ -164,10 +164,10 @@
         "promotion_card_NBizmM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
+            "promotion_image": "shopify://shop_images/Page_Marathon_11.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3>Color Wow</h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/color-wow",
+            "promotion_description": "<h3>10 et 11 juillet</h3>",
+            "promotion_link": "shopify://collections/design-me",
             "promotion_link_text": "Voir plus"
           }
         },
