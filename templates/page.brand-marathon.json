@@ -174,10 +174,10 @@
         "promotion_card_3EKRWt": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/13_474afa8a-cd2b-4fd5-85fa-2b43a54aeb36.webp",
+            "promotion_image": "shopify://shop_images/Page_Marathon_12.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Olaplex</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/olaplex-1",
+            "promotion_description": "<h3><strong>12 et 13 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus"
           }
         }
