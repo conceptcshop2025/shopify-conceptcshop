@@ -116,8 +116,8 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Page_Marathon_6.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>Wella</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/wella",
+            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
+            "promotion_link": "shopify://collections/coola",
             "promotion_link_text": "Voir plus"
           }
         },
