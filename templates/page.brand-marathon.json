@@ -86,17 +86,17 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Page_Marathon_3.png",
             "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>24 et 25 JUIN</strong></h3>",
-            "promotion_link": "shopify://collections/k18",
+            "promotion_description": "<h3><strong>24 et 25 juin</strong></h3>",
+            "promotion_link": "shopify://collections/oribe",
             "promotion_link_text": "Voir plus"
           }
         },
         "promotion_card_UnEGmW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
-            "promotion_title": "8 DÉCEMBRE",
-            "promotion_description": "<h3><strong>René Furterer</strong></h3><p>25% de rabais</p>",
+            "promotion_image": "shopify://shop_images/Page_Marathon_4.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>26 et 27 juin</strong></h3>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
             "promotion_link_text": "Voir plus"
           }
