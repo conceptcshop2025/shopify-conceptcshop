@@ -114,8 +114,8 @@
         "promotion_card_xqiQgC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_55aaf09c-8b89-4089-9ff5-d667e2a5a414.webp",
-            "promotion_title": "10 DÉCEMBRE",
+            "promotion_image": "shopify://shop_images/Page_Marathon_6.png",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Wella</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/wella",
             "promotion_link_text": "Voir plus"
@@ -125,7 +125,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
-            "promotion_title": "11 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Redken</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus"
@@ -135,7 +135,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Marathon_des_marques_Decembre_2025_500_x_300_px.webp",
-            "promotion_title": "12 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Amika</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/amika",
             "promotion_link_text": "Voir plus"
@@ -145,7 +145,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
-            "promotion_title": "13 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Pureology</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus"
@@ -155,7 +155,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
-            "promotion_title": "14 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Concept C</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus"
@@ -165,7 +165,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
-            "promotion_title": "15 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3>Color Wow</h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/color-wow",
             "promotion_link_text": "Voir plus"
@@ -175,7 +175,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/13_474afa8a-cd2b-4fd5-85fa-2b43a54aeb36.webp",
-            "promotion_title": "16 DÉCEMBRE",
+            "promotion_title": "20% DE RABAIS",
             "promotion_description": "<h3><strong>Olaplex</strong></h3><p>25% de rabais</p>",
             "promotion_link": "shopify://collections/olaplex-1",
             "promotion_link_text": "Voir plus"
