@@ -74,9 +74,9 @@
         "promotion_card_TChyGp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_e0213433-1f3b-4d42-b4d9-a918d6740ef4.webp",
-            "promotion_title": "6 DÉCEMBRE",
-            "promotion_description": "<h3><strong>L'Oréal</strong></h3><p>25% de rabais</p>",
+            "promotion_image": "shopify://shop_images/Page_Marathon_2.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>22 & 23 juin</strong></h3>",
             "promotion_link": "shopify://collections/loreal",
             "promotion_link_text": "Voir plus"
           }
