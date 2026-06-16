@@ -134,10 +134,10 @@
             "image": "shopify://shop_images/Slider_Mobile_Marathon.png",
             "background_color": "#FE7604",
             "title": "MARATHON DES MARQUES",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
             "text_color": "#FFFFFF",
             "link_url": "shopify://pages/le-marathon",
-            "link_text": "magasiner"
+            "link_text": "voir le calendrier"
           }
         }
       },
