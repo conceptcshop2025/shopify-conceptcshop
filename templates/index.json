@@ -126,12 +126,26 @@
             "link_url": "shopify://collections/concept-c",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_ewzcDN": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Marathon.png",
+            "background_color": "#FE7604",
+            "title": "MARATHON DES MARQUES",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_color": "#FFFFFF",
+            "link_url": "shopify://pages/le-marathon",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "item_banner_8zDdDg",
         "item_banner_DCT7Gk",
-        "item_banner_KVbTBP"
+        "item_banner_KVbTBP",
+        "item_banner_ewzcDN"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
