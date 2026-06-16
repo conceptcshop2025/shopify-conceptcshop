@@ -1,0 +1,77 @@
+{% style %}
+  .c-expiration-text#c-section--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{% endstyle %}
+
+<div class="c-expiration-text" id="c-section--{{ section.id }}">
+  {% assign now = 'now' | date: '%s' %}
+  {% for metafield in collection.metafields.custom.text_expiration.value %}
+    {% assign start_date = metafield.start_date | date: '%s' %}
+    {% assign end_date = metafield.end_date | date: '%s' %}
+    {% if now >= start_date and now <= end_date %}
+      <p class="expiration-text" style="color: {{ section.settings.text_color }}; text-align: {{ section.settings.text_alignment }};">
+        {{ metafield.text }}
+      </p>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "C Expiration Text",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#454545"
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "t:sections.multi_column.settings.grid.padding_top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "t:sections.multi_column.settings.grid.padding_bottom",
+        "default": 0
+      },
+    ],
+    "presets": [
+      {
+        "name": "C Expiration Text"
+      }
+    ]
+  }
+{% endschema %}
