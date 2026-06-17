@@ -21,19 +21,8 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_EV3tcg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_a2ff4aa4-e78d-47ff-9f37-983136a367a7.png",
-            "promotion_title": "Blitz d'économies XXL",
-            "promotion_description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée :<strong>économisez jusqu’à 70 %</strong>sur une sélection de marques et produits favoris!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_kRcryW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2c2006cb-7d58-4264-a567-599592cca076.png",
             "promotion_title": "Marathon des Marques",
@@ -195,7 +184,6 @@
         }
       },
       "block_order": [
-        "promotion_card_EV3tcg",
         "promotion_card_kRcryW",
         "promotion_card_9K96Gd",
         "promotion_card_AmNamg",
