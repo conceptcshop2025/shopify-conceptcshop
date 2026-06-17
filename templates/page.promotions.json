@@ -75,9 +75,10 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_title": "",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_4552b5e4-1d4f-49f5-9f64-43606e1f4a8b.png",
+            "promotion_title": "20% de rabais sur litres Moroccanoil",
+            "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. Pour un temps limité, profitez de 20 % de rabais sur ses formats litres.</p>",
+            "promotion_link": "shopify://collections/litres-moroccanoil",
             "promotion_link_text": "Voir plus"
           }
         },
