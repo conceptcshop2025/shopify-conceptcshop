@@ -31,6 +31,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_kRcryW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2c2006cb-7d58-4264-a567-599592cca076.png",
+            "promotion_title": "Marathon des Marques",
+            "promotion_description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
+            "promotion_link": "shopify://pages/le-marathon",
+            "promotion_link_text": "Voir le calendrier"
+          }
+        },
         "promotion_card_9K96Gd": {
           "type": "promotion_card",
           "settings": {
@@ -185,6 +196,7 @@
       },
       "block_order": [
         "promotion_card_EV3tcg",
+        "promotion_card_kRcryW",
         "promotion_card_9K96Gd",
         "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",

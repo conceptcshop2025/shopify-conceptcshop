@@ -126,12 +126,26 @@
             "link_url": "shopify://collections/concept-c",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_ewzcDN": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Marathon.png",
+            "background_color": "#FE7604",
+            "title": "MARATHON DES MARQUES",
+            "description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
+            "text_color": "#FFFFFF",
+            "link_url": "shopify://pages/le-marathon",
+            "link_text": "voir le calendrier"
+          }
         }
       },
       "block_order": [
         "item_banner_8zDdDg",
         "item_banner_DCT7Gk",
-        "item_banner_KVbTBP"
+        "item_banner_KVbTBP",
+        "item_banner_ewzcDN"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
