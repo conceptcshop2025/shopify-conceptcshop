@@ -239,16 +239,6 @@
             "promotion_link_text": "Voir plus"
           }
         },
-        "promotion_card_zr6WXC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_372dc613-b30f-4cc1-b244-182f54d3adfd.png",
-            "promotion_title": "Promo Moroccanoil",
-            "promotion_description": "<p>À l’achat de 80 $ de produits Moroccanoil, recevez gratuitement un baume à lèvres Thé à la Menthe!</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_bniJUd": {
           "type": "promotion_card",
           "settings": {
@@ -322,7 +312,6 @@
       },
       "block_order": [
         "promotion_card_xpkdwW",
-        "promotion_card_zr6WXC",
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy",
