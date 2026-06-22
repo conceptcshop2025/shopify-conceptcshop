@@ -99,26 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_z3jxe3": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_1_d34a114b-ef3d-45dd-84c4-65adf20858ab.png",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<h3><strong>18 et 19 juin</strong></h3>",
-            "promotion_link": "shopify://collections/redken",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kTArGh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_3_6876d0fd-2046-4091-9b10-f9a608fff96d.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3>20 et 21 juin</h3>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_TChyGp": {
           "type": "promotion_card",
           "settings": {
@@ -238,11 +218,29 @@
             "promotion_link": "shopify://collections/briogeo",
             "promotion_link_text": "Voir plus"
           }
+        },
+        "promotion_card_kTArGh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_3_6876d0fd-2046-4091-9b10-f9a608fff96d.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3>20 et 21 juin</h3>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus"
+          }
+        },
+        "promotion_card_z3jxe3": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_1_d34a114b-ef3d-45dd-84c4-65adf20858ab.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>18 et 19 juin</strong></h3>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus"
+          }
         }
       },
       "block_order": [
-        "promotion_card_z3jxe3",
-        "promotion_card_kTArGh",
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
@@ -254,7 +252,9 @@
         "promotion_card_TMjkLh",
         "promotion_card_NBizmM",
         "promotion_card_3EKRWt",
-        "promotion_card_3cfNxr"
+        "promotion_card_3cfNxr",
+        "promotion_card_kTArGh",
+        "promotion_card_z3jxe3"
       ],
       "name": "# Promotions list",
       "settings": {
