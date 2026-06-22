@@ -31,8 +31,20 @@
       "name": "# Collection tags",
       "settings": {
         "color_scheme": "",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "c_expiration_text_kLNxGh": {
+      "type": "c-expiration-text",
+      "name": "C Expiration Text",
+      "settings": {
+        "text_color": "#454545",
+        "text_alignment": "center",
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "main": {
@@ -63,6 +75,7 @@
   "order": [
     "collection-banner",
     "custom_collection_tags_DdQdc6",
+    "c_expiration_text_kLNxGh",
     "main"
   ]
 }

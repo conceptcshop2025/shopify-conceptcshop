@@ -31,13 +31,13 @@
             "promotion_link_text": "Voir le calendrier"
           }
         },
-        "promotion_card_9K96Gd": {
+        "promotion_card_4Feffz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_3.png",
-            "promotion_title": "Essentiels d'été!",
-            "promotion_description": "<p>Obtenez 10 % de rabais sur nos essentiels de l’été, incluant nos favoris pour le séchage à l’air libre, les crèmes solaires, les produits pour la gestion de l’humidité et plus encore! <strong>code promo = ete10</strong><br/></p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6831ced3-0d16-476b-b43d-c98d8c449bd6.png",
+            "promotion_title": "8 produits à 50%",
+            "promotion_description": "<p>Profitez de 50 % de rabais sur 8 produits sélectionnés. Une offre à durée limitée pour faire le plein de vos essentiels avant qu’ils disparaissent!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -71,6 +71,17 @@
             "promotion_link_text": "Voir plus"
           }
         },
+        "promotion_card_8qg7NA": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_7d3ccbc5-053d-4933-91ba-c275eef387b2.png",
+            "promotion_title": "20% sur Nuda",
+            "promotion_description": "<p>Un teint bronzé, lumineux et naturel avec NUDA : une marque québécoise d’autobronzants et de soins du corps aux textures douces et faciles à appliquer.</p>",
+            "promotion_link": "shopify://collections/nuda",
+            "promotion_link_text": "Voir plus"
+          }
+        },
         "promotion_card_bBg98x": {
           "type": "promotion_card",
           "settings": {
@@ -88,16 +99,6 @@
             "promotion_title": "20% de rabais sur litres Moroccanoil",
             "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. Pour un temps limité, profitez de 20 % de rabais sur ses formats litres.</p>",
             "promotion_link": "shopify://collections/litres-moroccanoil",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_XW9PX3": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2_27dbd9d2-bd7f-4576-8546-9c874a58ed8c.png",
-            "promotion_title": "-20% + cadeau!",
-            "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold format régulier, obtenez 20 % de rabais + format voyage du prolongateur Aloe & Ocean Water gratuitement!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-14",
             "promotion_link_text": "Voir plus"
           }
         },
@@ -194,13 +195,13 @@
       },
       "block_order": [
         "promotion_card_kRcryW",
-        "promotion_card_9K96Gd",
+        "promotion_card_4Feffz",
         "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
+        "promotion_card_8qg7NA",
         "promotion_card_bBg98x",
         "promotion_card_wiCTnh",
-        "promotion_card_XW9PX3",
         "promotion_card_xaWW7d",
         "promotion_card_xRAEX6",
         "promotion_card_qQcwXa",
