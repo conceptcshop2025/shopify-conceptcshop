@@ -3,7 +3,11 @@
   {{ 'custom-item-card.css' | asset_url | stylesheet_tag }}
 {% endunless %}
 
-<div class="item-card {{ item_card_type }}">
+{% comment %} props for expiration date card {% endcomment %}
+{% assign expiration_year = "now" | date: "%Y" %}
+{% comment %} ****************************** {% endcomment %}
+
+<div class="item-card {{ item_card_type }}" {% if card_with_expiration == true %}expiration-card="{{ expiration_year }}{{ expiration_month }}{{ expiration_day }}"{% endif %}>
   {% if item_image != blank %}
     <div class="item-image">
       <img src="{{ item_image | image_url: width: '600' }}" alt="{{ item_title }}" title="{{ item_title }}" width="600" height="400"/>
