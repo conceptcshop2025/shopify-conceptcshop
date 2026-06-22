@@ -31,16 +31,6 @@
             "promotion_link_text": "Voir le calendrier"
           }
         },
-        "promotion_card_9K96Gd": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_3.png",
-            "promotion_title": "Essentiels d'été!",
-            "promotion_description": "<p>Obtenez 10 % de rabais sur nos essentiels de l’été, incluant nos favoris pour le séchage à l’air libre, les crèmes solaires, les produits pour la gestion de l’humidité et plus encore! <strong>code promo = ete10</strong><br/></p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
-            "promotion_link_text": "Voir plus"
-          }
-        },
         "promotion_card_AmNamg": {
           "type": "promotion_card",
           "settings": {
@@ -194,7 +184,6 @@
       },
       "block_order": [
         "promotion_card_kRcryW",
-        "promotion_card_9K96Gd",
         "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
