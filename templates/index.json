@@ -95,11 +95,11 @@
           "type": "item_banner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Blitz_XXL_750_x_600_px.png",
-            "background_color": "#e9009f",
-            "title": "BLITZ D'ÉCONOMIES XXL",
-            "description": "<p>Notre plus grande liquidation de surplus d’inventaire de l’année est arrivée : <strong>économisez jusqu’à 70 %</strong> sur une sélection de marques et produits favoris!</p>",
-            "text_color": "#ffffff",
+            "image": "shopify://shop_images/Ilettre_8_produits_50_off_750_x_600_px.png",
+            "background_color": "#83BBB4",
+            "title": "8 PRODUITS À -50%",
+            "description": "<p>Profitez de <strong>50 % de rabais</strong> sur 8 produits sélectionnés. Une offre à durée limitée pour faire le plein de vos essentiels avant qu’ils disparaissent!<br/></p>",
+            "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
@@ -120,7 +120,7 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Essentiels_Ete_10_off.png",
-            "background_color": "#5E351A",
+            "background_color": "#5e351a",
             "title": "NOS ESSENTIELS D'ÉTÉ",
             "description": "<p>Obtenez <strong>10 % de rabais</strong> sur une sélection d’essentiels d’été, incluant nos favoris pour le séchage à l’air libre, la protection solaire, la gestion de l’humidité et plus encore, avec le <strong>code ETE10</strong></p>",
             "text_color": "#ffffff",
