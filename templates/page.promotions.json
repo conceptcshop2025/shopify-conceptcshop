@@ -346,19 +346,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_wwYP3X": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_cf43bc60-5a6e-4743-9aa7-55d25b209f64.png",
-            "promotion_title": "Fêtes des Pères Kérastase",
-            "promotion_description": "<p>À l’achat d’un produit Genesis Homme de Kérastase, obtenez gratuitement la pochette Genesis!</p>",
-            "promotion_link": "shopify://collections/offre-kerastase",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_qcFYTp": {
           "type": "promotion_card",
           "settings": {
@@ -392,7 +379,6 @@
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy",
         "promotion_card_c7m9aT",
-        "promotion_card_wwYP3X",
         "promotion_card_qcFYTp",
         "promotion_card_CmxthT"
       ],
