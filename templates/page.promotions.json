@@ -88,7 +88,6 @@
         },
         "promotion_card_8qg7NA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_7d3ccbc5-053d-4933-91ba-c275eef387b2.png",
             "promotion_title": "20% sur Nuda",
