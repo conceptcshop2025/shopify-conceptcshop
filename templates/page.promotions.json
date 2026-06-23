@@ -28,7 +28,10 @@
             "promotion_title": "Marathon des Marques",
             "promotion_description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
             "promotion_link": "shopify://pages/le-marathon",
-            "promotion_link_text": "Voir le calendrier"
+            "promotion_link_text": "Voir le calendrier",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_4Feffz": {
@@ -38,7 +41,10 @@
             "promotion_title": "8 produits à 50%",
             "promotion_description": "<p>Profitez de 50 % de rabais sur 8 produits sélectionnés. Une offre à durée limitée pour faire le plein de vos essentiels avant qu’ils disparaissent!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_AmNamg": {
@@ -48,7 +54,10 @@
             "promotion_title": "Jusqu'à 40% de rabais!",
             "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_Rhb9Xw": {
@@ -58,7 +67,10 @@
             "promotion_title": "Accessoires Concept C",
             "promotion_description": "<p>Obtenez 30 % de rabais sur les accessoires Concept C : pinces, brosses, bandeaux, trousses, rouleaux sans chaleur et plus encore!</p>",
             "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_JniMyD": {
@@ -68,7 +80,10 @@
             "promotion_title": "-20% sur le séchage à l'air libre!",
             "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
             "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_8qg7NA": {
@@ -79,7 +94,10 @@
             "promotion_title": "20% sur Nuda",
             "promotion_description": "<p>Un teint bronzé, lumineux et naturel avec NUDA : une marque québécoise d’autobronzants et de soins du corps aux textures douces et faciles à appliquer.</p>",
             "promotion_link": "shopify://collections/nuda",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_bBg98x": {
@@ -89,7 +107,10 @@
             "promotion_title": "15% de rabais",
             "promotion_description": "<p><strong>Du 23 juin au 7 juillet</strong>, obtenez 15 % de rabais à l’achat d’un SteamPod, en plus d’un échantillon gratuit du sérum SteamPod. Offre valide jusqu’à épuisement des stocks. Certaines conditions s’appliquent.</p>",
             "promotion_link": "shopify://products/loreal-fer-plat-a-vapeur-steampod-4-0",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_wiCTnh": {
@@ -99,7 +120,10 @@
             "promotion_title": "20% de rabais sur litres Moroccanoil",
             "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. Pour un temps limité, profitez de 20 % de rabais sur ses formats litres.</p>",
             "promotion_link": "shopify://collections/litres-moroccanoil",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_xaWW7d": {
@@ -109,7 +133,10 @@
             "promotion_title": "Le secret d'un sleek parfait",
             "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_xRAEX6": {
@@ -119,7 +146,10 @@
             "promotion_title": "25% de rabais",
             "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
             "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_qQcwXa": {
@@ -129,7 +159,10 @@
             "promotion_title": "Redken Acidic Grow Full",
             "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_MMQHPd": {
@@ -139,17 +172,23 @@
             "promotion_title": "15% sur Soleil de Kérastase",
             "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-8",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_xrx7Yh": {
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
+            "promotion_title": "25 à 30% de rabais",
+            "promotion_description": "<p>Jusqu’au 1er juillet, obtenez de 25 % à 30 % de rabais sur une sélection de favoris et coiffants Pureology.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_8Cb83Y": {
@@ -159,7 +198,10 @@
             "promotion_title": "-20% sur Pureology Smooth Gloss",
             "promotion_description": "<p>Un rituel complet anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_tFtmhM": {
@@ -169,7 +211,10 @@
             "promotion_title": "Duo fortifiant Izumi Tonic",
             "promotion_description": "<p>25 % de rabais, duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
             "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_zQ3xUA": {
@@ -179,7 +224,10 @@
             "promotion_title": "Nos Coffrets",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_W7BpWz": {
@@ -189,7 +237,10 @@
             "promotion_title": "Liquidation",
             "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
@@ -237,7 +288,10 @@
             "promotion_title": "Promo Biolage",
             "promotion_description": "<p>À l’achat de 2 produits dans cette sélection Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
             "promotion_link": "shopify://collections/offre-en-cours",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_bniJUd": {
@@ -247,7 +301,10 @@
             "promotion_title": "Promo Coffrets Kérastase",
             "promotion_description": "<p>À l’achat d’un Coffret Printemps Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_zEceJC": {
@@ -257,7 +314,10 @@
             "promotion_title": "Format Voyage Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale J’aime la mer!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_cRBzcy": {
@@ -267,7 +327,10 @@
             "promotion_title": "Promo Estivale Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac d’été Bisou d’Été!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_c7m9aT": {
@@ -277,7 +340,10 @@
             "promotion_title": "Esthederm Eau Cellulaire",
             "promotion_description": "<p>À l’achat de 100 $ dans la sélection Eau Cellulaire, obtenez gratuitement une bouteille d’eau bleu bébé. De plus, à l’achat d’une brume d’Eau Cellulaire 200 ml, obtenez la 2e à 50 %!</p>",
             "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_wwYP3X": {
@@ -287,7 +353,10 @@
             "promotion_title": "Fêtes des Pères Kérastase",
             "promotion_description": "<p>À l’achat d’un produit Genesis Homme de Kérastase, obtenez gratuitement la pochette Genesis!</p>",
             "promotion_link": "shopify://collections/offre-kerastase",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_qcFYTp": {
@@ -297,7 +366,10 @@
             "promotion_title": "Masseur pour le cuir chevelu Balmain",
             "promotion_description": "<p>À l’achat de 50 $ de produits Balmain, obtenez gratuitement un masseur pour le cuir chevelu. <em>Exclusivité web.</em></p>",
             "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_CmxthT": {
@@ -307,7 +379,10 @@
             "promotion_title": "Lancement Blonde Guard",
             "promotion_description": "<p>À l’achat de 2 produits format régulier Blond Absolu, obtenez gratuitement un format deluxe du sérum de nuit Cicanuit!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-6",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
@@ -346,7 +421,10 @@
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Kérastase. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_qbFiXU": {
@@ -356,7 +434,10 @@
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_aWWz9r": {
@@ -366,7 +447,10 @@
             "promotion_title": "Esthederm",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_9XbYyw": {
@@ -377,7 +461,10 @@
             "promotion_title": "Pureology",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Pureology. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_jfRV8G": {
@@ -388,7 +475,10 @@
             "promotion_title": "René Furterer",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
