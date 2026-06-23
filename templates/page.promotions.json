@@ -181,8 +181,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "25 à 30% de rabais",
-            "promotion_description": "<p>Jusqu’au 1er juillet, obtenez de 25 % à 30 % de rabais sur une sélection de favoris et coiffants Pureology.</p>",
+            "promotion_title": "20 à 30% de rabais",
+            "promotion_description": "<p>Jusqu’au 1er juillet, obtenez de 20 % à 30 % de rabais sur une sélection de favoris et coiffants Pureology.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-pureology",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
