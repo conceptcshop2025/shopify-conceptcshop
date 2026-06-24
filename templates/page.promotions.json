@@ -438,6 +438,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_d9JKry": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_e38b1837-8e0c-4cb8-bb50-1bca00844d97.png",
+            "promotion_title": "Australian Gold",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Australian Gold. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/australian-gold",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
           "disabled": true,
@@ -471,6 +484,7 @@
         "promotion_card_McCiBz",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
+        "promotion_card_d9JKry",
         "promotion_card_9XbYyw",
         "promotion_card_jfRV8G"
       ],
