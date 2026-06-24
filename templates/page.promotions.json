@@ -451,6 +451,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_B7VPDU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_eb87e593-867a-47df-bc12-22be47842579.png",
+            "promotion_title": "Davines",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
           "disabled": true,
@@ -485,6 +498,7 @@
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
         "promotion_card_d9JKry",
+        "promotion_card_B7VPDU",
         "promotion_card_9XbYyw",
         "promotion_card_jfRV8G"
       ],
