@@ -322,9 +322,9 @@
         "promotion_card_cRBzcy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_35b97358-6ac0-46c7-8a1c-5ebc6f72b0b3.png",
             "promotion_title": "Promo Estivale Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac d’été Bisou d’Été!</p>",
+            "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac J'aime la mer!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
