@@ -280,6 +280,20 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_C8kCAC": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_a1851d5c-9b9e-4e2b-b408-77cac12b261d.png",
+            "promotion_title": "Promo Solaire René Furterer",
+            "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
           "settings": {
@@ -373,6 +387,7 @@
         }
       },
       "block_order": [
+        "promotion_card_C8kCAC",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
