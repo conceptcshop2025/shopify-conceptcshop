@@ -48,19 +48,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_4Feffz": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6831ced3-0d16-476b-b43d-c98d8c449bd6.png",
-            "promotion_title": "8 produits à 50%",
-            "promotion_description": "<p>Profitez de 50 % de rabais sur 8 produits sélectionnés. Une offre à durée limitée pour faire le plein de vos essentiels avant qu’ils disparaissent!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_AmNamg": {
           "type": "promotion_card",
           "settings": {
@@ -260,7 +247,6 @@
       "block_order": [
         "promotion_card_kRcryW",
         "promotion_card_hULHNK",
-        "promotion_card_4Feffz",
         "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
