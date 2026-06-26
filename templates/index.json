@@ -91,18 +91,6 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
-        "item_banner_8zDdDg": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_8_produits_50_off_750_x_600_px.png",
-            "background_color": "#83bbb4",
-            "title": "8 PRODUITS À -50%",
-            "description": "<p>Profitez de <strong>50 % de rabais</strong> sur 8 produits sélectionnés. Une offre à durée limitée pour faire le plein de vos essentiels avant qu’ils disparaissent!<br/></p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-11",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_ewzcDN": {
           "type": "item_banner",
           "settings": {
@@ -113,6 +101,18 @@
             "text_color": "#ffffff",
             "link_url": "shopify://pages/le-marathon",
             "link_text": "voir le calendrier"
+          }
+        },
+        "item_banner_bXndCM": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/GWP_Serviette_sac_a_dos._160_Juin_Juillet_2026.png",
+            "background_color": "#064f92",
+            "title": "SERVIETTE GRATUITE!",
+            "description": "<p>À l’achat de 160 $ de produits, avant taxes et application d’un code promo, obtenez gratuitement notre serviette sac à dos bleue en microfibre. <em>Certaines conditions s’appliquent.</em></p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/promo-du-moment",
+            "link_text": "magasiner"
           }
         },
         "item_banner_KVbTBP": {
@@ -126,26 +126,12 @@
             "link_url": "shopify://collections/concept-c",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_bXndCM": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/GWP_Serviette_sac_a_dos._160_Juin_Juillet_2026.png",
-            "background_color": "#064F92",
-            "title": "SERVIETTE GRATUITE!",
-            "description": "<p>À l’achat de 160 $ de produits, avant taxes et application d’un code promo, obtenez gratuitement notre serviette sac à dos bleue en microfibre. <em>Certaines conditions s’appliquent.</em></p>",
-            "text_color": "#FFFFFF",
-            "link_url": "shopify://collections/promo-du-moment",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
-        "item_banner_8zDdDg",
         "item_banner_ewzcDN",
-        "item_banner_KVbTBP",
-        "item_banner_bXndCM"
+        "item_banner_bXndCM",
+        "item_banner_KVbTBP"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
