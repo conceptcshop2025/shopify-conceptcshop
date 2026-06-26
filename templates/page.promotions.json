@@ -292,6 +292,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_B67XMF": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_bc0b359d-7da5-462f-907e-69ad41e85f00.png",
+            "promotion_title": "Cadeau Coola!",
+            "promotion_description": "<p>À l’achat de 2 Coola, obtenez gratuitement un sac d’été rigide bleu! <em>*certaines conditions s'appliquent<br/></em></p>",
+            "promotion_link": "shopify://collections/coola",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
           "settings": {
@@ -387,6 +400,7 @@
       "block_order": [
         "promotion_card_C8kCAC",
         "promotion_card_iF8n4z",
+        "promotion_card_B67XMF",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
