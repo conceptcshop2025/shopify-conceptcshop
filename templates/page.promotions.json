@@ -125,19 +125,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_xaWW7d": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_bef42127-5b82-41f6-9a2a-20af1b524b09.png",
-            "promotion_title": "Le secret d'un sleek parfait",
-            "promotion_description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_xRAEX6": {
           "type": "promotion_card",
           "settings": {
@@ -252,7 +239,6 @@
         "promotion_card_8qg7NA",
         "promotion_card_bBg98x",
         "promotion_card_wiCTnh",
-        "promotion_card_xaWW7d",
         "promotion_card_xRAEX6",
         "promotion_card_qQcwXa",
         "promotion_card_MMQHPd",
@@ -287,6 +273,19 @@
             "promotion_title": "Promo Solaire René Furterer",
             "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
             "promotion_link": "shopify://products/rene-furterer-duo-solaire",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_iF8n4z": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_2308cf26-c9c4-4e27-9a15-762c064297fe.png",
+            "promotion_title": "Promo Oribe",
+            "promotion_description": "<p>À l’achat du bâton de cire lissant, obtenez une grande brosse coquette gratuite pour des looks sleek sans frisottis.</p>",
+            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -387,6 +386,7 @@
       },
       "block_order": [
         "promotion_card_C8kCAC",
+        "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
         "promotion_card_bniJUd",
         "promotion_card_zEceJC",
