@@ -99,32 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_TChyGp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_2_6cd9d2c1-d92b-45d7-bb55-829adba2155a.png",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<h3><strong>22 et 23 juin</strong></h3>",
-            "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "06",
-            "expiration_day": "23"
-          }
-        },
-        "promotion_card_78jiW6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_3_6d2ff21a-b58a-418c-9b48-995e5ea8326d.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>24 et 25 juin</strong></h3>",
-            "promotion_link": "shopify://collections/oribe",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "06",
-            "expiration_day": "25"
-          }
-        },
         "promotion_card_UnEGmW": {
           "type": "promotion_card",
           "settings": {
@@ -280,11 +254,35 @@
             "expiration_month": "06",
             "expiration_day": "19"
           }
+        },
+        "promotion_card_TChyGp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_2_6cd9d2c1-d92b-45d7-bb55-829adba2155a.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>22 et 23 juin</strong></h3>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "23"
+          }
+        },
+        "promotion_card_78jiW6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_3_6d2ff21a-b58a-418c-9b48-995e5ea8326d.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>24 et 25 juin</strong></h3>",
+            "promotion_link": "shopify://collections/oribe",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "25"
+          }
         }
       },
       "block_order": [
-        "promotion_card_TChyGp",
-        "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
@@ -296,7 +294,9 @@
         "promotion_card_3EKRWt",
         "promotion_card_3cfNxr",
         "promotion_card_kTArGh",
-        "promotion_card_z3jxe3"
+        "promotion_card_z3jxe3",
+        "promotion_card_TChyGp",
+        "promotion_card_78jiW6"
       ],
       "name": "# Promotions list",
       "settings": {
