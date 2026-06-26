@@ -36,10 +36,9 @@
         },
         "promotion_card_hULHNK": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_60e5f394-1fc1-4fc1-a310-40216217489f.png",
-            "promotion_title": "Serviette Gratuite",
+            "promotion_title": "Serviette de plage gratuite!",
             "promotion_description": "<p>À l’achat de 160 $ de produits, avant taxes et application d’un code promo, obtenez gratuitement notre serviette sac à dos bleue en microfibre. <em>*Certaines conditions s’appliquent.</em></p>",
             "promotion_link": "shopify://collections/promo-du-moment",
             "promotion_link_text": "Voir plus",
