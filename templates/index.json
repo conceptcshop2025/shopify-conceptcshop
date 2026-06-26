@@ -364,6 +364,19 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_bw49MV": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_b536d3d5-609c-4fe3-afbe-b5abd5e86e8f.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p><strong>Du 23 juin au 7 juillet</strong>, obtenez 15 % de rabais à l’achat d’un SteamPod, en plus d’un échantillon gratuit du sérum SteamPod. Offre valide jusqu’à épuisement des stocks. Certaines conditions s’appliquent.</p>",
+            "promotion_link": "shopify://products/loreal-fer-plat-a-vapeur-steampod-4-0",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_jee7y7": {
           "type": "promotion_card",
           "settings": {
@@ -402,40 +415,13 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_xcgFkq": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
-            "promotion_title": "25% de rabais",
-            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_FVxyPV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_bacb8c7a-ad8e-4d78-9ab6-9a3f405ce7bc.png",
-            "promotion_title": "Nos Coffrets",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
+        "promotion_card_bw49MV",
         "promotion_card_jee7y7",
         "promotion_card_eFAHAd",
-        "promotion_card_RE7mtH",
-        "promotion_card_xcgFkq",
-        "promotion_card_FVxyPV"
+        "promotion_card_RE7mtH"
       ],
       "name": "# Promotions list",
       "settings": {
