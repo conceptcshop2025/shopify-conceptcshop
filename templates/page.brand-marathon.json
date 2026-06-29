@@ -99,19 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_UnEGmW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_4_e0877169-7a4f-45ca-8725-18cc57dd66d0.png",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<h3><strong>26 et 27 juin</strong></h3>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "06",
-            "expiration_day": "27"
-          }
-        },
         "promotion_card_UWFLLm": {
           "type": "promotion_card",
           "settings": {
@@ -280,10 +267,22 @@
             "expiration_month": "06",
             "expiration_day": "25"
           }
+        },
+        "promotion_card_UnEGmW": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_4_e0877169-7a4f-45ca-8725-18cc57dd66d0.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>26 et 27 juin</strong></h3>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "27"
+          }
         }
       },
       "block_order": [
-        "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
         "promotion_card_ykM7p9",
@@ -296,7 +295,8 @@
         "promotion_card_kTArGh",
         "promotion_card_z3jxe3",
         "promotion_card_TChyGp",
-        "promotion_card_78jiW6"
+        "promotion_card_78jiW6",
+        "promotion_card_UnEGmW"
       ],
       "name": "# Promotions list",
       "settings": {
