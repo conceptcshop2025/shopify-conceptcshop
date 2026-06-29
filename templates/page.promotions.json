@@ -113,6 +113,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_VxmwYD": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_babf18d7-cecb-4416-a478-b2ce619dbf93.png",
+            "promotion_title": "15% sur la gamme Solaire",
+            "promotion_description": "<p>Profitez de 15% de rabais sur toute la gamme solaire Esthederm. Protection, hydratation et bronzage lumineux pour un été éclatant!</p>",
+            "promotion_link": "shopify://collections/esthederm-solaire",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_wiCTnh": {
           "type": "promotion_card",
           "settings": {
@@ -239,6 +253,7 @@
         "promotion_card_JniMyD",
         "promotion_card_bBg98x",
         "promotion_card_jfHUr3",
+        "promotion_card_VxmwYD",
         "promotion_card_wiCTnh",
         "promotion_card_xRAEX6",
         "promotion_card_qQcwXa",
