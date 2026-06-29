@@ -86,19 +86,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_8qg7NA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_7d3ccbc5-053d-4933-91ba-c275eef387b2.png",
-            "promotion_title": "20% sur Nuda",
-            "promotion_description": "<p>Un teint bronzé, lumineux et naturel avec NUDA : une marque québécoise d’autobronzants et de soins du corps aux textures douces et faciles à appliquer.</p>",
-            "promotion_link": "shopify://collections/nuda",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_bBg98x": {
           "type": "promotion_card",
           "settings": {
@@ -236,7 +223,6 @@
         "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
-        "promotion_card_8qg7NA",
         "promotion_card_bBg98x",
         "promotion_card_wiCTnh",
         "promotion_card_xRAEX6",
