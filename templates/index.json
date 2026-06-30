@@ -366,12 +366,11 @@
       "blocks": {
         "promotion_card_nj4niW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_1.png",
             "promotion_title": "8 produits = 50% de rabais",
-            "promotion_description": "",
-            "promotion_link": "",
+            "promotion_description": "<p>Pour 24 heures seulement, profitez de 50 % de rabais sur une sélection de 8 produits. Le bon moment pour ajouter quelques essentiels à votre routine avant la fin de l’offre!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
