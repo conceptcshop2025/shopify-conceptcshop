@@ -364,6 +364,20 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_nj4niW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_1.png",
+            "promotion_title": "8 produits = 50% de rabais",
+            "promotion_description": "",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_bw49MV": {
           "type": "promotion_card",
           "settings": {
@@ -418,6 +432,7 @@
         }
       },
       "block_order": [
+        "promotion_card_nj4niW",
         "promotion_card_bw49MV",
         "promotion_card_jee7y7",
         "promotion_card_eFAHAd",
