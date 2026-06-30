@@ -115,7 +115,6 @@
         },
         "promotion_card_VxmwYD": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_babf18d7-cecb-4416-a478-b2ce619dbf93.png",
             "promotion_title": "15% sur la gamme Solaire",
