@@ -126,6 +126,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_UPwWPP": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_463b6d68-4c26-4edf-98a8-af8fefa27147.png",
+            "promotion_title": "15 à 20% de rabais",
+            "promotion_description": "<p>Profitez de 15 % à 20 % de rabais sur une sélection de coiffants Moroccanoil. Des essentiels pour créer, définir et faire tenir votre mise en plis!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_wiCTnh": {
           "type": "promotion_card",
           "settings": {
@@ -217,19 +230,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_zQ3xUA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_bacb8c7a-ad8e-4d78-9ab6-9a3f405ce7bc.png",
-            "promotion_title": "Nos Coffrets",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
@@ -253,6 +253,7 @@
         "promotion_card_bBg98x",
         "promotion_card_jfHUr3",
         "promotion_card_VxmwYD",
+        "promotion_card_UPwWPP",
         "promotion_card_wiCTnh",
         "promotion_card_xRAEX6",
         "promotion_card_qQcwXa",
@@ -260,7 +261,6 @@
         "promotion_card_xrx7Yh",
         "promotion_card_8Cb83Y",
         "promotion_card_tFtmhM",
-        "promotion_card_zQ3xUA",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
