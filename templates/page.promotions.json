@@ -47,19 +47,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_AmNamg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
-            "promotion_title": "Jusqu'à 40% de rabais!",
-            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_Rhb9Xw": {
           "type": "promotion_card",
           "settings": {
@@ -151,32 +138,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_xRAEX6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/1_9ead7680-b77e-46eb-ad72-4683b77f2440.png",
-            "promotion_title": "25% de rabais",
-            "promotion_description": "<p>Créez votre mise en plis parfaite avec Tecni.Art de L’Oréal Professionnel : des coiffants performants pour du volume, de la texture et une tenue impeccable!</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_qQcwXa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_MMQHPd": {
           "type": "promotion_card",
           "settings": {
@@ -190,19 +151,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_xrx7Yh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "20 à 30% de rabais",
-            "promotion_description": "<p>Jusqu’au 1er juillet, obtenez de 20 % à 30 % de rabais sur une sélection de favoris et coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_8Cb83Y": {
           "type": "promotion_card",
           "settings": {
@@ -210,19 +158,6 @@
             "promotion_title": "-20% sur Pureology Smooth Gloss",
             "promotion_description": "<p>Un rituel complet anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_tFtmhM": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
-            "promotion_title": "Duo fortifiant Izumi Tonic",
-            "promotion_description": "<p>25 % de rabais, duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
-            "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -246,7 +181,6 @@
       "block_order": [
         "promotion_card_kRcryW",
         "promotion_card_hULHNK",
-        "promotion_card_AmNamg",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
         "promotion_card_bBg98x",
@@ -254,12 +188,8 @@
         "promotion_card_jfHUr3",
         "promotion_card_VxmwYD",
         "promotion_card_UPwWPP",
-        "promotion_card_xRAEX6",
-        "promotion_card_qQcwXa",
         "promotion_card_MMQHPd",
-        "promotion_card_xrx7Yh",
         "promotion_card_8Cb83Y",
-        "promotion_card_tFtmhM",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
@@ -326,19 +256,6 @@
             "promotion_title": "Promo Biolage",
             "promotion_description": "<p>À l’achat de 2 produits dans cette sélection Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
             "promotion_link": "shopify://collections/offre-en-cours",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_bniJUd": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_46f074fe-73d2-4668-a957-1fdc5b56dec2.png",
-            "promotion_title": "Promo Coffrets Kérastase",
-            "promotion_description": "<p>À l’achat d’un Coffret Printemps Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -416,7 +333,6 @@
         "promotion_card_iF8n4z",
         "promotion_card_B67XMF",
         "promotion_card_xpkdwW",
-        "promotion_card_bniJUd",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy",
         "promotion_card_c7m9aT",
