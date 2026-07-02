@@ -255,19 +255,6 @@
             "expiration_day": "27"
           }
         },
-        "promotion_card_xqiQgC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_7_40fc3bda-b90d-4572-9cd1-fe5adb8a70a9.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
-            "promotion_link": "shopify://collections/coola",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_UWFLLm": {
           "type": "promotion_card",
           "settings": {
@@ -275,6 +262,19 @@
             "promotion_title": "30% DE RABAIS",
             "promotion_description": "<h3><strong>28 et 29 juin</strong></h3>",
             "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_xqiQgC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_7_40fc3bda-b90d-4572-9cd1-fe5adb8a70a9.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
+            "promotion_link": "shopify://collections/coola",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": true,
             "expiration_month": "07",
@@ -295,8 +295,8 @@
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
-        "promotion_card_xqiQgC",
-        "promotion_card_UWFLLm"
+        "promotion_card_UWFLLm",
+        "promotion_card_xqiQgC"
       ],
       "name": "# Promotions list",
       "settings": {
