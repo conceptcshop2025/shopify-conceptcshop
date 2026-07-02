@@ -364,19 +364,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_nj4niW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_1.png",
-            "promotion_title": "8 produits = 50% de rabais",
-            "promotion_description": "<p>Pour 24 heures seulement, profitez de 50 % de rabais sur une sélection de 8 produits. Le bon moment pour ajouter quelques essentiels à votre routine avant la fin de l’offre!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_bw49MV": {
           "type": "promotion_card",
           "settings": {
@@ -384,19 +371,6 @@
             "promotion_title": "15% de rabais",
             "promotion_description": "<p><strong>Du 23 juin au 7 juillet</strong>, obtenez 15 % de rabais à l’achat d’un SteamPod, en plus d’un échantillon gratuit du sérum SteamPod. Offre valide jusqu’à épuisement des stocks. Certaines conditions s’appliquent.</p>",
             "promotion_link": "shopify://products/loreal-fer-plat-a-vapeur-steampod-4-0",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_jee7y7": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_6e58c29a-e3f7-4ae9-b7c8-d931a1bbb584.png",
-            "promotion_title": "Jusqu'à 40% de rabais!",
-            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -428,14 +402,26 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_YRJPag": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026.png",
+            "promotion_title": "30% de rabais litres Pureology",
+            "promotion_description": "<p>Le bon moment pour faire le plein de vos essentiels Pureology. Des formats litres pratiques, performants et pensés pour les cheveux colorés.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-14",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
-        "promotion_card_nj4niW",
         "promotion_card_bw49MV",
-        "promotion_card_jee7y7",
         "promotion_card_eFAHAd",
-        "promotion_card_RE7mtH"
+        "promotion_card_RE7mtH",
+        "promotion_card_YRJPag"
       ],
       "name": "# Promotions list",
       "settings": {
