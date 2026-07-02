@@ -99,32 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_UWFLLm": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_5_528fd06b-024e-431f-9e71-ab5239378571.png",
-            "promotion_title": "30% DE RABAIS",
-            "promotion_description": "<h3><strong>28 et 29 juin</strong></h3>",
-            "promotion_link": "shopify://collections/living-proof",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "06",
-            "expiration_day": "29"
-          }
-        },
-        "promotion_card_xqiQgC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_7_40fc3bda-b90d-4572-9cd1-fe5adb8a70a9.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
-            "promotion_link": "shopify://collections/coola",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_ykM7p9": {
           "type": "promotion_card",
           "settings": {
@@ -280,11 +254,35 @@
             "expiration_month": "06",
             "expiration_day": "27"
           }
+        },
+        "promotion_card_xqiQgC": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_7_40fc3bda-b90d-4572-9cd1-fe5adb8a70a9.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
+            "promotion_link": "shopify://collections/coola",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_UWFLLm": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_5_528fd06b-024e-431f-9e71-ab5239378571.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>28 et 29 juin</strong></h3>",
+            "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
-        "promotion_card_UWFLLm",
-        "promotion_card_xqiQgC",
         "promotion_card_ykM7p9",
         "promotion_card_i8bqcp",
         "promotion_card_U7hcGp",
@@ -296,7 +294,9 @@
         "promotion_card_z3jxe3",
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
-        "promotion_card_UnEGmW"
+        "promotion_card_UnEGmW",
+        "promotion_card_xqiQgC",
+        "promotion_card_UWFLLm"
       ],
       "name": "# Promotions list",
       "settings": {
