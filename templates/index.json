@@ -364,6 +364,19 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_yfN8Hw": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_146e44ea-c8bf-4779-bcac-02dac2f6db5e.png",
+            "promotion_title": "Jusqu’à 40% de rabais!",
+            "promotion_description": "<p>À l’occasion du lancement de la mousse Food For Soft, profitez de jusqu’à 40 % de rabais sur la collection Food For Soft.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_bw49MV": {
           "type": "promotion_card",
           "settings": {
@@ -418,6 +431,7 @@
         }
       },
       "block_order": [
+        "promotion_card_yfN8Hw",
         "promotion_card_bw49MV",
         "promotion_card_eFAHAd",
         "promotion_card_RE7mtH",
