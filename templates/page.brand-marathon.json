@@ -99,32 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_ykM7p9": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_9_f64a7379-ae6c-4878-bcca-b17496952627.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3><strong>2 et 3 juillet</strong></h3>",
-            "promotion_link": "shopify://collections/davines",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "03"
-          }
-        },
-        "promotion_card_i8bqcp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_10_a74e9127-a12b-4adc-9b22-bdbae9ae69b7.png",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<h3><strong>4 et 5 juillet</strong></h3>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "05"
-          }
-        },
         "promotion_card_U7hcGp": {
           "type": "promotion_card",
           "settings": {
@@ -280,11 +254,35 @@
             "expiration_month": "07",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_i8bqcp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_10_a74e9127-a12b-4adc-9b22-bdbae9ae69b7.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>4 et 5 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "05"
+          }
+        },
+        "promotion_card_ykM7p9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_9_f64a7379-ae6c-4878-bcca-b17496952627.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>2 et 3 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "03"
+          }
         }
       },
       "block_order": [
-        "promotion_card_ykM7p9",
-        "promotion_card_i8bqcp",
         "promotion_card_U7hcGp",
         "promotion_card_TMjkLh",
         "promotion_card_NBizmM",
@@ -296,7 +294,9 @@
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
-        "promotion_card_xqiQgC"
+        "promotion_card_xqiQgC",
+        "promotion_card_i8bqcp",
+        "promotion_card_ykM7p9"
       ],
       "name": "# Promotions list",
       "settings": {
