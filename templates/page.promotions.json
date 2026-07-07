@@ -90,8 +90,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_4552b5e4-1d4f-49f5-9f64-43606e1f4a8b.png",
-            "promotion_title": "20% de rabais sur litres Moroccanoil",
-            "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. Pour un temps limité, profitez de 20 % de rabais sur ses formats litres.</p>",
+            "promotion_title": "20% de rabais litres Moroccanoil",
+            "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. </p>",
             "promotion_link": "shopify://collections/litres-moroccanoil",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -106,6 +106,19 @@
             "promotion_title": "30% de rabais litres Pureology",
             "promotion_description": "<p>Le bon moment pour faire le plein de vos essentiels Pureology. Des formats litres pratiques, performants et pensés pour les cheveux colorés.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-14",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_j7LDiR": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_1_9f5e2e7a-7cb2-4dac-add8-870b39bc0752.png",
+            "promotion_title": "30% de rabais litres Verb",
+            "promotion_description": "<p>Découvrez cette gamme appréciée pour ses soins simples, efficaces et faciles à intégrer dans la routine. </p>",
+            "promotion_link": "shopify://collections/litres-verb",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -173,6 +186,7 @@
         "promotion_card_bBg98x",
         "promotion_card_wiCTnh",
         "promotion_card_jfHUr3",
+        "promotion_card_j7LDiR",
         "promotion_card_VxmwYD",
         "promotion_card_MMQHPd",
         "promotion_card_8Cb83Y",
