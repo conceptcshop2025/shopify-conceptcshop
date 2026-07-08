@@ -99,19 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_U7hcGp": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_12_2343024d-0178-4fb1-8e05-7f110dbaf53b.png",
-            "promotion_title": "35% DE RABAIS",
-            "promotion_description": "<h3><strong>6 et 7 juillet</strong></h3>",
-            "promotion_link": "shopify://collections/matrix",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "07"
-          }
-        },
         "promotion_card_TMjkLh": {
           "type": "promotion_card",
           "settings": {
@@ -280,10 +267,22 @@
             "expiration_month": "07",
             "expiration_day": "03"
           }
+        },
+        "promotion_card_U7hcGp": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_12_2343024d-0178-4fb1-8e05-7f110dbaf53b.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<h3><strong>6 et 7 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/matrix",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "07"
+          }
         }
       },
       "block_order": [
-        "promotion_card_U7hcGp",
         "promotion_card_TMjkLh",
         "promotion_card_NBizmM",
         "promotion_card_3EKRWt",
@@ -296,7 +295,8 @@
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
         "promotion_card_i8bqcp",
-        "promotion_card_ykM7p9"
+        "promotion_card_ykM7p9",
+        "promotion_card_U7hcGp"
       ],
       "name": "# Promotions list",
       "settings": {
