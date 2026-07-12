@@ -99,32 +99,6 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_TMjkLh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_10.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3>8 et 9 juillet</h3>",
-            "promotion_link": "shopify://collections/australian-gold",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "09"
-          }
-        },
-        "promotion_card_NBizmM": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_17.png",
-            "promotion_title": "25% DE RABAIS",
-            "promotion_description": "<h3>10 et 11 juillet</h3>",
-            "promotion_link": "shopify://collections/design-me",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "07",
-            "expiration_day": "11"
-          }
-        },
         "promotion_card_3EKRWt": {
           "type": "promotion_card",
           "settings": {
@@ -280,11 +254,35 @@
             "expiration_month": "07",
             "expiration_day": "07"
           }
+        },
+        "promotion_card_TMjkLh": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_10.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3>8 et 9 juillet</h3>",
+            "promotion_link": "shopify://collections/australian-gold",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "09"
+          }
+        },
+        "promotion_card_NBizmM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_17.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3>10 et 11 juillet</h3>",
+            "promotion_link": "shopify://collections/design-me",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "11"
+          }
         }
       },
       "block_order": [
-        "promotion_card_TMjkLh",
-        "promotion_card_NBizmM",
         "promotion_card_3EKRWt",
         "promotion_card_3cfNxr",
         "promotion_card_kTArGh",
@@ -296,7 +294,9 @@
         "promotion_card_xqiQgC",
         "promotion_card_i8bqcp",
         "promotion_card_ykM7p9",
-        "promotion_card_U7hcGp"
+        "promotion_card_U7hcGp",
+        "promotion_card_TMjkLh",
+        "promotion_card_NBizmM"
       ],
       "name": "# Promotions list",
       "settings": {
