@@ -125,19 +125,6 @@
             "expiration_day": "15"
           }
         },
-        "promotion_card_kTArGh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Page_Marathon_3_6876d0fd-2046-4091-9b10-f9a608fff96d.png",
-            "promotion_title": "20% DE RABAIS",
-            "promotion_description": "<h3>20 et 21 juin</h3>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "06",
-            "expiration_day": "21"
-          }
-        },
         "promotion_card_z3jxe3": {
           "type": "promotion_card",
           "settings": {
@@ -285,7 +272,6 @@
       "block_order": [
         "promotion_card_3EKRWt",
         "promotion_card_3cfNxr",
-        "promotion_card_kTArGh",
         "promotion_card_z3jxe3",
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
