@@ -211,6 +211,20 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_FRhmV7": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_2.png",
+            "promotion_title": "Huile Billion Bond",
+            "promotion_description": "<p>À l’achat de l’huile Billion Bond, obtenez gratuitement une Fat Lip Oil. Une huile légère qui répare, renforce et booste la brillance.</p>",
+            "promotion_link": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_C8kCAC": {
           "type": "promotion_card",
           "settings": {
@@ -291,6 +305,7 @@
         }
       },
       "block_order": [
+        "promotion_card_FRhmV7",
         "promotion_card_C8kCAC",
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
