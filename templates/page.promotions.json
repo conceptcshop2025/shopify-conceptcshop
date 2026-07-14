@@ -34,6 +34,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_643MnV": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1.png",
+            "promotion_title": "Festilitre",
+            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $!</p>",
+            "promotion_link": "shopify://collections/festilitre",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_hULHNK": {
           "type": "promotion_card",
           "settings": {
@@ -167,6 +181,7 @@
       },
       "block_order": [
         "promotion_card_kRcryW",
+        "promotion_card_643MnV",
         "promotion_card_hULHNK",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
