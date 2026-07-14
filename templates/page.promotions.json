@@ -384,6 +384,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_qnEiWM": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_4.png",
+            "promotion_title": "L'Oréal",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat de 40$ de produits l'Oréal. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_d9JKry": {
           "type": "promotion_card",
           "settings": {
@@ -445,6 +459,7 @@
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
         "promotion_card_fEyCjW",
+        "promotion_card_qnEiWM",
         "promotion_card_d9JKry",
         "promotion_card_B7VPDU",
         "promotion_card_9XbYyw",
