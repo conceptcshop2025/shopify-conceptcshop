@@ -213,7 +213,6 @@
         },
         "promotion_card_Ue76Ha": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/10_80d98a85-b266-476c-a3a9-4dee14de6634.png",
             "promotion_title": "Cadeau Australian Gold",
