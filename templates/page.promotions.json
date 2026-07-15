@@ -48,6 +48,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_MbmC8Y": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_64a465b6-f1fc-4591-86e5-8bfb09a41410.png",
+            "promotion_title": "20% de rabais",
+            "promotion_description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses miracle et plus encore.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_hULHNK": {
           "type": "promotion_card",
           "settings": {
@@ -156,6 +170,7 @@
       "block_order": [
         "promotion_card_kRcryW",
         "promotion_card_643MnV",
+        "promotion_card_MbmC8Y",
         "promotion_card_hULHNK",
         "promotion_card_Rhb9Xw",
         "promotion_card_fQw7Nq",
