@@ -243,7 +243,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_a1851d5c-9b9e-4e2b-b408-77cac12b261d.png",
-            "promotion_title": "Promo Solaire René Furterer",
+            "promotion_title": "Cadeau René Furterer",
             "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
             "promotion_link": "shopify://products/rene-furterer-duo-solaire",
             "promotion_link_text": "Voir plus",
@@ -256,7 +256,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_2308cf26-c9c4-4e27-9a15-762c064297fe.png",
-            "promotion_title": "Promo Oribe",
+            "promotion_title": "Cadeau Oribe",
             "promotion_description": "<p>À l’achat du bâton de cire lissant, obtenez une grande brosse coquette gratuite pour des looks sleek sans frisottis.</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "promotion_link_text": "Voir plus",
@@ -310,7 +310,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_bd73dea6-aae4-4735-be6a-b94b80c0aa8d.png",
-            "promotion_title": "Format Voyage Kérastase",
+            "promotion_title": "Cadeau Voyage Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus",
@@ -323,7 +323,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026.png",
-            "promotion_title": "Promo Estivale Kérastase",
+            "promotion_title": "Cadeau Estival Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
             "promotion_link_text": "Voir plus",
