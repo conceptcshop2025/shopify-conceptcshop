@@ -96,7 +96,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
-            "background_color": "#CDDDE9",
+            "background_color": "#cddde9",
             "title": "FESTILITRE",
             "description": "<p>Gros formats, grosses économies! Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $!</p>",
             "text_color": "#000000",
@@ -109,7 +109,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_14_juil._2026_19_31_02.png",
-            "background_color": "#EC9F9B",
+            "background_color": "#ec9f9b",
             "title": "DUO PARFAIT!",
             "description": "<p>Deux mini masques Matrix, deux essentiels pour des cheveux plus doux, lumineux et hydratés, seulement à 19,99 $!</p>",
             "text_color": "#000000",
@@ -122,7 +122,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026_81d28812-7503-47fb-9ec1-00b99fd4b1c0.png",
-            "background_color": "#E8E6E3",
+            "background_color": "#e8e6e3",
             "title": "<strong>SOUS LA DOUCHE</strong>",
             "description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses miracle et plus encore.</p>",
             "text_color": "#000000",
