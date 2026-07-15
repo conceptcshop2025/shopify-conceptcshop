@@ -157,8 +157,8 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/26_02efa510-d793-4dcd-bad8-1313952f02b0.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
+            "promotion_title": "Tout à 50% de rabais",
+            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
             "promotion_link": "shopify://collections/la-voute",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
