@@ -117,6 +117,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_LDHRm4": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026_81d28812-7503-47fb-9ec1-00b99fd4b1c0.png",
+            "background_color": "#E8E6E3",
+            "title": "<strong>SOUS LA DOUCHE</strong>",
+            "description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses miracle et plus encore.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/promo-du-moment-11",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_ewzcDN": {
           "type": "item_banner",
           "settings": {
@@ -157,6 +170,7 @@
       "block_order": [
         "item_banner_FLMiYA",
         "item_banner_zX7G36",
+        "item_banner_LDHRm4",
         "item_banner_ewzcDN",
         "item_banner_bXndCM",
         "item_banner_KVbTBP"
