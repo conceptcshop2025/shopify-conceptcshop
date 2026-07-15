@@ -100,49 +100,10 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_wiCTnh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_4552b5e4-1d4f-49f5-9f64-43606e1f4a8b.png",
-            "promotion_title": "20% de rabais litres Moroccanoil",
-            "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter. </p>",
-            "promotion_link": "shopify://collections/litres-moroccanoil",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_jfHUr3": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026.png",
-            "promotion_title": "30% de rabais litres Pureology",
-            "promotion_description": "<p>Le bon moment pour faire le plein de vos essentiels Pureology. Des formats litres pratiques, performants et pensés pour les cheveux colorés.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-14",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_j7LDiR": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_1_9f5e2e7a-7cb2-4dac-add8-870b39bc0752.png",
-            "promotion_title": "30% de rabais litres Verb",
-            "promotion_description": "<p>Découvrez cette gamme appréciée pour ses soins simples, efficaces et faciles à intégrer dans la routine. </p>",
-            "promotion_link": "shopify://collections/litres-verb",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_VxmwYD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_babf18d7-cecb-4416-a478-b2ce619dbf93.png",
+            "promotion_image": "shopify://shop_images/17_e22d415a-f016-465d-97b0-4582a078e1b2.png",
             "promotion_title": "15% sur la gamme Solaire",
             "promotion_description": "<p>Profitez de 15% de rabais sur toute la gamme solaire Esthederm. Protection, hydratation et bronzage lumineux pour un été éclatant!</p>",
             "promotion_link": "shopify://collections/esthederm-solaire",
@@ -155,7 +116,7 @@
         "promotion_card_MMQHPd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_image": "shopify://shop_images/16_e6c3e628-fced-4405-98cc-abf68c5716a4.png",
             "promotion_title": "15% sur Soleil de Kérastase",
             "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-8",
@@ -168,7 +129,7 @@
         "promotion_card_8Cb83Y": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_18e0eba4-89a6-40a7-8203-049c84985364.png",
+            "promotion_image": "shopify://shop_images/5_d1a02961-d568-489e-8193-d3361bb8a3b5.png",
             "promotion_title": "-20% sur Pureology Smooth Gloss",
             "promotion_description": "<p>Un rituel complet anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
             "promotion_link": "shopify://collections/offre-a-decouvrir",
@@ -181,7 +142,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
+            "promotion_image": "shopify://shop_images/26_02efa510-d793-4dcd-bad8-1313952f02b0.png",
             "promotion_title": "Liquidation",
             "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -199,9 +160,6 @@
         "promotion_card_Rhb9Xw",
         "promotion_card_fQw7Nq",
         "promotion_card_JniMyD",
-        "promotion_card_wiCTnh",
-        "promotion_card_jfHUr3",
-        "promotion_card_j7LDiR",
         "promotion_card_VxmwYD",
         "promotion_card_MMQHPd",
         "promotion_card_8Cb83Y",
