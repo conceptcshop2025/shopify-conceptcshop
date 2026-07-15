@@ -422,7 +422,7 @@
         "promotion_card_RE7mtH": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5a0805e0-de81-4228-98ae-0a5959423f8d.png",
+            "promotion_image": "shopify://shop_images/16_e6c3e628-fced-4405-98cc-abf68c5716a4.png",
             "promotion_title": "15% sur soleil de Kérastase",
             "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-8",
@@ -432,26 +432,26 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_YRJPag": {
+        "promotion_card_4iNL3A": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026.png",
-            "promotion_title": "30% de rabais litres Pureology",
-            "promotion_description": "<p>Le bon moment pour faire le plein de vos essentiels Pureology. Des formats litres pratiques, performants et pensés pour les cheveux colorés.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-14",
+            "promotion_image": "shopify://shop_images/17_e22d415a-f016-465d-97b0-4582a078e1b2.png",
+            "promotion_title": "15% sur la gamme Solaire",
+            "promotion_description": "<p>Profitez de 15% de rabais sur toute la gamme solaire Esthederm. Protection, hydratation et bronzage lumineux pour un été éclatant!</p>",
+            "promotion_link": "shopify://collections/esthederm-solaire",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
             "expiration_day": "01"
           }
         },
-        "promotion_card_CMj8Mh": {
+        "promotion_card_LHwpNL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_4552b5e4-1d4f-49f5-9f64-43606e1f4a8b.png",
-            "promotion_title": "20% de rabais litres Moroccanoil",
-            "promotion_description": "<p>Découvrez cette gamme iconique reconnue pour ses soins nourrissants, sensoriels et faciles à adopter.</p>",
-            "promotion_link": "shopify://collections/litres-moroccanoil",
+            "promotion_image": "shopify://shop_images/26_02efa510-d793-4dcd-bad8-1313952f02b0.png",
+            "promotion_title": "Tout à 50% de rabais",
+            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
+            "promotion_link": "shopify://collections/liquidation",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -462,8 +462,8 @@
       "block_order": [
         "promotion_card_eFAHAd",
         "promotion_card_RE7mtH",
-        "promotion_card_YRJPag",
-        "promotion_card_CMj8Mh"
+        "promotion_card_4iNL3A",
+        "promotion_card_LHwpNL"
       ],
       "name": "# Promotions list",
       "settings": {
