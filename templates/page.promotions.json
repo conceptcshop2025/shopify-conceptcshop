@@ -202,9 +202,23 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_2.png",
-            "promotion_title": "Huile Billion Bond",
+            "promotion_title": "Cadeau Matrix",
             "promotion_description": "<p>À l’achat de l’huile Billion Bond, obtenez gratuitement une Fat Lip Oil de NYX. Une huile légère qui répare, renforce et booste la brillance.</p>",
             "promotion_link": "shopify://products/matrix-huile-reparatrice-and-illuminatrice-instacure-build-a-bond-50-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_Ue76Ha": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/10_80d98a85-b266-476c-a3a9-4dee14de6634.png",
+            "promotion_title": "Cadeau Australian Gold",
+            "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold en format régulier, obtenez gratuitement le format voyage Aloe & Ocean Water!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -319,6 +333,7 @@
       },
       "block_order": [
         "promotion_card_FRhmV7",
+        "promotion_card_Ue76Ha",
         "promotion_card_C8kCAC",
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
