@@ -335,7 +335,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/20_ddbec471-ba26-4755-96bc-fd6b519851f7.png",
+            "promotion_image": "shopify://shop_images/18_ff84e9ac-c5ef-4e98-908f-de3c3a509651.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Kérastase. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -348,7 +348,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/21_14569a9d-7c9a-45c7-b3bc-0908b5923871.png",
+            "promotion_image": "shopify://shop_images/19_571472b6-418f-4283-bdbe-07d26b00f30d.png",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -361,7 +361,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/23_94b15a50-87e8-4487-8949-62eee02f550a.png",
+            "promotion_image": "shopify://shop_images/23_48adfa7c-5711-4b03-850e-6f5a35d57e64.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -373,7 +373,6 @@
         },
         "promotion_card_fEyCjW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_3.png",
             "promotion_title": "Redken",
@@ -387,7 +386,6 @@
         },
         "promotion_card_qnEiWM": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_4.png",
             "promotion_title": "L'Oréal",
@@ -402,7 +400,7 @@
         "promotion_card_d9JKry": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_e38b1837-8e0c-4cb8-bb50-1bca00844d97.png",
+            "promotion_image": "shopify://shop_images/25.png",
             "promotion_title": "Australian Gold",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Australian Gold. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/australian-gold",
