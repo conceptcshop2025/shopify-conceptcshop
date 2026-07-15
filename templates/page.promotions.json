@@ -200,7 +200,7 @@
         "promotion_card_C8kCAC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_a1851d5c-9b9e-4e2b-b408-77cac12b261d.png",
+            "promotion_image": "shopify://shop_images/7_df133f24-6016-4ae6-be38-dbd8e15dd345.png",
             "promotion_title": "Cadeau René Furterer",
             "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
             "promotion_link": "shopify://products/rene-furterer-duo-solaire",
@@ -213,9 +213,9 @@
         "promotion_card_iF8n4z": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_2308cf26-c9c4-4e27-9a15-762c064297fe.png",
+            "promotion_image": "shopify://shop_images/9_2887ba62-5a69-4745-a1d5-832a5fcf5314.png",
             "promotion_title": "Cadeau Oribe",
-            "promotion_description": "<p>À l’achat du bâton de cire lissant, obtenez une grande brosse coquette gratuite pour des looks sleek sans frisottis.</p>",
+            "promotion_description": "<p>À l’achat du bâton de cire lissant, obtenez obtenez gratuitement une trousse éclat Supershine!</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -226,7 +226,7 @@
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/COnglet_Promotions_Site_Juin_2026.png",
+            "promotion_image": "shopify://shop_images/8_f49a5ef8-748f-4305-932c-258d6689ae4e.png",
             "promotion_title": "Cadeau Biolage",
             "promotion_description": "<p>À l’achat de 70$ de produits Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
             "promotion_link": "shopify://collections/biolage",
@@ -238,7 +238,6 @@
         },
         "promotion_card_787VXw": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_a49bc3c9-9469-4c34-acca-350f1254a32e.png",
             "promotion_title": "Cadeau Davines OI",
@@ -252,7 +251,6 @@
         },
         "promotion_card_edGCqW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
             "promotion_title": "Cadeau Sun Bum",
@@ -281,7 +279,7 @@
         "promotion_card_zEceJC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juillet_2026_bd73dea6-aae4-4735-be6a-b94b80c0aa8d.png",
+            "promotion_image": "shopify://shop_images/11_f9c2bb00-a371-480b-9d39-d8e8467a58c8.png",
             "promotion_title": "Cadeau Voyage Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
@@ -294,23 +292,10 @@
         "promotion_card_cRBzcy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026.png",
+            "promotion_image": "shopify://shop_images/12_549f1c7b-f487-4e08-a01e-2d2c36e37aeb.png",
             "promotion_title": "Cadeau Estival Kérastase",
             "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac Club Soleil!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-kerastase",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_CmxthT": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_16de9dac-fdab-4851-9d96-014a4f60a988.png",
-            "promotion_title": "Lancement Blonde Guard",
-            "promotion_description": "<p>À l’achat de 2 produits format régulier Blond Absolu, obtenez gratuitement un format deluxe du sérum de nuit Cicanuit!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-6",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -327,8 +312,7 @@
         "promotion_card_edGCqW",
         "promotion_card_eaQ63J",
         "promotion_card_zEceJC",
-        "promotion_card_cRBzcy",
-        "promotion_card_CmxthT"
+        "promotion_card_cRBzcy"
       ],
       "name": "# Promotions list",
       "settings": {
