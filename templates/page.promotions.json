@@ -48,6 +48,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_fQw7Nq": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_6_4ce88caf-efd7-4bb4-8a94-d1e72e9cc4d0.png",
+            "promotion_title": "DUO PARFAIT!",
+            "promotion_description": "<p>Deux mini masques Matrix, deux essentiels pour des cheveux plus doux, lumineux et hydratés, seulement à 19,99 $!</p>",
+            "promotion_link": "shopify://products/matrix-duo-mini-masques-food-for-soft-et-glow-mania",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_hULHNK": {
           "type": "promotion_card",
           "settings": {
@@ -182,6 +196,7 @@
       "block_order": [
         "promotion_card_kRcryW",
         "promotion_card_643MnV",
+        "promotion_card_fQw7Nq",
         "promotion_card_hULHNK",
         "promotion_card_Rhb9Xw",
         "promotion_card_JniMyD",
