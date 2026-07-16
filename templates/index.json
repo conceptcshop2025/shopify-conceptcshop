@@ -126,54 +126,12 @@
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_ewzcDN": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Marathon.png",
-            "background_color": "#fe7604",
-            "title": "MARATHON DES MARQUES",
-            "description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://pages/le-marathon",
-            "link_text": "voir le calendrier"
-          }
-        },
-        "item_banner_bXndCM": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/GWP_Serviette_sac_a_dos._160_Juin_Juillet_2026.png",
-            "background_color": "#064f92",
-            "title": "SERVIETTE DE PLAGE GRATUITE!",
-            "description": "<p>À l’achat de 160 $ de produits, avant taxes et application d’un code promo, obtenez gratuitement notre serviette sac à dos bleue en microfibre. <em>Certaines conditions s’appliquent.</em></p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/promo-du-moment",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_KVbTBP": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
-            "background_color": "#f397a3",
-            "title": "ACCESSOIRES CONCEPT C",
-            "description": "<p>Obtenez 30 % de rabais sur les accessoires Concept C : pinces, brosses, bandeaux, trousses, rouleaux sans chaleur et plus encore!</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://collections/concept-c",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_FLMiYA",
         "item_banner_zX7G36",
-        "item_banner_LDHRm4",
-        "item_banner_ewzcDN",
-        "item_banner_bXndCM",
-        "item_banner_KVbTBP"
+        "item_banner_LDHRm4"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
