@@ -50,7 +50,8 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}",
+        "a {color: currentcolor;}"
       ],
       "settings": {
         "color_scheme": "",
