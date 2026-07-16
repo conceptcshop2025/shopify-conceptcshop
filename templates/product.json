@@ -33,6 +33,26 @@
             "show_taxes_notice": false
           }
         },
+        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj": {
+          "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-strikethrough-price/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {
+            "blockId": "kite-strikethrough-pricing",
+            "showSavings": true,
+            "showOriginalPrice": true,
+            "hideIfNoDiscount": false,
+            "hideDecimalsForWholeNumbers": false,
+            "discountColor": "#1a1a1a",
+            "savingsColor": "#28a745",
+            "strikethroughColor": "#999999",
+            "primaryFontSize": 16,
+            "primaryFontWeight": "700",
+            "secondaryFontSize": 14,
+            "secondaryFontWeight": "400",
+            "collectionProductCardSelector": "",
+            "collectionPriceSelector": "",
+            "collectionProductGridSelector": ""
+          }
+        },
         "18014b2e-b2ea-4aaf-a27c-8e2858877c2a": {
           "type": "shopify://apps/sezzle-widget/blocks/widget-block/f3a53793-e118-4764-a86b-a79bfedb0d5f",
           "settings": {
@@ -151,26 +171,6 @@
             "stack_products": false,
             "show_quick_buy": true
           }
-        },
-        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj": {
-          "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-strikethrough-price/2c7302c4-455d-4078-a829-48563ba26089",
-          "settings": {
-            "blockId": "kite-strikethrough-pricing",
-            "showSavings": true,
-            "showOriginalPrice": true,
-            "hideIfNoDiscount": false,
-            "hideDecimalsForWholeNumbers": false,
-            "discountColor": "#1A1A1A",
-            "savingsColor": "#28a745",
-            "strikethroughColor": "#999999",
-            "primaryFontSize": 16,
-            "primaryFontWeight": "700",
-            "secondaryFontSize": 14,
-            "secondaryFontWeight": "400",
-            "collectionProductCardSelector": "",
-            "collectionPriceSelector": "",
-            "collectionProductGridSelector": ""
-          }
         }
       },
       "block_order": [
@@ -178,6 +178,7 @@
         "title",
         "judge_me_reviews_preview_badge_ckPhH7",
         "price",
+        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj",
         "18014b2e-b2ea-4aaf-a27c-8e2858877c2a",
         "180f3a5e-4122-4aad-8949-618b761db52b",
         "variant_picker",
@@ -194,8 +195,7 @@
         "payment_terms",
         "separator",
         "description",
-        "complementary_products",
-        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj"
+        "complementary_products"
       ],
       "custom_css": [
         "h4 {text-align: center;}"
