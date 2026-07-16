@@ -367,10 +367,10 @@
         "promotion_card_RE7mtH": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/16_e6c3e628-fced-4405-98cc-abf68c5716a4.png",
-            "promotion_title": "15% sur soleil de Kérastase",
-            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_image": "shopify://shop_images/8_f49a5ef8-748f-4305-932c-258d6689ae4e.png",
+            "promotion_title": "Cadeau Biolage",
+            "promotion_description": "<p>À l’achat de 75$ de produits Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
+            "promotion_link": "shopify://collections/biolage",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -380,10 +380,10 @@
         "promotion_card_4iNL3A": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/17_e22d415a-f016-465d-97b0-4582a078e1b2.png",
-            "promotion_title": "15% sur la gamme Solaire",
-            "promotion_description": "<p>Profitez de 15% de rabais sur toute la gamme solaire Esthederm. Protection, hydratation et bronzage lumineux pour un été éclatant!</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
+            "promotion_image": "shopify://shop_images/7_df133f24-6016-4ae6-be38-dbd8e15dd345.png",
+            "promotion_title": "Cadeau René Furterer",
+            "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
+            "promotion_link": "shopify://products/rene-furterer-duo-solaire",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -393,10 +393,10 @@
         "promotion_card_LHwpNL": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/26_02efa510-d793-4dcd-bad8-1313952f02b0.png",
-            "promotion_title": "Tout à 50% de rabais",
-            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
-            "promotion_link": "shopify://collections/liquidation",
+            "promotion_image": "shopify://shop_images/11_f9c2bb00-a371-480b-9d39-d8e8467a58c8.png",
+            "promotion_title": "Cadeau Voyage Kérastase",
+            "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -406,10 +406,10 @@
         "promotion_card_eFAHAd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_6d962342-61bc-4d5c-97c8-dd7c659b227a.png",
-            "promotion_title": "-20% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
+            "promotion_title": "Cadeau Sun Bum",
+            "promotion_description": "<p>À l’achat de 45 $ de produits Sun Bum, obtenez gratuitement un baume pour les lèvres hydratant Cocobalm - Cerise Tropicale.</p>",
+            "promotion_link": "shopify://collections/sun-bum",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -426,7 +426,7 @@
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
-        "section_title": "Nos promotions",
+        "section_title": "Nos cadeaux avec achat",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
