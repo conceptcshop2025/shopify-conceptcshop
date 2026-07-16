@@ -21,22 +21,8 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_kRcryW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_2c2006cb-7d58-4264-a567-599592cca076.png",
-            "promotion_title": "Marathon des Marques",
-            "promotion_description": "<p>Toutes les 48 heures, une nouvelle marque prend le départ avec des rabais de 20 à 35 %. Découvrez les marques en vedette et planifiez vos achats avec le calendrier!</p>",
-            "promotion_link": "shopify://pages/le-marathon",
-            "promotion_link_text": "Voir le calendrier",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_643MnV": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1.png",
             "promotion_title": "Festilitre",
@@ -50,38 +36,11 @@
         },
         "promotion_card_MbmC8Y": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/3_64a465b6-f1fc-4591-86e5-8bfb09a41410.png",
-            "promotion_title": "20% de rabais",
+            "promotion_title": "Essentiels de la douche",
             "promotion_description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses miracle et plus encore.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_hULHNK": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_60e5f394-1fc1-4fc1-a310-40216217489f.png",
-            "promotion_title": "Serviette de plage gratuite!",
-            "promotion_description": "<p>À l’achat de 160 $ de produits, avant taxes et application d’un code promo, obtenez gratuitement notre serviette sac à dos bleue en microfibre. <em>*Certaines conditions s’appliquent.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_Rhb9Xw": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_5ec9ac50-9d6a-4800-92a9-38fdebbd52e6.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>Obtenez 30 % de rabais sur les accessoires Concept C : pinces, brosses, bandeaux, trousses, rouleaux sans chaleur et plus encore!</p>",
-            "promotion_link": "shopify://collections/concept-c",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -168,11 +127,8 @@
         }
       },
       "block_order": [
-        "promotion_card_kRcryW",
         "promotion_card_643MnV",
         "promotion_card_MbmC8Y",
-        "promotion_card_hULHNK",
-        "promotion_card_Rhb9Xw",
         "promotion_card_fQw7Nq",
         "promotion_card_JniMyD",
         "promotion_card_VxmwYD",
