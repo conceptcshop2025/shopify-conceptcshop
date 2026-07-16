@@ -93,7 +93,6 @@
       "blocks": {
         "item_banner_FLMiYA": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
             "background_color": "#cddde9",
@@ -106,11 +105,10 @@
         },
         "item_banner_zX7G36": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_14_juil._2026_19_31_02.png",
             "background_color": "#ec9f9b",
-            "title": "DUO PARFAIT!",
+            "title": "DUO PARFAIT",
             "description": "<p>Deux mini masques Matrix, deux essentiels pour des cheveux plus doux, lumineux et hydratés, seulement à 19,99 $!</p>",
             "text_color": "#000000",
             "link_url": "shopify://products/matrix-duo-mini-masques-food-for-soft-et-glow-mania",
@@ -119,12 +117,11 @@
         },
         "item_banner_LDHRm4": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026_81d28812-7503-47fb-9ec1-00b99fd4b1c0.png",
             "background_color": "#e8e6e3",
-            "title": "<strong>20% DE RABAIS</strong>",
-            "description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses miracle et plus encore.</p>",
+            "title": "<strong>ESSENTIELS DE LA DOUCHE</strong>",
+            "description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses et plus!</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
@@ -132,6 +129,7 @@
         },
         "item_banner_ewzcDN": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Marathon.png",
             "background_color": "#fe7604",
@@ -144,6 +142,7 @@
         },
         "item_banner_bXndCM": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/GWP_Serviette_sac_a_dos._160_Juin_Juillet_2026.png",
             "background_color": "#064f92",
@@ -156,6 +155,7 @@
         },
         "item_banner_KVbTBP": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/30_off_Accessoires_Concept_C.png",
             "background_color": "#f397a3",
@@ -487,8 +487,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -498,8 +498,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -509,8 +509,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -520,8 +520,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -531,8 +531,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -542,8 +542,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -553,8 +553,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -564,8 +564,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -575,8 +575,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#E0E6F2",
-            "border_item_color": "#CBD7F0",
+            "background_item_color": "#e0e6f2",
+            "border_item_color": "#cbd7f0",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
