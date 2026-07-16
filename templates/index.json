@@ -567,54 +567,32 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site_276ce431-eebf-4d81-82ce-6c4eb5cd7794.png",
+            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site_eca0ec72-2239-449e-b541-47dbf8a9da53.png",
             "hot_spots_background": "#ffffff",
-            "product_1": "oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "product_1": "mermade-fer-a-vaguer-infrarouge",
             "product_1_horizontal_position": 55,
             "product_1_vertical_position": 60,
-            "product_2": "",
+            "product_2": "mermade-fer-a-vaguer-pro-waver-rose-32mm",
             "product_2_horizontal_position": 50,
             "product_2_vertical_position": 80,
-            "product_3": "",
+            "product_3": "mermade-fer-a-vaguer-pro-waver-noir-25mm",
             "product_3_horizontal_position": 70,
             "product_3_vertical_position": 80,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
-        },
-        "look_4UbDwa": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
-            "hot_spots_background": "#ffffff",
-            "product_1": "matrix-masque-traitement-hydratation-intense-food-for-soft",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "biotop-masque-hydratant-911-quinoa-250-ml",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "amika-masque-nourrissant-soulfood-250-ml",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "voir-masque-capillaire-et-traitement-detoxifiant-rhythm-of-the-rain-200-ml",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
         }
       },
       "block_order": [
-        "look_tqWdE6",
-        "look_4UbDwa"
+        "look_tqWdE6"
       ],
-      "disabled": true,
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Look du moment",
+        "title": "La vague parfaite pour l’été!",
         "content": "",
         "popover_title": ""
       }
