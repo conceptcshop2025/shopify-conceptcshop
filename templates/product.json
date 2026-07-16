@@ -33,6 +33,12 @@
             "show_taxes_notice": false
           }
         },
+        "kite_discount_free_gift_app_block_free_gift_BBXeXL": {
+          "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-freeGift/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {
+            "blockId": "block-id"
+          }
+        },
         "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj": {
           "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-strikethrough-price/2c7302c4-455d-4078-a829-48563ba26089",
           "disabled": true,
@@ -179,6 +185,7 @@
         "title",
         "judge_me_reviews_preview_badge_ckPhH7",
         "price",
+        "kite_discount_free_gift_app_block_free_gift_BBXeXL",
         "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj",
         "18014b2e-b2ea-4aaf-a27c-8e2858877c2a",
         "180f3a5e-4122-4aad-8949-618b761db52b",
