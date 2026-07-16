@@ -95,7 +95,7 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
-            "background_color": "#E0E6F2",
+            "background_color": "#e0e6f2",
             "title": "FESTILITRE",
             "description": "<p>Gros formats, grosses économies! Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $!</p>",
             "text_color": "#000000",
@@ -109,7 +109,7 @@
             "image": "shopify://shop_images/ChatGPT_Image_14_juil._2026_19_31_02.png",
             "background_color": "#ec9f9b",
             "title": "DUO PARFAIT",
-            "description": "<p>Deux mini masques Matrix, deux essentiels pour des cheveux plus doux, lumineux et hydratés, seulement à 19,99 $!</p>",
+            "description": "<p>Deux mini masques Matrix pour des cheveux plus doux, lumineux et hydratés. Le duo parfait pour découvrir Food For Soft et Glow Mania, seulement à 19,99 $!</p>",
             "text_color": "#000000",
             "link_url": "shopify://products/matrix-duo-mini-masques-food-for-soft-et-glow-mania",
             "link_text": "magasiner"
