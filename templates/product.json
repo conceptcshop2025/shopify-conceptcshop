@@ -151,6 +151,26 @@
             "stack_products": false,
             "show_quick_buy": true
           }
+        },
+        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj": {
+          "type": "shopify://apps/kite-discount-free-gift/blocks/app-block-strikethrough-price/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {
+            "blockId": "kite-strikethrough-pricing",
+            "showSavings": true,
+            "showOriginalPrice": true,
+            "hideIfNoDiscount": false,
+            "hideDecimalsForWholeNumbers": false,
+            "discountColor": "#1A1A1A",
+            "savingsColor": "#28a745",
+            "strikethroughColor": "#999999",
+            "primaryFontSize": 16,
+            "primaryFontWeight": "700",
+            "secondaryFontSize": 14,
+            "secondaryFontWeight": "400",
+            "collectionProductCardSelector": "",
+            "collectionPriceSelector": "",
+            "collectionProductGridSelector": ""
+          }
         }
       },
       "block_order": [
@@ -174,7 +194,8 @@
         "payment_terms",
         "separator",
         "description",
-        "complementary_products"
+        "complementary_products",
+        "kite_discount_free_gift_app_block_strikethrough_price_Cqimmj"
       ],
       "custom_css": [
         "h4 {text-align: center;}"
