@@ -151,6 +151,10 @@
           "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-cpal/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
+        "selleasy_lb_upsell_widget_pal_QVdzaM": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-pal/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "payment_terms": {
           "type": "payment_terms",
           "disabled": true,
@@ -200,6 +204,7 @@
         "1a32539d-0292-4e51-aace-014f43c480d7",
         "pickup_availability_WJzdXV",
         "selleasy_lb_upsell_widget_cpal_pfiGG6",
+        "selleasy_lb_upsell_widget_pal_QVdzaM",
         "payment_terms",
         "separator",
         "description",
