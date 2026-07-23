@@ -49,25 +49,11 @@
         },
         "promotion_card_qdwhRA": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1b501cc8-1faa-4db6-9fde-a0501b640b7c.png",
             "promotion_title": "25% sur Shu Uemura",
             "promotion_description": "<p>Profitez-en pour vous procurer les favoris Shu Uemura, comme l’huile Essence Absolue, le sérum de nuit et le masque Ultimate Reset!</p>",
             "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_fQw7Nq": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_6_4ce88caf-efd7-4bb4-8a94-d1e72e9cc4d0.png",
-            "promotion_title": "Duo Parfait",
-            "promotion_description": "<p>Deux mini masques Matrix, deux essentiels pour des cheveux plus doux, lumineux et hydratés, seulement à 19,99 $!</p>",
-            "promotion_link": "shopify://products/matrix-duo-mini-masques-food-for-soft-et-glow-mania",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -157,7 +143,6 @@
         "promotion_card_JniMyD",
         "promotion_card_MbmC8Y",
         "promotion_card_qdwhRA",
-        "promotion_card_fQw7Nq",
         "promotion_card_643MnV",
         "promotion_card_FfVjLx",
         "promotion_card_VxmwYD",
