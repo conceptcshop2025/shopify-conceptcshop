@@ -103,15 +103,15 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_zX7G36": {
+        "item_banner_C6DUbt": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_14_juil._2026_19_31_02.png",
-            "background_color": "#ec9f9b",
-            "title": "DUO PARFAIT",
-            "description": "<p>Deux mini masques Matrix pour des cheveux plus doux, lumineux et hydratés. Le duo parfait pour découvrir Food For Soft et Glow Mania, seulement à 19,99 $!</p>",
+            "image": "shopify://shop_images/25_off_Shu_Juil_26_1.png",
+            "background_color": "#b8dbdb",
+            "title": "25% SUR SHU UEMURA",
+            "description": "<p>Profitez-en pour vous procurer les favoris Shu Uemura, comme l’huile Essence Absolue, le sérum de nuit et le masque Ultimate Reset!</p>",
             "text_color": "#000000",
-            "link_url": "shopify://products/matrix-duo-mini-masques-food-for-soft-et-glow-mania",
+            "link_url": "shopify://collections/shu-uemura",
             "link_text": "magasiner"
           }
         },
@@ -126,26 +126,12 @@
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_C6DUbt": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/25_off_Shu_Juil_26_1.png",
-            "background_color": "#B8DBDB",
-            "title": "25% SUR SHU UEMURA",
-            "description": "<p>Profitez-en pour vous procurer les favoris Shu Uemura, comme l’huile Essence Absolue, le sérum de nuit et le masque Ultimate Reset!</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/shu-uemura",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_FLMiYA",
-        "item_banner_zX7G36",
-        "item_banner_LDHRm4",
-        "item_banner_C6DUbt"
+        "item_banner_C6DUbt",
+        "item_banner_LDHRm4"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
