@@ -276,6 +276,7 @@
         },
         "promotion_card_eaQ63J": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_6.png",
             "promotion_title": "Cadeau Australian Gold",
