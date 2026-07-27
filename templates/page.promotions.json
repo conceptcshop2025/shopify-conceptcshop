@@ -101,7 +101,6 @@
         },
         "promotion_card_yeXadb": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_44b37e7d-5227-4107-8c74-1f6aeab49504.png",
             "promotion_title": "15% sur Première de Kérastase",
