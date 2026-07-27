@@ -411,6 +411,7 @@
         },
         "promotion_card_d9JKry": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/25.png",
             "promotion_title": "Australian Gold",
