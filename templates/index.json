@@ -364,6 +364,20 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_FehMjn": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_36cfd920-3627-48e6-b247-d3d29c30e772.png",
+            "promotion_title": "Serioxyl à 44.99$",
+            "promotion_description": "<p>Pendant 4 jours seulement, profitez d'un rabais sur notre meilleur vendeur contre la perte de cheveux!</p>",
+            "promotion_link": "shopify://products/loreal-serie-expert-serum-denser-serioxyl-90-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_RE7mtH": {
           "type": "promotion_card",
           "settings": {
@@ -418,6 +432,7 @@
         }
       },
       "block_order": [
+        "promotion_card_FehMjn",
         "promotion_card_RE7mtH",
         "promotion_card_4iNL3A",
         "promotion_card_LHwpNL",
