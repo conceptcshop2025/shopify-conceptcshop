@@ -366,7 +366,6 @@
       "blocks": {
         "promotion_card_FehMjn": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_36cfd920-3627-48e6-b247-d3d29c30e772.png",
             "promotion_title": "Serioxyl à 44.99$",
