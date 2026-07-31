@@ -209,20 +209,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_Ue76Ha": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/10_80d98a85-b266-476c-a3a9-4dee14de6634.png",
-            "promotion_title": "Cadeau Australian Gold",
-            "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold en format régulier, obtenez gratuitement le format voyage Aloe & Ocean Water!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_C8kCAC": {
           "type": "promotion_card",
           "settings": {
@@ -275,6 +261,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_YUwnfx": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_ea8988a7-11b1-4158-a0ba-d866df82bb05.png",
+            "promotion_title": "20% sur Osmoclean",
+            "promotion_description": "<p>Adoptez Osmoclean, les soins nettoyants inspirés des instituts qui révèlent une peau fraîche, éclatante et visiblement plus jeune.</p>",
+            "promotion_link": "shopify://collections/offre-esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_edGCqW": {
           "type": "promotion_card",
           "settings": {
@@ -282,20 +281,6 @@
             "promotion_title": "Cadeau Sun Bum",
             "promotion_description": "<p>À l’achat de 45 $ de produits Sun Bum, obtenez gratuitement un baume pour les lèvres hydratant Cocobalm - Cerise Tropicale.</p>",
             "promotion_link": "shopify://collections/sun-bum",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_eaQ63J": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_6.png",
-            "promotion_title": "Cadeau Australian Gold",
-            "promotion_description": "<p>À l’achat d’un prolongateur de bronzage Australian Gold en format régulier, obtenez gratuitement le format voyage Aloe & Ocean Water!</p>",
-            "promotion_link": "shopify://collections/visage-corps-prolongateur-bronzage",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -331,13 +316,12 @@
       },
       "block_order": [
         "promotion_card_FRhmV7",
-        "promotion_card_Ue76Ha",
         "promotion_card_C8kCAC",
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
         "promotion_card_787VXw",
+        "promotion_card_YUwnfx",
         "promotion_card_edGCqW",
-        "promotion_card_eaQ63J",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy"
       ],
