@@ -99,6 +99,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_mVQVyz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_ea8988a7-11b1-4158-a0ba-d866df82bb05.png",
+            "promotion_title": "20% sur Osmoclean",
+            "promotion_description": "<p>Adoptez Osmoclean, les soins nettoyants inspirés des instituts qui révèlent une peau fraîche, éclatante et visiblement plus jeune.</p>",
+            "promotion_link": "shopify://collections/offre-esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_VxmwYD": {
           "type": "promotion_card",
           "settings": {
@@ -172,6 +185,7 @@
         "promotion_card_643MnV",
         "promotion_card_ihBNEx",
         "promotion_card_FfVjLx",
+        "promotion_card_mVQVyz",
         "promotion_card_VxmwYD",
         "promotion_card_yeXadb",
         "promotion_card_MMQHPd",
@@ -261,19 +275,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_YUwnfx": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_ea8988a7-11b1-4158-a0ba-d866df82bb05.png",
-            "promotion_title": "20% sur Osmoclean",
-            "promotion_description": "<p>Adoptez Osmoclean, les soins nettoyants inspirés des instituts qui révèlent une peau fraîche, éclatante et visiblement plus jeune.</p>",
-            "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_edGCqW": {
           "type": "promotion_card",
           "settings": {
@@ -320,7 +321,6 @@
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
         "promotion_card_787VXw",
-        "promotion_card_YUwnfx",
         "promotion_card_edGCqW",
         "promotion_card_zEceJC",
         "promotion_card_cRBzcy"
