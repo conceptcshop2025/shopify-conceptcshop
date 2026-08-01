@@ -114,6 +114,7 @@
         },
         "promotion_card_VxmwYD": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/17_e22d415a-f016-465d-97b0-4582a078e1b2.png",
             "promotion_title": "15% sur la gamme Solaire",
@@ -140,6 +141,7 @@
         },
         "promotion_card_MMQHPd": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/16_e6c3e628-fced-4405-98cc-abf68c5716a4.png",
             "promotion_title": "20% sur Soleil de Kérastase",
