@@ -112,20 +112,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_VxmwYD": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/17_e22d415a-f016-465d-97b0-4582a078e1b2.png",
-            "promotion_title": "15% sur la gamme Solaire",
-            "promotion_description": "<p>Profitez de 15% de rabais sur toute la gamme solaire Esthederm. Protection, hydratation et bronzage lumineux pour un été éclatant!</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": true,
-            "expiration_month": "08",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_yeXadb": {
           "type": "promotion_card",
           "settings": {
@@ -133,20 +119,6 @@
             "promotion_title": "15% sur Première de Kérastase",
             "promotion_description": "<p>Première est une routine réparatrice qui élimine le surplus de calcium, reconnecte les liens de kératine et redonne force, douceur et brillance aux cheveux abîmés.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_MMQHPd": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/16_e6c3e628-fced-4405-98cc-abf68c5716a4.png",
-            "promotion_title": "20% sur Soleil de Kérastase",
-            "promotion_description": "<p>Des soins essentiels pour protéger, nourrir et illuminer les cheveux exposés au soleil, au sel et au chlore!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -188,9 +160,7 @@
         "promotion_card_ihBNEx",
         "promotion_card_FfVjLx",
         "promotion_card_mVQVyz",
-        "promotion_card_VxmwYD",
         "promotion_card_yeXadb",
-        "promotion_card_MMQHPd",
         "promotion_card_8Cb83Y",
         "promotion_card_W7BpWz"
       ],
@@ -289,32 +259,6 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_zEceJC": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_3eaf4230-56df-438e-972c-b55716a96047.png",
-            "promotion_title": "Cadeau Voyage Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits format voyage Kérastase, obtenez gratuitement une pochette estivale Club Soleil!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-9",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_cRBzcy": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_795489eb-5b1c-46c6-94f1-dcf93ce053cc.png",
-            "promotion_title": "Cadeau Estival Kérastase",
-            "promotion_description": "<p>À l’achat de 2 produits format régulier Kérastase, obtenez gratuitement un sac estival!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
@@ -323,9 +267,7 @@
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
         "promotion_card_787VXw",
-        "promotion_card_edGCqW",
-        "promotion_card_zEceJC",
-        "promotion_card_cRBzcy"
+        "promotion_card_edGCqW"
       ],
       "name": "# Promotions list",
       "settings": {
