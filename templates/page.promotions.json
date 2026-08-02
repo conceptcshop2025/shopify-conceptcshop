@@ -259,6 +259,20 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_nNfFRE": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout.png",
+            "promotion_title": "Cadeau Redken ABC",
+            "promotion_description": "<p>À l’achat de l’un des trois produits Redken ABC sélectionnés, soit le baume, le sérum ou le masque, obtenez gratuitement un mini traitement sans rinçage ABC.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-5",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
@@ -267,7 +281,8 @@
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
         "promotion_card_787VXw",
-        "promotion_card_edGCqW"
+        "promotion_card_edGCqW",
+        "promotion_card_nNfFRE"
       ],
       "name": "# Promotions list",
       "settings": {
