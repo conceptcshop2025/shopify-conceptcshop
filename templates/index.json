@@ -415,13 +415,28 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_abyf8L": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_44b37e7d-5227-4107-8c74-1f6aeab49504.png",
+            "promotion_title": "15% sur Première de Kérastase",
+            "promotion_description": "<p>Première est une routine réparatrice qui élimine le surplus de calcium, reconnecte les liens de kératine et redonne force, douceur et brillance aux cheveux abîmés</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
         "promotion_card_FehMjn",
         "promotion_card_RE7mtH",
         "promotion_card_4iNL3A",
-        "promotion_card_eFAHAd"
+        "promotion_card_eFAHAd",
+        "promotion_card_abyf8L"
       ],
       "name": "# Promotions list",
       "settings": {
