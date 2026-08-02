@@ -393,10 +393,10 @@
         "promotion_card_4iNL3A": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_df133f24-6016-4ae6-be38-dbd8e15dd345.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1.png",
             "promotion_title": "Cadeau René Furterer",
-            "promotion_description": "<p>À l’achat du fluide solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
-            "promotion_link": "shopify://products/rene-furterer-duo-solaire",
+            "promotion_description": "<p>À l’achat du fluide ou du shampoing solaire René Furterer, obtenez gratuitement le gel de douche!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-13",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
