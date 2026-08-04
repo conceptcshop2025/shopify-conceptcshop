@@ -72,7 +72,7 @@
         "liquid_fVFwKN": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p><iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11015.024088738135!2d-72.5824636!3d46.3543864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7c99557037989%3A0x12647f17f95d54f4!2sConcept%20C.%20Shop%20-%20Le%20Salon%20de%20Coiffure%20pour%20elle%20et%20lui!5e0!3m2!1sfr!2sca!4v1711053021711!5m2!1sfr!2sca\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></p>"
+            "liquid": "<div style=\"width: 100%\"><iframe width=\"100%\" height=\"600\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" style=\"border:0\" allowfullscreen src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=66%20Qc%2C%20route%20132%2C%20local%20175%20QC%2C%20J5B%200A1&amp;maptype=roadmap&amp;zoom=14\"><a href=\"https://www.maps.ie/create-google-map/\" rel=\"nofollow\">Embed directions map</a></iframe></div>"
           }
         },
         "button_7Fa9Lc": {
