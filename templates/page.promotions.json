@@ -195,6 +195,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_8bx6aj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_f63aa836-ad17-449f-bfe9-cf5c84bf4100.png",
+            "promotion_title": "Cadeau Estival Kérastase",
+            "promotion_description": "<p>À l'achat de 3 produits format régulier Kérastase, obtenez gratuitement un sac estival.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_C8kCAC": {
           "type": "promotion_card",
           "settings": {
@@ -278,6 +291,7 @@
       "block_order": [
         "promotion_card_gzQW3d",
         "promotion_card_FRhmV7",
+        "promotion_card_8bx6aj",
         "promotion_card_C8kCAC",
         "promotion_card_iF8n4z",
         "promotion_card_xpkdwW",
