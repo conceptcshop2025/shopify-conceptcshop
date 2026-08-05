@@ -103,6 +103,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_JcriHP": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_5_produits_-_de_20_2.png",
+            "background_color": "#FDE6A8",
+            "title": "<strong>20$ ET MOINS!</strong>",
+            "description": "<p>Des incontournables à prix mini! Magasinez notre sélection de favoris à 20 $ et moins avant qu'ils ne disparaissent.</p>",
+            "text_color": "#000000",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "item_banner_C6DUbt": {
           "type": "item_banner",
           "settings": {
@@ -130,6 +143,7 @@
       },
       "block_order": [
         "item_banner_FLMiYA",
+        "item_banner_JcriHP",
         "item_banner_C6DUbt",
         "item_banner_LDHRm4"
       ],
