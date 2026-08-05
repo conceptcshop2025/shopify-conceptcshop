@@ -73,6 +73,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_rAVB6X": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_5f89aaee-adb4-4e85-aa32-80e95890885a.png",
+            "promotion_title": "20$ et moins",
+            "promotion_description": "<p>Des incontournables à prix mini! Magasinez notre sélection de favoris à 20 $ et moins avant qu'ils ne disparaissent.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-8",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_FfVjLx": {
           "type": "promotion_card",
           "settings": {
@@ -144,6 +158,7 @@
         "promotion_card_MbmC8Y",
         "promotion_card_qdwhRA",
         "promotion_card_643MnV",
+        "promotion_card_rAVB6X",
         "promotion_card_FfVjLx",
         "promotion_card_mVQVyz",
         "promotion_card_yeXadb",
