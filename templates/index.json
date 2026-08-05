@@ -108,7 +108,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_5_produits_-_de_20_2.png",
-            "background_color": "#F7CD77",
+            "background_color": "#f7cd77",
             "title": "<strong>20$ ET MOINS!</strong>",
             "description": "<p>Des incontournables à prix mini! Magasinez notre sélection de favoris à 20 $ et moins avant qu'ils ne disparaissent.</p>",
             "text_color": "#000000",
@@ -121,7 +121,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
-            "background_color": "#E2C09F",
+            "background_color": "#e2c09f",
             "title": "VOTRE CADEAU REDKEN ABC",
             "description": "<p>Réparation, force et brillance avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini traitement offert.</p>",
             "text_color": "#000000",
