@@ -105,7 +105,6 @@
         },
         "item_banner_JcriHP": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_5_produits_-_de_20.png",
             "background_color": "#f7cd77",
@@ -130,6 +129,7 @@
         },
         "item_banner_LDHRm4": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026_81d28812-7503-47fb-9ec1-00b99fd4b1c0.png",
             "background_color": "#e8e6e3",
