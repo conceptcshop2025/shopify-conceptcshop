@@ -47,19 +47,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_qdwhRA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1b501cc8-1faa-4db6-9fde-a0501b640b7c.png",
-            "promotion_title": "25% sur Shu Uemura",
-            "promotion_description": "<p>Profitez-en pour vous procurer les favoris Shu Uemura, comme l’huile Essence Absolue, le sérum de nuit et le masque Ultimate Reset!</p>",
-            "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_643MnV": {
           "type": "promotion_card",
           "settings": {
@@ -89,7 +76,6 @@
         },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_28_57.png",
             "promotion_title": "Votre cadeau Redken ABC",
@@ -170,7 +156,6 @@
       "block_order": [
         "promotion_card_JniMyD",
         "promotion_card_MbmC8Y",
-        "promotion_card_qdwhRA",
         "promotion_card_643MnV",
         "promotion_card_rAVB6X",
         "promotion_card_Vt4VCf",
