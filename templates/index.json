@@ -118,7 +118,6 @@
         },
         "item_banner_BQF4ih": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
             "background_color": "#e2c09f",
@@ -126,18 +125,6 @@
             "description": "<p>Réparation, force et brillance avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini traitement offert.</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-5",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_C6DUbt": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/25_off_Shu_Juil_26_1.png",
-            "background_color": "#b8dbdb",
-            "title": "25% SUR SHU UEMURA",
-            "description": "<p>Profitez-en pour vous procurer les favoris Shu Uemura, comme l’huile Essence Absolue, le sérum de nuit et le masque Ultimate Reset!</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/shu-uemura",
             "link_text": "magasiner"
           }
         },
@@ -158,7 +145,6 @@
         "item_banner_FLMiYA",
         "item_banner_JcriHP",
         "item_banner_BQF4ih",
-        "item_banner_C6DUbt",
         "item_banner_LDHRm4"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
