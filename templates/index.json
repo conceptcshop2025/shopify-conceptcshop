@@ -121,22 +121,9 @@
             "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
             "background_color": "#e2c09f",
             "title": "VOTRE CADEAU REDKEN ABC",
-            "description": "<p>Réparation, force et brillance avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini traitement offert.</p>",
+            "description": "<p>Réparez, renforcez et faites briller vos cheveux avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini-traitement en cadeau.</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-5",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_LDHRm4": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026_81d28812-7503-47fb-9ec1-00b99fd4b1c0.png",
-            "background_color": "#e8e6e3",
-            "title": "<strong>ESSENTIELS DE LA DOUCHE</strong>",
-            "description": "<p>Profitez de 20 % de rabais sur une sélection d’accessoires Concept C pour la douche : serviettes, pompes, bouteilles de recharge, brosses et plus!</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
         }
@@ -144,8 +131,7 @@
       "block_order": [
         "item_banner_FLMiYA",
         "item_banner_JcriHP",
-        "item_banner_BQF4ih",
-        "item_banner_LDHRm4"
+        "item_banner_BQF4ih"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
