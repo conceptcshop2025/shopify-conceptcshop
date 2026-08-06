@@ -185,7 +185,6 @@
       "blocks": {
         "promotion_card_gzQW3d": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_0afca78a-d6e6-4166-8df1-8d39838dd4b0.png",
             "promotion_title": "Cadeau Oribe",
