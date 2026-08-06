@@ -261,19 +261,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_787VXw": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_a49bc3c9-9469-4c34-acca-350f1254a32e.png",
-            "promotion_title": "Cadeau Davines OI",
-            "promotion_description": "<p>À l’achat de 70 $ de la gamme OI dans Davines, obtenez gratuitement un mini shampoing OI.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-16",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_edGCqW": {
           "type": "promotion_card",
           "settings": {
@@ -309,7 +296,6 @@
         "promotion_card_pMYkTU",
         "promotion_card_C8kCAC",
         "promotion_card_xpkdwW",
-        "promotion_card_787VXw",
         "promotion_card_edGCqW",
         "promotion_card_nNfFRE"
       ],
