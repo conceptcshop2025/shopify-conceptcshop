@@ -91,6 +91,19 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_qNfkfm": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Promo_Anniversaire_aout_2026_750_x_600_px.png",
+            "background_color": "#70CB4D",
+            "title": "EXTRA 10% DE RABAIS",
+            "description": "<p>Les 9 et 10 août seulement! Profitez d’un 10 % de réduction supplémentaire sur presque tout avec le code EXTRA10.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/vente-printaniere",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_FLMiYA": {
           "type": "item_banner",
           "settings": {
@@ -129,6 +142,7 @@
         }
       },
       "block_order": [
+        "item_banner_qNfkfm",
         "item_banner_FLMiYA",
         "item_banner_JcriHP",
         "item_banner_BQF4ih"
