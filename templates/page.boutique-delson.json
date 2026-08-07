@@ -114,6 +114,7 @@
       "blocks": {
         "image_69bwDt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165353.874.png",
@@ -132,6 +133,7 @@
         },
         "image_FyKbWe": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165450.815.png",
@@ -150,6 +152,7 @@
         },
         "image_Nf7PBD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/Design_sans_titre_-_2024-02-19T165517.541.png",
