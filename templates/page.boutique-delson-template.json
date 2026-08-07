@@ -28,6 +28,13 @@
             "heading_tag": "h1"
           }
         },
+        "heading_dbzB3b": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>OUVERTURE OCTOBRE 2026</strong>",
+            "heading_tag": "h2"
+          }
+        },
         "subheading_xRfYwy": {
           "type": "subheading",
           "settings": {
@@ -37,6 +44,7 @@
       },
       "block_order": [
         "heading_bM4W4x",
+        "heading_dbzB3b",
         "subheading_xRfYwy"
       ],
       "settings": {
