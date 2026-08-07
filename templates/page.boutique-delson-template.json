@@ -13,6 +13,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
       }
@@ -23,7 +24,7 @@
         "heading_bM4W4x": {
           "type": "heading",
           "settings": {
-            "text": "BOUTIQUE CONCEPT C. QUÉBEC",
+            "text": "BOUTIQUE CONCEPT C. DELSON",
             "heading_tag": "h1"
           }
         },
@@ -39,6 +40,7 @@
         "subheading_xRfYwy"
       ],
       "settings": {
+        "color_scheme": "",
         "image_size": "xs",
         "image": "shopify://shop_images/Design_sans_titre_43.png",
         "allow_transparent_header": false,
@@ -57,13 +59,13 @@
         "richtext_j83ezg": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"https://www.google.com/maps/place/325+Rue+du+Marais+Local+140,+Qu%C3%A9bec,+QC+G1M+3R3/data=!4m2!3m1!1s0x4cb897c7912d3887:0x210d3e1b1f0bb2eb?sa=X&ved=2ahUKEwjbodPT-pSEAxXQD1kFHV1HDgEQ8gF6BAgWEAA\" title=\"https://www.google.com/maps/place/325+Rue+du+Marais+Local+140,+Qu%C3%A9bec,+QC+G1M+3R3/data=!4m2!3m1!1s0x4cb897c7912d3887:0x210d3e1b1f0bb2eb?sa=X&ved=2ahUKEwjbodPT-pSEAxXQD1kFHV1HDgEQ8gF6BAgWEAA\">325 Rue du Marais Local 140</a><br/>Québec, Qc<br/>G1M 3R3<br/><a href=\"tel:4186225005\" title=\"tel:4186225005\">(418) 622-5005</a></p><p></p>"
+            "content": "<h4>66 Qc, route 132, local 175 QC, </h4><h4>J5B 0A1</h4><p></p>"
           }
         },
         "liquid_jdTXVB": {
           "type": "liquid",
           "settings": {
-            "liquid": "<iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2729.7384688063726!2d-71.28149582333451!3d46.82915094133972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb89704f9ef680f%3A0xf30536dca743e350!2sConcept%20C.%20La%20R%C3%A9f%C3%A9rence%20en%20Produits%20de%20Coiffure%20-%20Boutique%20Qu%C3%A9bec!5e0!3m2!1sfr!2sca!4v1707836955490!5m2!1sfr!2sca\" width=\"400\" height=\"300\" loading=\"lazy\" allowfullscreen=\"\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+            "liquid": "<div style=\"width: 100%\"><iframe width=\"100%\" height=\"600\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" style=\"border:0\" allowfullscreen src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=66%20Qc%2C%20route%20132%2C%20local%20175%20QC%2C%20J5B%200A1&amp;maptype=roadmap&amp;zoom=14\"><a href=\"https://www.maps.ie/create-google-map/\" rel=\"nofollow\">Embed directions map</a></iframe></div>"
           }
         },
         "button_YeUaBY": {
@@ -90,6 +92,7 @@
         "richtext_EdEg9W"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Design_sans_titre_38_08b453cd-cb67-4ba0-9fdc-e8e0d6a15e34.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_45.png",
@@ -121,6 +124,7 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "image_size": "lg",
         "image": "shopify://shop_images/Design_sans_titre_43_2efd18e3-ba72-41ad-b4f8-d8304e5e41f6.png",
         "content_width": "sm",
@@ -132,6 +136,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
@@ -154,6 +159,7 @@
         "heading_AfVfwU"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "content_width": "xs",
         "text_position": "center",
@@ -214,6 +220,7 @@
         "item_mdVTeh"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "stack_on_mobile": true,
         "icon_color": "",
@@ -227,6 +234,7 @@
         "template--16369710563479__7065db9f-b05b-4105-a625-2959102ea5ac-image-1": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/DSCF7792_3bb12fb0-7a41-49a0-aa2a-12ddac647fdd.jpg",
             "column_count": "8",
             "row_count": 2,
@@ -244,6 +252,7 @@
         "template--16369710563479__7065db9f-b05b-4105-a625-2959102ea5ac-image-2": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/DSCF7779_e1eb36a6-90e1-43ee-b54c-c99c055c555c.jpg",
             "column_count": "4",
             "row_count": 1,
@@ -261,6 +270,7 @@
         "template--16369710563479__7065db9f-b05b-4105-a625-2959102ea5ac-image-3": {
           "type": "image",
           "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/DSCF7806.jpg",
             "column_count": "4",
             "row_count": 1,
@@ -282,6 +292,7 @@
         "template--16369710563479__7065db9f-b05b-4105-a625-2959102ea5ac-image-3"
       ],
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": false,
         "desktop_row_height": 240,
         "mobile_row_height": 180,
@@ -344,6 +355,7 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 4,
         "stack_on_mobile": true,
@@ -378,6 +390,7 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "image_size": "lg",
         "content_width": "sm",
         "enable_parallax": true,
@@ -407,6 +420,7 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
@@ -440,6 +454,7 @@
       ],
       "disabled": true,
       "settings": {
+        "color_scheme": "",
         "reveal_on_scroll": true,
         "separate_section_with_border": true,
         "media_position_desktop": "before_text",
