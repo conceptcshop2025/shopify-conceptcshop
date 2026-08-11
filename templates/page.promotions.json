@@ -39,7 +39,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1.png",
             "promotion_title": "Festilitre",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $!</p>",
+            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $! <em>*prend fin le 7 septembre 23h59</em></p>",
             "promotion_link": "shopify://collections/festilitre",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
