@@ -567,17 +567,17 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site_eca0ec72-2239-449e-b541-47dbf8a9da53.png",
+            "image": "shopify://shop_images/Sarah_Couture_Photo.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "mermade-fer-a-vaguer-infrarouge",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 60,
-            "product_2": "mermade-fer-a-vaguer-pro-waver-rose-32mm",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 80,
-            "product_3": "mermade-fer-a-vaguer-pro-waver-noir-25mm",
+            "product_1": "design-me-shampoing-volumisant-puff-me-1000-ml-festilitre",
+            "product_1_horizontal_position": 25,
+            "product_1_vertical_position": 54,
+            "product_2": "redken-shampoing-acidic-grow-full-1000-ml-fevrier-2026",
+            "product_2_horizontal_position": 48,
+            "product_2_vertical_position": 54,
+            "product_3": "loreal-serie-expert-shampoing-creme-metal-detox-1500-ml",
             "product_3_horizontal_position": 70,
-            "product_3_vertical_position": 80,
+            "product_3_vertical_position": 56,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
@@ -592,7 +592,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "LA WAVE PARFAITE",
+        "title": "Festilitre - vos favoris!",
         "content": "",
         "popover_title": ""
       }
