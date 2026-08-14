@@ -250,6 +250,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_f3UtEV": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_c600f0e7-2f76-430e-aef0-cc08426a480d.png",
+            "promotion_title": "Cadeau Kérastase",
+            "promotion_description": "<p>À l’achat du Sérum de Nuit ou de la Potion de Longévité Chronologiste, obtenez gratuitement une pochette en cuir.</p>",
+            "promotion_link": "shopify://collections/offre-kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
           "settings": {
@@ -321,6 +335,7 @@
         "promotion_card_8bx6aj",
         "promotion_card_pMYkTU",
         "promotion_card_C8kCAC",
+        "promotion_card_f3UtEV",
         "promotion_card_xpkdwW",
         "promotion_card_edGCqW",
         "promotion_card_RFcHJb",
