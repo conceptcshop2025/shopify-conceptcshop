@@ -47,6 +47,34 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_wDLgYn": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1_66fab29d-aadb-453b-ab4d-5d08baf3790d.png",
+            "promotion_title": "Nouveau +25% de rabais",
+            "promotion_description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
+            "promotion_link": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_UqV8iJ": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_2.png",
+            "promotion_title": "SOS Perte de cheveux",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
+            "promotion_link": "shopify://collections/promo-perte-de-cheveux",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_rAVB6X": {
           "type": "promotion_card",
           "settings": {
@@ -67,20 +95,6 @@
             "promotion_title": "Festilitre",
             "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $! <em>*prend fin le 7 septembre 23h59</em></p>",
             "promotion_link": "shopify://collections/festilitre",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_wDLgYn": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1_66fab29d-aadb-453b-ab4d-5d08baf3790d.png",
-            "promotion_title": "Nouveau +25% de rabais",
-            "promotion_description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
-            "promotion_link": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -156,9 +170,10 @@
       "block_order": [
         "promotion_card_JniMyD",
         "promotion_card_Vt4VCf",
+        "promotion_card_wDLgYn",
+        "promotion_card_UqV8iJ",
         "promotion_card_rAVB6X",
         "promotion_card_643MnV",
-        "promotion_card_wDLgYn",
         "promotion_card_FfVjLx",
         "promotion_card_mVQVyz",
         "promotion_card_yeXadb",
