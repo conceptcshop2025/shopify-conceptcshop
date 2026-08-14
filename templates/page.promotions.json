@@ -301,6 +301,19 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_THNjpF": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1_408c144b-adc9-41d7-86f1-ece626f03df5.png",
+            "promotion_title": "Cadeau avec Sacha Juan",
+            "promotion_description": "<p>À l’achat de 55 $ de produits Sachajuan, obtenez gratuitement un masque Réparateur 30 ml. <em>Exclusivité web. </em></p>",
+            "promotion_link": "shopify://collections/sachajuan",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
@@ -311,7 +324,8 @@
         "promotion_card_xpkdwW",
         "promotion_card_edGCqW",
         "promotion_card_RFcHJb",
-        "promotion_card_8dRH8e"
+        "promotion_card_8dRH8e",
+        "promotion_card_THNjpF"
       ],
       "name": "# Promotions list",
       "settings": {
