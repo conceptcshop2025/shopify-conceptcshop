@@ -132,7 +132,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_13_aout_2026_18_20_43.png",
-            "background_color": "#BEC1C5",
+            "background_color": "#bec1c5",
             "title": "NOUVEAU + 25 % DE RABAIS",
             "description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
             "text_color": "#000000",
@@ -145,7 +145,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_SOS_Perte_de_Cheveux_Aout_2026.png",
-            "background_color": "#DFCDBA",
+            "background_color": "#dfcdba",
             "title": "SOS PERTE DE CHEVEUX",
             "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
             "text_color": "#000000",
@@ -394,7 +394,6 @@
       "blocks": {
         "promotion_card_BQaRXi": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_28_57.png",
             "promotion_title": "Votre cadeau Redken ABC",
