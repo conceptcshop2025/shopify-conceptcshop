@@ -448,7 +448,6 @@
         },
         "promotion_card_4iNL3A": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1.png",
             "promotion_title": "Cadeau René Furterer",
@@ -462,7 +461,6 @@
         },
         "promotion_card_eFAHAd": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
             "promotion_title": "Cadeau Sun Bum",
