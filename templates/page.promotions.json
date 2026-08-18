@@ -240,6 +240,7 @@
         },
         "promotion_card_xpkdwW": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/8_f49a5ef8-748f-4305-932c-258d6689ae4e.png",
             "promotion_title": "Cadeau Biolage",
