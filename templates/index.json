@@ -392,8 +392,22 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_xAa6h7": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_ea8988a7-11b1-4158-a0ba-d866df82bb05.png",
+            "promotion_title": "20% sur Osmoclean",
+            "promotion_description": "<p>Adoptez Osmoclean, les soins nettoyants inspirés des instituts qui révèlent une peau fraîche, éclatante et visiblement plus jeune.</p>",
+            "promotion_link": "shopify://collections/offre-esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_BQaRXi": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_28_57.png",
             "promotion_title": "Votre cadeau Redken ABC",
@@ -434,6 +448,7 @@
         },
         "promotion_card_4iNL3A": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1.png",
             "promotion_title": "Cadeau René Furterer",
@@ -447,6 +462,7 @@
         },
         "promotion_card_eFAHAd": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
             "promotion_title": "Cadeau Sun Bum",
@@ -460,6 +476,7 @@
         }
       },
       "block_order": [
+        "promotion_card_xAa6h7",
         "promotion_card_BQaRXi",
         "promotion_card_abyf8L",
         "promotion_card_RE7mtH",
