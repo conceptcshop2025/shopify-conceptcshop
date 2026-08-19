@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_nxWgY6": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_13_aout_2026_18_20_43.png",
+            "background_color": "#bec1c5",
+            "title": "NOUVEAU + 25 % DE RABAIS",
+            "description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_FLMiYA": {
           "type": "item_banner",
           "settings": {
@@ -128,18 +140,6 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_nxWgY6": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_13_aout_2026_18_20_43.png",
-            "background_color": "#bec1c5",
-            "title": "NOUVEAU + 25 % DE RABAIS",
-            "description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_7ykdEr": {
           "type": "item_banner",
           "disabled": true,
@@ -155,10 +155,10 @@
         }
       },
       "block_order": [
+        "item_banner_nxWgY6",
         "item_banner_FLMiYA",
         "item_banner_JcriHP",
         "item_banner_BQF4ih",
-        "item_banner_nxWgY6",
         "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
