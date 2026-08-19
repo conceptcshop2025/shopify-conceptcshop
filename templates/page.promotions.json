@@ -49,7 +49,6 @@
         },
         "promotion_card_wDLgYn": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_1_66fab29d-aadb-453b-ab4d-5d08baf3790d.png",
             "promotion_title": "Nouveau +25% de rabais",
