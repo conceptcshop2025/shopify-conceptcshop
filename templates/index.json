@@ -117,6 +117,7 @@
         },
         "item_banner_BQF4ih": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
             "background_color": "#e2c09f",
@@ -129,7 +130,6 @@
         },
         "item_banner_nxWgY6": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_13_aout_2026_18_20_43.png",
             "background_color": "#bec1c5",
