@@ -31,6 +31,45 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_hCkVz3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_TfPiwY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_LG6MPW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_BcADBq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chaque jeudi, de 11 h 30 à 13 h, nous sommes en LIVE sur TikTok ! 🎥 Pendant le LIVE, nous dévoilons les codes promo valides qui vous permettent d’obtenir GRATUITEMENT l’un des items ci-dessous dans votre commande. Et ce n’est pas tout ! 👀 Courez la chance de voir VOTRE commande sélectionnée et pimpée (ajout d'un cadeau) gratuitement par Maude et MC ! C’est un rendez-vous chaque jeudi !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TfPiwY",
+        "heading_LG6MPW",
+        "richtext_BcADBq"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "disabled": true,
@@ -73,6 +112,7 @@
   },
   "order": [
     "collection-banner",
+    "rich_text_hCkVz3",
     "custom_collection_tags_DdQdc6",
     "main"
   ]
