@@ -394,7 +394,6 @@
       "blocks": {
         "promotion_card_BQaRXi": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_28_57.png",
             "promotion_title": "Votre cadeau Redken ABC",
