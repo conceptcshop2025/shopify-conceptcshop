@@ -394,7 +394,6 @@
       "blocks": {
         "promotion_card_wmqpFe": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Ilettre_5_produits_-_de_20_2.png",
             "promotion_title": "20 $ ET MOINS !",
