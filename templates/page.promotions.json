@@ -225,7 +225,6 @@
         },
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_c600f0e7-2f76-430e-aef0-cc08426a480d.png",
             "promotion_title": "Cadeau Kérastase",
