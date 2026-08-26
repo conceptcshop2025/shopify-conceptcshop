@@ -130,6 +130,7 @@
         },
         "item_banner_BQF4ih": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
             "background_color": "#e2c09f",
@@ -142,7 +143,6 @@
         },
         "item_banner_7ykdEr": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_SOS_Perte_de_Cheveux_Aout_2026.png",
             "background_color": "#dfcdba",
@@ -394,6 +394,7 @@
       "blocks": {
         "promotion_card_wmqpFe": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Ilettre_5_produits_-_de_20_2.png",
             "promotion_title": "20 $ ET MOINS !",
