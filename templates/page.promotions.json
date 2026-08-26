@@ -62,7 +62,6 @@
         },
         "promotion_card_UqV8iJ": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_2.png",
             "promotion_title": "SOS Perte de cheveux",
@@ -76,6 +75,7 @@
         },
         "promotion_card_rAVB6X": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_5f89aaee-adb4-4e85-aa32-80e95890885a.png",
             "promotion_title": "20$ et moins",
