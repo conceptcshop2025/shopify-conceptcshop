@@ -21,19 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_JniMyD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Juin_2026_1_6d962342-61bc-4d5c-97c8-dd7c659b227a.png",
-            "promotion_title": "-20% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -67,20 +54,6 @@
             "promotion_title": "SOS Perte de cheveux",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
             "promotion_link": "shopify://collections/promo-perte-de-cheveux",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_rAVB6X": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_5f89aaee-adb4-4e85-aa32-80e95890885a.png",
-            "promotion_title": "20$ et moins",
-            "promotion_description": "<p>Des incontournables à prix mini! Magasinez notre sélection de favoris à 20 $ et moins avant qu'ils ne disparaissent.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -167,11 +140,9 @@
         }
       },
       "block_order": [
-        "promotion_card_JniMyD",
         "promotion_card_Vt4VCf",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
-        "promotion_card_rAVB6X",
         "promotion_card_643MnV",
         "promotion_card_FfVjLx",
         "promotion_card_mVQVyz",
