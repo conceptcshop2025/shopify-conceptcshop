@@ -95,7 +95,7 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
-            "background_color": "#C2F20D",
+            "background_color": "#c2f20d",
             "title": "FESTILITRE",
             "description": "<p><strong>31 AOÛT SEULEMENT : 10 % DE RABAIS EXTRA SUR LE FESTILITRE! </strong>Code <strong>FESTI10</strong>, appliqué automatiquement au panier. Jusqu’à 50 % de rabais sur plus de 500 litres, dès 24,99 $!</p>",
             "text_color": "#000000",
@@ -392,34 +392,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_wmqpFe": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Ilettre_5_produits_-_de_20_2.png",
-            "promotion_title": "20 $ ET MOINS !",
-            "promotion_description": "<p>Des incontournables à prix mini! Magasinez notre sélection de favoris à 20 $ et moins avant qu'ils ne disparaissent.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_BQaRXi": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_28_57.png",
-            "promotion_title": "Votre cadeau Redken ABC",
-            "promotion_description": "<p>Réparez, renforcez et faites briller vos cheveux avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini-traitement en cadeau.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_abyf8L": {
           "type": "promotion_card",
           "settings": {
@@ -427,20 +399,6 @@
             "promotion_title": "15% sur Première de Kérastase",
             "promotion_description": "<p>Première est une routine réparatrice qui élimine le surplus de calcium, reconnecte les liens de kératine et redonne force, douceur et brillance!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_RE7mtH": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/8_f49a5ef8-748f-4305-932c-258d6689ae4e.png",
-            "promotion_title": "Cadeau Biolage",
-            "promotion_description": "<p>À l’achat de 75$ de produits Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
-            "promotion_link": "shopify://collections/biolage",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -486,14 +444,13 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_eFAHAd": {
+        "promotion_card_NJzNbB": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
-            "promotion_title": "Cadeau Sun Bum",
-            "promotion_description": "<p>À l’achat de 45 $ de produits Sun Bum, obtenez gratuitement un baume pour les lèvres hydratant Cocobalm - Cerise Tropicale.</p>",
-            "promotion_link": "shopify://collections/sun-bum",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
+            "promotion_title": "25% sur Keratin Alpha Sleek",
+            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -502,14 +459,11 @@
         }
       },
       "block_order": [
-        "promotion_card_wmqpFe",
-        "promotion_card_BQaRXi",
         "promotion_card_abyf8L",
-        "promotion_card_RE7mtH",
         "promotion_card_xAa6h7",
         "promotion_card_VD9Ri3",
         "promotion_card_4iNL3A",
-        "promotion_card_eFAHAd"
+        "promotion_card_NJzNbB"
       ],
       "name": "# Promotions list",
       "settings": {
