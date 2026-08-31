@@ -34,6 +34,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_ixqQiM": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1.png",
+            "promotion_title": "15 % sur K18",
+            "promotion_description": "<p>Découvrez les soins réparateurs K18, conçus pour renforcer les cheveux abîmés, réduire la casse et leur redonner douceur et souplesse.</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -128,6 +141,7 @@
       },
       "block_order": [
         "promotion_card_PRTHF6",
+        "promotion_card_ixqQiM",
         "promotion_card_Vt4VCf",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
