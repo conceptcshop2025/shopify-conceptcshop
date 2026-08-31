@@ -21,6 +21,19 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_PRTHF6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
+            "promotion_title": "25% sur Keratin Alpha Sleek",
+            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -73,19 +86,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_PRTHF6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
-            "promotion_title": "25% sur Keratin Alpha Sleek",
-            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_FfVjLx": {
           "type": "promotion_card",
           "settings": {
@@ -127,11 +127,11 @@
         }
       },
       "block_order": [
+        "promotion_card_PRTHF6",
         "promotion_card_Vt4VCf",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_643MnV",
-        "promotion_card_PRTHF6",
         "promotion_card_FfVjLx",
         "promotion_card_yeXadb",
         "promotion_card_W7BpWz"
