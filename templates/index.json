@@ -107,9 +107,9 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
-            "background_color": "#e0e6f2",
+            "background_color": "#C2F20D",
             "title": "FESTILITRE",
-            "description": "<p>Gros formats, grosses économies! Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $! <em>*prend fin le 7 septembre 23h59</em></p>",
+            "description": "<p><strong>31 AOÛT SEULEMENT : 10 % DE RABAIS EXTRA SUR LE FESTILITRE! </strong>Code <strong>FESTI10</strong>, appliqué automatiquement au panier. Jusqu’à 50 % de rabais sur plus de 500 litres, dès 24,99 $!</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/festilitre",
             "link_text": "magasiner"
@@ -147,7 +147,7 @@
             "image": "shopify://shop_images/Slider_Mobile_SOS_Perte_de_Cheveux_Aout_2026.png",
             "background_color": "#dfcdba",
             "title": "SOS PERTE DE CHEVEUX",
-            "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
+            "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p><p></p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
