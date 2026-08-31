@@ -86,19 +86,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_mVQVyz": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_ea8988a7-11b1-4158-a0ba-d866df82bb05.png",
-            "promotion_title": "20% sur Osmoclean",
-            "promotion_description": "<p>Adoptez Osmoclean, les soins nettoyants inspirés des instituts qui révèlent une peau fraîche, éclatante et visiblement plus jeune.</p>",
-            "promotion_link": "shopify://collections/offre-esthederm",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_yeXadb": {
           "type": "promotion_card",
           "settings": {
@@ -106,19 +93,6 @@
             "promotion_title": "15% sur Première de Kérastase",
             "promotion_description": "<p>Première est une routine réparatrice qui élimine le surplus de calcium, reconnecte les liens de kératine et redonne force, douceur et brillance aux cheveux abîmés.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_8Cb83Y": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_d1a02961-d568-489e-8193-d3361bb8a3b5.png",
-            "promotion_title": "-20% sur Pureology Smooth Gloss",
-            "promotion_description": "<p>Un rituel complet anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -145,9 +119,7 @@
         "promotion_card_UqV8iJ",
         "promotion_card_643MnV",
         "promotion_card_FfVjLx",
-        "promotion_card_mVQVyz",
         "promotion_card_yeXadb",
-        "promotion_card_8Cb83Y",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
