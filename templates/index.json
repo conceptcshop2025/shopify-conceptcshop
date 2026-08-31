@@ -405,6 +405,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_inUanx": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_2.png",
+            "promotion_title": "15% sur T3",
+            "promotion_description": "<p>Obtenez des résultats dignes du salon à la maison avec les outils coiffants T3, conçus pour un coiffage plus rapide, facile et impeccable.</p>",
+            "promotion_link": "shopify://collections/t3-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_FVeDCd": {
           "type": "promotion_card",
           "settings": {
@@ -412,19 +425,6 @@
             "promotion_title": "15% K18",
             "promotion_description": "<p>Découvrez les soins réparateurs K18, conçus pour renforcer les cheveux abîmés, réduire la casse et leur redonner douceur et souplesse.</p>",
             "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_VD9Ri3": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_d1a02961-d568-489e-8193-d3361bb8a3b5.png",
-            "promotion_title": "-20% sur Pureology Smooth Gloss",
-            "promotion_description": "<p>Un rituel complet anti-frisottis qui nettoie, adoucit et illumine les cheveux pour un fini lisse, brillant et soyeux.</p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -447,8 +447,8 @@
       },
       "block_order": [
         "promotion_card_abyf8L",
+        "promotion_card_inUanx",
         "promotion_card_FVeDCd",
-        "promotion_card_VD9Ri3",
         "promotion_card_NJzNbB"
       ],
       "name": "# Promotions list",
