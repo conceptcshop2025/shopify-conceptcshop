@@ -221,33 +221,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_xpkdwW": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/8_f49a5ef8-748f-4305-932c-258d6689ae4e.png",
-            "promotion_title": "Cadeau Biolage",
-            "promotion_description": "<p>À l’achat de 75$ de produits Biolage, obtenez gratuitement un ensemble boucleur sans chaleur!</p>",
-            "promotion_link": "shopify://collections/biolage",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_edGCqW": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_5.png",
-            "promotion_title": "Cadeau Sun Bum",
-            "promotion_description": "<p>À l’achat de 45 $ de produits Sun Bum, obtenez gratuitement un baume pour les lèvres hydratant Cocobalm - Cerise Tropicale.</p>",
-            "promotion_link": "shopify://collections/sun-bum",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_RFcHJb": {
           "type": "promotion_card",
           "settings": {
@@ -292,8 +265,6 @@
         "promotion_card_gzQW3d",
         "promotion_card_C8kCAC",
         "promotion_card_f3UtEV",
-        "promotion_card_xpkdwW",
-        "promotion_card_edGCqW",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
         "promotion_card_THNjpF"
