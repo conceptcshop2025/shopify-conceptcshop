@@ -73,6 +73,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_Ri7kHx": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_bf33a2bd-fbb8-40e8-b165-b91f576a0a28.png",
+            "promotion_title": "25 % sur les brosses Concept C",
+            "promotion_description": "<p>Démêlez et lissez vos cheveux plus facilement avec la brosse adaptée à votre routine, maintenant à 25 % de rabais!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -170,6 +183,7 @@
         "promotion_card_TpkwfT",
         "promotion_card_ixqQiM",
         "promotion_card_E6b4jH",
+        "promotion_card_Ri7kHx",
         "promotion_card_Vt4VCf",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
