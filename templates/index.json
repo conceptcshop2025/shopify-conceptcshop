@@ -139,13 +139,27 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_QkEVYE": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ilettre_30_off_Moro_750_x_600_px_1.png",
+            "background_color": "",
+            "title": "30% SUR MOROCCANOIL",
+            "description": "",
+            "text_color": "",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "item_banner_FLMiYA",
         "item_banner_nxWgY6",
         "item_banner_BQF4ih",
-        "item_banner_7ykdEr"
+        "item_banner_7ykdEr",
+        "item_banner_QkEVYE"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
