@@ -88,7 +88,6 @@
         },
         "promotion_card_7WnBf8": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_9474ca1d-61e8-4fd9-8b02-0b757ba03cac.png",
             "promotion_title": "30% sur Moroccanoil",
