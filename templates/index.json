@@ -103,28 +103,15 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_nxWgY6": {
+        "item_banner_QkEVYE": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_13_aout_2026_18_20_43.png",
-            "background_color": "#bec1c5",
-            "title": "NOUVEAU + 25 % DE RABAIS",
-            "description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
+            "image": "shopify://shop_images/Ilettre_30_off_Moro_750_x_600_px_1.png",
+            "background_color": "#06b0c6",
+            "title": "30% SUR MOROCCANOIL",
+            "description": "<p>Du jamais vu! Profitez de 30% de rabais sur Moroccanoil et faites le plein de vos essentiels pour des cheveux doux, brillants et hydratés.</p>",
             "text_color": "#000000",
-            "link_url": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_BQF4ih": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_5_aout_2026_11_17_47.png",
-            "background_color": "#e2c09f",
-            "title": "VOTRE CADEAU REDKEN ABC",
-            "description": "<p>Réparez, renforcez et faites briller vos cheveux avec Redken ABC. À l'achat d'un produit sélectionné, obtenez un mini-traitement en cadeau.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-5",
+            "link_url": "shopify://collections/moroccanoil",
             "link_text": "magasiner"
           }
         },
@@ -139,27 +126,12 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_QkEVYE": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_30_off_Moro_750_x_600_px_1.png",
-            "background_color": "#06B0C6",
-            "title": "30% SUR MOROCCANOIL",
-            "description": "<p>Du jamais vu! Profitez de 30% de rabais sur Moroccanoil et faites le plein de vos essentiels pour des cheveux doux, brillants et hydratés.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/moroccanoil",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_FLMiYA",
-        "item_banner_nxWgY6",
-        "item_banner_BQF4ih",
-        "item_banner_7ykdEr",
-        "item_banner_QkEVYE"
+        "item_banner_QkEVYE",
+        "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
