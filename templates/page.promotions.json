@@ -238,19 +238,6 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_gzQW3d": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Aout_0afca78a-d6e6-4166-8df1-8d39838dd4b0.png",
-            "promotion_title": "Cadeau Oribe",
-            "promotion_description": "<p>À l’achat de 100 $ de produits Oribe, obtenez gratuitement le shampoing sec en poudre Serene Scalp 45 g</p>",
-            "promotion_link": "shopify://collections/oribe",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
           "settings": {
@@ -305,7 +292,6 @@
         }
       },
       "block_order": [
-        "promotion_card_gzQW3d",
         "promotion_card_f3UtEV",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
