@@ -177,6 +177,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_Vzht6P": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_af1d7966-6f79-4fdf-abc7-449f432ff665.png",
+            "promotion_title": "15% sur Blond Absolu de Kérastase",
+            "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
@@ -204,6 +217,7 @@
         "promotion_card_643MnV",
         "promotion_card_FfVjLx",
         "promotion_card_yeXadb",
+        "promotion_card_Vzht6P",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
