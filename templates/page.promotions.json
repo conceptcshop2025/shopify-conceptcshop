@@ -112,6 +112,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_JwHUGL": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_07a40f0c-fe4c-4db3-bf4d-e18059b29ecc.png",
+            "promotion_title": "Top 20 Shampoings Secs",
+            "promotion_description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
+            "promotion_link": "shopify://collections/favoris-shampoings-secs",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_wDLgYn": {
           "type": "promotion_card",
           "settings": {
@@ -212,6 +226,7 @@
         "promotion_card_Ri7kHx",
         "promotion_card_7WnBf8",
         "promotion_card_Vt4VCf",
+        "promotion_card_JwHUGL",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_643MnV",
