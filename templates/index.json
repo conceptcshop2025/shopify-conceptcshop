@@ -126,12 +126,26 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_fQGtxX": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Top_Sh_Secs_750_x_600_px.png",
+            "background_color": "#F2C7BD",
+            "title": "TOP 20 SHAMPOINGS SECS",
+            "description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
+            "text_color": "#2B2B2B",
+            "link_url": "shopify://collections/favoris-shampoings-secs",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "item_banner_FLMiYA",
         "item_banner_QkEVYE",
-        "item_banner_7ykdEr"
+        "item_banner_7ykdEr",
+        "item_banner_fQGtxX"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
