@@ -367,7 +367,7 @@
         "promotion_card_FVeDCd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1.png",
+            "promotion_image": "shopify://shop_images/8_ffefbebf-7fd5-4b93-8927-7de397528508.png",
             "promotion_title": "15% K18",
             "promotion_description": "<p>Découvrez les soins réparateurs K18, conçus pour renforcer les cheveux abîmés, réduire la casse et leur redonner douceur et souplesse.</p>",
             "promotion_link": "shopify://collections/k18",
@@ -380,7 +380,7 @@
         "promotion_card_inUanx": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_2.png",
+            "promotion_image": "shopify://shop_images/9_fb8ccea0-5a68-444e-a95a-8e323f837f7e.png",
             "promotion_title": "15% sur T3",
             "promotion_description": "<p>Obtenez des résultats dignes du salon à la maison avec les outils coiffants T3, conçus pour un coiffage plus rapide, facile et impeccable.</p>",
             "promotion_link": "shopify://collections/t3-1",
@@ -393,7 +393,7 @@
         "promotion_card_YcTeHY": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_fed95546-9543-461b-966e-7b7a5505d21b.png",
+            "promotion_image": "shopify://shop_images/6_717ca5d2-50dc-44af-9698-3dd1ace0f6d9.png",
             "promotion_title": "5 huiles à moins de 30$",
             "promotion_description": "<p>Découvrez 5 huiles capillaires à petit prix pour des cheveux plus doux, brillants et en santé, sans dépasser 30$!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-8",
@@ -406,7 +406,7 @@
         "promotion_card_NJzNbB": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
+            "promotion_image": "shopify://shop_images/4_97ccb3d6-33bd-429f-82c9-e142a201a3ef.png",
             "promotion_title": "25% sur Keratin Alpha Sleek",
             "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-11",
