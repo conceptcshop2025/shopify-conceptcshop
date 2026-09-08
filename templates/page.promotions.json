@@ -290,7 +290,7 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/18_ff84e9ac-c5ef-4e98-908f-de3c3a509651.png",
+            "promotion_image": "shopify://shop_images/15_50196848-890d-4b13-9d04-8e5a855d427b.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Kérastase. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/kerastase",
@@ -303,7 +303,7 @@
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1_98ed7893-0988-45c8-9dd2-32be5cc7ae87.png",
+            "promotion_image": "shopify://shop_images/16_0898bda1-e645-4013-af89-f22f5a14e161.png",
             "promotion_title": "Shu Uemura",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
@@ -316,7 +316,7 @@
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/23_48adfa7c-5711-4b03-850e-6f5a35d57e64.png",
+            "promotion_image": "shopify://shop_images/19_c91ed8c0-4963-4eb7-905f-fb04f9c1e636.png",
             "promotion_title": "Esthederm",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
@@ -329,10 +329,23 @@
         "promotion_card_fEyCjW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_3.png",
+            "promotion_image": "shopify://shop_images/17_115a6080-7875-4763-a232-a4d5ce02c3af.png",
             "promotion_title": "Redken",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Redken. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_B7VPDU": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/20_df4b73f3-45f7-499c-a898-5fe505e998b3.png",
+            "promotion_title": "Davines",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/davines",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -361,19 +374,6 @@
             "promotion_title": "Australian Gold",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Australian Gold. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/australian-gold",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_B7VPDU": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_2_f76dc7a0-9b59-4ef4-a445-8f007da2f678.png",
-            "promotion_title": "Davines",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/davines",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -414,9 +414,9 @@
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
         "promotion_card_fEyCjW",
+        "promotion_card_B7VPDU",
         "promotion_card_qnEiWM",
         "promotion_card_d9JKry",
-        "promotion_card_B7VPDU",
         "promotion_card_9XbYyw",
         "promotion_card_jfRV8G"
       ],
