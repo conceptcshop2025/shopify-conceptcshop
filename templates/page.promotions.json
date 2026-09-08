@@ -86,19 +86,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_7WnBf8": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_9474ca1d-61e8-4fd9-8b02-0b757ba03cac.png",
-            "promotion_title": "30% sur Moroccanoil",
-            "promotion_description": "<p>Du jamais vu! Profitez de 30 % de rabais sur une sélection de produits Moroccanoil et faites le plein de vos essentiels pour des cheveux doux, brillants et hydratés.</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -146,19 +133,6 @@
             "promotion_title": "SOS Perte de cheveux",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
             "promotion_link": "shopify://collections/promo-perte-de-cheveux",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_643MnV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_1.png",
-            "promotion_title": "Festilitre",
-            "promotion_description": "<p>Jusqu’à 50 % de rabais sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $! <em>*prend fin le 7 septembre 23h59</em></p>",
-            "promotion_link": "shopify://collections/festilitre",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -224,12 +198,10 @@
         "promotion_card_ixqQiM",
         "promotion_card_E6b4jH",
         "promotion_card_Ri7kHx",
-        "promotion_card_7WnBf8",
         "promotion_card_Vt4VCf",
         "promotion_card_JwHUGL",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
-        "promotion_card_643MnV",
         "promotion_card_FfVjLx",
         "promotion_card_yeXadb",
         "promotion_card_Vzht6P",
