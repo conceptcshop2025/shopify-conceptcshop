@@ -21,19 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_PRTHF6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
-            "promotion_title": "25% sur Keratin Alpha Sleek",
-            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_TpkwfT": {
           "type": "promotion_card",
           "settings": {
@@ -86,6 +73,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_PRTHF6": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre.png",
+            "promotion_title": "25% sur Keratin Alpha Sleek",
+            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_Vt4VCf": {
           "type": "promotion_card",
           "settings": {
@@ -101,7 +101,6 @@
         },
         "promotion_card_JwHUGL": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_07a40f0c-fe4c-4db3-bf4d-e18059b29ecc.png",
             "promotion_title": "Top 20 Shampoings Secs",
@@ -152,19 +151,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_yeXadb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_44b37e7d-5227-4107-8c74-1f6aeab49504.png",
-            "promotion_title": "15% sur Première de Kérastase",
-            "promotion_description": "<p>Première est une routine réparatrice qui élimine le surplus de calcium, reconnecte les liens de kératine et redonne force, douceur et brillance aux cheveux abîmés.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_Vzht6P": {
           "type": "promotion_card",
           "settings": {
@@ -193,17 +179,16 @@
         }
       },
       "block_order": [
-        "promotion_card_PRTHF6",
         "promotion_card_TpkwfT",
         "promotion_card_ixqQiM",
         "promotion_card_E6b4jH",
         "promotion_card_Ri7kHx",
+        "promotion_card_PRTHF6",
         "promotion_card_Vt4VCf",
         "promotion_card_JwHUGL",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_FfVjLx",
-        "promotion_card_yeXadb",
         "promotion_card_Vzht6P",
         "promotion_card_W7BpWz"
       ],
