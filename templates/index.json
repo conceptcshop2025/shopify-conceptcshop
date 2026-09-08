@@ -132,10 +132,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Top_Sh_Secs_750_x_600_px.png",
-            "background_color": "#F3DABE",
+            "background_color": "#f3dabe",
             "title": "TOP 20 SHAMPOINGS SECS",
             "description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
-            "text_color": "#2B2B2B",
+            "text_color": "#2b2b2b",
             "link_url": "shopify://collections/favoris-shampoings-secs",
             "link_text": "magasiner"
           }
@@ -145,7 +145,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Lancement_KAS_1er_septembre.png",
-            "background_color": "#BBB1CD",
+            "background_color": "#bbb1cd",
             "title": "25 % SUR KERATIN ALPHA SLEEK",
             "description": "<p>Les frisottis n’ont qu’à bien se tenir! Profitez de <strong>25 % de rabais</strong> sur la nouvelle gamme Keratin Alpha Sleek de L’Oréal Professionnel, pour des cheveux lisses et sans frisottis jusqu’à 2 semaines.</p>",
             "text_color": "#000000",
@@ -609,15 +609,15 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Sarah_Couture_Photo.jpg",
+            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site_486146eb-77ef-41e3-94c3-2a217cca748f.png",
             "hot_spots_background": "#ffffff",
-            "product_1": "design-me-shampoing-volumisant-puff-me-1000-ml-festilitre",
-            "product_1_horizontal_position": 25,
-            "product_1_vertical_position": 54,
-            "product_2": "redken-shampoing-acidic-grow-full-1000-ml-fevrier-2026",
+            "product_1": "rene-furterer-triphasic-reactional-traitement-antichute-reactionnelle-12-x-5ml-nouvelle-formule",
+            "product_1_horizontal_position": 37,
+            "product_1_vertical_position": 65,
+            "product_2": "",
             "product_2_horizontal_position": 48,
             "product_2_vertical_position": 54,
-            "product_3": "loreal-serie-expert-shampoing-creme-metal-detox-1500-ml",
+            "product_3": "",
             "product_3_horizontal_position": 70,
             "product_3_vertical_position": 56,
             "product_4": "",
@@ -634,7 +634,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Festilitre - vos favoris!",
+        "title": "Favori Perte de Cheveux!",
         "content": "",
         "popover_title": ""
       }
