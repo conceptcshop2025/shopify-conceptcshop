@@ -91,28 +91,15 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
-        "item_banner_FLMiYA": {
+        "item_banner_fQGtxX": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Festilitre_ETE_2026.png",
-            "background_color": "#c2f20d",
-            "title": "FESTILITRE",
-            "description": "<p>Gros formats, grosses économies! <strong>Jusqu’à 50 % de rabais</strong> sur plus de 500 litres de shampoings et revitalisants, à partir de 24,99 $!<em>*prend fin le 7 septembre 23h59</em></p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/festilitre",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_QkEVYE": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_30_off_Moro_750_x_600_px_1.png",
-            "background_color": "#06b0c6",
-            "title": "30% SUR MOROCCANOIL",
-            "description": "<p>Du jamais vu! Profitez de 30% de rabais sur Moroccanoil et faites le plein de vos essentiels pour des cheveux doux, brillants et hydratés.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/moroccanoil",
+            "image": "shopify://shop_images/Top_Sh_Secs_750_x_600_px.png",
+            "background_color": "#f3dabe",
+            "title": "TOP 20 SHAMPOINGS SECS",
+            "description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
+            "text_color": "#2b2b2b",
+            "link_url": "shopify://collections/favoris-shampoings-secs",
             "link_text": "magasiner"
           }
         },
@@ -125,19 +112,6 @@
             "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p><p></p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-perte-de-cheveux",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_fQGtxX": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Top_Sh_Secs_750_x_600_px.png",
-            "background_color": "#f3dabe",
-            "title": "TOP 20 SHAMPOINGS SECS",
-            "description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
-            "text_color": "#2b2b2b",
-            "link_url": "shopify://collections/favoris-shampoings-secs",
             "link_text": "magasiner"
           }
         },
@@ -155,10 +129,8 @@
         }
       },
       "block_order": [
-        "item_banner_FLMiYA",
-        "item_banner_QkEVYE",
-        "item_banner_7ykdEr",
         "item_banner_fQGtxX",
+        "item_banner_7ykdEr",
         "item_banner_NbfEPf"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
