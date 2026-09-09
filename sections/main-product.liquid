@@ -204,7 +204,7 @@ quick buy information in a template, that will be extracted in JS, which ensures
     if (targetBreadcrumb) {
       const latestCollection = localStorage.getItem('latestCollection');
       if (latestCollection) {
-        targetBreadcrumb.textContent = latestCollection;
+        targetBreadcrumb.textContent = latestCollection.replaceAll("-", " ");
         targetBreadcrumb.setAttribute('href', latestCollectionUrl);
       } 
     }
