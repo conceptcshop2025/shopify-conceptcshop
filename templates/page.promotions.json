@@ -21,6 +21,20 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_KHHGWR": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_7c281bfb-487c-4663-93df-9b15eeeb9d0e.png",
+            "promotion_title": "EXTRA 10% de rabais",
+            "promotion_description": "<p>24 h seulement! Profitez d’un <strong>10% de rabais supplémentaire</strong> sur presque TOUT avec le code promo <strong>EXTRA10</strong>.</p>",
+            "promotion_link": "shopify://collections/vente-eclair",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_TpkwfT": {
           "type": "promotion_card",
           "settings": {
@@ -179,6 +193,7 @@
         }
       },
       "block_order": [
+        "promotion_card_KHHGWR",
         "promotion_card_TpkwfT",
         "promotion_card_ixqQiM",
         "promotion_card_E6b4jH",
