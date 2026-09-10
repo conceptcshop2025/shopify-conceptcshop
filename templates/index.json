@@ -94,7 +94,7 @@
         "item_banner_yR4jj9": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Extra_10_septembre_2026_750_x_600_px.png",
+            "image": "shopify://shop_images/ChatGPT_Image_8_sept._2026_15_40_55.png",
             "background_color": "#fdb5c0",
             "title": "EXTRA 10% DE RABAIS",
             "description": "<p>24 h seulement! Profitez d’un <strong>10% de rabais supplémentaire</strong> sur presque TOUT avec le code promo <strong>EXTRA10</strong>.</p>",
@@ -150,7 +150,7 @@
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
         "first_section": false,
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
