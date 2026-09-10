@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_yR4jj9": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Extra_10_septembre_2026_750_x_600_px.png",
+            "background_color": "#fdb5c0",
+            "title": "EXTRA 10% DE RABAIS",
+            "description": "<p>24 h seulement! Profitez d’un <strong>10% de rabais supplémentaire</strong> sur presque TOUT avec le code promo <strong>EXTRA10</strong>.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/vente-eclair",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_fQGtxX": {
           "type": "item_banner",
           "settings": {
@@ -117,6 +129,7 @@
         },
         "item_banner_NbfEPf": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Lancement_KAS_1er_septembre.png",
             "background_color": "#bbb1cd",
@@ -126,26 +139,13 @@
             "link_url": "shopify://collections/promo-du-moment-11",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_yR4jj9": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Extra_10_septembre_2026_750_x_600_px.png",
-            "background_color": "#fdb5c0",
-            "title": "EXTRA 10% DE RABAIS",
-            "description": "<p>24 h seulement! Profitez d’un <strong>10% de rabais supplémentaire</strong> sur presque TOUT avec le code promo <strong>EXTRA10</strong>.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/vente-eclair",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
+        "item_banner_yR4jj9",
         "item_banner_fQGtxX",
         "item_banner_7ykdEr",
-        "item_banner_NbfEPf",
-        "item_banner_yR4jj9"
+        "item_banner_NbfEPf"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
