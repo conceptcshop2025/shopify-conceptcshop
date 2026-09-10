@@ -127,6 +127,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_W764CL": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Promo_Metal_Detox_750_X_600.png",
+            "background_color": "#F3DBC4",
+            "title": "DUO METAL DETOX GRATUIT!",
+            "description": "<p>Votre routine L’Oréal Professionnel vient avec un petit plus! À l’achat de 2 produits L’Oréal Professionnel, recevez gratuitement un <strong>duo de minis Metal Detox d’une valeur de 45 $</strong>.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/promo-du-moment-10",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_NbfEPf": {
           "type": "item_banner",
           "disabled": true,
@@ -145,6 +158,7 @@
         "item_banner_yR4jj9",
         "item_banner_fQGtxX",
         "item_banner_7ykdEr",
+        "item_banner_W764CL",
         "item_banner_NbfEPf"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
