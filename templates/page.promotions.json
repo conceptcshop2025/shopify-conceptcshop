@@ -34,6 +34,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_mbyTUX": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_0fea0389-e1c2-4a1b-b14e-5f4bfc03f6c1.png",
+            "promotion_title": "20% sur Moroccanoil",
+            "promotion_description": "<p>Faites le plein de vos essentiels Moroccanoil pour des cheveux plus doux, brillants et nourris, de la racine jusqu’aux pointes.</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_PRTHF6": {
           "type": "promotion_card",
           "settings": {
@@ -193,6 +207,7 @@
       },
       "block_order": [
         "promotion_card_KHHGWR",
+        "promotion_card_mbyTUX",
         "promotion_card_PRTHF6",
         "promotion_card_TpkwfT",
         "promotion_card_ixqQiM",
