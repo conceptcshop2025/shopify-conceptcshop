@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_KHHGWR": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_7c281bfb-487c-4663-93df-9b15eeeb9d0e.png",
             "promotion_title": "EXTRA 10% de rabais",
