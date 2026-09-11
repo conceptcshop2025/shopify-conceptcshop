@@ -91,18 +91,6 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
-        "item_banner_yR4jj9": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_8_sept._2026_15_40_55.png",
-            "background_color": "#fdb5c0",
-            "title": "EXTRA 10% DE RABAIS",
-            "description": "<p>24 h seulement! Profitez d’un <strong>10% de rabais supplémentaire</strong> sur presque TOUT avec le code promo <strong>EXTRA10</strong>.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/vente-eclair",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_fQGtxX": {
           "type": "item_banner",
           "settings": {
@@ -129,10 +117,9 @@
         },
         "item_banner_W764CL": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Promo_Metal_Detox_750_X_600.png",
-            "background_color": "#E8CAB0",
+            "background_color": "#e8cab0",
             "title": "DUO METAL DETOX GRATUIT!",
             "description": "<p>Votre routine L’Oréal Professionnel vient avec un petit plus! À l’achat de 2 produits L’Oréal Professionnel, recevez gratuitement un <strong>duo de minis Metal Detox d’une valeur de 45 $</strong>.</p>",
             "text_color": "#000000",
@@ -155,7 +142,6 @@
         }
       },
       "block_order": [
-        "item_banner_yR4jj9",
         "item_banner_fQGtxX",
         "item_banner_7ykdEr",
         "item_banner_W764CL",
