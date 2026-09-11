@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_mbyTUX": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_0fea0389-e1c2-4a1b-b14e-5f4bfc03f6c1.png",
             "promotion_title": "20% sur Moroccanoil",
