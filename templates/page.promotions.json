@@ -384,20 +384,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_fEyCjW": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/17_115a6080-7875-4763-a232-a4d5ce02c3af.png",
-            "promotion_title": "Redken",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Redken. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/redken",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_B7VPDU": {
           "type": "promotion_card",
           "settings": {
@@ -405,6 +391,19 @@
             "promotion_title": "Davines",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_9XbYyw": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_835f54cf-de71-401c-b62d-931980bc55c9.png",
+            "promotion_title": "Pureology",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Pureology. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/pureology",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -439,14 +438,14 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_9XbYyw": {
+        "promotion_card_fEyCjW": {
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_43150dab-5134-4f64-828d-8a8274931aef.png",
-            "promotion_title": "Pureology",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Pureology. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/pureology",
+            "promotion_image": "shopify://shop_images/17_115a6080-7875-4763-a232-a4d5ce02c3af.png",
+            "promotion_title": "Redken",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Redken. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/redken",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -472,11 +471,11 @@
         "promotion_card_McCiBz",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
-        "promotion_card_fEyCjW",
         "promotion_card_B7VPDU",
+        "promotion_card_9XbYyw",
         "promotion_card_qnEiWM",
         "promotion_card_d9JKry",
-        "promotion_card_9XbYyw",
+        "promotion_card_fEyCjW",
         "promotion_card_jfRV8G"
       ],
       "name": "# Promotions list",
