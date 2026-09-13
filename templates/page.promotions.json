@@ -251,6 +251,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_37YJww": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_a4bd1f34-2e7c-4e92-99d1-65eaf69921b9.png",
+            "promotion_title": "Cadeau avec Shu Uemura",
+            "promotion_description": "<p>À l’achat de 2 produits Shu Uemura en format régulier, recevez gratuitement un sac des Fêtes!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-6",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
           "settings": {
@@ -307,6 +321,7 @@
       "block_order": [
         "promotion_card_aqp3Ly",
         "promotion_card_YcTP9L",
+        "promotion_card_37YJww",
         "promotion_card_f3UtEV",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
