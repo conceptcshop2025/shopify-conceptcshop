@@ -265,6 +265,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_TrD3ct": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_dcd38bbd-2a68-40f1-9fdb-489aaf07f428.png",
+            "promotion_title": "Cadeau Oribe",
+            "promotion_description": "<p>À l’achat d’un produit Oribe, obtenez gratuitement le spray de protection contre la chaleur sèche Gold Lust – 25 g</p>",
+            "promotion_link": "shopify://collections/oribe",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
           "settings": {
@@ -322,6 +336,7 @@
         "promotion_card_aqp3Ly",
         "promotion_card_YcTP9L",
         "promotion_card_37YJww",
+        "promotion_card_TrD3ct",
         "promotion_card_f3UtEV",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
