@@ -389,7 +389,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/20_df4b73f3-45f7-499c-a898-5fe505e998b3.png",
             "promotion_title": "Davines",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/davines",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
