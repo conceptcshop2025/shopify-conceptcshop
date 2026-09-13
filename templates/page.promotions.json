@@ -237,6 +237,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_YcTP9L": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_11c0bdf5-c09b-4cbf-a4b6-19e082e9cc5a.png",
+            "promotion_title": "Cadeau Shu Uemura",
+            "promotion_description": "<p>À l’achat du masque sans rinçage Réparation Extrême Ultimate Reset de Shu Uemura, obtenez gratuitement une brosse de voyage Ultimate Reset!</p>",
+            "promotion_link": "shopify://products/shu-uemura-masque-sans-rincage-reparation-extreme-ultimate-reset-90-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
           "settings": {
@@ -292,6 +306,7 @@
       },
       "block_order": [
         "promotion_card_aqp3Ly",
+        "promotion_card_YcTP9L",
         "promotion_card_f3UtEV",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
