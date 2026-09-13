@@ -410,13 +410,13 @@
       },
       "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#EFD1BA",
           "background_gradient": "",
           "text_color": "#454545",
           "primary_button_background": "#EFD1BA",
           "primary_button_text_color": "#454545",
           "circle_button_background": "#EFD1BA",
-          "circle_button_icon": "#454545"
+          "circle_button_icon": "#EFD1BA"
         }
       }
     }
