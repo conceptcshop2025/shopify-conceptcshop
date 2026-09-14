@@ -251,7 +251,6 @@
         },
         "promotion_card_TrD3ct": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_dcd38bbd-2a68-40f1-9fdb-489aaf07f428.png",
             "promotion_title": "Cadeau Oribe",
