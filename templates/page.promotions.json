@@ -239,7 +239,6 @@
         },
         "promotion_card_YcTP9L": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_11c0bdf5-c09b-4cbf-a4b6-19e082e9cc5a.png",
             "promotion_title": "Cadeau Shu Uemura",
@@ -253,7 +252,6 @@
         },
         "promotion_card_37YJww": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_a4bd1f34-2e7c-4e92-99d1-65eaf69921b9.png",
             "promotion_title": "Cadeau avec Shu Uemura",
