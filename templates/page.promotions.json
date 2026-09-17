@@ -275,6 +275,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_jbgLPQ": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_8f6e20c9-f54e-49d7-aa0f-2dae5729f040.png",
+            "promotion_title": "Cadeau Esthederm",
+            "promotion_description": "<p>À l’achat de 75 $ de produits Esthederm, obtenez gratuitement la trousse Les Essentiels!</p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_RFcHJb": {
           "type": "promotion_card",
           "settings": {
@@ -321,6 +334,7 @@
         "promotion_card_37YJww",
         "promotion_card_TrD3ct",
         "promotion_card_f3UtEV",
+        "promotion_card_jbgLPQ",
         "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
         "promotion_card_THNjpF"
