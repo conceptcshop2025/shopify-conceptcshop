@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_nbT8Lc": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/20_off_Davines_750_x_600_px.png",
+            "background_color": "#c3d6bb",
+            "title": "-20% SUR DAVINES",
+            "description": "<p>Découvrez Davines, la marque italienne de soins capillaires de luxe à l’approche écoresponsable, alliant performance et respect de l’environnement.</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/davines",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_fQGtxX": {
           "type": "item_banner",
           "settings": {
@@ -117,6 +129,7 @@
         },
         "item_banner_W764CL": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Promo_Metal_Detox_750_X_600_9fdcc224-dd03-4bca-839c-7cf1010360c9.png",
             "background_color": "#e8cab0",
@@ -124,19 +137,6 @@
             "description": "<p>Votre routine L’Oréal Professionnel vient avec un petit plus! À l’achat de 2 produits L’Oréal Professionnel, recevez gratuitement un <strong>duo de minis Metal Detox d’une valeur de 45 $</strong>.</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-10",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_nbT8Lc": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/20_off_Davines_750_x_600_px.png",
-            "background_color": "#C3D6BB",
-            "title": "-20% SUR DAVINES",
-            "description": "<p>Découvrez Davines, la marque italienne de soins capillaires de luxe à l’approche écoresponsable, alliant performance et respect de l’environnement.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/davines",
             "link_text": "magasiner"
           }
         },
@@ -155,10 +155,10 @@
         }
       },
       "block_order": [
+        "item_banner_nbT8Lc",
         "item_banner_fQGtxX",
         "item_banner_7ykdEr",
         "item_banner_W764CL",
-        "item_banner_nbT8Lc",
         "item_banner_NbfEPf"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
