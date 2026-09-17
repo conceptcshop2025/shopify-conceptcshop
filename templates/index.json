@@ -421,10 +421,10 @@
         "promotion_card_FVeDCd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_ffefbebf-7fd5-4b93-8927-7de397528508.png",
-            "promotion_title": "15% K18",
-            "promotion_description": "<p>Découvrez les soins réparateurs K18, conçus pour renforcer les cheveux abîmés, réduire la casse et leur redonner douceur et souplesse.</p>",
-            "promotion_link": "shopify://collections/k18",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_e69c3b4c-cd0c-451d-bcfb-94cabb1a3ab8.png",
+            "promotion_title": "15% sur Blond Absolu de Kérastase",
+            "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
