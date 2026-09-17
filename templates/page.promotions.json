@@ -240,7 +240,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_a4bd1f34-2e7c-4e92-99d1-65eaf69921b9.png",
-            "promotion_title": "Cadeau avec Shu Uemura",
+            "promotion_title": "Cadeau Shu Uemura",
             "promotion_description": "<p>À l’achat de 2 produits Shu Uemura en format régulier, recevez gratuitement un sac des Fêtes!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-6",
             "promotion_link_text": "Voir plus",
@@ -318,7 +318,7 @@
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/13_235b82d4-dba1-4166-a943-b43df06bb725.png",
-            "promotion_title": "Cadeau avec Sacha Juan",
+            "promotion_title": "Cadeau Sacha Juan",
             "promotion_description": "<p>À l’achat de 55 $ de produits Sachajuan, obtenez gratuitement un masque Réparateur 30 ml. <em>Exclusivité web. </em></p>",
             "promotion_link": "shopify://collections/sachajuan",
             "promotion_link_text": "Voir plus",
