@@ -288,19 +288,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_RFcHJb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/11_77c1bfad-9e7b-4d5f-a128-ba949d99a02c.png",
-            "promotion_title": "Cadeau Actiiv",
-            "promotion_description": "<p>À l’achat de 100 $ de la gamme Actiiv, obtenez gratuitement un Masseur Cuir Chevelu!</p>",
-            "promotion_link": "shopify://collections/actiiv",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_8dRH8e": {
           "type": "promotion_card",
           "settings": {
@@ -335,7 +322,6 @@
         "promotion_card_TrD3ct",
         "promotion_card_f3UtEV",
         "promotion_card_jbgLPQ",
-        "promotion_card_RFcHJb",
         "promotion_card_8dRH8e",
         "promotion_card_THNjpF"
       ],
