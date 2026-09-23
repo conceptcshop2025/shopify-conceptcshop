@@ -127,6 +127,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_P4teNk": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Blitz_XXL_Automne_2026_750_x_600_px.png",
+            "background_color": "#FFE45C",
+            "title": "&nbsp;BLITZ D’ÉCONOMIES XXL&nbsp;",
+            "description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/promo-du-moment-13",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_W764CL": {
           "type": "item_banner",
           "disabled": true,
@@ -158,6 +171,7 @@
         "item_banner_nbT8Lc",
         "item_banner_fQGtxX",
         "item_banner_7ykdEr",
+        "item_banner_P4teNk",
         "item_banner_W764CL",
         "item_banner_NbfEPf"
       ],
