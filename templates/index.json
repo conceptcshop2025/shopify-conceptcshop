@@ -132,8 +132,8 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Blitz_XXL_Automne_2026_750_x_600_px.png",
-            "background_color": "#E85D24",
-            "title": "&nbsp;BLITZ D’ÉCONOMIES XXL&nbsp;",
+            "background_color": "#E9DDF0",
+            "title": "BLITZ D’ÉCONOMIES XXL&nbsp;",
             "description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-du-moment-13",
