@@ -86,32 +86,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_wDLgYn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_73ef4c7d-a2d6-4945-a7c0-726a922cd013.png",
-            "promotion_title": "Nouveau +20% de rabais",
-            "promotion_description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
-            "promotion_link": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_JwHUGL": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_07a40f0c-fe4c-4db3-bf4d-e18059b29ecc.png",
-            "promotion_title": "Top 20 Shampoings Secs",
-            "promotion_description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
-            "promotion_link": "shopify://collections/favoris-shampoings-secs",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_7bBdVW": {
           "type": "promotion_card",
           "settings": {
@@ -119,6 +93,19 @@
             "promotion_title": "-20% sur Davines",
             "promotion_description": "<p>Découvrez Davines, la marque italienne de soins capillaires de luxe à l’approche écoresponsable, alliant performance et respect de l’environnement.</p>",
             "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_wDLgYn": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_73ef4c7d-a2d6-4945-a7c0-726a922cd013.png",
+            "promotion_title": "Nouveau +20% de rabais",
+            "promotion_description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
+            "promotion_link": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -138,6 +125,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_rgifVj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_fc280b75-3e70-4e69-817b-9198bf6d1b95.png",
+            "promotion_title": "Blitz XXL",
+            "promotion_description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-13",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_FfVjLx": {
           "type": "promotion_card",
           "settings": {
@@ -145,20 +145,6 @@
             "promotion_title": "-50% sur Balmain",
             "promotion_description": "<p>La gamme de luxe Balmain est à 50 % de rabais. Des soins capillaires raffinés et haut de gamme pour donner une touche plus prestigieuse à votre routine.</p>",
             "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_rgifVj": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_fc280b75-3e70-4e69-817b-9198bf6d1b95.png",
-            "promotion_title": "Blitz XXL",
-            "promotion_description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-13",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -185,12 +171,11 @@
         "promotion_card_E6b4jH",
         "promotion_card_Ri7kHx",
         "promotion_card_Vzht6P",
-        "promotion_card_wDLgYn",
-        "promotion_card_JwHUGL",
         "promotion_card_7bBdVW",
+        "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
-        "promotion_card_FfVjLx",
         "promotion_card_rgifVj",
+        "promotion_card_FfVjLx",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
@@ -239,7 +224,6 @@
         },
         "promotion_card_pPt4rr": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_563d41d5-73a3-4067-a158-8fc3a767bcd3.png",
             "promotion_title": "Cadeau K18",
