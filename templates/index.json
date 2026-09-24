@@ -91,6 +91,18 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_P4teNk": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Blitz_XXL_Automne_2026_750_x_600_px.png",
+            "background_color": "#fe8bec",
+            "title": "BLITZ D’ÉCONOMIES XXL&nbsp;",
+            "description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/promo-du-moment-13",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_nbT8Lc": {
           "type": "item_banner",
           "settings": {
@@ -103,18 +115,6 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_fQGtxX": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Top_Sh_Secs_750_x_600_px.png",
-            "background_color": "#f3dabe",
-            "title": "TOP 20 SHAMPOINGS SECS",
-            "description": "<p>Un jour de plus avant le prochain lavage? Oui, svp! Découvrez notre <strong>Top 20 des shampoings secs</strong> et profitez de <strong>rabais allant jusqu’à 40 %</strong> sur une sélection de nos incontournables.</p>",
-            "text_color": "#2b2b2b",
-            "link_url": "shopify://collections/favoris-shampoings-secs",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_7ykdEr": {
           "type": "item_banner",
           "settings": {
@@ -124,19 +124,6 @@
             "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p><p></p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/promo-perte-de-cheveux",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_P4teNk": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Blitz_XXL_Automne_2026_750_x_600_px.png",
-            "background_color": "#FE8BEC",
-            "title": "BLITZ D’ÉCONOMIES XXL&nbsp;",
-            "description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-13",
             "link_text": "magasiner"
           }
         },
@@ -168,10 +155,9 @@
         }
       },
       "block_order": [
-        "item_banner_nbT8Lc",
-        "item_banner_fQGtxX",
-        "item_banner_7ykdEr",
         "item_banner_P4teNk",
+        "item_banner_nbT8Lc",
+        "item_banner_7ykdEr",
         "item_banner_W764CL",
         "item_banner_NbfEPf"
       ],
