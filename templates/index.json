@@ -127,6 +127,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_Wqa7He": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_25_off_Pureo_avec_GWP_Prime_26_750_x_600_px.png",
+            "background_color": "#D6BAF4",
+            "title": "-25% sur Pureology",
+            "description": "<p>Des soins professionnels sans sulfates conçus pour prendre soin des cheveux tout en préservant l’éclat de la couleur. En plus, recevez un <strong>cadeau gratuit à l’achat de 100 $ de produits Pureology!</strong></p>",
+            "text_color": "#000000",
+            "link_url": "shopify://collections/pureology",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_W764CL": {
           "type": "item_banner",
           "disabled": true,
@@ -139,27 +152,14 @@
             "link_url": "shopify://collections/promo-du-moment-10",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_NbfEPf": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Lancement_KAS_1er_septembre.png",
-            "background_color": "#bbb1cd",
-            "title": "25 % SUR KERATIN ALPHA SLEEK",
-            "description": "<p>Les frisottis n’ont qu’à bien se tenir! Profitez de <strong>25 % de rabais</strong> sur la nouvelle gamme Keratin Alpha Sleek de L’Oréal Professionnel, pour des cheveux lisses et sans frisottis jusqu’à 2 semaines.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-11",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_P4teNk",
         "item_banner_nbT8Lc",
         "item_banner_7ykdEr",
-        "item_banner_W764CL",
-        "item_banner_NbfEPf"
+        "item_banner_Wqa7He",
+        "item_banner_W764CL"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
