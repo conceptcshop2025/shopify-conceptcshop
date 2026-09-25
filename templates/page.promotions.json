@@ -290,7 +290,6 @@
         },
         "promotion_card_jbgLPQ": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_8f6e20c9-f54e-49d7-aa0f-2dae5729f040.png",
             "promotion_title": "Cadeau Esthederm",
