@@ -114,7 +114,6 @@
         },
         "promotion_card_UcbtVG": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_f972ecb0-53cb-4192-8756-8daa996cfaa8.png",
             "promotion_title": "-25% sur Pureology",
