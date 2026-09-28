@@ -466,6 +466,7 @@
         },
         "promotion_card_fEyCjW": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_8307f7f5-92ae-4c48-b079-43a1ceef5082.png",
             "promotion_title": "Redken",
