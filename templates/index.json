@@ -103,15 +103,15 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_nbT8Lc": {
+        "item_banner_Wqa7He": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/20_off_Davines_750_x_600_px.png",
-            "background_color": "#c3d6bb",
-            "title": "-20% SUR DAVINES",
-            "description": "<p>Découvrez Davines, la marque italienne de soins capillaires de luxe à l’approche écoresponsable, alliant performance et respect de l’environnement.</p>",
+            "image": "shopify://shop_images/Mobile_25_off_Pureo_avec_GWP_Prime_26_750_x_600_px.png",
+            "background_color": "#d6baf4",
+            "title": "-25% sur Pureology",
+            "description": "<p>Des soins professionnels sans sulfates conçus pour prendre soin des cheveux tout en préservant l’éclat de la couleur. En plus, recevez un<strong> cadeau gratuit à l’achat de 100 $ de produits Pureology!</strong></p>",
             "text_color": "#000000",
-            "link_url": "shopify://collections/davines",
+            "link_url": "shopify://collections/pureology",
             "link_text": "magasiner"
           }
         },
@@ -126,40 +126,12 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_Wqa7He": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_25_off_Pureo_avec_GWP_Prime_26_750_x_600_px.png",
-            "background_color": "#D6BAF4",
-            "title": "-25% sur Pureology",
-            "description": "<p>Des soins professionnels sans sulfates conçus pour prendre soin des cheveux tout en préservant l’éclat de la couleur. En plus, recevez un<strong> cadeau gratuit à l’achat de 100 $ de produits Pureology!</strong></p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/pureology",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_W764CL": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Promo_Metal_Detox_750_X_600_9fdcc224-dd03-4bca-839c-7cf1010360c9.png",
-            "background_color": "#e8cab0",
-            "title": "DUO METAL DETOX GRATUIT!",
-            "description": "<p>Votre routine L’Oréal Professionnel vient avec un petit plus! À l’achat de 2 produits L’Oréal Professionnel, recevez gratuitement un <strong>duo de minis Metal Detox d’une valeur de 45 $</strong>.</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-10",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_P4teNk",
-        "item_banner_nbT8Lc",
-        "item_banner_7ykdEr",
         "item_banner_Wqa7He",
-        "item_banner_W764CL"
+        "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
