@@ -391,6 +391,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_TkQb8M": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_3.png",
+            "promotion_title": "SOS Perte de Cheveux",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
+            "promotion_link": "shopify://collections/revitalisant-perte-de-cheveux",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_NJzNbB": {
           "type": "promotion_card",
           "settings": {
@@ -429,28 +443,14 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_TkQb8M": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_3.png",
-            "promotion_title": "SOS Perte de Cheveux",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
-            "promotion_link": "shopify://collections/revitalisant-perte-de-cheveux",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
         "promotion_card_qBRV7C",
+        "promotion_card_TkQb8M",
         "promotion_card_NJzNbB",
         "promotion_card_FVeDCd",
-        "promotion_card_inUanx",
-        "promotion_card_TkQb8M"
+        "promotion_card_inUanx"
       ],
       "name": "# Promotions list",
       "settings": {
