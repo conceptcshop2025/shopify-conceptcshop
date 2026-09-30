@@ -103,6 +103,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_6DbNNk": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_RF_Nuit_Perte_de_cheveux.png",
+            "background_color": "#2825BA",
+            "title": "LANCEMENT SÉRUM DE NUIT",
+            "description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_Wqa7He": {
           "type": "item_banner",
           "settings": {
@@ -126,26 +139,13 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_6DbNNk": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_RF_Nuit_Perte_de_cheveux.png",
-            "background_color": "#2825BA",
-            "title": "LANCEMENT SÉRUM DE NUIT",
-            "description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
         "item_banner_P4teNk",
+        "item_banner_6DbNNk",
         "item_banner_Wqa7He",
-        "item_banner_7ykdEr",
-        "item_banner_6DbNNk"
+        "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
