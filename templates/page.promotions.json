@@ -99,6 +99,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_zJzyYT": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_b071abd3-9603-4c35-926a-ad3a369b33d2.png",
+            "promotion_title": "15 à 20% de rabais!",
+            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_UcbtVG": {
           "type": "promotion_card",
           "settings": {
@@ -185,6 +199,7 @@
         "promotion_card_Ri7kHx",
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
+        "promotion_card_zJzyYT",
         "promotion_card_UcbtVG",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
