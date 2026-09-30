@@ -132,10 +132,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mobile_RF_Nuit_Perte_de_cheveux.png",
-            "background_color": "",
+            "background_color": "#080D44",
             "title": "LANCEMENT SÉRUM DE NUIT",
             "description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
-            "text_color": "",
+            "text_color": "#FFFFFF",
             "link_url": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
             "link_text": "magasiner"
           }
