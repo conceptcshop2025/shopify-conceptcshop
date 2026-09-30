@@ -120,10 +120,6 @@
           "type": "pickup_availability",
           "settings": {}
         },
-        "one_click_upsell_on_page_7f7pz7": {
-          "type": "shopify://apps/one-click-upsell/blocks/on-page/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {}
-        },
         "payment_terms": {
           "type": "payment_terms",
           "disabled": true,
@@ -170,7 +166,6 @@
         "text_WbYxQY",
         "1a32539d-0292-4e51-aace-014f43c480d7",
         "pickup_availability_WJzdXV",
-        "one_click_upsell_on_page_7f7pz7",
         "payment_terms",
         "separator",
         "description",
@@ -254,6 +249,17 @@
     "16904069274334292d": {
       "type": "apps",
       "blocks": {
+        "simple_bundles_kits_infinite_options_selector_ezJCaJ": {
+          "type": "shopify://apps/simple-bundles-kits/blocks/infinite-options-selector/e553276b-36b2-446d-b80a-aa47fe5f96ac",
+          "settings": {
+            "select_placeholder": "Please select an option",
+            "disable_oos_options": true,
+            "show_price_variance": true,
+            "rank_options_by_price_diff": true,
+            "custom_css": "",
+            "custom_js": ""
+          }
+        },
         "010230e5-0aca-425e-8860-6fdff4d71db1": {
           "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
           "disabled": true,
@@ -278,6 +284,7 @@
         }
       },
       "block_order": [
+        "simple_bundles_kits_infinite_options_selector_ezJCaJ",
         "010230e5-0aca-425e-8860-6fdff4d71db1",
         "24d76067-3957-42ab-bb99-857b7afd237e"
       ],
