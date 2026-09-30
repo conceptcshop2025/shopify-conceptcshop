@@ -108,7 +108,7 @@
           "settings": {
             "image": "shopify://shop_images/Mobile_25_off_Pureo_avec_GWP_Prime_26_750_x_600_px.png",
             "background_color": "#d6baf4",
-            "title": "-25% sur Pureology",
+            "title": "-25% SUR PUREOLOGY",
             "description": "<p>Des soins professionnels sans sulfates conçus pour prendre soin des cheveux tout en préservant l’éclat de la couleur. En plus, recevez un<strong> cadeau gratuit à l’achat de 100 $ de produits Pureology!</strong></p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/pureology",
@@ -126,12 +126,26 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_6DbNNk": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_RF_Nuit_Perte_de_cheveux.png",
+            "background_color": "",
+            "title": "LANCEMENT SÉRUM DE NUIT",
+            "description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
+            "text_color": "",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "item_banner_P4teNk",
         "item_banner_Wqa7He",
-        "item_banner_7ykdEr"
+        "item_banner_7ykdEr",
+        "item_banner_6DbNNk"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
