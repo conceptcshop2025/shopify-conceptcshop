@@ -64,9 +64,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/5_cc9d021a-098a-4747-b1dc-33b990c998a0.png",
-            "promotion_title": "25 % sur les brosses Concept C",
-            "promotion_description": "<p>Démêlez et lissez vos cheveux plus facilement avec la brosse adaptée à votre routine, maintenant à 25 % de rabais!</p>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_2_0b8c3a3a-753c-431b-96be-1f9c6441316e.png",
+            "promotion_title": "15% à 30% de rabais",
+            "promotion_description": "<p>Des boucles définies, hydratées et sans frisottis. Découvrez BOUNCE.ME, la routine essentielle pour révéler tout le potentiel de vos ondulations, boucles et frisettes.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
