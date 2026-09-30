@@ -62,6 +62,7 @@
         },
         "promotion_card_Ri7kHx": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/5_cc9d021a-098a-4747-b1dc-33b990c998a0.png",
             "promotion_title": "25 % sur les brosses Concept C",
@@ -101,7 +102,6 @@
         },
         "promotion_card_zJzyYT": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_b071abd3-9603-4c35-926a-ad3a369b33d2.png",
             "promotion_title": "15 à 20% de rabais!",
