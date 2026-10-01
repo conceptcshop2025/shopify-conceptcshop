@@ -153,7 +153,6 @@
         },
         "promotion_card_mWVmtb": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_3015e349-475d-4c55-ace9-c877f4798adb.png",
             "promotion_title": "Lancement Sérum de Nuit René Furterer",
