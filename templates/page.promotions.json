@@ -99,19 +99,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_E6b4jH": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/6_717ca5d2-50dc-44af-9698-3dd1ace0f6d9.png",
-            "promotion_title": "5 huiles à moins de 30$",
-            "promotion_description": "<p>Découvrez 5 huiles capillaires à petit prix pour des cheveux plus doux, brillants et en santé, sans dépasser 30$!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-8",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_UcbtVG": {
           "type": "promotion_card",
           "settings": {
@@ -211,7 +198,6 @@
         "promotion_card_Ri7kHx",
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
-        "promotion_card_E6b4jH",
         "promotion_card_UcbtVG",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
