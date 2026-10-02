@@ -36,6 +36,33 @@
         "padding_bottom": 16
       }
     },
+    "rich_text_NtC7Dr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3HLmKL": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Créez votre bundle favorite",
+            "url": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3HLmKL"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
     "custom_collection_tags_XfY4PX": {
       "type": "custom-collection-tags",
       "name": "# Collection tags",
@@ -75,6 +102,7 @@
   "order": [
     "collection-banner",
     "c_expiration_text_Kfxc7r",
+    "rich_text_NtC7Dr",
     "custom_collection_tags_XfY4PX",
     "main"
   ]
