@@ -207,6 +207,11 @@
           "storefrontAccessToken": "",
           "scriptInitMode": "immediate"
         }
+      },
+      "8605505498557855500": {
+        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -410,13 +415,13 @@
       },
       "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a": {
         "settings": {
-          "background": "#EFD1BA",
+          "background": "#efd1ba",
           "background_gradient": "",
           "text_color": "#454545",
-          "primary_button_background": "#EFD1BA",
+          "primary_button_background": "#efd1ba",
           "primary_button_text_color": "#454545",
-          "circle_button_background": "#EFD1BA",
-          "circle_button_icon": "#EFD1BA"
+          "circle_button_background": "#efd1ba",
+          "circle_button_icon": "#efd1ba"
         }
       }
     }
