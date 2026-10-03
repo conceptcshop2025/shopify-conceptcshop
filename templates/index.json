@@ -378,6 +378,20 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_DaD9cw": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Coffret_Moroccanoil_sur_pierre_ivoire.png",
+            "promotion_title": "-25% sur Moroccanoil",
+            "promotion_description": "<p>Des formules iconiques à l’huile d’argan pour des cheveux nourris, doux et brillants. En plus, recevez un cadeau gratuit à l’achat de 100 $ de produits Moroccanoil!</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_TkQb8M": {
           "type": "promotion_card",
           "settings": {
@@ -445,6 +459,7 @@
         }
       },
       "block_order": [
+        "promotion_card_DaD9cw",
         "promotion_card_TkQb8M",
         "promotion_card_qBRV7C",
         "promotion_card_NJzNbB",
