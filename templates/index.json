@@ -378,6 +378,20 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_YDmxfn": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre.png",
+            "promotion_title": "15% de rabais!",
+            "promotion_description": "<p><strong>Du 6 au 9 octobre,</strong> le SteamPod est à 15 % de rabais! Profitez-en pour obtenir des cheveux plus lisses, brillants et sans frisottis, avec un résultat digne du salon à la maison!</p>",
+            "promotion_link": "shopify://products/loreal-fer-plat-a-vapeur-steampod-4-0",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_DaD9cw": {
           "type": "promotion_card",
           "settings": {
@@ -442,28 +456,15 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_inUanx": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_fb8ccea0-5a68-444e-a95a-8e323f837f7e.png",
-            "promotion_title": "15% sur T3",
-            "promotion_description": "<p>Obtenez des résultats dignes du salon à la maison avec les outils coiffants T3, conçus pour un coiffage plus rapide, facile et impeccable.</p>",
-            "promotion_link": "shopify://collections/t3-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
+        "promotion_card_YDmxfn",
         "promotion_card_DaD9cw",
         "promotion_card_TkQb8M",
         "promotion_card_qBRV7C",
         "promotion_card_NJzNbB",
-        "promotion_card_FVeDCd",
-        "promotion_card_inUanx"
+        "promotion_card_FVeDCd"
       ],
       "name": "# Promotions list",
       "settings": {
