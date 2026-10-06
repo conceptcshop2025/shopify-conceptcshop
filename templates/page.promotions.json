@@ -23,7 +23,6 @@
       "blocks": {
         "promotion_card_yrELJF": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre.png",
             "promotion_title": "15% de rabais",
