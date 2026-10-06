@@ -140,6 +140,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_ErkAzK": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Automne_2026_1.png",
+            "background_color": "#E0B7BE",
+            "title": "&nbsp;PROMO OUTILS&nbsp;",
+            "description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
+            "text_color": "#13120F",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "item_banner_7ykdEr": {
           "type": "item_banner",
           "disabled": true,
@@ -159,6 +172,7 @@
         "item_banner_6DbNNk",
         "item_banner_Wqa7He",
         "item_banner_Jh4GRg",
+        "item_banner_ErkAzK",
         "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
