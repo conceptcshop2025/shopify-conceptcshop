@@ -127,6 +127,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_Jh4GRg": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Soins_capillaires_en_deux_rangees.png",
+            "background_color": "#F0E1D5",
+            "title": "EXTRA 20% ONGLET SOLDES",
+            "description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
+            "text_color": "#13120F",
+            "link_url": "shopify://collections/soldes",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_7ykdEr": {
           "type": "item_banner",
           "disabled": true,
@@ -145,6 +158,7 @@
         "item_banner_P4teNk",
         "item_banner_6DbNNk",
         "item_banner_Wqa7He",
+        "item_banner_Jh4GRg",
         "item_banner_7ykdEr"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
