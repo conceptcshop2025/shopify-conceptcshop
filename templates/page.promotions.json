@@ -153,6 +153,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_dYyTpB": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_1.png",
+            "promotion_title": "Extra 20% Onglet Soldes",
+            "promotion_description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
+            "promotion_link": "shopify://collections/soldes",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_wDLgYn": {
           "type": "promotion_card",
           "settings": {
@@ -243,6 +257,7 @@
         "promotion_card_DGiP88",
         "promotion_card_UcbtVG",
         "promotion_card_jnxAXM",
+        "promotion_card_dYyTpB",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_mWVmtb",
