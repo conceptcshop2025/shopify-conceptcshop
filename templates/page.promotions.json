@@ -167,6 +167,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_U3wzeX": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_wDLgYn": {
           "type": "promotion_card",
           "settings": {
@@ -258,6 +272,7 @@
         "promotion_card_UcbtVG",
         "promotion_card_jnxAXM",
         "promotion_card_dYyTpB",
+        "promotion_card_U3wzeX",
         "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_mWVmtb",
