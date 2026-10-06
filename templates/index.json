@@ -132,10 +132,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/10_off_Kerastase_750_x_600_px.png",
-            "background_color": "#E2DBFB",
+            "background_color": "#e2dbfb",
             "title": "-10% SUR KÉRASTASE",
             "description": "<p>Offrez à vos cheveux l’expérience Kérastase. Profitez de 10 % de rabais sur une sélection de soins d’exception et redécouvrez le plaisir d’une routine luxueuse.</p>",
-            "text_color": "#13120F",
+            "text_color": "#13120f",
             "link_url": "shopify://collections/promo-du-moment-kerastase",
             "link_text": "magasiner"
           }
@@ -145,10 +145,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Soins_capillaires_en_deux_rangees.png",
-            "background_color": "#F0E1D5",
+            "background_color": "#f0e1d5",
             "title": "EXTRA 20% ONGLET SOLDES",
             "description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
-            "text_color": "#13120F",
+            "text_color": "#13120f",
             "link_url": "shopify://collections/soldes",
             "link_text": "magasiner"
           }
@@ -158,10 +158,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Automne_2026_1.png",
-            "background_color": "#E0B7BE",
+            "background_color": "#e0b7be",
             "title": "&nbsp;PROMO OUTILS&nbsp;",
             "description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
-            "text_color": "#13120F",
+            "text_color": "#13120f",
             "link_url": "",
             "link_text": "magasiner"
           }
@@ -453,7 +453,7 @@
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_3.png",
             "promotion_title": "SOS Perte de Cheveux",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
-            "promotion_link": "shopify://collections/revitalisant-perte-de-cheveux",
+            "promotion_link": "shopify://collections/promo-perte-de-cheveux",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
