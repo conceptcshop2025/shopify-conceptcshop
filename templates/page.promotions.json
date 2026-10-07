@@ -154,11 +154,10 @@
         },
         "promotion_card_dYyTpB": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_1.png",
             "promotion_title": "Extra 20% Onglet Soldes",
-            "promotion_description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
+            "promotion_description": "<p>Pour le week-end de l’Action de grâce, profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
             "promotion_link": "shopify://collections/soldes",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -174,19 +173,6 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_wDLgYn": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_73ef4c7d-a2d6-4945-a7c0-726a922cd013.png",
-            "promotion_title": "Nouveau +20% de rabais",
-            "promotion_description": "<p>Découvrez la révolution du shampoing sec signée Living Proof : une brume micellaire qui aide à nettoyer les cheveux, avec un fini 100 % invisible et sans effet poudreux.</p>",
-            "promotion_link": "shopify://products/living-proof-shampoing-sec-en-brume-perfect-hair-day-100-ml",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -213,19 +199,6 @@
             "promotion_title": "Lancement Sérum de Nuit René Furterer",
             "promotion_description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
             "promotion_link": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_rgifVj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_fc280b75-3e70-4e69-817b-9198bf6d1b95.png",
-            "promotion_title": "Blitz XXL",
-            "promotion_description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-13",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -272,10 +245,8 @@
         "promotion_card_jnxAXM",
         "promotion_card_dYyTpB",
         "promotion_card_U3wzeX",
-        "promotion_card_wDLgYn",
         "promotion_card_UqV8iJ",
         "promotion_card_mWVmtb",
-        "promotion_card_rgifVj",
         "promotion_card_FfVjLx",
         "promotion_card_W7BpWz"
       ],
