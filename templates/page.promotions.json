@@ -112,6 +112,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_FfVjLx": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/14_022d7c49-3a85-4148-ad7f-7501439ab91e.png",
+            "promotion_title": "-50% sur Balmain",
+            "promotion_description": "<p>La gamme de luxe Balmain est à 50 % de rabais. Des soins capillaires raffinés et haut de gamme pour donner une touche plus prestigieuse à votre routine.</p>",
+            "promotion_link": "shopify://collections/balmain",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_DGiP88": {
           "type": "promotion_card",
           "settings": {
@@ -205,19 +218,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_FfVjLx": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/14_022d7c49-3a85-4148-ad7f-7501439ab91e.png",
-            "promotion_title": "-50% sur Balmain",
-            "promotion_description": "<p>La gamme de luxe Balmain est à 50 % de rabais. Des soins capillaires raffinés et haut de gamme pour donner une touche plus prestigieuse à votre routine.</p>",
-            "promotion_link": "shopify://collections/balmain",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
@@ -240,6 +240,7 @@
         "promotion_card_Ri7kHx",
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
+        "promotion_card_FfVjLx",
         "promotion_card_DGiP88",
         "promotion_card_UcbtVG",
         "promotion_card_jnxAXM",
@@ -247,7 +248,6 @@
         "promotion_card_U3wzeX",
         "promotion_card_UqV8iJ",
         "promotion_card_mWVmtb",
-        "promotion_card_FfVjLx",
         "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
