@@ -91,15 +91,15 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
-        "item_banner_P4teNk": {
+        "item_banner_Jh4GRg": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Blitz_XXL_Automne_2026_750_x_600_px.png",
-            "background_color": "#fe8bec",
-            "title": "BLITZ D’ÉCONOMIES XXL&nbsp;",
-            "description": "<p>Économisez jusqu’à 70 %! Le Blitz XXL est de retour avec une grande liquidation de surplus et d’inventaire sur une sélection de marques et produits favoris!</p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-du-moment-13",
+            "image": "shopify://shop_images/Soins_capillaires_en_deux_rangees.png",
+            "background_color": "#f0e1d5",
+            "title": "EXTRA 20% ONGLET SOLDES",
+            "description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
+            "text_color": "#13120f",
+            "link_url": "shopify://collections/soldes",
             "link_text": "magasiner"
           }
         },
@@ -140,19 +140,6 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_Jh4GRg": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Soins_capillaires_en_deux_rangees.png",
-            "background_color": "#f0e1d5",
-            "title": "EXTRA 20% ONGLET SOLDES",
-            "description": "<p>Profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
-            "text_color": "#13120f",
-            "link_url": "shopify://collections/soldes",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_ErkAzK": {
           "type": "item_banner",
           "disabled": true,
@@ -181,11 +168,10 @@
         }
       },
       "block_order": [
-        "item_banner_P4teNk",
+        "item_banner_Jh4GRg",
         "item_banner_6DbNNk",
         "item_banner_Wqa7He",
         "item_banner_mQ3zXz",
-        "item_banner_Jh4GRg",
         "item_banner_ErkAzK",
         "item_banner_7ykdEr"
       ],
