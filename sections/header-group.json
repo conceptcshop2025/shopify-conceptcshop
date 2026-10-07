@@ -16,8 +16,8 @@
       "disabled": true,
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
-        "color_scheme": "",
-        "content": "EXTRA 20% ONGLET SOLDES",
+        "color_scheme": "scheme-e2884a58-5f09-4cbc-9344-2eb87c7eb048",
+        "content": "<strong>EXTRA 20% ONGLET SOLDES</strong>",
         "link_text": "",
         "link_url": "shopify://collections/soldes",
         "expiration_date": "2026-10-13 23:59",
