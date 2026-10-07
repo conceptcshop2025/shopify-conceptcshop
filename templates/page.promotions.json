@@ -471,6 +471,7 @@
         },
         "promotion_card_B7VPDU": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/20_df4b73f3-45f7-499c-a898-5fe505e998b3.png",
             "promotion_title": "Davines",
