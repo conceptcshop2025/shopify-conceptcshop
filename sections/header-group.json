@@ -18,7 +18,7 @@
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
         "color_scheme": "scheme-e2884a58-5f09-4cbc-9344-2eb87c7eb048",
-        "content": "<strong>&nbsp;EXTRA 20 % SUR L’ONGLET SOLDES – CODE PROMO APPLIQUÉ AU PANIER&nbsp;</strong>",
+        "content": "<strong>ONGLET SOLDES : EXTRA 20 % APPLIQUÉ AU PANIER&nbsp;</strong>",
         "link_text": "",
         "link_url": "shopify://collections/soldes",
         "expiration_date": "2026-10-13 23:59",
