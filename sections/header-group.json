@@ -14,11 +14,12 @@
     "countdown_condensed_BceyMR": {
       "type": "countdown-condensed",
       "disabled": true,
+      "custom_css": [],
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
         "color_scheme": "scheme-e2884a58-5f09-4cbc-9344-2eb87c7eb048",
-        "content": "<strong>EXTRA 20% ONGLET SOLDES - CODE PROMO APPLIQUER AU PANIER</strong>",
-        "link_text": "",
+        "content": "<strong>&nbsp;EXTRA 20 % SUR L’ONGLET SOLDES – CODE PROMO APPLIQUÉ AU PANIER&nbsp;</strong>",
+        "link_text": "test",
         "link_url": "shopify://collections/soldes",
         "expiration_date": "2026-10-13 23:59",
         "expiration_behavior": "leave",
