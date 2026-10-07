@@ -22,7 +22,7 @@
         "link_url": "shopify://collections/soldes",
         "expiration_date": "2026-10-13 23:59",
         "expiration_behavior": "leave",
-        "desktop_justification": "space-between"
+        "desktop_justification": "center"
       }
     },
     "announcement-bar": {
