@@ -11,6 +11,20 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "countdown_condensed_BceyMR": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "",
+        "content": "EXTRA 20% ONGLET SOLDES",
+        "link_text": "",
+        "link_url": "shopify://collections/soldes",
+        "expiration_date": "2026-10-13 23:59",
+        "expiration_behavior": "leave",
+        "desktop_justification": "space-between"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -73,6 +87,7 @@
     }
   },
   "order": [
+    "countdown_condensed_BceyMR",
     "announcement-bar",
     "header",
     "171337816813ecb67b"
