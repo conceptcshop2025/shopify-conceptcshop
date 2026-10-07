@@ -13,6 +13,7 @@
   "sections": {
     "countdown_condensed_BceyMR": {
       "type": "countdown-condensed",
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
