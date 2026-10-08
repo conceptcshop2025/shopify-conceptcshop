@@ -36,6 +36,7 @@
         },
         "promotion_card_zJzyYT": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_b071abd3-9603-4c35-926a-ad3a369b33d2.png",
             "promotion_title": "15 à 20% de rabais!",
@@ -54,19 +55,6 @@
             "promotion_title": "25% sur Keratin Alpha Sleek",
             "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-11",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_TpkwfT": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_fb8ccea0-5a68-444e-a95a-8e323f837f7e.png",
-            "promotion_title": "15 % sur T3",
-            "promotion_description": "<p>Obtenez des résultats dignes du salon à la maison avec les outils coiffants T3, conçus pour un coiffage plus rapide, facile et impeccable.</p>",
-            "promotion_link": "shopify://collections/t3-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -138,22 +126,8 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_UcbtVG": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_f972ecb0-53cb-4192-8756-8daa996cfaa8.png",
-            "promotion_title": "-25% sur Pureology",
-            "promotion_description": "<p>Des soins professionnels sans sulfates conçus pour prendre soin des cheveux tout en préservant l’éclat de la couleur. En plus, recevez un cadeau gratuit à l’achat de 100 $ de produits Pureology!</p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_jnxAXM": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_10af4ee7-5e77-44c0-87f9-2ec67d4e8d0f.png",
             "promotion_title": "-10% sur Kérastase",
@@ -180,7 +154,6 @@
         },
         "promotion_card_U3wzeX": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2.png",
             "promotion_title": "Promo Outils",
@@ -236,13 +209,11 @@
         "promotion_card_yrELJF",
         "promotion_card_zJzyYT",
         "promotion_card_PRTHF6",
-        "promotion_card_TpkwfT",
         "promotion_card_Ri7kHx",
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
         "promotion_card_FfVjLx",
         "promotion_card_DGiP88",
-        "promotion_card_UcbtVG",
         "promotion_card_jnxAXM",
         "promotion_card_dYyTpB",
         "promotion_card_U3wzeX",
