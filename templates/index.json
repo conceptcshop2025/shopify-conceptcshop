@@ -433,6 +433,7 @@
         },
         "promotion_card_qBRV7C": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_b071abd3-9603-4c35-926a-ad3a369b33d2.png",
             "promotion_title": "15 à 20% de rabais!",
