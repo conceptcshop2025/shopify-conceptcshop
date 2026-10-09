@@ -67,7 +67,7 @@
         "richtext_j83ezg": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>66 QC, route 132, local 175<br/></strong>Delson, QC<br/>J5B 0A1<br/><a href=\"tel:4186225005\" title=\"tel:4186225005\">(450) 633-0336</a>&nbsp;</p>"
+            "content": "<p><a href=\"https://www.google.com/maps/place/66+QC-132+local+175,+Delson,+QC+J5B+0A1/@45.3871599,-73.5513509,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc90de58b2e1ee7:0x7573d1736b803f7e!8m2!3d45.3871599!4d-73.548776?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/66+QC-132+local+175,+Delson,+QC+J5B+0A1/@45.3871599,-73.5513509,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc90de58b2e1ee7:0x7573d1736b803f7e!8m2!3d45.3871599!4d-73.548776?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D\"><strong>66 QC, route 132, local 175</strong></a><strong><br/></strong>Delson, QC<br/>J5B 0A1<br/><a href=\"tel:4186225005\" title=\"tel:4186225005\">(450) 633-0336</a>&nbsp;</p>"
           }
         },
         "liquid_jdTXVB": {
@@ -81,7 +81,7 @@
           "settings": {
             "style": "solid",
             "text": "Pour nous trouver",
-            "url": "https://www.google.com/maps/place/Concept+C.+La+R%C3%A9f%C3%A9rence+en+Produits+de+Coiffure+-+Boutique+Qu%C3%A9bec/@46.8291509,-71.2814958,17z/data=!3m2!4b1!5s0x4cb897c7910b949f:0xd575cd19c66a1dae!4m6!3m5!1s0x4cb89704f9ef680f:0xf30536dca743e350!8m2!3d46.8291473!4d-71.2789209!16s%2Fg%2F11kqt72k78?entry=ttu",
+            "url": "https://www.google.com/maps/place/66+QC-132+local+175,+Delson,+QC+J5B+0A1/@45.3871599,-73.5513509,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc90de58b2e1ee7:0x7573d1736b803f7e!8m2!3d45.3871599!4d-73.548776?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
             "background": "",
             "text_color": ""
           }
