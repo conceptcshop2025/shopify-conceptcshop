@@ -21,19 +21,6 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_yrELJF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre.png",
-            "promotion_title": "15% de rabais",
-            "promotion_description": "<p><strong>Du 6 au 9 octobre,</strong> le SteamPod est à 15 % de rabais! Profitez-en pour obtenir des cheveux plus lisses, brillants et sans frisottis, avec un résultat digne du salon à la maison!</p>",
-            "promotion_link": "shopify://products/loreal-fer-plat-a-vapeur-steampod-4-0",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_zJzyYT": {
           "type": "promotion_card",
           "settings": {
@@ -205,7 +192,6 @@
         }
       },
       "block_order": [
-        "promotion_card_yrELJF",
         "promotion_card_zJzyYT",
         "promotion_card_PRTHF6",
         "promotion_card_Ri7kHx",
