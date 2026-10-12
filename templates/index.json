@@ -392,19 +392,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_DaD9cw": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_7fdca396-e7c5-45e1-941f-47d9e0c3774a.png",
-            "promotion_title": "-20% sur Moroccanoil",
-            "promotion_description": "<p>Des formules iconiques à l’huile d’argan pour des cheveux nourris, doux et brillants. En plus, recevez un cadeau gratuit à l’achat de 125 $ de produits Moroccanoil!</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_TkQb8M": {
           "type": "promotion_card",
           "settings": {
@@ -443,13 +430,26 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_fMJpAD": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2_28402ddb-e537-41fd-9054-82a50bf052f5.png",
+            "promotion_title": "15% de rabais!",
+            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
-        "promotion_card_DaD9cw",
         "promotion_card_TkQb8M",
         "promotion_card_FVeDCd",
-        "promotion_card_AeNJrk"
+        "promotion_card_AeNJrk",
+        "promotion_card_fMJpAD"
       ],
       "name": "# Promotions list",
       "settings": {
