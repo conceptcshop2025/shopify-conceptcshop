@@ -25,6 +25,41 @@
         "desktop_justification": "center"
       }
     },
+    "c_countdown_mHkLkn": {
+      "type": "c-countdown",
+      "name": "C Countdown",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "subheading": "Subheading",
+        "subheading_font_size": 16,
+        "title": "Special offer",
+        "heading_font_size": 28,
+        "content": "<p>Share something about your limited offer or temporary promotion.</p>",
+        "content_font_size": 14,
+        "content_gap": 10,
+        "text_alignment": "left",
+        "button_link": "shopify://collections/festilitre",
+        "button_text": "Voir l'offre",
+        "button_background": "#f88564",
+        "button_text_color": "#ffffff",
+        "expiration_date": "2026-10-31 09:30",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "countdown_font_size": 100,
+        "background_color": "#e4c0ae",
+        "text_color": "#000000",
+        "countdown_text_color": "#ffffff",
+        "flip_background": "#000000",
+        "flip_background_opacity": 100,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -88,6 +123,7 @@
   },
   "order": [
     "countdown_condensed_BceyMR",
+    "c_countdown_mHkLkn",
     "announcement-bar",
     "header",
     "171337816813ecb67b"

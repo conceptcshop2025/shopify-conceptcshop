@@ -1,0 +1,499 @@
+{%- comment -%}
+This countdown section is the main countdown section that can be added everywhere. For the condensed countdown section
+usable in the header group, please look at the "countdown-condensed.liquid" section instead.
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --countdown-timer-flip-background: {{ section.settings.flip_background.rgb }} / {{ section.settings.flip_background_opacity | divided_by: 100.0 }};
+    --countdown-timer-flip-text-color: {{ section.settings.flip_text_color.rgb }};
+  }
+
+  /* C Countdown styles */
+  #shopify-section-{{ section.id }} .c-countdown {
+    padding-block-start: {{ section.settings.padding_top }}px;
+    padding-block-end: {{ section.settings.padding_bottom }}px;
+  }
+
+  #shopify-section-{{ section.id }} .c-countdown__subheading {
+    font-size: {{ section.settings.subheading_font_size }}px;
+  }
+
+  #shopify-section-{{ section.id }} .c-countdown__heading {
+    font-size: {{ section.settings.heading_font_size }}px;
+  }
+
+  #shopify-section-{{ section.id }} .c-countdown__text,
+  #shopify-section-{{ section.id }} .c-countdown__text :is(p, li) {
+    font-size: {{ section.settings.content_font_size }}px;
+  }
+
+  #shopify-section-{{ section.id }} .countdown__content :is(.c-countdown__heading, .c-countdown__text, .c-countdown__button) {
+    margin-block-start: {{ section.settings.content_gap }}px;
+  }
+
+  {%- case section.settings.text_alignment -%}
+    {%- when 'center' -%}
+      {%- assign button_justify = 'center' -%}
+    {%- when 'right' -%}
+      {%- assign button_justify = 'flex-end' -%}
+    {%- else -%}
+      {%- assign button_justify = 'flex-start' -%}
+  {%- endcase -%}
+
+  #shopify-section-{{ section.id }} .countdown__content {
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+  #shopify-section-{{ section.id }} .c-countdown__button {
+    display: flex;
+    justify-content: {{ button_justify }};
+  }
+
+  #shopify-section-{{ section.id }} .c-countdown__button .button {
+    margin-block-start: 0;
+  }
+
+  #shopify-section-{{ section.id }} .countdown__timer :is(.countdown__timer-flip, .countdown__timer-item-separator) {
+    font-size: {{ section.settings.countdown_font_size }}px;
+  }
+
+  /* Fixed-width digits so the timer and content don't shift when numbers change */
+  #shopify-section-{{ section.id }} .countdown__timer-flip {
+    font-variant-numeric: tabular-nums;
+  }
+
+  #shopify-section-{{ section.id }} .countdown__timer-flip::part(digit) {
+    box-sizing: content-box;
+    width: 1ch;
+    text-align: center;
+  }
+  {%- if section.settings.background_color != blank and section.settings.background_color != 'rgba(0,0,0,0)' -%}
+    #shopify-section-{{ section.id }} .c-countdown {
+      --background: {{ section.settings.background_color.rgb }};
+      --background-without-opacity: {{ section.settings.background_color.rgb }};
+      --background-gradient: none;
+      background-color: {{ section.settings.background_color }};
+      background-image: none;
+    }
+  {%- endif -%}
+
+  {%- if section.settings.text_color != blank and section.settings.text_color != 'rgba(0,0,0,0)' -%}
+    #shopify-section-{{ section.id }} .c-countdown {
+      --text-color: {{ section.settings.text_color.rgb }};
+      color: {{ section.settings.text_color }};
+    }
+
+    #shopify-section-{{ section.id }} .c-countdown :is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, .countdown__timer-unit, .countdown__timer-item-separator) {
+      color: {{ section.settings.text_color }};
+    }
+  {%- endif -%}
+
+  {%- if section.settings.countdown_text_color != blank and section.settings.countdown_text_color != 'rgba(0,0,0,0)' -%}
+    #shopify-section-{{ section.id }} .c-countdown .countdown__timer {
+      {%- if section.settings.flip_text_color == blank or section.settings.flip_text_color == 'rgba(0,0,0,0)' -%}
+        --countdown-timer-flip-text-color: {{ section.settings.countdown_text_color.rgb }};
+      {%- endif -%}
+      color: {{ section.settings.countdown_text_color }};
+    }
+
+    #shopify-section-{{ section.id }} .c-countdown .countdown__timer :is(.countdown__timer-unit, .countdown__timer-item-separator) {
+      color: {{ section.settings.countdown_text_color }};
+    }
+  {%- endif -%}
+
+  /* Mobile: centered content and a timer that fits the available width */
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+    #shopify-section-{{ section.id }} .countdown {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 2rem;
+    }
+
+    #shopify-section-{{ section.id }} .countdown--reverse .countdown__timer {
+      order: 0;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__content {
+      text-align: center;
+    }
+
+    #shopify-section-{{ section.id }} .c-countdown__button {
+      justify-content: center;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer {
+      grid: auto / auto-flow minmax(0, 1fr) auto;
+      justify-content: stretch;
+      column-gap: 0.5rem;
+      width: 100%;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer-item {
+      row-gap: 0.375rem;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer :is(.countdown__timer-flip, .countdown__timer-item-separator) {
+      font-size: min({{ section.settings.countdown_font_size }}px, 7.5vw);
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer-flip--background::part(digit) {
+      padding: 0.25rem 0.375rem;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer-unit {
+      font-size: 11px;
+    }
+  }
+
+  /* Tablet / small desktop: scale timer font so it never exceeds its grid column */
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    #shopify-section-{{ section.id }} .countdown {
+      gap: 2.5rem;
+    }
+
+    #shopify-section-{{ section.id }} .countdown__timer :is(.countdown__timer-flip, .countdown__timer-item-separator) {
+      font-size: min({{ section.settings.countdown_font_size }}px, calc((100vw - 580px) / 5.8));
+    }
+  }
+
+  /* Container gutter grows from 2rem to 3rem at 1000px, leaving less room for the timer */
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    #shopify-section-{{ section.id }} .countdown__timer :is(.countdown__timer-flip, .countdown__timer-item-separator) {
+      font-size: min({{ section.settings.countdown_font_size }}px, calc((100vw - 620px) / 5.8));
+    }
+  }
+</style>
+
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="c-countdown color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  {%- capture section_content -%}
+    <div class="countdown {% if section.settings.timer_position == 'start' %}countdown--reverse{% endif %}">
+      <div class="countdown__content prose">
+        {%- if section.settings.subheading != blank -%}
+          <p class="c-countdown__subheading h6">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+
+        {%- if section.settings.title != blank -%}
+          <h2 class="c-countdown__heading h1">{{ section.settings.title }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.content != blank -%}
+          <div class="c-countdown__text">{{- section.settings.content -}}</div>
+        {%- endif -%}
+
+        {%- if section.settings.button_text != blank -%}
+          <div class="c-countdown__button">
+            {%- render 'button', href: section.settings.button_link, content: section.settings.button_text, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      {%- assign accessibility_expiration_date = section.settings.expiration_date | date: format: 'date_at_time' -%}
+      {%- assign accessibility_text = 'sections.countdown_timer.expires_accessibility_text' | t: expiration_date: accessibility_expiration_date -%}
+
+      {%- if section.settings.flip_background != blank and section.settings.flip_background != 'rgba(0,0,0,0)' -%}
+        {%- assign has_flip_background = true -%}
+      {%- endif -%}
+
+      <countdown-timer class="countdown__timer" role="timer" aria-label="{{ accessibility_text | escape }}" expires-at="{{ section.settings.expiration_date | date: '%FT%T%:z' | escape }}" expiration-behavior="{{ section.settings.expiration_behavior }}">
+        <div class="countdown__timer-item" aria-hidden="true">
+          <countdown-timer-flip type="days" {% if section.settings.animate_number %}animate{% endif %} class="countdown__timer-flip {% if has_flip_background %}countdown__timer-flip--background{% endif %} h1">00</countdown-timer-flip>
+          <span class="countdown__timer-unit h6">{{ 'sections.countdown_timer.days_long' | t }}</span>
+        </div>
+
+        <span class="countdown__timer-item-separator" aria-hidden="true">:</span>
+
+        <div class="countdown__timer-item" aria-hidden="true">
+          <countdown-timer-flip type="hours" {% if section.settings.animate_number %}animate{% endif %} class="countdown__timer-flip {% if has_flip_background %}countdown__timer-flip--background{% endif %} h1">00</countdown-timer-flip>
+          <span class="countdown__timer-unit h6">{{ 'sections.countdown_timer.hours_long' | t }}</span>
+        </div>
+
+        <span class="countdown__timer-item-separator" aria-hidden="true">:</span>
+
+        <div class="countdown__timer-item" aria-hidden="true">
+          <countdown-timer-flip type="minutes" {% if section.settings.animate_number %}animate{% endif %} class="countdown__timer-flip {% if has_flip_background %}countdown__timer-flip--background{% endif %} h1">00</countdown-timer-flip>
+          <span class="countdown__timer-unit h6">{{ 'sections.countdown_timer.minutes_long' | t }}</span>
+        </div>
+
+        <span class="countdown__timer-item-separator" aria-hidden="true">:</span>
+
+        <div class="countdown__timer-item" aria-hidden="true">
+          <countdown-timer-flip type="seconds" {% if section.settings.animate_number %}animate{% endif %} class="countdown__timer-flip {% if has_flip_background %}countdown__timer-flip--background{% endif %} h1">00</countdown-timer-flip>
+          <span class="countdown__timer-unit h6">{{ 'sections.countdown_timer.seconds_long' | t }}</span>
+        </div>
+      </countdown-timer>
+    </div>
+  {%- endcapture -%}
+
+  <div class="container container--md">
+    {{- section_content -}}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "C Countdown",
+  "class": "shopify-section--countdown",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 64
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "t:global.text.subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "label": "Subheading font size",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
+      "default": "Special offer"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 16,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "t:global.text.content",
+      "default": "<p>Share something about your limited offer or temporary promotion.</p>"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "content_gap",
+      "label": "Gap between subheading, heading, content and button",
+      "min": 0,
+      "max": 64,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "info": "Also applies to the button.",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:global.text.button_link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "t:global.text.button_text"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background color",
+      "info": "Leave empty to use the selected color scheme."
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "info": "Leave empty to use the selected color scheme."
+    },
+    {
+      "type": "header",
+      "content": "t:sections.countdown_timer.timer_category",
+      "info": "t:sections.countdown_timer.timezone_information"
+    },
+    {
+      "type": "text",
+      "id": "expiration_date",
+      "label": "t:sections.countdown_timer.expiration_date",
+      "placeholder": "Eg. 2025-12-25 12:00",
+      "info": "t:sections.countdown_timer.expiration_date_info"
+    },
+    {
+      "type": "select",
+      "id": "expiration_behavior",
+      "label": "t:sections.countdown_timer.expiration_behavior",
+      "options": [
+        {
+          "value": "hide",
+          "label": "t:sections.countdown_timer.expiration_behavior_options.hide"
+        },
+        {
+          "value": "leave",
+          "label": "t:sections.countdown_timer.expiration_behavior_options.leave"
+        }
+      ],
+      "default": "leave"
+    },
+    {
+      "type": "select",
+      "id": "timer_position",
+      "label": "t:sections.countdown_timer.timer_position",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:global.position.left"
+        },
+        {
+          "value": "end",
+          "label": "t:global.position.right"
+        }
+      ],
+      "default": "end"
+    },
+    {
+      "type": "checkbox",
+      "id": "animate_number",
+      "label": "t:sections.countdown_timer.animate_number",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "countdown_font_size",
+      "label": "Countdown font size",
+      "min": 16,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "t:global.colors.category"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "info": "Leave empty to use the selected color scheme."
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "info": "Leave empty to use the selected color scheme."
+    },
+    {
+      "type": "color",
+      "id": "countdown_text_color",
+      "label": "Countdown text color",
+      "info": "Applies to numbers, units and separators. If set, the flip text color setting overrides the numbers color."
+    },
+    {
+      "type": "color",
+      "id": "flip_background",
+      "label": "t:sections.countdown_timer.flip_background"
+    },
+    {
+      "type": "range",
+      "id": "flip_background_opacity",
+      "step": 10,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "label": "t:sections.countdown_timer.flip_background_opacity",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "flip_text_color",
+      "label": "t:sections.countdown_timer.flip_text_color"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "t:global.colors.overlay_color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "t:global.colors.overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "C Countdown",
+      "category": "t:global.categories.call_to_action"
+    }
+  ]
+}
+{% endschema %}
