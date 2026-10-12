@@ -99,19 +99,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_DGiP88": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_7fdca396-e7c5-45e1-941f-47d9e0c3774a.png",
-            "promotion_title": "-20% sur Moroccanoil",
-            "promotion_description": "<p>Des formules iconiques à l’huile d’argan pour des cheveux nourris, doux et brillants. En plus, recevez un cadeau gratuit à l’achat de 125 $ de produits Moroccanoil!</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_jnxAXM": {
           "type": "promotion_card",
           "settings": {
@@ -198,7 +185,6 @@
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
         "promotion_card_FfVjLx",
-        "promotion_card_DGiP88",
         "promotion_card_jnxAXM",
         "promotion_card_dYyTpB",
         "promotion_card_U3wzeX",
