@@ -417,6 +417,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_eBUtaP": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_406c2f49-6860-458b-a16b-d8717e4f2490.png",
+            "promotion_title": "Lancement Sérum de Nuit René Furterer",
+            "promotion_description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
+            "promotion_link": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_TkQb8M": {
           "type": "promotion_card",
           "settings": {
@@ -435,6 +448,7 @@
         "promotion_card_fMJpAD",
         "promotion_card_AeNJrk",
         "promotion_card_FVeDCd",
+        "promotion_card_eBUtaP",
         "promotion_card_TkQb8M"
       ],
       "name": "# Promotions list",
