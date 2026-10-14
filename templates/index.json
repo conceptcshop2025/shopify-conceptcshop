@@ -159,11 +159,11 @@
           "settings": {
             "image": "shopify://shop_images/Coffrets_750_x_600_px.png",
             "background_color": "",
-            "title": "JUSQU'À 40% DE RABAIS",
+            "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
             "description": "<p>À la recherche du cadeau parfait? Découvrez notre sélection de coffrets des Fêtes de vos marques préférées. Des essentiels beauté à offrir ou à s’offrir, pour faire plaisir à tous les coups!</p>",
             "text_color": "",
             "link_url": "shopify://collections/coffrets",
-            "link_text": ""
+            "link_text": "magasiner"
           }
         }
       },
