@@ -152,6 +152,19 @@
             "link_url": "shopify://collections/promo-perte-de-cheveux",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_6fkeqz": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Coffrets_750_x_600_px.png",
+            "background_color": "",
+            "title": "JUSQU'À 40% DE RABAIS",
+            "description": "<p>À la recherche du cadeau parfait? Découvrez notre sélection de coffrets des Fêtes de vos marques préférées. Des essentiels beauté à offrir ou à s’offrir, pour faire plaisir à tous les coups!</p>",
+            "text_color": "",
+            "link_url": "shopify://collections/coffrets",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
@@ -159,7 +172,8 @@
         "item_banner_ErkAzK",
         "item_banner_Jh4GRg",
         "item_banner_6DbNNk",
-        "item_banner_7ykdEr"
+        "item_banner_7ykdEr",
+        "item_banner_6fkeqz"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
