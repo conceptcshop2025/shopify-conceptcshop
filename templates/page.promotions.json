@@ -99,32 +99,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_jnxAXM": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_1_faa61946-75f4-43a4-95c3-d6ff685a6e92.png",
-            "promotion_title": "-10% sur Kérastase",
-            "promotion_description": "<p>Offrez à vos cheveux l’expérience Kérastase. Profitez de 10 % de rabais sur une sélection de soins d’exception et redécouvrez le plaisir d’une routine luxueuse.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-kerastase",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_dYyTpB": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_1.png",
-            "promotion_title": "Extra 20% Onglet Soldes",
-            "promotion_description": "<p>Pour le week-end de l’Action de grâce, profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
-            "promotion_link": "shopify://collections/soldes",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_U3wzeX": {
           "type": "promotion_card",
           "settings": {
@@ -185,8 +159,6 @@
         "promotion_card_Vzht6P",
         "promotion_card_tWAMFr",
         "promotion_card_FfVjLx",
-        "promotion_card_jnxAXM",
-        "promotion_card_dYyTpB",
         "promotion_card_U3wzeX",
         "promotion_card_UqV8iJ",
         "promotion_card_mWVmtb",
