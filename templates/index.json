@@ -378,26 +378,13 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_TkQb8M": {
+        "promotion_card_fMJpAD": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_3.png",
-            "promotion_title": "SOS Perte de Cheveux",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_FVeDCd": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_e69c3b4c-cd0c-451d-bcfb-94cabb1a3ab8.png",
-            "promotion_title": "15% sur Blond Absolu de Kérastase",
-            "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-9",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2_28402ddb-e537-41fd-9054-82a50bf052f5.png",
+            "promotion_title": "15% de rabais!",
+            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -417,13 +404,26 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_fMJpAD": {
+        "promotion_card_FVeDCd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2_28402ddb-e537-41fd-9054-82a50bf052f5.png",
-            "promotion_title": "15% de rabais!",
-            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_e69c3b4c-cd0c-451d-bcfb-94cabb1a3ab8.png",
+            "promotion_title": "15% sur Blond Absolu de Kérastase",
+            "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_TkQb8M": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_3.png",
+            "promotion_title": "SOS Perte de Cheveux",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p>",
+            "promotion_link": "shopify://collections/promo-perte-de-cheveux",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -432,10 +432,10 @@
         }
       },
       "block_order": [
-        "promotion_card_TkQb8M",
-        "promotion_card_FVeDCd",
+        "promotion_card_fMJpAD",
         "promotion_card_AeNJrk",
-        "promotion_card_fMJpAD"
+        "promotion_card_FVeDCd",
+        "promotion_card_TkQb8M"
       ],
       "name": "# Promotions list",
       "settings": {
