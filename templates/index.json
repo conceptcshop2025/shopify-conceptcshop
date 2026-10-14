@@ -91,18 +91,6 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
-        "item_banner_mQ3zXz": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/10_off_Kerastase_750_x_600_px.png",
-            "background_color": "#e2dbfb",
-            "title": "-10% SUR KÉRASTASE",
-            "description": "<p>Offrez à vos cheveux l’expérience Kérastase. Profitez de 10 % de rabais sur une sélection de soins d’exception et redécouvrez le plaisir d’une routine luxueuse.</p>",
-            "text_color": "#13120f",
-            "link_url": "shopify://collections/promo-du-moment-kerastase",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_ErkAzK": {
           "type": "item_banner",
           "settings": {
@@ -112,18 +100,6 @@
             "description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
             "text_color": "#13120f",
             "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_Jh4GRg": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Soins_capillaires_en_deux_rangees.png",
-            "background_color": "#f0e1d5",
-            "title": "EXTRA 20% ONGLET SOLDES",
-            "description": "<p>Pour le week-end de l’Action de grâce, profitez de 20 % de rabais supplémentaire sur les produits déjà réduits de l’onglet Soldes. Faites vite, les quantités sont limitées!</p>",
-            "text_color": "#13120f",
-            "link_url": "shopify://collections/soldes",
             "link_text": "magasiner"
           }
         },
@@ -142,7 +118,6 @@
         },
         "item_banner_7ykdEr": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_SOS_Perte_de_Cheveux_Aout_2026.png",
             "background_color": "#dfcdba",
@@ -155,10 +130,9 @@
         },
         "item_banner_6fkeqz": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Coffrets_750_x_600_px.png",
-            "background_color": "#D6B3AB",
+            "background_color": "#d6b3ab",
             "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
             "description": "<p>À la recherche du cadeau parfait? Découvrez notre sélection de coffrets des Fêtes de vos marques préférées. Des essentiels beauté à offrir ou à s’offrir, pour faire plaisir à tous les coups!</p>",
             "text_color": "#000000",
@@ -168,9 +142,7 @@
         }
       },
       "block_order": [
-        "item_banner_mQ3zXz",
         "item_banner_ErkAzK",
-        "item_banner_Jh4GRg",
         "item_banner_6DbNNk",
         "item_banner_7ykdEr",
         "item_banner_6fkeqz"
