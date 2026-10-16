@@ -44,16 +44,16 @@
         "text_alignment": "left",
         "button_link": "shopify://collections/festilitre",
         "button_text": "Voir plus",
-        "button_background": "#FFFFFF",
-        "button_text_color": "#E48972",
+        "button_background": "#ffffff",
+        "button_text_color": "#e48972",
         "expiration_date": "2026-10-15 09:30",
         "expiration_behavior": "leave",
         "timer_position": "end",
         "animate_number": true,
         "countdown_font_size": 48,
-        "background_color": "#E48972",
+        "background_color": "#e48972",
         "text_color": "",
-        "countdown_text_color": "#FFFFFF",
+        "countdown_text_color": "#ffffff",
         "flip_background": "#000000",
         "flip_background_opacity": 100,
         "flip_text_color": "",
@@ -85,6 +85,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".swym-wishlist {display: none !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky": true,
