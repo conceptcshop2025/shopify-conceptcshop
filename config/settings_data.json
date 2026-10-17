@@ -359,17 +359,6 @@
           "circle_button_icon": "#454545"
         }
       },
-      "scheme-5dbb2cff-d013-4c7f-8067-d23ec0ca01a1": {
-        "settings": {
-          "background": "#ffffff",
-          "background_gradient": "",
-          "text_color": "#454545",
-          "primary_button_background": "#f5f3d0",
-          "primary_button_text_color": "#454545",
-          "circle_button_background": "#f5f3d0",
-          "circle_button_icon": "#454545"
-        }
-      },
       "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244": {
         "settings": {
           "background": "#dc6943",
@@ -379,50 +368,6 @@
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#e4c0ae",
           "circle_button_icon": "#454545"
-        }
-      },
-      "scheme-b5081b04-108b-4d59-b912-9c3fc6b86fc0": {
-        "settings": {
-          "background": "#ffffff",
-          "background_gradient": "",
-          "text_color": "#454545",
-          "primary_button_background": "#ffb890",
-          "primary_button_text_color": "#454545",
-          "circle_button_background": "#e4c0ae",
-          "circle_button_icon": "#454545"
-        }
-      },
-      "scheme-bb49f3a6-b558-446d-abbe-c0b339e9de44": {
-        "settings": {
-          "background": "#f4e266",
-          "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#f4e266",
-          "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#f4e266",
-          "circle_button_icon": "#1c1c1c"
-        }
-      },
-      "scheme-c610fac9-ab3c-4c4d-bbe3-833cfec1aa65": {
-        "settings": {
-          "background": "#a0d4ff",
-          "background_gradient": "",
-          "text_color": "#ffffff",
-          "primary_button_background": "#e4c0ae",
-          "primary_button_text_color": "#454545",
-          "circle_button_background": "#e4c0ae",
-          "circle_button_icon": "#454545"
-        }
-      },
-      "scheme-0f025554-7829-4df3-9cc3-55bcf9d8712f": {
-        "settings": {
-          "background": "#e0e6f2",
-          "background_gradient": "",
-          "text_color": "#000000",
-          "primary_button_background": "#e0e6f2",
-          "primary_button_text_color": "#454545",
-          "circle_button_background": "#e0e6f2",
-          "circle_button_icon": "#e0e6f2"
         }
       },
       "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a": {
@@ -445,6 +390,17 @@
           "primary_button_text_color": "#454545",
           "circle_button_background": "#f88564",
           "circle_button_icon": "#000000"
+        }
+      },
+      "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de": {
+        "settings": {
+          "background": "#5C2733",
+          "background_gradient": "",
+          "text_color": "#FBE4DB",
+          "primary_button_background": "#5C2733",
+          "primary_button_text_color": "#FBE4DB",
+          "circle_button_background": "#5C2733",
+          "circle_button_icon": "#FBE4DB"
         }
       }
     }
