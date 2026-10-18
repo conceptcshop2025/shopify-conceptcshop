@@ -132,12 +132,12 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/V1_-_Eve.png",
-            "background_color": "",
-            "title": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_color": "",
-            "link_url": "",
-            "link_text": ""
+            "background_color": "#FBE4DB",
+            "title": "<strong>VENTE ANNUELLE</strong>",
+            "description": "<p>Du 22 octobre au 1er novembre, profitez de 20 % de rabais sur presque tout, même sur les articles en solde, en liquidation et les coffrets des Fêtes! Tous les détails sur la page de la vente!</p>",
+            "text_color": "#13120F",
+            "link_url": "shopify://collections/vente-annuelle",
+            "link_text": "magasiner"
           }
         }
       },
