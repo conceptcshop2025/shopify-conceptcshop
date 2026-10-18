@@ -96,23 +96,10 @@
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Automne_2026_1.png",
             "background_color": "#e0b7be",
-            "title": "&nbsp;PROMO OUTILS&nbsp;",
+            "title": "PROMO OUTILS&nbsp;",
             "description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
             "text_color": "#13120f",
             "link_url": "shopify://collections/coffre-a-outils-1",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_6DbNNk": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_RF_Nuit_Perte_de_cheveux.png",
-            "background_color": "#2825ba",
-            "title": "LANCEMENT SÉRUM DE NUIT",
-            "description": "<p>Découvrez le nouveau Sérum de nuit créateur de densité Triphasic : jusqu’à 6 913 cheveux préservés par mois! En plus, recevez gratuitement le Shampoing Active Length 200 ml d’une valeur de 44 $ à l’achat du sérum de nuit!</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://products/rene-furterer-triphasic-serum-de-nuit-createur-de-densite-100-ml",
             "link_text": "magasiner"
           }
         },
@@ -139,13 +126,26 @@
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_9PgTWV": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/V1_-_Eve.png",
+            "background_color": "",
+            "title": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_color": "",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
         "item_banner_ErkAzK",
-        "item_banner_6DbNNk",
         "item_banner_7ykdEr",
-        "item_banner_6fkeqz"
+        "item_banner_6fkeqz",
+        "item_banner_9PgTWV"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
