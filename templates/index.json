@@ -93,7 +93,6 @@
       "blocks": {
         "item_banner_9PgTWV": {
           "type": "item_banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Vente_Annuelle_2026.png",
             "background_color": "#fbe4db",
@@ -130,6 +129,7 @@
         },
         "item_banner_UbMWKb": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px_403f81e6-cd84-4b6f-8234-b6c61c9c118d.png",
             "background_color": "#1f264f",
