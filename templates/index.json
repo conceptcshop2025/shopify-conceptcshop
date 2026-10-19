@@ -116,18 +116,6 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_7ykdEr": {
-          "type": "item_banner",
-          "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_SOS_Perte_de_Cheveux_Aout_2026.png",
-            "background_color": "#dfcdba",
-            "title": "SOS PERTE DE CHEVEUX",
-            "description": "<p>Jusqu’à 40 % de rabais sur une sélection de soins pour renforcer les cheveux, réduire la casse et favoriser une chevelure plus dense.</p><p></p>",
-            "text_color": "#000000",
-            "link_url": "shopify://collections/promo-perte-de-cheveux",
-            "link_text": "magasiner"
-          }
-        },
         "item_banner_6fkeqz": {
           "type": "item_banner",
           "settings": {
@@ -139,13 +127,25 @@
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
+        },
+        "item_banner_UbMWKb": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Baton_Oribe_750_x_600_px_403f81e6-cd84-4b6f-8234-b6c61c9c118d.png",
+            "background_color": "#1F264F",
+            "title": "LE SECRET D'UN SLEEK PARFAIT",
+            "description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
+            "text_color": "#FFFFFF",
+            "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "link_text": "magasiner"
+          }
         }
       },
       "block_order": [
         "item_banner_9PgTWV",
         "item_banner_ErkAzK",
-        "item_banner_7ykdEr",
-        "item_banner_6fkeqz"
+        "item_banner_6fkeqz",
+        "item_banner_UbMWKb"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
