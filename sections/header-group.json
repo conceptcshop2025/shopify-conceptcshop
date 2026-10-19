@@ -13,6 +13,7 @@
   "sections": {
     "countdown_condensed_BceyMR": {
       "type": "countdown-condensed",
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
@@ -78,7 +79,7 @@
         "countdown_text_color": "",
         "flip_background": "#f4e5dc",
         "flip_background_opacity": 100,
-        "flip_text_color": "#5C2733",
+        "flip_text_color": "#5c2733",
         "overlay_color": "#f4e5dc",
         "overlay_opacity": 30
       }
