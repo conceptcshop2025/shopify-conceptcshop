@@ -93,6 +93,7 @@
       "blocks": {
         "item_banner_9PgTWV": {
           "type": "item_banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Slider_Mobile_Vente_Annuelle_2026.png",
             "background_color": "#fbe4db",
@@ -146,7 +147,6 @@
         "item_banner_6fkeqz",
         "item_banner_UbMWKb"
       ],
-      "disabled": true,
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
         "first_section": false,
