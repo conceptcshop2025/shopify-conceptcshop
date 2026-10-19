@@ -25,6 +25,28 @@
         "desktop_justification": "center"
       }
     },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>*Livraison rapide et gratuite dès 59 $</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a",
+        "enable_sticky": true,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 10,
+        "mobile_font_size": 10
+      }
+    },
     "c_countdown_dXGgpQ": {
       "type": "c-countdown",
       "disabled": true,
@@ -59,28 +81,6 @@
         "flip_text_color": "",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "message-1": {
-          "type": "message",
-          "settings": {
-            "text": "<strong>*Livraison rapide et gratuite dès 59 $</strong>"
-          }
-        }
-      },
-      "block_order": [
-        "message-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a",
-        "enable_sticky": true,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "desktop_font_size": 10,
-        "mobile_font_size": 10
       }
     },
     "header": {
@@ -125,8 +125,8 @@
   },
   "order": [
     "countdown_condensed_BceyMR",
-    "c_countdown_dXGgpQ",
     "announcement-bar",
+    "c_countdown_dXGgpQ",
     "header",
     "171337816813ecb67b"
   ]
