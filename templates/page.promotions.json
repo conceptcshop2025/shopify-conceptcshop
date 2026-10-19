@@ -26,7 +26,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_cd31e83b-bec7-441c-9f74-b82619351669.png",
             "promotion_title": "15% de rabais",
-            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés. Retrouvez les essentiels de la marque pour compléter votre routine capillaire!</p>",
+            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés. Retrouvez les essentiels de la marque pour compléter votre routine!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -36,7 +36,6 @@
         },
         "promotion_card_jYHafK": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_10.png",
             "promotion_title": "15% de rabais",
@@ -303,6 +302,7 @@
         },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_835f54cf-de71-401c-b62d-931980bc55c9.png",
             "promotion_title": "Pureology",
