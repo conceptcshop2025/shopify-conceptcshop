@@ -73,7 +73,7 @@
         "timer_position": "end",
         "animate_number": true,
         "countdown_font_size": 48,
-        "background_color": "#5c2733",
+        "background_color": "",
         "text_color": "",
         "countdown_text_color": "#5c2733",
         "flip_background": "#f4e5dc",
