@@ -393,7 +393,6 @@
         },
         "promotion_card_dbBQiy": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_cd31e83b-bec7-441c-9f74-b82619351669.png",
             "promotion_title": "15% de rabais!",
@@ -405,13 +404,13 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_fMJpAD": {
+        "promotion_card_TkQb8M": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2_28402ddb-e537-41fd-9054-82a50bf052f5.png",
-            "promotion_title": "15% de rabais!",
-            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_2.png",
+            "promotion_title": "Cadeau avec bâton brillance Oribe!",
+            "promotion_description": "<p>À l’achat du bâton brillance d'Oribe, recevez gratuitement une trousse Supershine!</p>",
+            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -430,27 +429,13 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_TkQb8M": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_64cbf3eb-a7df-40bb-9961-5daac6b8a83d.png",
-            "promotion_title": "Cadeau avec bâton brillance Oribe!",
-            "promotion_description": "<p>À l’achat du bâton brillance d'Oribe, recevez gratuitement une trousse Supershine!</p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
         "promotion_card_6JURgh",
         "promotion_card_dbBQiy",
-        "promotion_card_fMJpAD",
-        "promotion_card_FVeDCd",
-        "promotion_card_TkQb8M"
+        "promotion_card_TkQb8M",
+        "promotion_card_FVeDCd"
       ],
       "name": "# Promotions list",
       "settings": {
