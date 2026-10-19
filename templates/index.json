@@ -91,6 +91,19 @@
     "c_home_multi_banner_EHJpLw": {
       "type": "c-home-multi-banner",
       "blocks": {
+        "item_banner_9PgTWV": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/V1_-_Eve.png",
+            "background_color": "#fbe4db",
+            "title": "<strong>VENTE ANNUELLE</strong>",
+            "description": "<p>Du 22 octobre au 1er novembre, profitez de 20 % de rabais sur presque tout, même sur les articles en solde, en liquidation et les coffrets des Fêtes! Tous les détails sur la page de la vente!</p>",
+            "text_color": "#13120f",
+            "link_url": "shopify://collections/vente-annuelle",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_ErkAzK": {
           "type": "item_banner",
           "settings": {
@@ -126,26 +139,13 @@
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
-        },
-        "item_banner_9PgTWV": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/V1_-_Eve.png",
-            "background_color": "#FBE4DB",
-            "title": "<strong>VENTE ANNUELLE</strong>",
-            "description": "<p>Du 22 octobre au 1er novembre, profitez de 20 % de rabais sur presque tout, même sur les articles en solde, en liquidation et les coffrets des Fêtes! Tous les détails sur la page de la vente!</p>",
-            "text_color": "#13120F",
-            "link_url": "shopify://collections/vente-annuelle",
-            "link_text": "magasiner"
-          }
         }
       },
       "block_order": [
+        "item_banner_9PgTWV",
         "item_banner_ErkAzK",
         "item_banner_7ykdEr",
-        "item_banner_6fkeqz",
-        "item_banner_9PgTWV"
+        "item_banner_6fkeqz"
       ],
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
