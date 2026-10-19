@@ -78,7 +78,7 @@
         "countdown_text_color": "#5C2733",
         "flip_background": "#F4E5DC",
         "flip_background_opacity": 100,
-        "flip_text_color": "",
+        "flip_text_color": "#F4E5DC",
         "overlay_color": "#F4E5DC",
         "overlay_opacity": 30
       }
