@@ -132,10 +132,10 @@
           "type": "item_banner",
           "settings": {
             "image": "shopify://shop_images/Baton_Oribe_750_x_600_px_403f81e6-cd84-4b6f-8234-b6c61c9c118d.png",
-            "background_color": "#1F264F",
+            "background_color": "#1f264f",
             "title": "LE SECRET D'UN SLEEK PARFAIT",
             "description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
             "link_text": "magasiner"
           }
@@ -420,7 +420,7 @@
         "promotion_card_FVeDCd": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_e69c3b4c-cd0c-451d-bcfb-94cabb1a3ab8.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_b3e226aa-58f0-49f0-ac62-7f1cbea962c8.png",
             "promotion_title": "15% sur Blond Absolu de Kérastase",
             "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
@@ -459,8 +459,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -470,8 +470,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -481,8 +481,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -492,8 +492,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -503,8 +503,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -514,8 +514,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -525,8 +525,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -536,8 +536,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -547,8 +547,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#FBE4DB",
-            "border_item_color": "#5C2733",
+            "background_item_color": "#fbe4db",
+            "border_item_color": "#5c2733",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
