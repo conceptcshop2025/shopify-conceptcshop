@@ -86,9 +86,21 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_jgy3wm": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_63545899-c703-46a3-a548-8e48717f07ac.png",
+            "promotion_title": "Jusqu'à 25% de rabais",
+            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_PeBBMc": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_17.png",
             "promotion_title": "Vente Annuelle",
@@ -120,6 +132,7 @@
         "promotion_card_NB9hyT",
         "promotion_card_FfVjLx",
         "promotion_card_U3wzeX",
+        "promotion_card_jgy3wm",
         "promotion_card_PeBBMc",
         "promotion_card_W7BpWz"
       ],
