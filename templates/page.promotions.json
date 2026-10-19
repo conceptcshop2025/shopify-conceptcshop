@@ -142,25 +142,12 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_YcTP9L": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_11c0bdf5-c09b-4cbf-a4b6-19e082e9cc5a.png",
-            "promotion_title": "Cadeau Shu Uemura",
-            "promotion_description": "<p>À l’achat du masque sans rinçage Réparation Extrême Ultimate Reset de Shu Uemura, obtenez gratuitement une brosse de voyage Ultimate Reset!</p>",
-            "promotion_link": "shopify://products/shu-uemura-masque-sans-rincage-reparation-extreme-ultimate-reset-90-ml",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_pPt4rr": {
           "type": "promotion_card",
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_563d41d5-73a3-4067-a158-8fc3a767bcd3.png",
             "promotion_title": "Cadeau K18",
-            "promotion_description": "<p>À l’achat de 50$ de produits K18, obtenez gratuitement l’huile capillaire de réparation moléculaire - 10 ml!</p>",
+            "promotion_description": "<p>À l’achat de 100$ de produits K18, obtenez gratuitement l’huile capillaire de réparation moléculaire - 10 ml!</p>",
             "promotion_link": "shopify://collections/k18",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -222,7 +209,6 @@
         }
       },
       "block_order": [
-        "promotion_card_YcTP9L",
         "promotion_card_pPt4rr",
         "promotion_card_37YJww",
         "promotion_card_f3UtEV",
