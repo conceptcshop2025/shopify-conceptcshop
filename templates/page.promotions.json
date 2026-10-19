@@ -36,6 +36,7 @@
         },
         "promotion_card_PRTHF6": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/4_97ccb3d6-33bd-429f-82c9-e142a201a3ef.png",
             "promotion_title": "25% sur Keratin Alpha Sleek",
@@ -50,7 +51,7 @@
         "promotion_card_Vzht6P": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_8d4ba30f-7666-49bc-bddd-a78da1997a95.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_b3e226aa-58f0-49f0-ac62-7f1cbea962c8.png",
             "promotion_title": "15% sur Blond Absolu de Kérastase",
             "promotion_description": "<p>Le blond mérite des soins à sa hauteur! Blond Absolu hydrate, renforce et ravive l’éclat des cheveux blonds, méchés ou décolorés, tout en aidant à neutraliser les reflets indésirables.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
@@ -63,7 +64,7 @@
         "promotion_card_FfVjLx": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/14_022d7c49-3a85-4148-ad7f-7501439ab91e.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_4.png",
             "promotion_title": "-50% sur Balmain",
             "promotion_description": "<p>La gamme de luxe Balmain est à 50 % de rabais. Des soins capillaires raffinés et haut de gamme pour donner une touche plus prestigieuse à votre routine.</p>",
             "promotion_link": "shopify://collections/balmain",
@@ -103,7 +104,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_2_a777891c-ce68-4488-be16-16b8e41ee399.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_5.png",
             "promotion_title": "Tout à 50% de rabais",
             "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
             "promotion_link": "shopify://collections/la-voute",
