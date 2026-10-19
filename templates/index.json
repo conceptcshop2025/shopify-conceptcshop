@@ -398,7 +398,7 @@
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_cd31e83b-bec7-441c-9f74-b82619351669.png",
             "promotion_title": "15% de rabais!",
             "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés. Retrouvez les essentiels de la marque pour compléter votre routine capillaire!</p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
