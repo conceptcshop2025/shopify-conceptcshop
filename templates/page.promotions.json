@@ -40,7 +40,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_10.png",
             "promotion_title": "15% de rabais",
-            "promotion_description": "",
+            "promotion_description": "<p>Retrouvez vos shampoings et revitalisants Pureology préférés en format d’un litre. Le moment idéal pour faire le plein de vos essentiels et prolonger votre routine capillaire à prix réduit!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-14",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
