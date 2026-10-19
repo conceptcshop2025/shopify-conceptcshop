@@ -90,9 +90,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_17.png",
             "promotion_title": "Vente Annuelle",
-            "promotion_description": "<p>Du 22 octobre au 1er novembre, profitez de 20 % de rabais sur presque tout, même sur les articles en solde, en liquidation et les coffrets des Fêtes! Tous les détails sur la page de la vente!</p>",
+            "promotion_description": "<p>Du 22 octobre au 1er novembre, profitez de <strong>20% de rabais</strong> sur presque tout, même sur les articles en solde, en liquidation et les coffrets des Fêtes! Tous les détails sur la page de la vente!</p>",
             "promotion_link": "shopify://collections/vente-annuelle",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
