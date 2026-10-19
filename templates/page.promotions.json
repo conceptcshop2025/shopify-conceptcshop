@@ -194,6 +194,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_yf3Q6P": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_12.png",
+            "promotion_title": "Cadeau Moroccanoil",
+            "promotion_description": "<p>À l’achat de 50 $ de produits Moroccanoil, obtenez gratuitement le baume à lèvres Thé à la Menthe Marocain!</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_37YJww": {
           "type": "promotion_card",
           "settings": {
@@ -239,6 +253,7 @@
         "promotion_card_mzyc8j",
         "promotion_card_pPt4rr",
         "promotion_card_myQfCr",
+        "promotion_card_yf3Q6P",
         "promotion_card_37YJww",
         "promotion_card_f3UtEV",
         "promotion_card_8dRH8e"
