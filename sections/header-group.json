@@ -75,7 +75,7 @@
         "countdown_font_size": 48,
         "background_color": "",
         "text_color": "",
-        "countdown_text_color": "#5c2733",
+        "countdown_text_color": "",
         "flip_background": "#f4e5dc",
         "flip_background_opacity": 100,
         "flip_text_color": "#f4e5dc",
