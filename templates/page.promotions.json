@@ -196,7 +196,6 @@
         },
         "promotion_card_yf3Q6P": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_12.png",
             "promotion_title": "Cadeau Moroccanoil",
