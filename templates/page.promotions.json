@@ -181,6 +181,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_myQfCr": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_11.png",
+            "promotion_title": "Cadeau Amika",
+            "promotion_description": "<p>À l’achat de 50 $ de produits Amika, obtenez gratuitement le shampoing sec Perk Up Ultra 29 ml!</p>",
+            "promotion_link": "",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_37YJww": {
           "type": "promotion_card",
           "settings": {
@@ -225,6 +238,7 @@
         "promotion_card_JzYFqj",
         "promotion_card_mzyc8j",
         "promotion_card_pPt4rr",
+        "promotion_card_myQfCr",
         "promotion_card_37YJww",
         "promotion_card_f3UtEV",
         "promotion_card_8dRH8e"
