@@ -395,9 +395,10 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_ca2e4b51-50eb-4db9-a317-f36446d1263d.png",
             "promotion_title": "Cadeau Redken",
             "promotion_description": "<p>À l’achat du sérum cuir chevelu et cheveux Densité et Force Acidic Grow Full de Redken 100 ml, obtenez gratuitement une brosse pour le cuir chevelu Redken turquoise!</p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
