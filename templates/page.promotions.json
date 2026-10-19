@@ -145,7 +145,7 @@
         "promotion_card_pPt4rr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_563d41d5-73a3-4067-a158-8fc3a767bcd3.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_6.png",
             "promotion_title": "Cadeau K18",
             "promotion_description": "<p>À l’achat de 100$ de produits K18, obtenez gratuitement l’huile capillaire de réparation moléculaire - 10 ml!</p>",
             "promotion_link": "shopify://collections/k18",
@@ -158,7 +158,7 @@
         "promotion_card_37YJww": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_1_a4bd1f34-2e7c-4e92-99d1-65eaf69921b9.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_7.png",
             "promotion_title": "Cadeau Shu Uemura",
             "promotion_description": "<p>À l’achat de 2 produits Shu Uemura en format régulier, recevez gratuitement un sac des Fêtes!</p>",
             "promotion_link": "shopify://collections/promo-du-moment-6",
@@ -171,7 +171,7 @@
         "promotion_card_f3UtEV": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_b61f786f-2c61-4d51-9a4f-84f1f55e21f8.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_8.png",
             "promotion_title": "Cadeau Kérastase",
             "promotion_description": "<p>À l’achat du Sérum de Nuit ou de la Potion de Longévité Chronologiste, obtenez gratuitement une pochette en cuir.</p>",
             "promotion_link": "shopify://collections/offre-kerastase",
@@ -184,23 +184,10 @@
         "promotion_card_8dRH8e": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/12_253024ff-6042-47cc-bca1-a35884b12df9.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_9.png",
             "promotion_title": "Cadeau Iles Formula",
             "promotion_description": "<p>À l’achat de 75 $ de la gamme Iles Formula, obtenez gratuitement une serviette en microfibre blanche!</p>",
             "promotion_link": "shopify://collections/iles-formula",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_THNjpF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_235b82d4-dba1-4166-a943-b43df06bb725.png",
-            "promotion_title": "Cadeau Sacha Juan",
-            "promotion_description": "<p>À l’achat de 55 $ de produits Sachajuan, obtenez gratuitement un masque Réparateur 30 ml. <em>Exclusivité web. </em></p>",
-            "promotion_link": "shopify://collections/sachajuan",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -212,8 +199,7 @@
         "promotion_card_pPt4rr",
         "promotion_card_37YJww",
         "promotion_card_f3UtEV",
-        "promotion_card_8dRH8e",
-        "promotion_card_THNjpF"
+        "promotion_card_8dRH8e"
       ],
       "name": "# Promotions list",
       "settings": {
