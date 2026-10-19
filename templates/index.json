@@ -150,7 +150,7 @@
       "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
         "first_section": false,
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
