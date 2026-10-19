@@ -21,14 +21,13 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_zJzyYT": {
+        "promotion_card_Hg9HeU": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2_28402ddb-e537-41fd-9054-82a50bf052f5.png",
-            "promotion_title": "15% de rabais!",
-            "promotion_description": "<p>Découvrez une sélection de soins et coiffants Shu Uemura conçus pour prendre soin des cheveux et faciliter la mise en forme. Retrouvez les essentiels de la marque pour compléter votre routine capillaire.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_cd31e83b-bec7-441c-9f74-b82619351669.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés. Retrouvez les essentiels de la marque pour compléter votre routine capillaire!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -116,7 +115,7 @@
         }
       },
       "block_order": [
-        "promotion_card_zJzyYT",
+        "promotion_card_Hg9HeU",
         "promotion_card_PRTHF6",
         "promotion_card_Vzht6P",
         "promotion_card_FfVjLx",
