@@ -394,13 +394,24 @@
       },
       "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de": {
         "settings": {
-          "background": "#5C2733",
+          "background": "#5c2733",
           "background_gradient": "",
-          "text_color": "#FBE4DB",
-          "primary_button_background": "#5C2733",
-          "primary_button_text_color": "#FBE4DB",
-          "circle_button_background": "#5C2733",
-          "circle_button_icon": "#FBE4DB"
+          "text_color": "#fbe4db",
+          "primary_button_background": "#5c2733",
+          "primary_button_text_color": "#fbe4db",
+          "circle_button_background": "#5c2733",
+          "circle_button_icon": "#fbe4db"
+        }
+      },
+      "scheme-54e3346b-ef23-4afe-a235-ed1d467921ec": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text_color": "#5C2733",
+          "primary_button_background": "#FBE4DB",
+          "primary_button_text_color": "#5C2733",
+          "circle_button_background": "#FBE4DB",
+          "circle_button_icon": "#5C2733"
         }
       }
     }
