@@ -326,6 +326,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_ymUbrY": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_1_9375ceab-cae4-4514-9e6d-5863ff9cdab7.png",
+            "promotion_title": "Moroccanoil",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Moroccanoil. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_B7VPDU": {
           "type": "promotion_card",
           "disabled": true,
@@ -415,6 +428,7 @@
         "promotion_card_McCiBz",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
+        "promotion_card_ymUbrY",
         "promotion_card_B7VPDU",
         "promotion_card_9XbYyw",
         "promotion_card_qnEiWM",
