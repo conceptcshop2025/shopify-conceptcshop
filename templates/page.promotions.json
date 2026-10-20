@@ -305,7 +305,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_14.png",
             "promotion_title": "Shu Uemura",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -318,7 +318,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_15.png",
             "promotion_title": "Esthederm",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
