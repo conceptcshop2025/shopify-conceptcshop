@@ -154,6 +154,20 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_AHQQzT": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_d06b3903-d5d1-4e31-93d0-6811c6a7533d.png",
+            "promotion_title": "Cadeau Kérastase",
+            "promotion_description": "<p>À l’achat d’un produit format régulier de Kérastase, obtenez gratuitement un format deluxe du sérum de nuit!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_JzYFqj": {
           "type": "promotion_card",
           "settings": {
@@ -260,6 +274,7 @@
         }
       },
       "block_order": [
+        "promotion_card_AHQQzT",
         "promotion_card_JzYFqj",
         "promotion_card_mzyc8j",
         "promotion_card_pPt4rr",
