@@ -74,6 +74,14 @@
             "question": "<strong>Offrez-vous une garantie de satisfaction ?</strong>",
             "answer": "<p>Nous comprenons que certaines situations puissent amener une demande de retour. Veuillez toutefois noter que nous n’offrons pas de garantie satisfaction. Dans certains cas, un retour peut être accepté, à condition de respecter les critères établis (délais, état du produit, etc.).</p><p>Pour plus de détails, nous vous invitons à consulter notre politique de retour et remboursement.</p><p>Notre équipe demeure disponible pour toute question  au besoin au <a>info@conceptcshop.com</a> </p>"
           }
+        },
+        "question_cJV4MG": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "<strong>Quel est le délai de retour pour les achats des Fêtes?&nbsp;</strong>",
+            "answer": "<p>Pour vous permettre de magasiner vos cadeaux à l’avance, les achats effectués du 15 octobre au 24 décembre peuvent être retournés jusqu’au 10 janvier suivant, sous réserve du respect de toutes les conditions de notre politique de retour.</p>"
+          }
         }
       },
       "block_order": [
@@ -85,7 +93,8 @@
         "question_VNyCeW",
         "question_m7YHxb",
         "question_mNxWjJ",
-        "question_pfNgHQ"
+        "question_pfNgHQ",
+        "question_cJV4MG"
       ],
       "settings": {
         "color_scheme": "",
