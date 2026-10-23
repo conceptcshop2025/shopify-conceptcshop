@@ -156,7 +156,6 @@
       "blocks": {
         "promotion_card_AHQQzT": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_d06b3903-d5d1-4e31-93d0-6811c6a7533d.png",
             "promotion_title": "Cadeau Kérastase",
