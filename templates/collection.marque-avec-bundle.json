@@ -65,6 +65,50 @@
         "remove_vertical_spacing": true
       }
     },
+    "c_expiration_content_jwVkEz": {
+      "type": "c-expiration-content",
+      "blocks": {
+        "content_TDkn34": {
+          "type": "content",
+          "settings": {
+            "button_text": "Lorem ipsum",
+            "button_link": "shopify://collections",
+            "button_font_size": 40,
+            "button_alignment": "center",
+            "button_background": "#DC23A5",
+            "button_text_color": "#FFFFFF",
+            "button_hover_background": "#1E2AD0",
+            "button_hover_text_color": "#FFFFFF",
+            "start_date": "2026-10-26 22:00",
+            "end_date": "2026-10-27 20:00"
+          }
+        },
+        "content_cR7GHE": {
+          "type": "content",
+          "settings": {
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_font_size": 16,
+            "button_alignment": "center",
+            "button_background": "",
+            "button_text_color": "",
+            "button_hover_background": "",
+            "button_hover_text_color": "",
+            "start_date": "2026-10-27 20:30",
+            "end_date": "2026-10-28 22:00"
+          }
+        }
+      },
+      "block_order": [
+        "content_TDkn34",
+        "content_cR7GHE"
+      ],
+      "name": "C Expiration content",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_collection_tags_XfY4PX": {
       "type": "custom-collection-tags",
       "name": "# Collection tags",
@@ -105,6 +149,7 @@
     "collection-banner",
     "c_expiration_text_Kfxc7r",
     "rich_text_NtC7Dr",
+    "c_expiration_content_jwVkEz",
     "custom_collection_tags_XfY4PX",
     "main"
   ]
