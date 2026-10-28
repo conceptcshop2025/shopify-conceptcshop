@@ -53,6 +53,7 @@
       "block_order": [
         "button_3HLmKL"
       ],
+      "disabled": true,
       "custom_css": [
         "div {margin-bottom: 40px;}"
       ],
@@ -71,39 +72,22 @@
         "content_TDkn34": {
           "type": "content",
           "settings": {
-            "button_text": "Lorem ipsum",
-            "button_link": "shopify://collections",
-            "button_font_size": 40,
+            "button_text": "Crée ta Routine Kérastase à 10% de Rabais",
+            "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
+            "button_font_size": 22,
             "button_alignment": "center",
-            "button_background": "#dc23a5",
-            "button_text_color": "#ffffff",
-            "button_hover_background": "#1e2ad0",
-            "button_hover_text_color": "#ffffff",
-            "start_date": "2026-10-28 18:07",
-            "end_date": "2026-10-28 18:08"
-          }
-        },
-        "content_cR7GHE": {
-          "type": "content",
-          "settings": {
-            "button_text": "Shop now",
-            "button_link": "",
-            "button_font_size": 16,
-            "button_alignment": "center",
-            "button_background": "",
-            "button_text_color": "",
-            "button_hover_background": "",
-            "button_hover_text_color": "",
-            "start_date": "2026-10-27 20:30",
-            "end_date": "2026-10-28 22:00"
+            "button_background": "#E4C0AE",
+            "button_text_color": "#454545",
+            "button_hover_background": "#FFFFFF",
+            "button_hover_text_color": "#E4C0AE",
+            "start_date": "2026-10-28 18:00",
+            "end_date": "2026-10-29 18:00"
           }
         }
       },
       "block_order": [
-        "content_TDkn34",
-        "content_cR7GHE"
+        "content_TDkn34"
       ],
-      "disabled": true,
       "name": "C Expiration content",
       "settings": {
         "padding_top": 0,
