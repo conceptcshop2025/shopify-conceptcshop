@@ -83,10 +83,26 @@
             "start_date": "2026-10-28 18:00",
             "end_date": "2026-10-29 18:00"
           }
+        },
+        "content_bfXx78": {
+          "type": "content",
+          "settings": {
+            "button_text": "Crée ta Routine Kérastase à 15% de Rabais",
+            "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/33813",
+            "button_font_size": 22,
+            "button_alignment": "center",
+            "button_background": "#E4C0AE",
+            "button_text_color": "#454545",
+            "button_hover_background": "#FFFFFF",
+            "button_hover_text_color": "#E4C0AE",
+            "start_date": "2026-10-29 18:00",
+            "end_date": "2026-11-12 00:00"
+          }
         }
       },
       "block_order": [
-        "content_TDkn34"
+        "content_TDkn34",
+        "content_bfXx78"
       ],
       "name": "C Expiration content",
       "settings": {
