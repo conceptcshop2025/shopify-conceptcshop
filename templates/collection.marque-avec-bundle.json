@@ -75,12 +75,12 @@
             "button_link": "shopify://collections",
             "button_font_size": 40,
             "button_alignment": "center",
-            "button_background": "#DC23A5",
-            "button_text_color": "#FFFFFF",
-            "button_hover_background": "#1E2AD0",
-            "button_hover_text_color": "#FFFFFF",
-            "start_date": "2026-10-26 22:00",
-            "end_date": "2026-10-27 20:00"
+            "button_background": "#dc23a5",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#1e2ad0",
+            "button_hover_text_color": "#ffffff",
+            "start_date": "2026-10-28 18:07",
+            "end_date": "2026-10-28 18:08"
           }
         },
         "content_cR7GHE": {
@@ -103,6 +103,7 @@
         "content_TDkn34",
         "content_cR7GHE"
       ],
+      "disabled": true,
       "name": "C Expiration content",
       "settings": {
         "padding_top": 0,
