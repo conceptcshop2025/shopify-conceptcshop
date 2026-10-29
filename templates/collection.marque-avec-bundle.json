@@ -76,12 +76,12 @@
             "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
             "button_font_size": 22,
             "button_alignment": "center",
-            "button_background": "#E4C0AE",
+            "button_background": "#e4c0ae",
             "button_text_color": "#454545",
-            "button_hover_background": "#FFFFFF",
-            "button_hover_text_color": "#E4C0AE",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#e4c0ae",
             "start_date": "2026-10-28 18:00",
-            "end_date": "2026-10-29 18:00"
+            "end_date": "2026-10-29 21:00"
           }
         },
         "content_bfXx78": {
@@ -91,11 +91,11 @@
             "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/33813",
             "button_font_size": 22,
             "button_alignment": "center",
-            "button_background": "#E4C0AE",
+            "button_background": "#e4c0ae",
             "button_text_color": "#454545",
-            "button_hover_background": "#FFFFFF",
-            "button_hover_text_color": "#E4C0AE",
-            "start_date": "2026-10-29 18:00",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#e4c0ae",
+            "start_date": "2026-10-29 21:00",
             "end_date": "2026-11-12 00:00"
           }
         }
