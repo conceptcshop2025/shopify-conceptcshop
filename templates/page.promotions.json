@@ -21,6 +21,20 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_WpkijQ": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_ee91f778-ad17-4769-8cbd-c62a09dee050.png",
+            "promotion_title": "11% de rabais",
+            "promotion_description": "<p>Le Single’s Day chez Kérastase! Profitez de 11 % de rabais ou de 15 % à l’achat de 3 produits de format régulier. Le moment parfait pour faire le plein de vos favoris!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_Hg9HeU": {
           "type": "promotion_card",
           "settings": {
@@ -127,6 +141,7 @@
         }
       },
       "block_order": [
+        "promotion_card_WpkijQ",
         "promotion_card_Hg9HeU",
         "promotion_card_jYHafK",
         "promotion_card_NB9hyT",
