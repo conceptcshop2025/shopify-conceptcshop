@@ -132,11 +132,11 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_3.png",
-            "background_color": "#1f264f",
+            "background_color": "#9D404A",
             "title": "<strong>LANCEMENT</strong>",
             "description": "<p>Bâton de cire lissant qui maîtrise frisottis et mèches rebelles, offrant brillance, douceur et tenue flexible longue durée impeccable, sans effet gras ni résidus visibles.</p>",
-            "text_color": "#ffffff",
-            "link_url": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "text_color": "#000000",
+            "link_url": "",
             "link_text": "magasiner"
           }
         }
