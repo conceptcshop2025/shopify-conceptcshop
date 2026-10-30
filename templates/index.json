@@ -132,10 +132,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_3.png",
-            "background_color": "#69715B",
+            "background_color": "#B8B7A1",
             "title": "<strong>&nbsp;NOUVEAUTÉ REDKEN&nbsp;</strong>",
             "description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
-            "text_color": "#F6F6F6",
+            "text_color": "#000000",
             "link_url": "",
             "link_text": "magasiner"
           }
@@ -145,10 +145,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_2.png",
-            "background_color": "#69715B",
+            "background_color": "#B8B7A1",
             "title": "<strong>COFFRETS DES FÊTES</strong>",
             "description": "<p>Profitez de jusqu’à 40 % de rabais sur notre sélection de coffrets des Fêtes de vos marques préférées, parfaits pour offrir ou vous faire plaisir!</p>",
-            "text_color": "#F6F6F6",
+            "text_color": "#000000",
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
@@ -158,10 +158,10 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_1.png",
-            "background_color": "#69715B",
+            "background_color": "#B8B7A1",
             "title": "<strong>BAS DE NOEL</strong>",
             "description": "<p>Un petit cadeau en plus pour les Fêtes! Recevez une pochette GRATUITE à l’achat de 40 $ de nos essentiels beauté parfaits pour remplir les bas de Noël!</p>",
-            "text_color": "#F6F6F6",
+            "text_color": "#000000",
             "link_url": "",
             "link_text": "magasiner"
           }
