@@ -103,6 +103,19 @@
             "link_text": "magasiner"
           }
         },
+        "item_banner_UbMWKb": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_3.png",
+            "background_color": "#69715B",
+            "title": "<strong>&nbsp;NOUVEAUTÉ REDKEN&nbsp;</strong>",
+            "description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
+            "text_color": "#F6F6F6",
+            "link_url": "",
+            "link_text": "magasiner"
+          }
+        },
         "item_banner_ErkAzK": {
           "type": "item_banner",
           "settings": {
@@ -124,19 +137,6 @@
             "description": "<p>Découvrez notre sélection de coffrets des Fêtes de vos marques préférées. Des essentiels beauté à offrir ou à s’offrir, pour faire plaisir à tous les coups!</p>",
             "text_color": "#000000",
             "link_url": "shopify://collections/coffrets",
-            "link_text": "magasiner"
-          }
-        },
-        "item_banner_UbMWKb": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_3.png",
-            "background_color": "#69715B",
-            "title": "<strong>&nbsp;NOUVEAUTÉ REDKEN&nbsp;</strong>",
-            "description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
-            "text_color": "#F6F6F6",
-            "link_url": "",
             "link_text": "magasiner"
           }
         },
@@ -169,9 +169,9 @@
       },
       "block_order": [
         "item_banner_9PgTWV",
+        "item_banner_UbMWKb",
         "item_banner_ErkAzK",
         "item_banner_6fkeqz",
-        "item_banner_UbMWKb",
         "item_banner_RMgyNB",
         "item_banner_mWGprk"
       ],
