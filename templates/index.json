@@ -380,7 +380,6 @@
       "blocks": {
         "promotion_card_wWN7jE": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_ee91f778-ad17-4769-8cbd-c62a09dee050.png",
             "promotion_title": "11% de rabais!",
