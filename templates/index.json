@@ -132,12 +132,12 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_2.png",
-            "background_color": "",
+            "background_color": "#9D404A",
             "title": "<strong>COFFRETS DES FÊTES</strong>",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_color": "",
-            "link_url": "",
-            "link_text": ""
+            "description": "<p>Profitez de jusqu’à 40 % de rabais sur notre sélection de coffrets des Fêtes de vos marques préférées, parfaits pour offrir ou vous faire plaisir!</p>",
+            "text_color": "#F6F6F6",
+            "link_url": "shopify://collections/coffrets",
+            "link_text": "magasiner"
           }
         },
         "item_banner_UbMWKb": {
