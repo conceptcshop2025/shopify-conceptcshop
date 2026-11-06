@@ -6,7 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
 
-    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+    <title>
+      {% if page_title == blank -%}
+        {{- shop.name -}}
+      {%- else -%}
+        {{- page_title -}}
+        {%- if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif -%}
+      {%- endif %}
+    </title>
 
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
@@ -100,7 +107,7 @@
 
     {{ content_for_header }}
 
-    {{- 'theme.css' | asset_url | stylesheet_tag -}}
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'custom.css' | asset_url | stylesheet_tag -}}
     {{- 'custom-swym-wishlist.css' | asset_url | stylesheet_tag -}}
 
@@ -115,11 +122,11 @@
 
   {% liquid
     assign features_class = ''
-  
+
     if settings.show_button_transition
       assign features_class = features_class | append: 'features--button-transition '
     endif
-  
+
     if settings.show_image_zoom_on_hover
       assign features_class = features_class | append: 'features--zoom-image '
     endif
@@ -130,6 +137,17 @@
 
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
     <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- comment -%}
+      This placeholder will be filled to screen readers for any kind of announcements
+    {%- endcomment -%}
+    <div class="sr-only" role="status" aria-live="polite" aria-atomic="true">
+      <span id="status-announcement"></span>
+    </div>
+
+    <div class="sr-only" role="alert" aria-live="assertive" aria-atomic="true">
+      <span id="error-announcement"></span>
+    </div>
 
     <span id="header-scroll-tracker" style="position: absolute; width: 1px; height: 1px; top: var(--header-scroll-tracker-offset, 10px); left: 0;">
       {%- comment -%}
@@ -147,9 +165,9 @@
       {{ content_for_layout }}
 
       {%- comment -%}
-      IMPLEMENTATION NOTE: For best semantics, having the footer group outside the main would be slightly better, but
-        moving it inside the main allows to have all the sections (including sections inside the footer group) to be
-        consecutive, and hence having a cleaner margin collapsing management.
+        IMPLEMENTATION NOTE: For best semantics, having the footer group outside the main would be slightly better, but
+          moving it inside the main allows to have all the sections (including sections inside the footer group) to be
+          consecutive, and hence having a cleaner margin collapsing management.
       {%- endcomment -%}
       {%- if request.page_type != 'password' -%}
         {%- sections 'footer-group' -%}

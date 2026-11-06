@@ -30,7 +30,6 @@
   {% endstyle %}
 {% endif %}
 
-
 {%- capture collection_breadcrumb -%}
   {%- if section.settings.show_breadcrumb -%}
     <nav class="breadcrumb breadcrumb--floating" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
@@ -73,6 +72,8 @@
   {%- endif -%}
 {%- endcapture -%}
 
+{%- assign text_alignment = section.settings.text_alignment | replace: 'left', 'start' | replace: 'right', 'end' -%}
+
 {%- if show_image -%}
   <style>
     #shopify-section-{{ section.id }} {
@@ -81,7 +82,15 @@
     }
   </style>
 
-  <collection-banner {% if section.settings.reveal %}reveal-on-scroll="true"{% endif %} class="collection-banner color-scheme color-scheme--{{ section.settings.color_scheme.id }}" {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
+  <collection-banner
+    {% if section.settings.reveal %}
+      reveal-on-scroll="true"
+    {% endif %}
+    class="collection-banner color-scheme color-scheme--{{ section.settings.color_scheme.id }}"
+    {% if section.settings.allow_transparent_header %}
+      allow-transparent-header
+    {% endif %}
+  >
     {%- unless section.settings.allow_transparent_header -%}
       {{- collection_breadcrumb -}}
     {%- endunless -%}
@@ -111,7 +120,7 @@
         {{- picture_content -}}
       {%- endif -%}
 
-      <div class="prose text-center">
+      <div class="prose place-self-center-{{ text_alignment }} text-{{ text_alignment }}">
         {{ collection_content }}
       </div>
     </div>
@@ -126,10 +135,10 @@
 
     {% endstyle %}
     <div class="relative section-spacing section-spacing--tight section-collection-banner" id="section--{{ section.id }}">
-      <div class="container container--{{ section.settings.content_width }}">
+      <div class="container container--{{ section.settings.content_width }} container--align-{{ text_alignment }}">
         {{- collection_breadcrumb -}}
 
-        <div class="prose text-center">
+        <div class="prose text-{{ text_alignment }}">
           {{- collection_content -}}
         </div>
       </div>
@@ -242,6 +251,10 @@
       "label": "t:global.sizes.content_width",
       "options": [
         {
+          "value": "xxs",
+          "label": "t:global.sizes.xx_small"
+        },
+        {
           "value": "xs",
           "label": "t:global.sizes.x_small"
         },
@@ -263,6 +276,12 @@
         }
       ],
       "default": "xs"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "t:global.text.alignment",
+      "default": "center"
     },
     {
       "type": "header",
