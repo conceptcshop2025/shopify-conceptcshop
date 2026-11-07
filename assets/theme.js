@@ -105,9 +105,11 @@ initialize_fn = function() {
   if (this.children[0]?.childElementCount === 0) {
     return;
   }
-  this.attachShadow({ mode: "open" }).appendChild(document.createRange().createContextualFragment(`
+  this.attachShadow({ mode: "open" }).appendChild(
+    document.createRange().createContextualFragment(`
       <slot part="scroller"></slot>
-    `));
+    `)
+  );
   const fragment = document.createDocumentFragment();
   const duplicateCount = Math.ceil(this.clientWidth / this.firstElementChild.clientWidth);
   for (let i = 1; i <= duplicateCount; ++i) {
@@ -120,11 +122,15 @@ initialize_fn = function() {
     }
   }
   this.append(fragment);
-  __privateSet(this, _currentAnimation, animate(__privateGet(this, _MarqueeText_instances, scroller_get), { transform: ["translateX(0)", `translateX(calc(var(--transform-logical-flip) * ${__privateGet(this, _MarqueeText_instances, direction_get) * 100}%))`] }, {
-    duration: 1 / parseFloat(this.getAttribute("speed")) * (__privateGet(this, _MarqueeText_instances, scroller_get).clientWidth / 300),
-    easing: "linear",
-    repeat: Infinity
-  }));
+  __privateSet(this, _currentAnimation, animate(
+    __privateGet(this, _MarqueeText_instances, scroller_get),
+    { transform: ["translateX(0)", `translateX(calc(var(--transform-logical-flip) * ${__privateGet(this, _MarqueeText_instances, direction_get) * 100}%))`] },
+    {
+      duration: 1 / parseFloat(this.getAttribute("speed")) * (__privateGet(this, _MarqueeText_instances, scroller_get).clientWidth / 300),
+      easing: "linear",
+      repeat: Infinity
+    }
+  ));
 };
 if (!window.customElements.get("marquee-text")) {
   window.customElements.define("marquee-text", MarqueeText);
@@ -223,7 +229,10 @@ var CountrySelector = class extends HTMLElement {
     this.provinceElement = this.querySelector('[name="address[province]"]');
     this.countryElement.addEventListener("change", __privateGet(this, _onCountryChangedListener));
     if (this.hasAttribute("country") && this.getAttribute("country") !== "") {
-      this.countryElement.selectedIndex = Math.max(0, Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country")));
+      this.countryElement.selectedIndex = Math.max(
+        0,
+        Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country"))
+      );
     }
     this.countryElement.dispatchEvent(new Event("change"));
   }
@@ -334,30 +343,34 @@ function videoLoaded(videoOrArray) {
     return Promise.resolve();
   }
   videoOrArray = videoOrArray instanceof Element ? [videoOrArray] : Array.from(videoOrArray);
-  return Promise.all(videoOrArray.map((video) => {
-    return new Promise((resolve) => {
-      if (video.tagName === "VIDEO" && video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent || video.parentNode.hasAttribute("suspended")) {
-        resolve();
-      } else {
-        video.oncanplay = () => resolve();
-      }
-    });
-  }));
+  return Promise.all(
+    videoOrArray.map((video) => {
+      return new Promise((resolve) => {
+        if (video.tagName === "VIDEO" && video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent || video.parentNode.hasAttribute("suspended")) {
+          resolve();
+        } else {
+          video.oncanplay = () => resolve();
+        }
+      });
+    })
+  );
 }
 function imageLoaded(imageOrArray) {
   if (!imageOrArray) {
     return Promise.resolve();
   }
   imageOrArray = imageOrArray instanceof Element ? [imageOrArray] : Array.from(imageOrArray);
-  return Promise.all(imageOrArray.map((image) => {
-    return new Promise((resolve) => {
-      if (image.tagName === "IMG" && image.complete || !image.offsetParent) {
-        resolve();
-      } else {
-        image.onload = () => resolve();
-      }
-    });
-  }));
+  return Promise.all(
+    imageOrArray.map((image) => {
+      return new Promise((resolve) => {
+        if (image.tagName === "IMG" && image.complete || !image.offsetParent) {
+          resolve();
+        } else {
+          image.onload = () => resolve();
+        }
+      });
+    })
+  );
 }
 function generateSrcset(imageObjectOrString, widths = []) {
   let imageUrl, maxWidth;
@@ -488,6 +501,21 @@ if (!window.customElements.get("qr-code")) {
   window.customElements.define("qr-code", QrCode);
 }
 
+// js/common/utilities/accessibility.js
+function announceText(holderId, message) {
+  const holder = document.getElementById(holderId);
+  holder.textContent = "";
+  setTimeout(() => {
+    holder.textContent = message;
+  }, 100);
+}
+function announceStatus(message) {
+  announceText("status-announcement", message);
+}
+function announceError(message) {
+  announceText("error-announcement", message);
+}
+
 // js/common/behavior/height-observer.js
 var _resizeObserver, _HeightObserver_instances, updateCustomProperties_fn;
 var HeightObserver = class extends HTMLElement {
@@ -548,7 +576,7 @@ import { inView as inView2 } from "vendor";
 var _resizeObserver2, _checkPositionListener, _initialTop, _lastKnownY, _currentTop, _position, _SafeSticky_instances, recalculateStyles_fn, checkPosition_fn;
 var SafeSticky = class extends HTMLElement {
   constructor() {
-    super(...arguments);
+    super();
     __privateAdd(this, _SafeSticky_instances);
     __privateAdd(this, _resizeObserver2, new ResizeObserver(__privateMethod(this, _SafeSticky_instances, recalculateStyles_fn).bind(this)));
     __privateAdd(this, _checkPositionListener, throttle(__privateMethod(this, _SafeSticky_instances, checkPosition_fn).bind(this)));
@@ -557,16 +585,23 @@ var SafeSticky = class extends HTMLElement {
     /* we could initialize it to window.scrollY but this avoids a costly reflow */
     __privateAdd(this, _currentTop, 0);
     __privateAdd(this, _position, "relative");
+    if (window.Shopify.designMode) {
+      document.addEventListener("shopify:section:load", __privateMethod(this, _SafeSticky_instances, recalculateStyles_fn).bind(this));
+    }
   }
   connectedCallback() {
-    inView2(this, () => {
-      window.addEventListener("scroll", __privateGet(this, _checkPositionListener));
-      __privateGet(this, _resizeObserver2).observe(this);
-      return () => {
-        window.removeEventListener("scroll", __privateGet(this, _checkPositionListener));
-        __privateGet(this, _resizeObserver2).unobserve(this);
-      };
-    }, { margin: "500px" });
+    inView2(
+      this,
+      () => {
+        window.addEventListener("scroll", __privateGet(this, _checkPositionListener));
+        __privateGet(this, _resizeObserver2).observe(this);
+        return () => {
+          window.removeEventListener("scroll", __privateGet(this, _checkPositionListener));
+          __privateGet(this, _resizeObserver2).unobserve(this);
+        };
+      },
+      { margin: "500px" }
+    );
   }
   disconnectedCallback() {
     window.removeEventListener("scroll", __privateGet(this, _checkPositionListener));
@@ -668,7 +703,11 @@ var CarouselPrevButton = class extends HTMLElement {
     this.#abortController = new AbortController();
     this.addEventListener("click", () => this.carousel.previous(), { signal: this.#abortController.signal });
     this.carousel.addEventListener("scroll:edge-nearing", (event) => this.firstElementChild.disabled = event.detail.position === "start", { signal: this.#abortController.signal });
-    this.carousel.addEventListener("scroll:edge-leaving", (event) => this.firstElementChild.disabled = event.detail.position === "start" ? false : this.firstElementChild.disabled, { signal: this.#abortController.signal });
+    this.carousel.addEventListener(
+      "scroll:edge-leaving",
+      (event) => this.firstElementChild.disabled = event.detail.position === "start" ? false : this.firstElementChild.disabled,
+      { signal: this.#abortController.signal }
+    );
   }
   disconnectedCallback() {
     this.#abortController.abort();
@@ -686,7 +725,9 @@ var CarouselNextButton = class extends HTMLElement {
     this.#abortController = new AbortController();
     this.addEventListener("click", () => this.carousel.next(), { signal: this.#abortController.signal });
     this.carousel.addEventListener("scroll:edge-nearing", (event) => this.firstElementChild.disabled = event.detail.position === "end", { signal: this.#abortController.signal });
-    this.carousel.addEventListener("scroll:edge-leaving", (event) => this.firstElementChild.disabled = event.detail.position === "end" ? false : this.firstElementChild.disabled, { signal: this.#abortController.signal });
+    this.carousel.addEventListener("scroll:edge-leaving", (event) => this.firstElementChild.disabled = event.detail.position === "end" ? false : this.firstElementChild.disabled, {
+      signal: this.#abortController.signal
+    });
   }
   disconnectedCallback() {
     this.#abortController.abort();
@@ -724,7 +765,10 @@ var EffectCarousel = class extends HTMLElement {
     });
   }
   connectedCallback() {
-    __privateSet(this, _targetIndex, Math.max(0, this.cells.findIndex((item) => item.classList.contains("is-selected"))));
+    __privateSet(this, _targetIndex, Math.max(
+      0,
+      this.cells.findIndex((item) => item.classList.contains("is-selected"))
+    ));
     inView3(this, () => __privateMethod(this, _EffectCarousel_instances, preloadImages_fn).call(this));
   }
   /**
@@ -957,7 +1001,10 @@ var ScrollCarousel = class extends HTMLElement {
     new MutationObserver(__privateMethod(this, _ScrollCarousel_instances, onMutate_fn).bind(this)).observe(this, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
   }
   connectedCallback() {
-    __privateSet(this, _targetIndex2, Math.max(0, this.cells.findIndex((item) => item.classList.contains("is-initial"))));
+    __privateSet(this, _targetIndex2, Math.max(
+      0,
+      this.cells.findIndex((item) => item.classList.contains("is-initial"))
+    ));
     if (__privateGet(this, _targetIndex2) > 0) {
       this.select(__privateGet(this, _targetIndex2), { instant: true });
     }
@@ -1315,7 +1362,6 @@ if (!window.customElements.get("cart-count")) {
 }
 
 // js/common/cart/cart-discount.js
-import { animate as animate4 } from "vendor";
 var AbstractCartDiscount = class extends HTMLElement {
   async getDiscountCodes() {
     return (await fetchCart)["discount_codes"].filter((discount) => discount.applicable).map((discount) => discount.code.toLowerCase());
@@ -1331,6 +1377,7 @@ var AbstractCartDiscount = class extends HTMLElement {
     const response = await fetch(`${Shopify.routes.root}cart/update.js`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      keepalive: true,
       body: JSON.stringify({ discount })
     });
     target.setAttribute("aria-busy", "false");
@@ -1345,63 +1392,55 @@ var AbstractCartDiscount = class extends HTMLElement {
     } else {
       this.dispatchEvent(new CustomEvent("cart:refresh", { bubbles: true }));
     }
-    if (window.themeVariables.settings.pageType == "cart") {
+    if (window.themeVariables.settings.pageType === "cart") {
       window.location.reload();
     }
   }
 };
+var _abortController3, _CartDiscountBanner_instances, onCartDiscountError_fn;
 var CartDiscountBanner = class extends HTMLElement {
+  constructor() {
+    super(...arguments);
+    __privateAdd(this, _CartDiscountBanner_instances);
+    __privateAdd(this, _abortController3);
+  }
   connectedCallback() {
-    document.addEventListener("cart:discount:error", () => {
-      this.hidden = false;
-    });
+    __privateSet(this, _abortController3, new AbortController());
+    document.addEventListener("cart:discount:error", __privateMethod(this, _CartDiscountBanner_instances, onCartDiscountError_fn).bind(this), { signal: __privateGet(this, _abortController3).signal });
   }
   disconnectedCallback() {
-    document.removeEventListener("cart:discount:error", () => {
-      this.hidden = false;
-    });
+    __privateGet(this, _abortController3).abort();
   }
 };
+_abortController3 = new WeakMap();
+_CartDiscountBanner_instances = new WeakSet();
+onCartDiscountError_fn = function() {
+  this.hidden = false;
+};
+var _hiddenDiscountInputOriginalValue, _CartDiscountField_instances, hiddenDiscountInput_get, updateHiddenInput_fn;
 var CartDiscountField = class extends AbstractCartDiscount {
-  static get observedAttributes() {
-    return ["aria-busy"];
-  }
   constructor() {
     super();
+    __privateAdd(this, _CartDiscountField_instances);
+    __privateAdd(this, _hiddenDiscountInputOriginalValue);
+    __privateSet(this, _hiddenDiscountInputOriginalValue, __privateGet(this, _CartDiscountField_instances, hiddenDiscountInput_get).value);
     this.addEventListener("change", this.toggleDiscount.bind(this));
+    this.addEventListener("input", __privateMethod(this, _CartDiscountField_instances, updateHiddenInput_fn));
   }
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (name === "aria-busy" && oldValue !== newValue) {
-      const eventName = newValue === "true" ? "cart:discount:loading:start" : "cart:discount:loading:end";
-      document.documentElement.dispatchEvent(new CustomEvent(eventName, { bubbles: true }));
-    }
-  }
+};
+_hiddenDiscountInputOriginalValue = new WeakMap();
+_CartDiscountField_instances = new WeakSet();
+hiddenDiscountInput_get = function() {
+  return this.querySelector('[name="discount"]');
+};
+updateHiddenInput_fn = function(event) {
+  __privateGet(this, _CartDiscountField_instances, hiddenDiscountInput_get).value = [__privateGet(this, _hiddenDiscountInputOriginalValue), event.target.value].filter((val) => val && val.trim() !== "").join(",");
 };
 var CartDiscountRemoveButton = class extends AbstractCartDiscount {
   constructor() {
     super();
     this.addEventListener("click", this.toggleDiscount.bind(this));
   }
-};
-var _animation, _CartDiscountFieldLoader_instances, onLoadingStart_fn2, onLoadingEnd_fn2;
-var CartDiscountFieldLoader = class extends HTMLElement {
-  constructor() {
-    super();
-    __privateAdd(this, _CartDiscountFieldLoader_instances);
-    __privateAdd(this, _animation);
-    document.addEventListener("cart:discount:loading:start", __privateMethod(this, _CartDiscountFieldLoader_instances, onLoadingStart_fn2).bind(this));
-    document.addEventListener("cart:discount:loading:end", __privateMethod(this, _CartDiscountFieldLoader_instances, onLoadingEnd_fn2).bind(this));
-  }
-};
-_animation = new WeakMap();
-_CartDiscountFieldLoader_instances = new WeakSet();
-onLoadingStart_fn2 = function() {
-  this.hidden = false;
-  __privateSet(this, _animation, animate4(this, { rotate: ["0deg", "360deg"] }, { duration: 1, easing: "linear", repeat: Infinity }));
-};
-onLoadingEnd_fn2 = async function() {
-  __privateGet(this, _animation).pause();
-  this.hidden = true;
 };
 if (!window.customElements.get("cart-discount-field")) {
   window.customElements.define("cart-discount-field", CartDiscountField);
@@ -1412,29 +1451,26 @@ if (!window.customElements.get("cart-discount-remove-button")) {
 if (!window.customElements.get("cart-discount-banner")) {
   window.customElements.define("cart-discount-banner", CartDiscountBanner);
 }
-if (!window.customElements.get("cart-discount-field-loader")) {
-  window.customElements.define("cart-discount-field-loader", CartDiscountFieldLoader);
-}
 
 // js/common/cart/cart-dot.js
-var _abortController3, _CartDot_instances, updateFromServer_fn2;
+var _abortController4, _CartDot_instances, updateFromServer_fn2;
 var CartDot = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _CartDot_instances);
-    __privateAdd(this, _abortController3);
+    __privateAdd(this, _abortController4);
   }
   connectedCallback() {
-    __privateSet(this, _abortController3, new AbortController());
-    document.addEventListener("cart:change", (event) => this.classList.toggle("is-visible", event.detail["cart"]["item_count"] > 0), { signal: __privateGet(this, _abortController3).signal });
-    document.addEventListener("cart:refresh", __privateMethod(this, _CartDot_instances, updateFromServer_fn2).bind(this), { signal: __privateGet(this, _abortController3).signal });
-    window.addEventListener("pageshow", __privateMethod(this, _CartDot_instances, updateFromServer_fn2).bind(this), { signal: __privateGet(this, _abortController3).signal });
+    __privateSet(this, _abortController4, new AbortController());
+    document.addEventListener("cart:change", (event) => this.classList.toggle("is-visible", event.detail["cart"]["item_count"] > 0), { signal: __privateGet(this, _abortController4).signal });
+    document.addEventListener("cart:refresh", __privateMethod(this, _CartDot_instances, updateFromServer_fn2).bind(this), { signal: __privateGet(this, _abortController4).signal });
+    window.addEventListener("pageshow", __privateMethod(this, _CartDot_instances, updateFromServer_fn2).bind(this), { signal: __privateGet(this, _abortController4).signal });
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController3).abort();
+    __privateGet(this, _abortController4).abort();
   }
 };
-_abortController3 = new WeakMap();
+_abortController4 = new WeakMap();
 _CartDot_instances = new WeakSet();
 updateFromServer_fn2 = async function() {
   this.classList.toggle("is-visible", (await fetchCart)["item_count"] > 0);
@@ -1514,7 +1550,10 @@ updateMessage_fn = function() {
   }
 };
 onCartChanged_fn = function(event) {
-  const priceForItems = event.detail["cart"]["items"].filter((item) => item["requires_shipping"]).reduce((sum, item) => sum + item["final_line_price"], 0), cartDiscount = event.detail["cart"]["cart_level_discount_applications"].reduce((sum, discountAllocation) => sum + discountAllocation["total_allocated_amount"], 0);
+  const priceForItems = event.detail["cart"]["items"].filter((item) => item["requires_shipping"]).reduce((sum, item) => sum + item["final_line_price"], 0), cartDiscount = event.detail["cart"]["cart_level_discount_applications"].reduce(
+    (sum, discountAllocation) => sum + discountAllocation["discount_application"]["total_allocated_amount"],
+    0
+  );
   this.totalPrice = priceForItems - cartDiscount;
 };
 if (!window.customElements.get("free-shipping-bar")) {
@@ -1576,20 +1615,24 @@ changeLineItemQuantity_fn = async function(lineKey, targetQuantity) {
       window.location.reload();
     } else {
       const lineItemAfterChange = cartContent["items"].filter((lineItem2) => lineItem2["key"] === lineKey);
-      lineItem?.dispatchEvent(new CustomEvent("line-item:change", {
-        bubbles: true,
-        detail: {
-          quantity: lineItemAfterChange.length === 0 ? 0 : lineItemAfterChange[0]["quantity"],
-          cart: cartContent
-        }
-      }));
-      document.documentElement.dispatchEvent(new CustomEvent("cart:change", {
-        bubbles: true,
-        detail: {
-          baseEvent: "line-item:change",
-          cart: cartContent
-        }
-      }));
+      lineItem?.dispatchEvent(
+        new CustomEvent("line-item:change", {
+          bubbles: true,
+          detail: {
+            quantity: lineItemAfterChange.length === 0 ? 0 : lineItemAfterChange[0]["quantity"],
+            cart: cartContent
+          }
+        })
+      );
+      document.documentElement.dispatchEvent(
+        new CustomEvent("cart:change", {
+          bubbles: true,
+          detail: {
+            baseEvent: "line-item:change",
+            cart: cartContent
+          }
+        })
+      );
     }
   }
 };
@@ -1621,7 +1664,10 @@ estimateShipping_fn = async function(event) {
   const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, province = this.querySelector('[name="address[province]"]').value;
   this.submitButton.setAttribute("aria-busy", "true");
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
-  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`, { method: "POST" });
+  const prepareResponse = await fetch(
+    `${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`,
+    { method: "POST" }
+  );
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
   if (prepareResponse.ok) {
     const shippingRates = await __privateMethod(this, _ShippingEstimator_instances, getAsyncShippingRates_fn).call(this, zip, country, province);
@@ -1634,7 +1680,9 @@ estimateShipping_fn = async function(event) {
   this.submitButton.removeAttribute("aria-busy");
 };
 getAsyncShippingRates_fn = async function(zip, country, province) {
-  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`);
+  const response = await fetch(
+    `${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`
+  );
   const responseAsText = await response.text();
   if (responseAsText === "null") {
     return __privateMethod(this, _ShippingEstimator_instances, getAsyncShippingRates_fn).call(this, zip, country, province);
@@ -1713,12 +1761,14 @@ onFormSubmitted_fn = function(event) {
   if (!__privateGet(this, _isDirty)) {
     return;
   }
-  this.dispatchEvent(new CustomEvent("facet:update", {
-    bubbles: true,
-    detail: {
-      url: __privateMethod(this, _FacetsForm_instances, buildUrl_fn).call(this)
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("facet:update", {
+      bubbles: true,
+      detail: {
+        url: __privateMethod(this, _FacetsForm_instances, buildUrl_fn).call(this)
+      }
+    })
+  );
   __privateSet(this, _isDirty, false);
 };
 if (!window.customElements.get("facets-form")) {
@@ -1726,16 +1776,16 @@ if (!window.customElements.get("facets-form")) {
 }
 
 // js/common/overlay/dialog-element.js
-import { animate as animate5, FocusTrap, Delegate as Delegate2 } from "vendor";
+import { animate as animate4, FocusTrap, Delegate as Delegate2 } from "vendor";
 var lockLayerCount = 0;
-var _isLocked, _delegate2, _abortController4, _focusTrap, _originalParentBeforeAppend, _DialogElement_instances, allowOutsideClick_fn, allowOutsideClickTouch_fn, allowOutsideClickMouse_fn, onToggleClicked_fn, updateSlotVisibility_fn;
+var _isLocked, _delegate2, _abortController5, _focusTrap, _originalParentBeforeAppend, _DialogElement_instances, allowOutsideClick_fn, allowOutsideClickTouch_fn, allowOutsideClickMouse_fn, onToggleClicked_fn, updateSlotVisibility_fn;
 var DialogElement = class extends HTMLElement {
   constructor() {
     super();
     __privateAdd(this, _DialogElement_instances);
     __privateAdd(this, _isLocked, false);
     __privateAdd(this, _delegate2, new Delegate2(document.body));
-    __privateAdd(this, _abortController4);
+    __privateAdd(this, _abortController5);
     __privateAdd(this, _focusTrap);
     __privateAdd(this, _originalParentBeforeAppend);
     if (this.shadowDomTemplate) {
@@ -1754,7 +1804,7 @@ var DialogElement = class extends HTMLElement {
     if (this.id) {
       __privateGet(this, _delegate2).off().on("click", `[aria-controls="${this.id}"]`, __privateMethod(this, _DialogElement_instances, onToggleClicked_fn).bind(this));
     }
-    __privateSet(this, _abortController4, new AbortController());
+    __privateSet(this, _abortController5, new AbortController());
     this.setAttribute("role", "dialog");
     if (this.shadowDomTemplate) {
       this.getShadowPartByName("overlay")?.addEventListener("click", this.hide.bind(this), { signal: this.abortController.signal });
@@ -1809,7 +1859,7 @@ var DialogElement = class extends HTMLElement {
    * that will be cleaned when the element is removed or re-rendered
    */
   get abortController() {
-    return __privateGet(this, _abortController4);
+    return __privateGet(this, _abortController5);
   }
   /**
    * Get all the elements controlling this dialog (typically, button). An element controls this dialog if it has an
@@ -1955,13 +2005,13 @@ var DialogElement = class extends HTMLElement {
    * Create the animation controls for the enter animation
    */
   createEnterAnimationControls() {
-    return animate5(this, {}, { duration: 0 });
+    return animate4(this, {}, { duration: 0 });
   }
   /**
    * Create the animation controls for the leave animation
    */
   createLeaveAnimationControls() {
-    return animate5(this, {}, { duration: 0 });
+    return animate4(this, {}, { duration: 0 });
   }
   /**
    * When "clickOutsideDeactivates" is true, this method is called on the final click destination. If this method
@@ -1982,7 +2032,7 @@ var DialogElement = class extends HTMLElement {
 };
 _isLocked = new WeakMap();
 _delegate2 = new WeakMap();
-_abortController4 = new WeakMap();
+_abortController5 = new WeakMap();
 _focusTrap = new WeakMap();
 _originalParentBeforeAppend = new WeakMap();
 _DialogElement_instances = new WeakSet();
@@ -2002,12 +2052,16 @@ allowOutsideClick_fn = function(event) {
  * element. By default, this will allow any click outside to cause the dialog to close
  */
 allowOutsideClickTouch_fn = function(event) {
-  event.target.addEventListener("touchend", (subEvent) => {
-    const endTarget = document.elementFromPoint(subEvent.changedTouches.item(0).clientX, subEvent.changedTouches.item(0).clientY);
-    if (this.hideForOutsideClickTarget(endTarget)) {
-      this.hide();
-    }
-  }, { once: true, signal: this.abortController.signal });
+  event.target.addEventListener(
+    "touchend",
+    (subEvent) => {
+      const endTarget = document.elementFromPoint(subEvent.changedTouches.item(0).clientX, subEvent.changedTouches.item(0).clientY);
+      if (this.hideForOutsideClickTarget(endTarget)) {
+        this.hide();
+      }
+    },
+    { once: true, signal: this.abortController.signal }
+  );
   return this.allowOutsideClickForTarget(event.target);
 };
 /**
@@ -2064,7 +2118,7 @@ if (!window.customElements.get("dialog-close-button")) {
 import { timeline as timeline3 } from "vendor";
 
 // js/common/overlay/modal.js
-import { animate as animate6, timeline as timeline2 } from "vendor";
+import { animate as animate5, timeline as timeline2 } from "vendor";
 var Modal = class extends DialogElement {
   connectedCallback() {
     super.connectedCallback();
@@ -2081,7 +2135,7 @@ var Modal = class extends DialogElement {
   }
   createEnterAnimationControls() {
     if (matchesMediaQuery("sm")) {
-      return animate6(this, { opacity: [0, 1] }, { duration: 0.2 });
+      return animate5(this, { opacity: [0, 1] }, { duration: 0.2 });
     } else {
       return timeline2([
         [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
@@ -2091,7 +2145,7 @@ var Modal = class extends DialogElement {
   }
   createLeaveAnimationControls() {
     if (matchesMediaQuery("sm")) {
-      return animate6(this, { opacity: [1, 0] }, { duration: 0.2 });
+      return animate5(this, { opacity: [1, 0] }, { duration: 0.2 });
     } else {
       return timeline2([
         [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
@@ -2116,13 +2170,21 @@ var Drawer = class extends Modal {
     this.getShadowPartByName("content").style.marginInlineStart = this.openFrom === "right" ? "auto" : 0;
     return timeline3([
       [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
-      [this.getShadowPartByName("content"), { transform: [`translateX(calc(var(--transform-logical-flip) * ${this.openFrom === "right" ? "100%" : "-100%"}))`, "translateX(0)"] }, { duration: 0.3, at: "<", easing: [0.645, 0.045, 0.355, 1] }]
+      [
+        this.getShadowPartByName("content"),
+        { transform: [`translateX(calc(var(--transform-logical-flip) * ${this.openFrom === "right" ? "100%" : "-100%"}))`, "translateX(0)"] },
+        { duration: 0.3, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ]
     ]);
   }
   createLeaveAnimationControls() {
     return timeline3([
       [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
-      [this.getShadowPartByName("content"), { transform: ["translateX(0)", `translateX(calc(var(--transform-logical-flip) * ${this.openFrom === "right" ? "100%" : "-100%"}))`] }, { duration: 0.3, at: "<", easing: [0.645, 0.045, 0.355, 1] }]
+      [
+        this.getShadowPartByName("content"),
+        { transform: ["translateX(0)", `translateX(calc(var(--transform-logical-flip) * ${this.openFrom === "right" ? "100%" : "-100%"}))`] },
+        { duration: 0.3, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ]
     ]);
   }
 };
@@ -2131,16 +2193,16 @@ if (!window.customElements.get("x-drawer")) {
 }
 
 // js/common/overlay/popin.js
-import { animate as animate7 } from "vendor";
+import { animate as animate6 } from "vendor";
 var PopIn = class extends DialogElement {
   get shouldTrapFocus() {
     return false;
   }
   createEnterAnimationControls() {
-    return animate7(this, { opacity: [0, 1], transform: ["translateY(25px)", "translateY(0)"] }, { duration: 0.4, easing: [0.645, 0.045, 0.355, 1] });
+    return animate6(this, { opacity: [0, 1], transform: ["translateY(25px)", "translateY(0)"] }, { duration: 0.4, easing: [0.645, 0.045, 0.355, 1] });
   }
   createLeaveAnimationControls() {
-    return animate7(this, { opacity: [1, 0], transform: ["translateY(0)", "translateY(25px)"] }, { duration: 0.4, easing: [0.645, 0.045, 0.355, 1] });
+    return animate6(this, { opacity: [1, 0], transform: ["translateY(0)", "translateY(25px)"] }, { duration: 0.4, easing: [0.645, 0.045, 0.355, 1] });
   }
 };
 if (!window.customElements.get("pop-in")) {
@@ -2148,7 +2210,7 @@ if (!window.customElements.get("pop-in")) {
 }
 
 // js/common/overlay/popover.js
-import { animate as animate8, timeline as timeline4 } from "vendor";
+import { animate as animate7, timeline as timeline4 } from "vendor";
 var Popover = class extends DialogElement {
   connectedCallback() {
     super.connectedCallback();
@@ -2174,7 +2236,7 @@ var Popover = class extends DialogElement {
   }
   createEnterAnimationControls() {
     if (matchesMediaQuery("md")) {
-      return animate8(this, { opacity: [0, 1] }, { duration: 0.2 });
+      return animate7(this, { opacity: [0, 1] }, { duration: 0.2 });
     } else {
       return timeline4([
         [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
@@ -2184,7 +2246,7 @@ var Popover = class extends DialogElement {
   }
   createLeaveAnimationControls() {
     if (matchesMediaQuery("md")) {
-      return animate8(this, { opacity: [1, 0] }, { duration: 0.2 });
+      return animate7(this, { opacity: [1, 0] }, { duration: 0.2 });
     } else {
       return timeline4([
         [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.3, easing: [0.645, 0.045, 0.355, 1] }],
@@ -2233,12 +2295,14 @@ onFacetUpdate_fn = function(event) {
   event.preventDefault();
   const sectionId = extractSectionId(event.target), url = new URL(this.firstElementChild.href);
   url.searchParams.set("section_id", sectionId);
-  this.dispatchEvent(new CustomEvent("facet:update", {
-    bubbles: true,
-    detail: {
-      url
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("facet:update", {
+      bubbles: true,
+      detail: {
+        url
+      }
+    })
+  );
 };
 if (!window.customElements.get("facet-link")) {
   window.customElements.define("facet-link", FacetLink);
@@ -2259,12 +2323,14 @@ onSortChange_fn = function(event) {
   url.searchParams.set("sort_by", event.detail.value);
   url.searchParams.delete("page");
   url.searchParams.set("section_id", this.getAttribute("section-id"));
-  this.dispatchEvent(new CustomEvent("facet:update", {
-    bubbles: true,
-    detail: {
-      url
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("facet:update", {
+      bubbles: true,
+      detail: {
+        url
+      }
+    })
+  );
 };
 if (!window.customElements.get("facets-sort-popover")) {
   window.customElements.define("facets-sort-popover", FacetsSortPopover);
@@ -2275,12 +2341,17 @@ import { Delegate as Delegate3 } from "vendor";
 var abortController = null;
 var delegate = new Delegate3(document.body);
 var openDetailsValues = new Set(Array.from(document.querySelectorAll('facets-form details[open] input[name*="filter."]'), (item) => item.name));
-delegate.on("toggle", "facets-form details", (event, detailsElement) => {
-  const inputNames = [...new Set(Array.from(detailsElement.querySelectorAll('input[name*="filter."]'), (item) => item.name))];
-  inputNames.forEach((inputName) => {
-    detailsElement.open ? openDetailsValues.add(inputName) : openDetailsValues.delete(inputName);
-  });
-}, true);
+delegate.on(
+  "toggle",
+  "facets-form details",
+  (event, detailsElement) => {
+    const inputNames = [...new Set(Array.from(detailsElement.querySelectorAll('input[name*="filter."]'), (item) => item.name))];
+    inputNames.forEach((inputName) => {
+      detailsElement.open ? openDetailsValues.add(inputName) : openDetailsValues.delete(inputName);
+    });
+  },
+  true
+);
 document.addEventListener("facet:update", async (event) => {
   if (abortController) {
     abortController.abort();
@@ -2368,38 +2439,62 @@ var PriceRange = class extends HTMLElement {
     const rangeLowerBound = this.querySelector('input[type="range"]:first-child'), rangeHigherBound = this.querySelector('input[type="range"]:last-child'), textInputLowerBound = this.querySelector('input[name="filter.v.price.gte"]'), textInputHigherBound = this.querySelector('input[name="filter.v.price.lte"]');
     textInputLowerBound.addEventListener("focus", () => textInputLowerBound.select(), { signal: this.#abortController.signal });
     textInputHigherBound.addEventListener("focus", () => textInputHigherBound.select(), { signal: this.#abortController.signal });
-    textInputLowerBound.addEventListener("change", (event) => {
-      event.preventDefault();
-      event.target.value = Math.max(Math.min(parseInt(event.target.value), parseInt(textInputHigherBound.value || event.target.max) - 1), event.target.min);
-      rangeLowerBound.value = event.target.value;
-      rangeLowerBound.parentElement.style.setProperty("--range-min", `${parseInt(rangeLowerBound.value) / parseInt(rangeLowerBound.max) * 100}%`);
-    }, { signal: this.#abortController.signal });
-    textInputHigherBound.addEventListener("change", (event) => {
-      event.preventDefault();
-      event.target.value = Math.min(Math.max(parseInt(event.target.value), parseInt(textInputLowerBound.value || event.target.min) + 1), event.target.max);
-      rangeHigherBound.value = event.target.value;
-      rangeHigherBound.parentElement.style.setProperty("--range-max", `${parseInt(rangeHigherBound.value) / parseInt(rangeHigherBound.max) * 100}%`);
-    }, { signal: this.#abortController.signal });
-    rangeLowerBound.addEventListener("change", (event) => {
-      event.stopPropagation();
-      textInputLowerBound.value = event.target.value;
-      textInputLowerBound.dispatchEvent(new Event("change", { bubbles: true }));
-    }, { signal: this.#abortController.signal });
-    rangeHigherBound.addEventListener("change", (event) => {
-      event.stopPropagation();
-      textInputHigherBound.value = event.target.value;
-      textInputHigherBound.dispatchEvent(new Event("change", { bubbles: true }));
-    }, { signal: this.#abortController.signal });
-    rangeLowerBound.addEventListener("input", (event) => {
-      event.target.value = Math.min(parseInt(event.target.value), parseInt(textInputHigherBound.value || event.target.max) - 1);
-      event.target.parentElement.style.setProperty("--range-min", `${parseInt(event.target.value) / parseInt(event.target.max) * 100}%`);
-      textInputLowerBound.value = event.target.value;
-    }, { signal: this.#abortController.signal });
-    rangeHigherBound.addEventListener("input", (event) => {
-      event.target.value = Math.max(parseInt(event.target.value), parseInt(textInputLowerBound.value || event.target.min) + 1);
-      event.target.parentElement.style.setProperty("--range-max", `${parseInt(event.target.value) / parseInt(event.target.max) * 100}%`);
-      textInputHigherBound.value = event.target.value;
-    }, { signal: this.#abortController.signal });
+    textInputLowerBound.addEventListener(
+      "change",
+      (event) => {
+        event.preventDefault();
+        event.target.value = Math.max(Math.min(parseInt(event.target.value), parseInt(textInputHigherBound.value || event.target.max) - 1), event.target.min);
+        rangeLowerBound.value = event.target.value;
+        rangeLowerBound.parentElement.style.setProperty("--range-min", `${parseInt(rangeLowerBound.value) / parseInt(rangeLowerBound.max) * 100}%`);
+      },
+      { signal: this.#abortController.signal }
+    );
+    textInputHigherBound.addEventListener(
+      "change",
+      (event) => {
+        event.preventDefault();
+        event.target.value = Math.min(Math.max(parseInt(event.target.value), parseInt(textInputLowerBound.value || event.target.min) + 1), event.target.max);
+        rangeHigherBound.value = event.target.value;
+        rangeHigherBound.parentElement.style.setProperty("--range-max", `${parseInt(rangeHigherBound.value) / parseInt(rangeHigherBound.max) * 100}%`);
+      },
+      { signal: this.#abortController.signal }
+    );
+    rangeLowerBound.addEventListener(
+      "change",
+      (event) => {
+        event.stopPropagation();
+        textInputLowerBound.value = event.target.value;
+        textInputLowerBound.dispatchEvent(new Event("change", { bubbles: true }));
+      },
+      { signal: this.#abortController.signal }
+    );
+    rangeHigherBound.addEventListener(
+      "change",
+      (event) => {
+        event.stopPropagation();
+        textInputHigherBound.value = event.target.value;
+        textInputHigherBound.dispatchEvent(new Event("change", { bubbles: true }));
+      },
+      { signal: this.#abortController.signal }
+    );
+    rangeLowerBound.addEventListener(
+      "input",
+      (event) => {
+        event.target.value = Math.min(parseInt(event.target.value), parseInt(textInputHigherBound.value || event.target.max) - 1);
+        event.target.parentElement.style.setProperty("--range-min", `${parseInt(event.target.value) / parseInt(event.target.max) * 100}%`);
+        textInputLowerBound.value = event.target.value;
+      },
+      { signal: this.#abortController.signal }
+    );
+    rangeHigherBound.addEventListener(
+      "input",
+      (event) => {
+        event.target.value = Math.max(parseInt(event.target.value), parseInt(textInputLowerBound.value || event.target.min) + 1);
+        event.target.parentElement.style.setProperty("--range-max", `${parseInt(event.target.value) / parseInt(event.target.max) * 100}%`);
+        textInputHigherBound.value = event.target.value;
+      },
+      { signal: this.#abortController.signal }
+    );
   }
   disconnectedCallback() {
     this.#abortController.abort();
@@ -2410,27 +2505,27 @@ if (!window.customElements.get("price-range")) {
 }
 
 // js/common/form/quantity-selector.js
-var _abortController5, _decreaseButton, _increaseButton, _inputElement, _QuantitySelector_instances, onDecreaseQuantity_fn, onIncreaseQuantity_fn, updateUI_fn;
+var _abortController6, _decreaseButton, _increaseButton, _inputElement, _QuantitySelector_instances, onDecreaseQuantity_fn, onIncreaseQuantity_fn, updateUI_fn;
 var QuantitySelector = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _QuantitySelector_instances);
-    __privateAdd(this, _abortController5);
+    __privateAdd(this, _abortController6);
     __privateAdd(this, _decreaseButton);
     __privateAdd(this, _increaseButton);
     __privateAdd(this, _inputElement);
   }
   connectedCallback() {
-    __privateSet(this, _abortController5, new AbortController());
+    __privateSet(this, _abortController6, new AbortController());
     __privateSet(this, _decreaseButton, this.querySelector("button:first-of-type"));
     __privateSet(this, _increaseButton, this.querySelector("button:last-of-type"));
     __privateSet(this, _inputElement, this.querySelector("input"));
-    __privateGet(this, _decreaseButton)?.addEventListener("click", __privateMethod(this, _QuantitySelector_instances, onDecreaseQuantity_fn).bind(this), { signal: __privateGet(this, _abortController5).signal });
-    __privateGet(this, _increaseButton)?.addEventListener("click", __privateMethod(this, _QuantitySelector_instances, onIncreaseQuantity_fn).bind(this), { signal: __privateGet(this, _abortController5).signal });
-    __privateGet(this, _inputElement)?.addEventListener("input", () => __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this), { signal: __privateGet(this, _abortController5).signal });
+    __privateGet(this, _decreaseButton)?.addEventListener("click", __privateMethod(this, _QuantitySelector_instances, onDecreaseQuantity_fn).bind(this), { signal: __privateGet(this, _abortController6).signal });
+    __privateGet(this, _increaseButton)?.addEventListener("click", __privateMethod(this, _QuantitySelector_instances, onIncreaseQuantity_fn).bind(this), { signal: __privateGet(this, _abortController6).signal });
+    __privateGet(this, _inputElement)?.addEventListener("input", () => __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this), { signal: __privateGet(this, _abortController6).signal });
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController5).abort();
+    __privateGet(this, _abortController6).abort();
   }
   get quantity() {
     return __privateGet(this, _inputElement).value;
@@ -2445,7 +2540,7 @@ var QuantitySelector = class extends HTMLElement {
     __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this);
   }
 };
-_abortController5 = new WeakMap();
+_abortController6 = new WeakMap();
 _decreaseButton = new WeakMap();
 _increaseButton = new WeakMap();
 _inputElement = new WeakMap();
@@ -2456,11 +2551,13 @@ onDecreaseQuantity_fn = function() {
   } else {
     __privateGet(this, _inputElement).stepDown();
   }
+  announceStatus(__privateGet(this, _inputElement).value);
   __privateGet(this, _inputElement).dispatchEvent(new Event("change", { bubbles: true }));
   __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this);
 };
 onIncreaseQuantity_fn = function() {
   __privateGet(this, _inputElement).stepUp();
+  announceStatus(__privateGet(this, _inputElement).value);
   __privateGet(this, _inputElement).dispatchEvent(new Event("change", { bubbles: true }));
   __privateMethod(this, _QuantitySelector_instances, updateUI_fn).call(this);
 };
@@ -2548,12 +2645,14 @@ var Listbox = class extends HTMLElement {
               document.getElementById(boundId).textContent = option.getAttribute("title") || option.innerText || option.value;
             });
           }
-          option.dispatchEvent(new CustomEvent("listbox:change", {
-            bubbles: true,
-            detail: {
-              value: option.value
-            }
-          }));
+          option.dispatchEvent(
+            new CustomEvent("listbox:change", {
+              bubbles: true,
+              detail: {
+                value: option.value
+              }
+            })
+          );
         } else {
           option.setAttribute("aria-selected", "false");
         }
@@ -2580,12 +2679,14 @@ onOptionClicked_fn = function(event) {
     return;
   }
   this.setAttribute("aria-activedescendant", event.currentTarget.id);
-  event.currentTarget.dispatchEvent(new CustomEvent("listbox:select", {
-    bubbles: true,
-    detail: {
-      value: event.currentTarget.value
-    }
-  }));
+  event.currentTarget.dispatchEvent(
+    new CustomEvent("listbox:select", {
+      bubbles: true,
+      detail: {
+        value: event.currentTarget.value
+      }
+    })
+  );
 };
 onInputChanged_fn = function(event) {
   this.setAttribute("aria-activedescendant", this.querySelector(`[role="option"][value="${CSS.escape(event.target.value)}"]`).id);
@@ -2604,7 +2705,7 @@ if (!window.customElements.get("x-listbox")) {
 }
 
 // js/common/media/image-parallax.js
-import { scroll, animate as animate9 } from "vendor";
+import { scroll, animate as animate8 } from "vendor";
 var _ImageParallax_instances, setupParallax_fn;
 var ImageParallax = class extends HTMLElement {
   constructor() {
@@ -2620,13 +2721,10 @@ var ImageParallax = class extends HTMLElement {
 _ImageParallax_instances = new WeakSet();
 setupParallax_fn = function() {
   const [scale, translate] = [1.3, 0.15 * 100 / 1.3], isFirstSection = this.closest(".shopify-section").matches(":first-child");
-  scroll(
-    animate9(this.querySelector("img"), { transform: [`scale(${scale}) translateY(-${translate}%)`, `scale(${scale}) translateY(${translate}%)`] }, { easing: "linear" }),
-    {
-      target: this.querySelector("img"),
-      offset: [isFirstSection ? "start start" : "start end", "end start"]
-    }
-  );
+  scroll(animate8(this.querySelector("img"), { transform: [`scale(${scale}) translateY(-${translate}%)`, `scale(${scale}) translateY(${translate}%)`] }, { easing: "linear" }), {
+    target: this.querySelector("img"),
+    offset: [isFirstSection ? "start start" : "start end", "end start"]
+  });
 };
 if (!window.customElements.get("image-parallax")) {
   window.customElements.define("image-parallax", ImageParallax);
@@ -2727,6 +2825,7 @@ onSwatchChanged_fn = async function(event, target) {
   if (secondaryMediaElement && target.hasAttribute("data-variant-secondary-media")) {
     let newSecondaryMedia = JSON.parse(target.getAttribute("data-variant-secondary-media"));
     newSecondaryMediaElement = __privateMethod(this, _ProductCard_instances, createMediaImg_fn).call(this, newSecondaryMedia, secondaryMediaElement.className, secondaryMediaElement.sizes);
+    newSecondaryMediaElement.ariaHidden = "true";
   }
   if (primaryMediaElement.src !== newPrimaryMediaElement.src) {
     if (secondaryMediaElement && newSecondaryMediaElement) {
@@ -2746,25 +2845,25 @@ if (!window.customElements.get("product-card")) {
 }
 
 // js/common/product/product-form.js
-var _abortController6, _ProductForm_instances, form_get2, onSubmit_fn;
+var _abortController7, _ProductForm_instances, form_get2, onSubmit_fn;
 var ProductForm = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _ProductForm_instances);
-    __privateAdd(this, _abortController6);
+    __privateAdd(this, _abortController7);
   }
   connectedCallback() {
-    __privateSet(this, _abortController6, new AbortController());
+    __privateSet(this, _abortController7, new AbortController());
     if (__privateGet(this, _ProductForm_instances, form_get2)) {
-      __privateGet(this, _ProductForm_instances, form_get2).addEventListener("submit", __privateMethod(this, _ProductForm_instances, onSubmit_fn).bind(this), { signal: __privateGet(this, _abortController6).signal });
+      __privateGet(this, _ProductForm_instances, form_get2).addEventListener("submit", __privateMethod(this, _ProductForm_instances, onSubmit_fn).bind(this), { signal: __privateGet(this, _abortController7).signal });
       __privateGet(this, _ProductForm_instances, form_get2).id.disabled = false;
     }
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController6).abort();
+    __privateGet(this, _abortController7).abort();
   }
 };
-_abortController6 = new WeakMap();
+_abortController7 = new WeakMap();
 _ProductForm_instances = new WeakSet();
 form_get2 = function() {
   return this.querySelector('form[action*="/cart/add"]');
@@ -2807,29 +2906,35 @@ onSubmit_fn = async function(event) {
     }
     const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
     cartContent["sections"] = responseJson["sections"];
-    __privateGet(this, _ProductForm_instances, form_get2).dispatchEvent(new CustomEvent("variant:add", {
-      bubbles: true,
-      detail: {
-        items: responseJson.hasOwnProperty("items") ? responseJson["items"] : [responseJson],
-        cart: cartContent,
-        onSuccessDo: formData.get("on_success")
-      }
-    }));
-    document.documentElement.dispatchEvent(new CustomEvent("cart:change", {
-      bubbles: true,
-      detail: {
-        baseEvent: "variant:add",
-        onSuccessDo: formData.get("on_success"),
-        cart: cartContent
-      }
-    }));
+    __privateGet(this, _ProductForm_instances, form_get2).dispatchEvent(
+      new CustomEvent("variant:add", {
+        bubbles: true,
+        detail: {
+          items: responseJson.hasOwnProperty("items") ? responseJson["items"] : [responseJson],
+          cart: cartContent,
+          onSuccessDo: formData.get("on_success")
+        }
+      })
+    );
+    document.documentElement.dispatchEvent(
+      new CustomEvent("cart:change", {
+        bubbles: true,
+        detail: {
+          baseEvent: "variant:add",
+          onSuccessDo: formData.get("on_success"),
+          cart: cartContent
+        }
+      })
+    );
   } else {
-    __privateGet(this, _ProductForm_instances, form_get2).dispatchEvent(new CustomEvent("cart:error", {
-      bubbles: true,
-      detail: {
-        error: responseJson["description"]
-      }
-    }));
+    __privateGet(this, _ProductForm_instances, form_get2).dispatchEvent(
+      new CustomEvent("cart:error", {
+        bubbles: true,
+        detail: {
+          error: responseJson["description"]
+        }
+      })
+    );
     document.dispatchEvent(new CustomEvent("cart:refresh"));
   }
 };
@@ -2838,40 +2943,47 @@ if (!window.customElements.get("product-form")) {
 }
 
 // js/common/product/product-form-listeners.js
-var _abortController7, _BuyButtons_instances, onVariantAdded_fn, onCartError_fn;
+var _abortController8, _BuyButtons_instances, onVariantAdded_fn, onCartError_fn;
 var BuyButtons = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _BuyButtons_instances);
-    __privateAdd(this, _abortController7);
+    __privateAdd(this, _abortController8);
   }
   connectedCallback() {
-    __privateSet(this, _abortController7, new AbortController());
-    document.forms[this.getAttribute("form")]?.addEventListener("cart:error", __privateMethod(this, _BuyButtons_instances, onCartError_fn).bind(this), { signal: __privateGet(this, _abortController7).signal });
-    if (window.themeVariables.settings.cartType === "message") {
-      document.forms[this.getAttribute("form")]?.addEventListener("variant:add", __privateMethod(this, _BuyButtons_instances, onVariantAdded_fn).bind(this), { signal: __privateGet(this, _abortController7).signal });
-    }
+    __privateSet(this, _abortController8, new AbortController());
+    document.forms[this.getAttribute("form")]?.addEventListener("cart:error", __privateMethod(this, _BuyButtons_instances, onCartError_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
+    document.forms[this.getAttribute("form")]?.addEventListener("variant:add", __privateMethod(this, _BuyButtons_instances, onVariantAdded_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController7).abort();
+    __privateGet(this, _abortController8).abort();
   }
 };
-_abortController7 = new WeakMap();
+_abortController8 = new WeakMap();
 _BuyButtons_instances = new WeakSet();
 onVariantAdded_fn = function(event) {
-  const bannerElement = document.createRange().createContextualFragment(`
-      <div class="banner banner--success" role="alert">
-        ${window.themeVariables.strings.addedToCart}
-      </div>
-    `).firstElementChild;
-  this.prepend(bannerElement);
-  setTimeout(() => {
-    bannerElement.remove();
-  }, 2500);
+  if (window.themeVariables.settings.cartType === "message") {
+    const bannerElement = document.createRange().createContextualFragment(`
+        <div class="banner banner--success" role="status" aria-live="polite">
+          ${window.themeVariables.strings.addedToCart}
+        </div>
+      `).firstElementChild;
+    this.prepend(bannerElement);
+    setTimeout(() => {
+      bannerElement.remove();
+    }, 2500);
+  } else if (window.themeVariables.settings.cartType === "drawer") {
+    const items = event.detail.items;
+    let content = [];
+    items.forEach((item) => {
+      content.push(window.themeVariables.strings.addedToCartWithTitle.replace("{{ product_title }}", item?.title || ""));
+    });
+    announceStatus(content.join(", "));
+  }
 };
 onCartError_fn = function(event) {
   const bannerElement = document.createRange().createContextualFragment(`
-      <div class="banner banner--error" role="alert">
+      <div class="banner banner--error" role="alert" aria-live="polite">
         ${event.detail.error}
       </div>
     `).firstElementChild;
@@ -2886,36 +2998,36 @@ if (!window.customElements.get("buy-buttons")) {
 
 // js/common/product/product-gallery.js
 import { PhotoSwipeLightbox } from "vendor";
-var _abortController8, _photoSwipeInstance, _onGestureChangedListener, _settledMedia, _ProductGallery_instances, registerLightboxUi_fn, onSectionRerender_fn, onVariantChange_fn, onMediaChange_fn, onMediaSettle_fn, onCarouselClick_fn, onGestureStart_fn, onGestureChanged_fn;
+var _abortController9, _photoSwipeInstance, _onGestureChangedListener, _settledMedia, _ProductGallery_instances, registerLightboxUi_fn, onSectionRerender_fn, onVariantChange_fn, onMediaChange_fn, onMediaSettle_fn, onCarouselClick_fn, onGestureStart_fn, onGestureChanged_fn;
 var ProductGallery = class extends HTMLElement {
   /* Keep track of the currently settled media */
   constructor() {
     super();
     __privateAdd(this, _ProductGallery_instances);
-    __privateAdd(this, _abortController8);
+    __privateAdd(this, _abortController9);
     __privateAdd(this, _photoSwipeInstance);
     __privateAdd(this, _onGestureChangedListener, __privateMethod(this, _ProductGallery_instances, onGestureChanged_fn).bind(this));
     __privateAdd(this, _settledMedia);
     this.addEventListener("lightbox:open", (event) => this.openLightBox(event?.detail?.index));
   }
   connectedCallback() {
-    __privateSet(this, _abortController8, new AbortController());
+    __privateSet(this, _abortController9, new AbortController());
     if (!this.carousel) {
       return;
     }
     const form = document.forms[this.getAttribute("form")];
-    form.addEventListener("product:rerender", __privateMethod(this, _ProductGallery_instances, onSectionRerender_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
-    form.addEventListener("variant:change", __privateMethod(this, _ProductGallery_instances, onVariantChange_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
-    this.carousel.addEventListener("carousel:change", __privateMethod(this, _ProductGallery_instances, onMediaChange_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
-    this.carousel.addEventListener("carousel:settle", __privateMethod(this, _ProductGallery_instances, onMediaSettle_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
-    this.carousel.addEventListener("click", __privateMethod(this, _ProductGallery_instances, onCarouselClick_fn).bind(this), { signal: __privateGet(this, _abortController8).signal });
+    form.addEventListener("product:rerender", __privateMethod(this, _ProductGallery_instances, onSectionRerender_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
+    form.addEventListener("variant:change", __privateMethod(this, _ProductGallery_instances, onVariantChange_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
+    this.carousel.addEventListener("carousel:change", __privateMethod(this, _ProductGallery_instances, onMediaChange_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
+    this.carousel.addEventListener("carousel:settle", __privateMethod(this, _ProductGallery_instances, onMediaSettle_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
+    this.carousel.addEventListener("click", __privateMethod(this, _ProductGallery_instances, onCarouselClick_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
     if (this.hasAttribute("allow-zoom")) {
-      this.carousel.addEventListener("gesturestart", __privateMethod(this, _ProductGallery_instances, onGestureStart_fn).bind(this), { capture: false, signal: __privateGet(this, _abortController8).signal });
+      this.carousel.addEventListener("gesturestart", __privateMethod(this, _ProductGallery_instances, onGestureStart_fn).bind(this), { capture: false, signal: __privateGet(this, _abortController9).signal });
     }
     __privateMethod(this, _ProductGallery_instances, onMediaChange_fn).call(this);
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController8).abort();
+    __privateGet(this, _abortController9).abort();
   }
   get viewInSpaceButton() {
     return this.querySelector("[data-shopify-xr]");
@@ -2974,7 +3086,7 @@ var ProductGallery = class extends HTMLElement {
     this.lightBox.loadAndOpen(index ?? imageCells.indexOf(this.carousel.selectedCell), dataSource);
   }
 };
-_abortController8 = new WeakMap();
+_abortController9 = new WeakMap();
 _photoSwipeInstance = new WeakMap();
 _onGestureChangedListener = new WeakMap();
 _settledMedia = new WeakMap();
@@ -3121,12 +3233,17 @@ onCarouselClick_fn = function(event) {
  */
 onGestureStart_fn = function(event) {
   event.preventDefault();
-  this.carousel.addEventListener("gesturechange", __privateGet(this, _onGestureChangedListener), { capture: false, signal: __privateGet(this, _abortController8).signal });
+  this.carousel.addEventListener("gesturechange", __privateGet(this, _onGestureChangedListener), { capture: false, signal: __privateGet(this, _abortController9).signal });
 };
 onGestureChanged_fn = function(event) {
   event.preventDefault();
+  const media = event.target.closest(".product-gallery__media");
+  if (media.getAttribute("data-media-type") !== "image") {
+    return;
+  }
+  const imageCells = this.carousel.cells.filter((cell) => cell.getAttribute("data-media-type") === "image");
   if (event.scale > 1.5) {
-    this.dispatchEvent(new CustomEvent("lightbox:open", { bubbles: true, detail: { index: this.carousel.selectedIndex } }));
+    this.dispatchEvent(new CustomEvent("lightbox:open", { bubbles: true, detail: { index: imageCells.indexOf(media) } }));
     this.removeEventListener("gesturechange", __privateGet(this, _onGestureChangedListener));
   }
 };
@@ -3164,9 +3281,13 @@ var ProductGalleryNavigation = class extends CarouselNavigation {
           __privateSet(this, _hasProgrammaticScroll, false);
         }, 1e3);
       } else {
-        window.addEventListener("scrollend", () => {
-          __privateSet(this, _hasProgrammaticScroll, false);
-        }, { once: true });
+        window.addEventListener(
+          "scrollend",
+          () => {
+            __privateSet(this, _hasProgrammaticScroll, false);
+          },
+          { once: true }
+        );
       }
     }
   }
@@ -3216,22 +3337,31 @@ if (!window.customElements.get("open-lightbox-button")) {
 }
 
 // js/common/product/product-list.js
-import { inView as inView6, animate as animate10, stagger } from "vendor";
+import { inView as inView6, animate as animate9, stagger } from "vendor";
 var ProductList = class extends HTMLElement {
   connectedCallback() {
-    if (matchesMediaQuery("motion-safe") && this.querySelectorAll('product-card[reveal-on-scroll="true"]').length > 0) {
-      inView6(this, this.reveal.bind(this));
+    if (matchesMediaQuery("motion-safe")) {
+      const revealElements = this.querySelectorAll('product-card[reveal-on-scroll="true"], .product-list__promo[reveal-on-scroll="true"]');
+      if (revealElements.length > 0) {
+        inView6(this, this.reveal.bind(this));
+      }
     }
   }
   reveal() {
-    animate10(this.querySelectorAll('product-card[reveal-on-scroll="true"]'), {
-      opacity: [0, 1],
-      transform: ["translateY(20px)", "translateY(0)"]
-    }, {
-      duration: 0.2,
-      easing: "ease-in-out",
-      delay: stagger(0.05, { start: 0.4, easing: "ease-out" })
-    });
+    const revealElements = this.querySelectorAll('product-card[reveal-on-scroll="true"], .product-list__promo[reveal-on-scroll="true"]');
+    if (revealElements.length === 0) return;
+    animate9(
+      revealElements,
+      {
+        opacity: [0, 1],
+        transform: ["translateY(20px)", "translateY(0)"]
+      },
+      {
+        duration: 0.2,
+        easing: "ease-in-out",
+        delay: stagger(0.05, { start: 0.4, easing: "ease-out" })
+      }
+    );
   }
 };
 if (!window.customElements.get("product-list")) {
@@ -3266,25 +3396,25 @@ var ProductLoader = class {
 };
 
 // js/common/product/product-rerender.js
-var _abortController9, _ProductRerender_instances, onRerender_fn;
+var _abortController10, _ProductRerender_instances, onRerender_fn;
 var ProductRerender = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _ProductRerender_instances);
-    __privateAdd(this, _abortController9);
+    __privateAdd(this, _abortController10);
   }
   connectedCallback() {
-    __privateSet(this, _abortController9, new AbortController());
+    __privateSet(this, _abortController10, new AbortController());
     if (!this.id || !this.hasAttribute("observe-form")) {
       console.warn('The <product-rerender> requires an ID to identify the element to re-render, and an "observe-form" attribute referencing to the form to monitor.');
     }
-    document.forms[this.getAttribute("observe-form")].addEventListener("product:rerender", __privateMethod(this, _ProductRerender_instances, onRerender_fn).bind(this), { signal: __privateGet(this, _abortController9).signal });
+    document.forms[this.getAttribute("observe-form")].addEventListener("product:rerender", __privateMethod(this, _ProductRerender_instances, onRerender_fn).bind(this), { signal: __privateGet(this, _abortController10).signal });
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController9).abort();
+    __privateGet(this, _abortController10).abort();
   }
 };
-_abortController9 = new WeakMap();
+_abortController10 = new WeakMap();
 _ProductRerender_instances = new WeakSet();
 onRerender_fn = function(event) {
   const matchingElement = deepQuerySelector(event.detail.htmlFragment, `#${this.id}`);
@@ -3295,7 +3425,19 @@ onRerender_fn = function(event) {
   if (!this.hasAttribute("allow-partial-rerender") || event.detail.productChange) {
     this.replaceWith(matchingElement);
   } else {
-    const blockTypes = ["sku", "badges", "quantity-selector", "volume-pricing", "price", "payment-terms", "variant-picker", "inventory", "buy-buttons", "pickup-availability", "liquid"];
+    const blockTypes = [
+      "sku",
+      "badges",
+      "quantity-selector",
+      "volume-pricing",
+      "price",
+      "payment-terms",
+      "variant-picker",
+      "inventory",
+      "buy-buttons",
+      "pickup-availability",
+      "liquid"
+    ];
     blockTypes.forEach((blockType) => {
       this.querySelectorAll(`[data-block-type="${blockType}"]`).forEach((element) => {
         const matchingBlock = matchingElement.querySelector(`[data-block-type="${blockType}"][data-block-id="${element.getAttribute("data-block-id")}"]`);
@@ -3321,7 +3463,8 @@ onRerender_fn = function(event) {
   }
   if (focusedElement.id) {
     const element = document.getElementById(focusedElement.id);
-    if (this.contains(element)) {
+    const productRerenderScope = document.getElementById(this.id);
+    if (productRerenderScope.contains(element)) {
       element.focus();
     }
   }
@@ -3414,21 +3557,25 @@ var _VariantPicker = class _VariantPicker extends HTMLElement {
         window.history.replaceState({ path: newUrl.toString() }, "", newUrl.toString());
       }
     }
-    __privateGet(this, _form).dispatchEvent(new CustomEvent("product:rerender", {
-      detail: {
-        htmlFragment: newContent,
-        productChange
-      }
-    }));
-    if (!productChange) {
-      __privateGet(this, _form).dispatchEvent(new CustomEvent("variant:change", {
-        bubbles: true,
+    __privateGet(this, _form).dispatchEvent(
+      new CustomEvent("product:rerender", {
         detail: {
-          formId: __privateGet(this, _form).id,
-          variant: __privateGet(this, _selectedVariant),
-          previousVariant
+          htmlFragment: newContent,
+          productChange
         }
-      }));
+      })
+    );
+    if (!productChange) {
+      __privateGet(this, _form).dispatchEvent(
+        new CustomEvent("variant:change", {
+          bubbles: true,
+          detail: {
+            formId: __privateGet(this, _form).id,
+            variant: __privateGet(this, _selectedVariant),
+            previousVariant
+          }
+        })
+      );
     }
     Shopify?.PaymentButton?.init();
   }
@@ -3632,9 +3779,13 @@ var VideoMedia = class extends BaseMedia {
       this.attachShadow({ mode: "open" }).appendChild(document.getElementById("video-media-default-template").content.cloneNode(true));
     }
     if (this.getAttribute("type") === "video") {
-      inView8(this, () => {
-        this.querySelector("video")?.setAttribute("preload", "metadata");
-      }, { margin: "800px" });
+      inView8(
+        this,
+        () => {
+          this.querySelector("video")?.setAttribute("preload", "metadata");
+        },
+        { margin: "800px" }
+      );
     }
   }
   _playerTarget() {
@@ -3659,13 +3810,13 @@ var VideoMedia = class extends BaseMedia {
           await onYouTubePromise;
           const player = new YT.Player(this.querySelector("iframe"), {
             events: {
-              "onReady": () => {
+              onReady: () => {
                 if (muteVideo) {
                   player.mute();
                 }
                 resolve(player);
               },
-              "onStateChange": (event) => {
+              onStateChange: (event) => {
                 if (event.data === YT.PlayerState.PLAYING) {
                   this.setAttribute("playing", "");
                 } else if (event.data === YT.PlayerState.ENDED || event.data === YT.PlayerState.PAUSED) {
@@ -3850,7 +4001,7 @@ if (!window.customElements.get("accordion-disclosure")) {
 }
 
 // js/common/navigation/menu-disclosure.js
-var _hoverTimer, _detectClickOutsideListener, _detectEscKeyboardListener, _detectFocusOutListener, _detectHoverOutsideListener, _detectHoverListener, _MenuDisclosure_instances, detectClickOutside_fn, detectHover_fn, detectHoverOutside_fn, detectEscKeyboard_fn, detectFocusOut_fn;
+var _hoverTimer, _detectClickOutsideListener, _detectEscKeyboardListener, _detectFocusOutListener, _detectHoverOutsideListener, _detectHoverListener, _MenuDisclosure_instances, handleKeyboard_fn, detectClickOutside_fn, detectHover_fn, detectHoverOutside_fn, detectEscKeyboard_fn, detectFocusOut_fn;
 var _MenuDisclosure = class _MenuDisclosure extends CustomDetails {
   constructor() {
     super();
@@ -3863,6 +4014,7 @@ var _MenuDisclosure = class _MenuDisclosure extends CustomDetails {
     __privateAdd(this, _detectHoverListener, __privateMethod(this, _MenuDisclosure_instances, detectHover_fn).bind(this));
     this.disclosureElement.addEventListener("mouseover", __privateGet(this, _detectHoverListener).bind(this));
     this.disclosureElement.addEventListener("mouseout", __privateGet(this, _detectHoverListener).bind(this));
+    this.disclosureElement.addEventListener("keydown", __privateMethod(this, _MenuDisclosure_instances, handleKeyboard_fn).bind(this));
   }
   /**
    * Get the trigger mode (can be "click" or "hover"). However, for touch devices, it is always forced to click
@@ -3904,6 +4056,17 @@ _detectFocusOutListener = new WeakMap();
 _detectHoverOutsideListener = new WeakMap();
 _detectHoverListener = new WeakMap();
 _MenuDisclosure_instances = new WeakSet();
+/**
+ * Handle the keyboard events to ensure we can close the menu with Esc
+ *
+ * @param {KeyboardEvent} event
+ */
+handleKeyboard_fn = function(event) {
+  if (event.key === "Escape") {
+    this.close();
+    this.summaryElement.focus();
+  }
+};
 /**
  * When dropdown menu is configured to open on click, we add a listener to detect click outside and automatically
  * close the navigation.
@@ -3966,8 +4129,8 @@ detectFocusOut_fn = function(event) {
 var MenuDisclosure = _MenuDisclosure;
 
 // js/common/navigation/tabs.js
-import { Delegate as Delegate6, animate as animate11, timeline as timeline6 } from "vendor";
-var _componentID, _buttons, _panels, _delegate5, _Tabs_instances, setupComponent_fn, onButtonClicked_fn, onSlotChange_fn, handleKeyboard_fn;
+import { Delegate as Delegate6, animate as animate10, timeline as timeline6 } from "vendor";
+var _componentID, _buttons, _panels, _delegate5, _Tabs_instances, setupComponent_fn, onButtonClicked_fn, onSlotChange_fn, handleKeyboard_fn2;
 var Tabs = class extends HTMLElement {
   constructor() {
     super();
@@ -3984,7 +4147,7 @@ var Tabs = class extends HTMLElement {
     }
     __privateGet(this, _delegate5).on("click", 'button[role="tab"]', __privateMethod(this, _Tabs_instances, onButtonClicked_fn).bind(this));
     this.shadowRoot.addEventListener("slotchange", __privateMethod(this, _Tabs_instances, onSlotChange_fn).bind(this));
-    this.addEventListener("keydown", __privateMethod(this, _Tabs_instances, handleKeyboard_fn));
+    this.addEventListener("keydown", __privateMethod(this, _Tabs_instances, handleKeyboard_fn2));
   }
   static get observedAttributes() {
     return ["selected-index"];
@@ -4027,7 +4190,7 @@ var Tabs = class extends HTMLElement {
    */
   async transition(fromPanel, toPanel) {
     const beforeHeight = this.clientHeight;
-    await animate11(fromPanel, { transform: ["translateY(0px)", "translateY(10px)"], opacity: [1, 0] }, { duration: this.animationDuration }).finished;
+    await animate10(fromPanel, { transform: ["translateY(0px)", "translateY(10px)"], opacity: [1, 0] }, { duration: this.animationDuration }).finished;
     fromPanel.hidden = true;
     toPanel.hidden = false;
     await timeline6([
@@ -4043,7 +4206,10 @@ _panels = new WeakMap();
 _delegate5 = new WeakMap();
 _Tabs_instances = new WeakSet();
 setupComponent_fn = function() {
-  __privateSet(this, _buttons, Array.from(this.shadowRoot.querySelector('slot[name="title"]')?.assignedNodes() ?? [], (item) => item.matches("button") && item || item.querySelector("button")));
+  __privateSet(this, _buttons, Array.from(
+    this.shadowRoot.querySelector('slot[name="title"]')?.assignedNodes() ?? [],
+    (item) => item.matches("button") && item || item.querySelector("button")
+  ));
   __privateSet(this, _panels, Array.from(this.shadowRoot.querySelector('slot[name="content"]')?.assignedNodes() ?? []));
   __privateGet(this, _buttons).forEach((button, index) => {
     button.setAttribute("role", "tab");
@@ -4068,7 +4234,7 @@ onSlotChange_fn = function() {
  * As per https://www.w3.org/WAI/ARIA/apg/example-index/tabs/tabs-automatic.html, when a tab is currently focused,
  * left and right arrow should switch the tab
  */
-handleKeyboard_fn = function(event) {
+handleKeyboard_fn2 = function(event) {
   const index = __privateGet(this, _buttons).indexOf(document.activeElement);
   if (index === -1 || !["ArrowLeft", "ArrowRight"].includes(event.key)) {
     return;
@@ -4172,12 +4338,12 @@ if (!window.customElements.get("predictive-search")) {
 }
 
 // js/sections/announcement-bar.js
-import { animate as animate12 } from "vendor";
+import { animate as animate11 } from "vendor";
 var AnnouncementBarCarousel = class extends EffectCarousel {
   createOnChangeAnimationControls(fromSlide, toSlide) {
     return {
-      leaveControls: () => animate12(fromSlide, { opacity: [1, 0], transform: ["translateY(0)", "translateY(-10px)"] }, { duration: 0.25, easing: [0.55, 0.055, 0.675, 0.19] }),
-      enterControls: () => animate12(toSlide, { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0px)"] }, { duration: 0.4, easing: [0.215, 0.61, 0.355, 1] })
+      leaveControls: () => animate11(fromSlide, { opacity: [1, 0], transform: ["translateY(0)", "translateY(-10px)"] }, { duration: 0.25, easing: [0.55, 0.055, 0.675, 0.19] }),
+      enterControls: () => animate11(toSlide, { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0px)"] }, { duration: 0.4, easing: [0.215, 0.61, 0.355, 1] })
     };
   }
 };
@@ -4186,7 +4352,7 @@ if (!window.customElements.get("announcement-bar-carousel")) {
 }
 
 // js/sections/before-after-image.js
-import { animate as animate13, inView as inView9 } from "vendor";
+import { animate as animate12, inView as inView9 } from "vendor";
 var _onPointerMoveListener, _touchStartTimestamp, _BeforeAfter_instances, onPointerDown_fn, onPointerMove_fn, onTouchStart_fn, onPointerUp_fn, onKeyboardNavigation_fn2, calculatePosition_fn, animateInitialPosition_fn;
 var BeforeAfter = class extends HTMLElement {
   constructor() {
@@ -4263,16 +4429,19 @@ calculatePosition_fn = function(event) {
   this.style.setProperty("--before-after-cursor-position", `${Math.min(Math.max(percentage, 0), 100)}%`);
 };
 animateInitialPosition_fn = function() {
-  animate13((progress) => {
-    this.style.setProperty("--before-after-cursor-position", `calc(var(--before-after-initial-cursor-position) * ${progress})`);
-  }, { duration: 0.6, easing: [0.85, 0, 0.15, 1] });
+  animate12(
+    (progress) => {
+      this.style.setProperty("--before-after-cursor-position", `calc(var(--before-after-initial-cursor-position) * ${progress})`);
+    },
+    { duration: 0.6, easing: [0.85, 0, 0.15, 1] }
+  );
 };
 if (!window.customElements.get("before-after")) {
   window.customElements.define("before-after", BeforeAfter);
 }
 
 // js/sections/blog-posts.js
-import { animate as animate14, stagger as stagger2, inView as inView10 } from "vendor";
+import { animate as animate13, stagger as stagger2, inView as inView10 } from "vendor";
 var _BlogPosts_instances, reveal_fn;
 var BlogPosts = class extends HTMLElement {
   constructor() {
@@ -4286,18 +4455,14 @@ var BlogPosts = class extends HTMLElement {
 _BlogPosts_instances = new WeakSet();
 reveal_fn = function() {
   this.style.opacity = "1";
-  animate14(
-    this.children,
-    { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] },
-    { duration: 0.25, delay: stagger2(0.1, { easing: "ease-out" }), easing: "ease" }
-  );
+  animate13(this.children, { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.25, delay: stagger2(0.1, { easing: "ease-out" }), easing: "ease" });
 };
 if (!window.customElements.get("blog-posts")) {
   window.customElements.define("blog-posts", BlogPosts);
 }
 
 // js/sections/cart-drawer.js
-import { animate as animate15, timeline as timeline7 } from "vendor";
+import { animate as animate14, timeline as timeline7 } from "vendor";
 var _sectionId, _CartDrawer_instances, onBundleSection_fn, onCartChange_fn, onBeforeShow_fn, onPageShow_fn, refreshCart_fn, replaceContent_fn;
 var CartDrawer = class extends Drawer {
   constructor() {
@@ -4336,7 +4501,7 @@ onBeforeShow_fn = async function() {
   }
   drawerFooter.style.opacity = "0";
   await waitForEvent(this, "dialog:after-show");
-  animate15(drawerFooter, { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.25, easing: [0.25, 0.46, 0.45, 0.94] });
+  animate14(drawerFooter, { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.25, easing: [0.25, 0.46, 0.45, 0.94] });
 };
 onPageShow_fn = async function(event) {
   if (!event.persisted) {
@@ -4356,7 +4521,7 @@ replaceContent_fn = async function(html) {
     ]);
     await controls.finished;
     this.replaceChildren(...newCartDrawer.children);
-    animate15(this.getShadowPartByName("body"), { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.25, easing: [0.25, 0.46, 0.45, 0.94] });
+    animate14(this.getShadowPartByName("body"), { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.25, easing: [0.25, 0.46, 0.45, 0.94] });
   } else {
     this.replaceChildren(...newCartDrawer.children);
   }
@@ -4365,10 +4530,10 @@ replaceContent_fn = async function(html) {
 };
 var CartNoteDialog = class extends DialogElement {
   createEnterAnimationControls() {
-    return animate15(this, { transform: ["translateY(100%)", "translateY(0)"] }, { duration: 0.2, easing: "ease-in" });
+    return animate14(this, { transform: ["translateY(100%)", "translateY(0)"] }, { duration: 0.2, easing: "ease-in" });
   }
   createLeaveAnimationControls() {
-    return animate15(this, { transform: ["translateY(0)", "translateY(100%)"] }, { duration: 0.2, easing: "ease-in" });
+    return animate14(this, { transform: ["translateY(0)", "translateY(100%)"] }, { duration: 0.2, easing: "ease-in" });
   }
 };
 if (!window.customElements.get("cart-drawer")) {
@@ -4451,7 +4616,7 @@ if (!window.customElements.get("collection-layout-switch")) {
 }
 
 // js/sections/countdown-timer.js
-import { animate as animate16, inView as inView12 } from "vendor";
+import { animate as animate15, inView as inView12 } from "vendor";
 var _flips, _expirationDate, _interval, _isVisible, _CountdownTimer_instances, recalculateFlips_fn;
 var CountdownTimer = class extends HTMLElement {
   constructor() {
@@ -4470,10 +4635,14 @@ var CountdownTimer = class extends HTMLElement {
       __privateSet(this, _interval, setInterval(__privateMethod(this, _CountdownTimer_instances, recalculateFlips_fn).bind(this), 1e3));
       __privateMethod(this, _CountdownTimer_instances, recalculateFlips_fn).call(this);
     }
-    inView12(this, () => {
-      __privateSet(this, _isVisible, true);
-      return () => __privateSet(this, _isVisible, false);
-    }, { margin: "500px" });
+    inView12(
+      this,
+      () => {
+        __privateSet(this, _isVisible, true);
+        return () => __privateSet(this, _isVisible, false);
+      },
+      { margin: "500px" }
+    );
   }
   disconnectedCallback() {
     clearInterval(__privateGet(this, _interval));
@@ -4525,7 +4694,9 @@ var CountdownTimerFlip = class extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    let flipHtml = [...this.textContent].map(() => `<countdown-timer-flip-digit part="digit" ${this.hasAttribute("animate") ? "animate" : ""} style="display: inline-block">0</countdown-timer-flip-digit>`);
+    let flipHtml = [...this.textContent].map(
+      () => `<countdown-timer-flip-digit part="digit" ${this.hasAttribute("animate") ? "animate" : ""} style="display: inline-block">0</countdown-timer-flip-digit>`
+    );
     this.shadowRoot.appendChild(document.createRange().createContextualFragment(flipHtml.join("")));
   }
   updateValue(value) {
@@ -4545,9 +4716,9 @@ var CountdownTimerFlipDigit = class extends HTMLElement {
     if (oldValue === null || oldValue === newValue || !this.hasAttribute("animate")) {
       return this.textContent = newValue;
     }
-    await animate16(this.shadowRoot.firstElementChild, { opacity: [1, 0], transform: ["translateY(0)", "translateY(-8px)"] }, { duration: 0.3, easing: [0.64, 0, 0.78, 0] }).finished;
+    await animate15(this.shadowRoot.firstElementChild, { opacity: [1, 0], transform: ["translateY(0)", "translateY(-8px)"] }, { duration: 0.3, easing: [0.64, 0, 0.78, 0] }).finished;
     this.textContent = newValue;
-    animate16(this.shadowRoot.firstElementChild, { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0px)"] }, { duration: 0.3, easing: [0.22, 1, 0.36, 1] });
+    animate15(this.shadowRoot.firstElementChild, { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0px)"] }, { duration: 0.3, easing: [0.22, 1, 0.36, 1] });
   }
 };
 if (!window.customElements.get("countdown-timer")) {
@@ -4558,6 +4729,52 @@ if (!window.customElements.get("countdown-timer-flip")) {
 }
 if (!window.customElements.get("countdown-timer-flip-digit")) {
   window.customElements.define("countdown-timer-flip-digit", CountdownTimerFlipDigit);
+}
+
+// js/sections/dynamic-grid.js
+import { animate as animate16, scroll as scroll2 } from "vendor";
+var _DynamicGrid_instances, setupEmulateScrollTimeline_fn;
+var DynamicGrid = class extends HTMLElement {
+  constructor() {
+    super();
+    __privateAdd(this, _DynamicGrid_instances);
+    if (window.Shopify.designMode) {
+      this.closest(".shopify-section")?.addEventListener("shopify:section:select", () => this.classList.add("editor-is-selected"));
+      this.closest(".shopify-section")?.addEventListener("shopify:section:deselect", () => this.classList.remove("editor-is-selected"));
+      this.addEventListener("shopify:block:select", (event) => event.target.classList.add("editor-is-selected"));
+      this.addEventListener("shopify:block:deselect", (event) => event.target.classList.remove("editor-is-selected"));
+    }
+  }
+  connectedCallback() {
+    if (!("ViewTimeline" in window)) {
+      __privateMethod(this, _DynamicGrid_instances, setupEmulateScrollTimeline_fn).call(this);
+    }
+  }
+};
+_DynamicGrid_instances = new WeakSet();
+/**
+ * On older browsers, we fallback to a more standard "scroll listener" based approach, by using MotionJS.
+ */
+setupEmulateScrollTimeline_fn = function() {
+  Array.from(this.querySelectorAll(".dynamic-grid__cell")).forEach((element) => {
+    const parallaxSpeed = parseInt(element.style.getPropertyValue("--parallax-speed"));
+    if (parallaxSpeed === 0) {
+      return;
+    }
+    const offsetAmount = `${parallaxSpeed * 10 / 2}vmin`;
+    scroll2(
+      animate16(element, {
+        transform: element.getAttribute("data-parallax-direction") === "horizontal" ? [`translateX(calc(-1 * ${offsetAmount}))`, `translateX(${offsetAmount})`] : [`translateY(calc(-1 * ${offsetAmount}))`, `translateY(${offsetAmount})`]
+      }),
+      {
+        offset: ["start end", "end start"],
+        target: this.closest(".shopify-section")
+      }
+    );
+  });
+};
+if (!window.customElements.get("dynamic-grid")) {
+  window.customElements.define("dynamic-grid", DynamicGrid);
 }
 
 // js/sections/customer.js
@@ -4646,30 +4863,30 @@ if (!window.customElements.get("featured-collections-carousel")) {
 
 // js/sections/header.js
 import { animate as animate19, timeline as timeline9, stagger as stagger3, Delegate as Delegate8 } from "vendor";
-var _headerTrackerIntersectionObserver, _abortController10, _scrollYTrackingPosition, _isVisible2, _Header_instances, onHeaderTrackerIntersection_fn, detectMousePosition_fn, detectScrollDirection_fn, setVisibility_fn;
+var _headerTrackerIntersectionObserver, _abortController11, _scrollYTrackingPosition, _isVisible2, _Header_instances, onHeaderTrackerIntersection_fn, detectMousePosition_fn, detectScrollDirection_fn, setVisibility_fn;
 var Header = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _Header_instances);
     __privateAdd(this, _headerTrackerIntersectionObserver, new IntersectionObserver(__privateMethod(this, _Header_instances, onHeaderTrackerIntersection_fn).bind(this)));
-    __privateAdd(this, _abortController10);
+    __privateAdd(this, _abortController11);
     __privateAdd(this, _scrollYTrackingPosition, 0);
     __privateAdd(this, _isVisible2, true);
   }
   connectedCallback() {
-    __privateSet(this, _abortController10, new AbortController());
+    __privateSet(this, _abortController11, new AbortController());
     __privateGet(this, _headerTrackerIntersectionObserver).observe(document.getElementById("header-scroll-tracker"));
     if (this.hasAttribute("hide-on-scroll")) {
-      window.addEventListener("scroll", __privateMethod(this, _Header_instances, detectScrollDirection_fn).bind(this), { signal: __privateGet(this, _abortController10).signal });
-      window.addEventListener("pointermove", __privateMethod(this, _Header_instances, detectMousePosition_fn).bind(this), { signal: __privateGet(this, _abortController10).signal });
+      window.addEventListener("scroll", __privateMethod(this, _Header_instances, detectScrollDirection_fn).bind(this), { signal: __privateGet(this, _abortController11).signal });
+      window.addEventListener("pointermove", __privateMethod(this, _Header_instances, detectMousePosition_fn).bind(this), { signal: __privateGet(this, _abortController11).signal });
     }
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController10).abort();
+    __privateGet(this, _abortController11).abort();
   }
 };
 _headerTrackerIntersectionObserver = new WeakMap();
-_abortController10 = new WeakMap();
+_abortController11 = new WeakMap();
 _scrollYTrackingPosition = new WeakMap();
 _isVisible2 = new WeakMap();
 _Header_instances = new WeakSet();
@@ -4698,7 +4915,7 @@ detectScrollDirection_fn = function() {
 };
 setVisibility_fn = function(isVisible) {
   if (isVisible !== __privateGet(this, _isVisible2)) {
-    if (!isVisible && this.querySelectorAll("[open]").length > 0) {
+    if (!isVisible && this.querySelectorAll(":where(.header__primary-nav, .header__secondary-nav) [open]").length > 0) {
       return;
     }
     __privateSet(this, _isVisible2, isVisible);
@@ -4710,17 +4927,16 @@ var DropdownMenuDisclosure = class extends MenuDisclosure {
   createShowAnimationControls() {
     let menuItemsSequence = [];
     if (window.themeVariables.settings.staggerMenuApparition) {
-      menuItemsSequence = [this.contentElement.querySelectorAll(":scope > li"), { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] }, { duration: 0.15, at: "-0.15", delay: stagger3(0.1) }];
+      menuItemsSequence = [
+        this.contentElement.querySelectorAll(":scope > li"),
+        { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] },
+        { duration: 0.15, at: "-0.15", delay: stagger3(0.1) }
+      ];
     }
-    return timeline9([
-      [this.contentElement, { opacity: [0, 1] }, { duration: 0.25 }],
-      menuItemsSequence
-    ]);
+    return timeline9([[this.contentElement, { opacity: [0, 1] }, { duration: 0.25 }], menuItemsSequence]);
   }
   createHideAnimationControls() {
-    return timeline9([
-      [this.contentElement, { opacity: [1, 0] }, { duration: 0.4 }]
-    ]);
+    return timeline9([[this.contentElement, { opacity: [1, 0] }, { duration: 0.4 }]]);
   }
 };
 var MegaMenuDisclosure = class extends MenuDisclosure {
@@ -4734,15 +4950,10 @@ var MegaMenuDisclosure = class extends MenuDisclosure {
         [this.contentElement.querySelector(".mega-menu__promo"), { opacity: [0, 1] }, { duration: 0.3, at: "-0.15" }]
       ];
     }
-    return timeline9([
-      [this.contentElement, { opacity: [0, 1] }, { duration: 0.25 }],
-      ...menuItemsSequence
-    ]);
+    return timeline9([[this.contentElement, { opacity: [0, 1] }, { duration: 0.25 }], ...menuItemsSequence]);
   }
   createHideAnimationControls() {
-    return timeline9([
-      [this.contentElement, { opacity: [1, 0] }, { duration: 0.4 }]
-    ]);
+    return timeline9([[this.contentElement, { opacity: [1, 0] }, { duration: 0.4 }]]);
   }
 };
 var _HeaderSearch_instances, calculateMaxHeight_fn;
@@ -4761,13 +4972,21 @@ var HeaderSearch = class extends DialogElement {
   createEnterAnimationControls() {
     return timeline9([
       [this.getShadowPartByName("overlay"), { opacity: [0, 1] }, { duration: 0.2, easing: [0.645, 0.045, 0.355, 1] }],
-      [this.getShadowPartByName("content"), { opacity: [0, 1], transform: ["translateY(calc(-1 * var(--header-height)))", "translateY(0)"] }, { duration: 0.2, at: "<", easing: [0.645, 0.045, 0.355, 1] }]
+      [
+        this.getShadowPartByName("content"),
+        { opacity: [0, 1], transform: ["translateY(calc(-1 * var(--header-height)))", "translateY(0)"] },
+        { duration: 0.2, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ]
     ]);
   }
   createLeaveAnimationControls() {
     return timeline9([
       [this.getShadowPartByName("overlay"), { opacity: [1, 0] }, { duration: 0.2, easing: [0.645, 0.045, 0.355, 1] }],
-      [this.getShadowPartByName("content"), { opacity: [1, 0], transform: ["translateY(0)", "translateY(calc(-1 * var(--header-height)))"] }, { duration: 0.2, at: "<", easing: [0.645, 0.045, 0.355, 1] }]
+      [
+        this.getShadowPartByName("content"),
+        { opacity: [1, 0], transform: ["translateY(0)", "translateY(calc(-1 * var(--header-height)))"] },
+        { duration: 0.2, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ]
     ]);
   }
 };
@@ -4797,7 +5016,11 @@ var HeaderSidebar = class extends Drawer {
   revealItems(withDelay = false) {
     return timeline9([
       [this.querySelector(".header-sidebar__main-panel"), { opacity: 1, transform: "translateX(0)" }, { duration: 0, delay: withDelay ? 0.5 : 0 }],
-      [this.querySelectorAll(".header-sidebar__main-panel .header-sidebar__linklist li"), { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] }, { duration: 0.15, at: "-0.15", delay: window.themeVariables.settings.staggerMenuApparition ? stagger3(0.1) : 0 }],
+      [
+        this.querySelectorAll(".header-sidebar__main-panel .header-sidebar__linklist li"),
+        { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] },
+        { duration: 0.15, at: "-0.15", delay: window.themeVariables.settings.staggerMenuApparition ? stagger3(0.1) : 0 }
+      ],
       [this.querySelector(".header-sidebar__footer"), { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0)"] }, { duration: 0.3 }]
     ]);
   }
@@ -4850,24 +5073,16 @@ var HeaderSidebarCollapsiblePanel = class extends DialogElement {
   }
   createEnterAnimationControls() {
     if (matchesMediaQuery("md-max")) {
-      return timeline9([
-        [this, { opacity: [0, 1], transform: "translateX(0)" }, { duration: 0.3 }]
-      ]);
+      return timeline9([[this, { opacity: [0, 1], transform: "translateX(0)" }, { duration: 0.3 }]]);
     } else {
-      return timeline9([
-        [this, { opacity: [0, 1], transform: ["translateX(0)", "translateX(calc(var(--transform-logical-flip) * 100%)"] }, { duration: 0.3 }]
-      ]);
+      return timeline9([[this, { opacity: [0, 1], transform: ["translateX(0)", "translateX(calc(var(--transform-logical-flip) * 100%)"] }, { duration: 0.3 }]]);
     }
   }
   createLeaveAnimationControls() {
     if (matchesMediaQuery("md-max")) {
-      return timeline9([
-        [this, { opacity: [1, 0], transform: ["translateX(0)", "translateX(10px)"] }, { duration: 0.3 }]
-      ]);
+      return timeline9([[this, { opacity: [1, 0], transform: ["translateX(0)", "translateX(10px)"] }, { duration: 0.3 }]]);
     } else {
-      return timeline9([
-        [this, { opacity: [1, 0], transform: ["translateX(calc(var(--transform-logical-flip) * 100%))", "translateX(0)"] }, { duration: 0.3 }]
-      ]);
+      return timeline9([[this, { opacity: [1, 0], transform: ["translateX(calc(var(--transform-logical-flip) * 100%))", "translateX(0)"] }, { duration: 0.3 }]]);
     }
   }
   async attributeChangedCallback(name, oldValue, newValue) {
@@ -4903,7 +5118,11 @@ switchPanel_fn = async function(fromPanel, toPanel) {
   const listSelector = matchesMediaQuery("md-max") ? ".header-sidebar__back-button, .header-sidebar__linklist li" : ".header-sidebar__linklist li";
   timeline9([
     [toPanel, { opacity: 1 }, { duration: 0 }],
-    [toPanel.querySelectorAll(listSelector), { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] }, { duration: 0.15, at: "-0.15", delay: window.themeVariables.settings.staggerMenuApparition ? stagger3(0.1) : 0 }],
+    [
+      toPanel.querySelectorAll(listSelector),
+      { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] },
+      { duration: 0.15, at: "-0.15", delay: window.themeVariables.settings.staggerMenuApparition ? stagger3(0.1) : 0 }
+    ],
     [toPanel.querySelector(".header-sidebar__promo"), { opacity: [0, 1] }, { duration: 0.45 }]
   ]);
 };
@@ -4944,12 +5163,7 @@ _ImageWithText_instances = new WeakSet();
 onBecameVisible_fn = async function(target) {
   await imageLoaded(target);
   const fromValue = (window.direction === "rtl" ? -1 : 1) * (matchesMediaQuery("md-max") ? 0.6 : 1) * (this.classList.contains("image-with-text--reverse") ? 25 : -25);
-  animate20(
-    target,
-    { opacity: 1, transform: [`translateX(${fromValue}px)`, "translateX(0)"] },
-    { easing: [0.215, 0.61, 0.355, 1] },
-    { duration: 0.8 }
-  );
+  animate20(target, { opacity: 1, transform: [`translateX(${fromValue}px)`, "translateX(0)"] }, { easing: [0.215, 0.61, 0.355, 1] }, { duration: 0.8 });
 };
 if (!window.customElements.get("image-with-text")) {
   window.customElements.define("image-with-text", ImageWithText);
@@ -4992,7 +5206,7 @@ if (!window.customElements.get("image-with-text-overlay")) {
 }
 
 // js/sections/images-with-text-scroll.js
-import { timeline as timeline11, animate as animate21, inView as inView15, scroll as scroll2, ScrollOffset } from "vendor";
+import { timeline as timeline11, animate as animate21, inView as inView15, scroll as scroll3, ScrollOffset } from "vendor";
 var _itemElements, _imageElements, _textElements, _visibleImageElement, _ImagesWithTextScroll_instances, setupScrollObservers_fn, onBreakpointChanged_fn;
 var ImagesWithTextScroll = class extends EffectCarousel {
   constructor() {
@@ -5044,8 +5258,16 @@ var ImagesWithTextScroll = class extends EffectCarousel {
     }
     return timeline11([
       ...imageAnimationSequence,
-      [fromSlide.querySelector(".images-with-text-scroll__text"), { opacity: [1, 0], transform: ["translateY(0)", "translateY(-15px)"] }, { duration: 0.4, at: "<", easing: [0.55, 0.055, 0.675, 0.19] }],
-      [toSlide.querySelector(".images-with-text-scroll__text"), { opacity: [0, 1], transform: ["translateY(15px)", "translateY(0)"] }, { duration: 0.4, at: "+0.4", easing: [0.25, 0.46, 0.45, 0.94] }]
+      [
+        fromSlide.querySelector(".images-with-text-scroll__text"),
+        { opacity: [1, 0], transform: ["translateY(0)", "translateY(-15px)"] },
+        { duration: 0.4, at: "<", easing: [0.55, 0.055, 0.675, 0.19] }
+      ],
+      [
+        toSlide.querySelector(".images-with-text-scroll__text"),
+        { opacity: [0, 1], transform: ["translateY(15px)", "translateY(0)"] },
+        { duration: 0.4, at: "+0.4", easing: [0.25, 0.46, 0.45, 0.94] }
+      ]
     ]);
   }
 };
@@ -5059,18 +5281,21 @@ _ImagesWithTextScroll_instances = new WeakSet();
  */
 setupScrollObservers_fn = function() {
   __privateGet(this, _textElements).forEach((textElement) => {
-    scroll2(animate21(textElement, { opacity: [0, 0.25, 1, 0.25, 0] }), { target: textElement, offset: ScrollOffset.Any });
+    scroll3(animate21(textElement, { opacity: [0, 0.25, 1, 0.25, 0] }), { target: textElement, offset: ScrollOffset.Any });
   });
-  scroll2((info) => {
-    const index = Math.min(Math.floor(info.y.progress / (1 / __privateGet(this, _itemElements).length)), __privateGet(this, _itemElements).length - 1), toImage = __privateGet(this, _itemElements)[index].querySelector(".images-with-text-scroll__image");
-    if (toImage && toImage !== __privateGet(this, _visibleImageElement)) {
-      timeline11([
-        [__privateGet(this, _visibleImageElement), { opacity: [1, 0] }, { duration: 0.25 }],
-        [toImage, { opacity: [0, 1] }, { duration: 0.25, at: "<" }]
-      ]);
-      __privateSet(this, _visibleImageElement, toImage);
-    }
-  }, { target: this, offset: ["start center", "end center"] });
+  scroll3(
+    (info) => {
+      const index = Math.min(Math.floor(info.y.progress / (1 / __privateGet(this, _itemElements).length)), __privateGet(this, _itemElements).length - 1), toImage = __privateGet(this, _itemElements)[index].querySelector(".images-with-text-scroll__image");
+      if (toImage && toImage !== __privateGet(this, _visibleImageElement)) {
+        timeline11([
+          [__privateGet(this, _visibleImageElement), { opacity: [1, 0] }, { duration: 0.25 }],
+          [toImage, { opacity: [0, 1] }, { duration: 0.25, at: "<" }]
+        ]);
+        __privateSet(this, _visibleImageElement, toImage);
+      }
+    },
+    { target: this, offset: ["start center", "end center"] }
+  );
 };
 /**
  * Due to how different the experience is on mobile and desktop, we use an observer to toggle between one mode and other
@@ -5089,16 +5314,19 @@ if (!window.customElements.get("images-with-text-scroll")) {
 }
 
 // js/sections/main-article.js
-import { scroll as scroll3 } from "vendor";
+import { scroll as scroll4 } from "vendor";
 var ArticleToolbar = class extends HTMLElement {
   connectedCallback() {
     if (window.matchMedia("(prefers-reduced-motion: no-preference)").matches) {
-      scroll3((info) => {
-        this.classList.toggle("is-visible", info.y.progress > 0 && info.y.progress < 1);
-      }, {
-        target: this.closest(".shopify-section"),
-        offset: ["100px start", "end start"]
-      });
+      scroll4(
+        (info) => {
+          this.classList.toggle("is-visible", info.y.progress > 0 && info.y.progress < 1);
+        },
+        {
+          target: this.closest(".shopify-section"),
+          offset: ["100px start", "end start"]
+        }
+      );
     }
   }
 };
@@ -5193,7 +5421,8 @@ var NewsletterPopup = class extends PopIn {
     return parseInt(this.getAttribute("apparition-delay") || 0) * 1e3;
   }
   get shouldAppearAutomatically() {
-    return !(localStorage.getItem("theme:popup-filled") === "true" || this.hasAttribute("only-once") && localStorage.getItem("theme:popup-appeared") === "true");
+    return !(localStorage.getItem("theme:popup-filled") === "true" || // Never open if popup has been filled successfully
+    this.hasAttribute("only-once") && localStorage.getItem("theme:popup-appeared") === "true");
   }
   attributeChangedCallback(name, oldValue, newValue) {
     super.attributeChangedCallback(name, oldValue, newValue);
@@ -5214,11 +5443,13 @@ var PrivacyBanner = class extends PopIn {
     super();
     __privateAdd(this, _PrivacyBanner_instances);
     __privateAdd(this, _delegate7, new Delegate9(this));
-    window.Shopify.loadFeatures([{
-      name: "consent-tracking-api",
-      version: "0.1",
-      onLoad: __privateMethod(this, _PrivacyBanner_instances, onConsentLibraryLoaded_fn).bind(this)
-    }]);
+    window.Shopify.loadFeatures([
+      {
+        name: "consent-tracking-api",
+        version: "0.1",
+        onLoad: __privateMethod(this, _PrivacyBanner_instances, onConsentLibraryLoaded_fn).bind(this)
+      }
+    ]);
   }
   connectedCallback() {
     super.connectedCallback();
@@ -5323,31 +5554,31 @@ if (!window.customElements.get("product-recommendations")) {
 }
 
 // js/sections/quick-order-list.js
-var _abortController11, _QuickOrderList_instances, onQuantityChange_fn, onUpdate_fn, onQuantityUpdated_fn;
+var _abortController12, _QuickOrderList_instances, onQuantityChange_fn, onUpdate_fn, onQuantityUpdated_fn;
 var QuickOrderList = class extends HTMLElement {
   constructor() {
     super();
     __privateAdd(this, _QuickOrderList_instances);
-    __privateAdd(this, _abortController11);
+    __privateAdd(this, _abortController12);
     this.addEventListener("quick-order-list:update", __privateMethod(this, _QuickOrderList_instances, onUpdate_fn).bind(this));
     this.addEventListener("change", __privateMethod(this, _QuickOrderList_instances, onQuantityChange_fn).bind(this));
   }
 };
-_abortController11 = new WeakMap();
+_abortController12 = new WeakMap();
 _QuickOrderList_instances = new WeakSet();
 onQuantityChange_fn = async function() {
-  __privateGet(this, _abortController11)?.abort();
+  __privateGet(this, _abortController12)?.abort();
 };
 onUpdate_fn = async function(event) {
   let sectionsToBundle = [extractSectionId(this)];
   document.documentElement.dispatchEvent(new CustomEvent("cart:prepare-bundled-sections", { bubbles: true, detail: { sections: sectionsToBundle } }));
-  __privateSet(this, _abortController11, new AbortController());
+  __privateSet(this, _abortController12, new AbortController());
   const inputWrapper = event.target.closest(".quick-order-list__quantity-actions")?.querySelector(".quantity-selector__input-wrapper");
   inputWrapper?.setAttribute("aria-busy", "true");
   try {
     const response = await fetch(`${window.Shopify.routes.root}cart/update.js`, {
       method: "POST",
-      signal: __privateGet(this, _abortController11).signal,
+      signal: __privateGet(this, _abortController12).signal,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         updates: event.detail.updates,
@@ -5368,13 +5599,15 @@ onUpdate_fn = async function(event) {
 };
 onQuantityUpdated_fn = async function(response) {
   const cartContent = await response.json(), sectionId = extractSectionId(this);
-  document.documentElement.dispatchEvent(new CustomEvent("cart:change", {
-    bubbles: true,
-    detail: {
-      baseEvent: "quick-order-list:add",
-      cart: cartContent
-    }
-  }));
+  document.documentElement.dispatchEvent(
+    new CustomEvent("cart:change", {
+      bubbles: true,
+      detail: {
+        baseEvent: "quick-order-list:add",
+        cart: cartContent
+      }
+    })
+  );
   this.closest(".shopify-section").outerHTML = cartContent["sections"][sectionId];
 };
 var _QuickOrderListQuantitySelector_instances, onQuantityChange_fn2, onCartError_fn2;
@@ -5388,12 +5621,14 @@ var QuickOrderListQuantitySelector = class extends HTMLElement {
 };
 _QuickOrderListQuantitySelector_instances = new WeakSet();
 onQuantityChange_fn2 = function(event) {
-  this.dispatchEvent(new CustomEvent("quick-order-list:update", {
-    bubbles: true,
-    detail: {
-      updates: { [this.getAttribute("variant-id")]: parseInt(event.target.value) }
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("quick-order-list:update", {
+      bubbles: true,
+      detail: {
+        updates: { [this.getAttribute("variant-id")]: parseInt(event.target.value) }
+      }
+    })
+  );
 };
 onCartError_fn2 = function(event) {
   const errorSvg = `<svg width="13" height="13" fill="none" viewBox="0 0 13 13">
@@ -5413,12 +5648,14 @@ var QuickOrderListRemoveVariant = class extends HTMLElement {
 };
 _QuickOrderListRemoveVariant_instances = new WeakSet();
 onClick_fn = function() {
-  this.dispatchEvent(new CustomEvent("quick-order-list:update", {
-    bubbles: true,
-    detail: {
-      updates: { [this.getAttribute("variant-id")]: 0 }
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("quick-order-list:update", {
+      bubbles: true,
+      detail: {
+        updates: { [this.getAttribute("variant-id")]: 0 }
+      }
+    })
+  );
 };
 var _QuickOrderListRemoveAll_instances, onClick_fn2;
 var QuickOrderListRemoveAll = class extends HTMLElement {
@@ -5434,12 +5671,14 @@ onClick_fn2 = function() {
     acc[variantId] = 0;
     return acc;
   }, {});
-  this.dispatchEvent(new CustomEvent("quick-order-list:update", {
-    bubbles: true,
-    detail: {
-      updates
-    }
-  }));
+  this.dispatchEvent(
+    new CustomEvent("quick-order-list:update", {
+      bubbles: true,
+      detail: {
+        updates
+      }
+    })
+  );
 };
 if (!window.customElements.get("quick-order-list")) {
   window.customElements.define("quick-order-list", QuickOrderList);
@@ -5581,7 +5820,11 @@ var ShopTheLookDesktopCarousel = class extends EffectCarousel {
   createOnChangeAnimationControls(fromSlide, toSlide) {
     return timeline13([
       [fromSlide.querySelectorAll(".shop-the-look__item-content"), { opacity: [1, 0] }, { duration: 0.3 }],
-      [fromSlide.querySelectorAll(".shop-the-look__image-wrapper > *"), { opacity: [1, 0], transform: ["translateX(0)", "translateX(-15px)"] }, { duration: 0.5, at: "<", easing: [0.645, 0.045, 0.355, 1] }],
+      [
+        fromSlide.querySelectorAll(".shop-the-look__image-wrapper > *"),
+        { opacity: [1, 0], transform: ["translateX(0)", "translateX(-15px)"] },
+        { duration: 0.5, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ],
       [toSlide.querySelectorAll(".shop-the-look__image-wrapper > *"), { opacity: [0, 1], transform: ["translateX(-15px)", "translateX(0)"] }, { duration: 0.5, at: "<" }],
       [toSlide.querySelectorAll(".shop-the-look__item-content"), { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0)"] }, { duration: 0.5, at: "-0.1" }]
     ]);
@@ -5642,9 +5885,7 @@ var SlideshowCarousel = class extends EffectCarousel {
       await videoLoaded(toSlide.querySelectorAll("video"));
     }
     if (toSlide.hasAttribute("reveal-on-scroll")) {
-      return timeline14([
-        ...__privateMethod(this, _SlideshowCarousel_instances, getSlideEnteringSequence_fn).call(this, toSlide)
-      ]);
+      return timeline14([...__privateMethod(this, _SlideshowCarousel_instances, getSlideEnteringSequence_fn).call(this, toSlide)]);
     }
     return { finished: Promise.resolve() };
   }
@@ -5683,15 +5924,31 @@ getSlideEnteringSequence_fn = function(slide) {
   if (slideContent.classList.contains("slideshow__slide-content--boxed")) {
     return [
       [slide, { opacity: [0, 1] }, { duration: 0.8, easing: [0.25, 0.46, 0.45, 0.94] }],
-      [slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"), { opacity: [0, 1], transform: ["scale(1.2)", "scale(1)"] }, { duration: 0.8, at: "<", easing: [0.25, 0.46, 0.45, 0.94] }],
+      [
+        slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"),
+        { opacity: [0, 1], transform: ["scale(1.2)", "scale(1)"] },
+        { duration: 0.8, at: "<", easing: [0.25, 0.46, 0.45, 0.94] }
+      ],
       [slideContent, { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.6, at: "-0.4", easing: [0.215, 0.61, 0.355, 1] }]
     ];
   } else {
     return [
       [slide, { opacity: [0, 1] }, { duration: 0.8, easing: [0.25, 0.46, 0.45, 0.94] }],
-      [slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"), { opacity: [0, 1], transform: ["scale(1.2)", "scale(1)"] }, { duration: 0.8, at: "<", easing: [0.25, 0.46, 0.45, 0.94] }],
-      [slideContent.querySelector(".prose"), { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] }, { duration: 0.6, at: "-0.4", easing: [0.215, 0.61, 0.355, 1] }],
-      [slideContent.querySelector(".button-group"), { opacity: [0, 1], transform: ["translateY(20px)", "translateY(0)"] }, { duration: 0.6, at: "-0.4", easing: [0.215, 0.61, 0.355, 1] }]
+      [
+        slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"),
+        { opacity: [0, 1], transform: ["scale(1.2)", "scale(1)"] },
+        { duration: 0.8, at: "<", easing: [0.25, 0.46, 0.45, 0.94] }
+      ],
+      [
+        slideContent.querySelector(".prose"),
+        { opacity: [0, 1], transform: ["translateY(30px)", "translateY(0)"] },
+        { duration: 0.6, at: "-0.4", easing: [0.215, 0.61, 0.355, 1] }
+      ],
+      [
+        slideContent.querySelector(".button-group"),
+        { opacity: [0, 1], transform: ["translateY(20px)", "translateY(0)"] },
+        { duration: 0.6, at: "-0.4", easing: [0.215, 0.61, 0.355, 1] }
+      ]
     ];
   }
 };
@@ -5703,13 +5960,29 @@ getSlideLeavingSequence_fn = function(slide) {
   if (slideContent.classList.contains("slideshow__slide-content--boxed")) {
     return [
       [slideContent, { opacity: [1, 0], transform: ["translateY(0)", "translateY(20px)"] }, { duration: 0.25, at: "leaving", easing: [0.55, 0.055, 0.675, 0.19] }],
-      [slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"), { opacity: [1, 0] }, { duration: 0.2, at: "-0.1", easing: [0.55, 0.055, 0.675, 0.19] }]
+      [
+        slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"),
+        { opacity: [1, 0] },
+        { duration: 0.2, at: "-0.1", easing: [0.55, 0.055, 0.675, 0.19] }
+      ]
     ];
   } else {
     return [
-      [slideContent.querySelector(".prose"), { opacity: [1, 0], transform: ["translateY(0)", "translateY(10px)"] }, { duration: 0.25, at: "leaving", easing: [0.55, 0.055, 0.675, 0.19] }],
-      [slideContent.querySelector(".button-group"), { opacity: [1, 0], transform: ["translateY(0)", "translateY(20px)"] }, { duration: 0.25, at: "<", easing: [0.55, 0.055, 0.675, 0.19] }],
-      [slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"), { opacity: [1, 0] }, { duration: 0.2, at: "-0.1", easing: [0.55, 0.055, 0.675, 0.19] }]
+      [
+        slideContent.querySelector(".prose"),
+        { opacity: [1, 0], transform: ["translateY(0)", "translateY(10px)"] },
+        { duration: 0.25, at: "leaving", easing: [0.55, 0.055, 0.675, 0.19] }
+      ],
+      [
+        slideContent.querySelector(".button-group"),
+        { opacity: [1, 0], transform: ["translateY(0)", "translateY(20px)"] },
+        { duration: 0.25, at: "<", easing: [0.55, 0.055, 0.675, 0.19] }
+      ],
+      [
+        slide.querySelectorAll(".content-over-media > :is(video-media, svg), .content-over-media > picture img"),
+        { opacity: [1, 0] },
+        { duration: 0.2, at: "-0.1", easing: [0.55, 0.055, 0.675, 0.19] }
+      ]
     ];
   }
 };
@@ -5829,7 +6102,11 @@ var TimelineCarousel = class extends EffectCarousel {
   createOnChangeAnimationControls(fromSlide, toSlide) {
     return timeline15([
       [fromSlide.querySelectorAll(".timeline__item-content"), { opacity: [1, 0] }, { duration: 0.3 }],
-      [fromSlide.querySelector(".timeline__item-image-wrapper :is(img, svg)"), { opacity: [1, 0], transform: ["translateX(0)", "translateX(-15px)"] }, { duration: 0.5, at: "<", easing: [0.645, 0.045, 0.355, 1] }],
+      [
+        fromSlide.querySelector(".timeline__item-image-wrapper :is(img, svg)"),
+        { opacity: [1, 0], transform: ["translateX(0)", "translateX(-15px)"] },
+        { duration: 0.5, at: "<", easing: [0.645, 0.045, 0.355, 1] }
+      ],
       [toSlide.querySelector(".timeline__item-image-wrapper :is(img, svg)"), { opacity: [0, 1], transform: ["translateX(-15px)", "translateX(0)"] }, { duration: 0.5, at: "<" }],
       [toSlide.querySelectorAll(".timeline__item-content"), { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0)"] }, { duration: 0.5, at: "-0.1" }]
     ]);
@@ -5879,7 +6156,6 @@ export {
   CartCount,
   CartDiscountBanner,
   CartDiscountField,
-  CartDiscountFieldLoader,
   CartDiscountRemoveButton,
   CartDot,
   CartDrawer,
@@ -5896,6 +6172,7 @@ export {
   DialogCloseButton,
   DialogElement,
   Drawer,
+  DynamicGrid,
   EffectCarousel,
   FacetLink,
   FacetsDrawer,
@@ -5961,6 +6238,8 @@ export {
   TimelineCarousel,
   VariantPicker,
   VideoMedia,
+  announceError,
+  announceStatus,
   cachedFetch,
   createMediaImg,
   debounce,

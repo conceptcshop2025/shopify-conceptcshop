@@ -1,22 +1,14 @@
-{%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-PRODUCT BADGES COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+{%- doc -%}
+  This component is used in product listing and product page to render the badges of a given product.
 
-This component is used in product listing and product page to render the badges of a given product
-
-********************************************
-Supported variables
-********************************************
-
-* product: the product to render the badges
-* variant: the specific variant to show the badge from
-* vertical: if set to true, the badges are outputted vertically
-* types: the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted.
-* context: can be "product" or "card"
-* collection_origin: the handle of the collection where the product is being shown (only needed when context is "card" and discount badge is enabled)
-* collection_origin_title: the title of the collection where the product is being shown (only needed when context is "card" and discount badge is enabled)
-{%- endcomment -%}
+  @param {object} product - the product to render the badges for
+  @param {object} [variant] - the specific variant to show the badge from
+  @param {boolean} [vertical] - if set to true, the badges are outputted vertically
+  @param {string} [types] - the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted
+  @param {string} [context] - can be "product" or "card"
+  @param {string} [collection_origin] - (custom) handle of the collection where the product is shown; 'nouveautes' or 'soldes' add an extra badge
+  @param {string} [collection_origin_title] - (custom) title of that collection
+{%- enddoc -%}
 
 {%- liquid
   assign badge_types = types | default: 'custom, sold_out, discount' | split: ','
@@ -68,17 +60,13 @@ Supported variables
             {%- if show_on_sale_badge -%}
               <on-sale-badge class="badge badge--on-sale {% if savings == '0%' or savings == '1%' or savings == '2%' or savings == '3%' or savings == '4%' %} hidden{% endif %}">
                 {%- liquid
-                  if settings.discount_mode == 'text'
-                    echo 'product.general.on_sale' | t
-                  else
-                    if context == 'product'
+                  if context == 'product'
+                    echo 'product.general.discount_badge_html' | t: savings: savings
+                  elsif context == 'card'
+                    if product.compare_at_price_varies or variant.compare_at_price == blank
+                      echo 'product.general.on_sale_badge' | t
+                    else
                       echo 'product.general.discount_badge_html' | t: savings: savings
-                    elsif context == 'card'
-                      if product.compare_at_price_varies or variant.compare_at_price == blank
-                        echo 'product.general.on_sale_badge' | t
-                      else
-                        echo 'product.general.discount_badge_html' | t: savings: savings
-                      endif
                     endif
                   endif
                 -%}
