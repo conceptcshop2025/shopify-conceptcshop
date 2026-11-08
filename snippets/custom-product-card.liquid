@@ -105,12 +105,25 @@ Supported variables
       padding: .5rem;
     }
 
+    .product-card .product-card__rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 25px;
+    }
+
     .product-card .product-card__info .price-list .h6 {
       font-weight: 700;
     }
 
     .product-card .container-title-price {
       grid-template-rows: 105px 21px;
+    }
+
+    @media (max-width: 1001px) {
+      .product-card .product-card__figure img {
+        object-fit: initial;
+      }
     }
 
     @media (min-width: 1200px) {
@@ -159,7 +172,7 @@ Supported variables
         {% endunless %}
       {% endif %}
 
-      <a href="{{ product.url }}?collection-origin={{ collection.title }}&collection-url={{ collection.url }}" class="product-card__media" draggable="false" data-instant>
+      <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>
         {%- capture sizes -%}
           {%- if stacked -%}
             (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }}), (max-width: 999px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop | default: 3 }} - 64px), calc((100vw - 96px) / {{ section.settings.products_per_row_desktop | default: 3 }} - (24px / {{ section.settings.products_per_row_desktop | default: 3 }} * {{ section.settings.products_per_row_desktop | default: 3 | minus: 1 }}))
@@ -278,9 +291,14 @@ Supported variables
       {%- endif -%}
     {%- endif -%}
 
-    {%- if show_rating -%}
-      {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
-    {%- endif -%}
+    {%- comment -%} The wrapper is always rendered so products without reviews keep the same card height {%- endcomment -%}
+    {%- unless hide_product_information -%}
+      <div class="product-card__rating">
+        {%- if show_rating -%}
+          {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
 
     {% if release_date == blank %}
       {% if product.available %}

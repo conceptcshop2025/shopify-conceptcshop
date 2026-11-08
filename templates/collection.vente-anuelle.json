@@ -12,7 +12,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de",
         "image_size": "auto",
         "allow_transparent_header": true,
         "show_image": true,
@@ -33,7 +33,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Voir les termes et conditions</strong>",
-            "answer": "<p><strong>Certaines gammes| produits ne sont pas incluses dans la promotion:</strong></p><ul><li>Moroccanoil (25% de rabais du 19 novembre au 2 décembre)</li><li>Esthederm (Coffrets des Fêtes et sérums Age Proteom)</li><li>Kérastase</li><li>Steampod et Airlight Pro de L'Oréal<br/></li></ul><p><strong>D’autres sont offertes à un taux de rabais différent:</strong></p><ul><li>T3 & Coola: -15 % (Rabais appliqué au panier)</li><li>Shu Uemura: -25 % (Rabais appliqué au panier)<br/><br/><em>*Les rabais de la vente, incluant le 20%, s’appliquent automatiquement au panier, même sur les articles en solde, les coffrets et ceux de la Liquidation.</em></li></ul>"
+            "answer": "<p><strong>EXTRA 48H - CODE PROMO NOV20</strong></p><p><strong>Certaines gammes| produits ne sont pas incluses dans la promotion:</strong></p><ul><li>Moroccanoil (25% de rabais du 18 novembre au 2 décembre)</li><li>Kérastase - 11% de rabais</li><li>Promo Outils (déjà en rabais).</li><li>Esthederm (Coffrets des Fêtes et sérums Age Proteom)</li><li>Steampod et Airlight Pro de L'Oréal<br/></li></ul><p><strong>D’autres sont offertes à un taux de rabais différent:</strong></p><ul><li>Nuda: -15 % (Rabais appliqué au panier)</li></ul><p><em><br/></em><em><strong>*</strong></em><em>Pour profiter du 20 % de rabais de la vente, utilisez le code NOV20 lors de votre passage à la caisse. Le rabais s’applique même aux articles en solde, aux coffrets et aux produits en liquidation! L'offre prend fin le 3 novembre 23h59.</em></p>"
           }
         }
       },
@@ -45,7 +45,7 @@
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de",
         "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "",
@@ -80,7 +80,7 @@
         ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
       ],
       "settings": {
-        "color_scheme": "scheme-38b4cc10-27cc-43c4-b045-4b70dc9abf3d",
+        "color_scheme": "scheme-1",
         "hide_product_information": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",

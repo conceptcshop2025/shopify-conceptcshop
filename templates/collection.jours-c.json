@@ -11,14 +11,13 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
         ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
       ],
       "settings": {
         "color_scheme": "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244",
-        "image": "shopify://shop_images/Desk_Haut_Collection_Vente_Printaniere_55b20a7c-5d0c-4e7b-8c67-2640fb3e53e9.png",
-        "mobile_image": "shopify://shop_images/Mobile_Haut_de_Collection_Vente_Printaniere_2026_750_x_300_px_1_e4ac6970-0f17-449a-bd44-bdc84eb28b88.png",
+        "image": "shopify://shop_images/Desk_Haut_Collection_Jours_C.png",
+        "mobile_image": "shopify://shop_images/Haut_de_Collection_Mobile_Jours_C_750_x_300_px_c7b3907c-3931-48c7-a5dd-5f3d0db5748b.png",
         "image_size": "auto",
         "allow_transparent_header": false,
         "show_image": true,
@@ -57,7 +56,7 @@
       "disabled": true,
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
-        "color_scheme": "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244",
+        "color_scheme": "scheme-c610fac9-ab3c-4c4d-bbe3-833cfec1aa65",
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "",
@@ -68,7 +67,7 @@
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #dc6943; color: #ffffff;}"
+        ".collection-tags .tag.tag-collection {background: #a0d4ff; color: #ffffff;}"
       ],
       "name": "# Collection tags",
       "settings": {

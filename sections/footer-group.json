@@ -55,16 +55,15 @@
         "button_FHPUca"
       ],
       "custom_css": [
-        "div {padding-top: 10px;}",
-        "button {background: black; color: #ffffff;}",
-        ".color--button-text-color {text-color: black;}"
+        "div {padding-top: 0 !important;}",
+        "button {background: black; color: #ffffff;}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "172287913422739c97": {
@@ -89,8 +88,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false
       }
     },

@@ -11,6 +11,21 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "countdown_condensed_BceyMR": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "scheme-e2884a58-5f09-4cbc-9344-2eb87c7eb048",
+        "content": "<strong>ONGLET SOLDES: EXTRA 20 % APPLIQUÉ AU PANIER&nbsp;</strong>",
+        "link_text": "",
+        "link_url": "shopify://collections/soldes",
+        "expiration_date": "2026-10-13 23:59",
+        "expiration_behavior": "hide",
+        "desktop_justification": "center"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -25,7 +40,7 @@
         "message-1"
       ],
       "settings": {
-        "color_scheme": "scheme-6ba5bc6a-cbe8-4e62-b98b-782279d7de91",
+        "color_scheme": "scheme-54e3346b-ef23-4afe-a235-ed1d467921ec",
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 5,
@@ -33,8 +48,45 @@
         "mobile_font_size": 10
       }
     },
+    "c_countdown_dXGgpQ": {
+      "type": "c-countdown",
+      "disabled": true,
+      "name": "C Countdown",
+      "settings": {
+        "color_scheme": "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de",
+        "separate_section_with_border": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "subheading": "&nbsp;C’EST MAINTENANT!&nbsp;",
+        "subheading_font_size": 20,
+        "title": "<strong>20% DE RABAIS</strong>",
+        "heading_font_size": 26,
+        "content": "",
+        "content_font_size": 10,
+        "content_gap": 14,
+        "text_alignment": "left",
+        "button_link": "",
+        "button_text": "",
+        "button_background": "",
+        "button_text_color": "#5c2733",
+        "expiration_date": "2026-11-01 23:59",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "countdown_font_size": 48,
+        "background_color": "",
+        "text_color": "",
+        "countdown_text_color": "",
+        "flip_background": "#f4e5dc",
+        "flip_background_opacity": 100,
+        "flip_text_color": "#5c2733",
+        "overlay_color": "#f4e5dc",
+        "overlay_opacity": 30
+      }
+    },
     "header": {
       "type": "header",
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky": true,
@@ -73,7 +125,9 @@
     }
   },
   "order": [
+    "countdown_condensed_BceyMR",
     "announcement-bar",
+    "c_countdown_dXGgpQ",
     "header",
     "171337816813ecb67b"
   ]

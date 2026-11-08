@@ -1,0 +1,296 @@
+<style>
+  /* C Expiration content styles */
+  #shopify-section-{{ section.id }} .c-expiration-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-block-start: {{ section.settings.padding_top }}px;
+    padding-block-end: {{ section.settings.padding_bottom }}px;
+  }
+
+  /* Collapse the whole section (including its padding) when no block is currently active */
+  #shopify-section-{{ section.id }} .c-expiration-content:not(:has(.c-expiration-content__item:not([hidden]))) {
+    display: none;
+  }
+
+  #shopify-section-{{ section.id }} .c-expiration-content__item {
+    display: flex;
+  }
+
+  #shopify-section-{{ section.id }} .c-expiration-content__item[hidden] {
+    display: none;
+  }
+
+  {%- for block in section.blocks -%}
+    {%- case block.settings.button_alignment -%}
+      {%- when 'center' -%}
+        {%- assign button_justify = 'center' -%}
+      {%- when 'right' -%}
+        {%- assign button_justify = 'flex-end' -%}
+      {%- else -%}
+        {%- assign button_justify = 'flex-start' -%}
+    {%- endcase -%}
+
+    #shopify-section-{{ section.id }} #c-expiration-content-{{ block.id }} {
+      justify-content: {{ button_justify }};
+    }
+
+    #shopify-section-{{ section.id }} #c-expiration-content-{{ block.id }} .button {
+      font-size: {{ block.settings.button_font_size }}px;
+      {%- if block.settings.button_background != blank and block.settings.button_background != 'rgba(0,0,0,0)' -%}
+        --button-background: {{ block.settings.button_background.rgb }};
+        --button-outline-color: {{ block.settings.button_background.rgb }};
+      {%- endif -%}
+      {%- if block.settings.button_text_color != blank and block.settings.button_text_color != 'rgba(0,0,0,0)' -%}
+        --button-text-color: {{ block.settings.button_text_color.rgb }};
+      {%- endif -%}
+      {%- if block.settings.button_hover_background != blank and block.settings.button_hover_background != 'rgba(0,0,0,0)' -%}
+        --hover-gradient: linear-gradient({{ block.settings.button_hover_background }}, {{ block.settings.button_hover_background }});
+      {%- endif -%}
+    }
+
+    {%- if block.settings.button_hover_background != blank and block.settings.button_hover_background != 'rgba(0,0,0,0)' -%}
+      #shopify-section-{{ section.id }} #c-expiration-content-{{ block.id }} .button:hover {
+        background-size: 0 101%, 101% 101%;
+        background-position: var(--hover-background-position);
+        border-color: {{ block.settings.button_hover_background }};
+      }
+    {%- endif -%}
+
+    {%- if block.settings.button_hover_text_color != blank and block.settings.button_hover_text_color != 'rgba(0,0,0,0)' -%}
+      #shopify-section-{{ section.id }} #c-expiration-content-{{ block.id }} .button:hover {
+        color: {{ block.settings.button_hover_text_color }};
+      }
+    {%- endif -%}
+  {%- endfor -%}
+</style>
+
+<div class="c-expiration-content">
+  <div class="container">
+    {%- for block in section.blocks -%}
+      {%- liquid
+        assign starts_at = ''
+        assign ends_at = ''
+
+        if block.settings.start_date != blank
+          assign starts_at = block.settings.start_date | date: '%FT%T%:z'
+        endif
+
+        if block.settings.end_date != blank
+          assign ends_at = block.settings.end_date | date: '%FT%T%:z'
+        endif
+      -%}
+
+      <c-expiration-content
+        id="c-expiration-content-{{ block.id }}"
+        class="c-expiration-content__item"
+        starts-at="{{ starts_at | escape }}"
+        ends-at="{{ ends_at | escape }}"
+        hidden
+        {{ block.shopify_attributes }}
+      >
+        {%- if block.settings.button_text != blank -%}
+          {%- render 'button', href: block.settings.button_link, content: block.settings.button_text -%}
+        {%- endif -%}
+      </c-expiration-content>
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  if (!customElements.get('c-expiration-content')) {
+    // setTimeout overflows above ~24.8 days, so long waits are split into chunks
+    const MAX_TIMEOUT = 2147483647;
+
+    class CExpirationContent extends HTMLElement {
+      connectedCallback() {
+        this._update();
+      }
+
+      disconnectedCallback() {
+        clearTimeout(this._timeout);
+      }
+
+      _parseDate(attribute) {
+        const value = this.getAttribute(attribute);
+
+        if (!value) {
+          return null; // An empty date means no limit on that side of the range
+        }
+
+        const timestamp = Date.parse(value);
+        return Number.isNaN(timestamp) ? NaN : timestamp;
+      }
+
+      _update() {
+        clearTimeout(this._timeout);
+
+        const now = Date.now();
+        const startsAt = this._parseDate('starts-at');
+        const endsAt = this._parseDate('ends-at');
+
+        // Invalid dates keep the block hidden
+        if (Number.isNaN(startsAt) || Number.isNaN(endsAt)) {
+          this.hidden = true;
+          return;
+        }
+
+        const hasStarted = startsAt === null || now >= startsAt;
+        const hasEnded = endsAt !== null && now > endsAt;
+
+        this.hidden = !(hasStarted && !hasEnded);
+
+        // Schedule the next check so the block appears / disappears without a page reload
+        let nextChange = null;
+
+        if (!hasStarted) {
+          nextChange = startsAt;
+        } else if (!hasEnded && endsAt !== null) {
+          nextChange = endsAt + 1;
+        }
+
+        if (nextChange !== null) {
+          this._timeout = setTimeout(() => this._update(), Math.min(nextChange - now, MAX_TIMEOUT));
+        }
+      }
+    }
+
+    customElements.define('c-expiration-content', CExpirationContent);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "C Expiration content",
+  "class": "shopify-section--expiration-content",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button label",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "range",
+          "id": "button_font_size",
+          "label": "Button font size",
+          "min": 10,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "select",
+          "id": "button_alignment",
+          "label": "Button horizontal alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background color",
+          "info": "Leave empty to use the theme default."
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "info": "Leave empty to use the theme default."
+        },
+        {
+          "type": "color",
+          "id": "button_hover_background",
+          "label": "Button background color on hover",
+          "info": "Leave empty to use the theme default."
+        },
+        {
+          "type": "color",
+          "id": "button_hover_text_color",
+          "label": "Button text color on hover",
+          "info": "Leave empty to use the theme default."
+        },
+        {
+          "type": "header",
+          "content": "Schedule",
+          "info": "Dates use the store timezone. The block is only shown while the visitor's current date and time is within the range. Leave a date empty to remove that limit."
+        },
+        {
+          "type": "text",
+          "id": "start_date",
+          "label": "Start date",
+          "placeholder": "Eg. 2025-12-25 12:00",
+          "info": "Format: YYYY-MM-DD HH:MM"
+        },
+        {
+          "type": "text",
+          "id": "end_date",
+          "label": "End date",
+          "placeholder": "Eg. 2025-12-31 23:59",
+          "info": "Format: YYYY-MM-DD HH:MM"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "C Expiration content",
+      "blocks": [
+        {
+          "type": "content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

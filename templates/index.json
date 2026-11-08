@@ -88,85 +88,98 @@
         "controls_color": "#ffffff"
       }
     },
-    "custom_multi_column_BHzrQP": {
-      "type": "custom-multi-column",
+    "c_home_multi_banner_EHJpLw": {
+      "type": "c-home-multi-banner",
       "blocks": {
-        "image_with_text_ry6pB4": {
-          "type": "image_with_text",
+        "item_banner_Xa3CkU": {
+          "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Musts_FPS_Corps_et_Visage.png",
-            "block_background": "#fe658c",
-            "text_block_background": "#ffffff",
-            "title": "<strong>INCONTOURNABLES SOINS SOLAIRES</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose (valeur de 15$) gratuite dès 55 $ d’achat!</strong></p>",
-            "link_url": "shopify://collections/visage-corps-soin-solaire",
+            "image": "shopify://shop_images/Promo_novembre_15_20_gwp_750_X_600.png",
+            "background_color": "#69715b",
+            "title": "<strong>JUSQU'À 20% DE RABAIS</strong>",
+            "description": "<p>15 % de rabais dès 150 $ d’achat ou 20 % dès 200 $! En prime, recevez un cadeau exclusif Concept C dès 150 $ d’achat!&nbsp;</p>",
+            "text_color": "#ffffff",
+            "link_url": "shopify://collections/vente-eclair",
             "link_text": "magasiner"
           }
         },
-        "image_with_text_Lt8DPB": {
-          "type": "image_with_text",
+        "item_banner_RMgyNB": {
+          "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Printemps_2026_d40a550e-157a-4ee2-85ff-4d819e2350a4.png",
-            "block_background": "#f0dea5",
-            "text_block_background": "#1c1c1c",
-            "title": "<strong>PROMO OUTILS</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
+            "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_2.png",
+            "background_color": "#69715b",
+            "title": "<strong>COFFRETS DES FÊTES</strong>",
+            "description": "<p>Profitez de jusqu’à 40 % de rabais sur notre sélection de coffrets des Fêtes de vos marques préférées, parfaits pour offrir ou vous faire plaisir!</p>",
+            "text_color": "#f6f6f6",
+            "link_url": "shopify://collections/coffrets",
+            "link_text": "magasiner"
+          }
+        },
+        "item_banner_mWGprk": {
+          "type": "item_banner",
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_1.png",
+            "background_color": "#69715b",
+            "title": "<strong>BAS DE NOËL</strong>",
+            "description": "<p>Un petit cadeau en plus pour les Fêtes! Recevez une pochette GRATUITE à l’achat de 45 $ de nos essentiels beauté parfaits pour remplir les bas de Noël!</p>",
+            "text_color": "#f6f6f6",
+            "link_url": "shopify://collections/bas-de-noel-1",
+            "link_text": "magasiner"
+          }
+        },
+        "item_banner_UbMWKb": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Front_Site_Novembre_750_x_600_px_3.png",
+            "background_color": "#69715b",
+            "title": "<strong>NOUVEAUTÉ REDKEN&nbsp;</strong>",
+            "description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
+            "text_color": "#f6f6f6",
+            "link_url": "shopify://products/redken-shampoing-sec-acidic-cleansing-mist-100-ml",
+            "link_text": "magasiner"
+          }
+        },
+        "item_banner_ErkAzK": {
+          "type": "item_banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Slider_Mobile_Promo_Outils_Automne_2026_1.png",
+            "background_color": "#e0b7be",
+            "title": "PROMO OUTILS&nbsp;",
+            "description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
+            "text_color": "#13120f",
             "link_url": "shopify://collections/coffre-a-outils-1",
             "link_text": "magasiner"
           }
         },
-        "image_with_text_Qt3b3V": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify://shop_images/RF_Perte_de_cheveux.png",
-            "block_background": "#00412f",
-            "text_block_background": "#ffffff",
-            "title": "<strong>PERTE DE CHEVEUX</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $!</strong></p>",
-            "link_url": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "link_text": "magasiner"
-          }
-        },
-        "image_with_text_WkPhpE": {
-          "type": "image_with_text",
+        "item_banner_6fkeqz": {
+          "type": "item_banner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Coffrets_du_Printemps_2026_750_x_600_px.png",
-            "block_background": "#cdaaa9",
-            "text_block_background": "#1c1c1c",
+            "image": "shopify://shop_images/Coffrets_750_x_600_px_2.png",
+            "background_color": "#d6b3ab",
             "title": "<strong>JUSQU'À 40% DE RABAIS</strong>",
-            "heading_tag": "h4",
-            "content": "<p>Économisez jusqu’à 40 % sur une sélection de coffrets pour tous les goûts! Parfait pour se faire plaisir ou offrir, à prix avantageux!</p>",
+            "description": "<p>Découvrez notre sélection de coffrets des Fêtes de vos marques préférées. Des essentiels beauté à offrir ou à s’offrir, pour faire plaisir à tous les coups!</p>",
+            "text_color": "#000000",
             "link_url": "shopify://collections/coffrets",
             "link_text": "magasiner"
           }
         }
       },
       "block_order": [
-        "image_with_text_ry6pB4",
-        "image_with_text_Lt8DPB",
-        "image_with_text_Qt3b3V",
-        "image_with_text_WkPhpE"
+        "item_banner_Xa3CkU",
+        "item_banner_RMgyNB",
+        "item_banner_mWGprk",
+        "item_banner_UbMWKb",
+        "item_banner_ErkAzK",
+        "item_banner_6fkeqz"
       ],
-      "name": "# Multi-column",
+      "name": "t:c_sections.c_home_multi_banner.name",
       "settings": {
-        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "full_width": true,
-        "column_gap": 4
+        "first_section": false,
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "countdown_j3bgUj": {
@@ -393,167 +406,99 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_p9NUDD": {
+        "promotion_card_BpCjai": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_28334b11-b398-425f-8092-f00247c68d17.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Jusqu’au 11 novembre, profitez de 15 % de rabais sur nos serviettes de tête en microfibre! Douces, absorbantes et pratiques, elles sont parfaites pour faciliter votre routine capillaire au quotidien.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_Q4yWcn": {
+        "promotion_card_wWN7jE": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_90db9add-1edb-4549-bb23-d9bd8aa61c2f.png",
-            "promotion_title": "Fête des Mères",
-            "promotion_description": "<p>Pour elle, tout simplement. Trouvez le parfum parfait dans notre sélection pour la fête des Mères, une idée cadeau qui fait toujours plaisir.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/9_05990286-6441-4be4-b7b7-3488e609b14c.png",
+            "promotion_title": "11% de rabais!",
+            "promotion_description": "<p>Le Single’s Day chez Kérastase! Profitez de 11 % de rabais ou de 15 % à l’achat de 3 produits de format régulier. Le moment parfait pour faire le plein de vos favoris!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_jJAwwp": {
+        "promotion_card_dbBQiy": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "15$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_bnh4a6": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_FVxyPV": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. Jusqu’à épuisement des stocks.</p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rUxfJc": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
+            "promotion_image": "shopify://shop_images/7_29dad369-7fd7-4635-b931-dd5309f178c2.png",
+            "promotion_title": "15% de rabais!",
+            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_LRic8G": {
+        "promotion_card_6JURgh": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
-            "promotion_title": "Solaires Esthederm",
-            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/10_91b5f283-30b2-4c23-ac1f-5d4fdc58b2c9.png",
+            "promotion_title": "Cadeau Redken",
+            "promotion_description": "<p>À l’achat du sérum cuir chevelu Densité et Force Acidic Grow Full, obtenez gratuitement une brosse pour le cuir chevelu Redken!</p>",
+            "promotion_link": "shopify://products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_6HdUpJ": {
+        "promotion_card_TkQb8M": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/13_a3d9d5a2-83b2-49d0-a0f0-fffd37279cc9.png",
+            "promotion_title": "Cadeau Oribe",
+            "promotion_description": "<p>À l’achat du bâton de cire à lisser pour cheveux Supershine d’Oribe , obtenez gratuitement une trousse Éclat Supershine!</p>",
+            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_kKqEEE": {
+        "promotion_card_RAy9Hr": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
-            "promotion_title": "Duo fortifiant Izumi Tonic",
-            "promotion_description": "<p>25 % de rabais sur le duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
-            "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_A9aVXj": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.<br/><br/></p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_BPnVjf": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
-            "promotion_link": "shopify://collections/liquidation",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_ALEibb": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
-            "promotion_title": "Promo perte de cheveux",
-            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $!</strong></p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_McHmfD": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti.<em> Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Dp6KDg": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
-            "promotion_title": "Incontournables soins solaires",
-            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/5_53cdc5f0-daf7-4a1b-856d-0d305544ead7.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>La marque canadienne BOB est à 25 % de rabais. Découvrez ses soins et coiffants pour compléter votre routine capillaire.</p>",
+            "promotion_link": "shopify://collections/bob",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
       "block_order": [
-        "promotion_card_p9NUDD",
-        "promotion_card_Q4yWcn",
-        "promotion_card_jJAwwp",
-        "promotion_card_bnh4a6",
-        "promotion_card_FVxyPV",
-        "promotion_card_rUxfJc",
-        "promotion_card_LRic8G",
-        "promotion_card_6HdUpJ",
-        "promotion_card_kKqEEE",
-        "promotion_card_A9aVXj",
-        "promotion_card_BPnVjf",
-        "promotion_card_ALEibb",
-        "promotion_card_McHmfD",
-        "promotion_card_Dp6KDg"
+        "promotion_card_BpCjai",
+        "promotion_card_wWN7jE",
+        "promotion_card_dbBQiy",
+        "promotion_card_6JURgh",
+        "promotion_card_TkQb8M",
+        "promotion_card_RAy9Hr"
       ],
       "name": "# Promotions list",
       "settings": {
         "color_scheme": "scheme-1",
-        "section_title": "Nos promotions",
+        "section_title": "NOS PROMOTIONS",
         "items_per_row": 5,
         "items_per_row_mobile": 1,
         "show_slider_in_mobile": true,
@@ -561,7 +506,7 @@
         "show_view_all_link": true,
         "view_all_link_url": "shopify://pages/promotions",
         "view_all_link_text": "Voir toutes nos promotions",
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40
       }
     },
@@ -572,8 +517,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -583,8 +528,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "shampoing-sec",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -594,8 +539,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-1",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -605,8 +550,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "revitalisant-sans-rincage",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -616,8 +561,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "traitement",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -627,8 +572,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coiffage",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -638,8 +583,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "produits-de-coloration",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -649,8 +594,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-accessoires",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -660,8 +605,8 @@
           "type": "collection_item",
           "settings": {
             "collection": "outils-de-coiffure",
-            "background_item_color": "#e4c0ae",
-            "border_item_color": "#caac9a",
+            "background_item_color": "#c6c7b9",
+            "border_item_color": "#6b725c",
             "text_item_color": "#1c1c1c",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -694,53 +639,32 @@
         "look_tqWdE6": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site.png",
+            "image": "shopify://shop_images/Promo_Outils_2026_Photos_site_486146eb-77ef-41e3-94c3-2a217cca748f.png",
             "hot_spots_background": "#ffffff",
-            "product_1": "mermade-sechoir-ionique-rose-2026",
-            "product_1_horizontal_position": 50,
-            "product_1_vertical_position": 55,
-            "product_2": "redken-spray-mousse-volume-root-lifter-300g",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 80,
-            "product_3": "redken-spray-densite-instantanee-acidic-grow-full-fevrier-2026-190-ml",
+            "product_1": "rene-furterer-coffret-triphasic-reactional-cure-complete-mars-2025",
+            "product_1_horizontal_position": 37,
+            "product_1_vertical_position": 65,
+            "product_2": "",
+            "product_2_horizontal_position": 48,
+            "product_2_vertical_position": 54,
+            "product_3": "",
             "product_3_horizontal_position": 70,
-            "product_3_vertical_position": 80,
+            "product_3_vertical_position": 56,
             "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_4UbDwa": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Meta_Carre_Promo_Masques_Capillaires_Janvier_2026_2048_x_2048_px_1.png",
-            "hot_spots_background": "#ffffff",
-            "product_1": "matrix-masque-traitement-hydratation-intense-food-for-soft",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "biotop-masque-hydratant-911-quinoa-250-ml",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "amika-masque-nourrissant-soulfood-250-ml",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "voir-masque-capillaire-et-traitement-detoxifiant-rhythm-of-the-rain-200-ml",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
         }
       },
       "block_order": [
-        "look_tqWdE6",
-        "look_4UbDwa"
+        "look_tqWdE6"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Look du moment",
+        "title": "Favori Perte de Cheveux!",
         "content": "",
         "popover_title": ""
       }
@@ -846,7 +770,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "product": "kerastase-genesis-serum-anti-chute-fortifiant-30-ml",
+        "product": "loreal-professionnel-masque-sans-rincage-absolut-repair-molecular-50-ml",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 55,
@@ -859,7 +783,7 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "subheading": "",
-        "title": "La force Genesis en format mini!",
+        "title": "Favori à petit prix!",
         "content": ""
       }
     },
@@ -935,6 +859,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_VqkUtd"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -984,12 +909,14 @@
         },
         "juniper_tiktok_feed_mintty_tiktok_feed_NV7VmU": {
           "type": "shopify://apps/mintt-tiktok-feed/blocks/mintty-tiktok-feed/fa514c33-5475-4484-b270-5f1e7eb87a9a",
+          "disabled": true,
           "settings": {
             "title": "TikTok",
             "title_color": "#1c1c1c",
             "title_size": 0,
             "alignment": "center",
             "margin_top": 25,
+            "feed_id": 0,
             "html_area": ""
           }
         }
@@ -1005,26 +932,12 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
-    },
-    "custom_liquid_kyWnUc": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {padding-top: 10px;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div></div>",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
     "product_slider_banner_eGbwtc",
     "slideshow_eYpVHW",
-    "custom_multi_column_BHzrQP",
+    "c_home_multi_banner_EHJpLw",
     "countdown_j3bgUj",
     "custom_collection_list_Y6XW4j",
     "custom_promotions_list_iYkpnQ",
@@ -1036,7 +949,6 @@
     "featured_collections_KmTfiQ",
     "1719666865e4431f24",
     "b615708a-3ec6-4230-8baa-7847640de80a",
-    "169039384397d88aa3",
-    "custom_liquid_kyWnUc"
+    "169039384397d88aa3"
   ]
 }

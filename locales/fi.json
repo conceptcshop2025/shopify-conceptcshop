@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "page": "Sivu {{ page }}",
@@ -97,8 +88,10 @@
       "sold_out_button": "Loppuunmyyty",
       "unavailable_button": "Ei saatavilla",
       "choose_options": "Valitse vaihtoehdot",
+      "choose_options_with_title": "Valitse vaihtoehdot tuotteelle {{ title }}",
       "view_details": "Näytä tiedot",
       "added_to_cart": "Lisätty ostoskoriin!",
+      "added_to_cart_with_title": "{{ product_title }} lisättiin ostoskoriin.",
       "sold_out_badge": "Loppuunmyyty",
       "on_sale_badge": "Alennuksessa",
       "discount_badge_html": "Säästä {{ savings }}",
@@ -115,6 +108,7 @@
       }
     },
     "gallery": {
+      "title": "Tuotegalleria",
       "close": "Sulje galleria",
       "zoom": "Lähennä",
       "error": "Kuvan lataaminen ei onnistu"
@@ -166,6 +160,9 @@
       "pick_up_currently_unavailable": "Ei tällä hetkellä noudettavissa",
       "pick_up_available_at": "Noudettavissa kohteesta {{ location_name }}",
       "pick_up_unavailable_at": "Ei tällä hetkellä noudettavissa kohteesta {{ location_name }}"
+    },
+    "disclosures": {
+      "title": "Huomautukset"
     }
   },
   "collection": {

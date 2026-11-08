@@ -12,6 +12,13 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "question_KEReKi": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quelles sont les heures d’ouverture du service client?</strong>",
+            "answer": "<p>Notre service client est disponible du lundi au vendredi, de 8 h à 16 h, à l’exception des jours fériés. Les messages reçus lorsque le service est fermé seront traités dès la réouverture.</p>"
+          }
+        },
         "question-1": {
           "type": "question",
           "settings": {
@@ -40,6 +47,13 @@
             "answer": "<p>Afin d'effectuer un retour, veuillez impérativement contacter notre service client du Concept C en envoyant un courriel à <a href=\"mailto:info@conceptcshop.com\"><span style=\"text-decoration:underline\">info@conceptcshop.com</span></a>. Assurez-vous de fournir votre nom, numéro de commande et la raison de votre retour. Les échanges ou retours sont acceptés dans les 14 jours suivant la réception du colis, sous réserve du respect des conditions suivantes : </p><ul><li>L'article ne doit pas avoir été utilisé. S'il s'agit d'un produit, il doit être encore scellé. </li><li>Il doit être conservé dans son emballage original, qui doit être intact (aucune déchirure sur la boîte) et aucun autocollant postal ne doit être apposé sur l'emballage. </li><li>Tous les éléments de l'outil doivent être inclus, du livret d'instructions au plastique protecteur de la prise de courant. </li><li>Votre reçu de transaction ou vos coordonnées sont OBLIGATOIRES. </li><li>La raison de l'échange ou du remboursement doit être valable et vérifiable. </li></ul><p> </p><p>Veuillez noter que Concept C se réserve le droit de refuser un échange à tout moment. Des frais de 11.99$ + taxes s'appliqueront.</p>"
           }
         },
+        "question_cJV4MG": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quel est le délai de retour pour les achats des Fêtes?&nbsp;</strong>",
+            "answer": "<p>Pour vous permettre de magasiner vos cadeaux à l’avance, les achats effectués du 15 octobre au 24 décembre peuvent être retournés jusqu’au 10 janvier suivant, sous réserve du respect de toutes les conditions de notre politique de retour.</p>"
+          }
+        },
         "question_VNyCeW": {
           "type": "question",
           "settings": {
@@ -58,22 +72,24 @@
           "type": "question",
           "settings": {
             "question": "<strong>Ramassage en magasin</strong>",
-            "answer": "<p>L'option de ramassage en magasin est actuellement suspendue. Elle sera de nouveau disponible dans nos deux succursales (Trois-Rivières et Québec en 2026).</p>"
+            "answer": "<p>L'option de ramassage en magasin est actuellement suspendue.&nbsp;</p>"
           }
         },
         "question_pfNgHQ": {
           "type": "question",
           "settings": {
-            "question": "<strong>Offrez-vous une politique de satisfaction ?</strong>",
-            "answer": "<p>Nous comprenons qu’acheter en ligne peut parfois soulever des questions. Bien que nous n’offrions pas de politique de satisfaction pour le moment et que toutes les ventes soient finales, notre équipe est là pour vous accompagner avant l’achat. N’hésitez pas à nous écrire sur nos réseaux sociaux ou à l’adresse <a>info@conceptcshop.com</a> : il nous fera plaisir de vous aider à choisir le produit le mieux adapté à vos besoins.</p>"
+            "question": "<strong>Offrez-vous une garantie de satisfaction ?</strong>",
+            "answer": "<p>Nous comprenons que certaines situations puissent amener une demande de retour. Veuillez toutefois noter que nous n’offrons pas de garantie satisfaction. Dans certains cas, un retour peut être accepté, à condition de respecter les critères établis (délais, état du produit, etc.).</p><p>Pour plus de détails, nous vous invitons à consulter notre politique de retour et remboursement.</p><p>Notre équipe demeure disponible pour toute question  au besoin au <a>info@conceptcshop.com</a> </p>"
           }
         }
       },
       "block_order": [
+        "question_KEReKi",
         "question-1",
         "question-2",
         "question-3",
         "question_FKdRTn",
+        "question_cJV4MG",
         "question_VNyCeW",
         "question_m7YHxb",
         "question_mNxWjJ",

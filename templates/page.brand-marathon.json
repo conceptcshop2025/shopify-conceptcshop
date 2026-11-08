@@ -18,6 +18,53 @@
         "page_width": "xs"
       }
     },
+    "slideshow_6ViAMB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_w8VMzY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desk_Haut_Collection_Marathon_3840_x_500_px.png",
+            "mobile_image": "shopify://shop_images/Haut_Collection_Marathon_1.png",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_w8VMzY"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
     "rich_text_MXTN3n": {
       "type": "rich-text",
       "blocks": {
@@ -31,7 +78,7 @@
         "richtext_Mcwdm8": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Une marque différente en promotion chaque jour, pendant 14 jours!</strong></p><ul><li>25 % de rabais sur la marque du jour, valide de minuit à 23 h 59.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li><li>Certaines conditions s'appliquent. Exclut les outils.</li></ul><p></p>"
+            "content": "<p><strong>Une marque différente en promotion toutes les 48 heures!</strong></p><ul><li>Profitez de rabais variant entre 20 % et 35 % sur la marque en vedette, valide de minuit jusqu’à 23 h 59 le lendemain.</li><li>Le rabais s’applique automatiquement lorsque les produits sont ajoutés au panier.</li><li>Certaines conditions s’appliquent. Exclut les outils.</li></ul>"
           }
         }
       },
@@ -39,6 +86,7 @@
         "heading_qKDAm3",
         "richtext_Mcwdm8"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "",
@@ -51,151 +99,190 @@
     "custom_promotions_list_REqQzh": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_3EKRWt": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_14.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>12 et 13 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "13"
+          }
+        },
+        "promotion_card_3cfNxr": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_16.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3>14 et 15 juillet</h3>",
+            "promotion_link": "shopify://collections/briogeo",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "15"
+          }
+        },
         "promotion_card_z3jxe3": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/1_68b0cb1f-e06c-499a-95d7-3bf96efe7693.webp",
-            "promotion_title": "4 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Living Proof </strong></h3><p>25% de rabais<br/></p>",
-            "promotion_link": "shopify://collections/living-proof",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_kTArGh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/2_b1eba02c-0a95-4998-b7e3-f4fd1b9d6d61.webp",
-            "promotion_title": "5 DÉCEMBRE",
-            "promotion_description": "<h3>Matrix</h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/matrix",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_1_d34a114b-ef3d-45dd-84c4-65adf20858ab.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>18 et 19 juin</strong></h3>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "19"
           }
         },
         "promotion_card_TChyGp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_e0213433-1f3b-4d42-b4d9-a918d6740ef4.webp",
-            "promotion_title": "6 DÉCEMBRE",
-            "promotion_description": "<h3><strong>L'Oréal</strong></h3><p>25% de rabais</p>",
+            "promotion_image": "shopify://shop_images/Page_Marathon_2_6cd9d2c1-d92b-45d7-bb55-829adba2155a.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>22 et 23 juin</strong></h3>",
             "promotion_link": "shopify://collections/loreal",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "23"
           }
         },
         "promotion_card_78jiW6": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/4_493b5bd1-80c3-41db-b24f-1464cbd84d02.webp",
-            "promotion_title": "7 DÉCEMBRE",
-            "promotion_description": "<h3><strong>K18</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_3_6d2ff21a-b58a-418c-9b48-995e5ea8326d.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>24 et 25 juin</strong></h3>",
+            "promotion_link": "shopify://collections/oribe",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "25"
           }
         },
         "promotion_card_UnEGmW": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/5_24230e69-30d5-4cf2-a371-2742bb8fb29d.webp",
-            "promotion_title": "8 DÉCEMBRE",
-            "promotion_description": "<h3><strong>René Furterer</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_4_e0877169-7a4f-45ca-8725-18cc57dd66d0.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>26 et 27 juin</strong></h3>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "06",
+            "expiration_day": "27"
           }
         },
         "promotion_card_UWFLLm": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_1c294511-7668-4fb1-8668-2714211c5a9e.webp",
-            "promotion_title": "9 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Design.Me</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/design-me",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_5_528fd06b-024e-431f-9e71-ab5239378571.png",
+            "promotion_title": "30% DE RABAIS",
+            "promotion_description": "<h3><strong>28 et 29 juin</strong></h3>",
+            "promotion_link": "shopify://collections/living-proof",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "01"
           }
         },
         "promotion_card_xqiQgC": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/7_55aaf09c-8b89-4089-9ff5-d667e2a5a414.webp",
-            "promotion_title": "10 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Wella</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/wella",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_ykM7p9": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/8_233aa10a-b480-4dc2-a09c-4a4b820ade43.webp",
-            "promotion_title": "11 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Redken</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/redken",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_7_40fc3bda-b90d-4572-9cd1-fe5adb8a70a9.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>30 juin et 1er juillet</strong></h3>",
+            "promotion_link": "shopify://collections/coola",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "01"
           }
         },
         "promotion_card_i8bqcp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Marathon_des_marques_Decembre_2025_500_x_300_px.webp",
-            "promotion_title": "12 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Amika</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/amika",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_10_a74e9127-a12b-4adc-9b22-bdbae9ae69b7.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3><strong>4 et 5 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/pureology",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "05"
+          }
+        },
+        "promotion_card_ykM7p9": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Page_Marathon_9_f64a7379-ae6c-4878-bcca-b17496952627.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3><strong>2 et 3 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "03"
           }
         },
         "promotion_card_U7hcGp": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_a6c83c16-3571-4592-8bd9-033126c687d4.webp",
-            "promotion_title": "13 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Pureology</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_12_2343024d-0178-4fb1-8e05-7f110dbaf53b.png",
+            "promotion_title": "35% DE RABAIS",
+            "promotion_description": "<h3><strong>6 et 7 juillet</strong></h3>",
+            "promotion_link": "shopify://collections/matrix",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "07"
           }
         },
         "promotion_card_TMjkLh": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/11_1c69d0e6-0207-441b-9224-53ab71db1bdf.webp",
-            "promotion_title": "14 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Concept C</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_10.png",
+            "promotion_title": "20% DE RABAIS",
+            "promotion_description": "<h3>8 et 9 juillet</h3>",
+            "promotion_link": "shopify://collections/australian-gold",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "09"
           }
         },
         "promotion_card_NBizmM": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/12_192daa66-06de-4ca6-837c-665a9bec907e.webp",
-            "promotion_title": "15 DÉCEMBRE",
-            "promotion_description": "<h3>Color Wow</h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/color-wow",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_3EKRWt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_474afa8a-cd2b-4fd5-85fa-2b43a54aeb36.webp",
-            "promotion_title": "16 DÉCEMBRE",
-            "promotion_description": "<h3><strong>Olaplex</strong></h3><p>25% de rabais</p>",
-            "promotion_link": "shopify://collections/olaplex-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Page_Marathon_17.png",
+            "promotion_title": "25% DE RABAIS",
+            "promotion_description": "<h3>10 et 11 juillet</h3>",
+            "promotion_link": "shopify://collections/design-me",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": true,
+            "expiration_month": "07",
+            "expiration_day": "11"
           }
         }
       },
       "block_order": [
+        "promotion_card_3EKRWt",
+        "promotion_card_3cfNxr",
         "promotion_card_z3jxe3",
-        "promotion_card_kTArGh",
         "promotion_card_TChyGp",
         "promotion_card_78jiW6",
         "promotion_card_UnEGmW",
         "promotion_card_UWFLLm",
         "promotion_card_xqiQgC",
-        "promotion_card_ykM7p9",
         "promotion_card_i8bqcp",
+        "promotion_card_ykM7p9",
         "promotion_card_U7hcGp",
         "promotion_card_TMjkLh",
-        "promotion_card_NBizmM",
-        "promotion_card_3EKRWt"
+        "promotion_card_NBizmM"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -215,6 +302,7 @@
   },
   "order": [
     "main",
+    "slideshow_6ViAMB",
     "rich_text_MXTN3n",
     "custom_promotions_list_REqQzh"
   ]

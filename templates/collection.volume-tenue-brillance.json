@@ -11,13 +11,14 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
         ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
       ],
       "settings": {
         "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
-        "image": "shopify://shop_images/Desk_Haut_Collection_Essentiels_d_ete_3.png",
-        "mobile_image": "shopify://shop_images/Mobile_Haut_Collection_Ete_1.png",
+        "image": "shopify://shop_images/Desk_Haut_Collection_Essentiels_d_ete_3840_x_500_px_b6ce6d9b-1ae4-4c5e-a1c9-84c89de575f6.png",
+        "mobile_image": "shopify://shop_images/Mobile_Haut_Collection_Ete_4cc64a6e-1414-48a4-a0a3-75f54dbf066b.png",
         "image_size": "auto",
         "allow_transparent_header": false,
         "show_image": true,
@@ -34,7 +35,7 @@
     "custom_collection_tags_DdQdc6": {
       "type": "custom-collection-tags",
       "custom_css": [
-        ".collection-tags .tag.tag-collection {background: #fae9b8; color: #000000;}"
+        ".collection-tags .tag.tag-collection {background: #fd7a03; color: #ffffff;}"
       ],
       "name": "# Collection tags",
       "settings": {

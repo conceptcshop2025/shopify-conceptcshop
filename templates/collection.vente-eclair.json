@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244",
+        "image": "shopify://shop_images/Desk_Haut_Collection_Vente_Printaniere_950da6d9-ab9e-464b-bdcc-d978dc38dc78.png",
+        "mobile_image": "shopify://shop_images/Haut_de_Collection_Vente_Eclair_2026_750_x_300_px_be0c0581-dfa6-4d6f-ac0a-0262ff4d6671.png",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "show_image": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "faq_8FaQwK": {
+      "type": "faq",
+      "blocks": {
+        "question_AMGJYX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Termes et Conditions</strong>",
+            "answer": "<p>La promotion est valide du 5 au 9 novembre à 23h59.</p><p>Profitez de 15 % de rabais à l’achat de 150 $ ou de 20 % de rabais à l’achat de 200 $!</p><p>Certaines marques et promotions sont exclues de l’offre. Voici les exclusions :</p><ul><li>Kérastase (présentement à 11% de rabais)</li><li>Shu Uemura</li><li>Outils coiffants (déjà en promotion jusqu’à 40 % de rabais)</li><li>SteamPod 4 et AirLight Pro</li></ul><p></p><p><em>Le code promotionnel s’applique automatiquement au panier. Les rabais ne sont pas cumulables entre eux. Certaines conditions s’appliquent.</em></p>"
+          }
+        },
+        "question_pGWHdb": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Cadeau avec achat Concept C</strong>",
+            "answer": "<p>Recevez gratuitement l’Ensemble Serre-Tête Nuage et Poignets - Rouge de Concept C à l’achat de 150 $ et plus!</p><p><em>Certaines conditions s'appliquent. Offre valide jusqu’à épuisement des stocks.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AMGJYX",
+        "question_pGWHdb"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "custom_collection_tags_DdQdc6": {
+      "type": "custom-collection-tags",
+      "custom_css": [
+        ".collection-tags .tag.tag-collection {background: #dc6943; color: #ffffff;}"
+      ],
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "faq_8FaQwK",
+    "custom_collection_tags_DdQdc6",
+    "main"
+  ]
+}

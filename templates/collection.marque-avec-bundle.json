@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "show_image": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "c_expiration_text_Kfxc7r": {
+      "type": "c-expiration-text",
+      "name": "C Expiration Text",
+      "settings": {
+        "text_color": "",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_NtC7Dr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3HLmKL": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Crée ta Routine Kérastase à 10% de Rabais",
+            "url": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3HLmKL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {margin-bottom: 40px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "c_expiration_content_jwVkEz": {
+      "type": "c-expiration-content",
+      "blocks": {
+        "content_TDkn34": {
+          "type": "content",
+          "settings": {
+            "button_text": "Crée ta Routine Kérastase à 10% de Rabais",
+            "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
+            "button_font_size": 22,
+            "button_alignment": "center",
+            "button_background": "#e4c0ae",
+            "button_text_color": "#454545",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#e4c0ae",
+            "start_date": "2026-10-28 18:00",
+            "end_date": "2026-10-29 21:00"
+          }
+        },
+        "content_bfXx78": {
+          "type": "content",
+          "settings": {
+            "button_text": "Crée ta Routine Kérastase à 15% de Rabais",
+            "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/33813",
+            "button_font_size": 22,
+            "button_alignment": "center",
+            "button_background": "#e4c0ae",
+            "button_text_color": "#454545",
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#e4c0ae",
+            "start_date": "2026-10-29 21:00",
+            "end_date": "2026-11-12 00:00"
+          }
+        }
+      },
+      "block_order": [
+        "content_TDkn34",
+        "content_bfXx78"
+      ],
+      "name": "C Expiration content",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "custom_collection_tags_XfY4PX": {
+      "type": "custom-collection-tags",
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": "",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "c_expiration_text_Kfxc7r",
+    "rich_text_NtC7Dr",
+    "c_expiration_content_jwVkEz",
+    "custom_collection_tags_XfY4PX",
+    "main"
+  ]
+}

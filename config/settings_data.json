@@ -55,38 +55,6 @@
               "link": "shopify://collections/biolage"
             }
           },
-          "0370a321-2eaa-423c-a01a-6927bfd918b2": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify://shop_images/Kerastase-Logo.png",
-              "logo_width": 120,
-              "link": "shopify://collections/kerastase"
-            }
-          },
-          "22dd906d-02cd-4987-8b93-aa71c5794b9d": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify://shop_images/lp_logo.png",
-              "logo_width": 120,
-              "link": "shopify://collections/living-proof"
-            }
-          },
-          "86ab3cdf-e76c-4caa-b5f2-27ca43e32329": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify://shop_images/matrix-rebrand-header.jpg",
-              "logo_width": 120,
-              "link": "shopify://collections/matrix"
-            }
-          },
-          "cb0ffb90-bb24-4100-a4b2-39daaa35e2d6": {
-            "type": "logo",
-            "settings": {
-              "logo": "shopify://shop_images/pureology.png",
-              "logo_width": 120,
-              "link": "shopify://collections/pureology"
-            }
-          },
           "d28189a7-1cfe-4adb-ba2c-f63e1861ca38": {
             "type": "logo",
             "settings": {
@@ -98,25 +66,59 @@
           "25a04c51-45f1-485c-9499-2a6279adeda6": {
             "type": "logo",
             "settings": {
-              "logo": "shopify://shop_images/New_Project_3_1440x_f761e26c-827b-45a2-aee2-507d919a3751.png",
+              "logo": "shopify://shop_images/Logo_K18.jpg",
               "logo_width": 120,
-              "link": "shopify://collections/verb"
+              "link": "shopify://collections/k18"
+            }
+          },
+          "86ab3cdf-e76c-4caa-b5f2-27ca43e32329": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/matrix-rebrand-header.jpg",
+              "logo_width": 120,
+              "link": "shopify://collections/matrix"
+            }
+          },
+          "0370a321-2eaa-423c-a01a-6927bfd918b2": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Kerastase-Logo.png",
+              "logo_width": 120,
+              "link": "shopify://collections/kerastase"
+            }
+          },
+          "22dd906d-02cd-4987-8b93-aa71c5794b9d": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Design_sans_titre.png",
+              "logo_width": 120,
+              "link": "shopify://collections/design-me"
+            }
+          },
+          "cb0ffb90-bb24-4100-a4b2-39daaa35e2d6": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/pureology.png",
+              "logo_width": 120,
+              "link": "shopify://collections/pureology"
             }
           }
         },
         "block_order": [
           "7140ed21-6f12-43fe-88b3-15a0e9c1a80b",
+          "d28189a7-1cfe-4adb-ba2c-f63e1861ca38",
+          "25a04c51-45f1-485c-9499-2a6279adeda6",
+          "86ab3cdf-e76c-4caa-b5f2-27ca43e32329",
           "0370a321-2eaa-423c-a01a-6927bfd918b2",
           "22dd906d-02cd-4987-8b93-aa71c5794b9d",
-          "86ab3cdf-e76c-4caa-b5f2-27ca43e32329",
-          "cb0ffb90-bb24-4100-a4b2-39daaa35e2d6",
-          "d28189a7-1cfe-4adb-ba2c-f63e1861ca38",
-          "25a04c51-45f1-485c-9499-2a6279adeda6"
+          "cb0ffb90-bb24-4100-a4b2-39daaa35e2d6"
         ],
         "settings": {
+          "color_scheme": "",
           "separate_section_with_border": false,
           "subheading": "",
           "title": "MARQUE",
+          "stack_on_mobile": true,
           "items_per_row": 6,
           "logo_item_background": "",
           "logo_item_border": ""
@@ -125,6 +127,7 @@
       "marque-collection": {
         "type": "marque-collection",
         "settings": {
+          "color_scheme": "",
           "show_title": true,
           "collections_per_row_desktop": 3,
           "image_size": "auto",
@@ -155,16 +158,6 @@
           "mode": "light"
         }
       },
-      "5946647744298494267": {
-        "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": false,
-        "settings": {}
-      },
-      "12777516434707648072": {
-        "type": "shopify://apps/easy-tag-gtm-data-layer/blocks/datalayer-embed-block/be308f3f-c82d-4290-b187-8561d4a8782a",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -180,13 +173,6 @@
         "disabled": true,
         "settings": {
           "position": "left"
-        }
-      },
-      "3667842014806057753": {
-        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-        "disabled": false,
-        "settings": {
-          "allowed_templates": ""
         }
       },
       "8218531531362863771": {
@@ -208,6 +194,36 @@
         "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
         "disabled": false,
         "settings": {}
+      },
+      "8605505498557855500": {
+        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
+        "disabled": false,
+        "settings": {}
+      },
+      "18228966181090706294": {
+        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": "",
+          "scriptInitMode": "immediate"
+        }
+      },
+      "5946647744298494267": {
+        "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+          "show_ui": true,
+          "storefront_layout_enabled": false,
+          "storefront_layout_primary_bg_color": "#000000",
+          "storefront_layout_primary_text_color": "#ffffff",
+          "storefront_layout_secondary_bg_color": "#f4f8fe",
+          "storefront_layout_secondary_text_color": "#333333",
+          "storefront_layout_ui_border_radius": 6,
+          "storefront_layout_notification_position": "left",
+          "storefront_layout_action_popup_position": "left",
+          "storefront_layout_drawer_position": "left",
+          "storefront_layout_as_section_page": ""
+        }
       }
     },
     "color_schemes": {
@@ -343,17 +359,6 @@
           "circle_button_icon": "#454545"
         }
       },
-      "scheme-5dbb2cff-d013-4c7f-8067-d23ec0ca01a1": {
-        "settings": {
-          "background": "#ffffff",
-          "background_gradient": "",
-          "text_color": "#454545",
-          "primary_button_background": "#f5f3d0",
-          "primary_button_text_color": "#454545",
-          "circle_button_background": "#f5f3d0",
-          "circle_button_icon": "#454545"
-        }
-      },
       "scheme-c7b29e64-3e26-4e34-b168-8d5e55da1244": {
         "settings": {
           "background": "#dc6943",
@@ -365,26 +370,48 @@
           "circle_button_icon": "#454545"
         }
       },
-      "scheme-b5081b04-108b-4d59-b912-9c3fc6b86fc0": {
+      "scheme-d09bb4f4-cf4c-4565-b733-dc2905e47c1a": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#efd1ba",
           "background_gradient": "",
           "text_color": "#454545",
-          "primary_button_background": "#ffb890",
+          "primary_button_background": "#efd1ba",
           "primary_button_text_color": "#454545",
-          "circle_button_background": "#e4c0ae",
-          "circle_button_icon": "#454545"
+          "circle_button_background": "#efd1ba",
+          "circle_button_icon": "#efd1ba"
         }
       },
-      "scheme-bb49f3a6-b558-446d-abbe-c0b339e9de44": {
+      "scheme-e2884a58-5f09-4cbc-9344-2eb87c7eb048": {
         "settings": {
-          "background": "#f4e266",
+          "background": "#f88564",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#f4e266",
-          "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#f4e266",
-          "circle_button_icon": "#1c1c1c"
+          "text_color": "#252424",
+          "primary_button_background": "#f88564",
+          "primary_button_text_color": "#454545",
+          "circle_button_background": "#f88564",
+          "circle_button_icon": "#000000"
+        }
+      },
+      "scheme-2451af5d-5805-4a88-a219-e94e6d2a98de": {
+        "settings": {
+          "background": "#470201",
+          "background_gradient": "",
+          "text_color": "#F0EEDD",
+          "primary_button_background": "#470201",
+          "primary_button_text_color": "#F0EEDD",
+          "circle_button_background": "#470201",
+          "circle_button_icon": "#F0EEDD"
+        }
+      },
+      "scheme-54e3346b-ef23-4afe-a235-ed1d467921ec": {
+        "settings": {
+          "background": "#c6c7b9",
+          "background_gradient": "",
+          "text_color": "#13120f",
+          "primary_button_background": "#c6c7b9",
+          "primary_button_text_color": "#13120f",
+          "circle_button_background": "#c6c7b9",
+          "circle_button_icon": "#13120f"
         }
       }
     }

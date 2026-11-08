@@ -8,3 +8,7 @@
   cursor: not-allowed;
   pointer-events: none;
 }
+
+.item-title {
+  color: #ff5757;
+}

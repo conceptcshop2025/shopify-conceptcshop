@@ -98,10 +98,11 @@
       "sold_out_button": "Sold out",
       "unavailable_button": "Unavailable",
       "choose_options": "Choose options",
+      "choose_options_with_title": "Choose options for {{ title }}",
       "added_to_cart": "Added to your cart!",
+      "added_to_cart_with_title": "{{ product_title }} added to cart.",
       "sold_out_badge": "Sold out",
       "on_sale_badge": "On sale",
-      "on_sale": "On sale",
       "discount_badge_html": "Save {{ savings }}",
       "sku": "SKU:",
       "variant": "Variant",
@@ -113,9 +114,11 @@
       "available_colors_count": {
         "one": "{{ count }} color available",
         "other": "{{ count }} colors available"
-      }
+      },
+      "on_sale": "On sale"
     },
     "gallery": {
+      "title": "Product gallery",
       "close": "Close gallery",
       "zoom": "Zoom picture",
       "error": "Image cannot be loaded"
@@ -167,6 +170,9 @@
       "pick_up_currently_unavailable": "Pickup currently unavailable",
       "pick_up_available_at": "Pickup available at {{ location_name }}",
       "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
+    },
+    "disclosures": {
+      "title": "Disclosures"
     }
   },
   "collection": {
@@ -995,8 +1001,10 @@
       "clear_filter": "Clear all filters",
       "localisation_text": "Location",
       "job_type_text": "Type of work",
-      "see_offer_text": "See offer",
+      "see_offer_text": "Apply",
       "no_offerts_text": "No offers match your criteria.",
+      "salaire": "Salary",
+      "avantages": "Benefits"
     }
   }
 }

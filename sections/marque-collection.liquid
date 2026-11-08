@@ -40,7 +40,7 @@ LIQUID
         <ul class="brand-nav">
           {%- capture current_letter -%}{{ '' }}{%- endcapture -%}
       {%- for collection in collections -%}
-        {% if collection.template_suffix == "marque" %}
+        {% if collection.template_suffix == "marque" or collection.template_suffix == "marque-avec-bundle" %}
           {%- if collection.featured_image == blank or section.settings.collections == empty and collection.handle == 'frontpage' -%}
           {%- endif -%}
           {% capture collection_name %}{{ collection.title | strip_html | slice: 0 | upcase }}{% endcapture %}
@@ -60,7 +60,7 @@ LIQUID
     <div class="section-stack">
       {%- capture current_letter -%}{{ '' }}{%- endcapture -%}
       {%- for collection in collections -%}
-        {% if collection.template_suffix == "marque" %}
+        {% if collection.template_suffix == "marque" or collection.template_suffix == "marque-avec-bundle" %}
           {%- if collection.featured_image == blank or section.settings.collections == empty and collection.handle == 'frontpage' -%}
           {%- endif -%}
           {% capture collection_name %}{{ collection.title | strip_html | slice: 0 | upcase }}{% endcapture %}
@@ -82,7 +82,7 @@ LIQUID
                   <ul class="brand-group-list collection-list wrap">
           {%- endif -%}
 
-          {%- if collection.template_suffix == "marque" -%}
+          {%- if collection.template_suffix == "marque" or collection.template_suffix == "marque-avec-bundle" -%}
             <li class="brand-group-list-item">
                {%- if collection.featured_image == blank or section.settings.collections == empty and collection.handle == 'frontpage' -%}
                 {%- endif -%}

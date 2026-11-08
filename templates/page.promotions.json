@@ -21,162 +21,176 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_34NEND": {
+        "promotion_card_ikwrPF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026.png",
-            "promotion_title": "Incontournables soins solaires",
-            "promotion_description": "<p>Les incontournables soins solaires visage et corps, pour vous ou toute la famille. Disponibles en crème, en brume ou en bâton pour s’adapter à votre routine. <strong>Brosse démêlante rose gratuite dès 55 $ d’achat!</strong></p>",
-            "promotion_link": "shopify://collections/visage-corps-soin-solaire",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026.png",
+            "promotion_title": "Nouveauté Redken",
+            "promotion_description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
+            "promotion_link": "shopify://products/redken-shampoing-sec-acidic-cleansing-mist-100-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_dTggz7": {
+        "promotion_card_iaUGJP": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3.png",
-            "promotion_title": "-15% sur le séchage à l'air libre!",
-            "promotion_description": "<p>Idéale pour laisser vos cheveux sécher à l’air libre : hydrate, protège et discipline les frisottis, pour tous les types de cheveux!</p>",
-            "promotion_link": "shopify://products/lernberger-stafsing-creme-bb-traitement-sans-rincage-150-ml",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_28334b11-b398-425f-8092-f00247c68d17.png",
+            "promotion_title": "15 % de rabais!",
+            "promotion_description": "<p>Jusqu’au 11 novembre, profitez de 15 % de rabais sur nos serviettes de tête en microfibre! Douces, absorbantes et pratiques, elles sont parfaites pour faciliter votre routine capillaire au quotidien.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-10",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_LqYqPc": {
+        "promotion_card_WpkijQ": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1cc24cff-9b53-43ec-a017-e0a0a2c9314e.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Mermade, Amika, Babyliss, Hot Tools, CHI et Avanti. <em>Offre valide jusqu’au 13 mai à 23 h 59.</em></p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/9_05990286-6441-4be4-b7b7-3488e609b14c.png",
+            "promotion_title": "11% de rabais",
+            "promotion_description": "<p>Le Single’s Day chez Kérastase! Profitez de 11 % de rabais ou de 15 % à l’achat de 3 produits de format régulier. Le moment parfait pour faire le plein de vos favoris!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_zNGX4f": {
+        "promotion_card_Hg9HeU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_90db9add-1edb-4549-bb23-d9bd8aa61c2f.png",
-            "promotion_title": "Fête des Mères",
-            "promotion_description": "<p>Pour elle, tout simplement.Trouvez le parfum parfait dans notre sélection pour la fête des Mères, une idée cadeau qui fait toujours plaisir.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-5",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_zQ3xUA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_3_9cc137bc-c2ef-4cd8-9a56-e327cc55914c.png",
-            "promotion_title": "Coffrets du Printemps",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur une sélection de plus de 150 coffrets. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/coffrets",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_h9Cghm": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1.png",
-            "promotion_title": "Promo perte de cheveux",
-            "promotion_description": "<p>Routine complète anti-chute pour freiner la perte de densité et favoriser des cheveux plus forts et en santé. <strong>Shampoing Triphasic 200 ml (valeur de 44$) gratuitement à l’achat de 75 $! </strong></p>",
-            "promotion_link": "shopify://collections/promo-perte-de-cheveux-rene-furterer",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_Y4Ycbt": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_46817c59-9694-444f-b89c-5bf4a5bee3d5.png",
-            "promotion_title": "Recharges l'Oréal",
-            "promotion_description": "<p>Un choix écolo qui vous fait économiser. Jusqu’à 30 % de rabais et une serviette en microfibre beige clair offerte à l’achat d’une recharge L’Oréal.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_qQcwXa": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_dc0ad9e1-0dae-402b-aa50-de2658219aef.png",
-            "promotion_title": "Redken Acidic Grow Full",
-            "promotion_description": "<p>Pour des cheveux plus épais, forts et denses : jusqu’à 25 % de rabais + une brosse gratuite à l’achat de 50 $! <em>Jusqu'à épuisement des stocks</em></p>",
+            "promotion_image": "shopify://shop_images/7_29dad369-7fd7-4635-b931-dd5309f178c2.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_HPrxrN": {
+        "promotion_card_jYHafK": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b53caea7-7c7f-401b-a464-be4f9e9b8e74.png",
-            "promotion_title": "15$ de rabais sur le Miracle Creator",
-            "promotion_description": "<p>Soin multifonction sans rinçage qui hydrate, protège les cheveux et facilite le coiffage tout en laissant la fibre douce et brillante. <em>Jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/matrix-traitement-miracle-creator-400-ml-1",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/8_924003c4-40ed-4423-9a18-da0235f1c6d9.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Profitez de 15 % de rabais sur vos shampoings et revitalisants Pureology préférés en format d’un litre! L’occasion parfaite de faire le plein de vos essentiels capillaires tout en économisant.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-14",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_PC4TfQ": {
+        "promotion_card_NB9hyT": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_4.png",
-            "promotion_title": "Solaires Esthederm",
-            "promotion_description": "<p>Profitez de 20 % de rabais sur tous les produits solaires Esthederm. Vous y trouverez tout ce qu’il vous faut, de la préparation à la protection, jusqu’aux soins après-soleil.</p>",
-            "promotion_link": "shopify://collections/esthederm-solaire",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/5_53cdc5f0-daf7-4a1b-856d-0d305544ead7.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>La marque canadienne BOB est à 25 % de rabais. Découvrez ses soins et coiffants pour compléter votre routine capillaire.</p>",
+            "promotion_link": "shopify://collections/bob",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_xrx7Yh": {
+        "promotion_card_jgy3wm": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_3_fa8cd21f-7fa3-431c-99a2-6398aec08b4a.png",
-            "promotion_title": "Héros Pureology",
-            "promotion_description": "<p>Profitez de 25 % de rabais sur les favoris des gammes Hydrate & Strength Cure ainsi que les coiffants Pureology.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_tFtmhM": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2_8f79dcb7-8c2f-4a34-9960-bfd79d6ac057.png",
-            "promotion_title": "Duo fortifiant Izumi Tonic",
-            "promotion_description": "<p>25 % de rabais, duo fortifiant enrichi en eau de riz japonaise pour des cheveux plus forts, plus épais et moins de pointes fourchues.</p>",
-            "promotion_link": "shopify://products/shu-uemura-duo-izumi-tonic-gloss-fortifiant-et-eau-fortifiante-energisante",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_M9AwAA": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/17_8f916bb9-9beb-43e3-95f4-edaad83c6488.png",
-            "promotion_title": "Accessoires Concept C",
-            "promotion_description": "<p>20 % de rabais sur tous les accessoires Concept C! Pinces, chouchous, serviettes et plus encore.</p>",
-            "promotion_link": "shopify://collections/concept-c",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/6_6e480382-159d-448a-b465-a05d74e7547f.png",
+            "promotion_title": "Jusqu'à 25% de rabais",
+            "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-11",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/24_d2c561ba-d529-4836-8e23-9a333f8d4d90.png",
-            "promotion_title": "Liquidation",
-            "promotion_description": "<p>Une sélection de produits à 50 % de rabais, en tout temps!</p>",
+            "promotion_image": "shopify://shop_images/24_2c6f6462-c68f-4639-a6bc-3853addb6ed4.png",
+            "promotion_title": "Tout à 50% de rabais",
+            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
             "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_8FyVcj": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_2.png",
+            "promotion_title": "Jusqu'à 20% de rabais!",
+            "promotion_description": "<p>15 % de rabais dès 150 $ d’achat ou 20 % dès 200 $! En prime, recevez un cadeau exclusif Concept C dès 150 $ d’achat!&nbsp;</p>",
+            "promotion_link": "shopify://collections/vente-eclair",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_k8ftTc": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_1.png",
+            "promotion_title": "Bas de Noël",
+            "promotion_description": "<p>Un petit cadeau en plus pour les Fêtes! Recevez une pochette GRATUITE à l’achat de 45 $ de nos essentiels beauté parfaits pour remplir les bas de Noël!</p>",
+            "promotion_link": "shopify://collections/bas-de-noel-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_rwFQhP": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/3_3fd00d19-e18d-44a8-b679-9af4724838e6.png",
+            "promotion_title": "Coffrets des Fêtes",
+            "promotion_description": "<p>Profitez de jusqu’à 40 % de rabais sur notre sélection de coffrets des Fêtes de vos marques préférées, parfaits pour offrir ou vous faire plaisir!</p>",
+            "promotion_link": "shopify://collections/coffrets",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_U3wzeX": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
       "block_order": [
-        "promotion_card_34NEND",
-        "promotion_card_dTggz7",
-        "promotion_card_LqYqPc",
-        "promotion_card_zNGX4f",
-        "promotion_card_zQ3xUA",
-        "promotion_card_h9Cghm",
-        "promotion_card_Y4Ycbt",
-        "promotion_card_qQcwXa",
-        "promotion_card_HPrxrN",
-        "promotion_card_PC4TfQ",
-        "promotion_card_xrx7Yh",
-        "promotion_card_tFtmhM",
-        "promotion_card_M9AwAA",
-        "promotion_card_W7BpWz"
+        "promotion_card_ikwrPF",
+        "promotion_card_iaUGJP",
+        "promotion_card_WpkijQ",
+        "promotion_card_Hg9HeU",
+        "promotion_card_jYHafK",
+        "promotion_card_NB9hyT",
+        "promotion_card_jgy3wm",
+        "promotion_card_W7BpWz",
+        "promotion_card_8FyVcj",
+        "promotion_card_k8ftTc",
+        "promotion_card_rwFQhP",
+        "promotion_card_U3wzeX"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -196,96 +210,94 @@
     "custom_promotions_list_zDYMHA": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_CNGFbY": {
+        "promotion_card_JzYFqj": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_2_fe024dba-29c3-42b5-9ed4-03248a5c5506.png",
-            "promotion_title": "Bâton à lisser d'Oribe",
-            "promotion_description": "<p>À l’achat du bâton Supershine d’Oribe, obtenez gratuitement la brosse Coquette Large de Concept C! <em>Offre valide jusqu’au 30 avril ou jusqu’à épuisement des stocks.</em></p>",
+            "promotion_image": "shopify://shop_images/10_91b5f283-30b2-4c23-ac1f-5d4fdc58b2c9.png",
+            "promotion_title": "Cadeau Redken",
+            "promotion_description": "<p>À l’achat du sérum cuir chevelu et cheveux Densité et Force Acidic Grow Full de Redken 100 ml, obtenez gratuitement une brosse pour le cuir chevelu Redken turquoise!</p>",
+            "promotion_link": "shopify://products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_mzyc8j": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/13_a3d9d5a2-83b2-49d0-a0f0-fffd37279cc9.png",
+            "promotion_title": "Cadeau Oribe",
+            "promotion_description": "<p>À l’achat du bâton de cire à lisser pour cheveux Supershine d’Oribe , obtenez gratuitement une trousse Éclat Supershine!</p>",
             "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_icwraR": {
+        "promotion_card_pPt4rr": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_1_5aa7fb4b-0a58-4ca4-886b-35d65fae47f9.png",
-            "promotion_title": "Kérastase Genesis",
-            "promotion_description": "<p>À l’achat d’un sérum Genesis, obtenez gratuitement le bain hydra-fortifiant 30 ml! <em>Offre valide jusqu'au 12 juin ou épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/kerastase-serum-anti-casse-fortifiant-genesis-90-ml",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/12_d8498692-18b5-4f31-b0a9-5a965d9ce24a.png",
+            "promotion_title": "Cadeau K18",
+            "promotion_description": "<p>À l’achat de 100$ de produits K18, obtenez gratuitement l’huile capillaire de réparation moléculaire - 10 ml!</p>",
+            "promotion_link": "shopify://collections/k18",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_RaAF78": {
+        "promotion_card_myQfCr": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_9e0523dc-2262-45d8-85a6-b2dbac390fb3.png",
-            "promotion_title": "Davines Essential Haircare!",
-            "promotion_description": "<p>À l’achat de 60 $ de produits Essential Haircare, obtenez gratuitement un mini exfoliant Solu de 75 ml.<em> Limite de 1 par commande. Offre valide jusqu'au 13 mai ou à l'épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/promo-du-moment-2",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_11.png",
+            "promotion_title": "Cadeau Amika",
+            "promotion_description": "<p>À l’achat de 50 $ de produits Amika, obtenez gratuitement le shampoing sec Perk Up Ultra 29 ml!</p>",
+            "promotion_link": "shopify://collections/amika",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_74qt63": {
+        "promotion_card_37YJww": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_2.png",
-            "promotion_title": "Sérum Vitamino Color Spectrum",
-            "promotion_description": "<p>À l’achat d’un sérum Vitamino Color Spectrum, obtenez gratuitement le shampoing Vitamino Color Spectrum 100 ml! <em>Offre valide jusqu'au 31 mai ou épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/loreal-serie-expert-serum-vitamino-color-spectrum-50-ml",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/14_d12f9530-7c70-4f3c-88bc-b8f01105e098.png",
+            "promotion_title": "Cadeau Shu Uemura",
+            "promotion_description": "<p>À l’achat de 2 produits Shu Uemura en format régulier, recevez gratuitement un sac des Fêtes!</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-6",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
-        "promotion_card_MdzkNH": {
+        "promotion_card_8dRH8e": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_00bb8885-fade-4af6-9858-733a5103b310.png",
-            "promotion_title": "Sérum Serioxyl",
-            "promotion_description": "<p>À l’achat d’un sérum Serioxyl, obtenez gratuitement le shampoing Serioxyl Advanced 100 ml.<em> Limite de 1 par commande. Offre valide jusqu’au 13 mai ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://products/loreal-serie-expert-serum-denser-serioxyl-90-ml",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_de9Bg7": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Mai_2026_5.png",
-            "promotion_title": "Crème eau cellulaire gratuite!",
-            "promotion_description": "<p>À l’achat de 80 $ en produits Esthederm, obtenez gratuitement une Crème Eau Cellulaire 10 ml! <em>Jusqu'au 31 mai ou épuisement des stock.</em></p>",
-            "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_zCbJwF": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_d169b50f-034e-40a3-931d-e4c9d1f0fc24.png",
-            "promotion_title": "Pureology 21-en-1!",
-            "promotion_description": "<p>À l’achat de 100 $ de produits Pureology, obtenez gratuitement un 21-en-1 Color Fanatic 30 ml.<em> Offre valide jusqu’au 13 mai ou jusqu’à épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
-          }
-        },
-        "promotion_card_rn9iBq": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_1_b7b53a6d-5d38-444f-a86c-e329a143cb8e.png",
-            "promotion_title": "Biolage Scalp Sync & Full Rescue",
-            "promotion_description": "<p>À l’achat de 50 $ de produits Biolage Scalp Sync et Full Rescue, obtenez gratuitement le Sérum Full Rescue 15 ml. <em>Limite d’un par commande. Offre valide jusqu’au 13 mai ou jusqu’à l’épuisement des stocks.</em></p>",
-            "promotion_link": "shopify://collections/offre-a-decouvrir",
-            "promotion_link_text": "Voir plus"
+            "promotion_image": "shopify://shop_images/15_f5de763e-0d46-4e1c-a9e6-915f23ec6cbc.png",
+            "promotion_title": "Cadeau Iles Formula",
+            "promotion_description": "<p>À l’achat de 75 $ de la gamme Iles Formula, obtenez gratuitement une serviette en microfibre blanche!</p>",
+            "promotion_link": "shopify://collections/iles-formula",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
       "block_order": [
-        "promotion_card_CNGFbY",
-        "promotion_card_icwraR",
-        "promotion_card_RaAF78",
-        "promotion_card_74qt63",
-        "promotion_card_MdzkNH",
-        "promotion_card_de9Bg7",
-        "promotion_card_zCbJwF",
-        "promotion_card_rn9iBq"
+        "promotion_card_JzYFqj",
+        "promotion_card_mzyc8j",
+        "promotion_card_pPt4rr",
+        "promotion_card_myQfCr",
+        "promotion_card_37YJww",
+        "promotion_card_8dRH8e"
       ],
       "name": "# Promotions list",
       "settings": {
@@ -308,41 +320,124 @@
         "promotion_card_McCiBz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/20_ddbec471-ba26-4755-96bc-fd6b519851f7.png",
+            "promotion_image": "shopify://shop_images/16_37e944a5-bf60-4121-aa89-ceec9b29b9c1.png",
             "promotion_title": "Kérastase",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Kérastase. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_qbFiXU": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/21_14569a9d-7c9a-45c7-b3bc-0908b5923871.png",
+            "promotion_image": "shopify://shop_images/18_456ecaaa-0af2-4d00-9a9a-f6c31169ea7a.png",
             "promotion_title": "Shu Uemura",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Shu Uemura. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/shu-uemura",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_aWWz9r": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/23_94b15a50-87e8-4487-8949-62eee02f550a.png",
+            "promotion_image": "shopify://shop_images/21_daa9c035-2e7d-4ba7-ab9d-bd17b60b4985.png",
             "promotion_title": "Esthederm",
-            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Esthederm. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/esthederm",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_ymUbrY": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/17_dbcab590-9f79-41ac-99f7-21d6963bc2f7.png",
+            "promotion_title": "Moroccanoil",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Moroccanoil. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_B7VPDU": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/20_df4b73f3-45f7-499c-a898-5fe505e998b3.png",
+            "promotion_title": "Davines",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Davines. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/davines",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_9XbYyw": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Avril_2026_43150dab-5134-4f64-828d-8a8274931aef.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_835f54cf-de71-401c-b62d-931980bc55c9.png",
             "promotion_title": "Pureology",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Pureology. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/pureology",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_qnEiWM": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Festilitre_Onglet_Promotions_Site_Juillet_V2_2026_4.png",
+            "promotion_title": "L'Oréal",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat de 40$ de produits l'Oréal. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/loreal",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_d9JKry": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/25.png",
+            "promotion_title": "Australian Gold",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Australian Gold. <em>Maximum de 2 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/australian-gold",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_fEyCjW": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Septembre_8307f7f5-92ae-4c48-b079-43a1ceef5082.png",
+            "promotion_title": "Redken",
+            "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit Redken. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
+            "promotion_link": "shopify://collections/redken",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         },
         "promotion_card_jfRV8G": {
@@ -353,7 +448,10 @@
             "promotion_title": "René Furterer",
             "promotion_description": "<p>Recevez un échantillon gratuit à l’achat d’un produit René Furterer. <em>Maximum de 1 par commande. Jusqu’à épuisement des stocks.</em></p>",
             "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
-            "promotion_link_text": "Voir plus"
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
           }
         }
       },
@@ -361,7 +459,12 @@
         "promotion_card_McCiBz",
         "promotion_card_qbFiXU",
         "promotion_card_aWWz9r",
+        "promotion_card_ymUbrY",
+        "promotion_card_B7VPDU",
         "promotion_card_9XbYyw",
+        "promotion_card_qnEiWM",
+        "promotion_card_d9JKry",
+        "promotion_card_fEyCjW",
         "promotion_card_jfRV8G"
       ],
       "name": "# Promotions list",

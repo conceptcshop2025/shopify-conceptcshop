@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        ".collection-banner .breadcrumb {z-index: 4; top: -16px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-c38b66c3-ef1b-49d3-a3f2-9abf58685fdc",
+        "image": "shopify://shop_images/Live_Tiktok_3840_x_500_px_1d7881fb-e73b-4c14-b2ce-17648c063aad.png",
+        "mobile_image": "shopify://shop_images/Haut_Collection_Tiktok.png",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "show_image": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_hCkVz3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_TfPiwY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_LG6MPW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_BcADBq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chaque jeudi, de 11 h 30 à 13 h, nous sommes en LIVE sur TikTok ! 🎥 Pendant le LIVE, nous dévoilons les codes promo valides qui vous permettent d’obtenir GRATUITEMENT l’un des items ci-dessous dans votre commande. Et ce n’est pas tout ! 👀 Courez la chance de voir VOTRE commande sélectionnée et pimpée (ajout d'un cadeau) gratuitement par Maude et MC ! C’est un rendez-vous chaque jeudi !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TfPiwY",
+        "heading_LG6MPW",
+        "richtext_BcADBq"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_collection_tags_DdQdc6": {
+      "type": "custom-collection-tags",
+      "disabled": true,
+      "custom_css": [
+        ".collection-tags .tag.tag-collection {background: #e0e5f1;}"
+      ],
+      "name": "# Collection tags",
+      "settings": {
+        "color_scheme": "",
+        "background_tags": "#e4c0ae",
+        "color_tags": "#454545",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".text-with-icon {font-size: var(--text-h5); line-height: 1.6; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "rich_text_hCkVz3",
+    "custom_collection_tags_DdQdc6",
+    "main"
+  ]
+}
