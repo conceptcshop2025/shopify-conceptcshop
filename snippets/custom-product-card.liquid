@@ -105,6 +105,13 @@ Supported variables
       padding: .5rem;
     }
 
+    .product-card .product-card__rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 25px;
+    }
+
     .product-card .product-card__info .price-list .h6 {
       font-weight: 700;
     }
@@ -284,9 +291,14 @@ Supported variables
       {%- endif -%}
     {%- endif -%}
 
-    {%- if show_rating -%}
-      {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
-    {%- endif -%}
+    {%- comment -%} The wrapper is always rendered so products without reviews keep the same card height {%- endcomment -%}
+    {%- unless hide_product_information -%}
+      <div class="product-card__rating">
+        {%- if show_rating -%}
+          {%- render 'product-rating', product: product, show_empty: settings.show_product_rating_if_empty, display_mode: settings.product_rating_mode -%}
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
 
     {% if release_date == blank %}
       {% if product.available %}
