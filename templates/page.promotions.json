@@ -225,6 +225,7 @@
         },
         "promotion_card_mzyc8j": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/13_a3d9d5a2-83b2-49d0-a0f0-fffd37279cc9.png",
             "promotion_title": "Cadeau Oribe",
