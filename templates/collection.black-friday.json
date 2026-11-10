@@ -22,6 +22,7 @@
         "show_collection_description": false,
         "show_breadcrumb": true,
         "content_width": "lg",
+        "text_alignment": "center",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -33,7 +34,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Voir les termes et conditions</strong>",
-            "answer": "<p><strong>Certaines gammes sont exclues du 15 %, soit en raison de leur propre offre du Vendredi fou, soit parce que la marque ne l’autorise pas. Voici les détails :</strong><br/></p><ul><li>Oribe</li><li>Kérastase (cadeaux avec achat du 19 novembre au 2 décembre)</li><li>Esthederm : Coffrets des Fêtes et Age Proteom</li><li>Shu Uemura (25% de rabais à l'achat de 2 produits du 20 au 30 novembre)&nbsp;</li><li>Moroccanoil (25% de rabais du 18 novembre au 2 décembre)</li><li>Promo Outils (jusqu'à 40% de rabais déjà en vigueur)</li><li>Steampod 4 et Airlight Pro de L'Oréal (15% de rabais du 19 au 30 novembre)</li><li>Pureology (30% de rabais du 20 novembre au 1er décembre)<br/><br/><em>*Les rabais des Soldes des jours, incluant le 15%, s’appliquent automatiquement au panier, même sur l'onglet Soldes, Liquidation et Coffrets.</em></li></ul>"
+            "answer": "<p><strong>Certaines gammes sont exclues du 15 %, soit en raison de leur propre offre du Vendredi fou, soit parce que la marque ne l’autorise pas. Voici les détails :</strong><br/></p><ul><li>Kérastase ( 15% de rabais + cadeaux avec achat du 19 novembre au 2 décembre)</li><li>Oribe (cadeau avec achat)</li><li>Esthederm : Coffrets des Fêtes et Age Proteom</li><li>Shu Uemura (25% de rabais à l'achat de 2 produits du 20 au 30 novembre)&nbsp;</li><li>Moroccanoil (25% de rabais du 18 novembre au 2 décembre)</li><li>Promo Outils (jusqu'à 40% de rabais déjà en vigueur)</li><li>Steampod 4 et Airlight Pro de L'Oréal (15% de rabais du 19 au 30 novembre)</li><li>Pureology (30% de rabais du 20 novembre au 1er décembre)<br/><br/><em>*Les rabais des Soldes des jours, incluant le 15%, s’appliquent automatiquement au panier, même sur l'onglet Soldes, Liquidation et Coffrets.</em></li></ul>"
           }
         },
         "question_U3HgqT": {
@@ -59,6 +60,7 @@
         "show_categories": false,
         "subheading": "",
         "title": "",
+        "heading_style": "h2",
         "content": ""
       }
     },
