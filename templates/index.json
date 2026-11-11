@@ -394,19 +394,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_wWN7jE": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/9_05990286-6441-4be4-b7b7-3488e609b14c.png",
-            "promotion_title": "11% de rabais!",
-            "promotion_description": "<p>Le Single’s Day chez Kérastase! Profitez de 11 % de rabais ou de 15 % à l’achat de 3 produits de format régulier. Le moment parfait pour faire le plein de vos favoris!</p>",
-            "promotion_link": "shopify://collections/kerastase",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_rwPfUP": {
           "type": "promotion_card",
           "settings": {
@@ -449,7 +436,7 @@
         "promotion_card_6JURgh": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/10_91b5f283-30b2-4c23-ac1f-5d4fdc58b2c9.png",
+            "promotion_image": "shopify://shop_images/16_721337f7-8590-422a-8fc9-7dd79938d009.png",
             "promotion_title": "Cadeau Redken",
             "promotion_description": "<p>À l’achat du sérum cuir chevelu Densité et Force Acidic Grow Full, obtenez gratuitement une brosse pour le cuir chevelu Redken!</p>",
             "promotion_link": "shopify://products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml",
@@ -475,7 +462,6 @@
         }
       },
       "block_order": [
-        "promotion_card_wWN7jE",
         "promotion_card_rwPfUP",
         "promotion_card_BV4iK9",
         "promotion_card_FGiEbd",
