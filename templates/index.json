@@ -394,19 +394,6 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
-        "promotion_card_BpCjai": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_28334b11-b398-425f-8092-f00247c68d17.png",
-            "promotion_title": "15% de rabais",
-            "promotion_description": "<p>Jusqu’au 11 novembre, profitez de 15 % de rabais sur nos serviettes de tête en microfibre! Douces, absorbantes et pratiques, elles sont parfaites pour faciliter votre routine capillaire au quotidien.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-10",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_wWN7jE": {
           "type": "promotion_card",
           "settings": {
@@ -420,22 +407,8 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_dbBQiy": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_29dad369-7fd7-4635-b931-dd5309f178c2.png",
-            "promotion_title": "15% de rabais!",
-            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_rwPfUP": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_49d215f2-133d-4f81-9e69-6787da6f6823.png",
             "promotion_title": "Extra 15% de rabais!",
@@ -449,7 +422,6 @@
         },
         "promotion_card_BV4iK9": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_e7132d1a-c41a-45cb-b54e-659812f30c5a.png",
             "promotion_title": "Nouveauté Redken",
@@ -463,7 +435,6 @@
         },
         "promotion_card_FGiEbd": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_84a48f71-942b-49c9-a655-90b4ae92c12b.png",
             "promotion_title": "Promo Outils",
@@ -504,9 +475,7 @@
         }
       },
       "block_order": [
-        "promotion_card_BpCjai",
         "promotion_card_wWN7jE",
-        "promotion_card_dbBQiy",
         "promotion_card_rwPfUP",
         "promotion_card_BV4iK9",
         "promotion_card_FGiEbd",
