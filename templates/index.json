@@ -394,6 +394,19 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_FGiEbd": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_84a48f71-942b-49c9-a655-90b4ae92c12b.png",
+            "promotion_title": "Promo Outils",
+            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
+            "promotion_link": "shopify://collections/coffre-a-outils-1",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_rwPfUP": {
           "type": "promotion_card",
           "settings": {
@@ -420,19 +433,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_FGiEbd": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_84a48f71-942b-49c9-a655-90b4ae92c12b.png",
-            "promotion_title": "Promo Outils",
-            "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
-            "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_6JURgh": {
           "type": "promotion_card",
           "settings": {
@@ -445,28 +445,13 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_RAy9Hr": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/5_53cdc5f0-daf7-4a1b-856d-0d305544ead7.png",
-            "promotion_title": "25% de rabais",
-            "promotion_description": "<p>La marque canadienne BOB est à 25 % de rabais. Découvrez ses soins et coiffants pour compléter votre routine capillaire.</p>",
-            "promotion_link": "shopify://collections/bob",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
+        "promotion_card_FGiEbd",
         "promotion_card_rwPfUP",
         "promotion_card_BV4iK9",
-        "promotion_card_FGiEbd",
-        "promotion_card_6JURgh",
-        "promotion_card_RAy9Hr"
+        "promotion_card_6JURgh"
       ],
       "name": "# Promotions list",
       "settings": {
