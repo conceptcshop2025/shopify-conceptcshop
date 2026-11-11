@@ -209,19 +209,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_pPt4rr": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/12_d8498692-18b5-4f31-b0a9-5a965d9ce24a.png",
-            "promotion_title": "Cadeau K18",
-            "promotion_description": "<p>À l’achat de 100$ de produits K18, obtenez gratuitement l’huile capillaire de réparation moléculaire - 10 ml!</p>",
-            "promotion_link": "shopify://collections/k18",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_myQfCr": {
           "type": "promotion_card",
           "disabled": true,
@@ -321,7 +308,6 @@
       },
       "block_order": [
         "promotion_card_JzYFqj",
-        "promotion_card_pPt4rr",
         "promotion_card_myQfCr",
         "promotion_card_4dMqKt",
         "promotion_card_T7n7NW",
