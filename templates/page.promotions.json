@@ -253,7 +253,6 @@
         },
         "promotion_card_tpGh3E": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_3.png",
             "promotion_title": "Cadeau René Furterer",
