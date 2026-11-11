@@ -264,6 +264,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_tpGh3E": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_3.png",
+            "promotion_title": "Cadeau René Furterer",
+            "promotion_description": "<p>À l’achat de 2 produits René Furterer, obtenez gratuitement le pilulier magnétique Concept C x René Furterer!</p>",
+            "promotion_link": "shopify://collections/rene-furterer-produits-soins-essentiel-du-cheveu",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_37YJww": {
           "type": "promotion_card",
           "settings": {
@@ -297,6 +311,7 @@
         "promotion_card_myQfCr",
         "promotion_card_4dMqKt",
         "promotion_card_T7n7NW",
+        "promotion_card_tpGh3E",
         "promotion_card_37YJww",
         "promotion_card_8dRH8e"
       ],
