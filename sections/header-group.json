@@ -50,7 +50,6 @@
     },
     "c_countdown_dXGgpQ": {
       "type": "c-countdown",
-      "disabled": true,
       "name": "C Countdown",
       "settings": {
         "color_scheme": "scheme-3",
@@ -69,7 +68,7 @@
         "button_text": "",
         "button_background": "",
         "button_text_color": "#181818",
-        "expiration_date": "2026-11-01 23:59",
+        "expiration_date": "2026-11-30 23:59",
         "expiration_behavior": "leave",
         "timer_position": "end",
         "animate_number": true,
