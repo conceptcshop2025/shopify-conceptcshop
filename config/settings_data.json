@@ -251,13 +251,13 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#1c1c1c",
+          "background": "#181818",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
-          "primary_button_text_color": "#1c1c1c",
+          "primary_button_text_color": "#181818",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "#181818"
         }
       },
       "scheme-4": {
@@ -396,11 +396,11 @@
         "settings": {
           "background": "#470201",
           "background_gradient": "",
-          "text_color": "#F0EEDD",
+          "text_color": "#f0eedd",
           "primary_button_background": "#470201",
-          "primary_button_text_color": "#F0EEDD",
+          "primary_button_text_color": "#f0eedd",
           "circle_button_background": "#470201",
-          "circle_button_icon": "#F0EEDD"
+          "circle_button_icon": "#f0eedd"
         }
       },
       "scheme-54e3346b-ef23-4afe-a235-ed1d467921ec": {
