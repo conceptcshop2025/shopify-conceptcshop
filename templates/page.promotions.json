@@ -34,6 +34,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_rgnfab": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_7721aa52-3f23-40e8-828b-6f215e0f90db.png",
+            "promotion_title": "Extra 15% de rabais",
+            "promotion_description": "<p>Découvrez nos sprays sans rinçage pour démêler, hydrater et adoucir vos cheveux en toute simplicité.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_iaUGJP": {
           "type": "promotion_card",
           "disabled": true,
@@ -101,19 +114,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_W7BpWz": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/23_8801ae4a-cdc1-4469-bb03-d37b1a3282c1.png",
-            "promotion_title": "Tout à 50% de rabais",
-            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
-            "promotion_link": "shopify://collections/la-voute",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_k8ftTc": {
           "type": "promotion_card",
           "settings": {
@@ -152,19 +152,33 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
+        },
+        "promotion_card_W7BpWz": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/23_8801ae4a-cdc1-4469-bb03-d37b1a3282c1.png",
+            "promotion_title": "Tout à 50% de rabais",
+            "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
+            "promotion_link": "shopify://collections/la-voute",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
         }
       },
       "block_order": [
         "promotion_card_ikwrPF",
+        "promotion_card_rgnfab",
         "promotion_card_iaUGJP",
         "promotion_card_WpkijQ",
         "promotion_card_jYHafK",
         "promotion_card_NB9hyT",
         "promotion_card_jgy3wm",
-        "promotion_card_W7BpWz",
         "promotion_card_k8ftTc",
         "promotion_card_rwFQhP",
-        "promotion_card_U3wzeX"
+        "promotion_card_U3wzeX",
+        "promotion_card_W7BpWz"
       ],
       "name": "# Promotions list",
       "settings": {
