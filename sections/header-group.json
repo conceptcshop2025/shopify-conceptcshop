@@ -68,7 +68,7 @@
         "button_link": "",
         "button_text": "",
         "button_background": "",
-        "button_text_color": "#000000",
+        "button_text_color": "#181818",
         "expiration_date": "2026-11-01 23:59",
         "expiration_behavior": "leave",
         "timer_position": "end",
@@ -79,7 +79,7 @@
         "countdown_text_color": "",
         "flip_background": "#FFFFFF",
         "flip_background_opacity": 100,
-        "flip_text_color": "#000000",
+        "flip_text_color": "#181818",
         "overlay_color": "#FFFFFF",
         "overlay_opacity": 30
       }
