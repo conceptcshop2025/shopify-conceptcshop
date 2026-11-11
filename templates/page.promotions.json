@@ -239,7 +239,6 @@
         },
         "promotion_card_T7n7NW": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_2.png",
             "promotion_title": "Cadeau Sun Bum",
