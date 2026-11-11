@@ -251,13 +251,13 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#181818",
+          "background": "#252728",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
-          "primary_button_text_color": "#181818",
+          "primary_button_text_color": "#252728",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#181818"
+          "circle_button_icon": "#252728"
         }
       },
       "scheme-4": {

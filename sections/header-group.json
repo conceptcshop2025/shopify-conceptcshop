@@ -40,7 +40,7 @@
         "message-1"
       ],
       "settings": {
-        "color_scheme": "scheme-54e3346b-ef23-4afe-a235-ed1d467921ec",
+        "color_scheme": "scheme-3",
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 5,
@@ -77,10 +77,10 @@
         "background_color": "",
         "text_color": "",
         "countdown_text_color": "",
-        "flip_background": "#FFFFFF",
+        "flip_background": "#ffffff",
         "flip_background_opacity": 100,
         "flip_text_color": "#181818",
-        "overlay_color": "#FFFFFF",
+        "overlay_color": "#ffffff",
         "overlay_opacity": 30
       }
     },
