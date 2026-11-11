@@ -209,20 +209,6 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_mzyc8j": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/13_a3d9d5a2-83b2-49d0-a0f0-fffd37279cc9.png",
-            "promotion_title": "Cadeau Oribe",
-            "promotion_description": "<p>À l’achat du bâton de cire à lisser pour cheveux Supershine d’Oribe , obtenez gratuitement une trousse Éclat Supershine!</p>",
-            "promotion_link": "shopify://products/oribe-baton-de-cire-pour-cheveux-supershine-39-g",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_pPt4rr": {
           "type": "promotion_card",
           "settings": {
@@ -240,9 +226,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Vente_Annuelle_2026_11.png",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026.png",
             "promotion_title": "Cadeau Amika",
-            "promotion_description": "<p>À l’achat de 50 $ de produits Amika, obtenez gratuitement le shampoing sec Perk Up Ultra 29 ml!</p>",
+            "promotion_description": "<p>À l’achat de 75 $ de produits Amika, obtenez gratuitement le soin de nuit hydratant Dream Routine 30 ml!</p>",
             "promotion_link": "shopify://collections/amika",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
@@ -279,7 +265,6 @@
       },
       "block_order": [
         "promotion_card_JzYFqj",
-        "promotion_card_mzyc8j",
         "promotion_card_pPt4rr",
         "promotion_card_myQfCr",
         "promotion_card_37YJww",
