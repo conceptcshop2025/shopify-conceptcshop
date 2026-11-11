@@ -24,7 +24,7 @@
         "promotion_card_ikwrPF": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026.png",
+            "promotion_image": "shopify://shop_images/4_7ee8f540-c3a4-4c45-973e-9866e2ae8583.png",
             "promotion_title": "Nouveauté Redken",
             "promotion_description": "<p>Découvrez Acidic Cleansing Mist, le nouveau shampoing sec en brume qui absorbe jusqu’à 4 jours d’excès de sébum en une utilisation, sans laisser de résidus blancs!</p>",
             "promotion_link": "shopify://products/redken-shampoing-sec-acidic-cleansing-mist-100-ml",
@@ -36,6 +36,7 @@
         },
         "promotion_card_iaUGJP": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_28334b11-b398-425f-8092-f00247c68d17.png",
             "promotion_title": "15 % de rabais!",
@@ -49,6 +50,7 @@
         },
         "promotion_card_WpkijQ": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/9_05990286-6441-4be4-b7b7-3488e609b14c.png",
             "promotion_title": "11% de rabais",
@@ -60,23 +62,10 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_Hg9HeU": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/7_29dad369-7fd7-4635-b931-dd5309f178c2.png",
-            "promotion_title": "15% de rabais",
-            "promotion_description": "<p>Découvrez une sélection de coiffants emblématiques Living Proof pour faciliter la mise en forme et créer vos looks préférés.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
         "promotion_card_jYHafK": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/8_924003c4-40ed-4423-9a18-da0235f1c6d9.png",
+            "promotion_image": "shopify://shop_images/10_0439332b-c547-45ea-91ca-48a3624dc285.png",
             "promotion_title": "15% de rabais",
             "promotion_description": "<p>Profitez de 15 % de rabais sur vos shampoings et revitalisants Pureology préférés en format d’un litre! L’occasion parfaite de faire le plein de vos essentiels capillaires tout en économisant.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-14",
@@ -89,7 +78,7 @@
         "promotion_card_NB9hyT": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/5_53cdc5f0-daf7-4a1b-856d-0d305544ead7.png",
+            "promotion_image": "shopify://shop_images/7_35f440cf-8592-4d7c-a398-15da7bdedda6.png",
             "promotion_title": "25% de rabais",
             "promotion_description": "<p>La marque canadienne BOB est à 25 % de rabais. Découvrez ses soins et coiffants pour compléter votre routine capillaire.</p>",
             "promotion_link": "shopify://collections/bob",
@@ -102,7 +91,7 @@
         "promotion_card_jgy3wm": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/6_6e480382-159d-448a-b465-a05d74e7547f.png",
+            "promotion_image": "shopify://shop_images/8_0f43cd66-e64b-4a6e-bc7b-60c3423a4d56.png",
             "promotion_title": "Jusqu'à 25% de rabais",
             "promotion_description": "<p>Découvrez la nouvelle routine anti-frisottis de L’Oréal Professionnel pour des cheveux plus lisses et brillants, avec jusqu’à 2 semaines de contrôle des frisottis.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-11",
@@ -115,7 +104,7 @@
         "promotion_card_W7BpWz": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/24_2c6f6462-c68f-4639-a6bc-3853addb6ed4.png",
+            "promotion_image": "shopify://shop_images/23_8801ae4a-cdc1-4469-bb03-d37b1a3282c1.png",
             "promotion_title": "Tout à 50% de rabais",
             "promotion_description": "<p>Une liquidation de produits à 50% de rabais, en tout temps. Faites des économies sur vos essentiels beauté préférés, sans compromis sur la qualité.</p>",
             "promotion_link": "shopify://collections/la-voute",
@@ -128,7 +117,7 @@
         "promotion_card_k8ftTc": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Novembre_2026_1.png",
+            "promotion_image": "shopify://shop_images/5_da5b4fcf-d40f-4059-bab6-62fb0889d845.png",
             "promotion_title": "Bas de Noël",
             "promotion_description": "<p>Un petit cadeau en plus pour les Fêtes! Recevez une pochette GRATUITE à l’achat de 45 $ de nos essentiels beauté parfaits pour remplir les bas de Noël!</p>",
             "promotion_link": "shopify://collections/bas-de-noel-1",
@@ -141,7 +130,7 @@
         "promotion_card_rwFQhP": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/3_3fd00d19-e18d-44a8-b679-9af4724838e6.png",
+            "promotion_image": "shopify://shop_images/6_c66452f5-e52c-428b-8ed9-c04497520172.png",
             "promotion_title": "Coffrets des Fêtes",
             "promotion_description": "<p>Profitez de jusqu’à 40 % de rabais sur notre sélection de coffrets des Fêtes de vos marques préférées, parfaits pour offrir ou vous faire plaisir!</p>",
             "promotion_link": "shopify://collections/coffrets",
@@ -154,7 +143,7 @@
         "promotion_card_U3wzeX": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Site_Octobre_2.png",
+            "promotion_image": "shopify://shop_images/3_0bf60728-daf7-486d-86bd-cfd6c76bf61b.png",
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
@@ -169,7 +158,6 @@
         "promotion_card_ikwrPF",
         "promotion_card_iaUGJP",
         "promotion_card_WpkijQ",
-        "promotion_card_Hg9HeU",
         "promotion_card_jYHafK",
         "promotion_card_NB9hyT",
         "promotion_card_jgy3wm",
