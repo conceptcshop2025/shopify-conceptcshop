@@ -225,7 +225,6 @@
         },
         "promotion_card_4dMqKt": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1.png",
             "promotion_title": "Cadeau Pureology",
