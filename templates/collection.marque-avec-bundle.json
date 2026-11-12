@@ -22,6 +22,7 @@
         "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "xs",
+        "text_alignment": "center",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -80,8 +81,8 @@
             "button_text_color": "#454545",
             "button_hover_background": "#ffffff",
             "button_hover_text_color": "#e4c0ae",
-            "start_date": "2026-10-28 18:00",
-            "end_date": "2026-10-29 21:00"
+            "start_date": "2026-11-12 00:00",
+            "end_date": ""
           }
         },
         "content_bfXx78": {
