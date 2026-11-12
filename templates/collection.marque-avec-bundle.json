@@ -75,7 +75,7 @@
           "settings": {
             "button_text": "Crée ta Routine Kérastase à 10% de Rabais",
             "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
-            "button_font_size": 22,
+            "button_font_size": 15,
             "button_alignment": "center",
             "button_background": "#e4c0ae",
             "button_text_color": "#454545",
