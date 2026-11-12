@@ -50,6 +50,7 @@
     },
     "c_countdown_dXGgpQ": {
       "type": "c-countdown",
+      "disabled": true,
       "name": "C Countdown",
       "settings": {
         "color_scheme": "scheme-3",
