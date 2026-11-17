@@ -65,9 +65,9 @@
           "type": "promotion_card",
           "disabled": true,
           "settings": {
-            "promotion_image": "shopify://shop_images/9_05990286-6441-4be4-b7b7-3488e609b14c.png",
-            "promotion_title": "11% de rabais",
-            "promotion_description": "<p>Le Single’s Day chez Kérastase! Profitez de 11 % de rabais ou de 15 % à l’achat de 3 produits de format régulier. Le moment parfait pour faire le plein de vos favoris!</p>",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_a7bc1cb9-91d1-4d7f-b9bb-25217ffe910c.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Pour les Jours Noirs, retrouvez vos soins capillaires Kérastase préférés à 15 % de rabais et recevez un cadeau dès 175 $ d’achat!</p>",
             "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
