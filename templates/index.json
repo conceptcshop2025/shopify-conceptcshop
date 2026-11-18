@@ -436,6 +436,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_g8FNng": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_7de0826e-a40a-4fa1-94cb-f48d1a7185d5.png",
+            "promotion_title": "15% sur les outils l'Oréal!",
+            "promotion_description": "<p>Pendant les Jours Noirs, profitez de 15 % de rabais sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. Le moment parfait pour vous offrir un outil à la hauteur de vos envies!</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_FGiEbd": {
           "type": "promotion_card",
           "settings": {
@@ -492,6 +506,7 @@
       "block_order": [
         "promotion_card_QW79ab",
         "promotion_card_9DbyhL",
+        "promotion_card_g8FNng",
         "promotion_card_FGiEbd",
         "promotion_card_rwPfUP",
         "promotion_card_BV4iK9",
