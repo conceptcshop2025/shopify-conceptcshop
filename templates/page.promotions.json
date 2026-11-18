@@ -21,6 +21,19 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_WcjYTd": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_7b60fe5d-b253-4ba6-b58b-400a67382ccc.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Découvrez les soins capillaires Moroccanoil, enrichis en huile d’argan, pour hydrater, nourrir et redonner douceur et brillance à vos cheveux.</p>",
+            "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_ikwrPF": {
           "type": "promotion_card",
           "settings": {
@@ -69,20 +82,6 @@
             "promotion_title": "15% de rabais",
             "promotion_description": "<p>Pendant les Jours Noirs, profitez de 15 % de rabais sur le SteamPod et l’AirLight Pro de L’Oréal Professionnel. Le moment parfait pour vous offrir un outil à la hauteur de vos envies!</p>",
             "promotion_link": "shopify://collections/offre-loreal",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_WcjYTd": {
-          "type": "promotion_card",
-          "disabled": true,
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_7b60fe5d-b253-4ba6-b58b-400a67382ccc.png",
-            "promotion_title": "25% de rabais",
-            "promotion_description": "<p>Découvrez les soins capillaires Moroccanoil, enrichis en huile d’argan, pour hydrater, nourrir et redonner douceur et brillance à vos cheveux.</p>",
-            "promotion_link": "shopify://collections/moroccanoil",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -196,11 +195,11 @@
         }
       },
       "block_order": [
+        "promotion_card_WcjYTd",
         "promotion_card_ikwrPF",
         "promotion_card_rgnfab",
         "promotion_card_QADNbe",
         "promotion_card_NfQmXV",
-        "promotion_card_WcjYTd",
         "promotion_card_WpkijQ",
         "promotion_card_jYHafK",
         "promotion_card_NB9hyT",
