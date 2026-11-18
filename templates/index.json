@@ -410,7 +410,6 @@
       "blocks": {
         "promotion_card_QW79ab": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_7b60fe5d-b253-4ba6-b58b-400a67382ccc.png",
             "promotion_title": "25% de rabais",
@@ -488,19 +487,6 @@
             "expiration_month": "01",
             "expiration_day": "01"
           }
-        },
-        "promotion_card_6JURgh": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/16_721337f7-8590-422a-8fc9-7dd79938d009.png",
-            "promotion_title": "Cadeau Redken",
-            "promotion_description": "<p>À l’achat du sérum cuir chevelu Densité et Force Acidic Grow Full, obtenez gratuitement une brosse pour le cuir chevelu Redken!</p>",
-            "promotion_link": "shopify://products/redken-serum-cuir-chevelu-et-cheveux-acidic-grow-full-fevrier-2026-100-ml",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
         }
       },
       "block_order": [
@@ -509,8 +495,7 @@
         "promotion_card_g8FNng",
         "promotion_card_FGiEbd",
         "promotion_card_rwPfUP",
-        "promotion_card_BV4iK9",
-        "promotion_card_6JURgh"
+        "promotion_card_BV4iK9"
       ],
       "name": "# Promotions list",
       "settings": {
