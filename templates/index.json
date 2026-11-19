@@ -437,7 +437,6 @@
         },
         "promotion_card_g8FNng": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_3796b84e-b229-4f2d-9189-9889f8fea49a.png",
             "promotion_title": "Outils vedettes des Jours Noirs",
@@ -451,6 +450,7 @@
         },
         "promotion_card_FGiEbd": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_84a48f71-942b-49c9-a655-90b4ae92c12b.png",
             "promotion_title": "Promo Outils",
