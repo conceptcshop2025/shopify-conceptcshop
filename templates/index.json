@@ -423,7 +423,6 @@
         },
         "promotion_card_9DbyhL": {
           "type": "promotion_card",
-          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_a7bc1cb9-91d1-4d7f-b9bb-25217ffe910c.png",
             "promotion_title": "15% de rabais!",
@@ -477,6 +476,7 @@
         },
         "promotion_card_BV4iK9": {
           "type": "promotion_card",
+          "disabled": true,
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_e7132d1a-c41a-45cb-b54e-659812f30c5a.png",
             "promotion_title": "Nouveauté Redken",
