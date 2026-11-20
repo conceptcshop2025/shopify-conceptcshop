@@ -66,7 +66,20 @@
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_6c72c7e5-2c61-40ad-bece-e1137472a0c9.png",
             "promotion_title": "25% de rabais",
             "promotion_description": "<p>Découvrez l’univers coloré d’Amika : des soins et des essentiels coiffants pour hydrater, apporter du volume ou maîtriser les frisottis, selon les besoins de vos cheveux.</p>",
-            "promotion_link": "",
+            "promotion_link": "shopify://collections/amika",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_jE3bMN": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_1_4bb36426-ccbf-40bf-84b1-c6b018eecba5.png",
+            "promotion_title": "30% de rabais",
+            "promotion_description": "<p>Découvrez les soins Olaplex pour renforcer les cheveux fragilisés, réduire la casse et retrouver douceur et brillance. Des essentiels pour prendre soin des cheveux abîmés.</p>",
+            "promotion_link": "shopify://collections/olaplex-1",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -209,6 +222,7 @@
         "promotion_card_WpkijQ",
         "promotion_card_WcjYTd",
         "promotion_card_ztqWp8",
+        "promotion_card_jE3bMN",
         "promotion_card_QADNbe",
         "promotion_card_ikwrPF",
         "promotion_card_rgnfab",
