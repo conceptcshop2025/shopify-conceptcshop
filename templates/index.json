@@ -408,6 +408,19 @@
     "custom_promotions_list_iYkpnQ": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_g8FNng": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_3796b84e-b229-4f2d-9189-9889f8fea49a.png",
+            "promotion_title": "Outils vedettes des Jours Noirs",
+            "promotion_description": "<p>Profite de nos meilleurs prix sur la Sélection Prestige des Jours Noirs. Cinq outils coiffants d’exception à prix réduit, dont le SteamPod et l’AirLight Pro.</p>",
+            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_QW79ab": {
           "type": "promotion_card",
           "settings": {
@@ -434,13 +447,26 @@
             "expiration_day": "01"
           }
         },
-        "promotion_card_g8FNng": {
+        "promotion_card_zV4Y6J": {
           "type": "promotion_card",
           "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_3796b84e-b229-4f2d-9189-9889f8fea49a.png",
-            "promotion_title": "Outils vedettes des Jours Noirs",
-            "promotion_description": "<p>Profite de nos meilleurs prix sur la Sélection Prestige des Jours Noirs. Cinq outils coiffants d’exception à prix réduit, dont le SteamPod et l’AirLight Pro.</p>",
-            "promotion_link": "shopify://collections/offre-loreal",
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_6c72c7e5-2c61-40ad-bece-e1137472a0c9.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Découvrez l’univers coloré d’Amika : des soins et des essentiels coiffants pour hydrater, apporter du volume ou maîtriser les frisottis, selon les besoins de vos cheveux.</p>",
+            "promotion_link": "shopify://collections/amika",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_rwPfUP": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_49d215f2-133d-4f81-9e69-6787da6f6823.png",
+            "promotion_title": "Extra 15% de rabais!",
+            "promotion_description": "<p>Découvrez nos sprays sans rinçage pour démêler, hydrater et adoucir vos cheveux en toute simplicité.</p>",
+            "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -455,19 +481,6 @@
             "promotion_title": "Promo Outils",
             "promotion_description": "<p>Jusqu’à 40 % de rabais sur plus de 200 outils coiffants des marques GHD, T3, Avanti, Aria, Babyliss, Hot Tools, CHI et Amika!</p>",
             "promotion_link": "shopify://collections/coffre-a-outils-1",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_rwPfUP": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_49d215f2-133d-4f81-9e69-6787da6f6823.png",
-            "promotion_title": "Extra 15% de rabais!",
-            "promotion_description": "<p>Découvrez nos sprays sans rinçage pour démêler, hydrater et adoucir vos cheveux en toute simplicité.</p>",
-            "promotion_link": "shopify://collections/promo-du-moment-9",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -490,11 +503,12 @@
         }
       },
       "block_order": [
+        "promotion_card_g8FNng",
         "promotion_card_QW79ab",
         "promotion_card_9DbyhL",
-        "promotion_card_g8FNng",
-        "promotion_card_FGiEbd",
+        "promotion_card_zV4Y6J",
         "promotion_card_rwPfUP",
+        "promotion_card_FGiEbd",
         "promotion_card_BV4iK9"
       ],
       "name": "# Promotions list",
