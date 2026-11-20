@@ -95,10 +95,10 @@
         "item_banner_zeQg3f": {
           "type": "item_banner",
           "settings": {
-            "image": "shopify://shop_images/Slider_Mobile_Jours_Noirs_2026_2.png",
+            "image": "shopify://shop_images/Slider_Mobile_Jours_Noirs_2026_1_569c6dab-c775-4df4-86a7-730471a9b3ae.png",
             "background_color": "#252728",
-            "title": "<strong>&nbsp;JOURS NOIRS&nbsp;</strong>",
-            "description": "<p>Du 12 au 30 novembre, profitez de 15 % de rabais EXTRA sur presque tout, même sur les articles déjà en solde et en liquidation! Le rabais s’applique automatiquement au panier. Tous les détails et exclusions sur la page de la vente!</p>",
+            "title": "<strong>JOURS NOIRS&nbsp;</strong>",
+            "description": "<p>Jusqu’au 30 novembre, profitez de rabais allant jusqu’à 50 % sur vos marques et produits favoris! &nbsp;Faites vite, les meilleures offres ne dureront pas éternellement!</p>",
             "text_color": "#f6f6f6",
             "link_url": "shopify://collections/soldes-vendredi-fou",
             "link_text": "magasiner"
