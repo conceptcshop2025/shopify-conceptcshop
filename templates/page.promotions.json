@@ -34,6 +34,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_WpkijQ": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_a7bc1cb9-91d1-4d7f-b9bb-25217ffe910c.png",
+            "promotion_title": "15% de rabais",
+            "promotion_description": "<p>Pour les Jours Noirs, retrouvez vos soins capillaires Kérastase préférés à 15 % de rabais et recevez un cadeau dès 175 $ d’achat!</p>",
+            "promotion_link": "shopify://collections/kerastase",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_WcjYTd": {
           "type": "promotion_card",
           "settings": {
@@ -41,6 +54,19 @@
             "promotion_title": "30% de rabais",
             "promotion_description": "<p>Découvrez les soins capillaires Moroccanoil, enrichis en huile d’argan, pour hydrater, nourrir et redonner douceur et brillance à vos cheveux.</p>",
             "promotion_link": "shopify://collections/moroccanoil",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
+        "promotion_card_ztqWp8": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_6c72c7e5-2c61-40ad-bece-e1137472a0c9.png",
+            "promotion_title": "25% de rabais",
+            "promotion_description": "<p>Découvrez l’univers coloré d’Amika : des soins et des essentiels coiffants pour hydrater, apporter du volume ou maîtriser les frisottis, selon les besoins de vos cheveux.</p>",
+            "promotion_link": "",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -80,19 +106,6 @@
             "promotion_title": "Extra 15% de rabais",
             "promotion_description": "<p>Découvrez nos sprays sans rinçage pour démêler, hydrater et adoucir vos cheveux en toute simplicité.</p>",
             "promotion_link": "shopify://collections/promo-du-moment-9",
-            "promotion_link_text": "Voir plus",
-            "card_with_expiration": false,
-            "expiration_month": "01",
-            "expiration_day": "01"
-          }
-        },
-        "promotion_card_WpkijQ": {
-          "type": "promotion_card",
-          "settings": {
-            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_a7bc1cb9-91d1-4d7f-b9bb-25217ffe910c.png",
-            "promotion_title": "15% de rabais",
-            "promotion_description": "<p>Pour les Jours Noirs, retrouvez vos soins capillaires Kérastase préférés à 15 % de rabais et recevez un cadeau dès 175 $ d’achat!</p>",
-            "promotion_link": "shopify://collections/kerastase",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
             "expiration_month": "01",
@@ -193,11 +206,12 @@
       },
       "block_order": [
         "promotion_card_NfQmXV",
+        "promotion_card_WpkijQ",
         "promotion_card_WcjYTd",
+        "promotion_card_ztqWp8",
         "promotion_card_QADNbe",
         "promotion_card_ikwrPF",
         "promotion_card_rgnfab",
-        "promotion_card_WpkijQ",
         "promotion_card_jYHafK",
         "promotion_card_NB9hyT",
         "promotion_card_jgy3wm",
