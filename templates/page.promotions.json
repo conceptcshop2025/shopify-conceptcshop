@@ -104,7 +104,7 @@
           "settings": {
             "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_7ceb75f4-d754-46fe-bb05-d3dfc42bb2d6.png",
             "promotion_title": "Jours Noirs",
-            "promotion_description": "<p>Jusqu’au 30 novembre, profitez de rabais allant jusqu’à 50 % sur vos marques et produits favoris! &nbsp;Faites vite, les meilleures offres ne dureront pas éternellement!</p>",
+            "promotion_description": "<p>Jusqu’au 30 novembre, profitez de <strong>rabais allant jusqu’à 50 %</strong>, plus un <strong>15 % supplémentaire au panier</strong> sur une multitude d’articles! C’est le moment!</p>",
             "promotion_link": "shopify://collections/soldes-vendredi-fou",
             "promotion_link_text": "Voir plus",
             "card_with_expiration": false,
