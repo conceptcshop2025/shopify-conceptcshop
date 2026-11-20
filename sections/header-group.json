@@ -47,7 +47,7 @@
         "message-1"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 5,
@@ -57,7 +57,6 @@
     },
     "c_countdown_dXGgpQ": {
       "type": "c-countdown",
-      "disabled": true,
       "name": "C Countdown",
       "settings": {
         "color_scheme": "scheme-3",
