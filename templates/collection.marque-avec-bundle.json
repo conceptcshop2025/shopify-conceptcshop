@@ -72,6 +72,7 @@
       "blocks": {
         "content_TDkn34": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "button_text": "Crée ta Routine Kérastase à 10% de Rabais",
             "button_link": "https://conceptcshop.com/apps/secomapp_freegifts_get_order/bundle/32457",
