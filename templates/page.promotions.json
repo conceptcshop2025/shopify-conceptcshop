@@ -21,6 +21,19 @@
     "custom_promotions_list_zWBgwM": {
       "type": "custom-promotions-list",
       "blocks": {
+        "promotion_card_ajHawE": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_9c8e93f9-c306-4d3d-96d5-5300cf04355e.png",
+            "promotion_title": "7 000$ en cadeaux!",
+            "promotion_description": "<p>Du 26 au 30 novembre, ta commande pourrait te réserver une belle surprise! <strong>160 cadeaux d’une valeur totale de plus de 7 000 $ seront glissés au hasard dans les colis!</strong>Et si le prochain cadeau était pour toi?</p>",
+            "promotion_link": "shopify://collections/soldes-vendredi-fou",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_NfQmXV": {
           "type": "promotion_card",
           "settings": {
@@ -231,6 +244,7 @@
         }
       },
       "block_order": [
+        "promotion_card_ajHawE",
         "promotion_card_NfQmXV",
         "promotion_card_WpkijQ",
         "promotion_card_WcjYTd",
