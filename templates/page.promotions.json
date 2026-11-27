@@ -99,6 +99,19 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_FtGqzR": {
+          "type": "promotion_card",
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_49ec08d6-4cdc-40cd-90ba-9aedaaa6390b.png",
+            "promotion_title": "20% de rabais",
+            "promotion_description": "<p>Découvrez les soins Esthederm pour hydrater votre peau, raviver son éclat et répondre à ses besoins au quotidien.</p>",
+            "promotion_link": "shopify://collections/esthederm",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_QADNbe": {
           "type": "promotion_card",
           "settings": {
@@ -250,6 +263,7 @@
         "promotion_card_WcjYTd",
         "promotion_card_ztqWp8",
         "promotion_card_jE3bMN",
+        "promotion_card_FtGqzR",
         "promotion_card_QADNbe",
         "promotion_card_bQ3BFW",
         "promotion_card_ikwrPF",
