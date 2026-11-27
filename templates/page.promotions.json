@@ -177,6 +177,20 @@
             "expiration_day": "01"
           }
         },
+        "promotion_card_rc8g7e": {
+          "type": "promotion_card",
+          "disabled": true,
+          "settings": {
+            "promotion_image": "shopify://shop_images/Onglet_Promotions_Jours_Noirs_2026_b4c47088-a9ae-4ad3-a4f0-5a22813334f2.png",
+            "promotion_title": "Cyber Monday",
+            "promotion_description": "<p>5 produits à moitié prix, pour un temps limité! <strong>Jusqu’au 2 décembre, profitez de 50 % de rabais</strong> sur notre sélection beauté. À ce prix-là, mieux vaut ne pas attendre!</p>",
+            "promotion_link": "shopify://collections/l-offre-du-moment",
+            "promotion_link_text": "Voir plus",
+            "card_with_expiration": false,
+            "expiration_month": "01",
+            "expiration_day": "01"
+          }
+        },
         "promotion_card_NB9hyT": {
           "type": "promotion_card",
           "settings": {
@@ -269,6 +283,7 @@
         "promotion_card_ikwrPF",
         "promotion_card_rgnfab",
         "promotion_card_jYHafK",
+        "promotion_card_rc8g7e",
         "promotion_card_NB9hyT",
         "promotion_card_jgy3wm",
         "promotion_card_k8ftTc",
