@@ -137,7 +137,7 @@
             "title": "<strong>CYBER MONDAY</strong>",
             "description": "<p>5 produits à moitié prix, pour un temps limité! <strong>Jusqu’au 2 décembre, profitez de 50 % de rabais</strong> sur notre sélection beauté. À ce prix-là, mieux vaut ne pas attendre!</p>",
             "text_color": "#F6F6F6",
-            "link_url": "",
+            "link_url": "shopify://collections/l-offre-du-moment",
             "link_text": ""
           }
         },
