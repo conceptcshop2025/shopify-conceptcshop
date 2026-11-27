@@ -128,27 +128,14 @@
             "link_text": "magasiner"
           }
         },
-        "item_banner_pqk3pc": {
-          "type": "item_banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Ilettre_Cyber_Monday_2026_1.png",
-            "background_color": "#252728",
-            "title": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_color": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
         "item_banner_Kijkb4": {
           "type": "item_banner",
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ilettre_Cyber_Monday_2026_1.png",
-            "background_color": "",
+            "background_color": "#252728",
             "title": "<strong>CYBER MONDAY</strong>",
-            "description": "<p>plus vendeur5 produits à moitié prix, pour un temps limité! <strong>Jusqu’au 2 décembre, profitez de 50 % de rabais</strong> sur notre sélection beauté. À ce prix-là, mieux vaut ne pas attendre!</p>",
+            "description": "<p>5 produits à moitié prix, pour un temps limité! <strong>Jusqu’au 2 décembre, profitez de 50 % de rabais</strong> sur notre sélection beauté. À ce prix-là, mieux vaut ne pas attendre!</p>",
             "text_color": "#F6F6F6",
             "link_url": "",
             "link_text": ""
@@ -185,7 +172,6 @@
         "item_banner_zeQg3f",
         "item_banner_mWGprk",
         "item_banner_RMgyNB",
-        "item_banner_pqk3pc",
         "item_banner_Kijkb4",
         "item_banner_ErkAzK",
         "item_banner_6fkeqz"
